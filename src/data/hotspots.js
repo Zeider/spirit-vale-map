@@ -1,52 +1,42 @@
-// Sub-zone id -> { x, y, w, h } as percentages of the map image.
-// Measured against a 5% grid over the painted tiles. The market map uses some
-// newer level numbers / extra tiles than our v0.13.1 data, so a few center
-// zones map to the nearest tile. Refine exactly with the in-app calibrator
-// (open the app with ?calibrate). Stored as data so a tile can later become SVG.
+// Sub-zone id -> { x, y, w, h } as percentages of the TRIMMED map image.
+// Derived from spiritvalemarket.com's exact tile grid (uniform 4.77x8.96% over the
+// full 1719x915 world map), transformed into our trimmed crop (257,9 .. 1178x846).
+// Pixel-accurate. To re-derive, re-extract market tile coords and re-run the transform.
 export const hotspots = {
-  // left island cluster
-  'island-dungeon': { x: 6, y: 31, w: 9, h: 10 },    // Turtle Nexus 131-135
-  'island': { x: 6, y: 44, w: 9, h: 9 },             // Stormreef Isle 61-65
-  'water-dungeon': { x: 6, y: 54, w: 9, h: 9 },       // Sunken Depths 121-125
-  // center-left
-  'mystic-lake': { x: 18, y: 33, w: 8, h: 9 },        // Mystic Lake 31-35
-  'port-town': { x: 20, y: 44, w: 8, h: 7 },          // Wayfarer's Landing (hub)
-  // forest labyrinth column (top center)
-  'labyrinth-1': { x: 42, y: 3, w: 8, h: 9 },         // Forest Labyrinth 6-10
-  'labyrinth-2': { x: 42, y: 14, w: 8, h: 9 },        // Forest Labyrinth 11-15
-  'labyrinth-3': { x: 42, y: 25, w: 8, h: 9 },        // Forest Labyrinth 16-20
-  'labyrinth-4': { x: 42, y: 35, w: 8, h: 8 },        // Forest Labyrinth 21-25
-  'enchanted-forest': { x: 49, y: 26, w: 8, h: 9 },   // Fairy Glen 31-35
-  // center cluster (version-mismatched tiles — approximate)
-  'forest-field-1': { x: 42, y: 44, w: 8, h: 8 },     // Sunny Meadows 1-5
-  'forest-field-2': { x: 50, y: 52, w: 8, h: 8 },     // Treant Trail 5-9
-  'nevaris': { x: 36, y: 52, w: 7, h: 7 },            // Nevaris (hub)
-  // desert column (center-right)
-  'desert-field-1': { x: 60, y: 34, w: 7, h: 9 },     // Windy Desert N 21-25
-  'desert-field-2': { x: 60, y: 44, w: 7, h: 9 },     // Windy Desert 26-30
-  'desert-field-3': { x: 60, y: 54, w: 7, h: 9 },     // Windy Desert S 26-30
-  // top-right snow / goblins
-  'ice-field': { x: 62, y: 2, w: 9, h: 10 },          // Starfall Tundra 131-135
-  'ice-cave': { x: 68, y: 13, w: 8, h: 10 },          // Crystal Cave 66-70
-  'goblin-cave': { x: 68, y: 34, w: 8, h: 9 },        // Goblin Cave 51-55
-  'goblin-village': { x: 76, y: 22, w: 8, h: 9 },     // Goblin Village 56-60
-  'goblin-warcamp': { x: 85, y: 22, w: 8, h: 9 },     // Goblin Warcamp 116-120
-  // right / sanctum
-  'sanctum-inner': { x: 68, y: 44, w: 8, h: 8 },      // Sanctum of Light 76-80
-  'sanctum-throne': { x: 76, y: 44, w: 8, h: 8 },     // Sanctum of Light 81-85
-  'poison-cave': { x: 68, y: 54, w: 8, h: 9 },        // Underground Cavern 86-90
-  'demon-s-maw': { x: 78, y: 63, w: 9, h: 9 },        // Demon's Maw 96-100
-  'forge': { x: 82, y: 73, w: 9, h: 9 },              // The Forge 126-130
-  // center / bottom-center
-  'swamp': { x: 64, y: 64, w: 7, h: 8 },              // Swamp 36-40
-  'cemetery': { x: 50, y: 64, w: 7, h: 8 },           // Festering Woods 21-25
-  'dungeon-outside': { x: 42, y: 64, w: 8, h: 8 },    // Forgotten Depths 41-45
-  'dungeon-boss': { x: 42, y: 74, w: 8, h: 7 },       // Forgotten Depths 46-50
-  'dark-forest': { x: 50, y: 73, w: 7, h: 8 },        // Dark Forest 91-95
-  'swamp-wilderness': { x: 64, y: 73, w: 7, h: 8 },   // Swamp Wilderness 71-75
-  'night-garden': { x: 56, y: 82, w: 7, h: 8 },       // Night Garden 126-130
-  // bottom-left abyss castle cluster
-  'castle-library': { x: 26, y: 78, w: 8, h: 9 },     // Abyss Castle Library 111-115
-  'castle-keep': { x: 34, y: 78, w: 8, h: 9 },        // Abyss Castle Keep 101-105
-  'castle-crypt': { x: 42, y: 78, w: 8, h: 9 },       // Abyss Castle Crypt 106-110
+  'island-dungeon': { x: 14.18, y: 30.38, w: 6.96, h: 9.69 }, // Turtle Nexus 131-135
+  'island': { x: 14.18, y: 40.31, w: 6.96, h: 9.69 }, // Stormreef Isle 61-65
+  'water-dungeon': { x: 14.18, y: 50.35, w: 6.96, h: 9.69 }, // Sunken Depths 121-125
+  'mystic-lake': { x: 34.64, y: 30.26, w: 6.96, h: 9.69 }, // Mystic Lake 31-35
+  'port-town': { x: 27.59, y: 40.19, w: 6.96, h: 9.69 }, // Wayfarer's Landing (hub)
+  'labyrinth-1': { x: 41.76, y: 30.26, w: 6.96, h: 9.69 }, // Forest Labyrinth 6-10
+  'labyrinth-2': { x: 41.76, y: 20.33, w: 6.96, h: 9.69 }, // Forest Labyrinth 11-15
+  'labyrinth-3': { x: 41.85, y: 10.16, w: 6.96, h: 9.69 }, // Forest Labyrinth 16-20
+  'labyrinth-4': { x: 41.85, y: 0.23, w: 6.96, h: 9.69 }, // Forest Labyrinth 21-25
+  'enchanted-forest': { x: 48.99, y: 20.33, w: 6.96, h: 9.69 }, // Fairy Glen 31-35
+  'forest-field-1': { x: 48.99, y: 40.31, w: 6.96, h: 9.69 }, // Sunny Meadows 1-5
+  'forest-field-2': { x: 48.99, y: 30.26, w: 6.96, h: 9.69 }, // Treant Trail 5-9
+  'nevaris': { x: 48.99, y: 50.23, w: 6.96, h: 9.69 }, // Nevaris (hub)
+  'desert-field-1': { x: 63.24, y: 30.26, w: 6.96, h: 9.69 }, // Windy Desert N 21-25
+  'desert-field-2': { x: 63.24, y: 40.19, w: 6.96, h: 9.69 }, // Windy Desert 26-30
+  'desert-field-3': { x: 63.33, y: 50.23, w: 6.96, h: 9.69 }, // Windy Desert S 26-30
+  'ice-field': { x: 70.54, y: 0.35, w: 6.96, h: 9.69 }, // Starfall Tundra 131-135
+  'ice-cave': { x: 70.54, y: 10.28, w: 6.96, h: 9.69 }, // Crystal Cave 66-70
+  'goblin-cave': { x: 70.54, y: 30.14, w: 6.96, h: 9.69 }, // Goblin Cave 51-55
+  'goblin-village': { x: 77.76, y: 20.21, w: 6.96, h: 9.69 }, // Goblin Village 56-60
+  'goblin-warcamp': { x: 84.97, y: 20.21, w: 6.96, h: 9.69 }, // Goblin Warcamp 116-120
+  'sanctum-inner': { x: 70.54, y: 40.19, w: 6.96, h: 9.69 }, // Sanctum of Light 76-80
+  'sanctum-throne': { x: 77.76, y: 40.19, w: 6.96, h: 9.69 }, // Sanctum of Light 81-85
+  'poison-cave': { x: 70.54, y: 50.23, w: 6.96, h: 9.69 }, // Underground Cavern 86-90
+  'demon-s-maw': { x: 77.76, y: 60.4, w: 6.96, h: 9.69 }, // Demon's Maw 96-100
+  'forge': { x: 84.88, y: 70.21, w: 6.96, h: 9.69 }, // The Forge 126-130
+  'swamp': { x: 63.33, y: 60.28, w: 6.96, h: 9.69 }, // Swamp 36-40
+  'cemetery': { x: 48.99, y: 60.28, w: 6.96, h: 9.69 }, // Festering Woods 21-25
+  'dungeon-outside': { x: 41.85, y: 60.28, w: 6.96, h: 9.69 }, // Forgotten Depths 41-45
+  'dungeon-boss': { x: 41.76, y: 70.33, w: 6.96, h: 9.69 }, // Forgotten Depths 46-50
+  'dark-forest': { x: 48.99, y: 70.33, w: 6.96, h: 9.69 }, // Dark Forest 91-95
+  'swamp-wilderness': { x: 63.24, y: 70.33, w: 6.96, h: 9.69 }, // Swamp Wilderness 71-75
+  'night-garden': { x: 56.11, y: 80.26, w: 6.96, h: 9.69 }, // Night Garden 126-130
+  'castle-library': { x: 27.33, y: 80.26, w: 6.96, h: 9.69 }, // Abyss Castle Library 111-115
+  'castle-keep': { x: 34.55, y: 80.26, w: 6.96, h: 9.69 }, // Abyss Castle Keep 101-105
+  'castle-crypt': { x: 41.85, y: 90.19, w: 6.96, h: 9.69 }, // Abyss Castle Crypt 106-110
 };
