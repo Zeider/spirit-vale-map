@@ -1,0 +1,69 @@
+:root {
+  color-scheme: dark;
+  --bg: #0d1018; --panel: #11182a; --line: #243049; --text: #e6edf3; --muted: #8ea0bf;
+  --on: #7CFC9B; --over: #6b7a99; --under: #ff7c7c; --route: #FFD25A; --hub: #7CB2FC;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+.app { max-width: 1280px; margin: 0 auto; padding: 12px; }
+
+.top-bar { display: flex; align-items: center; gap: 12px; padding: 8px 4px; }
+.top-bar .brand { font-weight: 700; }
+.top-bar .spacer { flex: 1; }
+.top-bar .field { display: flex; flex-direction: column; font-size: 11px; color: var(--muted); }
+.top-bar input, .top-bar select { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; }
+.top-bar button { background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.game-version { font-size: 11px; color: var(--muted); }
+
+.main { display: flex; gap: 12px; align-items: flex-start; }
+.map-view { position: relative; flex: 1.9; line-height: 0; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.map-img { width: 100%; display: block; }
+.map-overlay { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.hotspot { position: absolute; border: 2px solid transparent; border-radius: 4px; background: transparent; cursor: pointer; padding: 0; transition: background .12s, border-color .12s; }
+.hotspot:hover { border-color: #fff; background: rgba(255,255,255,.12); }
+.hotspot.lvl-on { border-color: var(--on); background: rgba(124,252,155,.18); }
+.hotspot.lvl-over { border-color: var(--over); background: rgba(107,122,153,.12); }
+.hotspot.lvl-under { border-color: var(--under); background: rgba(255,124,124,.14); }
+.hotspot.lvl-hub { border-color: var(--hub); background: rgba(124,178,252,.12); }
+.hotspot.in-route { box-shadow: 0 0 0 2px var(--route) inset; }
+.hotspot.selected { border-color: #fff; box-shadow: 0 0 12px rgba(255,255,255,.5); }
+/* Tiles that exist in the live game but aren't in our data snapshot yet */
+.hotspot.pending { border-style: dashed; border-color: var(--muted); opacity: .8; }
+.badge.pending { color: var(--muted); border: 1px dashed var(--muted); background: transparent; }
+
+.route-rail { flex: 1; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+.route-rail h2 { font-size: 13px; margin: 0 0 8px; }
+.route-rail ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+.route-item { display: flex; align-items: center; gap: 6px; background: #1a2236; border-left: 3px solid var(--on); padding: 5px 7px; border-radius: 5px; font-size: 12px; }
+.route-item.lvl-over { border-left-color: var(--over); }
+.route-item.lvl-under { border-left-color: var(--under); }
+.route-pos { color: var(--muted); }
+.route-item .link { background: none; border: 0; color: var(--text); cursor: pointer; text-align: left; flex: 1; }
+.route-actions button { background: #23304a; color: var(--text); border: 0; border-radius: 4px; cursor: pointer; padding: 1px 5px; }
+.route-actions button:disabled { opacity: .35; cursor: default; }
+.route-summary { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 6px; font-size: 11px; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
+.route-summary .gaps { color: var(--route); }
+
+.zone-drawer { margin-top: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+.zone-drawer.empty { color: var(--muted); }
+.zone-drawer-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.zone-drawer-head h2 { font-size: 15px; margin: 0; }
+.zone-drawer-head button { margin-left: auto; background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+.badge { font-size: 11px; background: #23304a; padding: 2px 7px; border-radius: 5px; }
+.badge.boss { color: #f99; background: transparent; }
+.badge.hub { color: var(--hub); }
+.badge.small { font-size: 9px; }
+.zone-drawer-body { display: flex; gap: 16px; margin-top: 8px; font-size: 12px; }
+.zone-drawer-body .monsters { flex: 1; }
+.zone-drawer-body .drops { flex: 1.4; }
+.drops ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 5px; }
+.drop { display: inline-flex; align-items: center; gap: 6px; background: #1a2236; border-radius: 12px; padding: 2px 9px; }
+.drop-type { color: var(--muted); font-size: 10px; }
+.drop-chance { font-weight: 700; }
+.muted { color: var(--muted); }
+.app-footer { margin-top: 16px; font-size: 11px; color: var(--muted); text-align: center; }
+
+@media (max-width: 800px) {
+  .main { flex-direction: column; }
+  .map-view, .route-rail { width: 100%; flex: none; }
+}
