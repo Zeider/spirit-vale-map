@@ -7,7 +7,7 @@ function nextDefaultLevel(stages) {
 
 export default function GearStageRail() {
   const { state, dispatch } = useStore();
-  const stages = state.build.gearStages;
+  const stages = state.build.gearStages ?? [];
 
   const labelFor = (i) => {
     const from = stages[i].fromLevel;
