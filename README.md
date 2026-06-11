@@ -17,6 +17,8 @@ When `RandomGuy5555/SpiritValeInfo` publishes a newer snapshot:
 1. Replace the files in `data/raw/` with the new `example-data/game/*.json`.
 2. Run `npm run data` and commit the regenerated `src/data/zones.json`.
 
+Build-planner data (classes/skills) comes from a vendored snapshot of spiritvalemarket's `/api/build-simulator` in `data/raw-builds/`. To refresh: re-download it, then `npm run data` (regenerates `src/data/classes.json`).
+
 The current `gameVersion` is shown in the app header.
 
 ## Deploy
