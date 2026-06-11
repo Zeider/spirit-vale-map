@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "data": "node scripts/build-data.mjs && node scripts/build-classes.mjs",
-    "prebuild": "node scripts/build-data.mjs && node scripts/build-classes.mjs",
+    "data": "node scripts/build-data.mjs && node scripts/build-classes.mjs && node scripts/build-gear.mjs",
+    "prebuild": "node scripts/build-data.mjs && node scripts/build-classes.mjs && node scripts/build-gear.mjs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
