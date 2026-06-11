@@ -1,0 +1,2536 @@
+[
+    {
+        "GameId": "Atk",
+        "Slug": "warglyph",
+        "DisplayName": "Warglyph",
+        "Description": "Scribed in blood and fury, the glyphs burn with raw, brutal strength.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Atk_10",
+                "Type": 9,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_5",
+                "Type": 71,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-15",
+                "Type": 72,
+                "Value": {
+                    "Value": -15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Atk_5",
+                "Type": 9,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_5",
+                "Type": 71,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-15",
+                "Type": 72,
+                "Value": {
+                    "Value": -15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "AtkMult_0.25",
+                "Type": 69,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Goblin Warcamp"
+        ]
+    },
+    {
+        "GameId": "Auto",
+        "Slug": "blitzcore",
+        "DisplayName": "Blitzcore",
+        "Description": "Relentless and unyielding, a surge of strikes fueled by pure unstoppable force.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Chain_2",
+                "Type": 130,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AtkSpd_7",
+                "Type": 63,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "AtkSpd_2",
+                "Type": 63,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "AtkSpd_0.25",
+                "Type": 63,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Dungeon Outside",
+            "Dungeon Boss"
+        ]
+    },
+    {
+        "GameId": "Bastion",
+        "Slug": "bastion",
+        "DisplayName": "Bastion",
+        "Description": "An unshakable core, unbroken by storms, spells, or the wrath of its own reflection.",
+        "FullSet": [
+            {
+                "Name": "AllStats_5",
+                "Type": 6,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_10",
+                "Type": 71,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [],
+        "PerRefine": [],
+        "Maps": [
+            "Water Dungeon"
+        ]
+    },
+    {
+        "GameId": "Cast",
+        "Slug": "spellweaver",
+        "DisplayName": "Spellweaver",
+        "Description": "To weave the threads of magic is to reshape the world with mere thought and will.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "CastSpd_10",
+                "Type": 64,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "CastSpd_5",
+                "Type": 64,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "CastSpd_0.5",
+                "Type": 64,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Enchanted Forest"
+        ]
+    },
+    {
+        "GameId": "Corporeal",
+        "Slug": "corporeal",
+        "DisplayName": "Corporeal",
+        "Description": "Where decay meets divinity, where corruption meets grace, the balance tilts only by your will.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Forge"
+        ]
+    },
+    {
+        "GameId": "Cost",
+        "Slug": "arcanum-verge",
+        "DisplayName": "Arcanum Verge",
+        "Description": "To master efficiency is to cast without pause, an unbroken stream of control.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpCost_-10",
+                "Type": 90,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "MpCost_-5",
+                "Type": 90,
+                "Value": {
+                    "Value": -5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "MpCost_-0.5",
+                "Type": 90,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": -0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Sanctum Throne"
+        ]
+    },
+    {
+        "GameId": "Crit",
+        "Slug": "furybrand",
+        "DisplayName": "Furybrand",
+        "Description": "Blades ablaze with wrath, leaving only scorched echoes where enemies once stood.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "CritDamage_5",
+                "Type": 52,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Crit_8",
+                "Type": 15,
+                "Value": {
+                    "Value": 8,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Crit_3",
+                "Type": 15,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "CritDamage_0.25",
+                "Type": 52,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Demon's Maw"
+        ]
+    },
+    {
+        "GameId": "Def",
+        "Slug": "titanplate",
+        "DisplayName": "Titanplate",
+        "Description": "Forged for the immovable, the eternal, a fortress clad in living steel.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DefMult_5",
+                "Type": 73,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Def_30",
+                "Type": 11,
+                "Value": {
+                    "Value": 30,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "ReflectDamage_10",
+                "Type": 86,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Def_5",
+                "Type": 11,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "Def_1",
+                "Type": 11,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "ReflectDamage_1",
+                "Type": 86,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Desert Field 3"
+        ]
+    },
+    {
+        "GameId": "Eternis",
+        "Slug": "eternis",
+        "DisplayName": "Eternis",
+        "Description": "The infinite weave, threads of every element, every force, bound into a single form.",
+        "FullSet": [
+            {
+                "Name": "AllStats_5",
+                "Type": 6,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "GrantSkill_5",
+                "Type": 42,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": "Heal"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "GrantSkill_5",
+                "Type": 42,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": "Haste"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_10",
+                "Type": 71,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AtkMult_5",
+                "Type": 69,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MatkMult_5",
+                "Type": 70,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [],
+        "PerRefine": [],
+        "Maps": [
+            "Night Garden"
+        ]
+    },
+    {
+        "GameId": "Flee",
+        "Slug": "shadebound",
+        "DisplayName": "Shadebound",
+        "Description": "Like a shadow slipping through moonlight, the Shadebound elude all grasp. They are whispers in motion, untouched and uncatchable.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Flee_10",
+                "Type": 14,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "PerfectDodge_10",
+                "Type": 121,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Flee_10",
+                "Type": 14,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "Flee_1",
+                "Type": 14,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Swamp"
+        ]
+    },
+    {
+        "GameId": "Healing",
+        "Slug": "lifebloom",
+        "DisplayName": "Lifebloom",
+        "Description": "Wherever this relic touches, life surges forth in bloom and brilliance.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Healing_10",
+                "Type": 67,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Healing_5",
+                "Type": 67,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "Healing_0.25",
+                "Type": 67,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Sanctum Inner"
+        ]
+    },
+    {
+        "GameId": "Hexbrand",
+        "Slug": "hexbrand",
+        "DisplayName": "Hexbrand",
+        "Description": "Every strike carries a curse, every wound festers into affliction.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageStatus_10",
+                "Type": 142,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "DamageStatus_5",
+                "Type": 142,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "DamageStatus_0.25",
+                "Type": 142,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Dark Forest",
+            "Swamp Wilderness"
+        ]
+    },
+    {
+        "GameId": "Hit",
+        "Slug": "hawkeye",
+        "DisplayName": "Hawkeye",
+        "Description": "Vision unerring. Aim unfailing. From great distance or close, each strike finds its mark.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Hit_10",
+                "Type": 13,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HitMult_10",
+                "Type": 78,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Hit_10",
+                "Type": 13,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "Hit_1",
+                "Type": 13,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Island"
+        ]
+    },
+    {
+        "GameId": "Hp",
+        "Slug": "vitalis",
+        "DisplayName": "Vitalis",
+        "Description": "The breath of life sustained, the Vitalis set pulses with vigor, enduring what others cannot.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_10",
+                "Type": 71,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "HpMult_5",
+                "Type": 71,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "HpMult_0.5",
+                "Type": 71,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Goblin Village"
+        ]
+    },
+    {
+        "GameId": "Immune",
+        "Slug": "nullmark",
+        "DisplayName": "Nullmark",
+        "Description": "Bearers of the Nullmark stride untouched through poison, shadow, and silence.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Slow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [],
+        "PerRefine": [
+            {
+                "Name": "StatusImmune_5",
+                "Type": 26,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 5,
+                    "ValueStr": "Stun"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Poison Cave"
+        ]
+    },
+    {
+        "GameId": "Leech",
+        "Slug": "bloodbind",
+        "DisplayName": "Bloodbind",
+        "Description": "Flesh, soul, and spell alike bend to the will of the drain. Power flows only to the ruthless.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "LeechKill_25",
+                "Type": 22,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "LeechKillMp_5",
+                "Type": 23,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "LeechKill_25",
+                "Type": 22,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "LeechKillMp_5",
+                "Type": 23,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "LeechKill_5",
+                "Type": 22,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "LeechKillMp_1",
+                "Type": 23,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Cemetery"
+        ]
+    },
+    {
+        "GameId": "Magic",
+        "Slug": "arcanum",
+        "DisplayName": "Arcanum",
+        "Description": "Guardians of ancient secrets, their power flows from the hidden wells of the unseen.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageMagic_7",
+                "Type": 48,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "DamageMagic_2",
+                "Type": 48,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "DamageMagic_0.125",
+                "Type": 48,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.125,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Desert Field 1"
+        ]
+    },
+    {
+        "GameId": "Matk",
+        "Slug": "starfire",
+        "DisplayName": "Starfire",
+        "Description": "The cosmos speaks in tongues of fire, and those who listen wield its wrath.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Matk_10",
+                "Type": 10,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_5",
+                "Type": 72,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_-10",
+                "Type": 71,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "SkillLevel_2",
+                "Type": 43,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "EnergyShield"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Matk_5",
+                "Type": 10,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_5",
+                "Type": 72,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_-10",
+                "Type": 71,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "MatkMult_0.25",
+                "Type": 70,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Castle Library",
+            "Castle Keep",
+            "Castle Crypt"
+        ]
+    },
+    {
+        "GameId": "Mdef",
+        "Slug": "veilward",
+        "DisplayName": "Veilward",
+        "Description": "Forged from spells repelled, the Veilward forms an invisible shield against sorcery.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MdefMult_5",
+                "Type": 74,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Mdef_30",
+                "Type": 12,
+                "Value": {
+                    "Value": 30,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "ReflectSpell_5",
+                "Type": 94,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Mdef_5",
+                "Type": 12,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "Mdef_1",
+                "Type": 12,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "ReflectSpell_0.5",
+                "Type": 94,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Ice Cave"
+        ]
+    },
+    {
+        "GameId": "Melee",
+        "Slug": "steelheart",
+        "DisplayName": "Steelheart",
+        "Description": "A spirit unbroken, a will hardened by battle, the heart of steel knows no surrender.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageMelee_7",
+                "Type": 47,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "DamageMelee_2",
+                "Type": 47,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "DamageMelee_0.125",
+                "Type": 47,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.125,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Forest Field 2"
+        ]
+    },
+    {
+        "GameId": "Movespeed",
+        "Slug": "windborne",
+        "DisplayName": "Windborne",
+        "Description": "Fleet of foot and swift of soul, the Windborne leave no trail but wind.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MoveSpd_10",
+                "Type": 65,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "MoveSpd_5",
+                "Type": 65,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "MoveSpd_0.25",
+                "Type": 65,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Labyrinth 1",
+            "Labyrinth 2",
+            "Labyrinth 3",
+            "Labyrinth 4"
+        ]
+    },
+    {
+        "GameId": "Mp",
+        "Slug": "aethercore",
+        "DisplayName": "Aethercore",
+        "Description": "A conduit for the unseen current, brimming with boundless arcane potential.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "MpMult_5",
+                "Type": 72,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "MpMult_0.5",
+                "Type": 72,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Mystic Lake"
+        ]
+    },
+    {
+        "GameId": "Novice",
+        "Slug": "pioneer",
+        "DisplayName": "Pioneer",
+        "Description": "For those who carve the first path through the unknown, forging destiny with every step.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpRegen_5",
+                "Type": 59,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpRegen_2",
+                "Type": 61,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Atk_3",
+                "Type": 9,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Matk_3",
+                "Type": 10,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Hp_20",
+                "Type": 7,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Mp_10",
+                "Type": 8,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [],
+        "Maps": [
+            "Forest Field 1"
+        ]
+    },
+    {
+        "GameId": "Oathbound",
+        "Slug": "oathbound",
+        "DisplayName": "Oathbound",
+        "Description": "Bound by vow and unyielding will, extending every blessing and bond beyond its mortal span.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "StatusDuration_10",
+                "Type": 119,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "StatusDuration_5",
+                "Type": 119,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "StatusDuration_0.5",
+                "Type": 119,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Ice Field"
+        ]
+    },
+    {
+        "GameId": "Primordial",
+        "Slug": "primordial",
+        "DisplayName": "Primordial",
+        "Description": "To master the primal elements is to unmake the world as easily as it was forged.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_3",
+                "Type": 46,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_0.25",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Island Dungeon"
+        ]
+    },
+    {
+        "GameId": "Ranged",
+        "Slug": "stormquiver",
+        "DisplayName": "Stormquiver",
+        "Description": "Swift as the stormwinds, each shot strikes with unerring force from beyond sight.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageRanged_7",
+                "Type": 102,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "DamageRanged_2",
+                "Type": 102,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "DamageRanged_0.125",
+                "Type": 102,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.125,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Desert Field 2"
+        ]
+    },
+    {
+        "GameId": "Vampiric",
+        "Slug": "vampiric",
+        "DisplayName": "Vampiric",
+        "Description": "Each strike pulls forth life itself, fueling the endless assault.",
+        "FullSet": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Leech_5",
+                "Type": 98,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerPiece": [
+            {
+                "Name": "Leech_2.5",
+                "Type": 98,
+                "Value": {
+                    "Value": 2.5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "PerRefine": [
+            {
+                "Name": "Leech_0.25",
+                "Type": 98,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.25,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Maps": [
+            "Goblin Cave"
+        ]
+    }
+]

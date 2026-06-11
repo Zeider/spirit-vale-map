@@ -1,0 +1,314 @@
+{
+    "Artifact Box Base": {
+        "Slug": "box-of-origins",
+        "GameId": "Artifact Box Base",
+        "DisplayName": "Box of Origins",
+        "Description": "Contains a random artifact.",
+        "Reusable": 0,
+        "Type": 2,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Lure Alien Big Blink": {
+        "Slug": "time-device",
+        "GameId": "Lure Alien Big Blink",
+        "DisplayName": "Time Device",
+        "Description": "An impossible mechanism that ticks against reality itself. The Entity stirs when it resonates.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Alien Big Blink"
+        }
+    },
+    "Lure Angel Mage": {
+        "Slug": "heaven-s-tear-earring",
+        "GameId": "Lure Angel Mage",
+        "DisplayName": "Heaven's Tear Earring",
+        "Description": "A luminous pearl once worn by a saint. Its holiness echoes across realms.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Angel Mage"
+        }
+    },
+    "Lure Bat Lord": {
+        "Slug": "overripe-grape-cluster",
+        "GameId": "Lure Bat Lord",
+        "DisplayName": "Overripe Grape Cluster",
+        "Description": "Sweet and pungent, these grapes rot in place. Something winged waits for nightfall.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Bat Lord"
+        }
+    },
+    "Lure Cactus Boss": {
+        "Slug": "oozing-pulp-chunk",
+        "GameId": "Lure Cactus Boss",
+        "DisplayName": "Oozing Pulp Chunk",
+        "Description": "A piece of desert cactus, leaking sticky fluid. It stirs something thorny.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Cactus Boss"
+        }
+    },
+    "Lure Cat Bolt": {
+        "Slug": "curved-fishbone",
+        "GameId": "Lure Cat Bolt",
+        "DisplayName": "Curved Fishbone",
+        "Description": "A gleaming, curved spine picked clean. Cats can't resist the scent.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Cat Bolt"
+        }
+    },
+    "Lure Death Mage": {
+        "Slug": "black-mirror-shard",
+        "GameId": "Lure Death Mage",
+        "DisplayName": "Black Mirror Shard",
+        "Description": "A jagged shard that reflects nothing. Death gazes through it, unseen.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Death Mage"
+        }
+    },
+    "Lure Goblin Giant Gold": {
+        "Slug": "glinting-goblin-fang",
+        "GameId": "Lure Goblin Giant Gold",
+        "DisplayName": "Glinting Goblin Fang",
+        "Description": "A chipped golden tooth, stolen and re-stolen. It pulses with greedy memories.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Goblin Giant Gold"
+        }
+    },
+    "Lure Goblin Warchief": {
+        "Slug": "tribal-heirloom",
+        "GameId": "Lure Goblin Warchief",
+        "DisplayName": "Tribal Heirloom",
+        "Description": "A decorated weapon sheath inlaid with rare metals and gems. To goblins, it is more than a relic, it is a symbol of leadership. The Warchief will stop at nothing to claim it.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Goblin Warchief"
+        }
+    },
+    "Lure Hare": {
+        "Slug": "gnawed-acorn",
+        "GameId": "Lure Hare",
+        "DisplayName": "Gnawed Acorn",
+        "Description": "A cracked forest nut, its surface etched with tiny bite marks. Something small remembers.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Hare"
+        }
+    },
+    "Lure Hermit King": {
+        "Slug": "calcified-shell-core",
+        "GameId": "Lure Hermit King",
+        "DisplayName": "Calcified Shell Core",
+        "Description": "A weathered lump of reefstone. Hermits gather where the tides once whispered.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Hermit King"
+        }
+    },
+    "Lure Ice Mage": {
+        "Slug": "frozen-heart-crystal",
+        "GameId": "Lure Ice Mage",
+        "DisplayName": "Frozen Heart Crystal",
+        "Description": "A flawless gem, cold as death. Those bound by frost feel its call.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Ice Mage"
+        }
+    },
+    "Lure Imp Devil": {
+        "Slug": "blank-pact-scroll",
+        "GameId": "Lure Imp Devil",
+        "DisplayName": "Blank Pact Scroll",
+        "Description": "A clean parchment soaked in ash. Devils ink their names when the time is right.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Imp Devil"
+        }
+    },
+    "Lure Mega Ice Golem": {
+        "Slug": "frozen-core-shard",
+        "GameId": "Lure Mega Ice Golem",
+        "DisplayName": "Frozen Core Shard",
+        "Description": "A fragment taken from the core of a fallen construct. Its pulse resonates with larger beings of ice and stone.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Mega Ice Golem"
+        }
+    },
+    "Lure Queen Worm": {
+        "Slug": "royal-jelly-clot",
+        "GameId": "Lure Queen Worm",
+        "DisplayName": "Royal Jelly Clot",
+        "Description": "Luminous nectar once meant for a queen. Her children will come to claim it.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Queen Worm"
+        }
+    },
+    "Lure Scorpion King": {
+        "Slug": "soldier-termite",
+        "GameId": "Lure Scorpion King",
+        "DisplayName": "Soldier Termite",
+        "Description": "A hardened desert insect, still twitching. Its scent invites an ancient rival.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Scorpion King"
+        }
+    },
+    "Lure Snake Naga": {
+        "Slug": "fresh-kill-slab",
+        "GameId": "Lure Snake Naga",
+        "DisplayName": "Fresh Kill Slab",
+        "Description": "Raw, bloodied meat still warm to the touch. The air thickens with predator breath.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Snake Naga"
+        }
+    },
+    "Lure Spider Queen Robot": {
+        "Slug": "spider-web-coil",
+        "GameId": "Lure Spider Queen Robot",
+        "DisplayName": "Spider Web Coil",
+        "Description": "A tightly woven mass of enchanted silk. It hums faintly, as if something waits within.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Spider Queen Robot"
+        }
+    },
+    "Lure Sting": {
+        "Slug": "buzzing-hive-fragment",
+        "GameId": "Lure Sting",
+        "DisplayName": "Buzzing Hive Fragment",
+        "Description": "A honey-soaked hive chunk, vibrating faintly. The swarm is never far behind.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Sting"
+        }
+    },
+    "Lure Sunflora Pixie": {
+        "Slug": "sunborn-petal-tuft",
+        "GameId": "Lure Sunflora Pixie",
+        "DisplayName": "Sunborn Petal Tuft",
+        "Description": "A soft, glowing sprig that shimmers in the light. Whispers of joy trail behind it.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Sunflora Pixie"
+        }
+    },
+    "Lure Turtle King": {
+        "Slug": "tactical-power-node",
+        "GameId": "Lure Turtle King",
+        "DisplayName": "Tactical Power Node",
+        "Description": "A self-contained energy core used by advanced combat units. When activated, it emits a signal only the strongest turtle weapon-platform can answer.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Turtle King"
+        }
+    },
+    "Lure Werewolf": {
+        "Slug": "fragment-of-the-pale-moon",
+        "GameId": "Lure Werewolf",
+        "DisplayName": "Fragment of the Pale Moon",
+        "Description": "Cold to the touch and humming with silver light. The beast inside begins to stir.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Werewolf"
+        }
+    },
+    "Lure Worm Creep": {
+        "Slug": "worm-eaten-sediment",
+        "GameId": "Lure Worm Creep",
+        "DisplayName": "Worm-Eaten Sediment",
+        "Description": "A clump of ancient mud riddled with tiny burrows. Something still moves inside.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Worm Creep"
+        }
+    },
+    "Lure Zombie Goblin King": {
+        "Slug": "lost-shoe",
+        "GameId": "Lure Zombie Goblin King",
+        "DisplayName": "Lost Shoe",
+        "Description": "A worn shoe caked in mud, abandoned in the dark. The zombie horde sniffs out the trail of the fallen.",
+        "Reusable": 0,
+        "Type": 1,
+        "Value": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": "Zombie Goblin King"
+        }
+    }
+}

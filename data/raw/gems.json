@@ -1,0 +1,3172 @@
+{
+    "AerialShot Gem": {
+        "Slug": "aerial-shot-gem",
+        "GameId": "AerialShot Gem",
+        "DisplayName": "Aerial Shot Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "AerialShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Aerial Shot",
+        "IsBoss": 0
+    },
+    "ArrowShower Gem": {
+        "Slug": "arrow-shower-gem",
+        "GameId": "ArrowShower Gem",
+        "DisplayName": "Arrow Shower Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ArrowShower"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Arrow Shower",
+        "IsBoss": 0
+    },
+    "AtkSpd Gem": {
+        "Slug": "tempo-gem",
+        "GameId": "AtkSpd Gem",
+        "DisplayName": "Tempo Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "AtkSpd_5_1",
+                "Type": 63,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Tempo",
+        "IsBoss": 1
+    },
+    "AxeArc Gem": {
+        "Slug": "twin-cleave-gem",
+        "GameId": "AxeArc Gem",
+        "DisplayName": "Twin Cleave Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "AxeArc"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Twin Cleave",
+        "IsBoss": 0
+    },
+    "AxeThrow Gem": {
+        "Slug": "axe-throw-gem",
+        "GameId": "AxeThrow Gem",
+        "DisplayName": "Axe Throw Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "AxeThrow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Axe Throw",
+        "IsBoss": 0
+    },
+    "AxeVortex Gem": {
+        "Slug": "vortex-slash-gem",
+        "GameId": "AxeVortex Gem",
+        "DisplayName": "Vortex Slash Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "AxeVortex"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vortex Slash",
+        "IsBoss": 0
+    },
+    "Bash Gem": {
+        "Slug": "bash-gem",
+        "GameId": "Bash Gem",
+        "DisplayName": "Bash Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Bash"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Bash",
+        "IsBoss": 0
+    },
+    "BladeDance Gem": {
+        "Slug": "blade-dance-gem",
+        "GameId": "BladeDance Gem",
+        "DisplayName": "Blade Dance Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "BladeDance"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Blade Dance",
+        "IsBoss": 0
+    },
+    "BoneSpear Gem": {
+        "Slug": "bone-spear-gem",
+        "GameId": "BoneSpear Gem",
+        "DisplayName": "Bone Spear Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "BoneSpear"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Bone Spear",
+        "IsBoss": 0
+    },
+    "BoneSpikes Gem": {
+        "Slug": "bone-spikes-gem",
+        "GameId": "BoneSpikes Gem",
+        "DisplayName": "Bone Spikes Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "BoneSpikes"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Bone Spikes",
+        "IsBoss": 0
+    },
+    "CastSpd Gem": {
+        "Slug": "focus-gem",
+        "GameId": "CastSpd Gem",
+        "DisplayName": "Focus Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "CastSpd_2",
+                "Type": 64,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Focus",
+        "IsBoss": 1
+    },
+    "ChainLightning Gem": {
+        "Slug": "chain-lightning-gem",
+        "GameId": "ChainLightning Gem",
+        "DisplayName": "Chain Lightning Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ChainLightning"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Chain Lightning",
+        "IsBoss": 0
+    },
+    "ConsecratedGround Gem": {
+        "Slug": "consecrated-ground-gem",
+        "GameId": "ConsecratedGround Gem",
+        "DisplayName": "Consecrated Ground Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ConsecratedGround"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Consecrated Ground",
+        "IsBoss": 0
+    },
+    "Consecration Gem": {
+        "Slug": "consecration-gem",
+        "GameId": "Consecration Gem",
+        "DisplayName": "Consecration Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Consecration"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Consecration",
+        "IsBoss": 0
+    },
+    "CorpseExplosionEnemy Gem": {
+        "Slug": "corpse-explosion-gem",
+        "GameId": "CorpseExplosionEnemy Gem",
+        "DisplayName": "Corpse Explosion Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "CorpseExplosionEnemy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Corpse Explosion",
+        "IsBoss": 0
+    },
+    "CounterSlash Gem": {
+        "Slug": "counter-slash-gem",
+        "GameId": "CounterSlash Gem",
+        "DisplayName": "Counter Slash Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "CounterSlash"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Counter Slash",
+        "IsBoss": 0
+    },
+    "CritDamage Gem": {
+        "Slug": "razor-gem",
+        "GameId": "CritDamage Gem",
+        "DisplayName": "Razor Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "CritDamage_5_1",
+                "Type": 52,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Razor",
+        "IsBoss": 1
+    },
+    "Cyclone Gem": {
+        "Slug": "cyclone-gem",
+        "GameId": "Cyclone Gem",
+        "DisplayName": "Cyclone Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Cyclone"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Cyclone",
+        "IsBoss": 0
+    },
+    "Damnation Gem": {
+        "Slug": "damnation-gem",
+        "GameId": "Damnation Gem",
+        "DisplayName": "Damnation Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Damnation"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Damnation",
+        "IsBoss": 0
+    },
+    "Dark Exorcism Gem": {
+        "Slug": "dark-exorcism-gem",
+        "GameId": "Dark Exorcism Gem",
+        "DisplayName": "Dark Exorcism Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Dark Exorcism"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Dark Exorcism",
+        "IsBoss": 0
+    },
+    "DarkClaw Gem": {
+        "Slug": "dark-claw-gem",
+        "GameId": "DarkClaw Gem",
+        "DisplayName": "Dark Claw Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "DarkClaw"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Dark Claw",
+        "IsBoss": 0
+    },
+    "DeathCoilEnemy Gem": {
+        "Slug": "death-coil-gem",
+        "GameId": "DeathCoilEnemy Gem",
+        "DisplayName": "Death Coil Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "DeathCoilEnemy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Death Coil",
+        "IsBoss": 0
+    },
+    "DeathCoilSummon Gem": {
+        "Slug": "death-coil-gem",
+        "GameId": "DeathCoilSummon Gem",
+        "DisplayName": "Death Coil Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "DeathCoilSummon"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Death Coil",
+        "IsBoss": 0
+    },
+    "DeathNova Gem": {
+        "Slug": "death-nova-gem",
+        "GameId": "DeathNova Gem",
+        "DisplayName": "Death Nova Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "DeathNova"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Death Nova",
+        "IsBoss": 0
+    },
+    "DeathSpiral Gem": {
+        "Slug": "death-spiral-gem",
+        "GameId": "DeathSpiral Gem",
+        "DisplayName": "Death Spiral Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "DeathSpiral"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Death Spiral",
+        "IsBoss": 0
+    },
+    "DefMult Gem": {
+        "Slug": "bastion-gem",
+        "GameId": "DefMult Gem",
+        "DisplayName": "Bastion Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DefMult_2",
+                "Type": 73,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Bastion",
+        "IsBoss": 1
+    },
+    "Detector Gem": {
+        "Slug": "seer-gem",
+        "GameId": "Detector Gem",
+        "DisplayName": "Seer Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "Detector_1",
+                "Type": 112,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HitMult_-10_1",
+                "Type": 78,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Seer",
+        "IsBoss": 1
+    },
+    "DivinePunishment Gem": {
+        "Slug": "divine-punishment-gem",
+        "GameId": "DivinePunishment Gem",
+        "DisplayName": "Divine Punishment Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "DivinePunishment"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Divine Punishment",
+        "IsBoss": 0
+    },
+    "DoubleAttack Gem": {
+        "Slug": "echo-gem",
+        "GameId": "DoubleAttack Gem",
+        "DisplayName": "Echo Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DoubleAttack_3",
+                "Type": 80,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Echo",
+        "IsBoss": 1
+    },
+    "Earth Gem": {
+        "Slug": "earth-gem",
+        "GameId": "Earth Gem",
+        "DisplayName": "Earth Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earth",
+        "IsBoss": 1
+    },
+    "EarthSpikes Gem": {
+        "Slug": "earth-spikes-gem",
+        "GameId": "EarthSpikes Gem",
+        "DisplayName": "Earth Spikes Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "EarthSpikes"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earth Spikes",
+        "IsBoss": 0
+    },
+    "Earthbolt Gem": {
+        "Slug": "earthbolt-gem",
+        "GameId": "Earthbolt Gem",
+        "DisplayName": "Earthbolt Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Earthbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earthbolt",
+        "IsBoss": 0
+    },
+    "Earthquake Gem": {
+        "Slug": "earthquake-gem",
+        "GameId": "Earthquake Gem",
+        "DisplayName": "Earthquake Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Earthquake"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earthquake",
+        "IsBoss": 0
+    },
+    "Execute Gem": {
+        "Slug": "execute-gem",
+        "GameId": "Execute Gem",
+        "DisplayName": "Execute Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Execute"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Execute",
+        "IsBoss": 0
+    },
+    "Exorcism Gem": {
+        "Slug": "exorcism-gem",
+        "GameId": "Exorcism Gem",
+        "DisplayName": "Exorcism Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Exorcism"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Exorcism",
+        "IsBoss": 0
+    },
+    "ExplosiveGrenade Gem": {
+        "Slug": "explosive-grenade-gem",
+        "GameId": "ExplosiveGrenade Gem",
+        "DisplayName": "Explosive Grenade Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ExplosiveGrenade"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Explosive Grenade",
+        "IsBoss": 0
+    },
+    "FanFire Gem": {
+        "Slug": "fan-fire-gem",
+        "GameId": "FanFire Gem",
+        "DisplayName": "Fan Fire Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FanFire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fan Fire",
+        "IsBoss": 0
+    },
+    "FanOfKnives Gem": {
+        "Slug": "fan-of-knives-gem",
+        "GameId": "FanOfKnives Gem",
+        "DisplayName": "Fan Of Knives Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FanOfKnives"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fan Of Knives",
+        "IsBoss": 0
+    },
+    "FieldCurse Gem": {
+        "Slug": "banishment-field-gem",
+        "GameId": "FieldCurse Gem",
+        "DisplayName": "Banishment Field Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FieldCurse"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Banishment Field",
+        "IsBoss": 0
+    },
+    "FieldDamage Gem": {
+        "Slug": "dissonance-well-gem",
+        "GameId": "FieldDamage Gem",
+        "DisplayName": "Dissonance Well Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FieldDamage"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Dissonance Well",
+        "IsBoss": 0
+    },
+    "FieldHealing Gem": {
+        "Slug": "resonance-well-gem",
+        "GameId": "FieldHealing Gem",
+        "DisplayName": "Resonance Well Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FieldHealing"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Resonance Well",
+        "IsBoss": 0
+    },
+    "FieldSilence Gem": {
+        "Slug": "suppression-field-gem",
+        "GameId": "FieldSilence Gem",
+        "DisplayName": "Suppression Field Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FieldSilence"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Suppression Field",
+        "IsBoss": 0
+    },
+    "Fire Gem": {
+        "Slug": "fire-gem",
+        "GameId": "Fire Gem",
+        "DisplayName": "Fire Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fire",
+        "IsBoss": 1
+    },
+    "FirePillar Gem": {
+        "Slug": "fire-pillar-gem",
+        "GameId": "FirePillar Gem",
+        "DisplayName": "Fire Pillar Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FirePillar"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fire Pillar",
+        "IsBoss": 0
+    },
+    "FireRelease Gem": {
+        "Slug": "fire-release-gem",
+        "GameId": "FireRelease Gem",
+        "DisplayName": "Fire Release Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FireRelease"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fire Release",
+        "IsBoss": 0
+    },
+    "Fireball Gem": {
+        "Slug": "fireball-gem",
+        "GameId": "Fireball Gem",
+        "DisplayName": "Fireball Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Fireball"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fireball",
+        "IsBoss": 0
+    },
+    "Firebolt Gem": {
+        "Slug": "firebolt-gem",
+        "GameId": "Firebolt Gem",
+        "DisplayName": "Firebolt Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Firebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Firebolt",
+        "IsBoss": 0
+    },
+    "FlameOrb Gem": {
+        "Slug": "flame-orb-gem",
+        "GameId": "FlameOrb Gem",
+        "DisplayName": "Flame Orb Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FlameOrb"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flame Orb",
+        "IsBoss": 0
+    },
+    "FlashGrenade Gem": {
+        "Slug": "flash-grenade-gem",
+        "GameId": "FlashGrenade Gem",
+        "DisplayName": "Flash Grenade Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FlashGrenade"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flash Grenade",
+        "IsBoss": 0
+    },
+    "Flee Gem": {
+        "Slug": "evasion-gem",
+        "GameId": "Flee Gem",
+        "DisplayName": "Evasion Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "Flee_3",
+                "Type": 14,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "PerfectDodge_1",
+                "Type": 121,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Evasion",
+        "IsBoss": 1
+    },
+    "ForceShot Gem": {
+        "Slug": "force-shot-gem",
+        "GameId": "ForceShot Gem",
+        "DisplayName": "Force Shot Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ForceShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Force Shot",
+        "IsBoss": 0
+    },
+    "FreezeGrenade Gem": {
+        "Slug": "freeze-grenade-gem",
+        "GameId": "FreezeGrenade Gem",
+        "DisplayName": "Freeze Grenade Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FreezeGrenade"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Freeze Grenade",
+        "IsBoss": 0
+    },
+    "FreezingField Gem": {
+        "Slug": "blizzard-gem",
+        "GameId": "FreezingField Gem",
+        "DisplayName": "Blizzard Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FreezingField"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Blizzard",
+        "IsBoss": 0
+    },
+    "FrostBlade Gem": {
+        "Slug": "binding-spiral-gem",
+        "GameId": "FrostBlade Gem",
+        "DisplayName": "Binding Spiral Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "FrostBlade"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Binding Spiral",
+        "IsBoss": 0
+    },
+    "GrandCross Gem": {
+        "Slug": "grand-cross-gem",
+        "GameId": "GrandCross Gem",
+        "DisplayName": "Grand Cross Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "GrandCross"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Grand Cross",
+        "IsBoss": 0
+    },
+    "GroundSlam Gem": {
+        "Slug": "earth-splitter-gem",
+        "GameId": "GroundSlam Gem",
+        "DisplayName": "Earth Splitter Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "GroundSlam"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earth Splitter",
+        "IsBoss": 0
+    },
+    "Harvest Gem": {
+        "Slug": "harvest-gem",
+        "GameId": "Harvest Gem",
+        "DisplayName": "Harvest Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Harvest"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Harvest",
+        "IsBoss": 0
+    },
+    "Heal Gem": {
+        "Slug": "heal-gem",
+        "GameId": "Heal Gem",
+        "DisplayName": "Heal Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Heal"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Heal",
+        "IsBoss": 0
+    },
+    "HealAll Gem": {
+        "Slug": "mass-heal-gem",
+        "GameId": "HealAll Gem",
+        "DisplayName": "Mass Heal Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "HealAll"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mass Heal",
+        "IsBoss": 0
+    },
+    "Healing Gem": {
+        "Slug": "grace-gem",
+        "GameId": "Healing Gem",
+        "DisplayName": "Grace Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "Healing_2",
+                "Type": 67,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Grace",
+        "IsBoss": 1
+    },
+    "HighHeal Gem": {
+        "Slug": "high-heal-gem",
+        "GameId": "HighHeal Gem",
+        "DisplayName": "High Heal Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "HighHeal"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "High Heal",
+        "IsBoss": 0
+    },
+    "Holy Gem": {
+        "Slug": "holy-gem",
+        "GameId": "Holy Gem",
+        "DisplayName": "Holy Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Holy",
+        "IsBoss": 1
+    },
+    "HolyLight Gem": {
+        "Slug": "holy-light-gem",
+        "GameId": "HolyLight Gem",
+        "DisplayName": "Holy Light Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "HolyLight"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Holy Light",
+        "IsBoss": 0
+    },
+    "HolyWrath Gem": {
+        "Slug": "holy-wrath-gem",
+        "GameId": "HolyWrath Gem",
+        "DisplayName": "Holy Wrath Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "HolyWrath"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Holy Wrath",
+        "IsBoss": 0
+    },
+    "HolyWrathField Gem": {
+        "Slug": "litany-of-wrath-gem",
+        "GameId": "HolyWrathField Gem",
+        "DisplayName": "Litany of Wrath Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "HolyWrathField"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Litany of Wrath",
+        "IsBoss": 0
+    },
+    "HpMult Gem": {
+        "Slug": "heart-gem",
+        "GameId": "HpMult Gem",
+        "DisplayName": "Heart Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "HpMult_2",
+                "Type": 71,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Heart",
+        "IsBoss": 1
+    },
+    "HydroVortex Gem": {
+        "Slug": "hydro-vortex-gem",
+        "GameId": "HydroVortex Gem",
+        "DisplayName": "Hydro Vortex Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "HydroVortex"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Hydro Vortex",
+        "IsBoss": 0
+    },
+    "IceRelease Gem": {
+        "Slug": "ice-release-gem",
+        "GameId": "IceRelease Gem",
+        "DisplayName": "Ice Release Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "IceRelease"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Ice Release",
+        "IsBoss": 0
+    },
+    "IceShard Gem": {
+        "Slug": "ice-shard-gem",
+        "GameId": "IceShard Gem",
+        "DisplayName": "Ice Shard Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "IceShard"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Ice Shard",
+        "IsBoss": 0
+    },
+    "Icebolt Gem": {
+        "Slug": "icebolt-gem",
+        "GameId": "Icebolt Gem",
+        "DisplayName": "Icebolt Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Icebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Icebolt",
+        "IsBoss": 0
+    },
+    "JudgementBlade Gem": {
+        "Slug": "judgement-blade-gem",
+        "GameId": "JudgementBlade Gem",
+        "DisplayName": "Judgement Blade Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "JudgementBlade"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Judgement Blade",
+        "IsBoss": 0
+    },
+    "JumpShot Gem": {
+        "Slug": "jump-shot-gem",
+        "GameId": "JumpShot Gem",
+        "DisplayName": "Jump Shot Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "JumpShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Jump Shot",
+        "IsBoss": 0
+    },
+    "Leech Gem": {
+        "Slug": "bloodfang-gem",
+        "GameId": "Leech Gem",
+        "DisplayName": "Bloodfang Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "Leech_0.5",
+                "Type": 98,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.5,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Bloodfang",
+        "IsBoss": 1
+    },
+    "LeechMp Gem": {
+        "Slug": "soulfang-gem",
+        "GameId": "LeechMp Gem",
+        "DisplayName": "Soulfang Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "LeechMp_0.3",
+                "Type": 100,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 0.3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Soulfang",
+        "IsBoss": 1
+    },
+    "LifeDrainEnemy Gem": {
+        "Slug": "life-drain-gem",
+        "GameId": "LifeDrainEnemy Gem",
+        "DisplayName": "Life Drain Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "LifeDrainEnemy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Life Drain",
+        "IsBoss": 0
+    },
+    "LifeDrainSummon Gem": {
+        "Slug": "life-drain-gem",
+        "GameId": "LifeDrainSummon Gem",
+        "DisplayName": "Life Drain Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "LifeDrainSummon"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Life Drain",
+        "IsBoss": 0
+    },
+    "LightningRelease Gem": {
+        "Slug": "lightning-release-gem",
+        "GameId": "LightningRelease Gem",
+        "DisplayName": "Lightning Release Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "LightningRelease"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Lightning Release",
+        "IsBoss": 0
+    },
+    "LightningStrike Gem": {
+        "Slug": "flash-step-gem",
+        "GameId": "LightningStrike Gem",
+        "DisplayName": "Flash Step Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "LightningStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flash Step",
+        "IsBoss": 0
+    },
+    "MdefMult Gem": {
+        "Slug": "ward-gem",
+        "GameId": "MdefMult Gem",
+        "DisplayName": "Ward Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "MdefMult_2",
+                "Type": 74,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Ward",
+        "IsBoss": 1
+    },
+    "Meteor Gem": {
+        "Slug": "meteor-gem",
+        "GameId": "Meteor Gem",
+        "DisplayName": "Meteor Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Meteor"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Meteor",
+        "IsBoss": 0
+    },
+    "MoveSpd Gem": {
+        "Slug": "stride-gem",
+        "GameId": "MoveSpd Gem",
+        "DisplayName": "Stride Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "MoveSpd_2",
+                "Type": 65,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stride",
+        "IsBoss": 1
+    },
+    "MpCost Gem": {
+        "Slug": "channel-gem",
+        "GameId": "MpCost Gem",
+        "DisplayName": "Channel Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "MpCost_-2",
+                "Type": 90,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": -2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Channel",
+        "IsBoss": 1
+    },
+    "MpMult Gem": {
+        "Slug": "mind-gem",
+        "GameId": "MpMult Gem",
+        "DisplayName": "Mind Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "MpMult_2",
+                "Type": 72,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mind",
+        "IsBoss": 1
+    },
+    "NoCastCancel Gem": {
+        "Slug": "mantra-gem",
+        "GameId": "NoCastCancel Gem",
+        "DisplayName": "Mantra Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "NoCastCancel_1",
+                "Type": 34,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "CastSpd_-10_1",
+                "Type": 64,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mantra",
+        "IsBoss": 1
+    },
+    "NoFlinch Gem": {
+        "Slug": "steadfast-gem",
+        "GameId": "NoFlinch Gem",
+        "DisplayName": "Steadfast Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "NoFlinch_1",
+                "Type": 35,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_-10_1",
+                "Type": 71,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Steadfast",
+        "IsBoss": 1
+    },
+    "NoKnockback Gem": {
+        "Slug": "anchor-gem",
+        "GameId": "NoKnockback Gem",
+        "DisplayName": "Anchor Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "NoKnockback_1",
+                "Type": 32,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MoveSpd_-10_1",
+                "Type": 65,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Anchor",
+        "IsBoss": 1
+    },
+    "PanicBurst Gem": {
+        "Slug": "panic-burst-gem",
+        "GameId": "PanicBurst Gem",
+        "DisplayName": "Panic Burst Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "PanicBurst"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Panic Burst",
+        "IsBoss": 0
+    },
+    "PerfectCloak Gem": {
+        "Slug": "veil-gem",
+        "GameId": "PerfectCloak Gem",
+        "DisplayName": "Veil Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "PerfectCloak_1",
+                "Type": 122,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-10_1",
+                "Type": 72,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 1,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Veil",
+        "IsBoss": 1
+    },
+    "PiercingShot Gem": {
+        "Slug": "piercing-shot-gem",
+        "GameId": "PiercingShot Gem",
+        "DisplayName": "Piercing Shot Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "PiercingShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Piercing Shot",
+        "IsBoss": 0
+    },
+    "PointBlankShot Gem": {
+        "Slug": "point-blank-gem",
+        "GameId": "PointBlankShot Gem",
+        "DisplayName": "Point Blank Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "PointBlankShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Point Blank",
+        "IsBoss": 0
+    },
+    "Poison Gem": {
+        "Slug": "poison-gem",
+        "GameId": "Poison Gem",
+        "DisplayName": "Poison Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Poison",
+        "IsBoss": 1
+    },
+    "PoisonGrenade Gem": {
+        "Slug": "poison-grenade-gem",
+        "GameId": "PoisonGrenade Gem",
+        "DisplayName": "Poison Grenade Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "PoisonGrenade"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Poison Grenade",
+        "IsBoss": 0
+    },
+    "Reap Gem": {
+        "Slug": "reap-gem",
+        "GameId": "Reap Gem",
+        "DisplayName": "Reap Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Reap"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Reap",
+        "IsBoss": 0
+    },
+    "ReflectDamage Gem": {
+        "Slug": "spike-gem",
+        "GameId": "ReflectDamage Gem",
+        "DisplayName": "Spike Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "ReflectDamage_3",
+                "Type": 86,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spike",
+        "IsBoss": 1
+    },
+    "ReflectSpell Gem": {
+        "Slug": "mirror-gem",
+        "GameId": "ReflectSpell Gem",
+        "DisplayName": "Mirror Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "ReflectSpell_2",
+                "Type": 94,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mirror",
+        "IsBoss": 1
+    },
+    "Regen Gem": {
+        "Slug": "vitalis-gem",
+        "GameId": "Regen Gem",
+        "DisplayName": "Vitalis Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "HpRegenMult_3",
+                "Type": 75,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpRegenMult_3",
+                "Type": 76,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vitalis",
+        "IsBoss": 1
+    },
+    "Sanctuary Gem": {
+        "Slug": "sanctuary-gem",
+        "GameId": "Sanctuary Gem",
+        "DisplayName": "Sanctuary Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Sanctuary"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Sanctuary",
+        "IsBoss": 0
+    },
+    "Shadow Gem": {
+        "Slug": "shadow-gem",
+        "GameId": "Shadow Gem",
+        "DisplayName": "Shadow Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shadow",
+        "IsBoss": 1
+    },
+    "ShadowRelease Gem": {
+        "Slug": "black-blade-gem",
+        "GameId": "ShadowRelease Gem",
+        "DisplayName": "Black Blade Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ShadowRelease"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Black Blade",
+        "IsBoss": 0
+    },
+    "ShadowStep Gem": {
+        "Slug": "shadow-step-gem",
+        "GameId": "ShadowStep Gem",
+        "DisplayName": "Shadow Step Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ShadowStep"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shadow Step",
+        "IsBoss": 0
+    },
+    "ShieldBash Gem": {
+        "Slug": "shield-bash-gem",
+        "GameId": "ShieldBash Gem",
+        "DisplayName": "Shield Bash Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ShieldBash"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shield Bash",
+        "IsBoss": 0
+    },
+    "ShieldThrow Gem": {
+        "Slug": "shield-throw-gem",
+        "GameId": "ShieldThrow Gem",
+        "DisplayName": "Shield Throw Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ShieldThrow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shield Throw",
+        "IsBoss": 0
+    },
+    "ShrapnelShot Gem": {
+        "Slug": "shrapnel-gem",
+        "GameId": "ShrapnelShot Gem",
+        "DisplayName": "Shrapnel Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ShrapnelShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shrapnel",
+        "IsBoss": 0
+    },
+    "ShurikenFan Gem": {
+        "Slug": "shuriken-fan-gem",
+        "GameId": "ShurikenFan Gem",
+        "DisplayName": "Shuriken Fan Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ShurikenFan"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shuriken Fan",
+        "IsBoss": 0
+    },
+    "Smite Gem": {
+        "Slug": "smite-gem",
+        "GameId": "Smite Gem",
+        "DisplayName": "Smite Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Smite"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Smite",
+        "IsBoss": 0
+    },
+    "SniperShot Gem": {
+        "Slug": "sniper-shot-gem",
+        "GameId": "SniperShot Gem",
+        "DisplayName": "Sniper Shot Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "SniperShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Sniper Shot",
+        "IsBoss": 0
+    },
+    "SoulStrike Gem": {
+        "Slug": "soul-strike-gem",
+        "GameId": "SoulStrike Gem",
+        "DisplayName": "Soul Strike Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "SoulStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Soul Strike",
+        "IsBoss": 0
+    },
+    "SpearSlice Gem": {
+        "Slug": "air-cutter-gem",
+        "GameId": "SpearSlice Gem",
+        "DisplayName": "Air Cutter Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "SpearSlice"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Air Cutter",
+        "IsBoss": 0
+    },
+    "SpearStab Gem": {
+        "Slug": "impale-gem",
+        "GameId": "SpearStab Gem",
+        "DisplayName": "Impale Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "SpearStab"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Impale",
+        "IsBoss": 0
+    },
+    "SpearThrust Gem": {
+        "Slug": "piercing-flurry-gem",
+        "GameId": "SpearThrust Gem",
+        "DisplayName": "Piercing Flurry Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "SpearThrust"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Piercing Flurry",
+        "IsBoss": 0
+    },
+    "Stomp Gem": {
+        "Slug": "stomp-gem",
+        "GameId": "Stomp Gem",
+        "DisplayName": "Stomp Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Stomp"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stomp",
+        "IsBoss": 0
+    },
+    "StrafingVolley Gem": {
+        "Slug": "strafing-volley-gem",
+        "GameId": "StrafingVolley Gem",
+        "DisplayName": "Strafing Volley Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "StrafingVolley"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Strafing Volley",
+        "IsBoss": 0
+    },
+    "SuppressiveShot Gem": {
+        "Slug": "suppressive-shot-gem",
+        "GameId": "SuppressiveShot Gem",
+        "DisplayName": "Suppressive Shot Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "SuppressiveShot"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Suppressive Shot",
+        "IsBoss": 0
+    },
+    "Tempest Gem": {
+        "Slug": "tempest-gem",
+        "GameId": "Tempest Gem",
+        "DisplayName": "Tempest Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Tempest"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Tempest",
+        "IsBoss": 0
+    },
+    "TetraVortex Gem": {
+        "Slug": "elemental-overload-gem",
+        "GameId": "TetraVortex Gem",
+        "DisplayName": "Elemental Overload Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "TetraVortex"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elemental Overload",
+        "IsBoss": 0
+    },
+    "ThunderStorm Gem": {
+        "Slug": "thunder-storm-gem",
+        "GameId": "ThunderStorm Gem",
+        "DisplayName": "Thunder Storm Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "ThunderStorm"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Thunder Storm",
+        "IsBoss": 0
+    },
+    "Thunderbolt Gem": {
+        "Slug": "thunderbolt-gem",
+        "GameId": "Thunderbolt Gem",
+        "DisplayName": "Thunderbolt Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Thunderbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Thunderbolt",
+        "IsBoss": 0
+    },
+    "TurnUndead Gem": {
+        "Slug": "turn-undead-gem",
+        "GameId": "TurnUndead Gem",
+        "DisplayName": "Turn Undead Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "TurnUndead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Turn Undead",
+        "IsBoss": 0
+    },
+    "TwistOfFate Gem": {
+        "Slug": "twist-of-fate-gem",
+        "GameId": "TwistOfFate Gem",
+        "DisplayName": "Twist Of Fate Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "TwistOfFate"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Twist Of Fate",
+        "IsBoss": 0
+    },
+    "Undead Gem": {
+        "Slug": "undead-gem",
+        "GameId": "Undead Gem",
+        "DisplayName": "Undead Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Undead",
+        "IsBoss": 1
+    },
+    "VenomStrike Gem": {
+        "Slug": "venom-strike-gem",
+        "GameId": "VenomStrike Gem",
+        "DisplayName": "Venom Strike Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "VenomStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Venom Strike",
+        "IsBoss": 0
+    },
+    "VolatileBolt Gem": {
+        "Slug": "volatile-bolt-gem",
+        "GameId": "VolatileBolt Gem",
+        "DisplayName": "Volatile Bolt Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "VolatileBolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Volatile Bolt",
+        "IsBoss": 0
+    },
+    "Water Gem": {
+        "Slug": "water-gem",
+        "GameId": "Water Gem",
+        "DisplayName": "Water Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Water",
+        "IsBoss": 1
+    },
+    "WeaponThrow Gem": {
+        "Slug": "weapon-throw-gem",
+        "GameId": "WeaponThrow Gem",
+        "DisplayName": "Weapon Throw Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "WeaponThrow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Weapon Throw",
+        "IsBoss": 0
+    },
+    "WeightLimit Gem": {
+        "Slug": "carrier-gem",
+        "GameId": "WeightLimit Gem",
+        "DisplayName": "Carrier Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "WeightLimit_200",
+                "Type": 101,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 200,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Carrier",
+        "IsBoss": 1
+    },
+    "Whirlwind Gem": {
+        "Slug": "whirlwind-gem",
+        "GameId": "Whirlwind Gem",
+        "DisplayName": "Whirlwind Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "Whirlwind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Whirlwind",
+        "IsBoss": 0
+    },
+    "WildCharge Gem": {
+        "Slug": "wild-charge-gem",
+        "GameId": "WildCharge Gem",
+        "DisplayName": "Wild Charge Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "SkillDamage_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": "WildCharge"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wild Charge",
+        "IsBoss": 0
+    },
+    "Wind Gem": {
+        "Slug": "wind-gem",
+        "GameId": "Wind Gem",
+        "DisplayName": "Wind Gem",
+        "Description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+        "Stats": [
+            {
+                "Name": "DamageElement_1",
+                "Type": 46,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wind",
+        "IsBoss": 1
+    }
+}

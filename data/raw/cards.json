@@ -1,0 +1,6293 @@
+{
+    "Alien Big Blink": {
+        "Slug": "cosmic-entity-card",
+        "GameId": "Alien Big Blink",
+        "DisplayName": "Cosmic Entity Card",
+        "Description": "A massive, single-eyed alien whose unblinking stare can pierce even the bravest of hearts.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "MatkMult_10",
+                "Type": 70,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AtkMult_10",
+                "Type": 69,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_-25",
+                "Type": 71,
+                "Value": {
+                    "Value": -25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-25",
+                "Type": 72,
+                "Value": {
+                    "Value": -25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Cosmic",
+        "IsBoss": 1
+    },
+    "Alien Biteroot": {
+        "Slug": "fangroot-card",
+        "GameId": "Alien Biteroot",
+        "DisplayName": "Fangroot Card",
+        "Description": "A twisted root from another world, snapping and biting with unnatural hunger.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Bleeding"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Resistance",
+        "IsBoss": 0
+    },
+    "Alien Cyclops": {
+        "Slug": "voidspawn-card",
+        "GameId": "Alien Cyclops",
+        "DisplayName": "Voidspawn Card",
+        "Description": "A towering alien with one glaring eye, wielding shadowy powers that shouldn\u2019t exist in this realm.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "Detector_1",
+                "Type": 112,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Gaze",
+        "IsBoss": 0
+    },
+    "Alien One Eye": {
+        "Slug": "voidgazer-card",
+        "GameId": "Alien One Eye",
+        "DisplayName": "Voidgazer Card",
+        "Description": "Smaller than its cyclopean kin, but just as unnerving\u2014this alien\u2019s eye glows with strange energy.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "NoCastCancel_1",
+                "Type": 34,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mystery",
+        "IsBoss": 0
+    },
+    "Alien Plant": {
+        "Slug": "bogbloom-card",
+        "GameId": "Alien Plant",
+        "DisplayName": "Bogbloom Card",
+        "Description": "A bizarre plant from another world, its vines lash out with a hunger that feels far too intelligent.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Slow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Bleeding"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Resistance",
+        "IsBoss": 0
+    },
+    "Alien Spike": {
+        "Slug": "cinderspike-card",
+        "GameId": "Alien Spike",
+        "DisplayName": "Cinderspike Card",
+        "Description": "A jagged alien beast, covered in crystalline spines sharp enough to pierce steel.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "MoveSpd_10",
+                "Type": 65,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Swift",
+        "IsBoss": 0
+    },
+    "Alien Sporella": {
+        "Slug": "sporeling-card",
+        "GameId": "Alien Sporella",
+        "DisplayName": "Sporeling Card",
+        "Description": "A strange fungal creature from beyond, releasing alien spores that twist and warp anything they touch.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Poisonous",
+        "IsBoss": 0
+    },
+    "Alien Star": {
+        "Slug": "little-star-card",
+        "GameId": "Alien Star",
+        "DisplayName": "Little Star Card",
+        "Description": "A glowing alien entity shaped like a star, radiating energy from beyond.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "MpRegenMult_25",
+                "Type": 76,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Energy",
+        "IsBoss": 0
+    },
+    "Alien Twinkle": {
+        "Slug": "twinkle-card",
+        "GameId": "Alien Twinkle",
+        "DisplayName": "Twinkle Card",
+        "Description": "A playful cosmic being, its sparkle hides dangerous bursts of starlight.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "MpRegenMult_25",
+                "Type": 76,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Energy",
+        "IsBoss": 0
+    },
+    "Alien Wheel": {
+        "Slug": "blazewheel-card",
+        "GameId": "Alien Wheel",
+        "DisplayName": "Blazewheel Card",
+        "Description": "A bizarre alien that rolls forward like a wheel, crushing everything in its path.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ReflectDamage_10",
+                "Type": 86,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spiked",
+        "IsBoss": 0
+    },
+    "Alien Wreck": {
+        "Slug": "ashrend-card",
+        "GameId": "Alien Wreck",
+        "DisplayName": "Ashrend Card",
+        "Description": "The broken remains of an alien creature or machine\u2026 but it still twitches with hostile life.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "NoKnockback_1",
+                "Type": 32,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Titan",
+        "IsBoss": 0
+    },
+    "Angel Mage": {
+        "Slug": "angel-mage-card",
+        "GameId": "Angel Mage",
+        "DisplayName": "Angel Mage Card",
+        "Description": "Don't let the robes fool you; this angel packs a magical punch. Prayers are optional, though!",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_3",
+                "Type": 19,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Pure",
+        "IsBoss": 1
+    },
+    "Angel": {
+        "Slug": "angel-card",
+        "GameId": "Angel",
+        "DisplayName": "Angel Card",
+        "Description": "A serene celestial being who's always ready to spread some heavenly wrath. Sweet but deadly!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "Healing_10",
+                "Type": 67,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Blessed",
+        "IsBoss": 0
+    },
+    "Archangel": {
+        "Slug": "archangel-card",
+        "GameId": "Archangel",
+        "DisplayName": "Archangel Card",
+        "Description": "Majestic wings and a heart of gold, or is it? This angel has a dark side when provoked!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_3",
+                "Type": 18,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Pure",
+        "IsBoss": 0
+    },
+    "Bat Lord": {
+        "Slug": "bat-lord-card",
+        "GameId": "Bat Lord",
+        "DisplayName": "Bat Lord Card",
+        "Description": "The king of bats. Don't ask for autographs; he's too busy hunting you down.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "SiphonMp_3",
+                "Type": 177,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Siphoning",
+        "IsBoss": 1
+    },
+    "Bat": {
+        "Slug": "bat-card",
+        "GameId": "Bat",
+        "DisplayName": "Bat Card",
+        "Description": "Tiny wings, big attitude! This bat's more trouble than a pack of mosquitoes.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "LeechKillMp_10",
+                "Type": 23,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Leeching",
+        "IsBoss": 0
+    },
+    "Bee": {
+        "Slug": "bee-card",
+        "GameId": "Bee",
+        "DisplayName": "Bee Card",
+        "Description": "Always buzzing around, this little guy's only goal is to ruin your day with a sting.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "Hit_25",
+                "Type": 13,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Accurate",
+        "IsBoss": 0
+    },
+    "Bird": {
+        "Slug": "bird-card",
+        "GameId": "Bird",
+        "DisplayName": "Bird Card",
+        "Description": "Fluttering through the air, this bird is more than capable of making your life... interesting.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "WeaponThrow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Lancer",
+        "IsBoss": 0
+    },
+    "Bloom": {
+        "Slug": "bloom-card",
+        "GameId": "Bloom",
+        "DisplayName": "Bloom Card",
+        "Description": "A plant that seems sweet at first, but don't let it fool you, it can make you regret that hug.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "StrafingVolley"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Volley",
+        "IsBoss": 0
+    },
+    "Blossom": {
+        "Slug": "blossom-card",
+        "GameId": "Blossom",
+        "DisplayName": "Blossom Card",
+        "Description": "Like a flower, but with a grudge. Approach with caution, this one's got a temper.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "VolatileBolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Volatile",
+        "IsBoss": 0
+    },
+    "Bomb": {
+        "Slug": "bomb-card",
+        "GameId": "Bomb",
+        "DisplayName": "Bomb Card",
+        "Description": "This mischievous monster might look cute, but it's got an explosive personality.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "AtkMult_4",
+                "Type": 69,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Power",
+        "IsBoss": 0
+    },
+    "Boxy Robot": {
+        "Slug": "boxy-robot-card",
+        "GameId": "Boxy Robot",
+        "DisplayName": "Boxy Robot Card",
+        "Description": "A clunky, cube-shaped machine with more power than looks. Don\u2019t underestimate its blocky frame.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "HpRegenMult_25",
+                "Type": 75,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpRegenMult_25",
+                "Type": 76,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Energy",
+        "IsBoss": 0
+    },
+    "Bud": {
+        "Slug": "bud-card",
+        "GameId": "Bud",
+        "DisplayName": "Bud Card",
+        "Description": "Small, but don't be fooled, this budding little guy is just waiting to blossom into something scary!",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "WeightLimit_1000",
+                "Type": 101,
+                "Value": {
+                    "Value": 1000,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Light",
+        "IsBoss": 0
+    },
+    "Bumble": {
+        "Slug": "bumble-card",
+        "GameId": "Bumble",
+        "DisplayName": "Bumble Card",
+        "Description": "Cute, fuzzy, and always on the move. It's just trying to spread some chaos, not honey!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "HitMult_10",
+                "Type": 78,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Sniper",
+        "IsBoss": 0
+    },
+    "Bunny": {
+        "Slug": "bunny-card",
+        "GameId": "Bunny",
+        "DisplayName": "Bunny Card",
+        "Description": "This little fluffball might look harmless... but its bite is worse than its bark!",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "AtkSpd_5",
+                "Type": 63,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Rapid",
+        "IsBoss": 0
+    },
+    "Burrow": {
+        "Slug": "burrow-card",
+        "GameId": "Burrow",
+        "DisplayName": "Burrow Card",
+        "Description": "Hidden beneath the sand, this beast's got a lot of attitude, and a lot of dirt.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Stun"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-25",
+                "Type": 72,
+                "Value": {
+                    "Value": -25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Steadfast",
+        "IsBoss": 0
+    },
+    "Butterfly Fairy": {
+        "Slug": "butterfly-fairy-card",
+        "GameId": "Butterfly Fairy",
+        "DisplayName": "Butterfly Fairy Card",
+        "Description": "With wings of magic and a dash of mischief, this fairy loves to sprinkle a little trouble!",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "CastSpd_15",
+                "Type": 64,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wizardry",
+        "IsBoss": 0
+    },
+    "Butterfly Hue": {
+        "Slug": "butterfly-hue-card",
+        "GameId": "Butterfly Hue",
+        "DisplayName": "Butterfly Hue Card",
+        "Description": "It's a fluttery little critter that might leave you enchanted, or just itchy.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "CastSpd_10",
+                "Type": 64,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wizardry",
+        "IsBoss": 0
+    },
+    "Butterfly Pixie": {
+        "Slug": "butterfly-pixie-card",
+        "GameId": "Butterfly Pixie",
+        "DisplayName": "Butterfly Pixie Card",
+        "Description": "Magical and mischievous, this pixie might give you a wink before causing havoc.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "CastSpd_15",
+                "Type": 64,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wizardry",
+        "IsBoss": 0
+    },
+    "Cacti": {
+        "Slug": "cacti-card",
+        "GameId": "Cacti",
+        "DisplayName": "Cacti Card",
+        "Description": "A prickly friend with a sharp personality, don't try hugging it!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ReflectDamage_2",
+                "Type": 86,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spiked",
+        "IsBoss": 0
+    },
+    "Cactus Boss": {
+        "Slug": "cactus-king-card",
+        "GameId": "Cactus Boss",
+        "DisplayName": "Cactus King Card",
+        "Description": "The king of the desert, spiky, stubborn, and a little too proud of his pointy crown.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "GrantSkill_5",
+                "Type": 42,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": "Endure"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Steadfast",
+        "IsBoss": 1
+    },
+    "Cactus": {
+        "Slug": "cactus-card",
+        "GameId": "Cactus",
+        "DisplayName": "Cactus Card",
+        "Description": "This cactus doesn't just rule the desert; it rules with an iron fist... er, spines.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mudproof",
+        "IsBoss": 0
+    },
+    "Cat Bolt": {
+        "Slug": "cat-bolt-card",
+        "GameId": "Cat Bolt",
+        "DisplayName": "Cat Bolt Card",
+        "Description": "Lightning-fast and furious, this cat's got a spark in its step, and it's shocking!",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_6",
+                "Type": 19,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Gale",
+        "IsBoss": 1
+    },
+    "Cat Lightning": {
+        "Slug": "cat-lightning-card",
+        "GameId": "Cat Lightning",
+        "DisplayName": "Cat Lightning Card",
+        "Description": "A cat that's got more than just nine lives, it's got nine lightning strikes, too!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Windproof",
+        "IsBoss": 0
+    },
+    "Cat Meow": {
+        "Slug": "cat-meow-card",
+        "GameId": "Cat Meow",
+        "DisplayName": "Cat Meow Card",
+        "Description": "A simple meow from this furry feline, and your world might just get turned upside down.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "Thunderbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AutocastAttack_10",
+                "Type": 40,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Thunderbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shocking",
+        "IsBoss": 0
+    },
+    "Chick": {
+        "Slug": "chick-card",
+        "GameId": "Chick",
+        "DisplayName": "Chick Card",
+        "Description": "Small, yellow, and probably plotting your doom under all that cuteness.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "Atk_5",
+                "Type": 9,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Sharp",
+        "IsBoss": 0
+    },
+    "Creeper": {
+        "Slug": "creeper-card",
+        "GameId": "Creeper",
+        "DisplayName": "Creeper Card",
+        "Description": "Sneaky and sly, this creepy crawly has a penchant for lurking in the shadows.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "CritDamage_7",
+                "Type": 52,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Savage",
+        "IsBoss": 0
+    },
+    "Cyclops Bat Mage": {
+        "Slug": "cyclops-bat-mage-card",
+        "GameId": "Cyclops Bat Mage",
+        "DisplayName": "Cyclops Bat Mage Card",
+        "Description": "This cyclops has learned a thing or two from the dark arts, expect spells with a side of fury.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageMagic_5",
+                "Type": 48,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Magic",
+        "IsBoss": 0
+    },
+    "Cyclops Bat Wizard": {
+        "Slug": "cyclops-bat-wizard-card",
+        "GameId": "Cyclops Bat Wizard",
+        "DisplayName": "Cyclops Bat Wizard Card",
+        "Description": "A master of shadowy magic and even shadier business. It's a nightmare in the making.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageRanged_5",
+                "Type": 102,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Ranged",
+        "IsBoss": 0
+    },
+    "Cyclops Bat": {
+        "Slug": "cyclops-bat-card",
+        "GameId": "Cyclops Bat",
+        "DisplayName": "Cyclops Bat Card",
+        "Description": "Big, bad, and batty. This one's got its sights set on you, so run, if you can!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageMelee_5",
+                "Type": 47,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Melee",
+        "IsBoss": 0
+    },
+    "Cyclops Giant": {
+        "Slug": "cyclops-giant-card",
+        "GameId": "Cyclops Giant",
+        "DisplayName": "Cyclops Giant Card",
+        "Description": "Tall, angry, and completely unhinged. Good luck trying to make it past this one!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "MdefMult_3",
+                "Type": 74,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Warding",
+        "IsBoss": 0
+    },
+    "Cyclops Minion": {
+        "Slug": "cyclops-minion-card",
+        "GameId": "Cyclops Minion",
+        "DisplayName": "Cyclops Minion Card",
+        "Description": "A smaller cyclops, but still just as dangerous. This one's all about taking orders, yours.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "MdefMult_15",
+                "Type": 74,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Warding",
+        "IsBoss": 0
+    },
+    "Cyclops": {
+        "Slug": "cyclops-card",
+        "GameId": "Cyclops",
+        "DisplayName": "Cyclops Card",
+        "Description": "One eye, two fists, and a serious vendetta. You won't see this one coming!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "MdefMult_10",
+                "Type": 74,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Warding",
+        "IsBoss": 0
+    },
+    "Death Mage": {
+        "Slug": "death-mage-card",
+        "GameId": "Death Mage",
+        "DisplayName": "Death Mage Card",
+        "Description": "A mage of death, weaving necromantic spells with a sinister smile. Don't cross him.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_1",
+                "Type": 42,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": "Cloaking"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Cloaking",
+        "IsBoss": 1
+    },
+    "Death": {
+        "Slug": "death-card",
+        "GameId": "Death",
+        "DisplayName": "Death Card",
+        "Description": "This shadowy figure isn't here for a chat, it's here to remind you of your inevitable fate.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Darkproof",
+        "IsBoss": 0
+    },
+    "Delivery Robot": {
+        "Slug": "delivery-robot-card",
+        "GameId": "Delivery Robot",
+        "DisplayName": "Delivery Robot Card",
+        "Description": "An oddly helpful machine repurposed for war, tossing deadly \u201cpackages\u201d your way.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "MoveSpd_10",
+                "Type": 65,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_-5",
+                "Type": 71,
+                "Value": {
+                    "Value": -5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-5",
+                "Type": 72,
+                "Value": {
+                    "Value": -5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fleet",
+        "IsBoss": 0
+    },
+    "Direwolf": {
+        "Slug": "direwolf-card",
+        "GameId": "Direwolf",
+        "DisplayName": "Direwolf Card",
+        "Description": "A savage wolf larger than most, feared for its cunning and the chilling howls that echo through the night.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "PerfectCloak_1",
+                "Type": 122,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Cloaking",
+        "IsBoss": 0
+    },
+    "Dog Bark": {
+        "Slug": "dog-bark-card",
+        "GameId": "Dog Bark",
+        "DisplayName": "Dog Bark Card",
+        "Description": "A yappy, fiery little dog that might just catch you off guard with a fiery surprise!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "Fireball"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flaming",
+        "IsBoss": 0
+    },
+    "Dog Bowwow": {
+        "Slug": "dog-bowwow-card",
+        "GameId": "Dog Bowwow",
+        "DisplayName": "Dog Bowwow Card",
+        "Description": "Bigger, badder, and ready to bite. It's got a bark, but it's got firepower too!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_4",
+                "Type": 18,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Blazing",
+        "IsBoss": 0
+    },
+    "Dog Pup": {
+        "Slug": "dog-pup-card",
+        "GameId": "Dog Pup",
+        "DisplayName": "Dog Pup Card",
+        "Description": "A tiny pup with a fiery heart, it might just be looking for a snack... or you!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "Firebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AutocastAttack_10",
+                "Type": 40,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Firebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flaming",
+        "IsBoss": 0
+    },
+    "Dragon Blizzard": {
+        "Slug": "dragon-blizzard-card",
+        "GameId": "Dragon Blizzard",
+        "DisplayName": "Dragon Blizzard Card",
+        "Description": "A dragon that brings a chill to your bones, and not the friendly kind!",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Frozen"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Diamond",
+        "IsBoss": 0
+    },
+    "Dragon Darkness": {
+        "Slug": "dragon-darkness-card",
+        "GameId": "Dragon Darkness",
+        "DisplayName": "Dragon Darkness Card",
+        "Description": "It's not just the dark; it's the dragon's deadly presence in the shadows you should fear.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_2",
+                "Type": 18,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Tainted",
+        "IsBoss": 0
+    },
+    "Dragon Dusk": {
+        "Slug": "dragon-dusk-card",
+        "GameId": "Dragon Dusk",
+        "DisplayName": "Dragon Dusk Card",
+        "Description": "This dragon brings with it an eerie calm... but you'll soon realize it's anything but peaceful.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Exorcist's",
+        "IsBoss": 0
+    },
+    "Dragon Fire": {
+        "Slug": "dragon-fire-card",
+        "GameId": "Dragon Fire",
+        "DisplayName": "Dragon Fire Card",
+        "Description": "A fiery force of nature, this dragon's breath could cook you in seconds.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fireproof",
+        "IsBoss": 0
+    },
+    "Dragon Ice": {
+        "Slug": "dragon-ice-card",
+        "GameId": "Dragon Ice",
+        "DisplayName": "Dragon Ice Card",
+        "Description": "Don't let the icy breath fool you, this dragon's just as cold-hearted as it is powerful.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "IceShard"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Freezing",
+        "IsBoss": 0
+    },
+    "Dragon Inferno": {
+        "Slug": "dragon-inferno-card",
+        "GameId": "Dragon Inferno",
+        "DisplayName": "Dragon Inferno Card",
+        "Description": "It's all about heat and destruction with this fiery dragon. Think you can handle the burn?",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "AtkMult_4",
+                "Type": 69,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Power",
+        "IsBoss": 0
+    },
+    "Dragon Nightfall": {
+        "Slug": "dragon-nightfall-card",
+        "GameId": "Dragon Nightfall",
+        "DisplayName": "Dragon Nightfall Card",
+        "Description": "A shadowy dragon that comes with a cold chill and a lot of bite. Proceed with caution.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Curse"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Purifying",
+        "IsBoss": 0
+    },
+    "Dragon Spark": {
+        "Slug": "dragon-spark-card",
+        "GameId": "Dragon Spark",
+        "DisplayName": "Dragon Spark Card",
+        "Description": "It may start with a spark, but this dragon has a blazing fire waiting for you!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "AtkMult_4",
+                "Type": 69,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Power",
+        "IsBoss": 0
+    },
+    "Dragon Water": {
+        "Slug": "dragon-water-card",
+        "GameId": "Dragon Water",
+        "DisplayName": "Dragon Water Card",
+        "Description": "Water's their element, and they're not afraid to drown you in it!",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Waterproof",
+        "IsBoss": 0
+    },
+    "Dragonfly Arrow": {
+        "Slug": "dragonfly-arrow-card",
+        "GameId": "Dragonfly Arrow",
+        "DisplayName": "Dragonfly Arrow Card",
+        "Description": "Fast and sharp, this dragonfly isn't just here to flutter by. It's a skilled hunter!",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "Flee_10",
+                "Type": 14,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Agi_1",
+                "Type": 2,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Nimble",
+        "IsBoss": 0
+    },
+    "Dragonfly Darner": {
+        "Slug": "dragonfly-darner-card",
+        "GameId": "Dragonfly Darner",
+        "DisplayName": "Dragonfly Darner Card",
+        "Description": "A little faster and a lot deadlier than most, this dragonfly can dart through the air like lightning.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Flee_20",
+                "Type": 14,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elusive",
+        "IsBoss": 0
+    },
+    "Dragonfly Swift": {
+        "Slug": "dragonfly-swift-card",
+        "GameId": "Dragonfly Swift",
+        "DisplayName": "Dragonfly Swift Card",
+        "Description": "With speed that'll leave you dizzy, this dragonfly's all about a quick strike.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "Flee_25",
+                "Type": 14,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elusive",
+        "IsBoss": 0
+    },
+    "Earthworm": {
+        "Slug": "earthworm-card",
+        "GameId": "Earthworm",
+        "DisplayName": "Earthworm Card",
+        "Description": "A simple creature, but digging through the dirt is just the beginning of its underground trouble.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Anti-Venom",
+        "IsBoss": 0
+    },
+    "Egg": {
+        "Slug": "egg-card",
+        "GameId": "Egg",
+        "DisplayName": "Egg Card",
+        "Description": "It might look innocent, but it's got big, scary plans for when it hatches!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "Hp_100",
+                "Type": 7,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vital",
+        "IsBoss": 0
+    },
+    "Egglet": {
+        "Slug": "egglet-card",
+        "GameId": "Egglet",
+        "DisplayName": "Egglet Card",
+        "Description": "A tiny egg with legs! Cute, but it\u2019s plotting something sinister inside its shell.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "AtkSpd_10",
+                "Type": 63,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Rapid",
+        "IsBoss": 0
+    },
+    "Elder Wisp Blue": {
+        "Slug": "elder-wisp-blue-card",
+        "GameId": "Elder Wisp Blue",
+        "DisplayName": "Elder Wisp Blue Card",
+        "Description": "A calm, ancient spirit that glows with icy blue energy, chilling the air and soothing\u2014or freezing\u2014all nearby.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Glacial",
+        "IsBoss": 0
+    },
+    "Elder Wisp Purple": {
+        "Slug": "elder-wisp-purple-card",
+        "GameId": "Elder Wisp Purple",
+        "DisplayName": "Elder Wisp Purple Card",
+        "Description": "A mysterious spirit wrapped in violet flame, whispering secrets and curses from another realm.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spark",
+        "IsBoss": 0
+    },
+    "Elder Wisp Yellow": {
+        "Slug": "elder-wisp-yellow-card",
+        "GameId": "Elder Wisp Yellow",
+        "DisplayName": "Elder Wisp Yellow Card",
+        "Description": "A luminous spirit that radiates golden light, guiding the lost but blinding its foes with brilliance.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Pyre",
+        "IsBoss": 0
+    },
+    "Eyeball Bat Blue": {
+        "Slug": "eyeball-bat-blue-card",
+        "GameId": "Eyeball Bat Blue",
+        "DisplayName": "Eyeball Bat Blue Card",
+        "Description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "HolyLight"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Radiant",
+        "IsBoss": 0
+    },
+    "Eyeball Bat Green": {
+        "Slug": "eyeball-bat-green-card",
+        "GameId": "Eyeball Bat Green",
+        "DisplayName": "Eyeball Bat Green Card",
+        "Description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Purity",
+        "IsBoss": 0
+    },
+    "Eyeball Bat Red": {
+        "Slug": "eyeball-bat-red-card",
+        "GameId": "Eyeball Bat Red",
+        "DisplayName": "Eyeball Bat Red Card",
+        "Description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "AutocastHit_1",
+                "Type": 39,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "LifeDrainEnemy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vampiric",
+        "IsBoss": 0
+    },
+    "Eyeball Creep Blue": {
+        "Slug": "eyeball-creep-blue-card",
+        "GameId": "Eyeball Creep Blue",
+        "DisplayName": "Eyeball Creep Blue Card",
+        "Description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Focus",
+        "IsBoss": 0
+    },
+    "Eyeball Creep Green": {
+        "Slug": "eyeball-creep-green-card",
+        "GameId": "Eyeball Creep Green",
+        "DisplayName": "Eyeball Creep Green Card",
+        "Description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Focus",
+        "IsBoss": 0
+    },
+    "Eyeball Creep Red": {
+        "Slug": "eyeball-creep-red-card",
+        "GameId": "Eyeball Creep Red",
+        "DisplayName": "Eyeball Creep Red Card",
+        "Description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Focus",
+        "IsBoss": 0
+    },
+    "Eyeball Mage Blue": {
+        "Slug": "eyeball-mage-blue-card",
+        "GameId": "Eyeball Mage Blue",
+        "DisplayName": "Eyeball Mage Blue Card",
+        "Description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "LeechMp_3",
+                "Type": 100,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-50",
+                "Type": 72,
+                "Value": {
+                    "Value": -50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mana Burn",
+        "IsBoss": 0
+    },
+    "Eyeball Mage Green": {
+        "Slug": "eyeball-mage-green-card",
+        "GameId": "Eyeball Mage Green",
+        "DisplayName": "Eyeball Mage Green Card",
+        "Description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Exorcism"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Radiant",
+        "IsBoss": 0
+    },
+    "Eyeball Mage Red": {
+        "Slug": "eyeball-mage-red-card",
+        "GameId": "Eyeball Mage Red",
+        "DisplayName": "Eyeball Mage Red Card",
+        "Description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "Leech_5",
+                "Type": 98,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vampiric",
+        "IsBoss": 0
+    },
+    "Fire Mage": {
+        "Slug": "fire-mage-card",
+        "GameId": "Fire Mage",
+        "DisplayName": "Fire Mage Card",
+        "Description": "A fire mage with enough power to make the volcano look like a campfire.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "MatkMult_4",
+                "Type": 70,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mind",
+        "IsBoss": 0
+    },
+    "Fire": {
+        "Slug": "fire-card",
+        "GameId": "Fire",
+        "DisplayName": "Fire Card",
+        "Description": "They may have a name that sounds harmless, but this little guy will set everything ablaze.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "WeightLimit_1000",
+                "Type": 101,
+                "Value": {
+                    "Value": 1000,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Light",
+        "IsBoss": 0
+    },
+    "Fish Man Blue": {
+        "Slug": "fish-man-blue-card",
+        "GameId": "Fish Man Blue",
+        "DisplayName": "Fish Man Blue Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Matk_10",
+                "Type": 10,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mind",
+        "IsBoss": 0
+    },
+    "Fish Man Pink": {
+        "Slug": "fish-man-pink-card",
+        "GameId": "Fish Man Pink",
+        "DisplayName": "Fish Man Pink Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Atk_10",
+                "Type": 9,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Power",
+        "IsBoss": 0
+    },
+    "Fish Man Yellow": {
+        "Slug": "fish-man-yellow-card",
+        "GameId": "Fish Man Yellow",
+        "DisplayName": "Fish Man Yellow Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Crit_5",
+                "Type": 15,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "CritDamage_5",
+                "Type": 52,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Precision",
+        "IsBoss": 0
+    },
+    "Fish Merman Blue": {
+        "Slug": "merman-blue-card",
+        "GameId": "Fish Merman Blue",
+        "DisplayName": "Merman Blue Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "DamageStatus_5",
+                "Type": 142,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Status",
+        "IsBoss": 0
+    },
+    "Fish Merman Pink": {
+        "Slug": "merman-pink-card",
+        "GameId": "Fish Merman Pink",
+        "DisplayName": "Merman Pink Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "CritDamage_7",
+                "Type": 52,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Savage",
+        "IsBoss": 0
+    },
+    "Fish Merman Yellow": {
+        "Slug": "merman-yellow-card",
+        "GameId": "Fish Merman Yellow",
+        "DisplayName": "Merman Yellow Card",
+        "Description": "",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "ChainLightning"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Lightning",
+        "IsBoss": 0
+    },
+    "Fish Pink": {
+        "Slug": "fish-pink-card",
+        "GameId": "Fish Pink",
+        "DisplayName": "Fish Pink Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Atk_5",
+                "Type": 9,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Matk_5",
+                "Type": 10,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Violent",
+        "IsBoss": 0
+    },
+    "Fish Yellow": {
+        "Slug": "fish-yellow-card",
+        "GameId": "Fish Yellow",
+        "DisplayName": "Fish Yellow Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "PerfectDodge_5",
+                "Type": 121,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Perfect",
+        "IsBoss": 0
+    },
+    "Flame": {
+        "Slug": "flame-card",
+        "GameId": "Flame",
+        "DisplayName": "Flame Card",
+        "Description": "With a fiery spirit and a burning desire to cause chaos, this fiery being isn't messing around!",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Fireball"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flaming",
+        "IsBoss": 0
+    },
+    "Fledgling": {
+        "Slug": "fledgling-card",
+        "GameId": "Fledgling",
+        "DisplayName": "Fledgling Card",
+        "Description": "It's just a little bird... until it starts pecking your face off.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "SpearStab"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Impaling",
+        "IsBoss": 0
+    },
+    "Flora": {
+        "Slug": "flora-card",
+        "GameId": "Flora",
+        "DisplayName": "Flora Card",
+        "Description": "Don't touch the plants! They bite.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Hoarfrost",
+        "IsBoss": 0
+    },
+    "Flower Pot Monster": {
+        "Slug": "flower-pot-monster-card",
+        "GameId": "Flower Pot Monster",
+        "DisplayName": "Flower Pot Monster Card",
+        "Description": "What looks like a simple flower pot is hiding some very hungry roots.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "EarthSpikes"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Quagmire",
+        "IsBoss": 0
+    },
+    "Fungi": {
+        "Slug": "fungi-card",
+        "GameId": "Fungi",
+        "DisplayName": "Fungi Card",
+        "Description": "Mushrooms have never been so deadly, this fungi is always on the hunt for a tasty meal!",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "GrantSkill_3",
+                "Type": 42,
+                "Value": {
+                    "Value": 3,
+                    "ValueLv": 0,
+                    "ValueStr": "Heal"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Heal",
+        "IsBoss": 0
+    },
+    "Ghost": {
+        "Slug": "ghost-card",
+        "GameId": "Ghost",
+        "DisplayName": "Ghost Card",
+        "Description": "A spooky figure with a lot of haunting potential, this ghost isn't here for a chat.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "FieldDamage"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Dissonance",
+        "IsBoss": 0
+    },
+    "Glow Wisp Blue": {
+        "Slug": "glow-wisp-blue-card",
+        "GameId": "Glow Wisp Blue",
+        "DisplayName": "Glow Wisp Blue Card",
+        "Description": "A twinkling light spirit, calm and cool, but more mischievous than it seems.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Glacial",
+        "IsBoss": 0
+    },
+    "Glow Wisp Purple": {
+        "Slug": "glow-wisp-purple-card",
+        "GameId": "Glow Wisp Purple",
+        "DisplayName": "Glow Wisp Purple Card",
+        "Description": "A tiny spirit flickering with violet glow, playful yet strangely unsettling.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spark",
+        "IsBoss": 0
+    },
+    "Glow Wisp Yellow": {
+        "Slug": "glow-wisp-yellow-card",
+        "GameId": "Glow Wisp Yellow",
+        "DisplayName": "Glow Wisp Yellow Card",
+        "Description": "A cheerful little spark of golden light, bringing warmth\u2014and sometimes burns.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Pyre",
+        "IsBoss": 0
+    },
+    "Goblin Giant Devil": {
+        "Slug": "goblin-giant-devil-card",
+        "GameId": "Goblin Giant Devil",
+        "DisplayName": "Goblin Giant Devil Card",
+        "Description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Quaking",
+        "IsBoss": 0
+    },
+    "Goblin Giant Gold": {
+        "Slug": "goblin-king-card",
+        "GameId": "Goblin Giant Gold",
+        "DisplayName": "Goblin King Card",
+        "Description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_7",
+                "Type": 19,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earthen",
+        "IsBoss": 1
+    },
+    "Goblin Giant Mage": {
+        "Slug": "goblin-giant-mage-card",
+        "GameId": "Goblin Giant Mage",
+        "DisplayName": "Goblin Giant Mage Card",
+        "Description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_7",
+                "Type": 18,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Earthen",
+        "IsBoss": 0
+    },
+    "Goblin Minion": {
+        "Slug": "goblin-minion-card",
+        "GameId": "Goblin Minion",
+        "DisplayName": "Goblin Minion Card",
+        "Description": "A small goblin that works in packs and loves to cause trouble for anyone in its path.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Bash"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Bashing",
+        "IsBoss": 0
+    },
+    "Goblin Trooper Assassin": {
+        "Slug": "goblin-trooper-assassin-card",
+        "GameId": "Goblin Trooper Assassin",
+        "DisplayName": "Goblin Trooper Assassin Card",
+        "Description": "A small goblin that works in packs and loves to cause trouble for anyone in its path.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_1",
+                "Type": 42,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": "ShadowStep"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mobile",
+        "IsBoss": 0
+    },
+    "Goblin Trooper Mage": {
+        "Slug": "goblin-trooper-mage-card",
+        "GameId": "Goblin Trooper Mage",
+        "DisplayName": "Goblin Trooper Mage Card",
+        "Description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_5",
+                "Type": 42,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": "FreeCast"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Free",
+        "IsBoss": 0
+    },
+    "Goblin Trooper Soldier": {
+        "Slug": "goblin-trooper-soldier-card",
+        "GameId": "Goblin Trooper Soldier",
+        "DisplayName": "Goblin Trooper Soldier Card",
+        "Description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "AxeArc"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Slashing",
+        "IsBoss": 0
+    },
+    "Goblin Trooper": {
+        "Slug": "goblin-trooper-card",
+        "GameId": "Goblin Trooper",
+        "DisplayName": "Goblin Trooper Card",
+        "Description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mudproof",
+        "IsBoss": 0
+    },
+    "Goblin Warblade": {
+        "Slug": "goblin-warblade-card",
+        "GameId": "Goblin Warblade",
+        "DisplayName": "Goblin Warblade Card",
+        "Description": "A goblin champion wielding a massive blade, reckless but deadly in battle.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ReflectDamage_30",
+                "Type": 86,
+                "Value": {
+                    "Value": 30,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spiked",
+        "IsBoss": 0
+    },
+    "Goblin Warchief": {
+        "Slug": "goblin-warchief-card",
+        "GameId": "Goblin Warchief",
+        "DisplayName": "Goblin Warchief Card",
+        "Description": "The toughest goblin of the horde, rallying its kin with brute force and bellowing war cries.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elemental",
+        "IsBoss": 1
+    },
+    "Goblin Warcrusher": {
+        "Slug": "goblin-warcrusher-card",
+        "GameId": "Goblin Warcrusher",
+        "DisplayName": "Goblin Warcrusher Card",
+        "Description": "This goblin prefers brute force, smashing anything in sight with overwhelming strength.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Seismic",
+        "IsBoss": 0
+    },
+    "Goblin Warlock": {
+        "Slug": "goblin-warlock-card",
+        "GameId": "Goblin Warlock",
+        "DisplayName": "Goblin Warlock Card",
+        "Description": "A goblin twisted by dark magic, summoning flames and shadows to terrorize friend and foe alike.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "MatkMult_4",
+                "Type": 70,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mind",
+        "IsBoss": 0
+    },
+    "Golem Earth": {
+        "Slug": "golem-earth-card",
+        "GameId": "Golem Earth",
+        "DisplayName": "Golem Earth Card",
+        "Description": "This giant stone golem is as tough as the earth itself, don't expect to break it easily!",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "DefMult_15",
+                "Type": 73,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stone",
+        "IsBoss": 0
+    },
+    "Golem Fire": {
+        "Slug": "golem-fire-card",
+        "GameId": "Golem Fire",
+        "DisplayName": "Golem Fire Card",
+        "Description": "Made of fire and fury, this golem can heat things up pretty quickly!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "DefMult_10",
+                "Type": 73,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stone",
+        "IsBoss": 0
+    },
+    "Golem Ice": {
+        "Slug": "golem-ice-card",
+        "GameId": "Golem Ice",
+        "DisplayName": "Golem Ice Card",
+        "Description": "An icy golem that's as cold as its surroundings, don't get too close!",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "DefMult_3",
+                "Type": 73,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 3,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stone",
+        "IsBoss": 0
+    },
+    "Gripper Robot": {
+        "Slug": "gripper-robot-card",
+        "GameId": "Gripper Robot",
+        "DisplayName": "Gripper Robot Card",
+        "Description": "A claw-armed contraption designed to crush and hold its prey with unrelenting grip.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementResist_10",
+                "Type": 53,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Neutral"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_10",
+                "Type": 71,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Immune",
+        "IsBoss": 0
+    },
+    "Hare": {
+        "Slug": "hare-card",
+        "GameId": "Hare",
+        "DisplayName": "Hare Card",
+        "Description": "Quick, nimble, and ready to dash away at the slightest sign of danger.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "MoveSpd_20",
+                "Type": 65,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fleet",
+        "IsBoss": 1
+    },
+    "Haunt": {
+        "Slug": "haunt-card",
+        "GameId": "Haunt",
+        "DisplayName": "Haunt Card",
+        "Description": "A specter of doom, this haunting presence will chill you to the bone.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Lightproof",
+        "IsBoss": 0
+    },
+    "Hermit King": {
+        "Slug": "hermit-king-card",
+        "GameId": "Hermit King",
+        "DisplayName": "Hermit King Card",
+        "Description": "This hermit has a crown, and it's not afraid to use it. Watch out!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "HydroVortex"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Hydro",
+        "IsBoss": 1
+    },
+    "Horror": {
+        "Slug": "horror-card",
+        "GameId": "Horror",
+        "DisplayName": "Horror Card",
+        "Description": "This nightmare of a monster is too terrifying for words. Beware the darkness it brings!",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "CritDamage_7",
+                "Type": 52,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Savage",
+        "IsBoss": 0
+    },
+    "Housefly Icky": {
+        "Slug": "housefly-icky-card",
+        "GameId": "Housefly Icky",
+        "DisplayName": "Housefly Icky Card",
+        "Description": "A pesky, buzzing housefly that's always in your face, bringing discomfort wherever it goes.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "Crit_5",
+                "Type": 15,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Assassin's",
+        "IsBoss": 0
+    },
+    "Housefly Junk": {
+        "Slug": "housefly-junk-card",
+        "GameId": "Housefly Junk",
+        "DisplayName": "Housefly Junk Card",
+        "Description": "A larger, more annoying version of the common housefly, often found around filth and decay.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "CritMult_15",
+                "Type": 79,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Assassin's",
+        "IsBoss": 0
+    },
+    "Housefly Nom": {
+        "Slug": "housefly-nom-card",
+        "GameId": "Housefly Nom",
+        "DisplayName": "Housefly Nom Card",
+        "Description": "A particularly stubborn fly that enjoys buzzing around food and irritating travelers.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "Crit_10",
+                "Type": 15,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Assassin's",
+        "IsBoss": 0
+    },
+    "Ice Bear B": {
+        "Slug": "festive-bear-card",
+        "GameId": "Ice Bear B",
+        "DisplayName": "Festive Bear Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "MpMult_10",
+                "Type": 72,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Focus",
+        "IsBoss": 0
+    },
+    "Ice Mage": {
+        "Slug": "ice-mage-card",
+        "GameId": "Ice Mage",
+        "DisplayName": "Ice Mage Card",
+        "Description": "A mage who bends ice and snow to their will, summoning storms to chill the bones of their enemies.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_5",
+                "Type": 19,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Frozen"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Thawing",
+        "IsBoss": 1
+    },
+    "Ice Starflake A": {
+        "Slug": "starflake-card",
+        "GameId": "Ice Starflake A",
+        "DisplayName": "Starflake Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "DefMult_5",
+                "Type": 73,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MdefMult_5",
+                "Type": 74,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stone",
+        "IsBoss": 0
+    },
+    "Ice Starflake B": {
+        "Slug": "vanilla-ice-card",
+        "GameId": "Ice Starflake B",
+        "DisplayName": "Vanilla Ice Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "MpRegenMult_25",
+                "Type": 76,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpCost_-10",
+                "Type": 90,
+                "Value": {
+                    "Value": -10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Energy",
+        "IsBoss": 0
+    },
+    "Ice Starflake C": {
+        "Slug": "shadow-ice-card",
+        "GameId": "Ice Starflake C",
+        "DisplayName": "Shadow Ice Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "PerfectCloak_1",
+                "Type": 122,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Cloaking",
+        "IsBoss": 0
+    },
+    "Ice": {
+        "Slug": "ice-card",
+        "GameId": "Ice",
+        "DisplayName": "Ice Card",
+        "Description": "A cold and unfeeling monster that freezes everything in its path, leaving nothing but frost.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "NoReflect_1",
+                "Type": 36,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Icepick",
+        "IsBoss": 0
+    },
+    "Icicle": {
+        "Slug": "icicle-card",
+        "GameId": "Icicle",
+        "DisplayName": "Icicle Card",
+        "Description": "A sharp shard of ice that's as deadly as it is cold, capable of impaling anything in its way.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Slow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Thawing",
+        "IsBoss": 0
+    },
+    "Imp Demon": {
+        "Slug": "imp-demon-card",
+        "GameId": "Imp Demon",
+        "DisplayName": "Imp Demon Card",
+        "Description": "A mischievous demon with fiery red skin and a knack for causing trouble wherever it appears.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "ReflectDamage_5",
+                "Type": 86,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Spiked",
+        "IsBoss": 0
+    },
+    "Imp Devil": {
+        "Slug": "imp-devil-card",
+        "GameId": "Imp Devil",
+        "DisplayName": "Imp Devil Card",
+        "Description": "A devilish imp that delights in tormenting others, often using its fiery powers for chaos.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_5",
+                "Type": 42,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": "Meteor"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Meteoric",
+        "IsBoss": 1
+    },
+    "Imp Mischief": {
+        "Slug": "imp-mischief-card",
+        "GameId": "Imp Mischief",
+        "DisplayName": "Imp Mischief Card",
+        "Description": "A playful imp that likes to prank and trick its victims, sometimes to deadly effect.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ReflectSpell_2",
+                "Type": 94,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 2,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mischief",
+        "IsBoss": 0
+    },
+    "Jellyfish Robot": {
+        "Slug": "stormjelly-card",
+        "GameId": "Jellyfish Robot",
+        "DisplayName": "Stormjelly Card",
+        "Description": "A floating machine with pulsing lights and electric stingers, drifting gracefully before it shocks.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "MpRegenMult_50",
+                "Type": 76,
+                "Value": {
+                    "Value": 50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpRegenMult_-50",
+                "Type": 75,
+                "Value": {
+                    "Value": -50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wisdom",
+        "IsBoss": 0
+    },
+    "Lurker": {
+        "Slug": "lurker-card",
+        "GameId": "Lurker",
+        "DisplayName": "Lurker Card",
+        "Description": "A sneaky and silent predator that hides in the shadows, waiting for the perfect moment to strike.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "CritDamage_7",
+                "Type": 52,
+                "Value": {
+                    "Value": 7,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Savage",
+        "IsBoss": 0
+    },
+    "Mega Ice Golem": {
+        "Slug": "mega-ice-golem-card",
+        "GameId": "Mega Ice Golem",
+        "DisplayName": "Mega Ice Golem Card",
+        "Description": "",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "AutocastHit_1",
+                "Type": 39,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 1,
+                    "ValueStr": "IceShard"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "GrantSkill_1",
+                "Type": 42,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": "FreezingEdge"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Permafrost",
+        "IsBoss": 1
+    },
+    "Mini Ice Bear A": {
+        "Slug": "ice-baby-card",
+        "GameId": "Mini Ice Bear A",
+        "DisplayName": "Ice Baby Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Frozen"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Thawing",
+        "IsBoss": 0
+    },
+    "Mini Ice Bear B": {
+        "Slug": "festive-baby-card",
+        "GameId": "Mini Ice Bear B",
+        "DisplayName": "Festive Baby Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "HpMult_10",
+                "Type": 71,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Healthy",
+        "IsBoss": 0
+    },
+    "Mole Rat King": {
+        "Slug": "mole-rat-king-card",
+        "GameId": "Mole Rat King",
+        "DisplayName": "Mole Rat King Card",
+        "Description": "The ruler of the mole rats, much larger and more dangerous, capable of commanding its kin.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_1",
+                "Type": 42,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": "Stomp"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Stomping",
+        "IsBoss": 0
+    },
+    "Mole Rat": {
+        "Slug": "mole-rat-card",
+        "GameId": "Mole Rat",
+        "DisplayName": "Mole Rat Card",
+        "Description": "A subterranean rat that burrows through the ground, leaving a trail of destruction in its wake.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Earth"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Seismic",
+        "IsBoss": 0
+    },
+    "Mosquito Bug": {
+        "Slug": "mosquito-bug-card",
+        "GameId": "Mosquito Bug",
+        "DisplayName": "Mosquito Bug Card",
+        "Description": "A pesky insect that buzzes around, sucking the blood of any living creature it can find.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "Leech_5",
+                "Type": 98,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vampiric",
+        "IsBoss": 0
+    },
+    "Mosquito Pester": {
+        "Slug": "mosquito-pester-card",
+        "GameId": "Mosquito Pester",
+        "DisplayName": "Mosquito Pester Card",
+        "Description": "A relentless mosquito that constantly hounds its victims, drawing blood with each attack.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Windproof",
+        "IsBoss": 0
+    },
+    "Mosquito Stinger": {
+        "Slug": "mosquito-stinger-card",
+        "GameId": "Mosquito Stinger",
+        "DisplayName": "Mosquito Stinger Card",
+        "Description": "A mosquito with a deadly, venomous sting that leaves its victim weakened and drained.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "GrantSkill_5",
+                "Type": 42,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": "Haste"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Haste",
+        "IsBoss": 0
+    },
+    "Moth Celestial": {
+        "Slug": "moth-celestial-card",
+        "GameId": "Moth Celestial",
+        "DisplayName": "Moth Celestial Card",
+        "Description": "A majestic moth with ethereal wings, capable of manipulating light and causing illusions.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Lightproof",
+        "IsBoss": 0
+    },
+    "Moth Luna": {
+        "Slug": "moth-luna-card",
+        "GameId": "Moth Luna",
+        "DisplayName": "Moth Luna Card",
+        "Description": "A mystical moth that draws power from the moon, casting spells of mystery and enchantment.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Unholy",
+        "IsBoss": 0
+    },
+    "Moth Moon": {
+        "Slug": "moth-moon-card",
+        "GameId": "Moth Moon",
+        "DisplayName": "Moth Moon Card",
+        "Description": "A celestial moth that brings moonlit magic, able to summon lunar energy to protect or harm.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "Healing_10",
+                "Type": 67,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Cleric's",
+        "IsBoss": 0
+    },
+    "Mushroom": {
+        "Slug": "mushroom-card",
+        "GameId": "Mushroom",
+        "DisplayName": "Mushroom Card",
+        "Description": "A giant, toxic mushroom that can release spores to poison or confuse those who get too close.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "Matk_5",
+                "Type": 10,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Occult",
+        "IsBoss": 0
+    },
+    "Nightmare": {
+        "Slug": "nightmare-card",
+        "GameId": "Nightmare",
+        "DisplayName": "Nightmare Card",
+        "Description": "A terrifying creature that haunts the dreams of the living, bringing fear and nightmares to all.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Darkproof",
+        "IsBoss": 0
+    },
+    "Octopus Baby Blue": {
+        "Slug": "octopus-baby-blue-card",
+        "GameId": "Octopus Baby Blue",
+        "DisplayName": "Octopus Baby Blue Card",
+        "Description": "",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "FleeMult_5",
+                "Type": 77,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elusive",
+        "IsBoss": 0
+    },
+    "Octopus Baby Orange": {
+        "Slug": "octopus-baby-orange-card",
+        "GameId": "Octopus Baby Orange",
+        "DisplayName": "Octopus Baby Orange Card",
+        "Description": "",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "FleeMult_5",
+                "Type": 77,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elusive",
+        "IsBoss": 0
+    },
+    "Octopus Baby Purple": {
+        "Slug": "octopus-baby-purple-card",
+        "GameId": "Octopus Baby Purple",
+        "DisplayName": "Octopus Baby Purple Card",
+        "Description": "",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "FleeMult_5",
+                "Type": 77,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elusive",
+        "IsBoss": 0
+    },
+    "Octopus King Blue": {
+        "Slug": "octopus-king-blue-card",
+        "GameId": "Octopus King Blue",
+        "DisplayName": "Octopus King Blue Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "DamageMagic_5",
+                "Type": 48,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mind",
+        "IsBoss": 0
+    },
+    "Octopus King Orange": {
+        "Slug": "octopus-king-orange-card",
+        "GameId": "Octopus King Orange",
+        "DisplayName": "Octopus King Orange Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "DamageMelee_5",
+                "Type": 47,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Melee",
+        "IsBoss": 0
+    },
+    "Octopus King Purple": {
+        "Slug": "octopus-king-purple-card",
+        "GameId": "Octopus King Purple",
+        "DisplayName": "Octopus King Purple Card",
+        "Description": "",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "DamageRanged_5",
+                "Type": 102,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Ranged",
+        "IsBoss": 0
+    },
+    "Octopus Orange": {
+        "Slug": "octopus-orange-card",
+        "GameId": "Octopus Orange",
+        "DisplayName": "Octopus Orange Card",
+        "Description": "",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageStatus_5",
+                "Type": 142,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Status",
+        "IsBoss": 0
+    },
+    "Octopus Purple": {
+        "Slug": "octopus-purple-card",
+        "GameId": "Octopus Purple",
+        "DisplayName": "Octopus Purple Card",
+        "Description": "",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "DamageStatus_5",
+                "Type": 142,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Status",
+        "IsBoss": 0
+    },
+    "Octopus White": {
+        "Slug": "octopus-white-card",
+        "GameId": "Octopus White",
+        "DisplayName": "Octopus White Card",
+        "Description": "",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageStatus_5",
+                "Type": 142,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Status",
+        "IsBoss": 0
+    },
+    "Petal": {
+        "Slug": "petal-card",
+        "GameId": "Petal",
+        "DisplayName": "Petal Card",
+        "Description": "A delicate and beautiful creature made of petals, yet capable of unleashing deadly thorns.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_5",
+                "Type": 18,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Tidal",
+        "IsBoss": 0
+    },
+    "Phantom": {
+        "Slug": "phantom-card",
+        "GameId": "Phantom",
+        "DisplayName": "Phantom Card",
+        "Description": "A shadowy figure that haunts the land, vanishing as quickly as it appears, leaving only fear.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "MpCost_-15",
+                "Type": 90,
+                "Value": {
+                    "Value": -15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Arcanum",
+        "IsBoss": 0
+    },
+    "Plant Chewer": {
+        "Slug": "plant-chewer-card",
+        "GameId": "Plant Chewer",
+        "DisplayName": "Plant Chewer Card",
+        "Description": "A plant-eating creature with large teeth, capable of tearing through even the toughest foliage.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_20",
+                "Type": 53,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": "Neutral"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Immune",
+        "IsBoss": 0
+    },
+    "Poison Bomb": {
+        "Slug": "poison-bomb-card",
+        "GameId": "Poison Bomb",
+        "DisplayName": "Poison Bomb Card",
+        "Description": "A grotesque blob brimming with toxins, exploding into clouds of poisonous gas when provoked.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_5",
+                "Type": 71,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_5",
+                "Type": 72,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mystery",
+        "IsBoss": 0
+    },
+    "Pollen": {
+        "Slug": "pollen-card",
+        "GameId": "Pollen",
+        "DisplayName": "Pollen Card",
+        "Description": "A small, flying creature that spreads pollen to cause havoc, often disorienting its prey.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "Flee_15",
+                "Type": 14,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Elusive",
+        "IsBoss": 0
+    },
+    "Posy": {
+        "Slug": "posy-card",
+        "GameId": "Posy",
+        "DisplayName": "Posy Card",
+        "Description": "A small, innocent-looking flower creature, but don't be fooled, it's more dangerous than it seems.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "Icebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AutocastAttack_10",
+                "Type": 40,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Icebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Icy",
+        "IsBoss": 0
+    },
+    "Queen Worm": {
+        "Slug": "queen-worm-card",
+        "GameId": "Queen Worm",
+        "DisplayName": "Queen Worm Card",
+        "Description": "The monstrous queen of the worms, large and powerful, capable of commanding legions of smaller worms.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_1",
+                "Type": 42,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": "VenomCoating"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Toxic",
+        "IsBoss": 1
+    },
+    "Rabbit": {
+        "Slug": "rabbit-card",
+        "GameId": "Rabbit",
+        "DisplayName": "Rabbit Card",
+        "Description": "A swift and skittish creature, often seen hopping around in the wild, but not to be underestimated.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "MoveSpd_10",
+                "Type": 65,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Swift",
+        "IsBoss": 0
+    },
+    "Razor Robot": {
+        "Slug": "razor-robot-card",
+        "GameId": "Razor Robot",
+        "DisplayName": "Razor Robot Card",
+        "Description": "A machine bristling with blades, slicing through anything foolish enough to get close.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "AtkSpd_5",
+                "Type": 63,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MoveSpd_5",
+                "Type": 65,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Rapid",
+        "IsBoss": 0
+    },
+    "Scorpion King": {
+        "Slug": "scorpion-king-card",
+        "GameId": "Scorpion King",
+        "DisplayName": "Scorpion King Card",
+        "Description": "A massive scorpion with an oversized tail, its poison stronger and deadlier than its smaller kin.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_4",
+                "Type": 19,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Blazing",
+        "IsBoss": 1
+    },
+    "Scorpion": {
+        "Slug": "scorpion-card",
+        "GameId": "Scorpion",
+        "DisplayName": "Scorpion Card",
+        "Description": "A venomous arachnid with a deadly tail, lurking in the desert or other hostile environments.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Fireproof",
+        "IsBoss": 0
+    },
+    "Scorpling": {
+        "Slug": "scorpling-card",
+        "GameId": "Scorpling",
+        "DisplayName": "Scorpling Card",
+        "Description": "A baby scorpion that's quick and dangerous, often found in swarms to overwhelm its prey.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Fire"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Ashen",
+        "IsBoss": 0
+    },
+    "Seed": {
+        "Slug": "seed-card",
+        "GameId": "Seed",
+        "DisplayName": "Seed Card",
+        "Description": "A tiny but dangerous plant creature that grows rapidly, surrounding its prey with thorny vines.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "SpearThrust"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flurry",
+        "IsBoss": 0
+    },
+    "Shade": {
+        "Slug": "shade-card",
+        "GameId": "Shade",
+        "DisplayName": "Shade Card",
+        "Description": "A shadowy figure that seems to move with the darkness, capable of blending into any environment.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_5",
+                "Type": 71,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_5",
+                "Type": 72,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mystery",
+        "IsBoss": 0
+    },
+    "Shadow": {
+        "Slug": "shadow-card",
+        "GameId": "Shadow",
+        "DisplayName": "Shadow Card",
+        "Description": "A creature of darkness that is able to manipulate shadows, striking unseen from the gloom.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "AllStats_1",
+                "Type": 6,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpMult_5",
+                "Type": 71,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_5",
+                "Type": 72,
+                "Value": {
+                    "Value": 5,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mystery",
+        "IsBoss": 0
+    },
+    "Shell Robot": {
+        "Slug": "shell-robot-card",
+        "GameId": "Shell Robot",
+        "DisplayName": "Shell Robot Card",
+        "Description": "A heavily armored machine with a near-impenetrable shell, slow but unstoppable.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "AtkSpd_10",
+                "Type": 63,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Rapid",
+        "IsBoss": 0
+    },
+    "Shell": {
+        "Slug": "shell-card",
+        "GameId": "Shell",
+        "DisplayName": "Shell Card",
+        "Description": "A tough, armored creature that can retract into its shell, making it nearly invincible to attacks.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_10",
+                "Type": 53,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Neutral"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Immune",
+        "IsBoss": 0
+    },
+    "Skeleton Giant": {
+        "Slug": "skeleton-giant-card",
+        "GameId": "Skeleton Giant",
+        "DisplayName": "Skeleton Giant Card",
+        "Description": "A massive skeletal warrior that uses its size and strength to crush opponents with ease.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Sanctified",
+        "IsBoss": 0
+    },
+    "Skeleton Mage": {
+        "Slug": "skeleton-mage-card",
+        "GameId": "Skeleton Mage",
+        "DisplayName": "Skeleton Mage Card",
+        "Description": "A spellcasting skeleton, summoning dark magic to ensnare or destroy its enemies.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Grave",
+        "IsBoss": 0
+    },
+    "Skeleton": {
+        "Slug": "skeleton-card",
+        "GameId": "Skeleton",
+        "DisplayName": "Skeleton Card",
+        "Description": "A reanimated skeleton with the ability to wield weapons or fight bare-handed in death.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Sanctified",
+        "IsBoss": 0
+    },
+    "Snake Naga": {
+        "Slug": "snake-naga-card",
+        "GameId": "Snake Naga",
+        "DisplayName": "Snake Naga Card",
+        "Description": "A half-snake, half-human creature with powerful magic and deadly combat abilities.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DoubleAttack_50",
+                "Type": 80,
+                "Value": {
+                    "Value": 50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Twinfang",
+        "IsBoss": 1
+    },
+    "Snake": {
+        "Slug": "snake-card",
+        "GameId": "Snake",
+        "DisplayName": "Snake Card",
+        "Description": "A slithering serpent that strikes with venomous speed, often hiding in tall grass or dark corners.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "VenomStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AutocastAttack_10",
+                "Type": 40,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "VenomStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Venomous",
+        "IsBoss": 0
+    },
+    "Snakelet": {
+        "Slug": "snakelet-card",
+        "GameId": "Snakelet",
+        "DisplayName": "Snakelet Card",
+        "Description": "A small and sneaky serpent that hides in the underbrush, striking with venomous fangs.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "VenomStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Venomous",
+        "IsBoss": 0
+    },
+    "Snout Robot": {
+        "Slug": "snout-robot-card",
+        "GameId": "Snout Robot",
+        "DisplayName": "Snout Robot Card",
+        "Description": "A huffing, puffing contraption that blasts bursts of steam and smoke to suffocate foes.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "FirePillar"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Pillar",
+        "IsBoss": 0
+    },
+    "Snow Bomb": {
+        "Slug": "snow-bomb-card",
+        "GameId": "Snow Bomb",
+        "DisplayName": "Snow Bomb Card",
+        "Description": "A frosty creature packed with icy powder, ready to burst into a chilling explosion.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "MatkMult_4",
+                "Type": 70,
+                "Value": {
+                    "Value": 4,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Mind",
+        "IsBoss": 0
+    },
+    "Soul Mage": {
+        "Slug": "soul-mage-card",
+        "GameId": "Soul Mage",
+        "DisplayName": "Soul Mage Card",
+        "Description": "A mage who channels the power of souls, able to summon spirits to do its bidding.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "CastSpd_10",
+                "Type": 64,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wizardry",
+        "IsBoss": 0
+    },
+    "Soul": {
+        "Slug": "soul-card",
+        "GameId": "Soul",
+        "DisplayName": "Soul Card",
+        "Description": "A Elusive figure with no physical form, it haunts the living, draining energy from those it touches.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "SoulStrike"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Soul",
+        "IsBoss": 0
+    },
+    "Spider King": {
+        "Slug": "spider-king-card",
+        "GameId": "Spider King",
+        "DisplayName": "Spider King Card",
+        "Description": "The king of all spiders, with a larger, deadlier body and the ability to command arachnid minions.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_1",
+                "Type": 18,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Poisonous",
+        "IsBoss": 0
+    },
+    "Spider Queen Robot": {
+        "Slug": "spider-queen-card",
+        "GameId": "Spider Queen Robot",
+        "DisplayName": "Spider Queen Card",
+        "Description": "The metallic matriarch of mechanized spiders, spinning webs of steel and circuits.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Holy"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Unnatural",
+        "IsBoss": 1
+    },
+    "Spider Robot": {
+        "Slug": "spider-robot-card",
+        "GameId": "Spider Robot",
+        "DisplayName": "Spider Robot Card",
+        "Description": "A mechanical spider that scuttles with eerie precision, weaving metallic traps.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DoubleAttack_25",
+                "Type": 80,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Combo",
+        "IsBoss": 0
+    },
+    "Spider Toxin": {
+        "Slug": "spider-toxin-card",
+        "GameId": "Spider Toxin",
+        "DisplayName": "Spider Toxin Card",
+        "Description": "A particularly venomous spider, its bite causes intense pain and paralysis in its victims.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "BladeDance"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Dancing",
+        "IsBoss": 0
+    },
+    "Spider": {
+        "Slug": "spider-card",
+        "GameId": "Spider",
+        "DisplayName": "Spider Card",
+        "Description": "A venomous arachnid with eight legs and a penchant for building deadly webs to trap its prey.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "ShadowStep"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shadow",
+        "IsBoss": 0
+    },
+    "Spiderling Robot": {
+        "Slug": "spiderling-robot-card",
+        "GameId": "Spiderling Robot",
+        "DisplayName": "Spiderling Robot Card",
+        "Description": "Smaller but no less menacing, these tiny bots swarm in mechanical packs.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Poisonous",
+        "IsBoss": 0
+    },
+    "Spike Robot": {
+        "Slug": "spike-robot-card",
+        "GameId": "Spike Robot",
+        "DisplayName": "Spike Robot Card",
+        "Description": "A spiked machine that turns defense into offense\u2014get too close and you\u2019ll regret it.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "AtkSpd_10",
+                "Type": 63,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Rapid",
+        "IsBoss": 0
+    },
+    "Spike": {
+        "Slug": "spike-card",
+        "GameId": "Spike",
+        "DisplayName": "Spike Card",
+        "Description": "A creature covered in sharp, deadly spikes, making it a dangerous opponent at close range.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "IceShard"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Frosty",
+        "IsBoss": 0
+    },
+    "Spook": {
+        "Slug": "spook-card",
+        "GameId": "Spook",
+        "DisplayName": "Spook Card",
+        "Description": "A Elusive entity that frightens and disorients its prey, often causing them to panic.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "NoCastCancel_1",
+                "Type": 34,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Unbreaking",
+        "IsBoss": 0
+    },
+    "Spore": {
+        "Slug": "spore-card",
+        "GameId": "Spore",
+        "DisplayName": "Spore Card",
+        "Description": "A tiny creature that releases dangerous spores that can poison or confuse its victims.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "Hp_100",
+                "Type": 7,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "Vit_1",
+                "Type": 1,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vital",
+        "IsBoss": 0
+    },
+    "Sprout": {
+        "Slug": "sprout-card",
+        "GameId": "Sprout",
+        "DisplayName": "Sprout Card",
+        "Description": "A small, young plant creature that grows rapidly, using vines and roots to ensnare its enemies.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "GrantSkill_2",
+                "Type": 42,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": "Earthbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "AutocastAttack_10",
+                "Type": 40,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Earthbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Splintering",
+        "IsBoss": 0
+    },
+    "Sting": {
+        "Slug": "sting-card",
+        "GameId": "Sting",
+        "DisplayName": "Sting Card",
+        "Description": "A small but fierce creature that delivers powerful stings, often found in large swarms.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "AtkSpd_20",
+                "Type": 63,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Frenzy",
+        "IsBoss": 1
+    },
+    "Stinger Robot": {
+        "Slug": "stormstinger-card",
+        "GameId": "Stinger Robot",
+        "DisplayName": "Stormstinger Card",
+        "Description": "A buzzing machine armed with a piercing stinger, darting in and out like a mechanical wasp.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "MpRegenMult_100",
+                "Type": 76,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-50",
+                "Type": 72,
+                "Value": {
+                    "Value": -50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Wisdom",
+        "IsBoss": 0
+    },
+    "Sun Blossom": {
+        "Slug": "sun-blossom-card",
+        "GameId": "Sun Blossom",
+        "DisplayName": "Sun Blossom Card",
+        "Description": "A radiant creature that glows with the power of the sun, often used for healing or offensive light magic.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "Healing_15",
+                "Type": 67,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Enchanted",
+        "IsBoss": 0
+    },
+    "Sunflora Pixie": {
+        "Slug": "sunflora-pixie-card",
+        "GameId": "Sunflora Pixie",
+        "DisplayName": "Sunflora Pixie Card",
+        "Description": "A tiny fairy-like creature made of sunlight, capable of casting blinding beams of light.",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "StatusImmune_100",
+                "Type": 26,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "Silence"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Vocal",
+        "IsBoss": 1
+    },
+    "Sunflower Fairy": {
+        "Slug": "sunflower-fairy-card",
+        "GameId": "Sunflower Fairy",
+        "DisplayName": "Sunflower Fairy Card",
+        "Description": "A sun-dwelling fairy that controls sunlight, often brightening the area or unleashing solar magic.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Healing_15",
+                "Type": 67,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Blessed",
+        "IsBoss": 0
+    },
+    "Tentacles Robot": {
+        "Slug": "stormcoil-card",
+        "GameId": "Tentacles Robot",
+        "DisplayName": "Stormcoil Card",
+        "Description": "A writhing machine with steel tendrils, grabbing and crushing everything it can reach.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "MoveSpd_20",
+                "Type": 65,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpMult_-20",
+                "Type": 72,
+                "Value": {
+                    "Value": -20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Swift",
+        "IsBoss": 0
+    },
+    "Titan Turtle Sci Blue": {
+        "Slug": "hydro-turtle-card",
+        "GameId": "Titan Turtle Sci Blue",
+        "DisplayName": "Hydro Turtle Card",
+        "Description": "",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "FreezingField"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Freezing",
+        "IsBoss": 0
+    },
+    "Titan Turtle Sci Green": {
+        "Slug": "solar-turtle-card",
+        "GameId": "Titan Turtle Sci Green",
+        "DisplayName": "Solar Turtle Card",
+        "Description": "",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Meteor"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Meteoric",
+        "IsBoss": 0
+    },
+    "Titan Turtle Sci Pink": {
+        "Slug": "storm-turtle-card",
+        "GameId": "Titan Turtle Sci Pink",
+        "DisplayName": "Storm Turtle Card",
+        "Description": "",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Tempest"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Tempest",
+        "IsBoss": 0
+    },
+    "Toadstool": {
+        "Slug": "toadstool-card",
+        "GameId": "Toadstool",
+        "DisplayName": "Toadstool Card",
+        "Description": "A poisonous mushroom creature that releases spores capable of putting others to sleep or poisoning them.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Water"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Waterproof",
+        "IsBoss": 0
+    },
+    "Treant Forest Autumn": {
+        "Slug": "treant-forest-autumn-card",
+        "GameId": "Treant Forest Autumn",
+        "DisplayName": "Treant Forest Autumn Card",
+        "Description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "MpRegenMax_1",
+                "Type": 62,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpRegenMult_-50",
+                "Type": 75,
+                "Value": {
+                    "Value": -50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Autumn",
+        "IsBoss": 0
+    },
+    "Treant Forest Evergreen": {
+        "Slug": "treant-forest-evergreen-card",
+        "GameId": "Treant Forest Evergreen",
+        "DisplayName": "Treant Forest Evergreen Card",
+        "Description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "HpRegenMult_10",
+                "Type": 75,
+                "Value": {
+                    "Value": 0,
+                    "ValueLv": 10,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Evergreen",
+        "IsBoss": 0
+    },
+    "Treant Minion Autumn": {
+        "Slug": "treant-minion-autumn-card",
+        "GameId": "Treant Minion Autumn",
+        "DisplayName": "Treant Minion Autumn Card",
+        "Description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest.",
+        "EquipClass": 4,
+        "Stats": [
+            {
+                "Name": "Mp_20",
+                "Type": 8,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "MpRegenMult_25",
+                "Type": 76,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Autumn",
+        "IsBoss": 0
+    },
+    "Treant Minion Evergreen": {
+        "Slug": "treant-minion-evergreen-card",
+        "GameId": "Treant Minion Evergreen",
+        "DisplayName": "Treant Minion Evergreen Card",
+        "Description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "Hp_100",
+                "Type": 7,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HpRegenMult_25",
+                "Type": 75,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Evergreen",
+        "IsBoss": 0
+    },
+    "Treant Tree Autumn": {
+        "Slug": "treant-tree-autumn-card",
+        "GameId": "Treant Tree Autumn",
+        "DisplayName": "Treant Tree Autumn Card",
+        "Description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "MpMult_20",
+                "Type": 72,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Autumn",
+        "IsBoss": 0
+    },
+    "Treant Tree Evergreen": {
+        "Slug": "treant-tree-evergreen-card",
+        "GameId": "Treant Tree Evergreen",
+        "DisplayName": "Treant Tree Evergreen Card",
+        "Description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "HpMult_20",
+                "Type": 71,
+                "Value": {
+                    "Value": 20,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Evergreen",
+        "IsBoss": 0
+    },
+    "Turtle King": {
+        "Slug": "turtle-champion-card",
+        "GameId": "Turtle King",
+        "DisplayName": "Turtle Champion Card",
+        "Description": "",
+        "EquipClass": 2,
+        "Stats": [
+            {
+                "Name": "SkillDamage_15_2",
+                "Type": 49,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 2,
+                    "ValueStr": "TetraVortex"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "SkillCost_100",
+                "Type": 108,
+                "Value": {
+                    "Value": 100,
+                    "ValueLv": 0,
+                    "ValueStr": "TetraVortex"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Overload",
+        "IsBoss": 1
+    },
+    "Vampire Bat": {
+        "Slug": "vampire-bat-card",
+        "GameId": "Vampire Bat",
+        "DisplayName": "Vampire Bat Card",
+        "Description": "A bloodthirsty bat that hunts at night, draining the life force from those it catches.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "SiphonHp_10",
+                "Type": 176,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Leeching",
+        "IsBoss": 0
+    },
+    "Werewolf": {
+        "Slug": "werewolf-card",
+        "GameId": "Werewolf",
+        "DisplayName": "Werewolf Card",
+        "Description": "A fearsome beast that transforms from human to wolf, bringing devastation with its claws and teeth.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_2",
+                "Type": 19,
+                "Value": {
+                    "Value": 2,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Tainted",
+        "IsBoss": 1
+    },
+    "Whirlwind": {
+        "Slug": "whirlwind-card",
+        "GameId": "Whirlwind",
+        "DisplayName": "Whirlwind Card",
+        "Description": "A living funnel of air, whipping up storms and tossing its prey around like leaves.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Wind"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Grounding",
+        "IsBoss": 0
+    },
+    "Wind Mage": {
+        "Slug": "wind-mage-card",
+        "GameId": "Wind Mage",
+        "DisplayName": "Wind Mage Card",
+        "Description": "A mage who commands the winds, capable of summoning gusts to disorient or damage foes.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_6",
+                "Type": 18,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Gale",
+        "IsBoss": 0
+    },
+    "Wind": {
+        "Slug": "wind-card",
+        "GameId": "Wind",
+        "DisplayName": "Wind Card",
+        "Description": "A swift elemental spirit, swirling invisibly until its gusts send you flying off your feet.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "ThunderStorm"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Storm",
+        "IsBoss": 0
+    },
+    "Wisp Blue": {
+        "Slug": "wisp-blue-card",
+        "GameId": "Wisp Blue",
+        "DisplayName": "Wisp Blue Card",
+        "Description": "A pale blue flame that chills the bones as it drifts silently in the dark.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Icebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Icy",
+        "IsBoss": 0
+    },
+    "Wisp Purple": {
+        "Slug": "wisp-purple-card",
+        "GameId": "Wisp Purple",
+        "DisplayName": "Wisp Purple Card",
+        "Description": "A ghostly wisp of violet energy, unpredictable and eerie to behold.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Thunderbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Shocking",
+        "IsBoss": 0
+    },
+    "Wisp Red": {
+        "Slug": "wisp-red-card",
+        "GameId": "Wisp Red",
+        "DisplayName": "Wisp Red Card",
+        "Description": "A fiery spark that dances in the air, eager to set anything ablaze with its touch.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Firebolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Flaming",
+        "IsBoss": 0
+    },
+    "Wisp Yellow": {
+        "Slug": "wisp-yellow-card",
+        "GameId": "Wisp Yellow",
+        "DisplayName": "Wisp Yellow Card",
+        "Description": "A small floating flame of bright yellow energy, harmless-looking until it swarms.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "SkillDamage_10",
+                "Type": 49,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Earthbolt"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Splintering",
+        "IsBoss": 0
+    },
+    "Wolf Pup": {
+        "Slug": "wolf-pup-card",
+        "GameId": "Wolf Pup",
+        "DisplayName": "Wolf Pup Card",
+        "Description": "A young wolf that's learning to hunt, quick and agile but still not as deadly as its parents.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Umbral",
+        "IsBoss": 0
+    },
+    "Wolf": {
+        "Slug": "wolf-card",
+        "GameId": "Wolf",
+        "DisplayName": "Wolf Card",
+        "Description": "A swift, strong predator that hunts in packs, known for its loyalty and cunning.",
+        "EquipClass": 6,
+        "Stats": [
+            {
+                "Name": "DamageElement_6",
+                "Type": 46,
+                "Value": {
+                    "Value": 6,
+                    "ValueLv": 0,
+                    "ValueStr": "Shadow"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Umbral",
+        "IsBoss": 0
+    },
+    "Worm Creep": {
+        "Slug": "worm-creep-card",
+        "GameId": "Worm Creep",
+        "DisplayName": "Worm Creep Card",
+        "Description": "A giant, burrowing worm that tunnels underground, often causing havoc when it emerges.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_1",
+                "Type": 19,
+                "Value": {
+                    "Value": 1,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Poisonous",
+        "IsBoss": 1
+    },
+    "Worm Rot": {
+        "Slug": "worm-rot-card",
+        "GameId": "Worm Rot",
+        "DisplayName": "Worm Rot Card",
+        "Description": "A decayed, undead worm that slithers from the earth, leaving rot in its wake.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Toxinproof",
+        "IsBoss": 0
+    },
+    "Worm Stink": {
+        "Slug": "worm-stink-card",
+        "GameId": "Worm Stink",
+        "DisplayName": "Worm Stink Card",
+        "Description": "A foul-smelling worm that can incapacitate its enemies with its toxic, rotting stench.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "DamageToElement_10",
+                "Type": 44,
+                "Value": {
+                    "Value": 10,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Purging",
+        "IsBoss": 0
+    },
+    "Worm": {
+        "Slug": "worm-card",
+        "GameId": "Worm",
+        "DisplayName": "Worm Card",
+        "Description": "A smaller version of the giant worm, but still capable of surprising and overwhelming its prey.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "ElementResist_25",
+                "Type": 53,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": "Poison"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Toxinproof",
+        "IsBoss": 0
+    },
+    "Zombie Goblin Giant": {
+        "Slug": "zombie-goblin-giant-card",
+        "GameId": "Zombie Goblin Giant",
+        "DisplayName": "Zombie Goblin Giant Card",
+        "Description": "A massive goblin brought back in grotesque undeath, lumbering forward with rotten strength.",
+        "EquipClass": 0,
+        "Stats": [
+            {
+                "Name": "ElementWeapon_8",
+                "Type": 18,
+                "Value": {
+                    "Value": 8,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Undead",
+        "IsBoss": 0
+    },
+    "Zombie Goblin King": {
+        "Slug": "zombie-goblin-lord-card",
+        "GameId": "Zombie Goblin King",
+        "DisplayName": "Zombie Goblin Lord Card",
+        "Description": "Once a proud leader, now a rotting husk. This goblin king still commands fear through sheer undeath.",
+        "EquipClass": 5,
+        "Stats": [
+            {
+                "Name": "ElementArmor_8",
+                "Type": 19,
+                "Value": {
+                    "Value": 8,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Undead",
+        "IsBoss": 1
+    },
+    "Zombie Goblin Minion": {
+        "Slug": "zombie-goblin-minion-card",
+        "GameId": "Zombie Goblin Minion",
+        "DisplayName": "Zombie Goblin Minion Card",
+        "Description": "A mindless husk of a goblin, dragged back from death to serve once more in endless war.",
+        "EquipClass": 3,
+        "Stats": [
+            {
+                "Name": "ElementResist_15",
+                "Type": 53,
+                "Value": {
+                    "Value": 15,
+                    "ValueLv": 0,
+                    "ValueStr": "Undead"
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Purity",
+        "IsBoss": 0
+    },
+    "Zombie Goblin Soldier": {
+        "Slug": "zombie-goblin-soldier-card",
+        "GameId": "Zombie Goblin Soldier",
+        "DisplayName": "Zombie Goblin Soldier Card",
+        "Description": "A fallen goblin warrior reanimated, still clutching its crude weapon with decayed resolve.",
+        "EquipClass": 1,
+        "Stats": [
+            {
+                "Name": "HpMult_25",
+                "Type": 71,
+                "Value": {
+                    "Value": 25,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            },
+            {
+                "Name": "HealingReceived_-50",
+                "Type": 68,
+                "Value": {
+                    "Value": -50,
+                    "ValueLv": 0,
+                    "ValueStr": null
+                },
+                "Scaling": {
+                    "Name": null,
+                    "Type": 0,
+                    "Value": 0
+                }
+            }
+        ],
+        "Affix": "Undying",
+        "IsBoss": 0
+    }
+}
