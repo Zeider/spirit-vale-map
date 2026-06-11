@@ -109,3 +109,42 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .sk-reqs { color: var(--route); margin-top: 8px; }
 
 @media (max-width: 800px) { .build-body { flex-direction: column; } }
+
+/* Gear progression */
+.gear-progression { margin-top: 16px; border-top: 1px dashed var(--line); padding-top: 12px; }
+.stage-rail .label, .gear-loadout + .label { color: #9bf; }
+.stage-chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 10px; }
+.stage-chip { display: flex; align-items: center; gap: 6px; background: #161d2e; border: 1px solid var(--line); border-radius: 6px; padding: 5px 9px; cursor: pointer; font-size: 12px; }
+.stage-chip.on { border-color: var(--route); background: #2a2410; }
+.stage-chip button { background: none; border: 0; color: var(--muted); cursor: pointer; }
+.stage-add { background: transparent; border: 1px dashed var(--line); color: var(--muted); border-radius: 6px; padding: 5px 9px; cursor: pointer; font-size: 12px; }
+.gear-body { display: flex; gap: 12px; align-items: flex-start; }
+.gear-main { flex: 2; position: relative; }
+.gear-loadout { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.gear-slot { background: #161d2e; border: 1px solid var(--line); border-radius: 6px; padding: 6px; min-height: 52px; cursor: pointer; }
+.gear-slot.filled.changed { border-color: var(--on); background: #16241c; }
+.gear-slot.filled.carried { opacity: .65; }
+.gear-slot-label { font-size: 9px; color: #9bf; }
+.gear-slot-item { font-size: 11px; color: var(--text); margin-top: 2px; }
+.gear-slot-from { font-size: 9px; color: var(--muted); }
+.gear-picker { position: absolute; inset: 0; background: #0e1422; border: 1px solid var(--line); border-radius: 8px; padding: 8px; z-index: 5; display: flex; flex-direction: column; }
+.gear-picker-head { display: flex; gap: 6px; }
+.gear-picker-head input { flex: 1; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+.gear-picker-head button { background: #23304a; color: var(--text); border: 0; border-radius: 6px; padding: 5px 8px; cursor: pointer; font-size: 11px; }
+.gear-picker-list { list-style: none; margin: 6px 0 0; padding: 0; overflow: auto; max-height: 280px; }
+.gear-picker-list button { width: 100%; text-align: left; background: none; border: 0; color: var(--text); padding: 5px 6px; cursor: pointer; border-radius: 5px; font-size: 12px; }
+.gear-picker-list button:hover { background: #1a2236; }
+.item-detail { flex: 1; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 12px; }
+.item-detail.empty { color: var(--muted); }
+.item-detail h3 { margin: 0 0 6px; font-size: 14px; }
+.stat-line { margin: 1px 0; }
+.set-bonus { margin-top: 6px; color: var(--hub); }
+.src-list { list-style: none; margin: 4px 0; padding: 0; }
+.src-list li { padding: 1px 0; }
+.src-zone { color: var(--on); }
+.src-chance { color: var(--route); font-weight: 700; }
+.farm-btn { margin-top: 8px; background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+.farm-btn:disabled { opacity: .4; cursor: default; }
+.gear-empty { margin: 10px 0; }
+
+@media (max-width: 800px) { .gear-body { flex-direction: column; } .gear-loadout { grid-template-columns: repeat(2, 1fr); } }
