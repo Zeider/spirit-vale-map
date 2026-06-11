@@ -2,6 +2,7 @@ import { useStore } from '../state/store.jsx';
 import ClassPicker from './ClassPicker.jsx';
 import SkillTree from './SkillTree.jsx';
 import SkillDetail from './SkillDetail.jsx';
+import GearProgression from './GearProgression.jsx';
 
 export default function BuildView() {
   const { state } = useStore();
@@ -17,6 +18,7 @@ export default function BuildView() {
           <div className="trees">
             <SkillTree classSlug={baseClass} tree="base" />
             {advancedClass && <SkillTree classSlug={advancedClass} tree="advanced" />}
+            <GearProgression />
           </div>
           <SkillDetail skillId={state.selectedSkillId} />
         </div>
