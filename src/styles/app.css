@@ -27,6 +27,9 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .hotspot.lvl-hub { border-color: var(--hub); background: rgba(124,178,252,.12); }
 .hotspot.in-route { box-shadow: 0 0 0 2px var(--route) inset; }
 .hotspot.selected { border-color: #fff; box-shadow: 0 0 12px rgba(255,255,255,.5); }
+/* Tiles that exist in the live game but aren't in our data snapshot yet */
+.hotspot.pending { border-style: dashed; border-color: var(--muted); opacity: .8; }
+.badge.pending { color: var(--muted); border: 1px dashed var(--muted); background: transparent; }
 
 .route-rail { flex: 1; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
 .route-rail h2 { font-size: 13px; margin: 0 0 8px; }

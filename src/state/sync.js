@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { encodeState, decodeState } from './url.js';
-import { keepKnownIds } from '../data/zones-index.js';
+import { keepKnownTileIds } from '../data/map-tiles.js';
 
 const LS_KEY = 'sva.state.v1';
 
@@ -11,7 +11,7 @@ export function loadInitialState() {
   if (!window.location.search && localStorage.getItem(LS_KEY)) {
     try { base = { ...base, ...JSON.parse(localStorage.getItem(LS_KEY)) }; } catch { /* ignore */ }
   }
-  return { playerLevel: base.playerLevel ?? 1, route: keepKnownIds(base.route || []) };
+  return { playerLevel: base.playerLevel ?? 1, route: keepKnownTileIds(base.route || []) };
 }
 
 // Persist level+route to URL (replaceState) and localStorage whenever they change.

@@ -1,6 +1,5 @@
 import { useStore } from '../state/store.jsx';
-import { subZoneById } from '../data/zones-index.js';
-import { hotspots } from '../data/hotspots.js';
+import { mapTiles, tileById } from '../data/map-tiles.js';
 import { classifyLevel } from '../logic/levels.js';
 
 export default function MapView() {
@@ -8,8 +7,8 @@ export default function MapView() {
   const { playerLevel, route, selectedZoneId } = state;
 
   const center = (id) => {
-    const h = hotspots[id];
-    return h ? { cx: h.x + h.w / 2, cy: h.y + h.h / 2 } : null;
+    const t = tileById[id];
+    return t ? { cx: t.x + t.w / 2, cy: t.y + t.h / 2 } : null;
   };
   const routePoints = route.map(center).filter(Boolean);
 
@@ -24,28 +23,20 @@ export default function MapView() {
           />
         )}
       </svg>
-      {Object.entries(hotspots).map(([id, h]) => {
-        const z = subZoneById[id];
-        if (!z) return null;
-        const cls = z.isHub ? 'hub' : classifyLevel(z.minLevel, z.maxLevel, playerLevel);
-        const inRoute = route.includes(id);
-        const selected = selectedZoneId === id;
-
-        // Labels stay unique across same-named sub-zones because the level band differs
-        // (e.g. the 4 Forest Labyrinth tiles read "... level 6 to 10", "... 11 to 15", ...).
-        const ariaLabel = z.isHub
-          ? `${z.name} hub`
-          : `${z.name} level ${z.minLevel} to ${z.maxLevel}`;
-
+      {mapTiles.map((t) => {
+        const cls = t.isHub ? 'hub' : classifyLevel(t.minLevel, t.maxLevel, playerLevel);
+        const inRoute = route.includes(t.id);
+        const selected = selectedZoneId === t.id;
+        const pending = t.zoneId === null && !t.isHub;
         return (
           <button
-            key={id}
-            className={`hotspot lvl-${cls}${inRoute ? ' in-route' : ''}${selected ? ' selected' : ''}`}
-            style={{ left: `${h.x}%`, top: `${h.y}%`, width: `${h.w}%`, height: `${h.h}%` }}
-            title={z.isHub ? `${z.name} (hub)` : `${z.name} · Lv ${z.minLevel}-${z.maxLevel}`}
-            aria-label={ariaLabel}
+            key={t.id}
+            className={`hotspot lvl-${cls}${inRoute ? ' in-route' : ''}${selected ? ' selected' : ''}${pending ? ' pending' : ''}`}
+            style={{ left: `${t.x}%`, top: `${t.y}%`, width: `${t.w}%`, height: `${t.h}%` }}
+            title={t.isHub ? `${t.name} (hub)` : `${t.name} · Lv ${t.minLevel}-${t.maxLevel}${pending ? ' · drops pending' : ''}`}
+            aria-label={`${t.name} ${t.isHub ? 'hub' : `level ${t.minLevel} to ${t.maxLevel}`}`}
             aria-pressed={selected}
-            onClick={() => dispatch({ type: 'select', id })}
+            onClick={() => dispatch({ type: 'select', id: t.id })}
           />
         );
       })}

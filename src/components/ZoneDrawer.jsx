@@ -1,4 +1,5 @@
 import { useStore } from '../state/store.jsx';
+import { tileById } from '../data/map-tiles.js';
 import { subZoneById } from '../data/zones-index.js';
 
 const TYPE_LABELS = {
@@ -8,33 +9,37 @@ const TYPE_LABELS = {
 
 export default function ZoneDrawer() {
   const { state, dispatch } = useStore();
-  const zone = state.selectedZoneId ? subZoneById[state.selectedZoneId] : null;
+  const tile = state.selectedZoneId ? tileById[state.selectedZoneId] : null;
 
-  if (!zone) {
+  if (!tile) {
     return <div className="zone-drawer empty"><p>Select a zone on the map to see its drops.</p></div>;
   }
 
-  const inRoute = state.route.includes(zone.id);
-  const drops = state.dropFilter === 'all' ? zone.drops : zone.drops.filter((d) => d.type === state.dropFilter);
+  const zone = tile.zoneId ? subZoneById[tile.zoneId] : null;
+  const inRoute = state.route.includes(tile.id);
+  const drops = zone
+    ? (state.dropFilter === 'all' ? zone.drops : zone.drops.filter((d) => d.type === state.dropFilter))
+    : [];
 
   return (
     <div className="zone-drawer">
       <div className="zone-drawer-head">
-        <h2>{zone.name}</h2>
-        {zone.isHub ? (
+        <h2>{tile.name}</h2>
+        {tile.isHub ? (
           <span className="badge hub">Hub — no monsters</span>
         ) : (
           <>
-            <span className="badge">Lv {zone.minLevel}–{zone.maxLevel}</span>
-            {zone.boss && <span className="badge boss">Boss: {zone.boss}</span>}
-            <button onClick={() => dispatch({ type: inRoute ? 'removeFromRoute' : 'addToRoute', id: zone.id })}>
+            <span className="badge">Lv {tile.minLevel}–{tile.maxLevel}</span>
+            {zone?.boss && <span className="badge boss">Boss: {zone.boss}</span>}
+            {!zone && <span className="badge pending">Drops pending</span>}
+            <button onClick={() => dispatch({ type: inRoute ? 'removeFromRoute' : 'addToRoute', id: tile.id })}>
               {inRoute ? 'Remove from route' : '+ Add to route'}
             </button>
           </>
         )}
       </div>
 
-      {!zone.isHub && (
+      {!tile.isHub && (zone ? (
         <div className="zone-drawer-body">
           <div className="monsters">
             <h3>Monsters ({zone.monsters.length})</h3>
@@ -58,7 +63,14 @@ export default function ZoneDrawer() {
             )}
           </div>
         </div>
-      )}
+      ) : (
+        <div className="zone-drawer-body">
+          <p className="muted">
+            Drop data for this zone isn’t in the v0.13.1 snapshot — it was added to the game after
+            our data was captured. It’ll appear automatically when the next data update lands.
+          </p>
+        </div>
+      ))}
     </div>
   );
 }
