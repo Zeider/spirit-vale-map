@@ -33,7 +33,9 @@ This is Phase 1 of a larger map-centric planner. Phases 2–4 (class/skill build
 ## 3. Data
 
 ### 3.1 Source
-Game data from **`RandomGuy5555/SpiritValeInfo`** → `example-data/game/*.json` (game **v0.13.1**), vendored into `data/raw/`. Map art (`world-map.webp`) from **spiritvalemarket.com**, trimmed to `assets/world-map.png` (1178×846).
+Game data from **`RandomGuy5555/SpiritValeInfo`** → `example-data/game/*.json` (game **v0.13.1**, snapshot 2026-02-26), vendored into `data/raw/`. Map art (`world-map.webp`) from **spiritvalemarket.com**, trimmed to `assets/world-map.png` (1178×846).
+
+> **Data freshness:** the live game is ahead of 0.13.1, but the repo maintainer (RandomGuy, who is involved with the game itself) has indicated an **updated data snapshot is coming soon to this same repo**. We build on 0.13.1 now; the refresh path is a first-class, documented workflow — replace `data/raw/*.json`, run `npm run data`, done. The current `gameVersion` is surfaced in the UI footer so users know which build the planner reflects.
 
 Raw files used in Phase 1:
 - `maps.json` — zones: `MonsterMinLevel`/`MonsterMaxLevel`, `MonsterPool[]`, `BossMonster`, `DisplayName`, `Slug`.
