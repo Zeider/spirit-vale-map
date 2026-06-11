@@ -54,3 +54,13 @@ export const mapTiles = [
 
 export const tileById = Object.fromEntries(mapTiles.map((t) => [t.id, t]));
 export const keepKnownTileIds = (ids) => ids.filter((id) => tileById[id]);
+
+const tileByNameLevel = Object.fromEntries(mapTiles.map((t) => [`${t.name}|${t.minLevel}`, t]));
+const tileByName = {};
+for (const t of mapTiles) if (!(t.name in tileByName)) tileByName[t.name] = t;
+
+// Resolve a catalog drop-zone (name + minLevel) to a map tile. Exact name+level
+// first, then name-only (handles version-shifted level bands). null if unknown.
+export function resolveTile(zoneName, minLevel) {
+  return tileByNameLevel[`${zoneName}|${minLevel}`] || tileByName[zoneName] || null;
+}
