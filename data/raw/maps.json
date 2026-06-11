@@ -1,0 +1,648 @@
+{
+    "Castle Crypt": {
+        "Slug": "abyss-castle-crypt",
+        "GameId": "Castle Crypt",
+        "DisplayName": "Abyss Castle Crypt",
+        "Description": "The Abyss",
+        "MonsterMinLevel": 106,
+        "MonsterMaxLevel": 110,
+        "MonsterPool": [
+            "Eyeball Creep Blue",
+            "Eyeball Creep Green",
+            "Eyeball Creep Red",
+            "Direwolf"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Castle Keep": {
+        "Slug": "abyss-castle-keep",
+        "GameId": "Castle Keep",
+        "DisplayName": "Abyss Castle Keep",
+        "Description": "The Abyss",
+        "MonsterMinLevel": 101,
+        "MonsterMaxLevel": 105,
+        "MonsterPool": [
+            "Cyclops Bat",
+            "Death",
+            "Cyclops Bat Wizard",
+            "Skeleton Mage",
+            "Skeleton Giant"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Castle Library": {
+        "Slug": "abyss-castle-library",
+        "GameId": "Castle Library",
+        "DisplayName": "Abyss Castle Library",
+        "Description": null,
+        "MonsterMinLevel": 111,
+        "MonsterMaxLevel": 115,
+        "MonsterPool": [
+            "Nightmare",
+            "Cyclops Bat Mage",
+            "Eyeball Mage Blue",
+            "Eyeball Mage Green",
+            "Eyeball Mage Red"
+        ],
+        "BossMonster": "Death Mage",
+        "BossRespawnInterval": 3600
+    },
+    "Cemetery": {
+        "Slug": "festering-woods",
+        "GameId": "Cemetery",
+        "DisplayName": "Festering Woods",
+        "Description": null,
+        "MonsterMinLevel": 21,
+        "MonsterMaxLevel": 25,
+        "MonsterPool": [
+            "Eyeball Bat Blue",
+            "Eyeball Bat Green",
+            "Eyeball Bat Red",
+            "Wolf Pup",
+            "Skeleton",
+            "Wolf"
+        ],
+        "BossMonster": "Werewolf",
+        "BossRespawnInterval": 3600
+    },
+    "Dark Forest": {
+        "Slug": "dark-forest",
+        "GameId": "Dark Forest",
+        "DisplayName": "Dark Forest",
+        "Description": null,
+        "MonsterMinLevel": 91,
+        "MonsterMaxLevel": 95,
+        "MonsterPool": [
+            "Alien Spike",
+            "Jellyfish Robot",
+            "Alien Sporella",
+            "Alien Cyclops",
+            "Alien Wheel",
+            "Stinger Robot",
+            "Alien Biteroot"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Demon's Maw": {
+        "Slug": "demon-s-maw",
+        "GameId": "Demon's Maw",
+        "DisplayName": "Demon's Maw",
+        "Description": "Overlord",
+        "MonsterMinLevel": 96,
+        "MonsterMaxLevel": 100,
+        "MonsterPool": [
+            "Fire",
+            "Imp Mischief",
+            "Dragon Spark",
+            "Flame",
+            "Imp Demon",
+            "Dragon Fire",
+            "Shade",
+            "Elder Wisp Yellow",
+            "Fire Mage",
+            "Dragon Inferno",
+            "Shadow",
+            "Golem Fire"
+        ],
+        "BossMonster": "Imp Devil",
+        "BossRespawnInterval": 3600
+    },
+    "Desert Field 1": {
+        "Slug": "windy-desert",
+        "GameId": "Desert Field 1",
+        "DisplayName": "Windy Desert",
+        "Description": "Last Stand",
+        "MonsterMinLevel": 21,
+        "MonsterMaxLevel": 25,
+        "MonsterPool": [
+            "Whirlwind",
+            "Glow Wisp Purple",
+            "Wind",
+            "Cat Lightning",
+            "Wind Mage"
+        ],
+        "BossMonster": "Cat Bolt",
+        "BossRespawnInterval": 3600
+    },
+    "Desert Field 2": {
+        "Slug": "windy-desert",
+        "GameId": "Desert Field 2",
+        "DisplayName": "Windy Desert",
+        "Description": "Last Stand",
+        "MonsterMinLevel": 26,
+        "MonsterMaxLevel": 30,
+        "MonsterPool": [
+            "Scorpling",
+            "Mole Rat",
+            "Scorpion",
+            "Dog Bowwow",
+            "Mole Rat King"
+        ],
+        "BossMonster": "Scorpion King",
+        "BossRespawnInterval": 3600
+    },
+    "Desert Field 3": {
+        "Slug": "windy-desert",
+        "GameId": "Desert Field 3",
+        "DisplayName": "Windy Desert",
+        "Description": "Last Stand",
+        "MonsterMinLevel": 26,
+        "MonsterMaxLevel": 30,
+        "MonsterPool": [
+            "Cacti",
+            "Spore",
+            "Cactus",
+            "Plant Chewer",
+            "Golem Earth"
+        ],
+        "BossMonster": "Cactus Boss",
+        "BossRespawnInterval": 3600
+    },
+    "Dungeon Boss": {
+        "Slug": "forgotten-depths",
+        "GameId": "Dungeon Boss",
+        "DisplayName": "Forgotten Depths",
+        "Description": "Lethaldose",
+        "MonsterMinLevel": 46,
+        "MonsterMaxLevel": 50,
+        "MonsterPool": [
+            "Vampire Bat",
+            "Snake",
+            "Spider King",
+            "Horror"
+        ],
+        "BossMonster": "Bat Lord",
+        "BossRespawnInterval": 3600
+    },
+    "Dungeon Outside": {
+        "Slug": "forgotten-depths",
+        "GameId": "Dungeon Outside",
+        "DisplayName": "Forgotten Depths",
+        "Description": "Lethaldose",
+        "MonsterMinLevel": 41,
+        "MonsterMaxLevel": 45,
+        "MonsterPool": [
+            "Bat",
+            "Spider",
+            "Lurker",
+            "Snakelet",
+            "Spider Toxin",
+            "Creeper"
+        ],
+        "BossMonster": "Snake Naga",
+        "BossRespawnInterval": 3600
+    },
+    "Enchanted Forest": {
+        "Slug": "fairy-glen",
+        "GameId": "Enchanted Forest",
+        "DisplayName": "Fairy Glen",
+        "Description": "Fairy",
+        "MonsterMinLevel": 31,
+        "MonsterMaxLevel": 35,
+        "MonsterPool": [
+            "Moth Luna",
+            "Sun Blossom",
+            "Butterfly Fairy",
+            "Glow Wisp Yellow",
+            "Moth Moon",
+            "Sunflower Fairy",
+            "Butterfly Pixie",
+            "Moth Celestial"
+        ],
+        "BossMonster": "Sunflora Pixie",
+        "BossRespawnInterval": 3600
+    },
+    "Forest Field 1": {
+        "Slug": "sunny-meadows",
+        "GameId": "Forest Field 1",
+        "DisplayName": "Sunny Meadows",
+        "Description": "Luminosity",
+        "MonsterMinLevel": 1,
+        "MonsterMaxLevel": 5,
+        "MonsterPool": [
+            "Pollen",
+            "Wisp Red",
+            "Bunny",
+            "Chick",
+            "Egg"
+        ],
+        "BossMonster": "Hare",
+        "BossRespawnInterval": 3600
+    },
+    "Forest Field 2": {
+        "Slug": "treant-trail",
+        "GameId": "Forest Field 2",
+        "DisplayName": "Treant Trail",
+        "Description": "Luminosity",
+        "MonsterMinLevel": 5,
+        "MonsterMaxLevel": 9,
+        "MonsterPool": [
+            "Wisp Yellow",
+            "Treant Minion Autumn",
+            "Treant Minion Evergreen",
+            "Treant Tree Autumn",
+            "Treant Tree Evergreen",
+            "Treant Forest Autumn",
+            "Treant Forest Evergreen"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Forge": {
+        "Slug": "the-forge",
+        "GameId": "Forge",
+        "DisplayName": "The Forge",
+        "Description": "Overlord",
+        "MonsterMinLevel": 126,
+        "MonsterMaxLevel": 130,
+        "MonsterPool": [
+            "Razor Robot",
+            "Shell Robot",
+            "Spike Robot",
+            "Spiderling Robot",
+            "Nozzle Robot",
+            "Spider Robot",
+            "Nose Robot",
+            "Delivery Robot",
+            "Snout Robot",
+            "Boxy Robot",
+            "Gripper Robot"
+        ],
+        "BossMonster": "Spider Queen Robot",
+        "BossRespawnInterval": 3600
+    },
+    "Goblin Cave": {
+        "Slug": "goblin-cave",
+        "GameId": "Goblin Cave",
+        "DisplayName": "Goblin Cave",
+        "Description": "Object Declaration",
+        "MonsterMinLevel": 51,
+        "MonsterMaxLevel": 55,
+        "MonsterPool": [
+            "Zombie Goblin Minion",
+            "Zombie Goblin Soldier",
+            "Zombie Goblin Giant"
+        ],
+        "BossMonster": "Zombie Goblin King",
+        "BossRespawnInterval": 3600
+    },
+    "Goblin Village": {
+        "Slug": "goblin-village",
+        "GameId": "Goblin Village",
+        "DisplayName": "Goblin Village",
+        "Description": "Object Declaration",
+        "MonsterMinLevel": 56,
+        "MonsterMaxLevel": 60,
+        "MonsterPool": [
+            "Goblin Minion",
+            "Goblin Trooper Assassin",
+            "Goblin Trooper Mage",
+            "Goblin Trooper",
+            "Goblin Trooper Soldier",
+            "Goblin Giant Mage",
+            "Goblin Giant",
+            "Goblin Giant Devil"
+        ],
+        "BossMonster": "Goblin Giant Gold",
+        "BossRespawnInterval": 3600
+    },
+    "Goblin Warcamp": {
+        "Slug": "goblin-warcamp",
+        "GameId": "Goblin Warcamp",
+        "DisplayName": "Goblin Warcamp",
+        "Description": null,
+        "MonsterMinLevel": 116,
+        "MonsterMaxLevel": 120,
+        "MonsterPool": [
+            "Goblin Warlock",
+            "Goblin Warblade",
+            "Goblin Warcrusher"
+        ],
+        "BossMonster": "Goblin Warchief",
+        "BossRespawnInterval": 3600
+    },
+    "Ice Cave": {
+        "Slug": "crystal-cave",
+        "GameId": "Ice Cave",
+        "DisplayName": "Crystal Cave",
+        "Description": "Passed Away",
+        "MonsterMinLevel": 66,
+        "MonsterMaxLevel": 70,
+        "MonsterPool": [
+            "Ice",
+            "Snow Bomb",
+            "Dragon Water",
+            "Cyclops Minion",
+            "Icicle",
+            "Dragon Ice",
+            "Cyclops",
+            "Elder Wisp Blue",
+            "Dragon Blizzard",
+            "Cyclops Giant",
+            "Golem Ice"
+        ],
+        "BossMonster": "Ice Mage",
+        "BossRespawnInterval": 3600
+    },
+    "Ice Field": {
+        "Slug": "starfall-tundra",
+        "GameId": "Ice Field",
+        "DisplayName": "Starfall Tundra",
+        "Description": "Passed Away",
+        "MonsterMinLevel": 131,
+        "MonsterMaxLevel": 135,
+        "MonsterPool": [
+            "Alien Star",
+            "Mini Ice Bear A",
+            "Mini Ice Bear B",
+            "Ice Starflake A",
+            "Ice Starflake B",
+            "Ice Starflake C",
+            "Ice Bear A",
+            "Ice Bear B",
+            "Alien Twinkle"
+        ],
+        "BossMonster": "Mega Ice Golem",
+        "BossRespawnInterval": 3600
+    },
+    "Island Dungeon": {
+        "Slug": "turtle-nexus",
+        "GameId": "Island Dungeon",
+        "DisplayName": "Turtle Nexus",
+        "Description": null,
+        "MonsterMinLevel": 131,
+        "MonsterMaxLevel": 135,
+        "MonsterPool": [
+            "Octopus King Blue",
+            "Octopus King Orange",
+            "Octopus King Purple",
+            "Titan Turtle Sci Green",
+            "Titan Turtle Sci Blue",
+            "Titan Turtle Sci Pink"
+        ],
+        "BossMonster": "Turtle King",
+        "BossRespawnInterval": 3600
+    },
+    "Island": {
+        "Slug": "stormreef-isle",
+        "GameId": "Island",
+        "DisplayName": "Stormreef Isle",
+        "Description": null,
+        "MonsterMinLevel": 61,
+        "MonsterMaxLevel": 65,
+        "MonsterPool": [
+            "Shark Baby",
+            "Turtle",
+            "Turtle Monster Blue",
+            "Turtle Monster Green",
+            "Turtle Monster Red",
+            "Shark Humanoid"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Labyrinth 1": {
+        "Slug": "forest-labyrinth",
+        "GameId": "Labyrinth 1",
+        "DisplayName": "Forest Labyrinth",
+        "Description": "Tabithas",
+        "MonsterMinLevel": 6,
+        "MonsterMaxLevel": 10,
+        "MonsterPool": [
+            "Bee",
+            "Seed",
+            "Cat Meow",
+            "Dog Pup"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Labyrinth 2": {
+        "Slug": "forest-labyrinth",
+        "GameId": "Labyrinth 2",
+        "DisplayName": "Forest Labyrinth",
+        "Description": "Tabithas",
+        "MonsterMinLevel": 11,
+        "MonsterMaxLevel": 15,
+        "MonsterPool": [
+            "Wisp Blue",
+            "Fledgling",
+            "Dog Bark",
+            "Bird"
+        ],
+        "BossMonster": "Sting",
+        "BossRespawnInterval": 3600
+    },
+    "Labyrinth 3": {
+        "Slug": "forest-labyrinth",
+        "GameId": "Labyrinth 3",
+        "DisplayName": "Forest Labyrinth",
+        "Description": "Tabithas",
+        "MonsterMinLevel": 16,
+        "MonsterMaxLevel": 20,
+        "MonsterPool": [
+            "Burrow",
+            "Bumble",
+            "Rabbit",
+            "Sprout"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Labyrinth 4": {
+        "Slug": "forest-labyrinth",
+        "GameId": "Labyrinth 4",
+        "DisplayName": "Forest Labyrinth",
+        "Description": "Tabithas",
+        "MonsterMinLevel": 21,
+        "MonsterMaxLevel": 25,
+        "MonsterPool": [
+            "Butterfly Hue",
+            "Wisp Purple",
+            "Egglet",
+            "Flower Pot Monster"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Mystic Lake": {
+        "Slug": "mystic-lake",
+        "GameId": "Mystic Lake",
+        "DisplayName": "Mystic Lake",
+        "Description": "Silver",
+        "MonsterMinLevel": 31,
+        "MonsterMaxLevel": 35,
+        "MonsterPool": [
+            "Posy",
+            "Shell",
+            "Mushroom",
+            "Glow Wisp Blue",
+            "Flora",
+            "Fungi",
+            "Spike",
+            "Petal",
+            "Toadstool"
+        ],
+        "BossMonster": "Hermit King",
+        "BossRespawnInterval": 3600
+    },
+    "Nevaris": {
+        "Slug": "nevaris",
+        "GameId": "Nevaris",
+        "DisplayName": "Nevaris",
+        "Description": null,
+        "MonsterMinLevel": 0,
+        "MonsterMaxLevel": 0,
+        "MonsterPool": [],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Night Garden": {
+        "Slug": "night-garden",
+        "GameId": "Night Garden",
+        "DisplayName": "Night Garden",
+        "Description": null,
+        "MonsterMinLevel": 126,
+        "MonsterMaxLevel": 130,
+        "MonsterPool": [
+            "Alien One Eye",
+            "Alien Wreck",
+            "Tentacles Robot",
+            "Alien Plant"
+        ],
+        "BossMonster": "Alien Big Blink",
+        "BossRespawnInterval": 3600
+    },
+    "Poison Cave": {
+        "Slug": "underground-cavern",
+        "GameId": "Poison Cave",
+        "DisplayName": "Underground Cavern",
+        "Description": "Cavewinds",
+        "MonsterMinLevel": 86,
+        "MonsterMaxLevel": 90,
+        "MonsterPool": [
+            "Bud",
+            "Poison Bomb",
+            "Worm Stink",
+            "Worm Rot",
+            "Bloom",
+            "Elder Wisp Purple",
+            "Blossom"
+        ],
+        "BossMonster": "Worm Creep",
+        "BossRespawnInterval": 3600
+    },
+    "Port Town": {
+        "Slug": "wayfarer-s-landing",
+        "GameId": "Port Town",
+        "DisplayName": "Wayfarer's Landing",
+        "Description": null,
+        "MonsterMinLevel": 0,
+        "MonsterMaxLevel": 0,
+        "MonsterPool": [],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Sanctum Inner": {
+        "Slug": "sanctum-of-light",
+        "GameId": "Sanctum Inner",
+        "DisplayName": "Sanctum of Light",
+        "Description": "Intertwined",
+        "MonsterMinLevel": 76,
+        "MonsterMaxLevel": 80,
+        "MonsterPool": [
+            "Angel",
+            "Ghost",
+            "Dragon Dusk",
+            "Soul",
+            "Archangel",
+            "Dragon Nightfall",
+            "Haunt"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Sanctum Throne": {
+        "Slug": "sanctum-of-light",
+        "GameId": "Sanctum Throne",
+        "DisplayName": "Sanctum of Light",
+        "Description": "Intertwined",
+        "MonsterMinLevel": 81,
+        "MonsterMaxLevel": 85,
+        "MonsterPool": [
+            "Bomb",
+            "Spook",
+            "Phantom",
+            "Dragon Darkness",
+            "Soul Mage"
+        ],
+        "BossMonster": "Angel Mage",
+        "BossRespawnInterval": 3600
+    },
+    "Swamp Wilderness": {
+        "Slug": "swamp-wilderness",
+        "GameId": "Swamp Wilderness",
+        "DisplayName": "Swamp Wilderness",
+        "Description": null,
+        "MonsterMinLevel": 71,
+        "MonsterMaxLevel": 75,
+        "MonsterPool": [
+            "Earthworm",
+            "Worm",
+            "Dragonfly Swift",
+            "Housefly Junk",
+            "Mosquito Stinger"
+        ],
+        "BossMonster": "Queen Worm",
+        "BossRespawnInterval": 3600
+    },
+    "Swamp": {
+        "Slug": "swamp",
+        "GameId": "Swamp",
+        "DisplayName": "Swamp",
+        "Description": "Hell Spawn",
+        "MonsterMinLevel": 36,
+        "MonsterMaxLevel": 40,
+        "MonsterPool": [
+            "Dragonfly Arrow",
+            "Housefly Icky",
+            "Mosquito Bug",
+            "Dragonfly Darner",
+            "Housefly Nom",
+            "Mosquito Pester"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    },
+    "Water Dungeon": {
+        "Slug": "sunken-depths",
+        "GameId": "Water Dungeon",
+        "DisplayName": "Sunken Depths",
+        "Description": null,
+        "MonsterMinLevel": 121,
+        "MonsterMaxLevel": 125,
+        "MonsterPool": [
+            "FIsh Blue",
+            "Fish Pink",
+            "Fish Yellow",
+            "Octopus Baby Blue",
+            "Octopus Baby Orange",
+            "Octopus Baby Purple",
+            "Fish Man Blue",
+            "Fish Man Pink",
+            "Fish Man Yellow",
+            "Shark",
+            "Octopus Orange",
+            "Octopus Purple",
+            "Octopus White",
+            "Fish Merman Blue",
+            "Fish Merman Pink",
+            "Fish Merman Yellow"
+        ],
+        "BossMonster": null,
+        "BossRespawnInterval": 3600
+    }
+}

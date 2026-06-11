@@ -1,0 +1,218 @@
+{
+    "Antique Teacup": {
+        "Slug": "antique-teacup",
+        "GameId": "Antique Teacup",
+        "DisplayName": "Antique Teacup",
+        "Description": "A vintage teacup with delicate patterns, holding the echoes of many warm conversations and sips of tea."
+    },
+    "Ash": {
+        "Slug": "ash",
+        "GameId": "Ash",
+        "DisplayName": "Ash",
+        "Description": "The soft, powdery remnants of a fire that once burned brightly."
+    },
+    "Azurite": {
+        "Slug": "azurite",
+        "GameId": "Azurite",
+        "DisplayName": "Azurite",
+        "Description": "A brilliant blue stone that sparkles with the colors of the sky, a symbol of wisdom and clarity."
+    },
+    "Branch Dead": {
+        "Slug": "branch-dead",
+        "GameId": "Branch Dead",
+        "DisplayName": "Branch Dead",
+        "Description": "A lifeless branch, fallen to the ground after many years of standing tall."
+    },
+    "Candy Cane": {
+        "Slug": "candy-cane",
+        "GameId": "Candy Cane",
+        "DisplayName": "Candy Cane",
+        "Description": "Bright red and white stripes twist together in a festive curve, carrying the sweet scent of winter cheer. A simple holiday treat that feels like Christmas folded into candy."
+    },
+    "Coal Hard": {
+        "Slug": "coal-hard",
+        "GameId": "Coal Hard",
+        "DisplayName": "Coal Hard",
+        "Description": "A dense, compact piece of coal, perfect for a long, slow burn."
+    },
+    "Coconut Oil": {
+        "Slug": "coconut-oil",
+        "GameId": "Coconut Oil",
+        "DisplayName": "Coconut Oil",
+        "Description": "A tropical oil with a smooth texture and subtle flavor, used for cooking, skincare, and everything in between."
+    },
+    "Coral Stone": {
+        "Slug": "coral-stone",
+        "GameId": "Coral Stone",
+        "DisplayName": "Coral Stone",
+        "Description": "A smooth, pinkish stone formed by coral, a symbol of the vibrant life beneath the waves."
+    },
+    "Fishbone": {
+        "Slug": "fishbone",
+        "GameId": "Fishbone",
+        "DisplayName": "Fishbone",
+        "Description": "A slender, sharp bone from a fish, often left behind after a meal."
+    },
+    "Foxtail": {
+        "Slug": "foxtail",
+        "GameId": "Foxtail",
+        "DisplayName": "Foxtail",
+        "Description": "A soft, fluffy tail that twitches with every movement, often belonging to a fox or similar creature."
+    },
+    "Gold Ore": {
+        "Slug": "gold-ore",
+        "GameId": "Gold Ore",
+        "DisplayName": "Gold Ore",
+        "Description": "A shiny mineral that's both rare and valuable, a symbol of wealth just waiting to be mined."
+    },
+    "Gravion Chunk": {
+        "Slug": "gravion-chunk",
+        "GameId": "Gravion Chunk",
+        "DisplayName": "Gravion Chunk",
+        "Description": "A solid mass of Gravion, sturdy but unworked."
+    },
+    "Gravion Crystal": {
+        "Slug": "gravion-crystal",
+        "GameId": "Gravion Crystal",
+        "DisplayName": "Gravion Crystal",
+        "Description": "A flawless block of Gravion, famed for unmatched defense."
+    },
+    "Gravion Shard": {
+        "Slug": "gravion-shard",
+        "GameId": "Gravion Shard",
+        "DisplayName": "Gravion Shard",
+        "Description": "Rough fragments of Gravion, heavy and irregular."
+    },
+    "Ingot Iron": {
+        "Slug": "ingot-iron",
+        "GameId": "Ingot Iron",
+        "DisplayName": "Ingot Iron",
+        "Description": "A strong, dense block of iron, perfect for forging tools and weapons."
+    },
+    "Ingot Steel": {
+        "Slug": "ingot-steel",
+        "GameId": "Ingot Steel",
+        "DisplayName": "Ingot Steel",
+        "Description": "A refined steel ingot, tough and durable, used in the creation of many valuable items."
+    },
+    "Larva": {
+        "Slug": "larva",
+        "GameId": "Larva",
+        "DisplayName": "Larva",
+        "Description": "A tiny, wriggling creature that will soon transform into something much more impressive."
+    },
+    "Leaf": {
+        "Slug": "leaf",
+        "GameId": "Leaf",
+        "DisplayName": "Leaf",
+        "Description": "A green, delicate leaf that flutters in the wind, a symbol of nature's endless cycle."
+    },
+    "Lunaris Chunk": {
+        "Slug": "lunaris-chunk",
+        "GameId": "Lunaris Chunk",
+        "DisplayName": "Lunaris Chunk",
+        "Description": "A smooth Lunaris chunk, shimmering with quiet magic."
+    },
+    "Lunaris Crystal": {
+        "Slug": "lunaris-crystal",
+        "GameId": "Lunaris Crystal",
+        "DisplayName": "Lunaris Crystal",
+        "Description": "A pristine Lunaris crystal, radiant with celestial energy."
+    },
+    "Lunaris Shard": {
+        "Slug": "lunaris-shard",
+        "GameId": "Lunaris Shard",
+        "DisplayName": "Lunaris Shard",
+        "Description": "Pale lunar fragments that glow faintly in darkness."
+    },
+    "Moonrock": {
+        "Slug": "moonrock",
+        "GameId": "Moonrock",
+        "DisplayName": "Moonrock",
+        "Description": "A mysterious rock, as if it's traveled all the way from the moon itself."
+    },
+    "Moonstone": {
+        "Slug": "moonstone",
+        "GameId": "Moonstone",
+        "DisplayName": "Moonstone",
+        "Description": "Glimmering with an ethereal glow, it's like holding a piece of moonlight."
+    },
+    "Mushroom": {
+        "Slug": "mushroom",
+        "GameId": "Mushroom",
+        "DisplayName": "Mushroom",
+        "Description": "Soft and earthy, this little fungus grows in the shadows of the forest floor."
+    },
+    "Obsidian": {
+        "Slug": "obsidian",
+        "GameId": "Obsidian",
+        "DisplayName": "Obsidian",
+        "Description": "A sleek, glass-like stone, smooth as night and sharp as a shadow."
+    },
+    "Oceanite": {
+        "Slug": "oceanite",
+        "GameId": "Oceanite",
+        "DisplayName": "Oceanite",
+        "Description": "A stone as deep as the ocean, swirling with shades of blue and green."
+    },
+    "Pouch Fairy Dust": {
+        "Slug": "pouch-fairy-dust",
+        "GameId": "Pouch Fairy Dust",
+        "DisplayName": "Pouch Fairy Dust",
+        "Description": "A tiny pouch filled with magical fairy dust, ready to sprinkle some charm."
+    },
+    "Seed": {
+        "Slug": "seed",
+        "GameId": "Seed",
+        "DisplayName": "Seed",
+        "Description": "A tiny promise of growth, holding potential in its fragile shell."
+    },
+    "Silica Sand": {
+        "Slug": "silica-sand",
+        "GameId": "Silica Sand",
+        "DisplayName": "Silica Sand",
+        "Description": "A fine, smooth sand, glistening like tiny crystals under the sun."
+    },
+    "Spider Web": {
+        "Slug": "spider-web",
+        "GameId": "Spider Web",
+        "DisplayName": "Spider Web",
+        "Description": "Delicate and intricate, a work of art spun from nature's finest threads."
+    },
+    "Tree Bark": {
+        "Slug": "tree-bark",
+        "GameId": "Tree Bark",
+        "DisplayName": "Tree Bark",
+        "Description": "Rough and textured, the bark tells stories of the tree's life."
+    },
+    "Tree Sap": {
+        "Slug": "tree-sap",
+        "GameId": "Tree Sap",
+        "DisplayName": "Tree Sap",
+        "Description": "Sweet and sticky, it's the lifeblood of the tree, full of natural goodness."
+    },
+    "Tungsten": {
+        "Slug": "tungsten",
+        "GameId": "Tungsten",
+        "DisplayName": "Tungsten",
+        "Description": "Strong and unyielding, a metal that refuses to bend or break."
+    },
+    "Vulkanite Chunk": {
+        "Slug": "vulkanite-chunk",
+        "GameId": "Vulkanite Chunk",
+        "DisplayName": "Vulkanite Chunk",
+        "Description": "A raw chunk of Vulkanite, hot with latent power."
+    },
+    "Vulkanite Crystal": {
+        "Slug": "vulkanite-crystal",
+        "GameId": "Vulkanite Crystal",
+        "DisplayName": "Vulkanite Crystal",
+        "Description": "A perfected Vulkanite crystal, channeling devastating force."
+    },
+    "Vulkanite Shard": {
+        "Slug": "vulkanite-shard",
+        "GameId": "Vulkanite Shard",
+        "DisplayName": "Vulkanite Shard",
+        "Description": "Jagged splinters of Vulkanite, scorching to the touch."
+    }
+}

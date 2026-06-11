@@ -1,0 +1,6143 @@
+{
+    "Aegis": {
+        "Slug": "aegis-of-light",
+        "GameId": "Aegis",
+        "DisplayName": "Aegis of Light",
+        "Description": "Invoke a radiant barrier of faith, blocking all incoming attacks for a short time, for you and nearby allies.",
+        "MaxLv": 4,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "HolyShield",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 70,
+            "ValueLv": -10,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "AerialShot": {
+        "Slug": "aerial-shot",
+        "GameId": "AerialShot",
+        "DisplayName": "Aerial Shot",
+        "Description": "Leap through the air while firing downward, striking enemies below before landing in an evasive stance.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "PanicBurst",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "Agility": {
+        "Slug": "inner-focus",
+        "GameId": "Agility",
+        "DisplayName": "Inner Focus",
+        "Description": "Heightens awareness and reaction speed, increasing AGI and DEX.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "PreciseAim",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ArcaneSigil": {
+        "Slug": "arcane-sigil",
+        "GameId": "ArcaneSigil",
+        "DisplayName": "Arcane Sigil",
+        "Description": "Pushes your casting beyond safe limits, greatly increasing magic damage and cast speed at the cost of doubled mana consumption.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "ArrowShower": {
+        "Slug": "arrow-shower",
+        "GameId": "ArrowShower",
+        "DisplayName": "Arrow Shower",
+        "Description": "Fires a flurry of arrows high into the air, raining down over a wide area. Enemies caught within suffer repeated strikes, forcing them to scatter.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "SteadyHands",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "AxeArc": {
+        "Slug": "twin-cleave",
+        "GameId": "AxeArc",
+        "DisplayName": "Twin Cleave",
+        "Description": "Swing your weapon twice in wide arcs, cutting down all enemies in front of you.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Bash",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "AxeMastery": {
+        "Slug": "axe-mastery",
+        "GameId": "AxeMastery",
+        "DisplayName": "Axe Mastery",
+        "Description": "Enhances attack power of axes and swords. Improves critical damage.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "AxeThrow": {
+        "Slug": "axe-throw",
+        "GameId": "AxeThrow",
+        "DisplayName": "Axe Throw",
+        "Description": "Hurl your axe in a brutal arc, striking the target twice before it snaps back into your grasp.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.9,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "AxeVortex": {
+        "Slug": "vortex-slash",
+        "GameId": "AxeVortex",
+        "DisplayName": "Vortex Slash",
+        "Description": "Unleashes a powerful spinning slash that damages enemies in a wide area and pulls them toward the caster.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "AxeArc",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Barrier": {
+        "Slug": "sacred-aegis",
+        "GameId": "Barrier",
+        "DisplayName": "Sacred Aegis",
+        "Description": "Envelops an ally in divine protection, forming a barrier equal to a portion of their maximum health. The aegis shields them completely from incoming physical attacks until it is broken.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Grace",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Bash": {
+        "Slug": "bash",
+        "GameId": "Bash",
+        "DisplayName": "Bash",
+        "Description": "Delivers a crushing blow with a chance to stun the target.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "AxeMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.6,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 3,
+            "ValueLv": 1,
+            "ValueStr": null
+        }
+    },
+    "Berserk": {
+        "Slug": "berserk",
+        "GameId": "Berserk",
+        "DisplayName": "Berserk",
+        "Description": "Power without restraint. Enter a berserk state, greatly enhance combat power.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "BladeDance": {
+        "Slug": "blade-dance",
+        "GameId": "BladeDance",
+        "DisplayName": "Blade Dance",
+        "Description": "Unleashes a flurry of strikes around you.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Cloaking",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.75,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "BladeMastery": {
+        "Slug": "blade-mastery",
+        "GameId": "BladeMastery",
+        "DisplayName": "Blade Mastery",
+        "Description": "Enhances attack power of daggers and swords. Increases attack speed.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Blessing": {
+        "Slug": "benediction",
+        "GameId": "Blessing",
+        "DisplayName": "Benediction",
+        "Description": "Imbues allies with divine protection, raising all attributes for a time.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Blink": {
+        "Slug": "blink",
+        "GameId": "Blink",
+        "DisplayName": "Blink",
+        "Description": "Instantly teleport to a target location, evading danger and repositioning with precision.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "EnergyShield",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "BloodCrash": {
+        "Slug": "blood-crash",
+        "GameId": "BloodCrash",
+        "DisplayName": "Blood Crash",
+        "Description": "Release stored Rage, instantly healing yourself and regenerating health over time.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "BloodFrenzy": {
+        "Slug": "blood-frenzy",
+        "GameId": "BloodFrenzy",
+        "DisplayName": "Blood Frenzy",
+        "Description": "Violence without pause. Sacrifice control for speed and sustain.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "BoneSpear": {
+        "Slug": "bone-spear",
+        "GameId": "BoneSpear",
+        "DisplayName": "Bone Spear",
+        "Description": "You hurl a sharpened lance of bone, piercing through flesh and spirit alike.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 15,
+            "ValueStr": null
+        }
+    },
+    "BoneSpikes": {
+        "Slug": "bone-spikes",
+        "GameId": "BoneSpikes",
+        "DisplayName": "Bone Spikes",
+        "Description": "Jagged bone spires erupt violently from the ground, impaling enemies caught above them.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "BoneSpear",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 15,
+            "ValueStr": null
+        }
+    },
+    "ChainLightning": {
+        "Slug": "chain-lightning",
+        "GameId": "ChainLightning",
+        "DisplayName": "Chain Lightning",
+        "Description": "Unleashes a bolt of lightning that arcs between enemies, chaining to additional targets.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 15,
+            "ValueStr": null
+        }
+    },
+    "Cloaking": {
+        "Slug": "cloaking",
+        "GameId": "Cloaking",
+        "DisplayName": "Cloaking",
+        "Description": "Wraps the body in shifting shadows, blending seamlessly with the surroundings. While cloaked, movement is hidden from sight until the veil is broken by attack or skill use.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "ShadowStep",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "CodexMastery": {
+        "Slug": "codex-mastery",
+        "GameId": "CodexMastery",
+        "DisplayName": "Codex Mastery",
+        "Description": "Boosts magical attack when wielding a book. Increases healing power.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Conjurer": {
+        "Slug": "conjurer",
+        "GameId": "Conjurer",
+        "DisplayName": "Conjurer",
+        "Description": "A deeper bond with summoned entities and restorative magic.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "SummonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Consecration": {
+        "Slug": "consecration",
+        "GameId": "Consecration",
+        "DisplayName": "Consecration",
+        "Description": "Sanctify the ground in divine light, healing allies and burning foes who stand within its glow.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Sacrifice",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": -0.125,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Conviction": {
+        "Slug": "conviction-aura",
+        "GameId": "Conviction",
+        "DisplayName": "Conviction Aura",
+        "Description": "Inspire allies with unwavering resolve, increasing their physical and magical strength.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "CorpseBarrier": {
+        "Slug": "corpse-barrier",
+        "GameId": "CorpseBarrier",
+        "DisplayName": "Corpse Barrier",
+        "Description": "You bind stolen bone and life into a grim protective barrier that absorbs incoming damage.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SkeletonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "CorpseExplosion": {
+        "Slug": "corpse-explosion",
+        "GameId": "CorpseExplosion",
+        "DisplayName": "Corpse Explosion",
+        "Description": "You violently explode a skeleton summon, scattering necrotic force outward in a lethal detonation. Causes nearby enemies and summons automatically explode on death.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "CorpseBarrier",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Counter": {
+        "Slug": "counter-stance",
+        "GameId": "Counter",
+        "DisplayName": "Counter Stance",
+        "Description": "Take a defensive stance and retaliate with a counter slash when struck.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "ReflectShield",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "CritMastery": {
+        "Slug": "honed-blade",
+        "GameId": "CritMastery",
+        "DisplayName": "Honed Blade",
+        "Description": "A life of combat has perfected your edge, each critical strike hits with ruthless efficiency.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Cure": {
+        "Slug": "cure",
+        "GameId": "Cure",
+        "DisplayName": "Cure",
+        "Description": "Channels purifying energy to dispel harmful afflictions, restoring clarity where corruption once lingered.",
+        "MaxLv": 1,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "CureAll": {
+        "Slug": "mass-cure",
+        "GameId": "CureAll",
+        "DisplayName": "Mass Cure",
+        "Description": "Purifies allies in the area, removing poison, blindness, curse, and silence with a touch of holy grace.",
+        "MaxLv": 1,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Cure",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Cyclone": {
+        "Slug": "cyclone",
+        "GameId": "Cyclone",
+        "DisplayName": "Cyclone",
+        "Description": "Spin violently while advancing, pulling enemies inward and shredding them with relentless strikes.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "WildCharge",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "Damnation": {
+        "Slug": "damnation",
+        "GameId": "Damnation",
+        "DisplayName": "Damnation",
+        "Description": "Calls down divine judgment upon the wicked, stripping away their defenses and leaving them vulnerable.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "MaceMastery",
+                "Level": 1
+            },
+            {
+                "Id": "Zeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Dark Exorcism": {
+        "Slug": "dark-exorcism",
+        "GameId": "Dark Exorcism",
+        "DisplayName": "Dark Exorcism",
+        "Description": "Unleashes profane rites twisted into shadow magic, tearing through enemies in an area with corrupted force. A blasphemous inversion of sacred exorcism.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.77,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "DarkClaw": {
+        "Slug": "dark-claw",
+        "GameId": "DarkClaw",
+        "DisplayName": "Dark Claw",
+        "Description": "Rip into the target with savage slashes, inflicting bleeding and fueling your rage.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "DeathBond": {
+        "Slug": "death-bond",
+        "GameId": "DeathBond",
+        "DisplayName": "Death Bond",
+        "Description": "Healing and life-stealing effects are shared between bonded allies.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "CorpseExplosion",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "DeathBramble": {
+        "Slug": "necrotic-presence",
+        "GameId": "DeathBramble",
+        "DisplayName": "Necrotic Presence",
+        "Description": "An oppressive undead field empowers necrotic attacks and erodes resistance within its reach.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "DeathCoil": {
+        "Slug": "death-coil",
+        "GameId": "DeathCoil",
+        "DisplayName": "Death Coil",
+        "Description": "You unleash a coiling strand of undead energy, damaging enemies and healing your summons.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "DeathCoilEnemy": {
+        "Slug": "death-coil",
+        "GameId": "DeathCoilEnemy",
+        "DisplayName": "Death Coil",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "DeathNova": {
+        "Slug": "death-nova",
+        "GameId": "DeathNova",
+        "DisplayName": "Death Nova",
+        "Description": "You release a burst of decaying energy that erupts outward, rotting enemies caught in the blast.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "LifeDrain",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "DeathSpiral": {
+        "Slug": "death-spiral",
+        "GameId": "DeathSpiral",
+        "DisplayName": "Death Spiral",
+        "Description": "You spin into a violent scythe assault, tearing through everything nearby as necrotic force surges outward.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Reap",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Defiance": {
+        "Slug": "defiance-aura",
+        "GameId": "Defiance",
+        "DisplayName": "Defiance Aura",
+        "Description": "Radiate unyielding faith that lessens the force of ranged and magical attacks for allies nearby.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Dispell": {
+        "Slug": "absolution",
+        "GameId": "Dispell",
+        "DisplayName": "Absolution",
+        "Description": "Removes all buffs and harmful statuses from the target, returning them to a neutral state.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SpellShield",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "DivinePunishment": {
+        "Slug": "divine-punishment",
+        "GameId": "DivinePunishment",
+        "DisplayName": "Divine Punishment",
+        "Description": "Call down a rain of radiant swords from above, piercing the unworthy with sustained holy fury.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Sacrifice",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Divinity": {
+        "Slug": "divinity",
+        "GameId": "Divinity",
+        "DisplayName": "Divinity",
+        "Description": "Enters a transcendent state of grace, amplifying the priest\u2019s healing and protective power for a short duration.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "SacredGround",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "DualWieldMastery": {
+        "Slug": "dual-wield-mastery",
+        "GameId": "DualWieldMastery",
+        "DisplayName": "Dual Wield Mastery",
+        "Description": "Unlocks the ability to wield a weapon in each hand.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "EarthBarrier": {
+        "Slug": "avatar-of-stone",
+        "GameId": "EarthBarrier",
+        "DisplayName": "Avatar of Stone",
+        "Description": "Assume the Avatar of Stone, anchoring yourself with unyielding earth. Permanently attunes you to Earth, increasing resistances and block.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Earthquake",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "EarthSpikes": {
+        "Slug": "earth-spikes",
+        "GameId": "EarthSpikes",
+        "DisplayName": "Earth Spikes",
+        "Description": "The ground erupts in a sudden burst of jagged stone, impaling enemies from below.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Earthbolt",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.8,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "EarthWall": {
+        "Slug": "earth-wall",
+        "GameId": "EarthWall",
+        "DisplayName": "Earth Wall",
+        "Description": "Raises a wall of solid stone from the ground, obstructing foes and shaping the battlefield.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Earthbolt": {
+        "Slug": "earthbolt",
+        "GameId": "Earthbolt",
+        "DisplayName": "Earthbolt",
+        "Description": "Harnesses the pulse of the earth to strike a single foe with crushing, earthen might.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Earthquake": {
+        "Slug": "earthquake",
+        "GameId": "Earthquake",
+        "DisplayName": "Earthquake",
+        "Description": "Shakes the ground with devastating tremors, toppling and stunning all enemies caught in the upheaval.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "EarthWall",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "EnchantArmorHoly": {
+        "Slug": "sanctify",
+        "GameId": "EnchantArmorHoly",
+        "DisplayName": "Sanctify",
+        "Description": "Bless your armor with divine light, transforming your element to Holy.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "EnchantPoison": {
+        "Slug": "enchant-poison",
+        "GameId": "EnchantPoison",
+        "DisplayName": "Enchant Poison",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "VenomStrike",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "EndowHoly": {
+        "Slug": "endow-holy",
+        "GameId": "EndowHoly",
+        "DisplayName": "Endow Holy",
+        "Description": "Blesses a weapon with holy light, converting its attacks to Holy element.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Zeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Endure": {
+        "Slug": "endure",
+        "GameId": "Endure",
+        "DisplayName": "Endure",
+        "Description": "Prevents flinching from damage.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Taunt",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "EnergyShield": {
+        "Slug": "energy-shield",
+        "GameId": "EnergyShield",
+        "DisplayName": "Energy Shield",
+        "Description": "A shimmering barrier hums with arcane force, absorbing harm until its energy fades. Redirects a portion of incoming damage to MP instead of HP.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "WandMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Execute": {
+        "Slug": "execute",
+        "GameId": "Execute",
+        "DisplayName": "Execute",
+        "Description": "Deliver a devastating finishing blow, dealing massive damage.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "GroundSlam",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "Exorcism": {
+        "Slug": "exorcism",
+        "GameId": "Exorcism",
+        "DisplayName": "Exorcism",
+        "Description": "Calls down sacred radiance upon an area, banishing cursed beings and striking foes with holy wrath.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "TurnUndead",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.77,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "ExplosiveGrenade": {
+        "Slug": "explosive-grenade",
+        "GameId": "ExplosiveGrenade",
+        "DisplayName": "Explosive Grenade",
+        "Description": "Hurls an explosive charge that detonates after a short delay, burning enemies in the area.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Faith": {
+        "Slug": "faith",
+        "GameId": "Faith",
+        "DisplayName": "Faith",
+        "Description": "Strengthens divine conviction, increasing damage against Undead and Shadow foes while reducing harm taken from them.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "FanFire": {
+        "Slug": "fan-fire",
+        "GameId": "FanFire",
+        "DisplayName": "Fan Fire",
+        "Description": "Rapidly unloads a flurry of shots at a single target.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.9,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0.5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 3,
+            "ValueLv": 1,
+            "ValueStr": null
+        }
+    },
+    "FanOfKnives": {
+        "Slug": "fan-of-knives",
+        "GameId": "FanOfKnives",
+        "DisplayName": "Fan Of Knives",
+        "Description": "Scatter a fan of blades in a sweeping arc, leaping through the target\u2019s space to evade retaliation while opening enemies to follow-up techniques.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "Fanaticism": {
+        "Slug": "fanaticism",
+        "GameId": "Fanaticism",
+        "DisplayName": "Fanaticism",
+        "Description": "Fills the priest with unshakable zeal, each strike grows swifter and more relentless, guided by divine wrath.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Smite",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "FieldCurse": {
+        "Slug": "banishment-field",
+        "GameId": "FieldCurse",
+        "DisplayName": "Banishment Field",
+        "Description": "Radiant spirits descend in silent judgment, severing the soul from grace. The afflicted find their healing turned against them, their essence exposed to the full weight of Magic assault.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SoulStrike",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 2,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "FieldDamage": {
+        "Slug": "dissonance-well",
+        "GameId": "FieldDamage",
+        "DisplayName": "Dissonance Well",
+        "Description": "A field of spiritual interference thrums with jagged tension, stalling thought, movement, and will. Those within find their bodies sluggish, their instincts dulled, as if time itself resists them.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "FieldCurse",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "FieldHealing": {
+        "Slug": "resonance-well",
+        "GameId": "FieldHealing",
+        "DisplayName": "Resonance Well",
+        "Description": "A tranquil hum radiates outward, harmonizing body and spirit. Beneath its gentle shimmer, vitality stirs and clarity takes root.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "FieldSilence",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": -0.25,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "FieldSilence": {
+        "Slug": "suppression-field",
+        "GameId": "FieldSilence",
+        "DisplayName": "Suppression Field",
+        "Description": "A ghostly presence descends in silence. Within its reach, the air thickens and thought falters, all sound swallowed by stillness.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SoulStrike",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 2,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "FireBarrier": {
+        "Slug": "avatar-of-fire",
+        "GameId": "FireBarrier",
+        "DisplayName": "Avatar of Fire",
+        "Description": "Assume the Avatar of Fire, embodying living flame. Permanently attunes you to Fire, igniting enemies that strike you and increasing all healing received.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Meteor",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "FirePillar": {
+        "Slug": "fire-pillar",
+        "GameId": "FirePillar",
+        "DisplayName": "Fire Pillar",
+        "Description": "Summons a pillar of flame that erupts from the ground, searing enemies caught within its blaze.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "FireRelease": {
+        "Slug": "fire-release",
+        "GameId": "FireRelease",
+        "DisplayName": "Fire Release",
+        "Description": "Summons a blazing whale of flame that leaps skyward before crashing down, engulfing enemies in fire.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "Fireball": {
+        "Slug": "fireball",
+        "GameId": "Fireball",
+        "DisplayName": "Fireball",
+        "Description": "Casts a fiery orb that explodes on impact, dealing fire damage in an area. Leaves behind a Firewall at the impact zone.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Firebolt",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Firebolt": {
+        "Slug": "firebolt",
+        "GameId": "Firebolt",
+        "DisplayName": "Firebolt",
+        "Description": "Launches a concentrated flame that scorches a single enemy with fire-element Magic damage.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Firewall": {
+        "Slug": "firewall",
+        "GameId": "Firewall",
+        "DisplayName": "Firewall",
+        "Description": "Creates a lingering wall of flame that keeps enemies at bay.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 1.25,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "FlameOrb": {
+        "Slug": "flame-orb",
+        "GameId": "FlameOrb",
+        "DisplayName": "Flame Orb",
+        "Description": "Launch a slow-moving core of condensed energy that threatens the battlefield before rupturing outward on impact, releasing a controlled burst that scorches everything within range.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "FireRelease",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "FlashBang": {
+        "Slug": "flash-bang",
+        "GameId": "FlashBang",
+        "DisplayName": "Flash Bang",
+        "Description": "Backslide out of danger and prepare a flash grenade, setting up your next move.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "FlowState": {
+        "Slug": "flow-state",
+        "GameId": "FlowState",
+        "DisplayName": "Flow State",
+        "Description": "Adopt a disciplined combat rhythm, weaving techniques between strikes. Autoattacks draw on magical power and trigger techniques more frequently, favoring sustained pressure over raw burst.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "NinjutsuMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ForceShot": {
+        "Slug": "force-shot",
+        "GameId": "ForceShot",
+        "DisplayName": "Force Shot",
+        "Description": "A powerful shot that knocks the target back on impact.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "StrafingVolley",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 3,
+            "ValueLv": 1,
+            "ValueStr": null
+        }
+    },
+    "Fortify": {
+        "Slug": "fortify",
+        "GameId": "Fortify",
+        "DisplayName": "Fortify",
+        "Description": "Massively increases defensive capabilities.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "ShieldMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "FreeCast": {
+        "Slug": "free-cast",
+        "GameId": "FreeCast",
+        "DisplayName": "Free Cast",
+        "Description": "Allows the caster to move and attack while casting, at the cost of reduced movement and attack speed.",
+        "MaxLv": 1,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "FreezeGrenade": {
+        "Slug": "freeze-grenade",
+        "GameId": "FreezeGrenade",
+        "DisplayName": "Freeze Grenade",
+        "Description": "Throws a freezing charge that immobilizes enemies caught in the blast.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ExplosiveGrenade",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "FreezingField": {
+        "Slug": "blizzard",
+        "GameId": "FreezingField",
+        "DisplayName": "Blizzard",
+        "Description": "Unleashes a flurry of jagged ice, freezing and battering enemies in its wake.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "HydroVortex",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "FrostBlade": {
+        "Slug": "binding-spiral",
+        "GameId": "FrostBlade",
+        "DisplayName": "Binding Spiral",
+        "Description": "A spinning technique that drags enemies inward as pressure collapses toward a single point. At the moment of convergence, energy is stripped to zero, freezing all caught at the core.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "IceRelease",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "FuryBond": {
+        "Slug": "fury-bond",
+        "GameId": "FuryBond",
+        "DisplayName": "Fury Bond",
+        "Description": "You share a volatile surge of energy with your bonded ally. The world around you blurs with speed, but at the cost of lowered defenses.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SummonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Grace": {
+        "Slug": "divine-grace",
+        "GameId": "Grace",
+        "DisplayName": "Divine Grace",
+        "Description": "Invokes a holy blessing that increases natural health and mana recovery rate.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "GrandCross": {
+        "Slug": "grand-cross",
+        "GameId": "GrandCross",
+        "DisplayName": "Grand Cross",
+        "Description": "Unleash a radiant cross of holy light that expands outward, purging the battlefield in waves of divine power.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "JudgementBlade",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "GraveChill": {
+        "Slug": "grave-chill",
+        "GameId": "GraveChill",
+        "DisplayName": "Grave Chill",
+        "Description": "A chilling necrotic presence hastens allies while sapping the speed of nearby enemies.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "GroundSlam": {
+        "Slug": "earth-splitter",
+        "GameId": "GroundSlam",
+        "DisplayName": "Earth Splitter",
+        "Description": "Slam the ground with immense force, staggering enemies and slowing them in the shockwave.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "DarkClaw",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "GuardianBond": {
+        "Slug": "guardian-bond",
+        "GameId": "GuardianBond",
+        "DisplayName": "Guardian Bond",
+        "Description": "You and your bonded summon surge with shared aggression.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SummonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "GunMastery": {
+        "Slug": "gun-mastery",
+        "GameId": "GunMastery",
+        "DisplayName": "Gun Mastery",
+        "Description": "Increases attack power with all firearms and slightly improves attack speed. Allows dual wielding pistols.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Harvest": {
+        "Slug": "harvest",
+        "GameId": "Harvest",
+        "DisplayName": "Harvest",
+        "Description": "You leap forward in a wide scythe swing, carving through enemies and priming them for a devastating follow-up.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ScytheMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "Haste": {
+        "Slug": "haste",
+        "GameId": "Haste",
+        "DisplayName": "Haste",
+        "Description": "A surge of energy rushes through the limbs, quickening reflexes and footwork.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "HasteAll": {
+        "Slug": "mass-haste",
+        "GameId": "HasteAll",
+        "DisplayName": "Mass Haste",
+        "Description": "Blesses nearby allies with heightened swiftness, increasing movement and attack speed for a short duration.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Haste",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Heal": {
+        "Slug": "heal",
+        "GameId": "Heal",
+        "DisplayName": "Heal",
+        "Description": "Channels holy energy to restore health to a target ally.",
+        "MaxLv": 1,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": -0.75,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "HealAll": {
+        "Slug": "mass-heal",
+        "GameId": "HealAll",
+        "DisplayName": "Mass Heal",
+        "Description": "Unleashes a wave of radiant energy, restoring health to all allies within range.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Heal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": -0.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "HighGuard": {
+        "Slug": "high-guard",
+        "GameId": "HighGuard",
+        "DisplayName": "High Guard",
+        "Description": "Enter a steadfast stance, raising your shield high to protect nearby allies from incoming harm.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "HolyShield",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "HighHeal": {
+        "Slug": "high-heal",
+        "GameId": "HighHeal",
+        "DisplayName": "High Heal",
+        "Description": "Channels an intense surge of divine power to fully restore an ally\u2019s vitality, at great mana cost.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 60,
+            "ValueLv": 30,
+            "ValueStr": null
+        }
+    },
+    "HolyLight": {
+        "Slug": "holy-light",
+        "GameId": "HolyLight",
+        "DisplayName": "Holy Light",
+        "Description": "Releases a focused ray of divine energy, dealing holy damage to a single enemy.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "HolyShield": {
+        "Slug": "holy-shield",
+        "GameId": "HolyShield",
+        "DisplayName": "Holy Shield",
+        "Description": "Bless your shield with divine protection, hardening your defenses against both steel and sorcery.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "HolyWrath": {
+        "Slug": "holy-wrath",
+        "GameId": "HolyWrath",
+        "DisplayName": "Holy Wrath",
+        "Description": "Unleashes concentrated holy power upon an enemy, dealing heavy damage and inflicting silence and holy vulnerability.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Sacrament",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "HydroVortex": {
+        "Slug": "hydro-vortex",
+        "GameId": "HydroVortex",
+        "DisplayName": "Hydro Vortex",
+        "Description": "Unleashes a violent spiral of water, dragging enemies into its raging current.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 15,
+            "ValueStr": null
+        }
+    },
+    "IceRelease": {
+        "Slug": "ice-release",
+        "GameId": "IceRelease",
+        "DisplayName": "Ice Release",
+        "Description": "Calls forth a spectral pufferfish that spits shards of ice, piercing foes and leaving them slowed.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "IceShard": {
+        "Slug": "ice-shard",
+        "GameId": "IceShard",
+        "DisplayName": "Ice Shard",
+        "Description": "Fires a fast-moving ice projectile that shatters on impact, damaging and potentially freezing enemies.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Icebolt",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "Icebolt": {
+        "Slug": "icebolt",
+        "GameId": "Icebolt",
+        "DisplayName": "Icebolt",
+        "Description": "Hurls a shard of ice to deal water-element Magic damage to a single enemy.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "IncreasedFlee": {
+        "Slug": "increased-flee",
+        "GameId": "IncreasedFlee",
+        "DisplayName": "Increased Flee",
+        "Description": "Improves evasion against physical attacks.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "IncreasedHealth": {
+        "Slug": "increased-health",
+        "GameId": "IncreasedHealth",
+        "DisplayName": "Increased Health",
+        "Description": "Increases maximum health.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "IncreasedHealthRegen": {
+        "Slug": "increased-regeneration",
+        "GameId": "IncreasedHealthRegen",
+        "DisplayName": "Increased Regeneration",
+        "Description": "Improves natural health recovery over time.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "IncreasedMana": {
+        "Slug": "increased-mana",
+        "GameId": "IncreasedMana",
+        "DisplayName": "Increased Mana",
+        "Description": "Expands total mana capacity.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "IncreasedManaRegen": {
+        "Slug": "increased-recovery",
+        "GameId": "IncreasedManaRegen",
+        "DisplayName": "Increased Recovery",
+        "Description": "Accelerates mana regeneration.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Invoker": {
+        "Slug": "invoker",
+        "GameId": "Invoker",
+        "DisplayName": "Invoker",
+        "Description": "Your mastery of spellcasting and summoning sharpens the mind. Empowers your summons to echo Soul Strike, allowing their magic to resonate with your own.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "SoulStrike",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "JudgementBlade": {
+        "Slug": "judgement-blade",
+        "GameId": "JudgementBlade",
+        "DisplayName": "Judgement Blade",
+        "Description": "Summon a radiant blade that cleaves through foes, dealing holy damage and leaving them slowed and exposed to further strikes.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Sacrifice",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.77,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "JumpShot": {
+        "Slug": "jump-shot",
+        "GameId": "JumpShot",
+        "DisplayName": "Jump Shot",
+        "Description": "Leap into combat and fire mid-air, staggering enemies on impact and opening them up for follow-up attacks.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "LifeBond": {
+        "Slug": "life-bond",
+        "GameId": "LifeBond",
+        "DisplayName": "Life Bond",
+        "Description": "Link your life to an ally\u2019s, taking their wounds upon yourself.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "EnchantArmorHoly",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "LifeDrain": {
+        "Slug": "life-drain",
+        "GameId": "LifeDrain",
+        "DisplayName": "Life Drain",
+        "Description": "You siphon vitality from enemies to sustain yourself. When bound to a summon, its aggression surges at the cost of its own life.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "DeathCoil",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "LifeDrainEnemy": {
+        "Slug": "life-drain",
+        "GameId": "LifeDrainEnemy",
+        "DisplayName": "Life Drain",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "LightningReflexes": {
+        "Slug": "lightning-reflexes",
+        "GameId": "LightningReflexes",
+        "DisplayName": "Lightning Reflexes",
+        "Description": "Movement becomes instinct, action becomes lightning.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SmokeScreen",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "LightningRelease": {
+        "Slug": "lightning-release",
+        "GameId": "LightningRelease",
+        "DisplayName": "Lightning Release",
+        "Description": "Unleashes a phoenix of lightning that streaks straight ahead, striking through all in its path.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 15,
+            "ValueLv": 7,
+            "ValueStr": null
+        }
+    },
+    "LightningStrike": {
+        "Slug": "flash-step",
+        "GameId": "LightningStrike",
+        "DisplayName": "Flash Step",
+        "Description": "Instantly cross space and strike the target\u2019s position, committing fully to the engagement and collapsing the distance in a single motion.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "LightningRelease",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "LimitBreak": {
+        "Slug": "limit-break",
+        "GameId": "LimitBreak",
+        "DisplayName": "Limit Break",
+        "Description": "Power surges beyond safe limits, but all defense is abandoned in the process.",
+        "MaxLv": 1,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "MimicSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Lockdown": {
+        "Slug": "lockdown",
+        "GameId": "Lockdown",
+        "DisplayName": "Lockdown",
+        "Description": "Brace your weapon and lock your position, unleashing sustained fire with heavy weapons.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 3
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "MaceMastery": {
+        "Slug": "mace-mastery",
+        "GameId": "MaceMastery",
+        "DisplayName": "Mace Mastery",
+        "Description": "Enhances attack power when using maces. Increases attack speed.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Marked": {
+        "Slug": "mark-target",
+        "GameId": "Marked",
+        "DisplayName": "Mark Target",
+        "Description": "Focus your aim on a single enemy, exposing their weak points. The target becomes Marked, reducing its ability to evade and resist critical strikes.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "StrafingVolley",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Meteor": {
+        "Slug": "meteor",
+        "GameId": "Meteor",
+        "DisplayName": "Meteor",
+        "Description": "Calls down a burning mass from the heavens that explodes on impact, reducing the battlefield to ash.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "FirePillar",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "MimicSeal": {
+        "Slug": "mimic-seal",
+        "GameId": "MimicSeal",
+        "DisplayName": "Mimic Seal",
+        "Description": "Copies the essence of a target's magic, allowing you to cast their spell as your own.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "MountMastery": {
+        "Slug": "gryphon-riding",
+        "GameId": "MountMastery",
+        "DisplayName": "Gryphon Riding",
+        "Description": "Through divine bond and discipline, the Paladin earns the right to ride a holy gryphon. Together, they soar as beacon and blade of the heavens. +25% movement speed while mounted.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Multistrike": {
+        "Slug": "multistrike",
+        "GameId": "Multistrike",
+        "DisplayName": "Multistrike",
+        "Description": "Grant multistrike to your basic attacks.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "NPC_Berserk": {
+        "Slug": "berserk",
+        "GameId": "NPC_Berserk",
+        "DisplayName": "Berserk",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_BleedAttack": {
+        "Slug": "bleed-attack",
+        "GameId": "NPC_BleedAttack",
+        "DisplayName": "Bleed Attack",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_Blind": {
+        "Slug": "blind",
+        "GameId": "NPC_Blind",
+        "DisplayName": "Blind",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_LightningReflexes": {
+        "Slug": "lightning-reflexes",
+        "GameId": "NPC_LightningReflexes",
+        "DisplayName": "Lightning Reflexes",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_ManaLeech": {
+        "Slug": "mana-drain",
+        "GameId": "NPC_ManaLeech",
+        "DisplayName": "Mana Drain",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_Poison": {
+        "Slug": "gunk-shot",
+        "GameId": "NPC_Poison",
+        "DisplayName": "Gunk Shot",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_Pull": {
+        "Slug": "pull",
+        "GameId": "NPC_Pull",
+        "DisplayName": "Pull",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_Sharpen": {
+        "Slug": "sharpen",
+        "GameId": "NPC_Sharpen",
+        "DisplayName": "Sharpen",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_SpellGuard": {
+        "Slug": "spell-shield",
+        "GameId": "NPC_SpellGuard",
+        "DisplayName": "Spell Shield",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_SpikedShell": {
+        "Slug": "thorns",
+        "GameId": "NPC_SpikedShell",
+        "DisplayName": "Thorns",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_SteelGuard": {
+        "Slug": "reinforce",
+        "GameId": "NPC_SteelGuard",
+        "DisplayName": "Reinforce",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_Stun": {
+        "Slug": "stun-attack",
+        "GameId": "NPC_Stun",
+        "DisplayName": "Stun Attack",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_Venom": {
+        "Slug": "venom",
+        "GameId": "NPC_Venom",
+        "DisplayName": "Venom",
+        "Description": null,
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WideBleed": {
+        "Slug": "wide-bleed",
+        "GameId": "NPC_WideBleed",
+        "DisplayName": "Wide Bleed",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WideBlind": {
+        "Slug": "wide-blind",
+        "GameId": "NPC_WideBlind",
+        "DisplayName": "Wide Blind",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WideCurse": {
+        "Slug": "wide-curse",
+        "GameId": "NPC_WideCurse",
+        "DisplayName": "Wide Curse",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WideFreeze": {
+        "Slug": "wide-freeze",
+        "GameId": "NPC_WideFreeze",
+        "DisplayName": "Wide Freeze",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WidePoison": {
+        "Slug": "wide-poison",
+        "GameId": "NPC_WidePoison",
+        "DisplayName": "Wide Poison",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WideSilence": {
+        "Slug": "wide-silence",
+        "GameId": "NPC_WideSilence",
+        "DisplayName": "Wide Silence",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NPC_WideStun": {
+        "Slug": "wide-stun",
+        "GameId": "NPC_WideStun",
+        "DisplayName": "Wide Stun",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "NinjutsuMastery": {
+        "Slug": "ninjutsu-mastery",
+        "GameId": "NinjutsuMastery",
+        "DisplayName": "Ninjutsu Mastery",
+        "Description": "Refined control of hidden arts enhances magical output and mana flow, extending the reach and endurance of advanced techniques.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "PanicBurst": {
+        "Slug": "panic-burst",
+        "GameId": "PanicBurst",
+        "DisplayName": "Panic Burst",
+        "Description": "Unleashes a sudden burst of gunfire, damaging enemies in an area and finishing prepared combos.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "FanFire",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.9,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "PiercingShot": {
+        "Slug": "piercing-shot",
+        "GameId": "PiercingShot",
+        "DisplayName": "Piercing Shot",
+        "Description": "Fires a high-velocity round that pierces through enemies, staggering and knocking them back.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.75,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "Pneuma": {
+        "Slug": "guardian-spirit",
+        "GameId": "Pneuma",
+        "DisplayName": "Guardian Spirit",
+        "Description": "Conjures a sacred barrier upon the ground, shielding allies within from physical attacks. The guardian spirit lingers briefly before fading.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "StatusRecovery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "PointBlankShot": {
+        "Slug": "point-blank",
+        "GameId": "PointBlankShot",
+        "DisplayName": "Point Blank",
+        "Description": "Fires a brutal close-range blast, blinding enemies and finishing shotgun combos.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "JumpShot",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "PoisonGrenade": {
+        "Slug": "poison-grenade",
+        "GameId": "PoisonGrenade",
+        "DisplayName": "Poison Grenade",
+        "Description": "Releases a toxic payload that poisons enemies over time.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ExplosiveGrenade",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "PreciseAim": {
+        "Slug": "precise-aim",
+        "GameId": "PreciseAim",
+        "DisplayName": "Precise Aim",
+        "Description": "Increases attack range and hit rate, enhancing precision with ranged weapons.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [
+            {
+                "Id": "SteadyHands",
+                "Level": 1
+            }
+        ],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "RageMastery": {
+        "Slug": "brutality",
+        "GameId": "RageMastery",
+        "DisplayName": "Brutality",
+        "Description": "Violence fuels your strength.",
+        "MaxLv": 3,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Reanimation": {
+        "Slug": "reanimation",
+        "GameId": "Reanimation",
+        "DisplayName": "Reanimation",
+        "Description": "You bind the lingering spirit of a fallen boss to your will, claiming it as an undead champion.",
+        "MaxLv": 1,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "DeathBond",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Reap": {
+        "Slug": "reap",
+        "GameId": "Reap",
+        "DisplayName": "Reap",
+        "Description": "You deliver a merciless finishing strike, siphoning life from enemies.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Harvest",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "ReflectShield": {
+        "Slug": "reflect-shield",
+        "GameId": "ReflectShield",
+        "DisplayName": "Reflect Shield",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Fortify",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ResistanceMastery": {
+        "Slug": "natural-resistance",
+        "GameId": "ResistanceMastery",
+        "DisplayName": "Natural Resistance",
+        "Description": "Countless battles have hardened your body and spirit. Reduces damage from all elements.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Revive": {
+        "Slug": "resurrection",
+        "GameId": "Revive",
+        "DisplayName": "Resurrection",
+        "Description": "Revives a fallen ally with a portion of their health and spirit restored. Requires strong faith and a long invocation.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            },
+            {
+                "Id": "HealAll",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 60,
+            "ValueLv": 30,
+            "ValueStr": null
+        }
+    },
+    "ReviveAll": {
+        "Slug": "salvation",
+        "GameId": "ReviveAll",
+        "DisplayName": "Salvation",
+        "Description": "Calls forth celestial light to return all fallen allies to life, restoring a small portion of their strength and spirit.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 60,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 400,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Sacrament": {
+        "Slug": "sacrament",
+        "GameId": "Sacrament",
+        "DisplayName": "Sacrament",
+        "Description": "Focuses the priest\u2019s will into perfect spiritual clarity, empowering holy spells and cast proficiency.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Exorcism",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SacredGround": {
+        "Slug": "sacred-ground",
+        "GameId": "SacredGround",
+        "DisplayName": "Sacred Ground",
+        "Description": "Hallow the earth itself, purging corruption and shielding those who stand within the sanctified circle.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Sanctuary",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "Sacrifice": {
+        "Slug": "sacrifice",
+        "GameId": "Sacrifice",
+        "DisplayName": "Sacrifice",
+        "Description": "Offer a portion of your own vitality to channel divine power, converting pain into radiant strength.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Sanctuary": {
+        "Slug": "sanctuary",
+        "GameId": "Sanctuary",
+        "DisplayName": "Sanctuary",
+        "Description": "Raises a sacred tree that blesses the ground around it. Allies within its light steadily recover health, while undead that enter the sanctuary are repelled and harmed by its radiance.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "HighHeal",
+                "Level": 1
+            },
+            {
+                "Id": "StatusRecovery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": -0.15,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "ScytheMastery": {
+        "Slug": "scythe-mastery",
+        "GameId": "ScytheMastery",
+        "DisplayName": "Scythe Mastery",
+        "Description": "Increases weapon damage when wielding scythes, axes, or swords, and enables life siphoning through melee combat.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "ShadowFeint": {
+        "Slug": "elusive-feint",
+        "GameId": "ShadowFeint",
+        "DisplayName": "Elusive Feint",
+        "Description": "Granting a brief moment of perfect evasion against all attacks, leaving behind a shadowy double as you slide backward out of danger.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 11,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "ShadowMastery": {
+        "Slug": "shadow-mastery",
+        "GameId": "ShadowMastery",
+        "DisplayName": "Shadow Mastery",
+        "Description": "Mastery of shadow sharpens instinct and movement, allowing the Shinobi to slip past attacks with speed and uncanny evasions.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "ShadowRelease": {
+        "Slug": "black-blade",
+        "GameId": "ShadowRelease",
+        "DisplayName": "Black Blade",
+        "Description": "Launches a whirling blade of darkness that carves toward a target, cutting through with shadow force.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "TwistOfFate",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "ShadowSeal": {
+        "Slug": "shadow-seal",
+        "GameId": "ShadowSeal",
+        "DisplayName": "Shadow Seal",
+        "Description": "Forms a seal of shadows that splits your presence, summoning multiple clones to fight alongside you.",
+        "MaxLv": 3,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 15,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "ShadowStep": {
+        "Slug": "shadow-step",
+        "GameId": "ShadowStep",
+        "DisplayName": "Shadow Step",
+        "Description": "Teleports behind a target and strikes.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "BladeMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 2,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "ShadowStrike": {
+        "Slug": "shadow-strike",
+        "GameId": "ShadowStrike",
+        "DisplayName": "Shadow Strike",
+        "Description": null,
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "ShieldBash": {
+        "Slug": "shield-bash",
+        "GameId": "ShieldBash",
+        "DisplayName": "Shield Bash",
+        "Description": "Charge forward with your shield, sending out a shockwave that staggers and stuns nearby enemies.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "HolyShield",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "ShieldMastery": {
+        "Slug": "shield-mastery",
+        "GameId": "ShieldMastery",
+        "DisplayName": "Shield Mastery",
+        "Description": "Improves block rate and defences when equipping a shield.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "ShieldThrow": {
+        "Slug": "shield-throw",
+        "GameId": "ShieldThrow",
+        "DisplayName": "Shield Throw",
+        "Description": "Hurl your shield forward, striking multiple enemies as divine light arcs between them before returning to your hand.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "ShieldBash",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "ShockAbsorber": {
+        "Slug": "shock-absorber",
+        "GameId": "ShockAbsorber",
+        "DisplayName": "Shock Absorber",
+        "Description": "Reinforce yourself for close combat, reducing incoming impact while wielding shotguns.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 3
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ShoutBlood": {
+        "Slug": "blood-howl",
+        "GameId": "ShoutBlood",
+        "DisplayName": "Blood Howl",
+        "Description": "Unleash a savage howl, feeding allies with bloodlust.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ShoutFury": {
+        "Slug": "furious-shout",
+        "GameId": "ShoutFury",
+        "DisplayName": "Furious Shout",
+        "Description": "Channel your fury into a battle cry, empowering allies.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ShoutMight": {
+        "Slug": "mighty-roar",
+        "GameId": "ShoutMight",
+        "DisplayName": "Mighty Roar",
+        "Description": "Let out a powerful roar to bolster nearby allies.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ShoutStun": {
+        "Slug": "fearsome-cry",
+        "GameId": "ShoutStun",
+        "DisplayName": "Fearsome Cry",
+        "Description": "Terrify nearby enemies with a deafening shout, staggering and stunning them while enraging yourself.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 11,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ShrapnelShot": {
+        "Slug": "shrapnel",
+        "GameId": "ShrapnelShot",
+        "DisplayName": "Shrapnel",
+        "Description": "Blasts enemies with shrapnel at close range, slowing and bleeding those struck.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "PointBlankShot",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "ShurikenFan": {
+        "Slug": "shuriken-fan",
+        "GameId": "ShurikenFan",
+        "DisplayName": "Shuriken Fan",
+        "Description": "Hurls a massive enchanted shuriken that spins in place, striking nearby enemies in rapid succession before fading.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "FanOfKnives",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "SilentEdge": {
+        "Slug": "silent-edge",
+        "GameId": "SilentEdge",
+        "DisplayName": "Silent Edge",
+        "Description": "Enter a lethal stance focused on precision and timing. Critical strikes land harder and more often, rewarding decisive movement and clean execution.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "ShadowMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SkeletonMastery": {
+        "Slug": "skeleton-mastery",
+        "GameId": "SkeletonMastery",
+        "DisplayName": "Skeleton Mastery",
+        "Description": "Enhances undead summons, increasing their damage output and resilience.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "SlowTrap": {
+        "Slug": "slow-trap",
+        "GameId": "SlowTrap",
+        "DisplayName": "Slow Trap",
+        "Description": "Unleashes a seeping pool of violet energy that spreads across the ground. Enemies who enter its grasp find their movements dragged and dulled, as though wading through shadowed mire.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ArrowShower",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Smite": {
+        "Slug": "smite",
+        "GameId": "Smite",
+        "DisplayName": "Smite",
+        "Description": "Strikes the target with a blessed blow, dealing holy physical damage and a chance to stun enemies with divine force.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Damnation",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "SmokeScreen": {
+        "Slug": "smoke-screen",
+        "GameId": "SmokeScreen",
+        "DisplayName": "Smoke Screen",
+        "Description": "Creates a blinding mist.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "BladeMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SniperNest": {
+        "Slug": "sniper-s-nest",
+        "GameId": "SniperNest",
+        "DisplayName": "Sniper's Nest",
+        "Description": "Take a steady stance and ready your weapon. While Sniper's Nest is active, your attack speed, and power rise, but your movement is hindered.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Agility",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SniperShot": {
+        "Slug": "sniper-shot",
+        "GameId": "SniperShot",
+        "DisplayName": "Sniper Shot",
+        "Description": "Channels a devastating precision shot, dealing massive damage to a single target.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "PiercingShot",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "SoulDrain": {
+        "Slug": "soul-drain",
+        "GameId": "SoulDrain",
+        "DisplayName": "Soul Drain",
+        "Description": "A draining aura siphons life from nearby foes, sustaining those who fight within it.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SoulStrike": {
+        "Slug": "soul-strike",
+        "GameId": "SoulStrike",
+        "DisplayName": "Soul Strike",
+        "Description": "You form a protective pact with your summon.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0.5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "SpearMastery": {
+        "Slug": "spear-mastery",
+        "GameId": "SpearMastery",
+        "DisplayName": "Spear Mastery",
+        "Description": "Enhances attack power of spears and maces. Increases maximum health.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "SpearQuicken": {
+        "Slug": "spear-quicken",
+        "GameId": "SpearQuicken",
+        "DisplayName": "Spear Quicken",
+        "Description": "Increases offensive power when wielding a sword or spear.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SpearStab",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SpearSlice": {
+        "Slug": "air-cutter",
+        "GameId": "SpearSlice",
+        "DisplayName": "Air Cutter",
+        "Description": "Sweep your weapon in a swift arc, staggering enemies around you.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SpearStab",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "SpearStab": {
+        "Slug": "impale",
+        "GameId": "SpearStab",
+        "DisplayName": "Impale",
+        "Description": "Deliver a precise, piercing blow. Deals bonus damage when used at the end of a combo.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SpearThrust",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "SpearThrust": {
+        "Slug": "piercing-flurry",
+        "GameId": "SpearThrust",
+        "DisplayName": "Piercing Flurry",
+        "Description": "Lunge forward with rapid jabs, striking multiple enemies in a line.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SpearMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "SpellShield": {
+        "Slug": "arcanum-ward",
+        "GameId": "SpellShield",
+        "DisplayName": "Arcanum Ward",
+        "Description": "Creates a sacred barrier that absorbs Magic damage, shielding an ally from hostile spells.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "Barrier",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 15,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 10,
+            "ValueStr": null
+        }
+    },
+    "StatusRecovery": {
+        "Slug": "status-recovery",
+        "GameId": "StatusRecovery",
+        "DisplayName": "Status Recovery",
+        "Description": "Channels divine clarity to free an ally from paralysis or frozen bindings, restoring movement and control.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "SteadyHands": {
+        "Slug": "steady-hands",
+        "GameId": "SteadyHands",
+        "DisplayName": "Steady Hands",
+        "Description": "Improves control and precision, enhancing dexterity-based actions.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Stomp": {
+        "Slug": "stomp",
+        "GameId": "Stomp",
+        "DisplayName": "Stomp",
+        "Description": "Slams the ground, stunning enemies in a wide area.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "AxeArc",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "StrafingVolley": {
+        "Slug": "strafing-volley",
+        "GameId": "StrafingVolley",
+        "DisplayName": "Strafing Volley",
+        "Description": "Fires a rapid sequence of arrows at a single target.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SteadyHands",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 3,
+            "ValueLv": 1,
+            "ValueStr": null
+        }
+    },
+    "SummonAbomination": {
+        "Slug": "summon-abomination",
+        "GameId": "SummonAbomination",
+        "DisplayName": "Summon Abomination",
+        "Description": "Summons a stitched mass of decaying flesh that controls space through sheer size and presence.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SkeletonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonAngel": {
+        "Slug": "summon-angel",
+        "GameId": "SummonAngel",
+        "DisplayName": "Summon Angel",
+        "Description": "A radiant healer who channels light into soothing magic and soul-searing strikes.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonAttack": {
+        "Slug": "summon-command",
+        "GameId": "SummonAttack",
+        "DisplayName": "Summon Command",
+        "Description": "Commands all active summons to converge on the chosen enemy or location, forcing them to attack your target.",
+        "MaxLv": 1,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonCactus": {
+        "Slug": "summon-cactus",
+        "GameId": "SummonCactus",
+        "DisplayName": "Summon Cactus",
+        "Description": "A spiny sentinel that soaks up hits and punishes attackers without flinching.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonCat": {
+        "Slug": "summon-cat",
+        "GameId": "SummonCat",
+        "DisplayName": "Summon Cat",
+        "Description": "A nimble caster that darts between foes, blasting lightning with wild flair.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonMastery": {
+        "Slug": "summon-mastery",
+        "GameId": "SummonMastery",
+        "DisplayName": "Summon Mastery",
+        "Description": "Improves the effectiveness of summoned allies, allowing them to inherit more of your power.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "SummonMount": {
+        "Slug": "summon-mount",
+        "GameId": "SummonMount",
+        "DisplayName": "Summon Mount",
+        "Description": "Mount your active summon, taking direct control while remaining able to cast your own abilities and sharing all damage taken. Summon must be at it's final stage.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonReanimation": {
+        "Slug": "summon-reanimation",
+        "GameId": "SummonReanimation",
+        "DisplayName": "Summon Reanimation",
+        "Description": "You call forth a previously claimed undead champion, returning it to the battlefield.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "DeathBond",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonRecall": {
+        "Slug": "summon-recall",
+        "GameId": "SummonRecall",
+        "DisplayName": "Summon Recall",
+        "Description": "Calls all active summons back to your side, cancelling their current actions and returning them instantly.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonSkeleton": {
+        "Slug": "summon-skeleton",
+        "GameId": "SummonSkeleton",
+        "DisplayName": "Summon Skeleton",
+        "Description": "Raises a Skeleton Soldier to fight at your side, forming the backbone of your undead army.",
+        "MaxLv": 3,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SkeletonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonSkeletonMage": {
+        "Slug": "summon-skeleton-mage",
+        "GameId": "SummonSkeletonMage",
+        "DisplayName": "Summon Skeleton Mage",
+        "Description": "Raises a Skeleton Mage that attacks from range with unstable necromantic magic.",
+        "MaxLv": 2,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SkeletonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonSwap": {
+        "Slug": "summon-swap",
+        "GameId": "SummonSwap",
+        "DisplayName": "Summon Swap",
+        "Description": "Instantly swaps your active summon configuration, allowing rapid adaptation in combat.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonWolf": {
+        "Slug": "summon-wolf",
+        "GameId": "SummonWolf",
+        "DisplayName": "Summon Wolf",
+        "Description": "A fast, feral brawler that tears into enemies with raw strength and speed.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SummonWraith": {
+        "Slug": "summon-wraith",
+        "GameId": "SummonWraith",
+        "DisplayName": "Summon Wraith",
+        "Description": "Summons an elite undead arcanist that amplifies necromantic power and commands lesser undead.",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "SkeletonMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "SuppressiveShot": {
+        "Slug": "suppressive-shot",
+        "GameId": "SuppressiveShot",
+        "DisplayName": "Suppressive Shot",
+        "Description": "Pins enemies down with suppressive fire, weakening those caught in the blast.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "PiercingShot",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1.5,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 5,
+            "ValueLv": 2,
+            "ValueStr": null
+        }
+    },
+    "Taunt": {
+        "Slug": "taunt",
+        "GameId": "Taunt",
+        "DisplayName": "Taunt",
+        "Description": "Forces affected targets to focus all basic attacks on you.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Tempest": {
+        "Slug": "tempest",
+        "GameId": "Tempest",
+        "DisplayName": "Tempest",
+        "Description": "A furious gale tears across the battlefield, scattering and striking all caught in its path.",
+        "MaxLv": 10,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "ChainLightning",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 5,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "TetraVortex": {
+        "Slug": "elemental-overload",
+        "GameId": "TetraVortex",
+        "DisplayName": "Elemental Overload",
+        "Description": "Unleashes an overwhelming surge of elemental power, erupting from the ground in a catastrophic blast. Deals massive Magic damage in a vast area and leaves enemies exposed to arcane force. The effect of Elemental Overload is determined by your current elemental attunement.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Meteor",
+                "Level": 1
+            },
+            {
+                "Id": "FreezingField",
+                "Level": 1
+            },
+            {
+                "Id": "Tempest",
+                "Level": 1
+            },
+            {
+                "Id": "Earthquake",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 10,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 100,
+            "ValueStr": null
+        }
+    },
+    "TetraVortexFire": {
+        "Slug": "overload-fire",
+        "GameId": "TetraVortexFire",
+        "DisplayName": "Overload Fire",
+        "Description": "Elemental Overload ignites the battlefield, dealing repeated Fire damage and burning all enemies caught within the blast.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 16,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "ThunderStorm": {
+        "Slug": "thunder-storm",
+        "GameId": "ThunderStorm",
+        "DisplayName": "Thunder Storm",
+        "Description": "Calls down a storm of lightning over a target area, striking all enemies within.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "Thunderbolt",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 30,
+            "ValueLv": 15,
+            "ValueStr": null
+        }
+    },
+    "Thunderbolt": {
+        "Slug": "thunderbolt",
+        "GameId": "Thunderbolt",
+        "DisplayName": "Thunderbolt",
+        "Description": "Calls down a high-voltage bolt that strikes a single enemy, dealing wind-element Magic damage.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 2,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "TriggerHappy": {
+        "Slug": "trigger-happy",
+        "GameId": "TriggerHappy",
+        "DisplayName": "Trigger Happy",
+        "Description": "Enter a heightened firing state, automatically attacking nearby enemies while in motion.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "GunMastery",
+                "Level": 3
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "TurnUndead": {
+        "Slug": "turn-undead",
+        "GameId": "TurnUndead",
+        "DisplayName": "Turn Undead",
+        "Description": "Attempts to purge undead and shadow-aligned enemies through divine judgment. Chance to deal 777% damage to Undead and Shadow. Chance = 2% per Lv + INT\/5 + LUK\/5 + MonsterMissingHealth% * 20",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "ReviveAll",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 2,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 40,
+            "ValueLv": 20,
+            "ValueStr": null
+        }
+    },
+    "TwistOfFate": {
+        "Slug": "twist-of-fate",
+        "GameId": "TwistOfFate",
+        "DisplayName": "Twist Of Fate",
+        "Description": "Strike with overwhelming force, stunning and scattering enemies before slipping back into the shadows, readying the next decisive move.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "ShadowSeal",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 11,
+            "ValueLv": -1,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "TwohandParry": {
+        "Slug": "twohand-parry",
+        "GameId": "TwohandParry",
+        "DisplayName": "Twohand Parry",
+        "Description": "Allows two-handed weapons to block attacks.",
+        "MaxLv": 5,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "TwohandQuicken": {
+        "Slug": "axe-quicken",
+        "GameId": "TwohandQuicken",
+        "DisplayName": "Axe Quicken",
+        "Description": "Increases offensive power when wielding a sword or axe.",
+        "MaxLv": 5,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "Stomp",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Unyielding": {
+        "Slug": "unyielding",
+        "GameId": "Unyielding",
+        "DisplayName": "Unyielding",
+        "Description": "Consume Rage to steel your body, resisting incoming damage through sheer will.",
+        "MaxLv": 2,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "BloodCrash",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 30,
+            "ValueLv": -5,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "VenomCoating": {
+        "Slug": "venom-coating",
+        "GameId": "VenomCoating",
+        "DisplayName": "Venom Coating",
+        "Description": "A venomous sheen coats the blade, each strike delivering a silent death.",
+        "MaxLv": 1,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "EnchantPoison",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "VenomStrike": {
+        "Slug": "venom-strike",
+        "GameId": "VenomStrike",
+        "DisplayName": "Venom Strike",
+        "Description": "Strikes a target with a chance to inflict poison",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "BladeMastery",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.4,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 3,
+            "ValueLv": 1,
+            "ValueStr": null
+        }
+    },
+    "Vitality": {
+        "Slug": "vitality-aura",
+        "GameId": "Vitality",
+        "DisplayName": "Vitality Aura",
+        "Description": "Emit a gentle divine presence that strengthens the body, increasing vitality and restoring health over time.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Faith",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "VolatileBolt": {
+        "Slug": "volatile-bolt",
+        "GameId": "VolatileBolt",
+        "DisplayName": "Volatile Bolt",
+        "Description": "An arrow that explodes on impact, dealing area damage around the target.",
+        "MaxLv": 10,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "ArrowShower",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0.75,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "WandMastery": {
+        "Slug": "wand-mastery",
+        "GameId": "WandMastery",
+        "DisplayName": "Wand Mastery",
+        "Description": "Boosts magical attack when wielding a wand. Increases casting speed.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "WaterBarrier": {
+        "Slug": "avatar-of-frost",
+        "GameId": "WaterBarrier",
+        "DisplayName": "Avatar of Frost",
+        "Description": "Assume the Avatar of Frost, cloaking yourself in bitter cold. Permanently attunes you to Water, freezing attackers and greatly increasing mana regeneration.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "FreezingField",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "WeaponSwap": {
+        "Slug": "dual-loadout",
+        "GameId": "WeaponSwap",
+        "DisplayName": "Dual Loadout",
+        "Description": "Allows swapping between equipped gun sets. ",
+        "MaxLv": 1,
+        "CastType": 0,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 1,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "WeaponThrow": {
+        "Slug": "weapon-throw",
+        "GameId": "WeaponThrow",
+        "DisplayName": "Weapon Throw",
+        "Description": "Hurl your weapon forward in a spinning path, damaging enemies as it returns.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [
+            {
+                "Id": "SpearStab",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 1,
+            "ValueLv": 0.3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 3,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 7,
+            "ValueLv": 3,
+            "ValueStr": null
+        }
+    },
+    "WeaverMastery": {
+        "Slug": "weaver-mastery",
+        "GameId": "WeaverMastery",
+        "DisplayName": "Weaver Mastery",
+        "Description": "A quiet art that intertwines might, mind, and spirit.",
+        "MaxLv": 10,
+        "CastType": null,
+        "Requirements": [],
+        "Damage": null,
+        "Cooldown": null,
+        "Cost": null
+    },
+    "Whirlwind": {
+        "Slug": "whirlwind",
+        "GameId": "Whirlwind",
+        "DisplayName": "Whirlwind",
+        "Description": "Spin in place, slashing all enemies around you over time.",
+        "MaxLv": 10,
+        "CastType": 0,
+        "Requirements": [
+            {
+                "Id": "AxeVortex",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 1,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 6,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "WildCharge": {
+        "Slug": "wild-charge",
+        "GameId": "WildCharge",
+        "DisplayName": "Wild Charge",
+        "Description": "Leap forward with ferocious momentum, crushing enemies on impact and leaving them bleeding.",
+        "MaxLv": 5,
+        "CastType": 2,
+        "Requirements": [
+            {
+                "Id": "DarkClaw",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 3,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 4,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 10,
+            "ValueLv": 5,
+            "ValueStr": null
+        }
+    },
+    "WindBarrier": {
+        "Slug": "avatar-of-storm",
+        "GameId": "WindBarrier",
+        "DisplayName": "Avatar of Storm",
+        "Description": "Assume the Avatar of Storm, wreathed in surging wind and lightning. Permanently attunes you to Wind, discharging lightning when struck and increasing movement speed.",
+        "MaxLv": 5,
+        "CastType": 3,
+        "Requirements": [
+            {
+                "Id": "Tempest",
+                "Level": 1
+            }
+        ],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 20,
+            "ValueLv": 0,
+            "ValueStr": null
+        }
+    },
+    "Zeal": {
+        "Slug": "zeal",
+        "GameId": "Zeal",
+        "DisplayName": "Zeal",
+        "Description": "Inspires an ally with fervent conviction, boosting all damage for a duration.",
+        "MaxLv": 5,
+        "CastType": 1,
+        "Requirements": [],
+        "Damage": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cooldown": {
+            "Value": 0,
+            "ValueLv": 0,
+            "ValueStr": null
+        },
+        "Cost": {
+            "Value": 60,
+            "ValueLv": 30,
+            "ValueStr": null
+        }
+    }
+}

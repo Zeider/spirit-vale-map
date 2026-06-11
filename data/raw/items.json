@@ -1,0 +1,4655 @@
+{
+    "Alien Big Blink": {
+        "Slug": "cosmic-entity-card",
+        "GameId": "Alien Big Blink",
+        "Type": "card",
+        "DisplayName": "Cosmic Entity Card"
+    },
+    "Alien Biteroot": {
+        "Slug": "fangroot-card",
+        "GameId": "Alien Biteroot",
+        "Type": "card",
+        "DisplayName": "Fangroot Card"
+    },
+    "Alien Cyclops": {
+        "Slug": "voidspawn-card",
+        "GameId": "Alien Cyclops",
+        "Type": "card",
+        "DisplayName": "Voidspawn Card"
+    },
+    "Alien One Eye": {
+        "Slug": "voidgazer-card",
+        "GameId": "Alien One Eye",
+        "Type": "card",
+        "DisplayName": "Voidgazer Card"
+    },
+    "Alien Plant": {
+        "Slug": "bogbloom-card",
+        "GameId": "Alien Plant",
+        "Type": "card",
+        "DisplayName": "Bogbloom Card"
+    },
+    "Alien Spike": {
+        "Slug": "cinderspike-card",
+        "GameId": "Alien Spike",
+        "Type": "card",
+        "DisplayName": "Cinderspike Card"
+    },
+    "Alien Sporella": {
+        "Slug": "sporeling-card",
+        "GameId": "Alien Sporella",
+        "Type": "card",
+        "DisplayName": "Sporeling Card"
+    },
+    "Alien Star": {
+        "Slug": "little-star-card",
+        "GameId": "Alien Star",
+        "Type": "card",
+        "DisplayName": "Little Star Card"
+    },
+    "Alien Twinkle": {
+        "Slug": "twinkle-card",
+        "GameId": "Alien Twinkle",
+        "Type": "card",
+        "DisplayName": "Twinkle Card"
+    },
+    "Alien Wheel": {
+        "Slug": "blazewheel-card",
+        "GameId": "Alien Wheel",
+        "Type": "card",
+        "DisplayName": "Blazewheel Card"
+    },
+    "Alien Wreck": {
+        "Slug": "ashrend-card",
+        "GameId": "Alien Wreck",
+        "Type": "card",
+        "DisplayName": "Ashrend Card"
+    },
+    "Angel Mage": {
+        "Slug": "angel-mage-card",
+        "GameId": "Angel Mage",
+        "Type": "card",
+        "DisplayName": "Angel Mage Card"
+    },
+    "Angel": {
+        "Slug": "angel-card",
+        "GameId": "Angel",
+        "Type": "card",
+        "DisplayName": "Angel Card"
+    },
+    "Archangel": {
+        "Slug": "archangel-card",
+        "GameId": "Archangel",
+        "Type": "card",
+        "DisplayName": "Archangel Card"
+    },
+    "Bat Lord": {
+        "Slug": "bat-lord-card",
+        "GameId": "Bat Lord",
+        "Type": "card",
+        "DisplayName": "Bat Lord Card"
+    },
+    "Bat": {
+        "Slug": "bat-card",
+        "GameId": "Bat",
+        "Type": "card",
+        "DisplayName": "Bat Card"
+    },
+    "Bee": {
+        "Slug": "bee-card",
+        "GameId": "Bee",
+        "Type": "card",
+        "DisplayName": "Bee Card"
+    },
+    "Bird": {
+        "Slug": "bird-card",
+        "GameId": "Bird",
+        "Type": "card",
+        "DisplayName": "Bird Card"
+    },
+    "Bloom": {
+        "Slug": "bloom-card",
+        "GameId": "Bloom",
+        "Type": "card",
+        "DisplayName": "Bloom Card"
+    },
+    "Blossom": {
+        "Slug": "blossom-card",
+        "GameId": "Blossom",
+        "Type": "card",
+        "DisplayName": "Blossom Card"
+    },
+    "Bomb": {
+        "Slug": "bomb-card",
+        "GameId": "Bomb",
+        "Type": "card",
+        "DisplayName": "Bomb Card"
+    },
+    "Boxy Robot": {
+        "Slug": "boxy-robot-card",
+        "GameId": "Boxy Robot",
+        "Type": "card",
+        "DisplayName": "Boxy Robot Card"
+    },
+    "Bud": {
+        "Slug": "bud-card",
+        "GameId": "Bud",
+        "Type": "card",
+        "DisplayName": "Bud Card"
+    },
+    "Bumble": {
+        "Slug": "bumble-card",
+        "GameId": "Bumble",
+        "Type": "card",
+        "DisplayName": "Bumble Card"
+    },
+    "Bunny": {
+        "Slug": "bunny-card",
+        "GameId": "Bunny",
+        "Type": "card",
+        "DisplayName": "Bunny Card"
+    },
+    "Burrow": {
+        "Slug": "burrow-card",
+        "GameId": "Burrow",
+        "Type": "card",
+        "DisplayName": "Burrow Card"
+    },
+    "Butterfly Fairy": {
+        "Slug": "butterfly-fairy-card",
+        "GameId": "Butterfly Fairy",
+        "Type": "card",
+        "DisplayName": "Butterfly Fairy Card"
+    },
+    "Butterfly Hue": {
+        "Slug": "butterfly-hue-card",
+        "GameId": "Butterfly Hue",
+        "Type": "card",
+        "DisplayName": "Butterfly Hue Card"
+    },
+    "Butterfly Pixie": {
+        "Slug": "butterfly-pixie-card",
+        "GameId": "Butterfly Pixie",
+        "Type": "card",
+        "DisplayName": "Butterfly Pixie Card"
+    },
+    "Cacti": {
+        "Slug": "cacti-card",
+        "GameId": "Cacti",
+        "Type": "card",
+        "DisplayName": "Cacti Card"
+    },
+    "Cactus Boss": {
+        "Slug": "cactus-king-card",
+        "GameId": "Cactus Boss",
+        "Type": "card",
+        "DisplayName": "Cactus King Card"
+    },
+    "Cactus": {
+        "Slug": "cactus-card",
+        "GameId": "Cactus",
+        "Type": "card",
+        "DisplayName": "Cactus Card"
+    },
+    "Cat Bolt": {
+        "Slug": "cat-bolt-card",
+        "GameId": "Cat Bolt",
+        "Type": "card",
+        "DisplayName": "Cat Bolt Card"
+    },
+    "Cat Lightning": {
+        "Slug": "cat-lightning-card",
+        "GameId": "Cat Lightning",
+        "Type": "card",
+        "DisplayName": "Cat Lightning Card"
+    },
+    "Cat Meow": {
+        "Slug": "cat-meow-card",
+        "GameId": "Cat Meow",
+        "Type": "card",
+        "DisplayName": "Cat Meow Card"
+    },
+    "Chick": {
+        "Slug": "chick-card",
+        "GameId": "Chick",
+        "Type": "card",
+        "DisplayName": "Chick Card"
+    },
+    "Creeper": {
+        "Slug": "creeper-card",
+        "GameId": "Creeper",
+        "Type": "card",
+        "DisplayName": "Creeper Card"
+    },
+    "Cyclops Bat Mage": {
+        "Slug": "cyclops-bat-mage-card",
+        "GameId": "Cyclops Bat Mage",
+        "Type": "card",
+        "DisplayName": "Cyclops Bat Mage Card"
+    },
+    "Cyclops Bat Wizard": {
+        "Slug": "cyclops-bat-wizard-card",
+        "GameId": "Cyclops Bat Wizard",
+        "Type": "card",
+        "DisplayName": "Cyclops Bat Wizard Card"
+    },
+    "Cyclops Bat": {
+        "Slug": "cyclops-bat-card",
+        "GameId": "Cyclops Bat",
+        "Type": "card",
+        "DisplayName": "Cyclops Bat Card"
+    },
+    "Cyclops Giant": {
+        "Slug": "cyclops-giant-card",
+        "GameId": "Cyclops Giant",
+        "Type": "card",
+        "DisplayName": "Cyclops Giant Card"
+    },
+    "Cyclops Minion": {
+        "Slug": "cyclops-minion-card",
+        "GameId": "Cyclops Minion",
+        "Type": "card",
+        "DisplayName": "Cyclops Minion Card"
+    },
+    "Cyclops": {
+        "Slug": "cyclops-card",
+        "GameId": "Cyclops",
+        "Type": "card",
+        "DisplayName": "Cyclops Card"
+    },
+    "Death Mage": {
+        "Slug": "death-mage-card",
+        "GameId": "Death Mage",
+        "Type": "card",
+        "DisplayName": "Death Mage Card"
+    },
+    "Death": {
+        "Slug": "death-card",
+        "GameId": "Death",
+        "Type": "card",
+        "DisplayName": "Death Card"
+    },
+    "Delivery Robot": {
+        "Slug": "delivery-robot-card",
+        "GameId": "Delivery Robot",
+        "Type": "card",
+        "DisplayName": "Delivery Robot Card"
+    },
+    "Direwolf": {
+        "Slug": "direwolf-card",
+        "GameId": "Direwolf",
+        "Type": "card",
+        "DisplayName": "Direwolf Card"
+    },
+    "Dog Bark": {
+        "Slug": "dog-bark-card",
+        "GameId": "Dog Bark",
+        "Type": "card",
+        "DisplayName": "Dog Bark Card"
+    },
+    "Dog Bowwow": {
+        "Slug": "dog-bowwow-card",
+        "GameId": "Dog Bowwow",
+        "Type": "card",
+        "DisplayName": "Dog Bowwow Card"
+    },
+    "Dog Pup": {
+        "Slug": "dog-pup-card",
+        "GameId": "Dog Pup",
+        "Type": "card",
+        "DisplayName": "Dog Pup Card"
+    },
+    "Dragon Blizzard": {
+        "Slug": "dragon-blizzard-card",
+        "GameId": "Dragon Blizzard",
+        "Type": "card",
+        "DisplayName": "Dragon Blizzard Card"
+    },
+    "Dragon Darkness": {
+        "Slug": "dragon-darkness-card",
+        "GameId": "Dragon Darkness",
+        "Type": "card",
+        "DisplayName": "Dragon Darkness Card"
+    },
+    "Dragon Dusk": {
+        "Slug": "dragon-dusk-card",
+        "GameId": "Dragon Dusk",
+        "Type": "card",
+        "DisplayName": "Dragon Dusk Card"
+    },
+    "Dragon Fire": {
+        "Slug": "dragon-fire-card",
+        "GameId": "Dragon Fire",
+        "Type": "card",
+        "DisplayName": "Dragon Fire Card"
+    },
+    "Dragon Ice": {
+        "Slug": "dragon-ice-card",
+        "GameId": "Dragon Ice",
+        "Type": "card",
+        "DisplayName": "Dragon Ice Card"
+    },
+    "Dragon Inferno": {
+        "Slug": "dragon-inferno-card",
+        "GameId": "Dragon Inferno",
+        "Type": "card",
+        "DisplayName": "Dragon Inferno Card"
+    },
+    "Dragon Nightfall": {
+        "Slug": "dragon-nightfall-card",
+        "GameId": "Dragon Nightfall",
+        "Type": "card",
+        "DisplayName": "Dragon Nightfall Card"
+    },
+    "Dragon Spark": {
+        "Slug": "dragon-spark-card",
+        "GameId": "Dragon Spark",
+        "Type": "card",
+        "DisplayName": "Dragon Spark Card"
+    },
+    "Dragon Water": {
+        "Slug": "dragon-water-card",
+        "GameId": "Dragon Water",
+        "Type": "card",
+        "DisplayName": "Dragon Water Card"
+    },
+    "Dragonfly Arrow": {
+        "Slug": "dragonfly-arrow-card",
+        "GameId": "Dragonfly Arrow",
+        "Type": "card",
+        "DisplayName": "Dragonfly Arrow Card"
+    },
+    "Dragonfly Darner": {
+        "Slug": "dragonfly-darner-card",
+        "GameId": "Dragonfly Darner",
+        "Type": "card",
+        "DisplayName": "Dragonfly Darner Card"
+    },
+    "Dragonfly Swift": {
+        "Slug": "dragonfly-swift-card",
+        "GameId": "Dragonfly Swift",
+        "Type": "card",
+        "DisplayName": "Dragonfly Swift Card"
+    },
+    "Earthworm": {
+        "Slug": "earthworm-card",
+        "GameId": "Earthworm",
+        "Type": "card",
+        "DisplayName": "Earthworm Card"
+    },
+    "Egg": {
+        "Slug": "egg-card",
+        "GameId": "Egg",
+        "Type": "card",
+        "DisplayName": "Egg Card"
+    },
+    "Egglet": {
+        "Slug": "egglet-card",
+        "GameId": "Egglet",
+        "Type": "card",
+        "DisplayName": "Egglet Card"
+    },
+    "Elder Wisp Blue": {
+        "Slug": "elder-wisp-blue-card",
+        "GameId": "Elder Wisp Blue",
+        "Type": "card",
+        "DisplayName": "Elder Wisp Blue Card"
+    },
+    "Elder Wisp Purple": {
+        "Slug": "elder-wisp-purple-card",
+        "GameId": "Elder Wisp Purple",
+        "Type": "card",
+        "DisplayName": "Elder Wisp Purple Card"
+    },
+    "Elder Wisp Yellow": {
+        "Slug": "elder-wisp-yellow-card",
+        "GameId": "Elder Wisp Yellow",
+        "Type": "card",
+        "DisplayName": "Elder Wisp Yellow Card"
+    },
+    "Eyeball Bat Blue": {
+        "Slug": "eyeball-bat-blue-card",
+        "GameId": "Eyeball Bat Blue",
+        "Type": "card",
+        "DisplayName": "Eyeball Bat Blue Card"
+    },
+    "Eyeball Bat Green": {
+        "Slug": "eyeball-bat-green-card",
+        "GameId": "Eyeball Bat Green",
+        "Type": "card",
+        "DisplayName": "Eyeball Bat Green Card"
+    },
+    "Eyeball Bat Red": {
+        "Slug": "eyeball-bat-red-card",
+        "GameId": "Eyeball Bat Red",
+        "Type": "card",
+        "DisplayName": "Eyeball Bat Red Card"
+    },
+    "Eyeball Creep Blue": {
+        "Slug": "eyeball-creep-blue-card",
+        "GameId": "Eyeball Creep Blue",
+        "Type": "card",
+        "DisplayName": "Eyeball Creep Blue Card"
+    },
+    "Eyeball Creep Green": {
+        "Slug": "eyeball-creep-green-card",
+        "GameId": "Eyeball Creep Green",
+        "Type": "card",
+        "DisplayName": "Eyeball Creep Green Card"
+    },
+    "Eyeball Creep Red": {
+        "Slug": "eyeball-creep-red-card",
+        "GameId": "Eyeball Creep Red",
+        "Type": "card",
+        "DisplayName": "Eyeball Creep Red Card"
+    },
+    "Eyeball Mage Blue": {
+        "Slug": "eyeball-mage-blue-card",
+        "GameId": "Eyeball Mage Blue",
+        "Type": "card",
+        "DisplayName": "Eyeball Mage Blue Card"
+    },
+    "Eyeball Mage Green": {
+        "Slug": "eyeball-mage-green-card",
+        "GameId": "Eyeball Mage Green",
+        "Type": "card",
+        "DisplayName": "Eyeball Mage Green Card"
+    },
+    "Eyeball Mage Red": {
+        "Slug": "eyeball-mage-red-card",
+        "GameId": "Eyeball Mage Red",
+        "Type": "card",
+        "DisplayName": "Eyeball Mage Red Card"
+    },
+    "Fire Mage": {
+        "Slug": "fire-mage-card",
+        "GameId": "Fire Mage",
+        "Type": "card",
+        "DisplayName": "Fire Mage Card"
+    },
+    "Fire": {
+        "Slug": "fire-card",
+        "GameId": "Fire",
+        "Type": "card",
+        "DisplayName": "Fire Card"
+    },
+    "Fish Man Blue": {
+        "Slug": "fish-man-blue-card",
+        "GameId": "Fish Man Blue",
+        "Type": "card",
+        "DisplayName": "Fish Man Blue Card"
+    },
+    "Fish Man Pink": {
+        "Slug": "fish-man-pink-card",
+        "GameId": "Fish Man Pink",
+        "Type": "card",
+        "DisplayName": "Fish Man Pink Card"
+    },
+    "Fish Man Yellow": {
+        "Slug": "fish-man-yellow-card",
+        "GameId": "Fish Man Yellow",
+        "Type": "card",
+        "DisplayName": "Fish Man Yellow Card"
+    },
+    "Fish Merman Blue": {
+        "Slug": "merman-blue-card",
+        "GameId": "Fish Merman Blue",
+        "Type": "card",
+        "DisplayName": "Merman Blue Card"
+    },
+    "Fish Merman Pink": {
+        "Slug": "merman-pink-card",
+        "GameId": "Fish Merman Pink",
+        "Type": "card",
+        "DisplayName": "Merman Pink Card"
+    },
+    "Fish Merman Yellow": {
+        "Slug": "merman-yellow-card",
+        "GameId": "Fish Merman Yellow",
+        "Type": "card",
+        "DisplayName": "Merman Yellow Card"
+    },
+    "Fish Pink": {
+        "Slug": "fish-pink-card",
+        "GameId": "Fish Pink",
+        "Type": "card",
+        "DisplayName": "Fish Pink Card"
+    },
+    "Fish Yellow": {
+        "Slug": "fish-yellow-card",
+        "GameId": "Fish Yellow",
+        "Type": "card",
+        "DisplayName": "Fish Yellow Card"
+    },
+    "Flame": {
+        "Slug": "flame-card",
+        "GameId": "Flame",
+        "Type": "card",
+        "DisplayName": "Flame Card"
+    },
+    "Fledgling": {
+        "Slug": "fledgling-card",
+        "GameId": "Fledgling",
+        "Type": "card",
+        "DisplayName": "Fledgling Card"
+    },
+    "Flora": {
+        "Slug": "flora-card",
+        "GameId": "Flora",
+        "Type": "card",
+        "DisplayName": "Flora Card"
+    },
+    "Flower Pot Monster": {
+        "Slug": "flower-pot-monster-card",
+        "GameId": "Flower Pot Monster",
+        "Type": "card",
+        "DisplayName": "Flower Pot Monster Card"
+    },
+    "Fungi": {
+        "Slug": "fungi-card",
+        "GameId": "Fungi",
+        "Type": "card",
+        "DisplayName": "Fungi Card"
+    },
+    "Ghost": {
+        "Slug": "ghost-card",
+        "GameId": "Ghost",
+        "Type": "card",
+        "DisplayName": "Ghost Card"
+    },
+    "Glow Wisp Blue": {
+        "Slug": "glow-wisp-blue-card",
+        "GameId": "Glow Wisp Blue",
+        "Type": "card",
+        "DisplayName": "Glow Wisp Blue Card"
+    },
+    "Glow Wisp Purple": {
+        "Slug": "glow-wisp-purple-card",
+        "GameId": "Glow Wisp Purple",
+        "Type": "card",
+        "DisplayName": "Glow Wisp Purple Card"
+    },
+    "Glow Wisp Yellow": {
+        "Slug": "glow-wisp-yellow-card",
+        "GameId": "Glow Wisp Yellow",
+        "Type": "card",
+        "DisplayName": "Glow Wisp Yellow Card"
+    },
+    "Goblin Giant Devil": {
+        "Slug": "goblin-giant-devil-card",
+        "GameId": "Goblin Giant Devil",
+        "Type": "card",
+        "DisplayName": "Goblin Giant Devil Card"
+    },
+    "Goblin Giant Gold": {
+        "Slug": "goblin-king-card",
+        "GameId": "Goblin Giant Gold",
+        "Type": "card",
+        "DisplayName": "Goblin King Card"
+    },
+    "Goblin Giant Mage": {
+        "Slug": "goblin-giant-mage-card",
+        "GameId": "Goblin Giant Mage",
+        "Type": "card",
+        "DisplayName": "Goblin Giant Mage Card"
+    },
+    "Goblin Minion": {
+        "Slug": "goblin-minion-card",
+        "GameId": "Goblin Minion",
+        "Type": "card",
+        "DisplayName": "Goblin Minion Card"
+    },
+    "Goblin Trooper Assassin": {
+        "Slug": "goblin-trooper-assassin-card",
+        "GameId": "Goblin Trooper Assassin",
+        "Type": "card",
+        "DisplayName": "Goblin Trooper Assassin Card"
+    },
+    "Goblin Trooper Mage": {
+        "Slug": "goblin-trooper-mage-card",
+        "GameId": "Goblin Trooper Mage",
+        "Type": "card",
+        "DisplayName": "Goblin Trooper Mage Card"
+    },
+    "Goblin Trooper Soldier": {
+        "Slug": "goblin-trooper-soldier-card",
+        "GameId": "Goblin Trooper Soldier",
+        "Type": "card",
+        "DisplayName": "Goblin Trooper Soldier Card"
+    },
+    "Goblin Trooper": {
+        "Slug": "goblin-trooper-card",
+        "GameId": "Goblin Trooper",
+        "Type": "card",
+        "DisplayName": "Goblin Trooper Card"
+    },
+    "Goblin Warblade": {
+        "Slug": "goblin-warblade-card",
+        "GameId": "Goblin Warblade",
+        "Type": "card",
+        "DisplayName": "Goblin Warblade Card"
+    },
+    "Goblin Warchief": {
+        "Slug": "goblin-warchief-card",
+        "GameId": "Goblin Warchief",
+        "Type": "card",
+        "DisplayName": "Goblin Warchief Card"
+    },
+    "Goblin Warcrusher": {
+        "Slug": "goblin-warcrusher-card",
+        "GameId": "Goblin Warcrusher",
+        "Type": "card",
+        "DisplayName": "Goblin Warcrusher Card"
+    },
+    "Goblin Warlock": {
+        "Slug": "goblin-warlock-card",
+        "GameId": "Goblin Warlock",
+        "Type": "card",
+        "DisplayName": "Goblin Warlock Card"
+    },
+    "Golem Earth": {
+        "Slug": "golem-earth-card",
+        "GameId": "Golem Earth",
+        "Type": "card",
+        "DisplayName": "Golem Earth Card"
+    },
+    "Golem Fire": {
+        "Slug": "golem-fire-card",
+        "GameId": "Golem Fire",
+        "Type": "card",
+        "DisplayName": "Golem Fire Card"
+    },
+    "Golem Ice": {
+        "Slug": "golem-ice-card",
+        "GameId": "Golem Ice",
+        "Type": "card",
+        "DisplayName": "Golem Ice Card"
+    },
+    "Gripper Robot": {
+        "Slug": "gripper-robot-card",
+        "GameId": "Gripper Robot",
+        "Type": "card",
+        "DisplayName": "Gripper Robot Card"
+    },
+    "Hare": {
+        "Slug": "hare-card",
+        "GameId": "Hare",
+        "Type": "card",
+        "DisplayName": "Hare Card"
+    },
+    "Haunt": {
+        "Slug": "haunt-card",
+        "GameId": "Haunt",
+        "Type": "card",
+        "DisplayName": "Haunt Card"
+    },
+    "Hermit King": {
+        "Slug": "hermit-king-card",
+        "GameId": "Hermit King",
+        "Type": "card",
+        "DisplayName": "Hermit King Card"
+    },
+    "Horror": {
+        "Slug": "horror-card",
+        "GameId": "Horror",
+        "Type": "card",
+        "DisplayName": "Horror Card"
+    },
+    "Housefly Icky": {
+        "Slug": "housefly-icky-card",
+        "GameId": "Housefly Icky",
+        "Type": "card",
+        "DisplayName": "Housefly Icky Card"
+    },
+    "Housefly Junk": {
+        "Slug": "housefly-junk-card",
+        "GameId": "Housefly Junk",
+        "Type": "card",
+        "DisplayName": "Housefly Junk Card"
+    },
+    "Housefly Nom": {
+        "Slug": "housefly-nom-card",
+        "GameId": "Housefly Nom",
+        "Type": "card",
+        "DisplayName": "Housefly Nom Card"
+    },
+    "Ice Bear B": {
+        "Slug": "festive-bear-card",
+        "GameId": "Ice Bear B",
+        "Type": "card",
+        "DisplayName": "Festive Bear Card"
+    },
+    "Ice Mage": {
+        "Slug": "ice-mage-card",
+        "GameId": "Ice Mage",
+        "Type": "card",
+        "DisplayName": "Ice Mage Card"
+    },
+    "Ice Starflake A": {
+        "Slug": "starflake-card",
+        "GameId": "Ice Starflake A",
+        "Type": "card",
+        "DisplayName": "Starflake Card"
+    },
+    "Ice Starflake B": {
+        "Slug": "vanilla-ice-card",
+        "GameId": "Ice Starflake B",
+        "Type": "card",
+        "DisplayName": "Vanilla Ice Card"
+    },
+    "Ice Starflake C": {
+        "Slug": "shadow-ice-card",
+        "GameId": "Ice Starflake C",
+        "Type": "card",
+        "DisplayName": "Shadow Ice Card"
+    },
+    "Ice": {
+        "Slug": "ice-card",
+        "GameId": "Ice",
+        "Type": "card",
+        "DisplayName": "Ice Card"
+    },
+    "Icicle": {
+        "Slug": "icicle-card",
+        "GameId": "Icicle",
+        "Type": "card",
+        "DisplayName": "Icicle Card"
+    },
+    "Imp Demon": {
+        "Slug": "imp-demon-card",
+        "GameId": "Imp Demon",
+        "Type": "card",
+        "DisplayName": "Imp Demon Card"
+    },
+    "Imp Devil": {
+        "Slug": "imp-devil-card",
+        "GameId": "Imp Devil",
+        "Type": "card",
+        "DisplayName": "Imp Devil Card"
+    },
+    "Imp Mischief": {
+        "Slug": "imp-mischief-card",
+        "GameId": "Imp Mischief",
+        "Type": "card",
+        "DisplayName": "Imp Mischief Card"
+    },
+    "Jellyfish Robot": {
+        "Slug": "stormjelly-card",
+        "GameId": "Jellyfish Robot",
+        "Type": "card",
+        "DisplayName": "Stormjelly Card"
+    },
+    "Lurker": {
+        "Slug": "lurker-card",
+        "GameId": "Lurker",
+        "Type": "card",
+        "DisplayName": "Lurker Card"
+    },
+    "Mega Ice Golem": {
+        "Slug": "mega-ice-golem-card",
+        "GameId": "Mega Ice Golem",
+        "Type": "card",
+        "DisplayName": "Mega Ice Golem Card"
+    },
+    "Mini Ice Bear A": {
+        "Slug": "ice-baby-card",
+        "GameId": "Mini Ice Bear A",
+        "Type": "card",
+        "DisplayName": "Ice Baby Card"
+    },
+    "Mini Ice Bear B": {
+        "Slug": "festive-baby-card",
+        "GameId": "Mini Ice Bear B",
+        "Type": "card",
+        "DisplayName": "Festive Baby Card"
+    },
+    "Mole Rat King": {
+        "Slug": "mole-rat-king-card",
+        "GameId": "Mole Rat King",
+        "Type": "card",
+        "DisplayName": "Mole Rat King Card"
+    },
+    "Mole Rat": {
+        "Slug": "mole-rat-card",
+        "GameId": "Mole Rat",
+        "Type": "card",
+        "DisplayName": "Mole Rat Card"
+    },
+    "Mosquito Bug": {
+        "Slug": "mosquito-bug-card",
+        "GameId": "Mosquito Bug",
+        "Type": "card",
+        "DisplayName": "Mosquito Bug Card"
+    },
+    "Mosquito Pester": {
+        "Slug": "mosquito-pester-card",
+        "GameId": "Mosquito Pester",
+        "Type": "card",
+        "DisplayName": "Mosquito Pester Card"
+    },
+    "Mosquito Stinger": {
+        "Slug": "mosquito-stinger-card",
+        "GameId": "Mosquito Stinger",
+        "Type": "card",
+        "DisplayName": "Mosquito Stinger Card"
+    },
+    "Moth Celestial": {
+        "Slug": "moth-celestial-card",
+        "GameId": "Moth Celestial",
+        "Type": "card",
+        "DisplayName": "Moth Celestial Card"
+    },
+    "Moth Luna": {
+        "Slug": "moth-luna-card",
+        "GameId": "Moth Luna",
+        "Type": "card",
+        "DisplayName": "Moth Luna Card"
+    },
+    "Moth Moon": {
+        "Slug": "moth-moon-card",
+        "GameId": "Moth Moon",
+        "Type": "card",
+        "DisplayName": "Moth Moon Card"
+    },
+    "Mushroom": {
+        "Slug": "mushroom",
+        "GameId": "Mushroom",
+        "Type": "material",
+        "DisplayName": "Mushroom"
+    },
+    "Nightmare": {
+        "Slug": "nightmare-card",
+        "GameId": "Nightmare",
+        "Type": "card",
+        "DisplayName": "Nightmare Card"
+    },
+    "Octopus Baby Blue": {
+        "Slug": "octopus-baby-blue-card",
+        "GameId": "Octopus Baby Blue",
+        "Type": "card",
+        "DisplayName": "Octopus Baby Blue Card"
+    },
+    "Octopus Baby Orange": {
+        "Slug": "octopus-baby-orange-card",
+        "GameId": "Octopus Baby Orange",
+        "Type": "card",
+        "DisplayName": "Octopus Baby Orange Card"
+    },
+    "Octopus Baby Purple": {
+        "Slug": "octopus-baby-purple-card",
+        "GameId": "Octopus Baby Purple",
+        "Type": "card",
+        "DisplayName": "Octopus Baby Purple Card"
+    },
+    "Octopus King Blue": {
+        "Slug": "octopus-king-blue-card",
+        "GameId": "Octopus King Blue",
+        "Type": "card",
+        "DisplayName": "Octopus King Blue Card"
+    },
+    "Octopus King Orange": {
+        "Slug": "octopus-king-orange-card",
+        "GameId": "Octopus King Orange",
+        "Type": "card",
+        "DisplayName": "Octopus King Orange Card"
+    },
+    "Octopus King Purple": {
+        "Slug": "octopus-king-purple-card",
+        "GameId": "Octopus King Purple",
+        "Type": "card",
+        "DisplayName": "Octopus King Purple Card"
+    },
+    "Octopus Orange": {
+        "Slug": "octopus-orange-card",
+        "GameId": "Octopus Orange",
+        "Type": "card",
+        "DisplayName": "Octopus Orange Card"
+    },
+    "Octopus Purple": {
+        "Slug": "octopus-purple-card",
+        "GameId": "Octopus Purple",
+        "Type": "card",
+        "DisplayName": "Octopus Purple Card"
+    },
+    "Octopus White": {
+        "Slug": "octopus-white-card",
+        "GameId": "Octopus White",
+        "Type": "card",
+        "DisplayName": "Octopus White Card"
+    },
+    "Petal": {
+        "Slug": "petal-card",
+        "GameId": "Petal",
+        "Type": "card",
+        "DisplayName": "Petal Card"
+    },
+    "Phantom": {
+        "Slug": "phantom-card",
+        "GameId": "Phantom",
+        "Type": "card",
+        "DisplayName": "Phantom Card"
+    },
+    "Plant Chewer": {
+        "Slug": "plant-chewer-card",
+        "GameId": "Plant Chewer",
+        "Type": "card",
+        "DisplayName": "Plant Chewer Card"
+    },
+    "Poison Bomb": {
+        "Slug": "poison-bomb-card",
+        "GameId": "Poison Bomb",
+        "Type": "card",
+        "DisplayName": "Poison Bomb Card"
+    },
+    "Pollen": {
+        "Slug": "pollen-card",
+        "GameId": "Pollen",
+        "Type": "card",
+        "DisplayName": "Pollen Card"
+    },
+    "Posy": {
+        "Slug": "posy-card",
+        "GameId": "Posy",
+        "Type": "card",
+        "DisplayName": "Posy Card"
+    },
+    "Queen Worm": {
+        "Slug": "queen-worm-card",
+        "GameId": "Queen Worm",
+        "Type": "card",
+        "DisplayName": "Queen Worm Card"
+    },
+    "Rabbit": {
+        "Slug": "rabbit-card",
+        "GameId": "Rabbit",
+        "Type": "card",
+        "DisplayName": "Rabbit Card"
+    },
+    "Razor Robot": {
+        "Slug": "razor-robot-card",
+        "GameId": "Razor Robot",
+        "Type": "card",
+        "DisplayName": "Razor Robot Card"
+    },
+    "Scorpion King": {
+        "Slug": "scorpion-king-card",
+        "GameId": "Scorpion King",
+        "Type": "card",
+        "DisplayName": "Scorpion King Card"
+    },
+    "Scorpion": {
+        "Slug": "scorpion-card",
+        "GameId": "Scorpion",
+        "Type": "card",
+        "DisplayName": "Scorpion Card"
+    },
+    "Scorpling": {
+        "Slug": "scorpling-card",
+        "GameId": "Scorpling",
+        "Type": "card",
+        "DisplayName": "Scorpling Card"
+    },
+    "Seed": {
+        "Slug": "seed",
+        "GameId": "Seed",
+        "Type": "material",
+        "DisplayName": "Seed"
+    },
+    "Shade": {
+        "Slug": "shade-card",
+        "GameId": "Shade",
+        "Type": "card",
+        "DisplayName": "Shade Card"
+    },
+    "Shadow": {
+        "Slug": "shadow-card",
+        "GameId": "Shadow",
+        "Type": "card",
+        "DisplayName": "Shadow Card"
+    },
+    "Shell Robot": {
+        "Slug": "shell-robot-card",
+        "GameId": "Shell Robot",
+        "Type": "card",
+        "DisplayName": "Shell Robot Card"
+    },
+    "Shell": {
+        "Slug": "shell-card",
+        "GameId": "Shell",
+        "Type": "card",
+        "DisplayName": "Shell Card"
+    },
+    "Skeleton Giant": {
+        "Slug": "skeleton-giant-card",
+        "GameId": "Skeleton Giant",
+        "Type": "card",
+        "DisplayName": "Skeleton Giant Card"
+    },
+    "Skeleton Mage": {
+        "Slug": "skeleton-mage-card",
+        "GameId": "Skeleton Mage",
+        "Type": "card",
+        "DisplayName": "Skeleton Mage Card"
+    },
+    "Skeleton": {
+        "Slug": "skeleton-card",
+        "GameId": "Skeleton",
+        "Type": "card",
+        "DisplayName": "Skeleton Card"
+    },
+    "Snake Naga": {
+        "Slug": "snake-naga-card",
+        "GameId": "Snake Naga",
+        "Type": "card",
+        "DisplayName": "Snake Naga Card"
+    },
+    "Snake": {
+        "Slug": "snake-card",
+        "GameId": "Snake",
+        "Type": "card",
+        "DisplayName": "Snake Card"
+    },
+    "Snakelet": {
+        "Slug": "snakelet-card",
+        "GameId": "Snakelet",
+        "Type": "card",
+        "DisplayName": "Snakelet Card"
+    },
+    "Snout Robot": {
+        "Slug": "snout-robot-card",
+        "GameId": "Snout Robot",
+        "Type": "card",
+        "DisplayName": "Snout Robot Card"
+    },
+    "Snow Bomb": {
+        "Slug": "snow-bomb-card",
+        "GameId": "Snow Bomb",
+        "Type": "card",
+        "DisplayName": "Snow Bomb Card"
+    },
+    "Soul Mage": {
+        "Slug": "soul-mage-card",
+        "GameId": "Soul Mage",
+        "Type": "card",
+        "DisplayName": "Soul Mage Card"
+    },
+    "Soul": {
+        "Slug": "soul-card",
+        "GameId": "Soul",
+        "Type": "card",
+        "DisplayName": "Soul Card"
+    },
+    "Spider King": {
+        "Slug": "spider-king-card",
+        "GameId": "Spider King",
+        "Type": "card",
+        "DisplayName": "Spider King Card"
+    },
+    "Spider Queen Robot": {
+        "Slug": "spider-queen-card",
+        "GameId": "Spider Queen Robot",
+        "Type": "card",
+        "DisplayName": "Spider Queen Card"
+    },
+    "Spider Robot": {
+        "Slug": "spider-robot-card",
+        "GameId": "Spider Robot",
+        "Type": "card",
+        "DisplayName": "Spider Robot Card"
+    },
+    "Spider Toxin": {
+        "Slug": "spider-toxin-card",
+        "GameId": "Spider Toxin",
+        "Type": "card",
+        "DisplayName": "Spider Toxin Card"
+    },
+    "Spider": {
+        "Slug": "spider-card",
+        "GameId": "Spider",
+        "Type": "card",
+        "DisplayName": "Spider Card"
+    },
+    "Spiderling Robot": {
+        "Slug": "spiderling-robot-card",
+        "GameId": "Spiderling Robot",
+        "Type": "card",
+        "DisplayName": "Spiderling Robot Card"
+    },
+    "Spike Robot": {
+        "Slug": "spike-robot-card",
+        "GameId": "Spike Robot",
+        "Type": "card",
+        "DisplayName": "Spike Robot Card"
+    },
+    "Spike": {
+        "Slug": "spike-card",
+        "GameId": "Spike",
+        "Type": "card",
+        "DisplayName": "Spike Card"
+    },
+    "Spook": {
+        "Slug": "spook-card",
+        "GameId": "Spook",
+        "Type": "card",
+        "DisplayName": "Spook Card"
+    },
+    "Spore": {
+        "Slug": "spore-card",
+        "GameId": "Spore",
+        "Type": "card",
+        "DisplayName": "Spore Card"
+    },
+    "Sprout": {
+        "Slug": "sprout-card",
+        "GameId": "Sprout",
+        "Type": "card",
+        "DisplayName": "Sprout Card"
+    },
+    "Sting": {
+        "Slug": "sting-card",
+        "GameId": "Sting",
+        "Type": "card",
+        "DisplayName": "Sting Card"
+    },
+    "Stinger Robot": {
+        "Slug": "stormstinger-card",
+        "GameId": "Stinger Robot",
+        "Type": "card",
+        "DisplayName": "Stormstinger Card"
+    },
+    "Sun Blossom": {
+        "Slug": "sun-blossom-card",
+        "GameId": "Sun Blossom",
+        "Type": "card",
+        "DisplayName": "Sun Blossom Card"
+    },
+    "Sunflora Pixie": {
+        "Slug": "sunflora-pixie-card",
+        "GameId": "Sunflora Pixie",
+        "Type": "card",
+        "DisplayName": "Sunflora Pixie Card"
+    },
+    "Sunflower Fairy": {
+        "Slug": "sunflower-fairy-card",
+        "GameId": "Sunflower Fairy",
+        "Type": "card",
+        "DisplayName": "Sunflower Fairy Card"
+    },
+    "Tentacles Robot": {
+        "Slug": "stormcoil-card",
+        "GameId": "Tentacles Robot",
+        "Type": "card",
+        "DisplayName": "Stormcoil Card"
+    },
+    "Titan Turtle Sci Blue": {
+        "Slug": "hydro-turtle-card",
+        "GameId": "Titan Turtle Sci Blue",
+        "Type": "card",
+        "DisplayName": "Hydro Turtle Card"
+    },
+    "Titan Turtle Sci Green": {
+        "Slug": "solar-turtle-card",
+        "GameId": "Titan Turtle Sci Green",
+        "Type": "card",
+        "DisplayName": "Solar Turtle Card"
+    },
+    "Titan Turtle Sci Pink": {
+        "Slug": "storm-turtle-card",
+        "GameId": "Titan Turtle Sci Pink",
+        "Type": "card",
+        "DisplayName": "Storm Turtle Card"
+    },
+    "Toadstool": {
+        "Slug": "toadstool-card",
+        "GameId": "Toadstool",
+        "Type": "card",
+        "DisplayName": "Toadstool Card"
+    },
+    "Treant Forest Autumn": {
+        "Slug": "treant-forest-autumn-card",
+        "GameId": "Treant Forest Autumn",
+        "Type": "card",
+        "DisplayName": "Treant Forest Autumn Card"
+    },
+    "Treant Forest Evergreen": {
+        "Slug": "treant-forest-evergreen-card",
+        "GameId": "Treant Forest Evergreen",
+        "Type": "card",
+        "DisplayName": "Treant Forest Evergreen Card"
+    },
+    "Treant Minion Autumn": {
+        "Slug": "treant-minion-autumn-card",
+        "GameId": "Treant Minion Autumn",
+        "Type": "card",
+        "DisplayName": "Treant Minion Autumn Card"
+    },
+    "Treant Minion Evergreen": {
+        "Slug": "treant-minion-evergreen-card",
+        "GameId": "Treant Minion Evergreen",
+        "Type": "card",
+        "DisplayName": "Treant Minion Evergreen Card"
+    },
+    "Treant Tree Autumn": {
+        "Slug": "treant-tree-autumn-card",
+        "GameId": "Treant Tree Autumn",
+        "Type": "card",
+        "DisplayName": "Treant Tree Autumn Card"
+    },
+    "Treant Tree Evergreen": {
+        "Slug": "treant-tree-evergreen-card",
+        "GameId": "Treant Tree Evergreen",
+        "Type": "card",
+        "DisplayName": "Treant Tree Evergreen Card"
+    },
+    "Turtle King": {
+        "Slug": "turtle-champion-card",
+        "GameId": "Turtle King",
+        "Type": "card",
+        "DisplayName": "Turtle Champion Card"
+    },
+    "Vampire Bat": {
+        "Slug": "vampire-bat-card",
+        "GameId": "Vampire Bat",
+        "Type": "card",
+        "DisplayName": "Vampire Bat Card"
+    },
+    "Werewolf": {
+        "Slug": "werewolf-card",
+        "GameId": "Werewolf",
+        "Type": "card",
+        "DisplayName": "Werewolf Card"
+    },
+    "Whirlwind": {
+        "Slug": "whirlwind-card",
+        "GameId": "Whirlwind",
+        "Type": "card",
+        "DisplayName": "Whirlwind Card"
+    },
+    "Wind Mage": {
+        "Slug": "wind-mage-card",
+        "GameId": "Wind Mage",
+        "Type": "card",
+        "DisplayName": "Wind Mage Card"
+    },
+    "Wind": {
+        "Slug": "wind-card",
+        "GameId": "Wind",
+        "Type": "card",
+        "DisplayName": "Wind Card"
+    },
+    "Wisp Blue": {
+        "Slug": "wisp-blue-card",
+        "GameId": "Wisp Blue",
+        "Type": "card",
+        "DisplayName": "Wisp Blue Card"
+    },
+    "Wisp Purple": {
+        "Slug": "wisp-purple-card",
+        "GameId": "Wisp Purple",
+        "Type": "card",
+        "DisplayName": "Wisp Purple Card"
+    },
+    "Wisp Red": {
+        "Slug": "wisp-red-card",
+        "GameId": "Wisp Red",
+        "Type": "card",
+        "DisplayName": "Wisp Red Card"
+    },
+    "Wisp Yellow": {
+        "Slug": "wisp-yellow-card",
+        "GameId": "Wisp Yellow",
+        "Type": "card",
+        "DisplayName": "Wisp Yellow Card"
+    },
+    "Wolf Pup": {
+        "Slug": "wolf-pup-card",
+        "GameId": "Wolf Pup",
+        "Type": "card",
+        "DisplayName": "Wolf Pup Card"
+    },
+    "Wolf": {
+        "Slug": "wolf-card",
+        "GameId": "Wolf",
+        "Type": "card",
+        "DisplayName": "Wolf Card"
+    },
+    "Worm Creep": {
+        "Slug": "worm-creep-card",
+        "GameId": "Worm Creep",
+        "Type": "card",
+        "DisplayName": "Worm Creep Card"
+    },
+    "Worm Rot": {
+        "Slug": "worm-rot-card",
+        "GameId": "Worm Rot",
+        "Type": "card",
+        "DisplayName": "Worm Rot Card"
+    },
+    "Worm Stink": {
+        "Slug": "worm-stink-card",
+        "GameId": "Worm Stink",
+        "Type": "card",
+        "DisplayName": "Worm Stink Card"
+    },
+    "Worm": {
+        "Slug": "worm-card",
+        "GameId": "Worm",
+        "Type": "card",
+        "DisplayName": "Worm Card"
+    },
+    "Zombie Goblin Giant": {
+        "Slug": "zombie-goblin-giant-card",
+        "GameId": "Zombie Goblin Giant",
+        "Type": "card",
+        "DisplayName": "Zombie Goblin Giant Card"
+    },
+    "Zombie Goblin King": {
+        "Slug": "zombie-goblin-lord-card",
+        "GameId": "Zombie Goblin King",
+        "Type": "card",
+        "DisplayName": "Zombie Goblin Lord Card"
+    },
+    "Zombie Goblin Minion": {
+        "Slug": "zombie-goblin-minion-card",
+        "GameId": "Zombie Goblin Minion",
+        "Type": "card",
+        "DisplayName": "Zombie Goblin Minion Card"
+    },
+    "Zombie Goblin Soldier": {
+        "Slug": "zombie-goblin-soldier-card",
+        "GameId": "Zombie Goblin Soldier",
+        "Type": "card",
+        "DisplayName": "Zombie Goblin Soldier Card"
+    },
+    "AerialShot Gem": {
+        "Slug": "aerial-shot-gem",
+        "GameId": "AerialShot Gem",
+        "Type": "gem",
+        "DisplayName": "Aerial Shot Gem"
+    },
+    "ArrowShower Gem": {
+        "Slug": "arrow-shower-gem",
+        "GameId": "ArrowShower Gem",
+        "Type": "gem",
+        "DisplayName": "Arrow Shower Gem"
+    },
+    "AtkSpd Gem": {
+        "Slug": "tempo-gem",
+        "GameId": "AtkSpd Gem",
+        "Type": "gem",
+        "DisplayName": "Tempo Gem"
+    },
+    "AxeArc Gem": {
+        "Slug": "twin-cleave-gem",
+        "GameId": "AxeArc Gem",
+        "Type": "gem",
+        "DisplayName": "Twin Cleave Gem"
+    },
+    "AxeThrow Gem": {
+        "Slug": "axe-throw-gem",
+        "GameId": "AxeThrow Gem",
+        "Type": "gem",
+        "DisplayName": "Axe Throw Gem"
+    },
+    "AxeVortex Gem": {
+        "Slug": "vortex-slash-gem",
+        "GameId": "AxeVortex Gem",
+        "Type": "gem",
+        "DisplayName": "Vortex Slash Gem"
+    },
+    "Bash Gem": {
+        "Slug": "bash-gem",
+        "GameId": "Bash Gem",
+        "Type": "gem",
+        "DisplayName": "Bash Gem"
+    },
+    "BladeDance Gem": {
+        "Slug": "blade-dance-gem",
+        "GameId": "BladeDance Gem",
+        "Type": "gem",
+        "DisplayName": "Blade Dance Gem"
+    },
+    "BoneSpear Gem": {
+        "Slug": "bone-spear-gem",
+        "GameId": "BoneSpear Gem",
+        "Type": "gem",
+        "DisplayName": "Bone Spear Gem"
+    },
+    "BoneSpikes Gem": {
+        "Slug": "bone-spikes-gem",
+        "GameId": "BoneSpikes Gem",
+        "Type": "gem",
+        "DisplayName": "Bone Spikes Gem"
+    },
+    "CastSpd Gem": {
+        "Slug": "focus-gem",
+        "GameId": "CastSpd Gem",
+        "Type": "gem",
+        "DisplayName": "Focus Gem"
+    },
+    "ChainLightning Gem": {
+        "Slug": "chain-lightning-gem",
+        "GameId": "ChainLightning Gem",
+        "Type": "gem",
+        "DisplayName": "Chain Lightning Gem"
+    },
+    "ConsecratedGround Gem": {
+        "Slug": "consecrated-ground-gem",
+        "GameId": "ConsecratedGround Gem",
+        "Type": "gem",
+        "DisplayName": "Consecrated Ground Gem"
+    },
+    "Consecration Gem": {
+        "Slug": "consecration-gem",
+        "GameId": "Consecration Gem",
+        "Type": "gem",
+        "DisplayName": "Consecration Gem"
+    },
+    "CorpseExplosionEnemy Gem": {
+        "Slug": "corpse-explosion-gem",
+        "GameId": "CorpseExplosionEnemy Gem",
+        "Type": "gem",
+        "DisplayName": "Corpse Explosion Gem"
+    },
+    "CounterSlash Gem": {
+        "Slug": "counter-slash-gem",
+        "GameId": "CounterSlash Gem",
+        "Type": "gem",
+        "DisplayName": "Counter Slash Gem"
+    },
+    "CritDamage Gem": {
+        "Slug": "razor-gem",
+        "GameId": "CritDamage Gem",
+        "Type": "gem",
+        "DisplayName": "Razor Gem"
+    },
+    "Cyclone Gem": {
+        "Slug": "cyclone-gem",
+        "GameId": "Cyclone Gem",
+        "Type": "gem",
+        "DisplayName": "Cyclone Gem"
+    },
+    "Damnation Gem": {
+        "Slug": "damnation-gem",
+        "GameId": "Damnation Gem",
+        "Type": "gem",
+        "DisplayName": "Damnation Gem"
+    },
+    "Dark Exorcism Gem": {
+        "Slug": "dark-exorcism-gem",
+        "GameId": "Dark Exorcism Gem",
+        "Type": "gem",
+        "DisplayName": "Dark Exorcism Gem"
+    },
+    "DarkClaw Gem": {
+        "Slug": "dark-claw-gem",
+        "GameId": "DarkClaw Gem",
+        "Type": "gem",
+        "DisplayName": "Dark Claw Gem"
+    },
+    "DeathCoilEnemy Gem": {
+        "Slug": "death-coil-gem",
+        "GameId": "DeathCoilEnemy Gem",
+        "Type": "gem",
+        "DisplayName": "Death Coil Gem"
+    },
+    "DeathCoilSummon Gem": {
+        "Slug": "death-coil-gem",
+        "GameId": "DeathCoilSummon Gem",
+        "Type": "gem",
+        "DisplayName": "Death Coil Gem"
+    },
+    "DeathNova Gem": {
+        "Slug": "death-nova-gem",
+        "GameId": "DeathNova Gem",
+        "Type": "gem",
+        "DisplayName": "Death Nova Gem"
+    },
+    "DeathSpiral Gem": {
+        "Slug": "death-spiral-gem",
+        "GameId": "DeathSpiral Gem",
+        "Type": "gem",
+        "DisplayName": "Death Spiral Gem"
+    },
+    "DefMult Gem": {
+        "Slug": "bastion-gem",
+        "GameId": "DefMult Gem",
+        "Type": "gem",
+        "DisplayName": "Bastion Gem"
+    },
+    "Detector Gem": {
+        "Slug": "seer-gem",
+        "GameId": "Detector Gem",
+        "Type": "gem",
+        "DisplayName": "Seer Gem"
+    },
+    "DivinePunishment Gem": {
+        "Slug": "divine-punishment-gem",
+        "GameId": "DivinePunishment Gem",
+        "Type": "gem",
+        "DisplayName": "Divine Punishment Gem"
+    },
+    "DoubleAttack Gem": {
+        "Slug": "echo-gem",
+        "GameId": "DoubleAttack Gem",
+        "Type": "gem",
+        "DisplayName": "Echo Gem"
+    },
+    "Earth Gem": {
+        "Slug": "earth-gem",
+        "GameId": "Earth Gem",
+        "Type": "gem",
+        "DisplayName": "Earth Gem"
+    },
+    "EarthSpikes Gem": {
+        "Slug": "earth-spikes-gem",
+        "GameId": "EarthSpikes Gem",
+        "Type": "gem",
+        "DisplayName": "Earth Spikes Gem"
+    },
+    "Earthbolt Gem": {
+        "Slug": "earthbolt-gem",
+        "GameId": "Earthbolt Gem",
+        "Type": "gem",
+        "DisplayName": "Earthbolt Gem"
+    },
+    "Earthquake Gem": {
+        "Slug": "earthquake-gem",
+        "GameId": "Earthquake Gem",
+        "Type": "gem",
+        "DisplayName": "Earthquake Gem"
+    },
+    "Execute Gem": {
+        "Slug": "execute-gem",
+        "GameId": "Execute Gem",
+        "Type": "gem",
+        "DisplayName": "Execute Gem"
+    },
+    "Exorcism Gem": {
+        "Slug": "exorcism-gem",
+        "GameId": "Exorcism Gem",
+        "Type": "gem",
+        "DisplayName": "Exorcism Gem"
+    },
+    "ExplosiveGrenade Gem": {
+        "Slug": "explosive-grenade-gem",
+        "GameId": "ExplosiveGrenade Gem",
+        "Type": "gem",
+        "DisplayName": "Explosive Grenade Gem"
+    },
+    "FanFire Gem": {
+        "Slug": "fan-fire-gem",
+        "GameId": "FanFire Gem",
+        "Type": "gem",
+        "DisplayName": "Fan Fire Gem"
+    },
+    "FanOfKnives Gem": {
+        "Slug": "fan-of-knives-gem",
+        "GameId": "FanOfKnives Gem",
+        "Type": "gem",
+        "DisplayName": "Fan Of Knives Gem"
+    },
+    "FieldCurse Gem": {
+        "Slug": "banishment-field-gem",
+        "GameId": "FieldCurse Gem",
+        "Type": "gem",
+        "DisplayName": "Banishment Field Gem"
+    },
+    "FieldDamage Gem": {
+        "Slug": "dissonance-well-gem",
+        "GameId": "FieldDamage Gem",
+        "Type": "gem",
+        "DisplayName": "Dissonance Well Gem"
+    },
+    "FieldHealing Gem": {
+        "Slug": "resonance-well-gem",
+        "GameId": "FieldHealing Gem",
+        "Type": "gem",
+        "DisplayName": "Resonance Well Gem"
+    },
+    "FieldSilence Gem": {
+        "Slug": "suppression-field-gem",
+        "GameId": "FieldSilence Gem",
+        "Type": "gem",
+        "DisplayName": "Suppression Field Gem"
+    },
+    "Fire Gem": {
+        "Slug": "fire-gem",
+        "GameId": "Fire Gem",
+        "Type": "gem",
+        "DisplayName": "Fire Gem"
+    },
+    "FirePillar Gem": {
+        "Slug": "fire-pillar-gem",
+        "GameId": "FirePillar Gem",
+        "Type": "gem",
+        "DisplayName": "Fire Pillar Gem"
+    },
+    "FireRelease Gem": {
+        "Slug": "fire-release-gem",
+        "GameId": "FireRelease Gem",
+        "Type": "gem",
+        "DisplayName": "Fire Release Gem"
+    },
+    "Fireball Gem": {
+        "Slug": "fireball-gem",
+        "GameId": "Fireball Gem",
+        "Type": "gem",
+        "DisplayName": "Fireball Gem"
+    },
+    "Firebolt Gem": {
+        "Slug": "firebolt-gem",
+        "GameId": "Firebolt Gem",
+        "Type": "gem",
+        "DisplayName": "Firebolt Gem"
+    },
+    "FlameOrb Gem": {
+        "Slug": "flame-orb-gem",
+        "GameId": "FlameOrb Gem",
+        "Type": "gem",
+        "DisplayName": "Flame Orb Gem"
+    },
+    "FlashGrenade Gem": {
+        "Slug": "flash-grenade-gem",
+        "GameId": "FlashGrenade Gem",
+        "Type": "gem",
+        "DisplayName": "Flash Grenade Gem"
+    },
+    "Flee Gem": {
+        "Slug": "evasion-gem",
+        "GameId": "Flee Gem",
+        "Type": "gem",
+        "DisplayName": "Evasion Gem"
+    },
+    "ForceShot Gem": {
+        "Slug": "force-shot-gem",
+        "GameId": "ForceShot Gem",
+        "Type": "gem",
+        "DisplayName": "Force Shot Gem"
+    },
+    "FreezeGrenade Gem": {
+        "Slug": "freeze-grenade-gem",
+        "GameId": "FreezeGrenade Gem",
+        "Type": "gem",
+        "DisplayName": "Freeze Grenade Gem"
+    },
+    "FreezingField Gem": {
+        "Slug": "blizzard-gem",
+        "GameId": "FreezingField Gem",
+        "Type": "gem",
+        "DisplayName": "Blizzard Gem"
+    },
+    "FrostBlade Gem": {
+        "Slug": "binding-spiral-gem",
+        "GameId": "FrostBlade Gem",
+        "Type": "gem",
+        "DisplayName": "Binding Spiral Gem"
+    },
+    "GrandCross Gem": {
+        "Slug": "grand-cross-gem",
+        "GameId": "GrandCross Gem",
+        "Type": "gem",
+        "DisplayName": "Grand Cross Gem"
+    },
+    "GroundSlam Gem": {
+        "Slug": "earth-splitter-gem",
+        "GameId": "GroundSlam Gem",
+        "Type": "gem",
+        "DisplayName": "Earth Splitter Gem"
+    },
+    "Harvest Gem": {
+        "Slug": "harvest-gem",
+        "GameId": "Harvest Gem",
+        "Type": "gem",
+        "DisplayName": "Harvest Gem"
+    },
+    "Heal Gem": {
+        "Slug": "heal-gem",
+        "GameId": "Heal Gem",
+        "Type": "gem",
+        "DisplayName": "Heal Gem"
+    },
+    "HealAll Gem": {
+        "Slug": "mass-heal-gem",
+        "GameId": "HealAll Gem",
+        "Type": "gem",
+        "DisplayName": "Mass Heal Gem"
+    },
+    "Healing Gem": {
+        "Slug": "grace-gem",
+        "GameId": "Healing Gem",
+        "Type": "gem",
+        "DisplayName": "Grace Gem"
+    },
+    "HighHeal Gem": {
+        "Slug": "high-heal-gem",
+        "GameId": "HighHeal Gem",
+        "Type": "gem",
+        "DisplayName": "High Heal Gem"
+    },
+    "Holy Gem": {
+        "Slug": "holy-gem",
+        "GameId": "Holy Gem",
+        "Type": "gem",
+        "DisplayName": "Holy Gem"
+    },
+    "HolyLight Gem": {
+        "Slug": "holy-light-gem",
+        "GameId": "HolyLight Gem",
+        "Type": "gem",
+        "DisplayName": "Holy Light Gem"
+    },
+    "HolyWrath Gem": {
+        "Slug": "holy-wrath-gem",
+        "GameId": "HolyWrath Gem",
+        "Type": "gem",
+        "DisplayName": "Holy Wrath Gem"
+    },
+    "HolyWrathField Gem": {
+        "Slug": "litany-of-wrath-gem",
+        "GameId": "HolyWrathField Gem",
+        "Type": "gem",
+        "DisplayName": "Litany of Wrath Gem"
+    },
+    "HpMult Gem": {
+        "Slug": "heart-gem",
+        "GameId": "HpMult Gem",
+        "Type": "gem",
+        "DisplayName": "Heart Gem"
+    },
+    "HydroVortex Gem": {
+        "Slug": "hydro-vortex-gem",
+        "GameId": "HydroVortex Gem",
+        "Type": "gem",
+        "DisplayName": "Hydro Vortex Gem"
+    },
+    "IceRelease Gem": {
+        "Slug": "ice-release-gem",
+        "GameId": "IceRelease Gem",
+        "Type": "gem",
+        "DisplayName": "Ice Release Gem"
+    },
+    "IceShard Gem": {
+        "Slug": "ice-shard-gem",
+        "GameId": "IceShard Gem",
+        "Type": "gem",
+        "DisplayName": "Ice Shard Gem"
+    },
+    "Icebolt Gem": {
+        "Slug": "icebolt-gem",
+        "GameId": "Icebolt Gem",
+        "Type": "gem",
+        "DisplayName": "Icebolt Gem"
+    },
+    "JudgementBlade Gem": {
+        "Slug": "judgement-blade-gem",
+        "GameId": "JudgementBlade Gem",
+        "Type": "gem",
+        "DisplayName": "Judgement Blade Gem"
+    },
+    "JumpShot Gem": {
+        "Slug": "jump-shot-gem",
+        "GameId": "JumpShot Gem",
+        "Type": "gem",
+        "DisplayName": "Jump Shot Gem"
+    },
+    "Leech Gem": {
+        "Slug": "bloodfang-gem",
+        "GameId": "Leech Gem",
+        "Type": "gem",
+        "DisplayName": "Bloodfang Gem"
+    },
+    "LeechMp Gem": {
+        "Slug": "soulfang-gem",
+        "GameId": "LeechMp Gem",
+        "Type": "gem",
+        "DisplayName": "Soulfang Gem"
+    },
+    "LifeDrainEnemy Gem": {
+        "Slug": "life-drain-gem",
+        "GameId": "LifeDrainEnemy Gem",
+        "Type": "gem",
+        "DisplayName": "Life Drain Gem"
+    },
+    "LifeDrainSummon Gem": {
+        "Slug": "life-drain-gem",
+        "GameId": "LifeDrainSummon Gem",
+        "Type": "gem",
+        "DisplayName": "Life Drain Gem"
+    },
+    "LightningRelease Gem": {
+        "Slug": "lightning-release-gem",
+        "GameId": "LightningRelease Gem",
+        "Type": "gem",
+        "DisplayName": "Lightning Release Gem"
+    },
+    "LightningStrike Gem": {
+        "Slug": "flash-step-gem",
+        "GameId": "LightningStrike Gem",
+        "Type": "gem",
+        "DisplayName": "Flash Step Gem"
+    },
+    "MdefMult Gem": {
+        "Slug": "ward-gem",
+        "GameId": "MdefMult Gem",
+        "Type": "gem",
+        "DisplayName": "Ward Gem"
+    },
+    "Meteor Gem": {
+        "Slug": "meteor-gem",
+        "GameId": "Meteor Gem",
+        "Type": "gem",
+        "DisplayName": "Meteor Gem"
+    },
+    "MoveSpd Gem": {
+        "Slug": "stride-gem",
+        "GameId": "MoveSpd Gem",
+        "Type": "gem",
+        "DisplayName": "Stride Gem"
+    },
+    "MpCost Gem": {
+        "Slug": "channel-gem",
+        "GameId": "MpCost Gem",
+        "Type": "gem",
+        "DisplayName": "Channel Gem"
+    },
+    "MpMult Gem": {
+        "Slug": "mind-gem",
+        "GameId": "MpMult Gem",
+        "Type": "gem",
+        "DisplayName": "Mind Gem"
+    },
+    "NoCastCancel Gem": {
+        "Slug": "mantra-gem",
+        "GameId": "NoCastCancel Gem",
+        "Type": "gem",
+        "DisplayName": "Mantra Gem"
+    },
+    "NoFlinch Gem": {
+        "Slug": "steadfast-gem",
+        "GameId": "NoFlinch Gem",
+        "Type": "gem",
+        "DisplayName": "Steadfast Gem"
+    },
+    "NoKnockback Gem": {
+        "Slug": "anchor-gem",
+        "GameId": "NoKnockback Gem",
+        "Type": "gem",
+        "DisplayName": "Anchor Gem"
+    },
+    "PanicBurst Gem": {
+        "Slug": "panic-burst-gem",
+        "GameId": "PanicBurst Gem",
+        "Type": "gem",
+        "DisplayName": "Panic Burst Gem"
+    },
+    "PerfectCloak Gem": {
+        "Slug": "veil-gem",
+        "GameId": "PerfectCloak Gem",
+        "Type": "gem",
+        "DisplayName": "Veil Gem"
+    },
+    "PiercingShot Gem": {
+        "Slug": "piercing-shot-gem",
+        "GameId": "PiercingShot Gem",
+        "Type": "gem",
+        "DisplayName": "Piercing Shot Gem"
+    },
+    "PointBlankShot Gem": {
+        "Slug": "point-blank-gem",
+        "GameId": "PointBlankShot Gem",
+        "Type": "gem",
+        "DisplayName": "Point Blank Gem"
+    },
+    "Poison Gem": {
+        "Slug": "poison-gem",
+        "GameId": "Poison Gem",
+        "Type": "gem",
+        "DisplayName": "Poison Gem"
+    },
+    "PoisonGrenade Gem": {
+        "Slug": "poison-grenade-gem",
+        "GameId": "PoisonGrenade Gem",
+        "Type": "gem",
+        "DisplayName": "Poison Grenade Gem"
+    },
+    "Reap Gem": {
+        "Slug": "reap-gem",
+        "GameId": "Reap Gem",
+        "Type": "gem",
+        "DisplayName": "Reap Gem"
+    },
+    "ReflectDamage Gem": {
+        "Slug": "spike-gem",
+        "GameId": "ReflectDamage Gem",
+        "Type": "gem",
+        "DisplayName": "Spike Gem"
+    },
+    "ReflectSpell Gem": {
+        "Slug": "mirror-gem",
+        "GameId": "ReflectSpell Gem",
+        "Type": "gem",
+        "DisplayName": "Mirror Gem"
+    },
+    "Regen Gem": {
+        "Slug": "vitalis-gem",
+        "GameId": "Regen Gem",
+        "Type": "gem",
+        "DisplayName": "Vitalis Gem"
+    },
+    "Sanctuary Gem": {
+        "Slug": "sanctuary-gem",
+        "GameId": "Sanctuary Gem",
+        "Type": "gem",
+        "DisplayName": "Sanctuary Gem"
+    },
+    "Shadow Gem": {
+        "Slug": "shadow-gem",
+        "GameId": "Shadow Gem",
+        "Type": "gem",
+        "DisplayName": "Shadow Gem"
+    },
+    "ShadowRelease Gem": {
+        "Slug": "black-blade-gem",
+        "GameId": "ShadowRelease Gem",
+        "Type": "gem",
+        "DisplayName": "Black Blade Gem"
+    },
+    "ShadowStep Gem": {
+        "Slug": "shadow-step-gem",
+        "GameId": "ShadowStep Gem",
+        "Type": "gem",
+        "DisplayName": "Shadow Step Gem"
+    },
+    "ShieldBash Gem": {
+        "Slug": "shield-bash-gem",
+        "GameId": "ShieldBash Gem",
+        "Type": "gem",
+        "DisplayName": "Shield Bash Gem"
+    },
+    "ShieldThrow Gem": {
+        "Slug": "shield-throw-gem",
+        "GameId": "ShieldThrow Gem",
+        "Type": "gem",
+        "DisplayName": "Shield Throw Gem"
+    },
+    "ShrapnelShot Gem": {
+        "Slug": "shrapnel-gem",
+        "GameId": "ShrapnelShot Gem",
+        "Type": "gem",
+        "DisplayName": "Shrapnel Gem"
+    },
+    "ShurikenFan Gem": {
+        "Slug": "shuriken-fan-gem",
+        "GameId": "ShurikenFan Gem",
+        "Type": "gem",
+        "DisplayName": "Shuriken Fan Gem"
+    },
+    "Smite Gem": {
+        "Slug": "smite-gem",
+        "GameId": "Smite Gem",
+        "Type": "gem",
+        "DisplayName": "Smite Gem"
+    },
+    "SniperShot Gem": {
+        "Slug": "sniper-shot-gem",
+        "GameId": "SniperShot Gem",
+        "Type": "gem",
+        "DisplayName": "Sniper Shot Gem"
+    },
+    "SoulStrike Gem": {
+        "Slug": "soul-strike-gem",
+        "GameId": "SoulStrike Gem",
+        "Type": "gem",
+        "DisplayName": "Soul Strike Gem"
+    },
+    "SpearSlice Gem": {
+        "Slug": "air-cutter-gem",
+        "GameId": "SpearSlice Gem",
+        "Type": "gem",
+        "DisplayName": "Air Cutter Gem"
+    },
+    "SpearStab Gem": {
+        "Slug": "impale-gem",
+        "GameId": "SpearStab Gem",
+        "Type": "gem",
+        "DisplayName": "Impale Gem"
+    },
+    "SpearThrust Gem": {
+        "Slug": "piercing-flurry-gem",
+        "GameId": "SpearThrust Gem",
+        "Type": "gem",
+        "DisplayName": "Piercing Flurry Gem"
+    },
+    "Stomp Gem": {
+        "Slug": "stomp-gem",
+        "GameId": "Stomp Gem",
+        "Type": "gem",
+        "DisplayName": "Stomp Gem"
+    },
+    "StrafingVolley Gem": {
+        "Slug": "strafing-volley-gem",
+        "GameId": "StrafingVolley Gem",
+        "Type": "gem",
+        "DisplayName": "Strafing Volley Gem"
+    },
+    "SuppressiveShot Gem": {
+        "Slug": "suppressive-shot-gem",
+        "GameId": "SuppressiveShot Gem",
+        "Type": "gem",
+        "DisplayName": "Suppressive Shot Gem"
+    },
+    "Tempest Gem": {
+        "Slug": "tempest-gem",
+        "GameId": "Tempest Gem",
+        "Type": "gem",
+        "DisplayName": "Tempest Gem"
+    },
+    "TetraVortex Gem": {
+        "Slug": "elemental-overload-gem",
+        "GameId": "TetraVortex Gem",
+        "Type": "gem",
+        "DisplayName": "Elemental Overload Gem"
+    },
+    "ThunderStorm Gem": {
+        "Slug": "thunder-storm-gem",
+        "GameId": "ThunderStorm Gem",
+        "Type": "gem",
+        "DisplayName": "Thunder Storm Gem"
+    },
+    "Thunderbolt Gem": {
+        "Slug": "thunderbolt-gem",
+        "GameId": "Thunderbolt Gem",
+        "Type": "gem",
+        "DisplayName": "Thunderbolt Gem"
+    },
+    "TurnUndead Gem": {
+        "Slug": "turn-undead-gem",
+        "GameId": "TurnUndead Gem",
+        "Type": "gem",
+        "DisplayName": "Turn Undead Gem"
+    },
+    "TwistOfFate Gem": {
+        "Slug": "twist-of-fate-gem",
+        "GameId": "TwistOfFate Gem",
+        "Type": "gem",
+        "DisplayName": "Twist Of Fate Gem"
+    },
+    "Undead Gem": {
+        "Slug": "undead-gem",
+        "GameId": "Undead Gem",
+        "Type": "gem",
+        "DisplayName": "Undead Gem"
+    },
+    "VenomStrike Gem": {
+        "Slug": "venom-strike-gem",
+        "GameId": "VenomStrike Gem",
+        "Type": "gem",
+        "DisplayName": "Venom Strike Gem"
+    },
+    "VolatileBolt Gem": {
+        "Slug": "volatile-bolt-gem",
+        "GameId": "VolatileBolt Gem",
+        "Type": "gem",
+        "DisplayName": "Volatile Bolt Gem"
+    },
+    "Water Gem": {
+        "Slug": "water-gem",
+        "GameId": "Water Gem",
+        "Type": "gem",
+        "DisplayName": "Water Gem"
+    },
+    "WeaponThrow Gem": {
+        "Slug": "weapon-throw-gem",
+        "GameId": "WeaponThrow Gem",
+        "Type": "gem",
+        "DisplayName": "Weapon Throw Gem"
+    },
+    "WeightLimit Gem": {
+        "Slug": "carrier-gem",
+        "GameId": "WeightLimit Gem",
+        "Type": "gem",
+        "DisplayName": "Carrier Gem"
+    },
+    "Whirlwind Gem": {
+        "Slug": "whirlwind-gem",
+        "GameId": "Whirlwind Gem",
+        "Type": "gem",
+        "DisplayName": "Whirlwind Gem"
+    },
+    "WildCharge Gem": {
+        "Slug": "wild-charge-gem",
+        "GameId": "WildCharge Gem",
+        "Type": "gem",
+        "DisplayName": "Wild Charge Gem"
+    },
+    "Wind Gem": {
+        "Slug": "wind-gem",
+        "GameId": "Wind Gem",
+        "Type": "gem",
+        "DisplayName": "Wind Gem"
+    },
+    "Abyss Shard": {
+        "Slug": "abyss-shard",
+        "Type": "equipment",
+        "DisplayName": "Abyss Shard"
+    },
+    "Adventurer's Kit": {
+        "Slug": "adventurer-s-kit",
+        "Type": "equipment",
+        "DisplayName": "Adventurer's Kit"
+    },
+    "Amber Bow": {
+        "Slug": "amber-bow",
+        "Type": "equipment",
+        "DisplayName": "Amber Bow"
+    },
+    "Amber Loop": {
+        "Slug": "amber-loop",
+        "Type": "equipment",
+        "DisplayName": "Amber Loop"
+    },
+    "ArcaneChest": {
+        "Slug": "arcane-chest",
+        "Type": "equipment",
+        "DisplayName": "Arcane Chest"
+    },
+    "ArcaneFeet": {
+        "Slug": "arcane-boots",
+        "Type": "equipment",
+        "DisplayName": "Arcane Boots"
+    },
+    "ArcaneGloves": {
+        "Slug": "arcane-gloves",
+        "Type": "equipment",
+        "DisplayName": "Arcane Gloves"
+    },
+    "ArcaneLegs": {
+        "Slug": "arcane-legs",
+        "Type": "equipment",
+        "DisplayName": "Arcane Legs"
+    },
+    "Archer's Beads": {
+        "Slug": "archer-s-beads",
+        "Type": "equipment",
+        "DisplayName": "Archer's Beads"
+    },
+    "Armor_Agi": {
+        "Slug": "speed-plate",
+        "Type": "equipment",
+        "DisplayName": "Speed Plate"
+    },
+    "Armor_Dex": {
+        "Slug": "precision-plate",
+        "Type": "equipment",
+        "DisplayName": "Precision Plate"
+    },
+    "Armor_Int": {
+        "Slug": "mind-plate",
+        "Type": "equipment",
+        "DisplayName": "Mind Plate"
+    },
+    "Armor_Luk": {
+        "Slug": "fate-plate",
+        "Type": "equipment",
+        "DisplayName": "Fate Plate"
+    },
+    "Armor_Str": {
+        "Slug": "power-plate",
+        "Type": "equipment",
+        "DisplayName": "Power Plate"
+    },
+    "Armor_Vit": {
+        "Slug": "endurance-plate",
+        "Type": "equipment",
+        "DisplayName": "Endurance Plate"
+    },
+    "Arrowcatch Wall": {
+        "Slug": "arrowcatch-wall",
+        "Type": "equipment",
+        "DisplayName": "Arrowcatch Wall"
+    },
+    "Axe of Oblivion": {
+        "Slug": "axe-of-oblivion",
+        "Type": "equipment",
+        "DisplayName": "Axe of Oblivion"
+    },
+    "Axe": {
+        "Slug": "axe",
+        "Type": "equipment",
+        "DisplayName": "Axe"
+    },
+    "Azure Antlers": {
+        "Slug": "azure-antlers",
+        "Type": "equipment",
+        "DisplayName": "Azure Antlers"
+    },
+    "Azure Crown": {
+        "Slug": "azure-crown",
+        "Type": "equipment",
+        "DisplayName": "Azure Crown"
+    },
+    "Azure Cutlass": {
+        "Slug": "azure-cutlass",
+        "Type": "equipment",
+        "DisplayName": "Azure Cutlass"
+    },
+    "Azure Prism": {
+        "Slug": "azure-tag",
+        "Type": "equipment",
+        "DisplayName": "Azure Tag"
+    },
+    "Azure Tag": {
+        "Slug": "azure-prism",
+        "Type": "equipment",
+        "DisplayName": "Azure Prism"
+    },
+    "Backpack": {
+        "Slug": "backpack",
+        "Type": "equipment",
+        "DisplayName": "Backpack"
+    },
+    "Batling Familiar": {
+        "Slug": "batling-familiar",
+        "Type": "equipment",
+        "DisplayName": "Batling Familiar"
+    },
+    "Battle Bonnet": {
+        "Slug": "battle-bonnet",
+        "Type": "equipment",
+        "DisplayName": "Battle Bonnet"
+    },
+    "Bear Backpack": {
+        "Slug": "bear-backpack",
+        "Type": "equipment",
+        "DisplayName": "Bear Backpack"
+    },
+    "Bear Hug Hood": {
+        "Slug": "bear-hug-hood",
+        "Type": "equipment",
+        "DisplayName": "Bear Hug Hood"
+    },
+    "Beast Helm": {
+        "Slug": "beast-helm",
+        "Type": "equipment",
+        "DisplayName": "Beast Helm"
+    },
+    "BerserkChest": {
+        "Slug": "direwolf-chest",
+        "Type": "equipment",
+        "DisplayName": "Direwolf Chest"
+    },
+    "BerserkFeet": {
+        "Slug": "direwolf-shoes",
+        "Type": "equipment",
+        "DisplayName": "Direwolf Shoes"
+    },
+    "BerserkLegs": {
+        "Slug": "direwolf-legs",
+        "Type": "equipment",
+        "DisplayName": "Direwolf Legs"
+    },
+    "Binding Spirits Staff": {
+        "Slug": "binding-spirits-staff",
+        "Type": "equipment",
+        "DisplayName": "Binding Spirits Staff"
+    },
+    "Bishop's Hood": {
+        "Slug": "bishop-s-hood",
+        "Type": "equipment",
+        "DisplayName": "Bishop's Hood"
+    },
+    "Blade Standard": {
+        "Slug": "blade-standard",
+        "Type": "equipment",
+        "DisplayName": "Blade Standard"
+    },
+    "Blade of Eclipse": {
+        "Slug": "blade-of-eclipse",
+        "Type": "equipment",
+        "DisplayName": "Blade of Eclipse"
+    },
+    "Blindfold": {
+        "Slug": "blindfold",
+        "Type": "equipment",
+        "DisplayName": "Blindfold"
+    },
+    "Blood Clip": {
+        "Slug": "blood-clip",
+        "Type": "equipment",
+        "DisplayName": "Blood Clip"
+    },
+    "Bloodbound": {
+        "Slug": "bloodbound",
+        "Type": "equipment",
+        "DisplayName": "Bloodbound"
+    },
+    "Bloom Ring": {
+        "Slug": "bloom-ring",
+        "Type": "equipment",
+        "DisplayName": "Bloom Ring"
+    },
+    "Bloom of Midnight": {
+        "Slug": "bloom-of-midnight",
+        "Type": "equipment",
+        "DisplayName": "Bloom of Midnight"
+    },
+    "Blue Shell": {
+        "Slug": "blue-shell",
+        "Type": "equipment",
+        "DisplayName": "Blue Shell"
+    },
+    "Blunderbuss": {
+        "Slug": "blunderbuss",
+        "Type": "equipment",
+        "DisplayName": "Blunderbuss"
+    },
+    "Bone Channeler": {
+        "Slug": "bone-channeler",
+        "Type": "equipment",
+        "DisplayName": "Bone Channeler"
+    },
+    "Bone Helm": {
+        "Slug": "bone-helm",
+        "Type": "equipment",
+        "DisplayName": "Bone Helm"
+    },
+    "Bonefang": {
+        "Slug": "bonefang",
+        "Type": "equipment",
+        "DisplayName": "Bonefang"
+    },
+    "BreezeguardChest": {
+        "Slug": "breezeguard-chest",
+        "Type": "equipment",
+        "DisplayName": "Breezeguard Chest"
+    },
+    "BreezeguardFeet": {
+        "Slug": "breezeguard-shoes",
+        "Type": "equipment",
+        "DisplayName": "Breezeguard Shoes"
+    },
+    "BreezeguardLegs": {
+        "Slug": "breezeguard-legs",
+        "Type": "equipment",
+        "DisplayName": "Breezeguard Legs"
+    },
+    "Brimblade": {
+        "Slug": "brimblade",
+        "Type": "equipment",
+        "DisplayName": "Brimblade"
+    },
+    "Broad Sword": {
+        "Slug": "broad-sword",
+        "Type": "equipment",
+        "DisplayName": "Broad Sword"
+    },
+    "Bronze Crescent": {
+        "Slug": "bronze-crescent",
+        "Type": "equipment",
+        "DisplayName": "Bronze Crescent"
+    },
+    "Bronze Plugs": {
+        "Slug": "bronze-plugs",
+        "Type": "equipment",
+        "DisplayName": "Bronze Plugs"
+    },
+    "Bubblebeast Hood": {
+        "Slug": "bubblebeast-hood",
+        "Type": "equipment",
+        "DisplayName": "Bubblebeast Hood"
+    },
+    "Buckler": {
+        "Slug": "buckler",
+        "Type": "equipment",
+        "DisplayName": "Buckler"
+    },
+    "Bunny Backpack": {
+        "Slug": "bunny-backpack",
+        "Type": "equipment",
+        "DisplayName": "Bunny Backpack"
+    },
+    "Bunny Cap": {
+        "Slug": "bunny-cap",
+        "Type": "equipment",
+        "DisplayName": "Bunny Cap"
+    },
+    "Centurion Helm": {
+        "Slug": "centurion-helm",
+        "Type": "equipment",
+        "DisplayName": "Centurion Helm"
+    },
+    "Cerulean Scepter": {
+        "Slug": "cerulean-scepter",
+        "Type": "equipment",
+        "DisplayName": "Cerulean Scepter"
+    },
+    "Chainfrost Staff": {
+        "Slug": "chainfrost-staff",
+        "Type": "equipment",
+        "DisplayName": "Chainfrost Staff"
+    },
+    "Chains of Binding": {
+        "Slug": "chains-of-binding",
+        "Type": "equipment",
+        "DisplayName": "Chains of Binding"
+    },
+    "Champion Blade": {
+        "Slug": "divine-blade",
+        "Type": "equipment",
+        "DisplayName": "Divine Blade"
+    },
+    "Chaos Reaver": {
+        "Slug": "chaos-reaver",
+        "Type": "equipment",
+        "DisplayName": "Chaos Reaver"
+    },
+    "Chicky Hood": {
+        "Slug": "chicky-hood",
+        "Type": "equipment",
+        "DisplayName": "Chicky Hood"
+    },
+    "Chirpy Hat": {
+        "Slug": "chirpy-hat",
+        "Type": "equipment",
+        "DisplayName": "Chirpy Hat"
+    },
+    "Chompy Hood": {
+        "Slug": "chompy-hood",
+        "Type": "equipment",
+        "DisplayName": "Chompy Hood"
+    },
+    "ClericChest": {
+        "Slug": "cleric-chest",
+        "Type": "equipment",
+        "DisplayName": "Cleric Chest"
+    },
+    "ClericFeet": {
+        "Slug": "cleric-shoes",
+        "Type": "equipment",
+        "DisplayName": "Cleric Shoes"
+    },
+    "ClericLegs": {
+        "Slug": "cleric-legs",
+        "Type": "equipment",
+        "DisplayName": "Cleric Legs"
+    },
+    "Cloud Loop": {
+        "Slug": "cloud-loop",
+        "Type": "equipment",
+        "DisplayName": "Cloud Loop"
+    },
+    "Codex Binding Light": {
+        "Slug": "grimoire-of-binding-light",
+        "Type": "equipment",
+        "DisplayName": "Grimoire of Binding Light"
+    },
+    "Codex First Hymn": {
+        "Slug": "tome-of-the-first-hymn",
+        "Type": "equipment",
+        "DisplayName": "Tome of the First Hymn"
+    },
+    "Codex Umbra": {
+        "Slug": "codex-umbra",
+        "Type": "equipment",
+        "DisplayName": "Codex Umbra"
+    },
+    "Codex Vitae": {
+        "Slug": "codex-vitae",
+        "Type": "equipment",
+        "DisplayName": "Codex Vitae"
+    },
+    "Codex of Revelation": {
+        "Slug": "codex-of-revelation",
+        "Type": "equipment",
+        "DisplayName": "Codex of Revelation"
+    },
+    "Codex": {
+        "Slug": "tome",
+        "Type": "equipment",
+        "DisplayName": "Tome"
+    },
+    "Combat Knife": {
+        "Slug": "combat-knife",
+        "Type": "equipment",
+        "DisplayName": "Combat Knife"
+    },
+    "Crimson Crest": {
+        "Slug": "crimson-crest",
+        "Type": "equipment",
+        "DisplayName": "Crimson Crest"
+    },
+    "Crown of Spikes": {
+        "Slug": "crown-of-spikes",
+        "Type": "equipment",
+        "DisplayName": "Crown of Spikes"
+    },
+    "Crusader Staff": {
+        "Slug": "radiant-scepter",
+        "Type": "equipment",
+        "DisplayName": "Radiant Scepter"
+    },
+    "Crusader Sword": {
+        "Slug": "oathbreaker",
+        "Type": "equipment",
+        "DisplayName": "Oathbreaker"
+    },
+    "Crystal Cache": {
+        "Slug": "crystal-cache",
+        "Type": "equipment",
+        "DisplayName": "Crystal Cache"
+    },
+    "Crystal Slammer": {
+        "Slug": "crystal-slammer",
+        "Type": "equipment",
+        "DisplayName": "Crystal Slammer"
+    },
+    "Crystal Wings": {
+        "Slug": "crystal-wings",
+        "Type": "equipment",
+        "DisplayName": "Crystal Wings"
+    },
+    "Curse Tag": {
+        "Slug": "curse-tag",
+        "Type": "equipment",
+        "DisplayName": "Curse Tag"
+    },
+    "Daggers": {
+        "Slug": "daggers",
+        "Type": "equipment",
+        "DisplayName": "Daggers"
+    },
+    "Darkfeather Wings": {
+        "Slug": "darkfeather-wings",
+        "Type": "equipment",
+        "DisplayName": "Darkfeather Wings"
+    },
+    "Darkhide Gloves": {
+        "Slug": "darkhide-gloves",
+        "Type": "equipment",
+        "DisplayName": "Darkhide Gloves"
+    },
+    "Dawn Prayer": {
+        "Slug": "dawn-prayer",
+        "Type": "equipment",
+        "DisplayName": "Dawn Prayer"
+    },
+    "Dawnstar": {
+        "Slug": "dawnstar",
+        "Type": "equipment",
+        "DisplayName": "Dawnstar"
+    },
+    "Death's Grin": {
+        "Slug": "death-s-grin",
+        "Type": "equipment",
+        "DisplayName": "Death's Grin"
+    },
+    "Demon Cat": {
+        "Slug": "cheshire-cat",
+        "Type": "equipment",
+        "DisplayName": "Cheshire Cat"
+    },
+    "Digger's Flask": {
+        "Slug": "digger-s-flask",
+        "Type": "equipment",
+        "DisplayName": "Digger's Flask"
+    },
+    "Dino Cub Backpack": {
+        "Slug": "dino-cub-backpack",
+        "Type": "equipment",
+        "DisplayName": "Dino Cub Backpack"
+    },
+    "Discipline Band": {
+        "Slug": "discipline-band",
+        "Type": "equipment",
+        "DisplayName": "Discipline Band"
+    },
+    "Doom Crescent": {
+        "Slug": "doom-crescent",
+        "Type": "equipment",
+        "DisplayName": "Doom Crescent"
+    },
+    "Doom Keg": {
+        "Slug": "doom-keg",
+        "Type": "equipment",
+        "DisplayName": "Doom Keg"
+    },
+    "Drooping Bat": {
+        "Slug": "drooping-bat",
+        "Type": "equipment",
+        "DisplayName": "Drooping Bat"
+    },
+    "Drooping Burrow": {
+        "Slug": "drooping-burrow",
+        "Type": "equipment",
+        "DisplayName": "Drooping Burrow"
+    },
+    "Drooping Cat": {
+        "Slug": "drooping-cat",
+        "Type": "equipment",
+        "DisplayName": "Drooping Cat"
+    },
+    "Drooping Flora": {
+        "Slug": "drooping-flora",
+        "Type": "equipment",
+        "DisplayName": "Drooping Flora"
+    },
+    "Drooping Pup": {
+        "Slug": "drooping-pup",
+        "Type": "equipment",
+        "DisplayName": "Drooping Pup"
+    },
+    "Dualblade Sheath": {
+        "Slug": "dualblade-sheath",
+        "Type": "equipment",
+        "DisplayName": "Dualblade Sheath"
+    },
+    "Duskfang": {
+        "Slug": "duskfang",
+        "Type": "equipment",
+        "DisplayName": "Duskfang"
+    },
+    "Dustweaver Hat": {
+        "Slug": "dustweaver-hat",
+        "Type": "equipment",
+        "DisplayName": "Dustweaver Hat"
+    },
+    "Earth Shaker": {
+        "Slug": "earth-shaker",
+        "Type": "equipment",
+        "DisplayName": "Earth Shaker"
+    },
+    "Earth Shield": {
+        "Slug": "obsidian-bulwark",
+        "Type": "equipment",
+        "DisplayName": "Obsidian Bulwark"
+    },
+    "Eclipse Kunai": {
+        "Slug": "eclipse-kunai",
+        "Type": "equipment",
+        "DisplayName": "Eclipse Kunai"
+    },
+    "Edge of Twilight": {
+        "Slug": "edge-of-twilight",
+        "Type": "equipment",
+        "DisplayName": "Edge of Twilight"
+    },
+    "Elixir Gourd": {
+        "Slug": "elixir-gourd",
+        "Type": "equipment",
+        "DisplayName": "Elixir Gourd"
+    },
+    "Emberhide Helm": {
+        "Slug": "emberhide-helm",
+        "Type": "equipment",
+        "DisplayName": "Emberhide Helm"
+    },
+    "Embershard": {
+        "Slug": "embershard",
+        "Type": "equipment",
+        "DisplayName": "Embershard"
+    },
+    "Emerald Guard": {
+        "Slug": "zephyr-cross",
+        "Type": "equipment",
+        "DisplayName": "Zephyr Cross"
+    },
+    "Energy Sword Blue": {
+        "Slug": "prism-blade",
+        "Type": "equipment",
+        "DisplayName": "Prism Blade"
+    },
+    "Energy Sword Purple": {
+        "Slug": "umbral-blade",
+        "Type": "equipment",
+        "DisplayName": "Umbral Blade"
+    },
+    "Energy Sword Yellow": {
+        "Slug": "chromatic-blade",
+        "Type": "equipment",
+        "DisplayName": "Chromatic Blade"
+    },
+    "Everfrost Staff": {
+        "Slug": "everfrost-staff",
+        "Type": "equipment",
+        "DisplayName": "Everfrost Staff"
+    },
+    "Executioner Axe": {
+        "Slug": "executioner-axe",
+        "Type": "equipment",
+        "DisplayName": "Executioner Axe"
+    },
+    "Explorer's Pack": {
+        "Slug": "explorer-s-pack",
+        "Type": "equipment",
+        "DisplayName": "Explorer's Pack"
+    },
+    "Eye of Vigil": {
+        "Slug": "eye-of-vigil",
+        "Type": "equipment",
+        "DisplayName": "Eye of Vigil"
+    },
+    "Eyepatch": {
+        "Slug": "eyepatch",
+        "Type": "equipment",
+        "DisplayName": "Eyepatch"
+    },
+    "Falcon Band": {
+        "Slug": "falcon-band",
+        "Type": "equipment",
+        "DisplayName": "Falcon Band"
+    },
+    "Fang Clip": {
+        "Slug": "fang-clip",
+        "Type": "equipment",
+        "DisplayName": "Fang Clip"
+    },
+    "Fang of the Moon": {
+        "Slug": "fang-of-the-moon",
+        "Type": "equipment",
+        "DisplayName": "Fang of the Moon"
+    },
+    "Feathered Scout Hat": {
+        "Slug": "feathered-scout-hat",
+        "Type": "equipment",
+        "DisplayName": "Feathered Scout Hat"
+    },
+    "Feet_Agi": {
+        "Slug": "speed-shoes",
+        "Type": "equipment",
+        "DisplayName": "Speed Shoes"
+    },
+    "Feet_Dex": {
+        "Slug": "precision-shoes",
+        "Type": "equipment",
+        "DisplayName": "Precision Shoes"
+    },
+    "Feet_Int": {
+        "Slug": "mind-shoes",
+        "Type": "equipment",
+        "DisplayName": "Mind Shoes"
+    },
+    "Feet_Luk": {
+        "Slug": "fate-shoes",
+        "Type": "equipment",
+        "DisplayName": "Fate Shoes"
+    },
+    "Feet_Str": {
+        "Slug": "power-shoes",
+        "Type": "equipment",
+        "DisplayName": "Power Shoes"
+    },
+    "Feet_Vit": {
+        "Slug": "endurance-shoes",
+        "Type": "equipment",
+        "DisplayName": "Endurance Shoes"
+    },
+    "Ferncloak": {
+        "Slug": "ferncloak",
+        "Type": "equipment",
+        "DisplayName": "Ferncloak"
+    },
+    "Festival Rockets": {
+        "Slug": "festival-rockets",
+        "Type": "equipment",
+        "DisplayName": "Festival Rockets"
+    },
+    "Festive Gift Box": {
+        "Slug": "festive-gift-box",
+        "Type": "equipment",
+        "DisplayName": "Festive Gift Box"
+    },
+    "Flame Spirit": {
+        "Slug": "flame-spirit",
+        "Type": "equipment",
+        "DisplayName": "Flame Spirit"
+    },
+    "Flame Tongue Kunai": {
+        "Slug": "flame-tongue-kunai",
+        "Type": "equipment",
+        "DisplayName": "Flame Tongue Kunai"
+    },
+    "Flameburst Kunai": {
+        "Slug": "flameburst-kunai",
+        "Type": "equipment",
+        "DisplayName": "Flameburst Kunai"
+    },
+    "Fleetrunner": {
+        "Slug": "fleetrunner",
+        "Type": "equipment",
+        "DisplayName": "Fleetrunner"
+    },
+    "Flintlock Pistol": {
+        "Slug": "flintlock-pistol",
+        "Type": "equipment",
+        "DisplayName": "Flintlock Pistol"
+    },
+    "Focus Band": {
+        "Slug": "focus-band",
+        "Type": "equipment",
+        "DisplayName": "Focus Band"
+    },
+    "Forest Friend Hat": {
+        "Slug": "forest-friend-hat",
+        "Type": "equipment",
+        "DisplayName": "Forest Friend Hat"
+    },
+    "Fortified Guardwall": {
+        "Slug": "fortified-guardwall",
+        "Type": "equipment",
+        "DisplayName": "Fortified Guardwall"
+    },
+    "Frost Mark": {
+        "Slug": "frost-mark",
+        "Type": "equipment",
+        "DisplayName": "Frost Mark"
+    },
+    "Frostfang": {
+        "Slug": "frostfang",
+        "Type": "equipment",
+        "DisplayName": "Frostfang"
+    },
+    "Frostscale Helm": {
+        "Slug": "frostscale-helm",
+        "Type": "equipment",
+        "DisplayName": "Frostscale Helm"
+    },
+    "Frostshard": {
+        "Slug": "frostshard",
+        "Type": "equipment",
+        "DisplayName": "Frostshard"
+    },
+    "Frostspire Kunai": {
+        "Slug": "frostspire-kunai",
+        "Type": "equipment",
+        "DisplayName": "Frostspire Kunai"
+    },
+    "Fruit Bowl": {
+        "Slug": "fruit-bowl",
+        "Type": "equipment",
+        "DisplayName": "Fruit Bowl"
+    },
+    "Gatling Gun": {
+        "Slug": "gatling-gun",
+        "Type": "equipment",
+        "DisplayName": "Gatling Gun"
+    },
+    "Ghostly Hat": {
+        "Slug": "ghostly-hat",
+        "Type": "equipment",
+        "DisplayName": "Ghostly Hat"
+    },
+    "Glimmerthorn": {
+        "Slug": "glimmerthorn",
+        "Type": "equipment",
+        "DisplayName": "Glimmerthorn"
+    },
+    "Glove_Agi": {
+        "Slug": "speed-gauntlets",
+        "Type": "equipment",
+        "DisplayName": "Speed Gauntlets"
+    },
+    "Glove_Dex": {
+        "Slug": "precision-gauntlets",
+        "Type": "equipment",
+        "DisplayName": "Precision Gauntlets"
+    },
+    "Glove_Int": {
+        "Slug": "mind-gauntlets",
+        "Type": "equipment",
+        "DisplayName": "Mind Gauntlets"
+    },
+    "Glove_Luk": {
+        "Slug": "fate-gauntlets",
+        "Type": "equipment",
+        "DisplayName": "Fate Gauntlets"
+    },
+    "Glove_Str": {
+        "Slug": "power-gauntlets",
+        "Type": "equipment",
+        "DisplayName": "Power Gauntlets"
+    },
+    "Glove_Vit": {
+        "Slug": "endurance-gauntlets",
+        "Type": "equipment",
+        "DisplayName": "Endurance Gauntlets"
+    },
+    "Golden Aegis": {
+        "Slug": "golden-aegis",
+        "Type": "equipment",
+        "DisplayName": "Golden Aegis"
+    },
+    "Golden Axe": {
+        "Slug": "golden-axe",
+        "Type": "equipment",
+        "DisplayName": "Golden Axe"
+    },
+    "Golden Crown": {
+        "Slug": "golden-crown",
+        "Type": "equipment",
+        "DisplayName": "Golden Crown"
+    },
+    "Golden Hammer": {
+        "Slug": "golden-hammer",
+        "Type": "equipment",
+        "DisplayName": "Golden Hammer"
+    },
+    "Golden Hoop": {
+        "Slug": "golden-hoop",
+        "Type": "equipment",
+        "DisplayName": "Golden Hoop"
+    },
+    "Grasping Eye Urn": {
+        "Slug": "grasping-eye-urn",
+        "Type": "equipment",
+        "DisplayName": "Grasping Eye Urn"
+    },
+    "GravemarrowChest": {
+        "Slug": "gravemarrow-chest",
+        "Type": "equipment",
+        "DisplayName": "Gravemarrow Chest"
+    },
+    "GravemarrowFeet": {
+        "Slug": "gravemarrow-shoes",
+        "Type": "equipment",
+        "DisplayName": "Gravemarrow Shoes"
+    },
+    "GravemarrowLegs": {
+        "Slug": "gravemarrow-legs",
+        "Type": "equipment",
+        "DisplayName": "Gravemarrow Legs"
+    },
+    "Gravestone Breaker": {
+        "Slug": "gravestone-breaker",
+        "Type": "equipment",
+        "DisplayName": "Gravestone Breaker"
+    },
+    "Green Shell": {
+        "Slug": "green-shell",
+        "Type": "equipment",
+        "DisplayName": "Green Shell"
+    },
+    "Grim Reaper Scythe": {
+        "Slug": "life-drinker",
+        "Type": "equipment",
+        "DisplayName": "Life Drinker"
+    },
+    "Guardblade": {
+        "Slug": "guardblade",
+        "Type": "equipment",
+        "DisplayName": "Guardblade"
+    },
+    "Happy Chipper Hat": {
+        "Slug": "happy-chipper-hat",
+        "Type": "equipment",
+        "DisplayName": "Happy Chipper Hat"
+    },
+    "Harlequin's Hood": {
+        "Slug": "harlequin-s-hood",
+        "Type": "equipment",
+        "DisplayName": "Harlequin's Hood"
+    },
+    "Harvester of Souls": {
+        "Slug": "harvester-of-souls",
+        "Type": "equipment",
+        "DisplayName": "Harvester of Souls"
+    },
+    "Hawkeye Crossbow": {
+        "Slug": "hawkeye-crossbow",
+        "Type": "equipment",
+        "DisplayName": "Hawkeye Crossbow"
+    },
+    "Heart Vessel": {
+        "Slug": "heart-vessel",
+        "Type": "equipment",
+        "DisplayName": "Heart Vessel"
+    },
+    "Heartloop Earring": {
+        "Slug": "heartloop-earring",
+        "Type": "equipment",
+        "DisplayName": "Heartloop Earring"
+    },
+    "Heaven's Orbit": {
+        "Slug": "heaven-s-orbit",
+        "Type": "equipment",
+        "DisplayName": "Heaven's Orbit"
+    },
+    "Hellfire Staff": {
+        "Slug": "hellfire-staff",
+        "Type": "equipment",
+        "DisplayName": "Hellfire Staff"
+    },
+    "Hellhorn Hood": {
+        "Slug": "hellhorn-hood",
+        "Type": "equipment",
+        "DisplayName": "Hellhorn Hood"
+    },
+    "Hexweaver Hat": {
+        "Slug": "hexweaver-hat",
+        "Type": "equipment",
+        "DisplayName": "Hexweaver Hat"
+    },
+    "Holy Aegis": {
+        "Slug": "holy-crest",
+        "Type": "equipment",
+        "DisplayName": "Holy Crest"
+    },
+    "Holy Staff": {
+        "Slug": "holy-staff",
+        "Type": "equipment",
+        "DisplayName": "Holy Staff"
+    },
+    "Hornbrand": {
+        "Slug": "hornbrand",
+        "Type": "equipment",
+        "DisplayName": "Hornbrand"
+    },
+    "Horned Crusader Helm": {
+        "Slug": "horned-crusader-helm",
+        "Type": "equipment",
+        "DisplayName": "Horned Crusader Helm"
+    },
+    "Insect Carapace": {
+        "Slug": "insect-carapace",
+        "Type": "equipment",
+        "DisplayName": "Insect Carapace"
+    },
+    "Iron Ankh": {
+        "Slug": "iron-ankh",
+        "Type": "equipment",
+        "DisplayName": "Iron Ankh"
+    },
+    "Iron Bulwark": {
+        "Slug": "iron-bulwark",
+        "Type": "equipment",
+        "DisplayName": "Iron Bulwark"
+    },
+    "Iron Halo": {
+        "Slug": "iron-halo",
+        "Type": "equipment",
+        "DisplayName": "Iron Halo"
+    },
+    "Iron Morningstar": {
+        "Slug": "iron-morningstar",
+        "Type": "equipment",
+        "DisplayName": "Iron Morningstar"
+    },
+    "Iron Reaver": {
+        "Slug": "iron-reaver",
+        "Type": "equipment",
+        "DisplayName": "Iron Reaver"
+    },
+    "Iron Spear": {
+        "Slug": "iron-spear",
+        "Type": "equipment",
+        "DisplayName": "Iron Spear"
+    },
+    "Ironhorn Cap": {
+        "Slug": "ironhorn-cap",
+        "Type": "equipment",
+        "DisplayName": "Ironhorn Cap"
+    },
+    "Ironshade Helm": {
+        "Slug": "ironshade-helm",
+        "Type": "equipment",
+        "DisplayName": "Ironshade Helm"
+    },
+    "IslandChest": {
+        "Slug": "island-spirit-chest",
+        "Type": "equipment",
+        "DisplayName": "Island Spirit Chest"
+    },
+    "IslandFeet": {
+        "Slug": "island-spirit-shoes",
+        "Type": "equipment",
+        "DisplayName": "Island Spirit Shoes"
+    },
+    "IslandLegs": {
+        "Slug": "island-spirit-legs",
+        "Type": "equipment",
+        "DisplayName": "Island Spirit Legs"
+    },
+    "Jagtooth": {
+        "Slug": "jagtooth",
+        "Type": "equipment",
+        "DisplayName": "Jagtooth"
+    },
+    "Knife": {
+        "Slug": "knife",
+        "Type": "equipment",
+        "DisplayName": "Knife"
+    },
+    "Knight's Glory": {
+        "Slug": "royal-blade",
+        "Type": "equipment",
+        "DisplayName": "Royal Blade"
+    },
+    "KnightChest": {
+        "Slug": "skystrider-chest",
+        "Type": "equipment",
+        "DisplayName": "Skystrider Chest"
+    },
+    "KnightFeet": {
+        "Slug": "skystrider-shoes",
+        "Type": "equipment",
+        "DisplayName": "Skystrider Shoes"
+    },
+    "KnightLegs": {
+        "Slug": "skystrider-legs",
+        "Type": "equipment",
+        "DisplayName": "Skystrider Legs"
+    },
+    "Knuckleband": {
+        "Slug": "knuckleband",
+        "Type": "equipment",
+        "DisplayName": "Knuckleband"
+    },
+    "Kunai": {
+        "Slug": "kunai",
+        "Type": "equipment",
+        "DisplayName": "Kunai"
+    },
+    "Launcher": {
+        "Slug": "launcher",
+        "Type": "equipment",
+        "DisplayName": "Launcher"
+    },
+    "Leaf Mask": {
+        "Slug": "leaf-mask",
+        "Type": "equipment",
+        "DisplayName": "Leaf Mask"
+    },
+    "Leg_Agi": {
+        "Slug": "speed-greaves",
+        "Type": "equipment",
+        "DisplayName": "Speed Greaves"
+    },
+    "Leg_Dex": {
+        "Slug": "precision-greaves",
+        "Type": "equipment",
+        "DisplayName": "Precision Greaves"
+    },
+    "Leg_Int": {
+        "Slug": "mind-greaves",
+        "Type": "equipment",
+        "DisplayName": "Mind Greaves"
+    },
+    "Leg_Luk": {
+        "Slug": "fate-greaves",
+        "Type": "equipment",
+        "DisplayName": "Fate Greaves"
+    },
+    "Leg_Str": {
+        "Slug": "power-greaves",
+        "Type": "equipment",
+        "DisplayName": "Power Greaves"
+    },
+    "Leg_Vit": {
+        "Slug": "endurance-greaves",
+        "Type": "equipment",
+        "DisplayName": "Endurance Greaves"
+    },
+    "Life Staff": {
+        "Slug": "life-staff",
+        "Type": "equipment",
+        "DisplayName": "Life Staff"
+    },
+    "Longbow": {
+        "Slug": "longbow",
+        "Type": "equipment",
+        "DisplayName": "Longbow"
+    },
+    "Lucky Drops": {
+        "Slug": "lucky-drops",
+        "Type": "equipment",
+        "DisplayName": "Lucky Drops"
+    },
+    "Luxbane": {
+        "Slug": "luxbane",
+        "Type": "equipment",
+        "DisplayName": "Luxbane"
+    },
+    "Luxspire": {
+        "Slug": "luxspire",
+        "Type": "equipment",
+        "DisplayName": "Luxspire"
+    },
+    "Mace": {
+        "Slug": "mace",
+        "Type": "equipment",
+        "DisplayName": "Mace"
+    },
+    "MageChest": {
+        "Slug": "spellthread-chest",
+        "Type": "equipment",
+        "DisplayName": "Spellthread Chest"
+    },
+    "MageFeet": {
+        "Slug": "spellthread-shoes",
+        "Type": "equipment",
+        "DisplayName": "Spellthread Shoes"
+    },
+    "MageLegs": {
+        "Slug": "spellthread-legs",
+        "Type": "equipment",
+        "DisplayName": "Spellthread Legs"
+    },
+    "Mana Cask": {
+        "Slug": "mana-cask",
+        "Type": "equipment",
+        "DisplayName": "Mana Cask"
+    },
+    "Mana Potion": {
+        "Slug": "mana-potion",
+        "Type": "equipment",
+        "DisplayName": "Mana Potion"
+    },
+    "Master Axe": {
+        "Slug": "master-axe",
+        "Type": "equipment",
+        "DisplayName": "Master Axe"
+    },
+    "Master Codex": {
+        "Slug": "master-codex",
+        "Type": "equipment",
+        "DisplayName": "Master Codex"
+    },
+    "Master Dagger": {
+        "Slug": "master-dagger",
+        "Type": "equipment",
+        "DisplayName": "Master Dagger"
+    },
+    "Master Hammer": {
+        "Slug": "master-hammer",
+        "Type": "equipment",
+        "DisplayName": "Master Hammer"
+    },
+    "Master Katar": {
+        "Slug": "master-katar",
+        "Type": "equipment",
+        "DisplayName": "Master Katar"
+    },
+    "Master Revolver": {
+        "Slug": "master-pistol",
+        "Type": "equipment",
+        "DisplayName": "Master Pistol"
+    },
+    "Master Scythe": {
+        "Slug": "master-scythe",
+        "Type": "equipment",
+        "DisplayName": "Master Scythe"
+    },
+    "Master Slingshot": {
+        "Slug": "master-bow",
+        "Type": "equipment",
+        "DisplayName": "Master Bow"
+    },
+    "Master Spear": {
+        "Slug": "master-spear",
+        "Type": "equipment",
+        "DisplayName": "Master Spear"
+    },
+    "Master Sword": {
+        "Slug": "master-sword",
+        "Type": "equipment",
+        "DisplayName": "Master Sword"
+    },
+    "Master Wand": {
+        "Slug": "master-wand",
+        "Type": "equipment",
+        "DisplayName": "Master Wand"
+    },
+    "Mechanical Core": {
+        "Slug": "mechanical-core",
+        "Type": "equipment",
+        "DisplayName": "Mechanical Core"
+    },
+    "Meteoric Staff": {
+        "Slug": "meteoric-staff",
+        "Type": "equipment",
+        "DisplayName": "Meteoric Staff"
+    },
+    "Mindweave": {
+        "Slug": "mindweave",
+        "Type": "equipment",
+        "DisplayName": "Mindweave"
+    },
+    "Mischief Gift Box": {
+        "Slug": "mischief-gift-box",
+        "Type": "equipment",
+        "DisplayName": "Mischief Gift Box"
+    },
+    "Mitre of Sanctity": {
+        "Slug": "mitre-of-sanctity",
+        "Type": "equipment",
+        "DisplayName": "Mitre of Sanctity"
+    },
+    "Molten Core Buckler": {
+        "Slug": "molten-core-heater",
+        "Type": "equipment",
+        "DisplayName": "Molten Core Heater"
+    },
+    "Moonfrost": {
+        "Slug": "moonfrost",
+        "Type": "equipment",
+        "DisplayName": "Moonfrost"
+    },
+    "Moonshadow Hat": {
+        "Slug": "moonshadow-hat",
+        "Type": "equipment",
+        "DisplayName": "Moonshadow Hat"
+    },
+    "Moonweave Gloves": {
+        "Slug": "moonweave-gloves",
+        "Type": "equipment",
+        "DisplayName": "Moonweave Gloves"
+    },
+    "Mystic Hood": {
+        "Slug": "mystic-hood",
+        "Type": "equipment",
+        "DisplayName": "Mystic Hood"
+    },
+    "Necronomicon": {
+        "Slug": "necronomicon",
+        "Type": "equipment",
+        "DisplayName": "Necronomicon"
+    },
+    "Neko Hood": {
+        "Slug": "neko-hood",
+        "Type": "equipment",
+        "DisplayName": "Neko Hood"
+    },
+    "Night Chest": {
+        "Slug": "night-armor",
+        "Type": "equipment",
+        "DisplayName": "Night Armor"
+    },
+    "Night Feet": {
+        "Slug": "night-boots",
+        "Type": "equipment",
+        "DisplayName": "Night Boots"
+    },
+    "Night Helm": {
+        "Slug": "night-helm",
+        "Type": "equipment",
+        "DisplayName": "Night Helm"
+    },
+    "Night Legs": {
+        "Slug": "night-greaves",
+        "Type": "equipment",
+        "DisplayName": "Night Greaves"
+    },
+    "Night Shield": {
+        "Slug": "compass-of-dawn",
+        "Type": "equipment",
+        "DisplayName": "Compass of Dawn"
+    },
+    "Nightfang Stud": {
+        "Slug": "nightfang-stud",
+        "Type": "equipment",
+        "DisplayName": "Nightfang Stud"
+    },
+    "Ninja Hood": {
+        "Slug": "ninja-hood",
+        "Type": "equipment",
+        "DisplayName": "Ninja Hood"
+    },
+    "NoviceChest": {
+        "Slug": "novice-chest",
+        "Type": "equipment",
+        "DisplayName": "Novice Chest"
+    },
+    "NoviceFeet": {
+        "Slug": "novice-shoes",
+        "Type": "equipment",
+        "DisplayName": "Novice Shoes"
+    },
+    "NoviceLegs": {
+        "Slug": "novice-legs",
+        "Type": "equipment",
+        "DisplayName": "Novice Legs"
+    },
+    "Oak Bow": {
+        "Slug": "oak-bow",
+        "Type": "equipment",
+        "DisplayName": "Oak Bow"
+    },
+    "Oathbound Helm": {
+        "Slug": "oathbound-helm",
+        "Type": "equipment",
+        "DisplayName": "Oathbound Helm"
+    },
+    "Obsidian Band": {
+        "Slug": "obsidian-band",
+        "Type": "equipment",
+        "DisplayName": "Obsidian Band"
+    },
+    "Obsidian Edge": {
+        "Slug": "obsidian-edge",
+        "Type": "equipment",
+        "DisplayName": "Obsidian Edge"
+    },
+    "Obsidian Loop": {
+        "Slug": "obsidian-loop",
+        "Type": "equipment",
+        "DisplayName": "Obsidian Loop"
+    },
+    "Onyx Bolt": {
+        "Slug": "onyx-bolt",
+        "Type": "equipment",
+        "DisplayName": "Onyx Bolt"
+    },
+    "Oxygen Tank": {
+        "Slug": "oxygen-tank",
+        "Type": "equipment",
+        "DisplayName": "Oxygen Tank"
+    },
+    "Paladin Crest": {
+        "Slug": "paladin-crest",
+        "Type": "equipment",
+        "DisplayName": "Paladin Crest"
+    },
+    "Parrying Knife": {
+        "Slug": "parrying-knife",
+        "Type": "equipment",
+        "DisplayName": "Parrying Knife"
+    },
+    "Phantom Kunai": {
+        "Slug": "phantom-kunai",
+        "Type": "equipment",
+        "DisplayName": "Phantom Kunai"
+    },
+    "Phantom Mask": {
+        "Slug": "phantom-mask",
+        "Type": "equipment",
+        "DisplayName": "Phantom Mask"
+    },
+    "Piercer": {
+        "Slug": "piercer",
+        "Type": "equipment",
+        "DisplayName": "Piercer"
+    },
+    "Pirate Hat": {
+        "Slug": "pirate-hat",
+        "Type": "equipment",
+        "DisplayName": "Pirate Hat"
+    },
+    "PirateChest": {
+        "Slug": "pirate-coat",
+        "Type": "equipment",
+        "DisplayName": "Pirate Coat"
+    },
+    "PirateFeet": {
+        "Slug": "pirate-shoes",
+        "Type": "equipment",
+        "DisplayName": "Pirate Shoes"
+    },
+    "PirateGloves": {
+        "Slug": "pirate-hook",
+        "Type": "equipment",
+        "DisplayName": "Pirate Hook"
+    },
+    "PirateLegs": {
+        "Slug": "pirate-legs",
+        "Type": "equipment",
+        "DisplayName": "Pirate Legs"
+    },
+    "Pistol": {
+        "Slug": "pistol",
+        "Type": "equipment",
+        "DisplayName": "Pistol"
+    },
+    "Plasma Helmet": {
+        "Slug": "plasma-helmet",
+        "Type": "equipment",
+        "DisplayName": "Plasma Helmet"
+    },
+    "Plasma Shell": {
+        "Slug": "plasma-shell",
+        "Type": "equipment",
+        "DisplayName": "Plasma Shell"
+    },
+    "Plasma Sword Blue": {
+        "Slug": "azure-flow",
+        "Type": "equipment",
+        "DisplayName": "Azure Flow"
+    },
+    "Plasma Sword Purple": {
+        "Slug": "violet-arc",
+        "Type": "equipment",
+        "DisplayName": "Violet Arc"
+    },
+    "Plasma Sword Yellow": {
+        "Slug": "solar-pulse",
+        "Type": "equipment",
+        "DisplayName": "Solar Pulse"
+    },
+    "PlasmaChest": {
+        "Slug": "plasma-suit",
+        "Type": "equipment",
+        "DisplayName": "Plasma Suit"
+    },
+    "PlasmaFeet": {
+        "Slug": "plasma-boots",
+        "Type": "equipment",
+        "DisplayName": "Plasma Boots"
+    },
+    "PlasmaLegs": {
+        "Slug": "plasma-greaves",
+        "Type": "equipment",
+        "DisplayName": "Plasma Greaves"
+    },
+    "Plum Talisman": {
+        "Slug": "plum-talisman",
+        "Type": "equipment",
+        "DisplayName": "Plum Talisman"
+    },
+    "Potions": {
+        "Slug": "potions",
+        "Type": "equipment",
+        "DisplayName": "Potions"
+    },
+    "Pumpkin Head": {
+        "Slug": "jack-o-lantern",
+        "Type": "equipment",
+        "DisplayName": "Jack-o'-lantern"
+    },
+    "Quiver of Thorns": {
+        "Slug": "quiver-of-thorns",
+        "Type": "equipment",
+        "DisplayName": "Quiver of Thorns"
+    },
+    "Quiver": {
+        "Slug": "quiver",
+        "Type": "equipment",
+        "DisplayName": "Quiver"
+    },
+    "Radiant Wand": {
+        "Slug": "radiant-wand",
+        "Type": "equipment",
+        "DisplayName": "Radiant Wand"
+    },
+    "Ragebound Fury": {
+        "Slug": "ragebound-fury",
+        "Type": "equipment",
+        "DisplayName": "Ragebound Fury"
+    },
+    "Raider's Painted Shield": {
+        "Slug": "frostspire-guard",
+        "Type": "equipment",
+        "DisplayName": "Frostspire Guard"
+    },
+    "Ram Skull Mask": {
+        "Slug": "ram-skull-mask",
+        "Type": "equipment",
+        "DisplayName": "Ram Skull Mask"
+    },
+    "Ransack": {
+        "Slug": "ransack",
+        "Type": "equipment",
+        "DisplayName": "Ransack"
+    },
+    "Reaper Scythe": {
+        "Slug": "grim-scythe",
+        "Type": "equipment",
+        "DisplayName": "Grim Scythe"
+    },
+    "Recurve Bow": {
+        "Slug": "recurve-bow",
+        "Type": "equipment",
+        "DisplayName": "Recurve Bow"
+    },
+    "Red Maw": {
+        "Slug": "red-maw",
+        "Type": "equipment",
+        "DisplayName": "Red Maw"
+    },
+    "Red Shell": {
+        "Slug": "red-shell",
+        "Type": "equipment",
+        "DisplayName": "Red Shell"
+    },
+    "Reindeer Headband": {
+        "Slug": "reindeer-headband",
+        "Type": "equipment",
+        "DisplayName": "Reindeer Headband"
+    },
+    "Reindeer Hood": {
+        "Slug": "reindeer-hood",
+        "Type": "equipment",
+        "DisplayName": "Reindeer Hood"
+    },
+    "ReindeerChest": {
+        "Slug": "reindeer-chest",
+        "Type": "equipment",
+        "DisplayName": "Reindeer Chest"
+    },
+    "ReindeerFeet": {
+        "Slug": "reindeer-shoes",
+        "Type": "equipment",
+        "DisplayName": "Reindeer Shoes"
+    },
+    "ReindeerGloves": {
+        "Slug": "reindeer-gloves",
+        "Type": "equipment",
+        "DisplayName": "Reindeer Gloves"
+    },
+    "ReindeerLegs": {
+        "Slug": "reindeer-legs",
+        "Type": "equipment",
+        "DisplayName": "Reindeer Legs"
+    },
+    "Relic Trident": {
+        "Slug": "relic-trident",
+        "Type": "equipment",
+        "DisplayName": "Relic Trident"
+    },
+    "Repeater Crossbow": {
+        "Slug": "repeater-crossbow",
+        "Type": "equipment",
+        "DisplayName": "Repeater Crossbow"
+    },
+    "Resonant Headphones": {
+        "Slug": "resonant-headphones",
+        "Type": "equipment",
+        "DisplayName": "Resonant Headphones"
+    },
+    "Rifle": {
+        "Slug": "rifle",
+        "Type": "equipment",
+        "DisplayName": "Rifle"
+    },
+    "Riftbreaker": {
+        "Slug": "riftbreaker",
+        "Type": "equipment",
+        "DisplayName": "Riftbreaker"
+    },
+    "Rod": {
+        "Slug": "rod",
+        "Type": "equipment",
+        "DisplayName": "Rod"
+    },
+    "Royal Crest": {
+        "Slug": "royal-crest",
+        "Type": "equipment",
+        "DisplayName": "Royal Crest"
+    },
+    "Royal Dagger": {
+        "Slug": "royal-dagger",
+        "Type": "equipment",
+        "DisplayName": "Royal Dagger"
+    },
+    "Royal Fang": {
+        "Slug": "royal-fang",
+        "Type": "equipment",
+        "DisplayName": "Royal Fang"
+    },
+    "Runeborn Visor": {
+        "Slug": "runeborn-visor",
+        "Type": "equipment",
+        "DisplayName": "Runeborn Visor"
+    },
+    "Runesmasher": {
+        "Slug": "runesmasher",
+        "Type": "equipment",
+        "DisplayName": "Runesmasher"
+    },
+    "Rusted Binocs": {
+        "Slug": "rusted-binocs",
+        "Type": "equipment",
+        "DisplayName": "Rusted Binocs"
+    },
+    "Safety Helmet": {
+        "Slug": "safety-helmet",
+        "Type": "equipment",
+        "DisplayName": "Safety Helmet"
+    },
+    "SafetyChest": {
+        "Slug": "safety-chest",
+        "Type": "equipment",
+        "DisplayName": "Safety Chest"
+    },
+    "SafetyFeet": {
+        "Slug": "safety-shoes",
+        "Type": "equipment",
+        "DisplayName": "Safety Shoes"
+    },
+    "SafetyGloves": {
+        "Slug": "safety-gloves",
+        "Type": "equipment",
+        "DisplayName": "Safety Gloves"
+    },
+    "SafetyLegs": {
+        "Slug": "safety-legs",
+        "Type": "equipment",
+        "DisplayName": "Safety Legs"
+    },
+    "SanctifiedChest": {
+        "Slug": "sanctified-chest",
+        "Type": "equipment",
+        "DisplayName": "Sanctified Chest"
+    },
+    "SanctifiedFeet": {
+        "Slug": "sanctified-shoes",
+        "Type": "equipment",
+        "DisplayName": "Sanctified Shoes"
+    },
+    "SanctifiedLegs": {
+        "Slug": "sanctified-legs",
+        "Type": "equipment",
+        "DisplayName": "Sanctified Legs"
+    },
+    "Sanctum Gloves": {
+        "Slug": "sanctum-gloves",
+        "Type": "equipment",
+        "DisplayName": "Sanctum Gloves"
+    },
+    "Sanctum Guard": {
+        "Slug": "sanctum-guard",
+        "Type": "equipment",
+        "DisplayName": "Sanctum Guard"
+    },
+    "SantaChest": {
+        "Slug": "santa-chest",
+        "Type": "equipment",
+        "DisplayName": "Santa Chest"
+    },
+    "SantaFeet": {
+        "Slug": "santa-shoes",
+        "Type": "equipment",
+        "DisplayName": "Santa Shoes"
+    },
+    "SantaGloves": {
+        "Slug": "santa-gloves",
+        "Type": "equipment",
+        "DisplayName": "Santa Gloves"
+    },
+    "SantaLegs": {
+        "Slug": "santa-legs",
+        "Type": "equipment",
+        "DisplayName": "Santa Legs"
+    },
+    "Sapphire Crown": {
+        "Slug": "sapphire-crown",
+        "Type": "equipment",
+        "DisplayName": "Sapphire Crown"
+    },
+    "Scalpel": {
+        "Slug": "scalpel",
+        "Type": "equipment",
+        "DisplayName": "Scalpel"
+    },
+    "Scholar Glasses": {
+        "Slug": "scholar-glasses",
+        "Type": "equipment",
+        "DisplayName": "Scholar Glasses"
+    },
+    "Scrapfang": {
+        "Slug": "scrapfang",
+        "Type": "equipment",
+        "DisplayName": "Scrapfang"
+    },
+    "Scroll Charm": {
+        "Slug": "scroll-charm",
+        "Type": "equipment",
+        "DisplayName": "Scroll Charm"
+    },
+    "Seedling Satchel": {
+        "Slug": "seedling-satchel",
+        "Type": "equipment",
+        "DisplayName": "Seedling Satchel"
+    },
+    "Serpent Ring": {
+        "Slug": "serpent-ring",
+        "Type": "equipment",
+        "DisplayName": "Serpent Ring"
+    },
+    "Shadowsteel Guard": {
+        "Slug": "shadowsteel-guard",
+        "Type": "equipment",
+        "DisplayName": "Shadowsteel Guard"
+    },
+    "Shady Specs": {
+        "Slug": "shady-specs",
+        "Type": "equipment",
+        "DisplayName": "Shady Specs"
+    },
+    "Sharkbite Hood": {
+        "Slug": "sharkbite-hood",
+        "Type": "equipment",
+        "DisplayName": "Sharkbite Hood"
+    },
+    "Shotgun": {
+        "Slug": "shotgun",
+        "Type": "equipment",
+        "DisplayName": "Shotgun"
+    },
+    "Shuriken": {
+        "Slug": "fuma-shuriken",
+        "Type": "equipment",
+        "DisplayName": "Fuma Shuriken"
+    },
+    "Silence of Night": {
+        "Slug": "silence-of-night",
+        "Type": "equipment",
+        "DisplayName": "Silence of Night"
+    },
+    "Skull Emblem": {
+        "Slug": "skull-emblem",
+        "Type": "equipment",
+        "DisplayName": "Skull Emblem"
+    },
+    "Skull Pendant": {
+        "Slug": "skull-pendant",
+        "Type": "equipment",
+        "DisplayName": "Skull Pendant"
+    },
+    "Skullhacker": {
+        "Slug": "skullhacker",
+        "Type": "equipment",
+        "DisplayName": "Skullhacker"
+    },
+    "Skybreaker Staff": {
+        "Slug": "skybreaker-staff",
+        "Type": "equipment",
+        "DisplayName": "Skybreaker Staff"
+    },
+    "Slingshot": {
+        "Slug": "slingshot",
+        "Type": "equipment",
+        "DisplayName": "Slingshot"
+    },
+    "Sniper Rifle": {
+        "Slug": "sniper-rifle",
+        "Type": "equipment",
+        "DisplayName": "Sniper Rifle"
+    },
+    "Snowbun Earmuffs": {
+        "Slug": "snowbun-earmuffs",
+        "Type": "equipment",
+        "DisplayName": "Snowbun Earmuffs"
+    },
+    "Snowman Head": {
+        "Slug": "snowman-head",
+        "Type": "equipment",
+        "DisplayName": "Snowman Head"
+    },
+    "Solar Relic": {
+        "Slug": "solar-relic",
+        "Type": "equipment",
+        "DisplayName": "Solar Relic"
+    },
+    "Solar Spear": {
+        "Slug": "solar-spear",
+        "Type": "equipment",
+        "DisplayName": "Solar Spear"
+    },
+    "Soul Reaper Scythe": {
+        "Slug": "blight-reaver",
+        "Type": "equipment",
+        "DisplayName": "Blight Reaver"
+    },
+    "SoulbinderChest": {
+        "Slug": "soulbinder-chest",
+        "Type": "equipment",
+        "DisplayName": "Soulbinder Chest"
+    },
+    "SoulbinderFeet": {
+        "Slug": "soulbinder-shoes",
+        "Type": "equipment",
+        "DisplayName": "Soulbinder Shoes"
+    },
+    "SoulbinderLegs": {
+        "Slug": "soulbinder-legs",
+        "Type": "equipment",
+        "DisplayName": "Soulbinder Legs"
+    },
+    "Spiked Club": {
+        "Slug": "spiked-club",
+        "Type": "equipment",
+        "DisplayName": "Spiked Club"
+    },
+    "Spikesteel Helm": {
+        "Slug": "spikesteel-helm",
+        "Type": "equipment",
+        "DisplayName": "Spikesteel Helm"
+    },
+    "Spineshard": {
+        "Slug": "spineshard",
+        "Type": "equipment",
+        "DisplayName": "Spineshard"
+    },
+    "Spirit Familiar": {
+        "Slug": "spirit-familiar",
+        "Type": "equipment",
+        "DisplayName": "Spirit Familiar"
+    },
+    "Spooky Spell Hat": {
+        "Slug": "spooky-spell-hat",
+        "Type": "equipment",
+        "DisplayName": "Spooky Spell Hat"
+    },
+    "Springram Horns": {
+        "Slug": "springram-horns",
+        "Type": "equipment",
+        "DisplayName": "Springram Horns"
+    },
+    "Staff of Eternis": {
+        "Slug": "staff-of-eternis",
+        "Type": "equipment",
+        "DisplayName": "Staff of Eternis"
+    },
+    "Star": {
+        "Slug": "star",
+        "Type": "equipment",
+        "DisplayName": "Star"
+    },
+    "Starbound Hat": {
+        "Slug": "starbound-hat",
+        "Type": "equipment",
+        "DisplayName": "Starbound Hat"
+    },
+    "Stiletto": {
+        "Slug": "stiletto",
+        "Type": "equipment",
+        "DisplayName": "Stiletto"
+    },
+    "Stoneguard": {
+        "Slug": "stoneguard",
+        "Type": "equipment",
+        "DisplayName": "Stoneguard"
+    },
+    "Stonepoint Spear": {
+        "Slug": "stonepoint-spear",
+        "Type": "equipment",
+        "DisplayName": "Stonepoint Spear"
+    },
+    "Stormburst Crossbow": {
+        "Slug": "stormburst-crossbow",
+        "Type": "equipment",
+        "DisplayName": "Stormburst Crossbow"
+    },
+    "Stormcall Kunai": {
+        "Slug": "stormcall-kunai",
+        "Type": "equipment",
+        "DisplayName": "Stormcall Kunai"
+    },
+    "Stormcaller Totem": {
+        "Slug": "stormcaller-totem",
+        "Type": "equipment",
+        "DisplayName": "Stormcaller Totem"
+    },
+    "Stormfeather Kunai": {
+        "Slug": "stormfeather-kunai",
+        "Type": "equipment",
+        "DisplayName": "Stormfeather Kunai"
+    },
+    "Stormpiercer": {
+        "Slug": "stormpiercer",
+        "Type": "equipment",
+        "DisplayName": "Stormpiercer"
+    },
+    "StormplateChest": {
+        "Slug": "stormplate-chest",
+        "Type": "equipment",
+        "DisplayName": "Stormplate Chest"
+    },
+    "StormplateFeet": {
+        "Slug": "stormplate-shoes",
+        "Type": "equipment",
+        "DisplayName": "Stormplate Shoes"
+    },
+    "StormplateLegs": {
+        "Slug": "stormplate-legs",
+        "Type": "equipment",
+        "DisplayName": "Stormplate Legs"
+    },
+    "Sun Emblem": {
+        "Slug": "sun-emblem",
+        "Type": "equipment",
+        "DisplayName": "Sun Emblem"
+    },
+    "Sun Lion Crest": {
+        "Slug": "sun-lion-crest",
+        "Type": "equipment",
+        "DisplayName": "Sun Lion Crest"
+    },
+    "Sunbound Mitts": {
+        "Slug": "sunbound-mitts",
+        "Type": "equipment",
+        "DisplayName": "Sunbound Mitts"
+    },
+    "Sunflare": {
+        "Slug": "sunflare",
+        "Type": "equipment",
+        "DisplayName": "Sunflare"
+    },
+    "Sunflower Clip": {
+        "Slug": "sunflower-clip",
+        "Type": "equipment",
+        "DisplayName": "Sunflower Clip"
+    },
+    "Swampy Hat": {
+        "Slug": "swampy-hat",
+        "Type": "equipment",
+        "DisplayName": "Swampy Hat"
+    },
+    "Swift Fang": {
+        "Slug": "serpent-fang",
+        "Type": "equipment",
+        "DisplayName": "Serpent Fang"
+    },
+    "Sword": {
+        "Slug": "sword",
+        "Type": "equipment",
+        "DisplayName": "Sword"
+    },
+    "Tempest Staff": {
+        "Slug": "tempest-staff",
+        "Type": "equipment",
+        "DisplayName": "Tempest Staff"
+    },
+    "Thief Mask": {
+        "Slug": "thief-mask",
+        "Type": "equipment",
+        "DisplayName": "Thief Mask"
+    },
+    "ThiefChest": {
+        "Slug": "ashwalker-chest",
+        "Type": "equipment",
+        "DisplayName": "Ashwalker Chest"
+    },
+    "ThiefFeet": {
+        "Slug": "ashwalker-shoes",
+        "Type": "equipment",
+        "DisplayName": "Ashwalker Shoes"
+    },
+    "ThiefLegs": {
+        "Slug": "ashwalker-legs",
+        "Type": "equipment",
+        "DisplayName": "Ashwalker Legs"
+    },
+    "Thundercoil": {
+        "Slug": "thundercoil",
+        "Type": "equipment",
+        "DisplayName": "Thundercoil"
+    },
+    "Tinker Goggles": {
+        "Slug": "tinker-goggles",
+        "Type": "equipment",
+        "DisplayName": "Tinker Goggles"
+    },
+    "Tinker Mask": {
+        "Slug": "tinker-mask",
+        "Type": "equipment",
+        "DisplayName": "Tinker Mask"
+    },
+    "Tomahawk": {
+        "Slug": "tomahawk",
+        "Type": "equipment",
+        "DisplayName": "Tomahawk"
+    },
+    "Top Hat": {
+        "Slug": "top-hat",
+        "Type": "equipment",
+        "DisplayName": "Top Hat"
+    },
+    "Totem Banner": {
+        "Slug": "totem-banner",
+        "Type": "equipment",
+        "DisplayName": "Totem Banner"
+    },
+    "Totem Mask": {
+        "Slug": "totem-mask",
+        "Type": "equipment",
+        "DisplayName": "Totem Mask"
+    },
+    "Treasure Box": {
+        "Slug": "treasure-box",
+        "Type": "equipment",
+        "DisplayName": "Treasure Box"
+    },
+    "Tribal Mask": {
+        "Slug": "tribal-mask",
+        "Type": "equipment",
+        "DisplayName": "Tribal Mask"
+    },
+    "Trident of Tides": {
+        "Slug": "trident-of-tides",
+        "Type": "equipment",
+        "DisplayName": "Trident of Tides"
+    },
+    "Triple Barrel Revolver": {
+        "Slug": "triple-barrel-revolver",
+        "Type": "equipment",
+        "DisplayName": "Triple Barrel Revolver"
+    },
+    "TurtleShell": {
+        "Slug": "turtle-shell",
+        "Type": "equipment",
+        "DisplayName": "Turtle Shell"
+    },
+    "Twinblade": {
+        "Slug": "twinblade",
+        "Type": "equipment",
+        "DisplayName": "Twinblade"
+    },
+    "Valiant Crown": {
+        "Slug": "valiant-crown",
+        "Type": "equipment",
+        "DisplayName": "Valiant Crown"
+    },
+    "Ventilator Mask": {
+        "Slug": "ventilator-mask",
+        "Type": "equipment",
+        "DisplayName": "Ventilator Mask"
+    },
+    "Verdant Antlers": {
+        "Slug": "verdant-antlers",
+        "Type": "equipment",
+        "DisplayName": "Verdant Antlers"
+    },
+    "Verdant Core": {
+        "Slug": "verdant-core",
+        "Type": "equipment",
+        "DisplayName": "Verdant Core"
+    },
+    "Void Urn": {
+        "Slug": "void-urn",
+        "Type": "equipment",
+        "DisplayName": "Void Urn"
+    },
+    "Voidthreads": {
+        "Slug": "voidthreads",
+        "Type": "equipment",
+        "DisplayName": "Voidthreads"
+    },
+    "War Axe": {
+        "Slug": "war-axe",
+        "Type": "equipment",
+        "DisplayName": "War Axe"
+    },
+    "War Banner": {
+        "Slug": "war-banner",
+        "Type": "equipment",
+        "DisplayName": "War Banner"
+    },
+    "Warborn Aegis": {
+        "Slug": "warborn-aegis",
+        "Type": "equipment",
+        "DisplayName": "Warborn Aegis"
+    },
+    "Warlord Emblem Shield": {
+        "Slug": "warlord-emblem-shield",
+        "Type": "equipment",
+        "DisplayName": "Warlord Emblem Shield"
+    },
+    "Wasteland Cleaver": {
+        "Slug": "wasteland-cleaver",
+        "Type": "equipment",
+        "DisplayName": "Wasteland Cleaver"
+    },
+    "WeaverChest": {
+        "Slug": "weaver-chest",
+        "Type": "equipment",
+        "DisplayName": "Weaver Chest"
+    },
+    "WeaverFeet": {
+        "Slug": "weaver-shoes",
+        "Type": "equipment",
+        "DisplayName": "Weaver Shoes"
+    },
+    "WeaverLegs": {
+        "Slug": "weaver-legs",
+        "Type": "equipment",
+        "DisplayName": "Weaver Legs"
+    },
+    "Whale Backpack": {
+        "Slug": "whale-backpack",
+        "Type": "equipment",
+        "DisplayName": "Whale Backpack"
+    },
+    "Whisper of Thorns": {
+        "Slug": "whisper-of-thorns",
+        "Type": "equipment",
+        "DisplayName": "Whisper of Thorns"
+    },
+    "White Bishop's Hood": {
+        "Slug": "white-bishop-s-hood",
+        "Type": "equipment",
+        "DisplayName": "White Bishop's Hood"
+    },
+    "Wilderness Pack": {
+        "Slug": "wilderness-pack",
+        "Type": "equipment",
+        "DisplayName": "Wilderness Pack"
+    },
+    "Wildroot Veil": {
+        "Slug": "wildroot-veil",
+        "Type": "equipment",
+        "DisplayName": "Wildroot Veil"
+    },
+    "Willow Staff": {
+        "Slug": "willow-staff",
+        "Type": "equipment",
+        "DisplayName": "Willow Staff"
+    },
+    "Windroot": {
+        "Slug": "windroot",
+        "Type": "equipment",
+        "DisplayName": "Windroot"
+    },
+    "WindstriderChest": {
+        "Slug": "windstrider-chest",
+        "Type": "equipment",
+        "DisplayName": "Windstrider Chest"
+    },
+    "WindstriderFeet": {
+        "Slug": "windstrider-shoes",
+        "Type": "equipment",
+        "DisplayName": "Windstrider Shoes"
+    },
+    "WindstriderLegs": {
+        "Slug": "windstrider-legs",
+        "Type": "equipment",
+        "DisplayName": "Windstrider Legs"
+    },
+    "Winged Helm": {
+        "Slug": "winged-helm",
+        "Type": "equipment",
+        "DisplayName": "Winged Helm"
+    },
+    "Wings of Valor": {
+        "Slug": "wings-of-valor",
+        "Type": "equipment",
+        "DisplayName": "Wings of Valor"
+    },
+    "Witch's Whisk": {
+        "Slug": "witch-s-whisk",
+        "Type": "equipment",
+        "DisplayName": "Witch's Whisk"
+    },
+    "Witchsteps": {
+        "Slug": "witchsteps",
+        "Type": "equipment",
+        "DisplayName": "Witchsteps"
+    },
+    "Wizardry Hat": {
+        "Slug": "wizardry-hat",
+        "Type": "equipment",
+        "DisplayName": "Wizardry Hat"
+    },
+    "Wolfcrest Shield": {
+        "Slug": "wolfcrest-shield",
+        "Type": "equipment",
+        "DisplayName": "Wolfcrest Shield"
+    },
+    "Wooden Guard": {
+        "Slug": "wooden-guard",
+        "Type": "equipment",
+        "DisplayName": "Wooden Guard"
+    },
+    "Wraith of Dawn": {
+        "Slug": "wraith-of-dawn",
+        "Type": "equipment",
+        "DisplayName": "Wraith of Dawn"
+    },
+    "Wraithlight": {
+        "Slug": "wraithlight",
+        "Type": "equipment",
+        "DisplayName": "Wraithlight"
+    },
+    "Zephyrlight": {
+        "Slug": "zephyrlight",
+        "Type": "equipment",
+        "DisplayName": "Zephyrlight"
+    },
+    "Antique Teacup": {
+        "Slug": "antique-teacup",
+        "GameId": "Antique Teacup",
+        "Type": "material",
+        "DisplayName": "Antique Teacup"
+    },
+    "Ash": {
+        "Slug": "ash",
+        "GameId": "Ash",
+        "Type": "material",
+        "DisplayName": "Ash"
+    },
+    "Azurite": {
+        "Slug": "azurite",
+        "GameId": "Azurite",
+        "Type": "material",
+        "DisplayName": "Azurite"
+    },
+    "Branch Dead": {
+        "Slug": "branch-dead",
+        "GameId": "Branch Dead",
+        "Type": "material",
+        "DisplayName": "Branch Dead"
+    },
+    "Candy Cane": {
+        "Slug": "candy-cane",
+        "GameId": "Candy Cane",
+        "Type": "material",
+        "DisplayName": "Candy Cane"
+    },
+    "Coal Hard": {
+        "Slug": "coal-hard",
+        "GameId": "Coal Hard",
+        "Type": "material",
+        "DisplayName": "Coal Hard"
+    },
+    "Coconut Oil": {
+        "Slug": "coconut-oil",
+        "GameId": "Coconut Oil",
+        "Type": "material",
+        "DisplayName": "Coconut Oil"
+    },
+    "Coral Stone": {
+        "Slug": "coral-stone",
+        "GameId": "Coral Stone",
+        "Type": "material",
+        "DisplayName": "Coral Stone"
+    },
+    "Fishbone": {
+        "Slug": "fishbone",
+        "GameId": "Fishbone",
+        "Type": "material",
+        "DisplayName": "Fishbone"
+    },
+    "Foxtail": {
+        "Slug": "foxtail",
+        "GameId": "Foxtail",
+        "Type": "material",
+        "DisplayName": "Foxtail"
+    },
+    "Gold Ore": {
+        "Slug": "gold-ore",
+        "GameId": "Gold Ore",
+        "Type": "material",
+        "DisplayName": "Gold Ore"
+    },
+    "Gravion Chunk": {
+        "Slug": "gravion-chunk",
+        "GameId": "Gravion Chunk",
+        "Type": "material",
+        "DisplayName": "Gravion Chunk"
+    },
+    "Gravion Crystal": {
+        "Slug": "gravion-crystal",
+        "GameId": "Gravion Crystal",
+        "Type": "material",
+        "DisplayName": "Gravion Crystal"
+    },
+    "Gravion Shard": {
+        "Slug": "gravion-shard",
+        "GameId": "Gravion Shard",
+        "Type": "material",
+        "DisplayName": "Gravion Shard"
+    },
+    "Ingot Iron": {
+        "Slug": "ingot-iron",
+        "GameId": "Ingot Iron",
+        "Type": "material",
+        "DisplayName": "Ingot Iron"
+    },
+    "Ingot Steel": {
+        "Slug": "ingot-steel",
+        "GameId": "Ingot Steel",
+        "Type": "material",
+        "DisplayName": "Ingot Steel"
+    },
+    "Larva": {
+        "Slug": "larva",
+        "GameId": "Larva",
+        "Type": "material",
+        "DisplayName": "Larva"
+    },
+    "Leaf": {
+        "Slug": "leaf",
+        "GameId": "Leaf",
+        "Type": "material",
+        "DisplayName": "Leaf"
+    },
+    "Lunaris Chunk": {
+        "Slug": "lunaris-chunk",
+        "GameId": "Lunaris Chunk",
+        "Type": "material",
+        "DisplayName": "Lunaris Chunk"
+    },
+    "Lunaris Crystal": {
+        "Slug": "lunaris-crystal",
+        "GameId": "Lunaris Crystal",
+        "Type": "material",
+        "DisplayName": "Lunaris Crystal"
+    },
+    "Lunaris Shard": {
+        "Slug": "lunaris-shard",
+        "GameId": "Lunaris Shard",
+        "Type": "material",
+        "DisplayName": "Lunaris Shard"
+    },
+    "Moonrock": {
+        "Slug": "moonrock",
+        "GameId": "Moonrock",
+        "Type": "material",
+        "DisplayName": "Moonrock"
+    },
+    "Moonstone": {
+        "Slug": "moonstone",
+        "GameId": "Moonstone",
+        "Type": "material",
+        "DisplayName": "Moonstone"
+    },
+    "Obsidian": {
+        "Slug": "obsidian",
+        "GameId": "Obsidian",
+        "Type": "material",
+        "DisplayName": "Obsidian"
+    },
+    "Oceanite": {
+        "Slug": "oceanite",
+        "GameId": "Oceanite",
+        "Type": "material",
+        "DisplayName": "Oceanite"
+    },
+    "Pouch Fairy Dust": {
+        "Slug": "pouch-fairy-dust",
+        "GameId": "Pouch Fairy Dust",
+        "Type": "material",
+        "DisplayName": "Pouch Fairy Dust"
+    },
+    "Silica Sand": {
+        "Slug": "silica-sand",
+        "GameId": "Silica Sand",
+        "Type": "material",
+        "DisplayName": "Silica Sand"
+    },
+    "Spider Web": {
+        "Slug": "spider-web",
+        "GameId": "Spider Web",
+        "Type": "material",
+        "DisplayName": "Spider Web"
+    },
+    "Tree Bark": {
+        "Slug": "tree-bark",
+        "GameId": "Tree Bark",
+        "Type": "material",
+        "DisplayName": "Tree Bark"
+    },
+    "Tree Sap": {
+        "Slug": "tree-sap",
+        "GameId": "Tree Sap",
+        "Type": "material",
+        "DisplayName": "Tree Sap"
+    },
+    "Tungsten": {
+        "Slug": "tungsten",
+        "GameId": "Tungsten",
+        "Type": "material",
+        "DisplayName": "Tungsten"
+    },
+    "Vulkanite Chunk": {
+        "Slug": "vulkanite-chunk",
+        "GameId": "Vulkanite Chunk",
+        "Type": "material",
+        "DisplayName": "Vulkanite Chunk"
+    },
+    "Vulkanite Crystal": {
+        "Slug": "vulkanite-crystal",
+        "GameId": "Vulkanite Crystal",
+        "Type": "material",
+        "DisplayName": "Vulkanite Crystal"
+    },
+    "Vulkanite Shard": {
+        "Slug": "vulkanite-shard",
+        "GameId": "Vulkanite Shard",
+        "Type": "material",
+        "DisplayName": "Vulkanite Shard"
+    },
+    "Artifact Box Base": {
+        "Slug": "box-of-origins",
+        "GameId": "Artifact Box Base",
+        "Type": "consumable",
+        "DisplayName": "Box of Origins"
+    },
+    "Lure Alien Big Blink": {
+        "Slug": "time-device",
+        "GameId": "Lure Alien Big Blink",
+        "Type": "consumable",
+        "DisplayName": "Time Device"
+    },
+    "Lure Angel Mage": {
+        "Slug": "heaven-s-tear-earring",
+        "GameId": "Lure Angel Mage",
+        "Type": "consumable",
+        "DisplayName": "Heaven's Tear Earring"
+    },
+    "Lure Bat Lord": {
+        "Slug": "overripe-grape-cluster",
+        "GameId": "Lure Bat Lord",
+        "Type": "consumable",
+        "DisplayName": "Overripe Grape Cluster"
+    },
+    "Lure Cactus Boss": {
+        "Slug": "oozing-pulp-chunk",
+        "GameId": "Lure Cactus Boss",
+        "Type": "consumable",
+        "DisplayName": "Oozing Pulp Chunk"
+    },
+    "Lure Cat Bolt": {
+        "Slug": "curved-fishbone",
+        "GameId": "Lure Cat Bolt",
+        "Type": "consumable",
+        "DisplayName": "Curved Fishbone"
+    },
+    "Lure Death Mage": {
+        "Slug": "black-mirror-shard",
+        "GameId": "Lure Death Mage",
+        "Type": "consumable",
+        "DisplayName": "Black Mirror Shard"
+    },
+    "Lure Goblin Giant Gold": {
+        "Slug": "glinting-goblin-fang",
+        "GameId": "Lure Goblin Giant Gold",
+        "Type": "consumable",
+        "DisplayName": "Glinting Goblin Fang"
+    },
+    "Lure Goblin Warchief": {
+        "Slug": "tribal-heirloom",
+        "GameId": "Lure Goblin Warchief",
+        "Type": "consumable",
+        "DisplayName": "Tribal Heirloom"
+    },
+    "Lure Hare": {
+        "Slug": "gnawed-acorn",
+        "GameId": "Lure Hare",
+        "Type": "consumable",
+        "DisplayName": "Gnawed Acorn"
+    },
+    "Lure Hermit King": {
+        "Slug": "calcified-shell-core",
+        "GameId": "Lure Hermit King",
+        "Type": "consumable",
+        "DisplayName": "Calcified Shell Core"
+    },
+    "Lure Ice Mage": {
+        "Slug": "frozen-heart-crystal",
+        "GameId": "Lure Ice Mage",
+        "Type": "consumable",
+        "DisplayName": "Frozen Heart Crystal"
+    },
+    "Lure Imp Devil": {
+        "Slug": "blank-pact-scroll",
+        "GameId": "Lure Imp Devil",
+        "Type": "consumable",
+        "DisplayName": "Blank Pact Scroll"
+    },
+    "Lure Mega Ice Golem": {
+        "Slug": "frozen-core-shard",
+        "GameId": "Lure Mega Ice Golem",
+        "Type": "consumable",
+        "DisplayName": "Frozen Core Shard"
+    },
+    "Lure Queen Worm": {
+        "Slug": "royal-jelly-clot",
+        "GameId": "Lure Queen Worm",
+        "Type": "consumable",
+        "DisplayName": "Royal Jelly Clot"
+    },
+    "Lure Scorpion King": {
+        "Slug": "soldier-termite",
+        "GameId": "Lure Scorpion King",
+        "Type": "consumable",
+        "DisplayName": "Soldier Termite"
+    },
+    "Lure Snake Naga": {
+        "Slug": "fresh-kill-slab",
+        "GameId": "Lure Snake Naga",
+        "Type": "consumable",
+        "DisplayName": "Fresh Kill Slab"
+    },
+    "Lure Spider Queen Robot": {
+        "Slug": "spider-web-coil",
+        "GameId": "Lure Spider Queen Robot",
+        "Type": "consumable",
+        "DisplayName": "Spider Web Coil"
+    },
+    "Lure Sting": {
+        "Slug": "buzzing-hive-fragment",
+        "GameId": "Lure Sting",
+        "Type": "consumable",
+        "DisplayName": "Buzzing Hive Fragment"
+    },
+    "Lure Sunflora Pixie": {
+        "Slug": "sunborn-petal-tuft",
+        "GameId": "Lure Sunflora Pixie",
+        "Type": "consumable",
+        "DisplayName": "Sunborn Petal Tuft"
+    },
+    "Lure Turtle King": {
+        "Slug": "tactical-power-node",
+        "GameId": "Lure Turtle King",
+        "Type": "consumable",
+        "DisplayName": "Tactical Power Node"
+    },
+    "Lure Werewolf": {
+        "Slug": "fragment-of-the-pale-moon",
+        "GameId": "Lure Werewolf",
+        "Type": "consumable",
+        "DisplayName": "Fragment of the Pale Moon"
+    },
+    "Lure Worm Creep": {
+        "Slug": "worm-eaten-sediment",
+        "GameId": "Lure Worm Creep",
+        "Type": "consumable",
+        "DisplayName": "Worm-Eaten Sediment"
+    },
+    "Lure Zombie Goblin King": {
+        "Slug": "lost-shoe",
+        "GameId": "Lure Zombie Goblin King",
+        "Type": "consumable",
+        "DisplayName": "Lost Shoe"
+    }
+}

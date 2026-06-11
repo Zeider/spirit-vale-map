@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.superpowers/
+.sv-scratch/
+*.local
+.DS_Store
