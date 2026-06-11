@@ -25,3 +25,19 @@ describe('App', () => {
     }
   });
 });
+
+describe('App — view switching', () => {
+  beforeEach(() => { window.history.replaceState(null, '', '/'); localStorage.clear(); });
+
+  it('toggles to the Builds view and writes ?view=builds', () => {
+    render(<App />);
+    fireEvent.click(screen.getByRole('button', { name: /builds/i }));
+    expect(screen.getByText(/pick a class/i)).toBeInTheDocument();
+    expect(window.location.search).toMatch(/view=builds/);
+  });
+  it('loads a build from the URL', () => {
+    window.history.replaceState(null, '', '/?view=builds&build=acolyte~~');
+    render(<App />);
+    expect(screen.getByText(/BASE CLASS · Acolyte/i)).toBeInTheDocument();
+  });
+});

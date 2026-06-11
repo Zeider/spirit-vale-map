@@ -4,6 +4,7 @@ import TopBar from './components/TopBar.jsx';
 import MapView from './components/MapView.jsx';
 import RouteRail from './components/RouteRail.jsx';
 import ZoneDrawer from './components/ZoneDrawer.jsx';
+import BuildView from './components/BuildView.jsx';
 import HotspotCalibrator from './components/HotspotCalibrator.jsx';
 import { gameVersion } from './data/zones-index.js';
 
@@ -13,13 +14,19 @@ function Shell() {
   return (
     <div className="app">
       <TopBar />
-      <div className="main">
-        <MapView />
-        <RouteRail />
-      </div>
-      <ZoneDrawer />
+      {state.view === 'builds' ? (
+        <BuildView />
+      ) : (
+        <>
+          <div className="main">
+            <MapView />
+            <RouteRail />
+          </div>
+          <ZoneDrawer />
+        </>
+      )}
       <footer className="app-footer">
-        Game data v{gameVersion}. Data: SpiritValeInfo. Map art: spiritvalemarket.com. Community tool, not affiliated with the game.
+        Game data v{gameVersion}. Data: SpiritValeInfo + spiritvalemarket.com. Map art: spiritvalemarket.com. Community tool, not affiliated with the game.
       </footer>
     </div>
   );
