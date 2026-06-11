@@ -10,7 +10,8 @@ function renderWithStore(init) {
 describe('MapView', () => {
   it('renders a hotspot button per sub-zone that has coordinates', () => {
     renderWithStore();
-    expect(screen.getByRole('button', { name: /Forest Labyrinth/i })).toBeInTheDocument();
+    // Same-named tiles are disambiguated by level band; target one explicitly.
+    expect(screen.getByRole('button', { name: /Forest Labyrinth level 6 to 10/i })).toBeInTheDocument();
   });
   it('dispatches select on hotspot click', () => {
     renderWithStore();

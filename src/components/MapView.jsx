@@ -13,10 +13,6 @@ export default function MapView() {
   };
   const routePoints = route.map(center).filter(Boolean);
 
-  // Track zone names already used so accessible labels stay unique across
-  // sub-zones that share the same display name (e.g. the 4 Forest Labyrinth bands).
-  const seenNames = {};
-
   return (
     <div className="map-view">
       <img className="map-img" src={`${import.meta.env.BASE_URL}world-map.png`} alt="Spirit Vale world map" />
@@ -35,14 +31,11 @@ export default function MapView() {
         const inRoute = route.includes(id);
         const selected = selectedZoneId === id;
 
-        // First occurrence: full name + level; duplicates: just level range + id.
-        const nameCount = seenNames[z.name] || 0;
-        seenNames[z.name] = nameCount + 1;
+        // Labels stay unique across same-named sub-zones because the level band differs
+        // (e.g. the 4 Forest Labyrinth tiles read "... level 6 to 10", "... 11 to 15", ...).
         const ariaLabel = z.isHub
           ? `${z.name} hub`
-          : nameCount === 0
-            ? `${z.name} level ${z.minLevel} to ${z.maxLevel}`
-            : `zone ${id} levels ${z.minLevel} to ${z.maxLevel}`;
+          : `${z.name} level ${z.minLevel} to ${z.maxLevel}`;
 
         return (
           <button
