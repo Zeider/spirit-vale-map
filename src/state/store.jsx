@@ -5,6 +5,9 @@ export const initialState = {
   dropFilter: 'all',
   selectedZoneId: null,
   route: [],
+  view: 'atlas',
+  build: { baseClass: null, advancedClass: null, levels: {} },
+  selectedSkillId: null,
 };
 
 export function reducer(state, action) {
@@ -25,6 +28,20 @@ export function reducer(state, action) {
       return { ...state, route: r };
     }
     case 'hydrate': return { ...state, ...action.state };
+    case 'setView': return { ...state, view: action.view };
+    case 'selectClass':
+      return { ...state, build: { baseClass: action.slug, advancedClass: null, levels: {} }, selectedSkillId: null };
+    case 'selectAdvanced':
+      return { ...state, build: { ...state.build, advancedClass: action.slug } };
+    case 'setSkillLevel': {
+      const levels = { ...state.build.levels };
+      if (action.level > 0) levels[action.id] = action.level;
+      else delete levels[action.id];
+      return { ...state, build: { ...state.build, levels } };
+    }
+    case 'selectSkill': return { ...state, selectedSkillId: action.id };
+    case 'resetBuild':
+      return { ...state, build: { ...state.build, advancedClass: null, levels: {} }, selectedSkillId: null };
     default: return state;
   }
 }
