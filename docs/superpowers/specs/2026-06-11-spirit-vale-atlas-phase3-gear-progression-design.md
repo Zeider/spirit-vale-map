@@ -8,7 +8,7 @@
 
 ## 1. Summary
 
-Add a **gear progression** to a build: a series of user-defined **loadout stages** keyed by level (e.g. Lv 1–10, Lv 11–20, …), tied to the selected class. Each stage is a 9-slot loadout, but stages are **delta-based** — a stage stores only the pieces that *change*, inheriting everything else from the previous stage, so a gear set acquired at Lv 40 carries through to Lv 90 without re-entry. Each gear piece shows its stats, gem sockets, set bonus, and **drop sources** (monster · zone · chance) + crafting. A stage's **"what to farm"** (only its *changed* pieces) can add those source zones to the Atlas levelling route.
+Add a **gear progression** to a build: a series of user-defined **loadout stages** keyed by level (e.g. Lv 1–10, Lv 11–20, …), tied to the selected class. Each stage is a 10-slot loadout, but stages are **delta-based** — a stage stores only the pieces that *change*, inheriting everything else from the previous stage, so a gear set acquired at Lv 40 carries through to Lv 90 without re-entry. Each gear piece shows its stats, gem sockets, set bonus, and **drop sources** (monster · zone · chance) + crafting. A stage's **"what to farm"** (only its *changed* pieces) can add those source zones to the Atlas levelling route.
 
 Scope is gear loadout + sourcing + route integration. **Summed character stat-totals and damage simulation are deferred to Phase 4** (the current catalog exposes stats as display HTML, not summable numbers).
 
@@ -31,7 +31,8 @@ Reads the vendored catalog, emits `src/data/gear.json` (committed), trimmed and 
 ```jsonc
 {
   "fetched": "2026-06-11",
-  "slots": ["weapon","shield","headgear","face","chest","legwear","shoes","accessory","utility"],
+  // loadout slots (10): two accessory slots; any class can equip any item.
+  "slots": ["weapon","shield","headgear","face","chest","legwear","shoes","accessory1","accessory2","utility"],
   "items": {
     "abyss-shard": {
       "slug":"abyss-shard","name":"Abyss Shard","type":"Dagger","slot":"weapon",
@@ -46,16 +47,16 @@ Reads the vendored catalog, emits `src/data/gear.json` (committed), trimmed and 
   }
 }
 ```
-- **`slot`** is derived by grouping `equipmentType` → slot: all weapon types (Dagger/Sword/Staff/Axe/Mace/Spear/Ranged/Book/Scythe/Pistol/Rifle/Shotgun/Twinblade/Gatling/Launcher/Katar) → `weapon`; `Shield`→shield; `Headgear`→headgear; `Face`→face; `Chest`→chest; `Legwear`→legwear; `Shoes`→shoes; `Accessory`→accessory; `Utility`→utility.
-- **`type`** keeps the original `equipmentType` (for weapon sub-filtering + class compatibility).
+- **`slot`** is the item's **category** (9): all weapon types (Dagger/Sword/Staff/Axe/Mace/Spear/Ranged/Book/Scythe/Pistol/Rifle/Shotgun/Twinblade/Gatling/Launcher/Katar) → `weapon`; `Shield`→shield; `Headgear`→headgear; `Face`→face; `Chest`→chest; `Legwear`→legwear; `Shoes`→shoes; `Accessory`→accessory; `Utility`→utility. The loadout has **10 slots** — the two accessory slots (`accessory1`, `accessory2`) both accept `accessory`-category items.
+- **`type`** keeps the original `equipmentType` (shown in detail / used as a picker sub-filter). **Any class can equip any item — there is no class restriction.**
 - **`sources`** flattens `drops[]` to `{monster, isBoss, chance, zoneName, zoneSlug, minLevel, maxLevel}` rows.
 
 ### 3.3 Catalog zone → map tile resolver
 A stage's source zones must map to Atlas route tile ids. Build a lookup keyed by **`${zoneName}|${minLevel}`** over `mapTiles` (Phase 1) — robust across the matched/pending split (the catalog zone slug alone doesn't always equal our tile id for pending zones). Unresolved zones are skipped (logged in dev). Add `tileByNameLevel` to `src/data/map-tiles.js` (or a resolver in gear logic).
 
-### 3.4 Open questions
-- **OQ-1 (slots):** assumed **9 single slots**. Confirm from the live builder whether there are 2 accessory slots or other multiples; if so, slot ids become `accessory1/accessory2` etc. — localized to the `slots` list + loadout rendering.
-- **OQ-2 (class↔weapon):** which weapon `type`s each class can equip. The build "tied to class" filters the weapon picker. **MVP fallback:** if no clean mapping, show all weapon items (no class filter) and resolve the real mapping from the builder later.
+### 3.4 Resolved
+- **Slots:** **10** loadout slots — `weapon, shield, headgear, face, chest, legwear, shoes, accessory1, accessory2, utility` (two accessory slots).
+- **Class restriction:** none — **any class can equip any item**, so the gear picker is not filtered by class (the optional weapon sub-filter is just by `type`).
 
 ## 4. Build model (extends Phase 2)
 
@@ -84,8 +85,8 @@ build = {
 
 - **`GearProgression`** — section container; shows the stage rail + the active stage's loadout + item detail.
 - **`GearStageRail`** — the user-defined stages as chips (`Lv 1–10`, `Lv 11–20`, …, active highlighted) + **"＋ Add stage"** (prompts a start level) + per-stage remove. Editing a stage's start level re-sorts. Seeded with a single stage at Lv 1; "add 10-level brackets" quick action optional.
-- **`GearLoadout`** — the 9-slot strip for the active stage. Each slot shows the **effective** item; **changed** slots are highlighted, **carried** slots dimmed with a "from Lv N" tag. Click a slot → open the picker; an equipped slot offers "change" / "revert to carried".
-- **`GearPicker`** — filterable list of items for the clicked slot (search by name; weapons sub-filtered by class via OQ-2; sort by name). Selecting sets a delta on the active stage.
+- **`GearLoadout`** — the 10-slot strip for the active stage (two accessory slots). Each slot shows the **effective** item; **changed** slots are highlighted, **carried** slots dimmed with a "from Lv N" tag. Click a slot → open the picker; an equipped slot offers "change" / "revert to carried".
+- **`GearPicker`** — filterable list of items for the clicked slot's **category** (an `accessory1`/`accessory2` slot lists `accessory` items; the weapon slot lists all weapon-type items — no class filter). Search by name, optional sort. Selecting sets a delta on the active stage.
 - **`ItemDetail`** — selected item: type, sockets, stats (plain-text lines), set bonus, description, **sources** (zone · Lv band · best chance · monsters, boss-flagged), craft zone, and **"＋ Add this stage's zones to route"**.
 
 ## 7. Allocation/derivation logic — `src/logic/gear.js`
@@ -93,12 +94,11 @@ Pure functions over `(gear data, build)`:
 - `effectiveLoadout(gearStages, index)` → `{slot: itemSlug}` merging changes ≤ index.
 - `stageChangedSlots(stage)` → keys of `stage.changes`.
 - `stageFarmTiles(stage, gearData, tileResolver)` → unique tile ids from changed items' sources.
-- `itemsForSlot(slot, classSlug)` → filtered/sorted item list for the picker (class filter applied to `weapon` via OQ-2 mapping or all-weapons fallback).
+- `itemsForSlot(slot)` → items whose category matches the slot (strip a trailing digit: `accessory1`/`accessory2` → `accessory`), sorted by name. No class filter.
 - `sortStages(stages)` → ascending by `fromLevel`, dedupe equal levels.
 
 ## 8. Error handling
 - Unknown item/slot/zone in a `?build=` gear segment → dropped by `sanitizeBuild`.
-- A stage referencing a class-incompatible weapon (e.g. after a class change) → the slot is cleared with a dev log; loadout still renders.
 - A source zone that doesn't resolve to a tile → skipped in the farm action (others still added).
 - No gear stages yet → the section shows an "Add a gear stage" prompt; skill trees are unaffected.
 - Items with empty `sources` (craft-only / shop) → detail shows "No drop source — craft only" and the farm button is disabled for that item.
