@@ -20,7 +20,7 @@ const LABELS = {
   AllStats: 'All Stats', Agi: 'Agi', Vit: 'Vit', Str: 'Str', Int: 'Int', Dex: 'Dex', Luk: 'Luk',
   HpRegen: 'HP Regen', MpRegen: 'MP Regen', MpRegenMax: 'MP Regen', WeaponThrow: 'Weapon Throw',
   ReflectSpell: 'Reflect spell', ElementWeapon: 'Weapon element', ElementArmor: 'Armor element',
-  CritDamageMult: 'Crit Dmg',
+  CritDamageMult: 'Crit Dmg', SiphonHp: 'HP siphon', SiphonMp: 'MP siphon', LeechKillMp: 'MP on kill',
 };
 
 // prefix -> (n, str) => string. These get explicit, confident formatting.
@@ -51,7 +51,9 @@ const SPECIAL = {
 export function formatCardStat(stat) {
   const name = (stat && stat.Name) || '';
   const str = stat && stat.Value && stat.Value.ValueStr;
-  const mm = name.match(/^(.*?)_(-?\d+)$/);
+  // Prefix = leading letters; magnitude = the FIRST _<number> (some keys carry a
+  // trailing variant suffix, e.g. "SkillDamage_15_2" → prefix SkillDamage, n 15).
+  const mm = name.match(/^([A-Za-z]+)_(-?\d+)/);
   const prefix = mm ? mm[1] : name;
   const n = mm ? parseInt(mm[2], 10) : (stat && stat.Value && stat.Value.Value) || 0;
   const sign = n > 0 ? '+' : '';

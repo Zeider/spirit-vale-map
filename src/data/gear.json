@@ -37864,7 +37864,7 @@
       "affix": "Leeching",
       "description": "Tiny wings, big attitude! This bat's more trouble than a pack of mosquitoes.",
       "stats": [
-        "+10 Leech Kill Mp"
+        "+10 MP on kill"
       ]
     },
     "Bat Lord Card": {
@@ -37875,7 +37875,7 @@
       "affix": "Siphoning",
       "description": "The king of bats. Don't ask for autographs; he's too busy hunting you down.",
       "stats": [
-        "+3 Siphon Mp"
+        "+3 MP siphon"
       ]
     },
     "Bee Card": {
@@ -40220,7 +40220,7 @@
       "affix": "Overload",
       "description": "",
       "stats": [
-        "+2 Skill Damage_15 (Tetra Vortex)",
+        "+15% Tetra Vortex dmg",
         "Tetra Vortex MP cost +100"
       ]
     },
@@ -40261,7 +40261,7 @@
       "affix": "Leeching",
       "description": "A bloodthirsty bat that hunts at night, draining the life force from those it catches.",
       "stats": [
-        "+10 Siphon Hp"
+        "+10 HP siphon"
       ]
     },
     "Vanilla Ice Card": {

@@ -30,6 +30,13 @@ describe('formatCardStat', () => {
   it('element resist', () => {
     expect(formatCardStat(S('ElementResist_25', 25, 'Earth'))).toBe('+25% Earth resist');
   });
+  it('takes the first magnitude when a key carries a trailing variant suffix', () => {
+    expect(formatCardStat(S('SkillDamage_15_2', 0, 'TetraVortex'))).toBe('+15% Tetra Vortex dmg');
+  });
+  it('labels siphon/leech-on-kill keys', () => {
+    expect(formatCardStat(S('SiphonHp_10', 10))).toBe('+10 HP siphon');
+    expect(formatCardStat(S('LeechKillMp_10', 10))).toBe('+10 MP on kill');
+  });
   it('binary flags', () => {
     expect(formatCardStat(S('NoKnockback_1', 1))).toBe('Immune to knockback');
   });
