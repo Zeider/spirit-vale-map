@@ -1,35 +1,40 @@
 import { useEffect } from 'react';
-import { encodeState, decodeState } from './url.js';
 import { encodeBuild, decodeBuild, sanitizeBuild } from './build-url.js';
-import { keepKnownTileIds } from '../data/map-tiles.js';
+import { encodeRoute, decodeRoute, sanitizeRoute } from './route-url.js';
 
-const LS_KEY = 'sva.state.v1';
+const LS_KEY = 'sva.state.v2';
 
 export function loadInitialState() {
   const params = new URLSearchParams(window.location.search);
-  const view = params.get('view') === 'builds' ? 'builds' : 'atlas';
-  const atlas = decodeState(window.location.search.replace(/^\?/, ''));
-  let base = atlas;
-  if (!window.location.search && localStorage.getItem(LS_KEY)) {
-    try { base = { ...base, ...JSON.parse(localStorage.getItem(LS_KEY)) }; } catch { /* ignore */ }
+  const v = params.get('view');
+  const view = v === 'build' || v === 'gear' ? v : 'atlas';
+  const lvl = parseInt(params.get('lvl'), 10);
+  let route = sanitizeRoute(decodeRoute(params.get('route') || ''));
+  let playerLevel = Number.isFinite(lvl) ? lvl : 1;
+  if (!params.get('route') && !params.get('lvl') && localStorage.getItem(LS_KEY)) {
+    try {
+      const ls = JSON.parse(localStorage.getItem(LS_KEY));
+      route = sanitizeRoute(ls.route || []);
+      playerLevel = ls.playerLevel ?? 1;
+    } catch { /* ignore */ }
   }
   const build = sanitizeBuild(decodeBuild(params.get('build')));
-  return {
-    view,
-    playerLevel: base.playerLevel ?? 1,
-    route: keepKnownTileIds(base.route || []),
-    ...(build ? { build } : {}),
-  };
+  return { view, playerLevel, route, ...(build ? { build } : {}) };
 }
 
 export function usePersist(state) {
   useEffect(() => {
-    if (state.view === 'builds') {
+    const path = window.location.pathname;
+    if (state.view === 'build' || state.view === 'gear') {
       const b = encodeBuild(state.build);
-      window.history.replaceState(null, '', `${window.location.pathname}?view=builds${b ? `&build=${b}` : ''}`);
+      window.history.replaceState(null, '', `${path}?view=${state.view}${b ? `&build=${b}` : ''}`);
     } else {
-      const qs = encodeState({ playerLevel: state.playerLevel, route: state.route });
-      window.history.replaceState(null, '', `${window.location.pathname}${qs ? `?${qs}` : ''}`);
+      const p = new URLSearchParams();
+      if (state.playerLevel) p.set('lvl', String(state.playerLevel));
+      const r = encodeRoute(state.route);
+      if (r) p.set('route', r);
+      const qs = p.toString();
+      window.history.replaceState(null, '', `${path}${qs ? `?${qs}` : ''}`);
     }
     localStorage.setItem(LS_KEY, JSON.stringify({ playerLevel: state.playerLevel, route: state.route }));
   }, [state.view, state.playerLevel, state.route, state.build]);
