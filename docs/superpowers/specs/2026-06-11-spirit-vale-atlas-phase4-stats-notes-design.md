@@ -39,6 +39,8 @@ A **resizeable** `<textarea>` (`resize: vertical`) in the Build tab's right colu
 ### 3.3 Gear stat sheet + stage rework
 **Stat parsing (build time):** `build-gear.mjs` parses each item's `statsPrimary`/`statsSecondary` HTML into `parsedStats: [{ label, value, perRefine, percent }]` — e.g. `"Atk: +20 +2 per refine"` → `{label:'Atk', value:20, perRefine:2, percent:false}`; `"Double Attack: +50%"` → `{label:'Double Attack', value:50, perRefine:0, percent:true}`. Lines that don't match the `Label: +N[%] [+M per refine]` pattern are kept as `{label, raw}` (shown verbatim, not summed).
 
+**Craft materials (build time):** `build-gear.mjs` also enriches each item's `craft` with its materials list: `craft: { zoneSlug, zoneName, materials: [{ name, count }] }` (e.g. `Larva ×75`). **There is no gold/price field in any data source** (catalog items and the market's `known-items.json` have none), so the "cost" we can show is the **crafting materials**, not a gold price.
+
 **Stat sheet (`StatSheet.jsx`, Gear tab):** sums the active stage's **effective loadout** parsed stats by `label` (base values at refine 0 — refine level is not modeled in v1; flat-stat sheet only). Renders a stat table (label → summed value, with `%` suffix where `percent`). Non-summable `raw` lines are listed separately under the item, not totalled. A short note states it's a base-stat sum (no refine/attribute/skill scaling).
 
 **Attributes:** `build.attributes = {str,agi,vit,int,dex,luk}` (default all 1). A simple `−/+` allocator shown on the Gear tab (or Build tab — Gear tab, beside the stat sheet). **Raw points only** — no derived-stat conversion (formula unavailable). Shared in the URL.
@@ -55,7 +57,13 @@ A **resizeable** `<textarea>` (`resize: vertical`) in the Build tab's right colu
 **Gear → route bridge:** the Gear tab's `ItemDetail` farm button dispatches `addToRoute{id, want: item.slug}` for each resolved source tile, so the item is recorded as a want on the zone(s) it was added for.
 
 ### 3.5 Item-stats hover tooltip
-A reusable `ItemTooltip` (a positioned popover; CSS-driven on hover, or a tiny hook). Given an item slug (or a gear item resolved by name), it shows: name, type, sockets, parsed primary/secondary stats, set bonus, and top drop source. Used in:
+A reusable `ItemTooltip` (a positioned popover; CSS-driven on hover, or a tiny hook). Given an item slug (or a gear item resolved by name), it shows:
+- name, type, sockets;
+- parsed primary/secondary stats + set bonus;
+- a **drop line** — the mob(s) that drop it + zone + best chance (e.g. "Drops: Dragonfly Arrow · Swamp · 3%"; boss-flagged);
+- a **craft line** when craftable — the craft zone + materials (e.g. "Craft @ Swamp: Larva ×75"). No gold price is shown (not in the data).
+
+Used in:
 - **Route wanted-item chips** (Atlas route) — by slug.
 - **Gear picker rows / item chips** — by slug.
 - **Zone drops table** (`ZoneDrawer`) — for `type==='equip'` drops, resolve `gearByName[drop.name]` → tooltip. Non-equip drops (material/card/gem/consumable/artifact) have no stat data → show name + type only.
