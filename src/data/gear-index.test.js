@@ -13,3 +13,13 @@ describe('gear-index', () => {
     expect(sample).toHaveProperty('name');
   });
 });
+
+import { gearByName } from './gear-index.js';
+import { items as allItems } from './gear-index.js';
+
+describe('gearByName', () => {
+  it('maps display name to the item', () => {
+    const sample = Object.values(allItems)[0];
+    expect(gearByName[sample.name].slug).toBe(sample.slug);
+  });
+});

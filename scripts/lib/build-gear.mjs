@@ -8,6 +8,12 @@ function categoryOf(type) {
   return TYPE_TO_CAT[type] || null;
 }
 
+export function parseStat(line) {
+  const m = line.match(/^(.+?):\s*\+?(-?\d+(?:\.\d+)?)(%?)(?:\s*\+(-?\d+(?:\.\d+)?)\s*per\s*refine)?/i);
+  if (!m) return { label: line.trim(), raw: true };
+  return { label: m[1].trim(), value: Number(m[2]), perRefine: m[4] ? Number(m[4]) : 0, percent: m[3] === '%' };
+}
+
 function stripHtml(arr) {
   return (arr || []).map((s) => s.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()).filter(Boolean);
 }
@@ -16,10 +22,7 @@ function flattenSources(drops) {
   const rows = [];
   for (const d of drops || []) {
     for (const m of d.maps || []) {
-      rows.push({
-        monster: d.monster?.name, isBoss: !!d.monster?.isBoss, chance: d.chance,
-        zoneName: m.name, zoneSlug: m.slug, minLevel: m.minLevel, maxLevel: m.maxLevel,
-      });
+      rows.push({ monster: d.monster?.name, isBoss: !!d.monster?.isBoss, chance: d.chance, zoneName: m.name, zoneSlug: m.slug, minLevel: m.minLevel, maxLevel: m.maxLevel });
     }
   }
   return rows;
@@ -28,7 +31,8 @@ function flattenSources(drops) {
 function craftOf(crafting) {
   const m = crafting && crafting.map;
   if (!m) return null;
-  return { zoneSlug: m.Slug || m.slug, zoneName: m.DisplayName || m.GameId || m.name };
+  const materials = (crafting.materials || []).map((x) => ({ name: x.item?.DisplayName || x.item?.GameId || x.item?.name, count: x.count }));
+  return { zoneSlug: m.Slug || m.slug, zoneName: m.DisplayName || m.GameId || m.name, materials };
 }
 
 export function buildGear(catalog) {
@@ -36,9 +40,12 @@ export function buildGear(catalog) {
   for (const e of catalog.equipment) {
     const slot = categoryOf(e.equipmentType);
     if (!slot) continue;
+    const statsPrimary = stripHtml(e.statsPrimary);
+    const statsSecondary = stripHtml(e.statsSecondary);
     items[e.slug] = {
-      slug: e.slug, name: e.name, type: e.equipmentType, slot, sockets: e.slots || 0,
-      statsPrimary: stripHtml(e.statsPrimary), statsSecondary: stripHtml(e.statsSecondary), setBonus: stripHtml(e.statsFullSet),
+      slug: e.slug, name: e.name, type: e.equipmentType, slot, cardSlots: e.slots || 0,
+      statsPrimary, statsSecondary, setBonus: stripHtml(e.statsFullSet),
+      parsedStats: [...statsPrimary, ...statsSecondary].map(parseStat),
       description: e.description || '', sources: flattenSources(e.drops), craft: craftOf(e.crafting),
     };
   }

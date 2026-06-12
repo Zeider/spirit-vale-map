@@ -1,6 +1,8 @@
 import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
 import { subZoneById } from '../data/zones-index.js';
+import { gearByName } from '../data/gear-index.js';
+import ItemTooltip from './ItemTooltip.jsx';
 
 const TYPE_LABELS = {
   all: 'All', equip: 'Equipment', material: 'Materials',
@@ -16,7 +18,7 @@ export default function ZoneDrawer() {
   }
 
   const zone = tile.zoneId ? subZoneById[tile.zoneId] : null;
-  const inRoute = state.route.includes(tile.id);
+  const inRoute = state.route.some((e) => e.id === tile.id);
   const drops = zone
     ? (state.dropFilter === 'all' ? zone.drops : zone.drops.filter((d) => d.type === state.dropFilter))
     : [];
@@ -52,11 +54,14 @@ export default function ZoneDrawer() {
             ) : (
               <ul>
                 {drops.map((d) => (
-                  <li key={`${d.type}:${d.id}`} className={`drop drop-${d.type}`}>
+                  <li key={`${d.type}:${d.id}`} className={`drop drop-${d.type} tip-anchor`}>
                     <span className="drop-name">{d.name}</span>
                     <span className="drop-type">{d.type}</span>
                     <span className="drop-chance" title="raw drop weight from game data">{d.chance}%</span>
                     {d.bossOnly && <span className="badge boss small">boss</span>}
+                    {d.type === 'equip' && gearByName[d.name] && (
+                      <span className="tip-host"><ItemTooltip item={gearByName[d.name]} /></span>
+                    )}
                   </li>
                 ))}
               </ul>

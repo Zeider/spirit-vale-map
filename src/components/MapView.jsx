@@ -10,7 +10,8 @@ export default function MapView() {
     const t = tileById[id];
     return t ? { cx: t.x + t.w / 2, cy: t.y + t.h / 2 } : null;
   };
-  const routePoints = route.map(center).filter(Boolean);
+  const routeIds = route.map((e) => e.id);
+  const routePoints = routeIds.map(center).filter(Boolean);
 
   return (
     <div className="map-view">
@@ -25,7 +26,7 @@ export default function MapView() {
       </svg>
       {mapTiles.map((t) => {
         const cls = t.isHub ? 'hub' : classifyLevel(t.minLevel, t.maxLevel, playerLevel);
-        const inRoute = route.includes(t.id);
+        const inRoute = routeIds.includes(t.id);
         const selected = selectedZoneId === t.id;
         const pending = t.zoneId === null && !t.isHub;
         return (

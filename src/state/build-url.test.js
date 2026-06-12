@@ -1,35 +1,42 @@
 import { describe, it, expect } from 'vitest';
 import { encodeBuild, decodeBuild, sanitizeBuild } from './build-url.js';
 
-describe('build url', () => {
-  it('round-trips a build without gear (no 4th segment)', () => {
-    const b = { baseClass: 'acolyte', advancedClass: 'priest', levels: { heal: 5, faith: 3 }, gearStages: [] };
-    expect(encodeBuild(b)).toBe('acolyte~priest~heal:5,faith:3');
-    expect(decodeBuild('acolyte~priest~heal:5,faith:3')).toEqual(b);
+const full = {
+  baseClass: 'acolyte', advancedClass: 'priest', levels: { heal: 5 },
+  gearStages: [{ fromLevel: 1, changes: { weapon: 'abyss-shard' } }],
+  attributes: { str: 3, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 },
+  notes: 'farm to 40; alt: axe',
+};
+
+describe('build url (base64)', () => {
+  it('round-trips a full build incl. notes/attributes via base64', () => {
+    const s = encodeBuild(full);
+    expect(s).not.toContain('~'); // base64url, not legacy
+    expect(decodeBuild(s)).toEqual(full);
   });
-  it('encodes and decodes gear stages', () => {
-    const b = { baseClass: 'rogue', advancedClass: null, levels: {}, gearStages: [
-      { fromLevel: 1, changes: { weapon: 'hunting-knife' } },
-      { fromLevel: 16, changes: { weapon: 'bonefang', accessory1: 'amber-bow' } },
-    ] };
-    const s = encodeBuild(b);
-    expect(s).toBe('rogue~~~1:weapon=hunting-knife;16:weapon=bonefang,accessory1=amber-bow');
-    expect(decodeBuild(s)).toEqual(b);
+  it('decodes a LEGACY ~-delimited build (back-compat)', () => {
+    const b = decodeBuild('acolyte~priest~heal:5');
+    expect(b.baseClass).toBe('acolyte');
+    expect(b.advancedClass).toBe('priest');
+    expect(b.levels).toEqual({ heal: 5 });
+    expect(b.gearStages).toEqual([]);
+    expect(b.notes).toBe('');
+    expect(b.attributes).toEqual({ str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 });
   });
-  it('returns null for empty', () => {
+  it('returns null/empty for empties', () => {
     expect(decodeBuild('')).toBeNull();
     expect(encodeBuild(null)).toBe('');
   });
   it('sanitize drops unknown class', () => {
-    expect(sanitizeBuild({ baseClass: 'not-a-class', advancedClass: null, levels: {}, gearStages: [] })).toBeNull();
+    expect(sanitizeBuild({ baseClass: 'nope', levels: {}, gearStages: [], attributes: {}, notes: '' })).toBeNull();
   });
-  it('sanitize keeps known gear, drops unknown items, sorts stages, clamps levels', () => {
-    const b = sanitizeBuild({ baseClass: 'acolyte', advancedClass: null, levels: {}, gearStages: [
-      { fromLevel: 200, changes: { weapon: 'abyss-shard', chest: 'not-a-real-item' } },
-      { fromLevel: 1, changes: {} },
-    ] });
-    expect(b.gearStages[0].fromLevel).toBe(1);
-    expect(b.gearStages[1].fromLevel).toBe(135);
-    expect(b.gearStages[1].changes).toEqual({ weapon: 'abyss-shard' });
+  it('sanitize keeps known skills/items, clamps, defaults attributes, coerces notes', () => {
+    const b = sanitizeBuild({ baseClass: 'acolyte', advancedClass: null, levels: { heal: 999, fake: 3 }, gearStages: [{ fromLevel: 200, changes: { weapon: 'abyss-shard', x: 'no' } }], attributes: { str: 9 }, notes: 42 });
+    expect(b.levels.fake).toBeUndefined();
+    expect(b.gearStages[0].fromLevel).toBe(135);
+    expect(b.gearStages[0].changes).toEqual({ weapon: 'abyss-shard' });
+    expect(b.attributes.str).toBe(9);
+    expect(b.attributes.agi).toBe(1);
+    expect(b.notes).toBe('');
   });
 });

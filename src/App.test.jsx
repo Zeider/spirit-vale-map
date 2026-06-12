@@ -26,18 +26,14 @@ describe('App', () => {
   });
 });
 
-describe('App — view switching', () => {
+describe('App — tabs', () => {
   beforeEach(() => { window.history.replaceState(null, '', '/'); localStorage.clear(); });
-
-  it('toggles to the Builds view and writes ?view=builds', () => {
+  it('switches to Build then Gear', () => {
     render(<App />);
-    fireEvent.click(screen.getByRole('button', { name: /builds/i }));
+    fireEvent.click(screen.getByRole('button', { name: /^build$/i }));
     expect(screen.getByText(/pick a class/i)).toBeInTheDocument();
-    expect(window.location.search).toMatch(/view=builds/);
-  });
-  it('loads a build from the URL', () => {
-    window.history.replaceState(null, '', '/?view=builds&build=acolyte~~');
-    render(<App />);
-    expect(screen.getByText(/BASE CLASS · Acolyte/i)).toBeInTheDocument();
+    expect(window.location.search).toMatch(/view=build/);
+    fireEvent.click(screen.getByRole('button', { name: /^gear$/i }));
+    expect(window.location.search).toMatch(/view=gear/);
   });
 });

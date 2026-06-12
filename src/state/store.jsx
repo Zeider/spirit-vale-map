@@ -1,4 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
+import { dependencyTargets } from '../logic/build.js';
 
 export const initialState = {
   playerLevel: 1,
@@ -6,7 +7,7 @@ export const initialState = {
   selectedZoneId: null,
   route: [],
   view: 'atlas',
-  build: { baseClass: null, advancedClass: null, levels: {}, gearStages: [] },
+  build: { baseClass: null, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } },
   selectedSkillId: null,
   selectedStage: 0,
   selectedItemSlug: null,
@@ -18,22 +19,38 @@ export function reducer(state, action) {
     case 'setLevel': return { ...state, playerLevel: action.level };
     case 'setFilter': return { ...state, dropFilter: action.filter };
     case 'select': return { ...state, selectedZoneId: action.id };
-    case 'addToRoute':
-      return state.route.includes(action.id) ? state : { ...state, route: [...state.route, action.id] };
+    case 'addToRoute': {
+      const idx = state.route.findIndex((e) => e.id === action.id);
+      let route;
+      if (idx === -1) route = [...state.route, { id: action.id, notes: '', wants: action.want ? [action.want] : [] }];
+      else if (action.want && !state.route[idx].wants.includes(action.want)) {
+        route = state.route.map((e, i) => (i === idx ? { ...e, wants: [...e.wants, action.want] } : e));
+      } else route = state.route;
+      return { ...state, route };
+    }
     case 'removeFromRoute':
-      return { ...state, route: state.route.filter((id) => id !== action.id) };
+      return { ...state, route: state.route.filter((e) => e.id !== action.id) };
     case 'moveInRoute': {
       const r = [...state.route];
-      const { index, dir } = action;
-      const j = index + dir;
+      const j = action.index + action.dir;
       if (j < 0 || j >= r.length) return state;
-      [r[index], r[j]] = [r[j], r[index]];
+      [r[action.index], r[j]] = [r[j], r[action.index]];
       return { ...state, route: r };
     }
+    case 'setZoneNotes':
+      return { ...state, route: state.route.map((e) => (e.id === action.id ? { ...e, notes: action.notes } : e)) };
+    case 'addZoneWant':
+      return { ...state, route: state.route.map((e) => (e.id === action.id && !e.wants.includes(action.itemSlug) ? { ...e, wants: [...e.wants, action.itemSlug] } : e)) };
+    case 'removeZoneWant':
+      return { ...state, route: state.route.map((e) => (e.id === action.id ? { ...e, wants: e.wants.filter((w) => w !== action.itemSlug) } : e)) };
+    case 'setBuildNotes':
+      return { ...state, build: { ...state.build, notes: action.notes } };
+    case 'setAttribute':
+      return { ...state, build: { ...state.build, attributes: { ...state.build.attributes, [action.key]: Math.max(1, action.value) } } };
     case 'hydrate': return { ...state, ...action.state };
     case 'setView': return { ...state, view: action.view };
     case 'selectClass':
-      return { ...state, build: { baseClass: action.slug, advancedClass: null, levels: {}, gearStages: [] }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null };
+      return { ...state, build: { baseClass: action.slug, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null };
     case 'selectAdvanced':
       return { ...state, build: { ...state.build, advancedClass: action.slug } };
     case 'setSkillLevel': {
@@ -44,7 +61,7 @@ export function reducer(state, action) {
     }
     case 'selectSkill': return { ...state, selectedSkillId: action.id };
     case 'resetBuild':
-      return { ...state, build: { ...state.build, advancedClass: null, levels: {}, gearStages: [] }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null };
+      return { ...state, build: { ...state.build, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null };
     case 'addGearStage': {
       const stages = [...state.build.gearStages, { fromLevel: action.fromLevel, changes: {} }]
         .sort((a, b) => a.fromLevel - b.fromLevel);
@@ -76,6 +93,10 @@ export function reducer(state, action) {
     case 'selectStage': return { ...state, selectedStage: action.index };
     case 'selectItem': return { ...state, selectedItemSlug: action.slug };
     case 'selectItemSlot': return { ...state, openSlot: action.slot };
+    case 'incrementSkill': {
+      const targets = dependencyTargets(action.id, state.build);
+      return { ...state, build: { ...state.build, levels: { ...state.build.levels, ...targets } } };
+    }
     default: return state;
   }
 }
