@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildGear, SLOTS, parseStat } from './build-gear.mjs';
+import { buildGear, buildArtifacts, SLOTS, parseStat } from './build-gear.mjs';
 
 const catalog = {
   equipment: [{
@@ -40,6 +40,17 @@ describe('buildGear', () => {
   it('adds craft materials', () => {
     expect(a.craft).toEqual({ zoneSlug: 'swamp', zoneName: 'Swamp', materials: [{ name: 'Larva', count: 75 }] });
   });
+  it('item has setName null when no equipBySlug provided', () => {
+    expect(a.setName).toBe(null);
+  });
+  it('item has setName from equipBySlug when provided', () => {
+    const equipBySlug = new Map([['abyss-shard', { Set: 'Arcane' }]]);
+    const out2 = buildGear(catalog, { equipBySlug });
+    expect(out2.items['abyss-shard'].setName).toBe('Arcane');
+  });
+  it('returns empty artifacts array when none provided', () => {
+    expect(out.artifacts).toEqual([]);
+  });
 });
 
 describe('buildGear cards', () => {
@@ -50,4 +61,33 @@ describe('buildGear cards', () => {
   it('tolerates a catalog with no cards', () => {
     expect(buildGear({ equipment: [] }).cards).toEqual({});
   });
+  it('accepts new raw object shape with cardBySlug', () => {
+    const cardBySlug = new Map([['angel-card', { Stats: [{ Name: 'Atk_10', Value: { Value: 10 } }] }]]);
+    const out2 = buildGear({ equipment: [], cards: [{ name: 'Angel Card', slug: 'angel-card', slot: 'Weapon', affix: 'Blessed', description: 'A serene being.' }] }, { cardBySlug });
+    expect(out2.cards['Angel Card'].stats).toEqual(['+10 Atk']);
+  });
+});
+
+describe('buildArtifacts', () => {
+  const out = buildArtifacts([{
+    Slug: 'warglyph',
+    DisplayName: 'Warglyph',
+    Description: 'd',
+    FullSet: [{ Name: 'Atk_10', Value: { Value: 10 } }],
+    PerPiece: [{ Name: 'Atk_5', Value: { Value: 5 } }],
+    PerRefine: [{ Name: 'Atk_0', Value: { Value: 0 } }],
+    Maps: ['Goblin Warcamp'],
+  }]);
+  it('decodes artifact bonuses and drops zero per-refine noise', () => {
+    expect(out[0]).toEqual({
+      slug: 'warglyph',
+      name: 'Warglyph',
+      description: 'd',
+      fullSet: ['+10 Atk'],
+      perPiece: ['+5 Atk'],
+      perRefine: [],
+      zones: ['Goblin Warcamp'],
+    });
+  });
+  it('tolerates empty input', () => { expect(buildArtifacts()).toEqual([]); });
 });

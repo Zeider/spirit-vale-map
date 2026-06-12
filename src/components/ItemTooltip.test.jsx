@@ -20,9 +20,9 @@ describe('ItemTooltip', () => {
     expect(screen.getByText(/Weapon/)).toBeInTheDocument();
   });
 
-  it('colors Atk/Matk stat lines with the stat-atk class', () => {
+  it('colors primary Atk stat line with stat-atk class, Def in other group without stat-atk', () => {
     const { container } = render(<ItemTooltip item={{ name: 'X', type: 'Dagger', cardSlots: 0, statsPrimary: ['Atk: +20', 'Def: +5'], statsSecondary: [], setBonus: [], sources: [] }} />);
-    const atk = [...container.querySelectorAll('.tip-stat')].find((e) => /Atk/.test(e.textContent));
+    const atk = [...container.querySelectorAll('.tip-stat')].find((e) => /Atk: \+20/.test(e.textContent));
     expect(atk.className).toMatch(/stat-atk/);
     const def = [...container.querySelectorAll('.tip-stat')].find((e) => /Def/.test(e.textContent));
     expect(def.className).not.toMatch(/stat-atk/);
@@ -34,5 +34,20 @@ describe('ItemTooltip', () => {
     expect(screen.getByText('-25% Max HP')).toBeInTheDocument();
     const atk = [...container.querySelectorAll('.tip-stat')].find((e) => /Atk/.test(e.textContent));
     expect(atk.className).toMatch(/stat-atk/);
+  });
+
+  it('colors a skill-damage line yellow, primary Atk blue, secondary Atk green', () => {
+    const { container } = render(<ItemTooltip item={{ name: 'W', type: 'Dagger', cardSlots: 0, statsPrimary: ['Atk: +10 +1 per refine'], statsSecondary: ['Atk: +3', 'Shadow Step Damage +15% +2% per refine'], setBonus: [], sources: [] }} />);
+    const find = (re) => [...container.querySelectorAll('.tip-stat')].find((e) => re.test(e.textContent));
+    expect(find(/Shadow Step Damage/).className).toMatch(/stat-skill/);
+    expect(find(/Atk: \+10/).className).toMatch(/stat-atk/);
+    const secondary = find(/Atk: \+3/);
+    expect(secondary.className).not.toMatch(/stat-atk/);
+    expect(secondary.className).not.toMatch(/stat-skill/);
+  });
+
+  it('shows the equipment set name', () => {
+    render(<ItemTooltip item={{ name: 'Arcane Chest', type: 'Chest', cardSlots: 0, statsPrimary: [], statsSecondary: [], setBonus: [], sources: [], setName: 'Arcane' }} />);
+    expect(screen.getByText(/Set: Arcane/)).toBeInTheDocument();
   });
 });
