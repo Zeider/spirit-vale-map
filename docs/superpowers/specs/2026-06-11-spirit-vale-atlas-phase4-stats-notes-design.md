@@ -41,6 +41,8 @@ A **resizeable** `<textarea>` (`resize: vertical`) in the Build tab's right colu
 
 **Craft materials (build time):** `build-gear.mjs` also enriches each item's `craft` with its materials list: `craft: { zoneSlug, zoneName, materials: [{ name, count }] }` (e.g. `Larva ×75`). **There is no gold/price field in any data source** (catalog items and the market's `known-items.json` have none), so the "cost" we can show is the **crafting materials**, not a gold price.
 
+**Card slots (terminology fix):** the catalog `slots` field is the item's **card-slot count** (where cards are socketed — 0–4), not gem sockets. Phase 3 stored it as `sockets`; rename it to `cardSlots` in `build-gear.mjs`/`gear.json` and label it "card slots" everywhere (the Phase 3 `ItemDetail` "N sockets" text is corrected to "N card slots").
+
 **Stat sheet (`StatSheet.jsx`, Gear tab):** sums the active stage's **effective loadout** parsed stats by `label` (base values at refine 0 — refine level is not modeled in v1; flat-stat sheet only). Renders a stat table (label → summed value, with `%` suffix where `percent`). Non-summable `raw` lines are listed separately under the item, not totalled. A short note states it's a base-stat sum (no refine/attribute/skill scaling).
 
 **Attributes:** `build.attributes = {str,agi,vit,int,dex,luk}` (default all 1). A simple `−/+` allocator shown on the Gear tab (or Build tab — Gear tab, beside the stat sheet). **Raw points only** — no derived-stat conversion (formula unavailable). Shared in the URL.
@@ -58,7 +60,7 @@ A **resizeable** `<textarea>` (`resize: vertical`) in the Build tab's right colu
 
 ### 3.5 Item-stats hover tooltip
 A reusable `ItemTooltip` (a positioned popover; CSS-driven on hover, or a tiny hook). Given an item slug (or a gear item resolved by name), it shows:
-- name, type, sockets;
+- name, type, **card slots** (the `cardSlots` count, 0–4);
 - parsed primary/secondary stats + set bonus;
 - a **drop line** — the mob(s) that drop it + zone + best chance (e.g. "Drops: Dragonfly Arrow · Swamp · 3%"; boss-flagged);
 - a **craft line** when craftable — the craft zone + materials (e.g. "Craft @ Swamp: Larva ×75"). No gold price is shown (not in the data).
