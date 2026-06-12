@@ -11,6 +11,7 @@ const catalog = {
     drops: [{ monster: { name: 'Dragonfly Arrow', isBoss: 0 }, chance: 3, maps: [{ name: 'Swamp', slug: 'swamp', minLevel: 36, maxLevel: 40 }] }],
     crafting: { map: { Slug: 'swamp', DisplayName: 'Swamp' }, materials: [{ item: { DisplayName: 'Larva' }, count: 75 }] },
   }],
+  cards: [{ name: 'Angel Card', slug: 'angel-card', slot: 'Weapon', affix: 'Blessed', description: 'A serene being.' }],
 };
 
 describe('parseStat', () => {
@@ -38,5 +39,15 @@ describe('buildGear', () => {
   });
   it('adds craft materials', () => {
     expect(a.craft).toEqual({ zoneSlug: 'swamp', zoneName: 'Swamp', materials: [{ name: 'Larva', count: 75 }] });
+  });
+});
+
+describe('buildGear cards', () => {
+  const out = buildGear({ equipment: [], cards: [{ name: 'Angel Card', slug: 'angel-card', slot: 'Weapon', affix: 'Blessed', description: 'A serene being.' }] });
+  it('emits a cards map keyed by name with kind=card', () => {
+    expect(out.cards['Angel Card']).toEqual({ kind: 'card', name: 'Angel Card', slug: 'angel-card', equipSlot: 'Weapon', affix: 'Blessed', description: 'A serene being.' });
+  });
+  it('tolerates a catalog with no cards', () => {
+    expect(buildGear({ equipment: [] }).cards).toEqual({});
   });
 });

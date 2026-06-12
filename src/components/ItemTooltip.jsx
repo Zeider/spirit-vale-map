@@ -1,5 +1,13 @@
 export default function ItemTooltip({ item }) {
   if (!item) return null;
+  if (item.kind === 'card') {
+    return (
+      <div className="item-tip">
+        <b>{item.name}</b> <span className="muted">Card{item.equipSlot ? ` · fits ${item.equipSlot}` : ''}{item.affix ? ` · ${item.affix}` : ''}</span>
+        {item.description && <div className="tip-stat muted">{item.description}</div>}
+      </div>
+    );
+  }
   const src = item.sources && item.sources[0];
   return (
     <div className="item-tip">

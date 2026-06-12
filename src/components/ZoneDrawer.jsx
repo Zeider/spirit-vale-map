@@ -1,7 +1,7 @@
 import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
 import { subZoneById } from '../data/zones-index.js';
-import { gearByName } from '../data/gear-index.js';
+import { gearByName, cardByName } from '../data/gear-index.js';
 import ItemTooltip from './ItemTooltip.jsx';
 
 const TYPE_LABELS = {
@@ -61,6 +61,9 @@ export default function ZoneDrawer() {
                     {d.bossOnly && <span className="badge boss small">boss</span>}
                     {d.type === 'equip' && gearByName[d.name] && (
                       <span className="tip-host"><ItemTooltip item={gearByName[d.name]} /></span>
+                    )}
+                    {d.type === 'card' && cardByName[d.name] && (
+                      <span className="tip-host"><ItemTooltip item={cardByName[d.name]} /></span>
                     )}
                   </li>
                 ))}

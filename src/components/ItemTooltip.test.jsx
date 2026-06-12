@@ -12,4 +12,11 @@ describe('ItemTooltip', () => {
     expect(screen.getByText(/card slot/i)).toBeInTheDocument();
     expect(screen.getByText(/drops:/i)).toBeInTheDocument();
   });
+
+  it('renders a card tooltip with affix and slot', () => {
+    render(<ItemTooltip item={{ kind: 'card', name: 'Angel Card', equipSlot: 'Weapon', affix: 'Blessed', description: 'A serene being.' }} />);
+    expect(screen.getByText(/Angel Card/)).toBeInTheDocument();
+    expect(screen.getByText(/Blessed/)).toBeInTheDocument();
+    expect(screen.getByText(/Weapon/)).toBeInTheDocument();
+  });
 });

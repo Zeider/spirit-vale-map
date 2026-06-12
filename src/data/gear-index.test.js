@@ -23,3 +23,10 @@ describe('gearByName', () => {
     expect(gearByName[sample.name].slug).toBe(sample.slug);
   });
 });
+
+import { cardByName } from './gear-index.js';
+describe('cardByName', () => {
+  it('is a map (may be empty in test data) keyed by card name', () => {
+    expect(typeof cardByName).toBe('object');
+  });
+});
