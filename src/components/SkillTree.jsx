@@ -26,7 +26,11 @@ export default function SkillTree({ classSlug, tree }) {
               canInc={id ? canIncrement(id, build) : false}
               canDec={id ? canDecrement(id, build) : false}
               selected={id === selectedSkillId}
-              onChange={(level) => dispatch({ type: 'setSkillLevel', id, level })}
+              onChange={(level) => {
+                const curLvl = id ? (build.levels[id] || 0) : 0;
+                if (level > curLvl) dispatch({ type: 'incrementSkill', id });
+                else dispatch({ type: 'setSkillLevel', id, level });
+              }}
               onSelect={(sid) => dispatch({ type: 'selectSkill', id: sid })}
             />
           ))}

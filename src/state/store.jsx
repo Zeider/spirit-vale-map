@@ -1,4 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
+import { dependencyTargets } from '../logic/build.js';
 
 export const initialState = {
   playerLevel: 1,
@@ -92,6 +93,10 @@ export function reducer(state, action) {
     case 'selectStage': return { ...state, selectedStage: action.index };
     case 'selectItem': return { ...state, selectedItemSlug: action.slug };
     case 'selectItemSlot': return { ...state, openSlot: action.slot };
+    case 'incrementSkill': {
+      const targets = dependencyTargets(action.id, state.build);
+      return { ...state, build: { ...state.build, levels: { ...state.build.levels, ...targets } } };
+    }
     default: return state;
   }
 }

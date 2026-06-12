@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { reducer, initialState } from './store.jsx';
+import { classBySlug, skills } from '../data/classes-index.js';
 
 describe('reducer — phase 4', () => {
   it('view defaults to atlas and build has notes + attributes', () => {
@@ -35,5 +36,17 @@ describe('reducer — phase 4', () => {
     expect(s.route.map((e) => e.id)).toEqual(['b', 'a']);
     s = reducer(s, { type: 'removeFromRoute', id: 'a' });
     expect(s.route.map((e) => e.id)).toEqual(['b']);
+  });
+});
+
+describe('reducer — incrementSkill', () => {
+  const flat = classBySlug.acolyte.grid.flat().filter(Boolean);
+  const dep = Object.values(skills).find((s) => s.requirements.length && flat.includes(s.id) && flat.includes(s.requirements[0].id));
+  it('fills the prerequisite chain', () => {
+    if (!dep) return;
+    let s = reducer(initialState, { type: 'selectClass', slug: 'acolyte' });
+    s = reducer(s, { type: 'incrementSkill', id: dep.id });
+    expect(s.build.levels[dep.id]).toBe(1);
+    expect(s.build.levels[dep.requirements[0].id]).toBeGreaterThanOrEqual(dep.requirements[0].level);
   });
 });
