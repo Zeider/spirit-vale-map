@@ -1,3 +1,5 @@
+import { formatCardStats } from './card-stats.mjs';
+
 export const SLOTS = ['weapon', 'shield', 'headgear', 'face', 'chest', 'legwear', 'shoes', 'accessory1', 'accessory2', 'utility'];
 
 const WEAPON_TYPES = new Set(['Dagger', 'Sword', 'Staff', 'Axe', 'Mace', 'Spear', 'Ranged', 'Book', 'Scythe', 'Pistol', 'Rifle', 'Shotgun', 'Twinblade', 'Gatling', 'Launcher', 'Katar']);
@@ -35,11 +37,15 @@ function craftOf(crafting) {
   return { zoneSlug: m.Slug || m.slug, zoneName: m.DisplayName || m.GameId || m.name, materials };
 }
 
-function cardOf(c) {
-  return { kind: 'card', name: c.name, slug: c.slug, equipSlot: c.slot || null, affix: c.affix || '', description: c.description || '' };
+function cardOf(c, raw) {
+  return {
+    kind: 'card', name: c.name, slug: c.slug, equipSlot: c.slot || null,
+    affix: c.affix || '', description: c.description || '',
+    stats: raw ? formatCardStats(raw.Stats) : [],
+  };
 }
 
-export function buildGear(catalog) {
+export function buildGear(catalog, rawCardBySlug) {
   const items = {};
   for (const e of catalog.equipment) {
     const slot = categoryOf(e.equipmentType);
@@ -54,6 +60,6 @@ export function buildGear(catalog) {
     };
   }
   const cards = {};
-  for (const c of catalog.cards || []) cards[c.name] = cardOf(c);
+  for (const c of catalog.cards || []) cards[c.name] = cardOf(c, rawCardBySlug && rawCardBySlug.get(c.slug));
   return { slots: SLOTS, items, cards };
 }
