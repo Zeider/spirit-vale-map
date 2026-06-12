@@ -4,7 +4,8 @@ import TopBar from './components/TopBar.jsx';
 import MapView from './components/MapView.jsx';
 import RouteRail from './components/RouteRail.jsx';
 import ZoneDrawer from './components/ZoneDrawer.jsx';
-import BuildView from './components/BuildView.jsx';
+import BuildTab from './components/BuildTab.jsx';
+import GearTab from './components/GearTab.jsx';
 import HotspotCalibrator from './components/HotspotCalibrator.jsx';
 import { gameVersion } from './data/zones-index.js';
 
@@ -14,14 +15,13 @@ function Shell() {
   return (
     <div className="app">
       <TopBar />
-      {state.view === 'builds' ? (
-        <BuildView />
+      {state.view === 'build' ? (
+        <BuildTab />
+      ) : state.view === 'gear' ? (
+        <GearTab />
       ) : (
         <>
-          <div className="main">
-            <MapView />
-            <RouteRail />
-          </div>
+          <div className="main"><MapView /><RouteRail /></div>
           <ZoneDrawer />
         </>
       )}

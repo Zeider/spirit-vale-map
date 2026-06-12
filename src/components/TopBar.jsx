@@ -6,14 +6,13 @@ const FILTERS = ['all', 'equip', 'material', 'card', 'gem', 'consumable', 'artif
 export default function TopBar() {
   const { state, dispatch } = useStore();
   const share = async () => { try { await navigator.clipboard.writeText(window.location.href); } catch { /* clipboard unavailable */ } };
-
+  const tab = (v, label) => (
+    <button className={state.view === v ? 'on' : ''} onClick={() => dispatch({ type: 'setView', view: v })}>{label}</button>
+  );
   return (
     <header className="top-bar">
       <span className="brand">⚔️ Spirit Vale Atlas</span>
-      <nav className="view-toggle">
-        <button className={state.view === 'atlas' ? 'on' : ''} onClick={() => dispatch({ type: 'setView', view: 'atlas' })}>／Atlas</button>
-        <button className={state.view === 'builds' ? 'on' : ''} onClick={() => dispatch({ type: 'setView', view: 'builds' })}>⚒ Builds</button>
-      </nav>
+      <nav className="view-toggle">{tab('atlas', '／Atlas')}{tab('build', 'Build')}{tab('gear', 'Gear')}</nav>
       <span className="spacer" />
       {state.view === 'atlas' ? (
         <>
