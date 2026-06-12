@@ -1,41 +1,66 @@
+import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
+import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
+import ItemTooltip from './ItemTooltip.jsx';
 
 export default function RouteRail() {
   const { state, dispatch } = useStore();
-  const tiles = state.route.map((id) => tileById[id]).filter(Boolean);
-  const gaps = computeGaps(tiles.map((t) => ({ minLevel: t.minLevel, maxLevel: t.maxLevel })));
-  const min = tiles.length ? Math.min(...tiles.map((t) => t.minLevel)) : null;
-  const max = tiles.length ? Math.max(...tiles.map((t) => t.maxLevel)) : null;
+  const [open, setOpen] = useState(null);
+  const entries = state.route.map((e) => ({ ...e, tile: tileById[e.id] })).filter((e) => e.tile);
+  const gaps = computeGaps(entries.map((e) => ({ minLevel: e.tile.minLevel, maxLevel: e.tile.maxLevel })));
+  const min = entries.length ? Math.min(...entries.map((e) => e.tile.minLevel)) : null;
+  const max = entries.length ? Math.max(...entries.map((e) => e.tile.maxLevel)) : null;
 
   return (
     <aside className="route-rail">
       <h2>Levelling route</h2>
-      {tiles.length === 0 ? (
+      {entries.length === 0 ? (
         <p className="muted">No zones yet — click a zone and "Add to route".</p>
       ) : (
         <>
           <ol>
-            {tiles.map((t, i) => (
-              <li key={t.id} className={`route-item lvl-${classifyLevel(t.minLevel, t.maxLevel, state.playerLevel)}`}>
-                <span className="route-pos">{i + 1}</span>
-                <button className="link" onClick={() => dispatch({ type: 'select', id: t.id })}>
-                  {t.name} <span className="muted">Lv {t.minLevel}–{t.maxLevel}</span>
-                </button>
-                <span className="route-actions">
-                  <button aria-label={`move ${t.name} up`} disabled={i === 0} onClick={() => dispatch({ type: 'moveInRoute', index: i, dir: -1 })}>↑</button>
-                  <button aria-label={`move ${t.name} down`} disabled={i === tiles.length - 1} onClick={() => dispatch({ type: 'moveInRoute', index: i, dir: 1 })}>↓</button>
-                  <button aria-label={`remove ${t.name}`} onClick={() => dispatch({ type: 'removeFromRoute', id: t.id })}>✕</button>
-                </span>
+            {entries.map((e, i) => (
+              <li key={e.id} className={`route-item lvl-${classifyLevel(e.tile.minLevel, e.tile.maxLevel, state.playerLevel)}`}>
+                <div className="route-head">
+                  <span className="route-pos">{i + 1}</span>
+                  <button className="link" aria-label={`expand ${e.tile.name}`} onClick={() => setOpen(open === e.id ? null : e.id)}>
+                    {e.tile.name} <span className="muted">Lv {e.tile.minLevel}–{e.tile.maxLevel}</span>{e.wants.length ? <span className="want-count"> ·{e.wants.length}</span> : ''}
+                  </button>
+                  <span className="route-actions">
+                    <button aria-label={`move ${e.tile.name} up`} disabled={i === 0} onClick={() => dispatch({ type: 'moveInRoute', index: i, dir: -1 })}>↑</button>
+                    <button aria-label={`move ${e.tile.name} down`} disabled={i === entries.length - 1} onClick={() => dispatch({ type: 'moveInRoute', index: i, dir: 1 })}>↓</button>
+                    <button aria-label={`remove ${e.tile.name}`} onClick={() => dispatch({ type: 'removeFromRoute', id: e.id })}>✕</button>
+                  </span>
+                </div>
+                {open === e.id && (
+                  <div className="route-expand">
+                    <div className="label">WANT HERE</div>
+                    <div className="wants">
+                      {e.wants.map((w) => {
+                        const it = gearItems[w];
+                        return (
+                          <span key={w} className="want-chip">
+                            {it ? it.name : w}
+                            <span className="tip-host"><ItemTooltip item={it} /></span>
+                            <button aria-label={`remove want ${w}`} onClick={() => dispatch({ type: 'removeZoneWant', id: e.id, itemSlug: w })}>✕</button>
+                          </span>
+                        );
+                      })}
+                      {e.wants.length === 0 && <span className="muted">none yet</span>}
+                    </div>
+                    <div className="label">NOTES</div>
+                    <textarea className="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
+                      onChange={(ev) => dispatch({ type: 'setZoneNotes', id: e.id, notes: ev.target.value })} />
+                  </div>
+                )}
               </li>
             ))}
           </ol>
           <div className="route-summary">
-            <span>Covers Lv {min}–{max} · {tiles.length} zones</span>
-            {gaps.length > 0 && (
-              <span className="gaps">Gaps: {gaps.map((g) => (g.from === g.to ? g.from : `${g.from}–${g.to}`)).join(', ')}</span>
-            )}
+            <span>Covers Lv {min}–{max} · {entries.length} zones</span>
+            {gaps.length > 0 && <span className="gaps">Gaps: {gaps.map((g) => (g.from === g.to ? g.from : `${g.from}–${g.to}`)).join(', ')}</span>}
           </div>
         </>
       )}

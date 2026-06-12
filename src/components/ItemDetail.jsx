@@ -8,11 +8,11 @@ export default function ItemDetail() {
   if (!item) return <div className="item-detail empty"><p className="muted">Select a gear piece to see its stats and sources.</p></div>;
 
   const tiles = [...new Set(item.sources.map((s) => resolveTile(s.zoneName, s.minLevel)).filter(Boolean).map((t) => t.id))];
-  const addZones = () => tiles.forEach((id) => dispatch({ type: 'addToRoute', id }));
+  const addZones = () => tiles.forEach((id) => dispatch({ type: 'addToRoute', id, want: item.slug }));
 
   return (
     <div className="item-detail">
-      <h3>{item.name} <span className="label">{item.type}{item.sockets ? ` · ${item.sockets} sockets` : ''}</span></h3>
+      <h3>{item.name} <span className="label">{item.type}{item.cardSlots ? ` · ${item.cardSlots} card slots` : ''}</span></h3>
       {item.statsPrimary.map((s, i) => <div key={i} className="stat-line">{s}</div>)}
       {item.statsSecondary.map((s, i) => <div key={i} className="stat-line muted">{s}</div>)}
       {item.setBonus.length > 0 && <div className="set-bonus"><span className="label">Set</span> {item.setBonus.join(' · ')}</div>}
