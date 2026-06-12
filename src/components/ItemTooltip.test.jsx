@@ -19,4 +19,12 @@ describe('ItemTooltip', () => {
     expect(screen.getByText(/Blessed/)).toBeInTheDocument();
     expect(screen.getByText(/Weapon/)).toBeInTheDocument();
   });
+
+  it('colors Atk/Matk stat lines with the stat-atk class', () => {
+    const { container } = render(<ItemTooltip item={{ name: 'X', type: 'Dagger', cardSlots: 0, statsPrimary: ['Atk: +20', 'Def: +5'], statsSecondary: [], setBonus: [], sources: [] }} />);
+    const atk = [...container.querySelectorAll('.tip-stat')].find((e) => /Atk/.test(e.textContent));
+    expect(atk.className).toMatch(/stat-atk/);
+    const def = [...container.querySelectorAll('.tip-stat')].find((e) => /Def/.test(e.textContent));
+    expect(def.className).not.toMatch(/stat-atk/);
+  });
 });

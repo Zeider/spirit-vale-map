@@ -19,7 +19,7 @@ export default function StatSheet() {
       ) : (
         <ul className="stat-totals">
           {totals.map((s) => (
-            <li key={s.label}><span>{s.label}</span><b>+{s.value}{s.percent ? '%' : ''}</b></li>
+            <li key={s.label} className={/^(matk|atk)$/i.test(s.label) ? 'stat-atk' : undefined}><span>{s.label}</span><b>+{s.value}{s.percent ? '%' : ''}</b></li>
           ))}
         </ul>
       )}
