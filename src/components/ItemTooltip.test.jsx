@@ -27,4 +27,12 @@ describe('ItemTooltip', () => {
     const def = [...container.querySelectorAll('.tip-stat')].find((e) => /Def/.test(e.textContent));
     expect(def.className).not.toMatch(/stat-atk/);
   });
+
+  it('renders card stat lines and colors Atk/Matk', () => {
+    const { container } = render(<ItemTooltip item={{ kind: 'card', name: 'Cosmic Entity Card', equipSlot: 'Weapon', affix: 'Cosmic', description: 'eye', stats: ['+10% Atk', '-25% Max HP'] }} />);
+    expect(screen.getByText('+10% Atk')).toBeInTheDocument();
+    expect(screen.getByText('-25% Max HP')).toBeInTheDocument();
+    const atk = [...container.querySelectorAll('.tip-stat')].find((e) => /Atk/.test(e.textContent));
+    expect(atk.className).toMatch(/stat-atk/);
+  });
 });

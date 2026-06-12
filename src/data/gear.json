@@ -37818,7 +37818,10 @@
       "slug": "angel-card",
       "equipSlot": "Weapon",
       "affix": "Blessed",
-      "description": "A serene celestial being who's always ready to spread some heavenly wrath. Sweet but deadly!"
+      "description": "A serene celestial being who's always ready to spread some heavenly wrath. Sweet but deadly!",
+      "stats": [
+        "+10% healing"
+      ]
     },
     "Angel Mage Card": {
       "kind": "card",
@@ -37826,7 +37829,10 @@
       "slug": "angel-mage-card",
       "equipSlot": "Chest",
       "affix": "Pure",
-      "description": "Don't let the robes fool you; this angel packs a magical punch. Prayers are optional, though!"
+      "description": "Don't let the robes fool you; this angel packs a magical punch. Prayers are optional, though!",
+      "stats": [
+        "+3 Armor element"
+      ]
     },
     "Archangel Card": {
       "kind": "card",
@@ -37834,7 +37840,10 @@
       "slug": "archangel-card",
       "equipSlot": "Weapon",
       "affix": "Pure",
-      "description": "Majestic wings and a heart of gold, or is it? This angel has a dark side when provoked!"
+      "description": "Majestic wings and a heart of gold, or is it? This angel has a dark side when provoked!",
+      "stats": [
+        "+3 Weapon element"
+      ]
     },
     "Ashrend Card": {
       "kind": "card",
@@ -37842,7 +37851,10 @@
       "slug": "ashrend-card",
       "equipSlot": "Chest",
       "affix": "Titan",
-      "description": "The broken remains of an alien creature or machine… but it still twitches with hostile life."
+      "description": "The broken remains of an alien creature or machine… but it still twitches with hostile life.",
+      "stats": [
+        "Immune to knockback"
+      ]
     },
     "Bat Card": {
       "kind": "card",
@@ -37850,7 +37862,10 @@
       "slug": "bat-card",
       "equipSlot": "Accessory",
       "affix": "Leeching",
-      "description": "Tiny wings, big attitude! This bat's more trouble than a pack of mosquitoes."
+      "description": "Tiny wings, big attitude! This bat's more trouble than a pack of mosquitoes.",
+      "stats": [
+        "+10 MP on kill"
+      ]
     },
     "Bat Lord Card": {
       "kind": "card",
@@ -37858,7 +37873,10 @@
       "slug": "bat-lord-card",
       "equipSlot": "Accessory",
       "affix": "Siphoning",
-      "description": "The king of bats. Don't ask for autographs; he's too busy hunting you down."
+      "description": "The king of bats. Don't ask for autographs; he's too busy hunting you down.",
+      "stats": [
+        "+3 MP siphon"
+      ]
     },
     "Bee Card": {
       "kind": "card",
@@ -37866,7 +37884,10 @@
       "slug": "bee-card",
       "equipSlot": "Weapon",
       "affix": "Accurate",
-      "description": "Always buzzing around, this little guy's only goal is to ruin your day with a sting."
+      "description": "Always buzzing around, this little guy's only goal is to ruin your day with a sting.",
+      "stats": [
+        "+25 Hit"
+      ]
     },
     "Bird Card": {
       "kind": "card",
@@ -37874,7 +37895,10 @@
       "slug": "bird-card",
       "equipSlot": "Weapon",
       "affix": "Lancer",
-      "description": "Fluttering through the air, this bird is more than capable of making your life... interesting."
+      "description": "Fluttering through the air, this bird is more than capable of making your life... interesting.",
+      "stats": [
+        "+10% Weapon Throw dmg"
+      ]
     },
     "Blazewheel Card": {
       "kind": "card",
@@ -37882,7 +37906,10 @@
       "slug": "blazewheel-card",
       "equipSlot": "Weapon",
       "affix": "Spiked",
-      "description": "A bizarre alien that rolls forward like a wheel, crushing everything in its path."
+      "description": "A bizarre alien that rolls forward like a wheel, crushing everything in its path.",
+      "stats": [
+        "Reflects 10% damage"
+      ]
     },
     "Bloom Card": {
       "kind": "card",
@@ -37890,7 +37917,10 @@
       "slug": "bloom-card",
       "equipSlot": "Weapon",
       "affix": "Volley",
-      "description": "A plant that seems sweet at first, but don't let it fool you, it can make you regret that hug."
+      "description": "A plant that seems sweet at first, but don't let it fool you, it can make you regret that hug.",
+      "stats": [
+        "+10% Strafing Volley dmg"
+      ]
     },
     "Blossom Card": {
       "kind": "card",
@@ -37898,7 +37928,10 @@
       "slug": "blossom-card",
       "equipSlot": "Weapon",
       "affix": "Volatile",
-      "description": "Like a flower, but with a grudge. Approach with caution, this one's got a temper."
+      "description": "Like a flower, but with a grudge. Approach with caution, this one's got a temper.",
+      "stats": [
+        "+10% Volatile Bolt dmg"
+      ]
     },
     "Bogbloom Card": {
       "kind": "card",
@@ -37906,7 +37939,11 @@
       "slug": "bogbloom-card",
       "equipSlot": "Shield",
       "affix": "Resistance",
-      "description": "A bizarre plant from another world, its vines lash out with a hunger that feels far too intelligent."
+      "description": "A bizarre plant from another world, its vines lash out with a hunger that feels far too intelligent.",
+      "stats": [
+        "Immune to Slow",
+        "Immune to Bleeding"
+      ]
     },
     "Bomb Card": {
       "kind": "card",
@@ -37914,7 +37951,10 @@
       "slug": "bomb-card",
       "equipSlot": "Weapon",
       "affix": "Power",
-      "description": "This mischievous monster might look cute, but it's got an explosive personality."
+      "description": "This mischievous monster might look cute, but it's got an explosive personality.",
+      "stats": [
+        "+4% Atk"
+      ]
     },
     "Boxy Robot Card": {
       "kind": "card",
@@ -37922,7 +37962,11 @@
       "slug": "boxy-robot-card",
       "equipSlot": "Headgear",
       "affix": "Energy",
-      "description": "A clunky, cube-shaped machine with more power than looks. Don't underestimate its blocky frame."
+      "description": "A clunky, cube-shaped machine with more power than looks. Don't underestimate its blocky frame.",
+      "stats": [
+        "+25% HP Regen",
+        "+25% MP Regen"
+      ]
     },
     "Bud Card": {
       "kind": "card",
@@ -37930,7 +37974,10 @@
       "slug": "bud-card",
       "equipSlot": "Legwear",
       "affix": "Light",
-      "description": "Small, but don't be fooled, this budding little guy is just waiting to blossom into something scary!"
+      "description": "Small, but don't be fooled, this budding little guy is just waiting to blossom into something scary!",
+      "stats": [
+        "+1000 Weight Limit"
+      ]
     },
     "Bumble Card": {
       "kind": "card",
@@ -37938,7 +37985,10 @@
       "slug": "bumble-card",
       "equipSlot": "Headgear",
       "affix": "Sniper",
-      "description": "Cute, fuzzy, and always on the move. It's just trying to spread some chaos, not honey!"
+      "description": "Cute, fuzzy, and always on the move. It's just trying to spread some chaos, not honey!",
+      "stats": [
+        "+10% Hit"
+      ]
     },
     "Bunny Card": {
       "kind": "card",
@@ -37946,7 +37996,10 @@
       "slug": "bunny-card",
       "equipSlot": "Accessory",
       "affix": "Rapid",
-      "description": "This little fluffball might look harmless... but its bite is worse than its bark!"
+      "description": "This little fluffball might look harmless... but its bite is worse than its bark!",
+      "stats": [
+        "+5 Atk Spd"
+      ]
     },
     "Burrow Card": {
       "kind": "card",
@@ -37954,7 +38007,11 @@
       "slug": "burrow-card",
       "equipSlot": "Headgear",
       "affix": "Steadfast",
-      "description": "Hidden beneath the sand, this beast's got a lot of attitude, and a lot of dirt."
+      "description": "Hidden beneath the sand, this beast's got a lot of attitude, and a lot of dirt.",
+      "stats": [
+        "Immune to Stun",
+        "-25% Max MP"
+      ]
     },
     "Butterfly Fairy Card": {
       "kind": "card",
@@ -37962,7 +38019,10 @@
       "slug": "butterfly-fairy-card",
       "equipSlot": "Chest",
       "affix": "Wizardry",
-      "description": "With wings of magic and a dash of mischief, this fairy loves to sprinkle a little trouble!"
+      "description": "With wings of magic and a dash of mischief, this fairy loves to sprinkle a little trouble!",
+      "stats": [
+        "+15 Cast Spd"
+      ]
     },
     "Butterfly Hue Card": {
       "kind": "card",
@@ -37970,7 +38030,10 @@
       "slug": "butterfly-hue-card",
       "equipSlot": "Weapon",
       "affix": "Wizardry",
-      "description": "It's a fluttery little critter that might leave you enchanted, or just itchy."
+      "description": "It's a fluttery little critter that might leave you enchanted, or just itchy.",
+      "stats": [
+        "+10 Cast Spd"
+      ]
     },
     "Butterfly Pixie Card": {
       "kind": "card",
@@ -37978,7 +38041,10 @@
       "slug": "butterfly-pixie-card",
       "equipSlot": "Headgear",
       "affix": "Wizardry",
-      "description": "Magical and mischievous, this pixie might give you a wink before causing havoc."
+      "description": "Magical and mischievous, this pixie might give you a wink before causing havoc.",
+      "stats": [
+        "+15 Cast Spd"
+      ]
     },
     "Cacti Card": {
       "kind": "card",
@@ -37986,7 +38052,10 @@
       "slug": "cacti-card",
       "equipSlot": "Shield",
       "affix": "Spiked",
-      "description": "A prickly friend with a sharp personality, don't try hugging it!"
+      "description": "A prickly friend with a sharp personality, don't try hugging it!",
+      "stats": [
+        "Reflects 2% damage"
+      ]
     },
     "Cactus Card": {
       "kind": "card",
@@ -37994,7 +38063,10 @@
       "slug": "cactus-card",
       "equipSlot": "Shield",
       "affix": "Mudproof",
-      "description": "This cactus doesn't just rule the desert; it rules with an iron fist... er, spines."
+      "description": "This cactus doesn't just rule the desert; it rules with an iron fist... er, spines.",
+      "stats": [
+        "+25% Earth resist"
+      ]
     },
     "Cactus King Card": {
       "kind": "card",
@@ -38002,7 +38074,10 @@
       "slug": "cactus-king-card",
       "equipSlot": "Shoes",
       "affix": "Steadfast",
-      "description": "The king of the desert, spiky, stubborn, and a little too proud of his pointy crown."
+      "description": "The king of the desert, spiky, stubborn, and a little too proud of his pointy crown.",
+      "stats": [
+        "Grants Endure Lv5"
+      ]
     },
     "Cat Bolt Card": {
       "kind": "card",
@@ -38010,7 +38085,10 @@
       "slug": "cat-bolt-card",
       "equipSlot": "Chest",
       "affix": "Gale",
-      "description": "Lightning-fast and furious, this cat's got a spark in its step, and it's shocking!"
+      "description": "Lightning-fast and furious, this cat's got a spark in its step, and it's shocking!",
+      "stats": [
+        "+6 Armor element"
+      ]
     },
     "Cat Lightning Card": {
       "kind": "card",
@@ -38018,7 +38096,10 @@
       "slug": "cat-lightning-card",
       "equipSlot": "Shield",
       "affix": "Windproof",
-      "description": "A cat that's got more than just nine lives, it's got nine lightning strikes, too!"
+      "description": "A cat that's got more than just nine lives, it's got nine lightning strikes, too!",
+      "stats": [
+        "+25% Wind resist"
+      ]
     },
     "Cat Meow Card": {
       "kind": "card",
@@ -38026,7 +38107,11 @@
       "slug": "cat-meow-card",
       "equipSlot": "Headgear",
       "affix": "Shocking",
-      "description": "A simple meow from this furry feline, and your world might just get turned upside down."
+      "description": "A simple meow from this furry feline, and your world might just get turned upside down.",
+      "stats": [
+        "Grants Thunderbolt Lv2",
+        "10% chance to cast Thunderbolt on attack"
+      ]
     },
     "Chick Card": {
       "kind": "card",
@@ -38034,7 +38119,10 @@
       "slug": "chick-card",
       "equipSlot": "Weapon",
       "affix": "Sharp",
-      "description": "Small, yellow, and probably plotting your doom under all that cuteness."
+      "description": "Small, yellow, and probably plotting your doom under all that cuteness.",
+      "stats": [
+        "+5 Atk"
+      ]
     },
     "Cinderspike Card": {
       "kind": "card",
@@ -38042,7 +38130,10 @@
       "slug": "cinderspike-card",
       "equipSlot": "Legwear",
       "affix": "Swift",
-      "description": "A jagged alien beast, covered in crystalline spines sharp enough to pierce steel."
+      "description": "A jagged alien beast, covered in crystalline spines sharp enough to pierce steel.",
+      "stats": [
+        "+10 Move Spd"
+      ]
     },
     "Cosmic Entity Card": {
       "kind": "card",
@@ -38050,7 +38141,13 @@
       "slug": "cosmic-entity-card",
       "equipSlot": "Headgear",
       "affix": "Cosmic",
-      "description": "A massive, single-eyed alien whose unblinking stare can pierce even the bravest of hearts."
+      "description": "A massive, single-eyed alien whose unblinking stare can pierce even the bravest of hearts.",
+      "stats": [
+        "+10% Matk",
+        "+10% Atk",
+        "-25% Max HP",
+        "-25% Max MP"
+      ]
     },
     "Creeper Card": {
       "kind": "card",
@@ -38058,7 +38155,10 @@
       "slug": "creeper-card",
       "equipSlot": "Weapon",
       "affix": "Savage",
-      "description": "Sneaky and sly, this creepy crawly has a penchant for lurking in the shadows."
+      "description": "Sneaky and sly, this creepy crawly has a penchant for lurking in the shadows.",
+      "stats": [
+        "+7 Crit Dmg"
+      ]
     },
     "Cyclops Bat Card": {
       "kind": "card",
@@ -38066,7 +38166,10 @@
       "slug": "cyclops-bat-card",
       "equipSlot": "Weapon",
       "affix": "Melee",
-      "description": "Big, bad, and batty. This one's got its sights set on you, so run, if you can!"
+      "description": "Big, bad, and batty. This one's got its sights set on you, so run, if you can!",
+      "stats": [
+        "+5% melee dmg"
+      ]
     },
     "Cyclops Bat Mage Card": {
       "kind": "card",
@@ -38074,7 +38177,10 @@
       "slug": "cyclops-bat-mage-card",
       "equipSlot": "Weapon",
       "affix": "Magic",
-      "description": "This cyclops has learned a thing or two from the dark arts, expect spells with a side of fury."
+      "description": "This cyclops has learned a thing or two from the dark arts, expect spells with a side of fury.",
+      "stats": [
+        "+5% magic dmg"
+      ]
     },
     "Cyclops Bat Wizard Card": {
       "kind": "card",
@@ -38082,7 +38188,10 @@
       "slug": "cyclops-bat-wizard-card",
       "equipSlot": "Weapon",
       "affix": "Ranged",
-      "description": "A master of shadowy magic and even shadier business. It's a nightmare in the making."
+      "description": "A master of shadowy magic and even shadier business. It's a nightmare in the making.",
+      "stats": [
+        "+5% ranged dmg"
+      ]
     },
     "Cyclops Card": {
       "kind": "card",
@@ -38090,7 +38199,10 @@
       "slug": "cyclops-card",
       "equipSlot": "Headgear",
       "affix": "Warding",
-      "description": "One eye, two fists, and a serious vendetta. You won't see this one coming!"
+      "description": "One eye, two fists, and a serious vendetta. You won't see this one coming!",
+      "stats": [
+        "+10% Mdef"
+      ]
     },
     "Cyclops Giant Card": {
       "kind": "card",
@@ -38098,7 +38210,10 @@
       "slug": "cyclops-giant-card",
       "equipSlot": "Shield",
       "affix": "Warding",
-      "description": "Tall, angry, and completely unhinged. Good luck trying to make it past this one!"
+      "description": "Tall, angry, and completely unhinged. Good luck trying to make it past this one!",
+      "stats": [
+        "+3% Mdef"
+      ]
     },
     "Cyclops Minion Card": {
       "kind": "card",
@@ -38106,7 +38221,10 @@
       "slug": "cyclops-minion-card",
       "equipSlot": "Chest",
       "affix": "Warding",
-      "description": "A smaller cyclops, but still just as dangerous. This one's all about taking orders, yours."
+      "description": "A smaller cyclops, but still just as dangerous. This one's all about taking orders, yours.",
+      "stats": [
+        "+15% Mdef"
+      ]
     },
     "Death Card": {
       "kind": "card",
@@ -38114,7 +38232,10 @@
       "slug": "death-card",
       "equipSlot": "Legwear",
       "affix": "Darkproof",
-      "description": "This shadowy figure isn't here for a chat, it's here to remind you of your inevitable fate."
+      "description": "This shadowy figure isn't here for a chat, it's here to remind you of your inevitable fate.",
+      "stats": [
+        "+15% Shadow resist"
+      ]
     },
     "Death Mage Card": {
       "kind": "card",
@@ -38122,7 +38243,10 @@
       "slug": "death-mage-card",
       "equipSlot": "Headgear",
       "affix": "Cloaking",
-      "description": "A mage of death, weaving necromantic spells with a sinister smile. Don't cross him."
+      "description": "A mage of death, weaving necromantic spells with a sinister smile. Don't cross him.",
+      "stats": [
+        "Grants Cloaking Lv1"
+      ]
     },
     "Delivery Robot Card": {
       "kind": "card",
@@ -38130,7 +38254,12 @@
       "slug": "delivery-robot-card",
       "equipSlot": "Headgear",
       "affix": "Fleet",
-      "description": "An oddly helpful machine repurposed for war, tossing deadly “packages” your way."
+      "description": "An oddly helpful machine repurposed for war, tossing deadly “packages” your way.",
+      "stats": [
+        "+10 Move Spd",
+        "-5% Max HP",
+        "-5% Max MP"
+      ]
     },
     "Direwolf Card": {
       "kind": "card",
@@ -38138,7 +38267,10 @@
       "slug": "direwolf-card",
       "equipSlot": "Accessory",
       "affix": "Cloaking",
-      "description": "A savage wolf larger than most, feared for its cunning and the chilling howls that echo through the night."
+      "description": "A savage wolf larger than most, feared for its cunning and the chilling howls that echo through the night.",
+      "stats": [
+        "Perfect Cloak"
+      ]
     },
     "Dog Bark Card": {
       "kind": "card",
@@ -38146,7 +38278,10 @@
       "slug": "dog-bark-card",
       "equipSlot": "Headgear",
       "affix": "Flaming",
-      "description": "A yappy, fiery little dog that might just catch you off guard with a fiery surprise!"
+      "description": "A yappy, fiery little dog that might just catch you off guard with a fiery surprise!",
+      "stats": [
+        "Grants Fireball Lv2"
+      ]
     },
     "Dog Bowwow Card": {
       "kind": "card",
@@ -38154,7 +38289,10 @@
       "slug": "dog-bowwow-card",
       "equipSlot": "Weapon",
       "affix": "Blazing",
-      "description": "Bigger, badder, and ready to bite. It's got a bark, but it's got firepower too!"
+      "description": "Bigger, badder, and ready to bite. It's got a bark, but it's got firepower too!",
+      "stats": [
+        "+4 Weapon element"
+      ]
     },
     "Dog Pup Card": {
       "kind": "card",
@@ -38162,7 +38300,11 @@
       "slug": "dog-pup-card",
       "equipSlot": "Headgear",
       "affix": "Flaming",
-      "description": "A tiny pup with a fiery heart, it might just be looking for a snack... or you!"
+      "description": "A tiny pup with a fiery heart, it might just be looking for a snack... or you!",
+      "stats": [
+        "Grants Firebolt Lv2",
+        "10% chance to cast Firebolt on attack"
+      ]
     },
     "Dragon Blizzard Card": {
       "kind": "card",
@@ -38170,7 +38312,10 @@
       "slug": "dragon-blizzard-card",
       "equipSlot": "Chest",
       "affix": "Diamond",
-      "description": "A dragon that brings a chill to your bones, and not the friendly kind!"
+      "description": "A dragon that brings a chill to your bones, and not the friendly kind!",
+      "stats": [
+        "Immune to Frozen"
+      ]
     },
     "Dragon Darkness Card": {
       "kind": "card",
@@ -38178,7 +38323,10 @@
       "slug": "dragon-darkness-card",
       "equipSlot": "Weapon",
       "affix": "Tainted",
-      "description": "It's not just the dark; it's the dragon's deadly presence in the shadows you should fear."
+      "description": "It's not just the dark; it's the dragon's deadly presence in the shadows you should fear.",
+      "stats": [
+        "+2 Weapon element"
+      ]
     },
     "Dragon Dusk Card": {
       "kind": "card",
@@ -38186,7 +38334,10 @@
       "slug": "dragon-dusk-card",
       "equipSlot": "Weapon",
       "affix": "Exorcist's",
-      "description": "This dragon brings with it an eerie calm... but you'll soon realize it's anything but peaceful."
+      "description": "This dragon brings with it an eerie calm... but you'll soon realize it's anything but peaceful.",
+      "stats": [
+        "+10% dmg to Shadow"
+      ]
     },
     "Dragon Fire Card": {
       "kind": "card",
@@ -38194,7 +38345,10 @@
       "slug": "dragon-fire-card",
       "equipSlot": "Legwear",
       "affix": "Fireproof",
-      "description": "A fiery force of nature, this dragon's breath could cook you in seconds."
+      "description": "A fiery force of nature, this dragon's breath could cook you in seconds.",
+      "stats": [
+        "+15% Fire resist"
+      ]
     },
     "Dragon Ice Card": {
       "kind": "card",
@@ -38202,7 +38356,10 @@
       "slug": "dragon-ice-card",
       "equipSlot": "Weapon",
       "affix": "Freezing",
-      "description": "Don't let the icy breath fool you, this dragon's just as cold-hearted as it is powerful."
+      "description": "Don't let the icy breath fool you, this dragon's just as cold-hearted as it is powerful.",
+      "stats": [
+        "+10% Ice Shard dmg"
+      ]
     },
     "Dragon Inferno Card": {
       "kind": "card",
@@ -38210,7 +38367,10 @@
       "slug": "dragon-inferno-card",
       "equipSlot": "Accessory",
       "affix": "Power",
-      "description": "It's all about heat and destruction with this fiery dragon. Think you can handle the burn?"
+      "description": "It's all about heat and destruction with this fiery dragon. Think you can handle the burn?",
+      "stats": [
+        "+4% Atk"
+      ]
     },
     "Dragon Nightfall Card": {
       "kind": "card",
@@ -38218,7 +38378,10 @@
       "slug": "dragon-nightfall-card",
       "equipSlot": "Headgear",
       "affix": "Purifying",
-      "description": "A shadowy dragon that comes with a cold chill and a lot of bite. Proceed with caution."
+      "description": "A shadowy dragon that comes with a cold chill and a lot of bite. Proceed with caution.",
+      "stats": [
+        "Immune to Curse"
+      ]
     },
     "Dragon Spark Card": {
       "kind": "card",
@@ -38226,7 +38389,10 @@
       "slug": "dragon-spark-card",
       "equipSlot": "Headgear",
       "affix": "Power",
-      "description": "It may start with a spark, but this dragon has a blazing fire waiting for you!"
+      "description": "It may start with a spark, but this dragon has a blazing fire waiting for you!",
+      "stats": [
+        "+4% Atk"
+      ]
     },
     "Dragon Water Card": {
       "kind": "card",
@@ -38234,7 +38400,10 @@
       "slug": "dragon-water-card",
       "equipSlot": "Legwear",
       "affix": "Waterproof",
-      "description": "Water's their element, and they're not afraid to drown you in it!"
+      "description": "Water's their element, and they're not afraid to drown you in it!",
+      "stats": [
+        "+15% Water resist"
+      ]
     },
     "Dragonfly Arrow Card": {
       "kind": "card",
@@ -38242,7 +38411,11 @@
       "slug": "dragonfly-arrow-card",
       "equipSlot": "Shoes",
       "affix": "Nimble",
-      "description": "Fast and sharp, this dragonfly isn't just here to flutter by. It's a skilled hunter!"
+      "description": "Fast and sharp, this dragonfly isn't just here to flutter by. It's a skilled hunter!",
+      "stats": [
+        "+10 Flee",
+        "+1 Agi"
+      ]
     },
     "Dragonfly Darner Card": {
       "kind": "card",
@@ -38250,7 +38423,10 @@
       "slug": "dragonfly-darner-card",
       "equipSlot": "Legwear",
       "affix": "Elusive",
-      "description": "A little faster and a lot deadlier than most, this dragonfly can dart through the air like lightning."
+      "description": "A little faster and a lot deadlier than most, this dragonfly can dart through the air like lightning.",
+      "stats": [
+        "+20 Flee"
+      ]
     },
     "Dragonfly Swift Card": {
       "kind": "card",
@@ -38258,7 +38434,10 @@
       "slug": "dragonfly-swift-card",
       "equipSlot": "Shield",
       "affix": "Elusive",
-      "description": "With speed that'll leave you dizzy, this dragonfly's all about a quick strike."
+      "description": "With speed that'll leave you dizzy, this dragonfly's all about a quick strike.",
+      "stats": [
+        "+25 Flee"
+      ]
     },
     "Earthworm Card": {
       "kind": "card",
@@ -38266,7 +38445,10 @@
       "slug": "earthworm-card",
       "equipSlot": "Headgear",
       "affix": "Anti-Venom",
-      "description": "A simple creature, but digging through the dirt is just the beginning of its underground trouble."
+      "description": "A simple creature, but digging through the dirt is just the beginning of its underground trouble.",
+      "stats": [
+        "Immune to Poison"
+      ]
     },
     "Egg Card": {
       "kind": "card",
@@ -38274,7 +38456,10 @@
       "slug": "egg-card",
       "equipSlot": "Headgear",
       "affix": "Vital",
-      "description": "It might look innocent, but it's got big, scary plans for when it hatches!"
+      "description": "It might look innocent, but it's got big, scary plans for when it hatches!",
+      "stats": [
+        "+100 Max HP"
+      ]
     },
     "Egglet Card": {
       "kind": "card",
@@ -38282,7 +38467,10 @@
       "slug": "egglet-card",
       "equipSlot": "Weapon",
       "affix": "Rapid",
-      "description": "A tiny egg with legs! Cute, but it's plotting something sinister inside its shell."
+      "description": "A tiny egg with legs! Cute, but it's plotting something sinister inside its shell.",
+      "stats": [
+        "+10 Atk Spd"
+      ]
     },
     "Elder Wisp Blue Card": {
       "kind": "card",
@@ -38290,7 +38478,10 @@
       "slug": "elder-wisp-blue-card",
       "equipSlot": "Accessory",
       "affix": "Glacial",
-      "description": "A calm, ancient spirit that glows with icy blue energy, chilling the air and soothing—or freezing—all nearby."
+      "description": "A calm, ancient spirit that glows with icy blue energy, chilling the air and soothing—or freezing—all nearby.",
+      "stats": [
+        "+6% Water element dmg"
+      ]
     },
     "Elder Wisp Purple Card": {
       "kind": "card",
@@ -38298,7 +38489,10 @@
       "slug": "elder-wisp-purple-card",
       "equipSlot": "Accessory",
       "affix": "Spark",
-      "description": "A mysterious spirit wrapped in violet flame, whispering secrets and curses from another realm."
+      "description": "A mysterious spirit wrapped in violet flame, whispering secrets and curses from another realm.",
+      "stats": [
+        "+6% Wind element dmg"
+      ]
     },
     "Elder Wisp Yellow Card": {
       "kind": "card",
@@ -38306,7 +38500,10 @@
       "slug": "elder-wisp-yellow-card",
       "equipSlot": "Accessory",
       "affix": "Pyre",
-      "description": "A luminous spirit that radiates golden light, guiding the lost but blinding its foes with brilliance."
+      "description": "A luminous spirit that radiates golden light, guiding the lost but blinding its foes with brilliance.",
+      "stats": [
+        "+6% Fire element dmg"
+      ]
     },
     "Eyeball Bat Blue Card": {
       "kind": "card",
@@ -38314,7 +38511,10 @@
       "slug": "eyeball-bat-blue-card",
       "equipSlot": "Weapon",
       "affix": "Radiant",
-      "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!"
+      "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+      "stats": [
+        "+10% Holy Light dmg"
+      ]
     },
     "Eyeball Bat Green Card": {
       "kind": "card",
@@ -38322,7 +38522,10 @@
       "slug": "eyeball-bat-green-card",
       "equipSlot": "Shield",
       "affix": "Purity",
-      "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!"
+      "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+      "stats": [
+        "+25% Undead resist"
+      ]
     },
     "Eyeball Bat Red Card": {
       "kind": "card",
@@ -38330,7 +38533,10 @@
       "slug": "eyeball-bat-red-card",
       "equipSlot": "Shield",
       "affix": "Vampiric",
-      "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!"
+      "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+      "stats": [
+        "Chance to cast Life Drain Enemy on hit"
+      ]
     },
     "Eyeball Creep Blue Card": {
       "kind": "card",
@@ -38338,7 +38544,10 @@
       "slug": "eyeball-creep-blue-card",
       "equipSlot": "Headgear",
       "affix": "Focus",
-      "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl."
+      "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+      "stats": [
+        "+10% Max MP"
+      ]
     },
     "Eyeball Creep Green Card": {
       "kind": "card",
@@ -38346,7 +38555,10 @@
       "slug": "eyeball-creep-green-card",
       "equipSlot": "Accessory",
       "affix": "Focus",
-      "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl."
+      "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+      "stats": [
+        "+10% Max MP"
+      ]
     },
     "Eyeball Creep Red Card": {
       "kind": "card",
@@ -38354,7 +38566,10 @@
       "slug": "eyeball-creep-red-card",
       "equipSlot": "Shoes",
       "affix": "Focus",
-      "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl."
+      "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+      "stats": [
+        "+10% Max MP"
+      ]
     },
     "Eyeball Mage Blue Card": {
       "kind": "card",
@@ -38362,7 +38577,11 @@
       "slug": "eyeball-mage-blue-card",
       "equipSlot": "Headgear",
       "affix": "Mana Burn",
-      "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!"
+      "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+      "stats": [
+        "+3% MP leech",
+        "-50% Max MP"
+      ]
     },
     "Eyeball Mage Green Card": {
       "kind": "card",
@@ -38370,7 +38589,10 @@
       "slug": "eyeball-mage-green-card",
       "equipSlot": "Weapon",
       "affix": "Radiant",
-      "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!"
+      "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+      "stats": [
+        "+10% Exorcism dmg"
+      ]
     },
     "Eyeball Mage Red Card": {
       "kind": "card",
@@ -38378,7 +38600,10 @@
       "slug": "eyeball-mage-red-card",
       "equipSlot": "Shield",
       "affix": "Vampiric",
-      "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!"
+      "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+      "stats": [
+        "+5% life leech"
+      ]
     },
     "Fangroot Card": {
       "kind": "card",
@@ -38386,7 +38611,10 @@
       "slug": "fangroot-card",
       "equipSlot": "Shoes",
       "affix": "Resistance",
-      "description": "A twisted root from another world, snapping and biting with unnatural hunger."
+      "description": "A twisted root from another world, snapping and biting with unnatural hunger.",
+      "stats": [
+        "Immune to Bleeding"
+      ]
     },
     "Festive Baby Card": {
       "kind": "card",
@@ -38394,7 +38622,10 @@
       "slug": "festive-baby-card",
       "equipSlot": "Legwear",
       "affix": "Healthy",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10% Max HP"
+      ]
     },
     "Festive Bear Card": {
       "kind": "card",
@@ -38402,7 +38633,10 @@
       "slug": "festive-bear-card",
       "equipSlot": "Legwear",
       "affix": "Focus",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10% Max MP"
+      ]
     },
     "Fire Card": {
       "kind": "card",
@@ -38410,7 +38644,10 @@
       "slug": "fire-card",
       "equipSlot": "Headgear",
       "affix": "Light",
-      "description": "They may have a name that sounds harmless, but this little guy will set everything ablaze."
+      "description": "They may have a name that sounds harmless, but this little guy will set everything ablaze.",
+      "stats": [
+        "+1000 Weight Limit"
+      ]
     },
     "Fire Mage Card": {
       "kind": "card",
@@ -38418,7 +38655,10 @@
       "slug": "fire-mage-card",
       "equipSlot": "Accessory",
       "affix": "Mind",
-      "description": "A fire mage with enough power to make the volcano look like a campfire."
+      "description": "A fire mage with enough power to make the volcano look like a campfire.",
+      "stats": [
+        "+4% Matk"
+      ]
     },
     "FIsh Blue Card": {
       "kind": "card",
@@ -38426,7 +38666,8 @@
       "slug": "fish-blue-card",
       "equipSlot": "Legwear",
       "affix": "Fading",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Fish Man Blue Card": {
       "kind": "card",
@@ -38434,7 +38675,10 @@
       "slug": "fish-man-blue-card",
       "equipSlot": "Legwear",
       "affix": "Mind",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10 Matk"
+      ]
     },
     "Fish Man Pink Card": {
       "kind": "card",
@@ -38442,7 +38686,10 @@
       "slug": "fish-man-pink-card",
       "equipSlot": "Legwear",
       "affix": "Power",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10 Atk"
+      ]
     },
     "Fish Man Yellow Card": {
       "kind": "card",
@@ -38450,7 +38697,11 @@
       "slug": "fish-man-yellow-card",
       "equipSlot": "Legwear",
       "affix": "Precision",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5 Crit",
+        "+5 Crit Dmg"
+      ]
     },
     "Fish Pink Card": {
       "kind": "card",
@@ -38458,7 +38709,11 @@
       "slug": "fish-pink-card",
       "equipSlot": "Legwear",
       "affix": "Violent",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5 Atk",
+        "+5 Matk"
+      ]
     },
     "Fish Yellow Card": {
       "kind": "card",
@@ -38466,7 +38721,10 @@
       "slug": "fish-yellow-card",
       "equipSlot": "Legwear",
       "affix": "Perfect",
-      "description": ""
+      "description": "",
+      "stats": [
+        "5% Perfect Dodge"
+      ]
     },
     "Flame Card": {
       "kind": "card",
@@ -38474,7 +38732,10 @@
       "slug": "flame-card",
       "equipSlot": "Weapon",
       "affix": "Flaming",
-      "description": "With a fiery spirit and a burning desire to cause chaos, this fiery being isn't messing around!"
+      "description": "With a fiery spirit and a burning desire to cause chaos, this fiery being isn't messing around!",
+      "stats": [
+        "+10% Fireball dmg"
+      ]
     },
     "Fledgling Card": {
       "kind": "card",
@@ -38482,7 +38743,10 @@
       "slug": "fledgling-card",
       "equipSlot": "Weapon",
       "affix": "Impaling",
-      "description": "It's just a little bird... until it starts pecking your face off."
+      "description": "It's just a little bird... until it starts pecking your face off.",
+      "stats": [
+        "+10% Spear Stab dmg"
+      ]
     },
     "Flora Card": {
       "kind": "card",
@@ -38490,7 +38754,10 @@
       "slug": "flora-card",
       "equipSlot": "Weapon",
       "affix": "Hoarfrost",
-      "description": "Don't touch the plants! They bite."
+      "description": "Don't touch the plants! They bite.",
+      "stats": [
+        "+10% dmg to Water"
+      ]
     },
     "Flower Pot Monster Card": {
       "kind": "card",
@@ -38498,7 +38765,10 @@
       "slug": "flower-pot-monster-card",
       "equipSlot": "Headgear",
       "affix": "Quagmire",
-      "description": "What looks like a simple flower pot is hiding some very hungry roots."
+      "description": "What looks like a simple flower pot is hiding some very hungry roots.",
+      "stats": [
+        "Grants Earth Spikes Lv2"
+      ]
     },
     "Fungi Card": {
       "kind": "card",
@@ -38506,7 +38776,10 @@
       "slug": "fungi-card",
       "equipSlot": "Accessory",
       "affix": "Heal",
-      "description": "Mushrooms have never been so deadly, this fungi is always on the hunt for a tasty meal!"
+      "description": "Mushrooms have never been so deadly, this fungi is always on the hunt for a tasty meal!",
+      "stats": [
+        "Grants Heal Lv3"
+      ]
     },
     "Ghost Card": {
       "kind": "card",
@@ -38514,7 +38787,10 @@
       "slug": "ghost-card",
       "equipSlot": "Weapon",
       "affix": "Dissonance",
-      "description": "A spooky figure with a lot of haunting potential, this ghost isn't here for a chat."
+      "description": "A spooky figure with a lot of haunting potential, this ghost isn't here for a chat.",
+      "stats": [
+        "+10% Field Damage dmg"
+      ]
     },
     "Gloom Card": {
       "kind": "card",
@@ -38522,7 +38798,8 @@
       "slug": "gloom-card",
       "equipSlot": "Weapon",
       "affix": "Undead",
-      "description": "A creature of shadows and despair, it's got a name that fits perfectly with its energy."
+      "description": "A creature of shadows and despair, it's got a name that fits perfectly with its energy.",
+      "stats": []
     },
     "Glow Wisp Blue Card": {
       "kind": "card",
@@ -38530,7 +38807,10 @@
       "slug": "glow-wisp-blue-card",
       "equipSlot": "Weapon",
       "affix": "Glacial",
-      "description": "A twinkling light spirit, calm and cool, but more mischievous than it seems."
+      "description": "A twinkling light spirit, calm and cool, but more mischievous than it seems.",
+      "stats": [
+        "+6% Water element dmg"
+      ]
     },
     "Glow Wisp Purple Card": {
       "kind": "card",
@@ -38538,7 +38818,10 @@
       "slug": "glow-wisp-purple-card",
       "equipSlot": "Weapon",
       "affix": "Spark",
-      "description": "A tiny spirit flickering with violet glow, playful yet strangely unsettling."
+      "description": "A tiny spirit flickering with violet glow, playful yet strangely unsettling.",
+      "stats": [
+        "+6% Wind element dmg"
+      ]
     },
     "Glow Wisp Yellow Card": {
       "kind": "card",
@@ -38546,7 +38829,10 @@
       "slug": "glow-wisp-yellow-card",
       "equipSlot": "Weapon",
       "affix": "Pyre",
-      "description": "A cheerful little spark of golden light, bringing warmth—and sometimes burns."
+      "description": "A cheerful little spark of golden light, bringing warmth—and sometimes burns.",
+      "stats": [
+        "+6% Fire element dmg"
+      ]
     },
     "Goblin Giant Devil Card": {
       "kind": "card",
@@ -38554,7 +38840,10 @@
       "slug": "goblin-giant-devil-card",
       "equipSlot": "Weapon",
       "affix": "Quaking",
-      "description": "A big, burly goblin with a lot of brawn, and an attitude to match."
+      "description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+      "stats": [
+        "+10% dmg to Earth"
+      ]
     },
     "Goblin Giant Mage Card": {
       "kind": "card",
@@ -38562,7 +38851,10 @@
       "slug": "goblin-giant-mage-card",
       "equipSlot": "Weapon",
       "affix": "Earthen",
-      "description": "A big, burly goblin with a lot of brawn, and an attitude to match."
+      "description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+      "stats": [
+        "+7 Weapon element"
+      ]
     },
     "Goblin King Card": {
       "kind": "card",
@@ -38570,7 +38862,10 @@
       "slug": "goblin-king-card",
       "equipSlot": "Chest",
       "affix": "Earthen",
-      "description": "A big, burly goblin with a lot of brawn, and an attitude to match."
+      "description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+      "stats": [
+        "+7 Armor element"
+      ]
     },
     "Goblin Minion Card": {
       "kind": "card",
@@ -38578,7 +38873,10 @@
       "slug": "goblin-minion-card",
       "equipSlot": "Weapon",
       "affix": "Bashing",
-      "description": "A small goblin that works in packs and loves to cause trouble for anyone in its path."
+      "description": "A small goblin that works in packs and loves to cause trouble for anyone in its path.",
+      "stats": [
+        "+10% Bash dmg"
+      ]
     },
     "Goblin Trooper Assassin Card": {
       "kind": "card",
@@ -38586,7 +38884,10 @@
       "slug": "goblin-trooper-assassin-card",
       "equipSlot": "Headgear",
       "affix": "Mobile",
-      "description": "A small goblin that works in packs and loves to cause trouble for anyone in its path."
+      "description": "A small goblin that works in packs and loves to cause trouble for anyone in its path.",
+      "stats": [
+        "Grants Shadow Step Lv1"
+      ]
     },
     "Goblin Trooper Card": {
       "kind": "card",
@@ -38594,7 +38895,10 @@
       "slug": "goblin-trooper-card",
       "equipSlot": "Legwear",
       "affix": "Mudproof",
-      "description": "A goblin soldier who fights with a crude, yet deadly efficiency."
+      "description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+      "stats": [
+        "+15% Earth resist"
+      ]
     },
     "Goblin Trooper Mage Card": {
       "kind": "card",
@@ -38602,7 +38906,10 @@
       "slug": "goblin-trooper-mage-card",
       "equipSlot": "Headgear",
       "affix": "Free",
-      "description": "A goblin soldier who fights with a crude, yet deadly efficiency."
+      "description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+      "stats": [
+        "Grants Free Cast Lv5"
+      ]
     },
     "Goblin Trooper Soldier Card": {
       "kind": "card",
@@ -38610,7 +38917,10 @@
       "slug": "goblin-trooper-soldier-card",
       "equipSlot": "Weapon",
       "affix": "Slashing",
-      "description": "A goblin soldier who fights with a crude, yet deadly efficiency."
+      "description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+      "stats": [
+        "+10% Axe Arc dmg"
+      ]
     },
     "Goblin Warblade Card": {
       "kind": "card",
@@ -38618,7 +38928,10 @@
       "slug": "goblin-warblade-card",
       "equipSlot": "Chest",
       "affix": "Spiked",
-      "description": "A goblin champion wielding a massive blade, reckless but deadly in battle."
+      "description": "A goblin champion wielding a massive blade, reckless but deadly in battle.",
+      "stats": [
+        "Reflects 30% damage"
+      ]
     },
     "Goblin Warchief Card": {
       "kind": "card",
@@ -38626,7 +38939,13 @@
       "slug": "goblin-warchief-card",
       "equipSlot": "Weapon",
       "affix": "Elemental",
-      "description": "The toughest goblin of the horde, rallying its kin with brute force and bellowing war cries."
+      "description": "The toughest goblin of the horde, rallying its kin with brute force and bellowing war cries.",
+      "stats": [
+        "+6% Fire element dmg",
+        "+6% Water element dmg",
+        "+6% Wind element dmg",
+        "+6% Earth element dmg"
+      ]
     },
     "Goblin Warcrusher Card": {
       "kind": "card",
@@ -38634,7 +38953,10 @@
       "slug": "goblin-warcrusher-card",
       "equipSlot": "Accessory",
       "affix": "Seismic",
-      "description": "This goblin prefers brute force, smashing anything in sight with overwhelming strength."
+      "description": "This goblin prefers brute force, smashing anything in sight with overwhelming strength.",
+      "stats": [
+        "+6% Earth element dmg"
+      ]
     },
     "Goblin Warlock Card": {
       "kind": "card",
@@ -38642,7 +38964,10 @@
       "slug": "goblin-warlock-card",
       "equipSlot": "Headgear",
       "affix": "Mind",
-      "description": "A goblin twisted by dark magic, summoning flames and shadows to terrorize friend and foe alike."
+      "description": "A goblin twisted by dark magic, summoning flames and shadows to terrorize friend and foe alike.",
+      "stats": [
+        "+4% Matk"
+      ]
     },
     "Golem Earth Card": {
       "kind": "card",
@@ -38650,7 +38975,10 @@
       "slug": "golem-earth-card",
       "equipSlot": "Chest",
       "affix": "Stone",
-      "description": "This giant stone golem is as tough as the earth itself, don't expect to break it easily!"
+      "description": "This giant stone golem is as tough as the earth itself, don't expect to break it easily!",
+      "stats": [
+        "+15% Def"
+      ]
     },
     "Golem Fire Card": {
       "kind": "card",
@@ -38658,7 +38986,10 @@
       "slug": "golem-fire-card",
       "equipSlot": "Headgear",
       "affix": "Stone",
-      "description": "Made of fire and fury, this golem can heat things up pretty quickly!"
+      "description": "Made of fire and fury, this golem can heat things up pretty quickly!",
+      "stats": [
+        "+10% Def"
+      ]
     },
     "Golem Ice Card": {
       "kind": "card",
@@ -38666,7 +38997,10 @@
       "slug": "golem-ice-card",
       "equipSlot": "Shield",
       "affix": "Stone",
-      "description": "An icy golem that's as cold as its surroundings, don't get too close!"
+      "description": "An icy golem that's as cold as its surroundings, don't get too close!",
+      "stats": [
+        "+3% Def"
+      ]
     },
     "Grim Reaper Card": {
       "kind": "card",
@@ -38674,7 +39008,8 @@
       "slug": "grim-reaper-card",
       "equipSlot": "Accessory",
       "affix": "Undead",
-      "description": "The embodiment of death, it's here to end your quest with a snip of its scythe!"
+      "description": "The embodiment of death, it's here to end your quest with a snip of its scythe!",
+      "stats": []
     },
     "Gripper Robot Card": {
       "kind": "card",
@@ -38682,7 +39017,11 @@
       "slug": "gripper-robot-card",
       "equipSlot": "Chest",
       "affix": "Immune",
-      "description": "A claw-armed contraption designed to crush and hold its prey with unrelenting grip."
+      "description": "A claw-armed contraption designed to crush and hold its prey with unrelenting grip.",
+      "stats": [
+        "+10% Neutral resist",
+        "+10% Max HP"
+      ]
     },
     "Hare Card": {
       "kind": "card",
@@ -38690,7 +39029,10 @@
       "slug": "hare-card",
       "equipSlot": "Shoes",
       "affix": "Fleet",
-      "description": "Quick, nimble, and ready to dash away at the slightest sign of danger."
+      "description": "Quick, nimble, and ready to dash away at the slightest sign of danger.",
+      "stats": [
+        "+20 Move Spd"
+      ]
     },
     "Haunt Card": {
       "kind": "card",
@@ -38698,7 +39040,10 @@
       "slug": "haunt-card",
       "equipSlot": "Legwear",
       "affix": "Lightproof",
-      "description": "A specter of doom, this haunting presence will chill you to the bone."
+      "description": "A specter of doom, this haunting presence will chill you to the bone.",
+      "stats": [
+        "+15% Holy resist"
+      ]
     },
     "Hermit King Card": {
       "kind": "card",
@@ -38706,7 +39051,10 @@
       "slug": "hermit-king-card",
       "equipSlot": "Headgear",
       "affix": "Hydro",
-      "description": "This hermit has a crown, and it's not afraid to use it. Watch out!"
+      "description": "This hermit has a crown, and it's not afraid to use it. Watch out!",
+      "stats": [
+        "Grants Hydro Vortex Lv2"
+      ]
     },
     "Horror Card": {
       "kind": "card",
@@ -38714,7 +39062,10 @@
       "slug": "horror-card",
       "equipSlot": "Headgear",
       "affix": "Savage",
-      "description": "This nightmare of a monster is too terrifying for words. Beware the darkness it brings!"
+      "description": "This nightmare of a monster is too terrifying for words. Beware the darkness it brings!",
+      "stats": [
+        "+7 Crit Dmg"
+      ]
     },
     "Housefly Icky Card": {
       "kind": "card",
@@ -38722,7 +39073,10 @@
       "slug": "housefly-icky-card",
       "equipSlot": "Accessory",
       "affix": "Assassin's",
-      "description": "A pesky, buzzing housefly that's always in your face, bringing discomfort wherever it goes."
+      "description": "A pesky, buzzing housefly that's always in your face, bringing discomfort wherever it goes.",
+      "stats": [
+        "+5 Crit"
+      ]
     },
     "Housefly Junk Card": {
       "kind": "card",
@@ -38730,7 +39084,10 @@
       "slug": "housefly-junk-card",
       "equipSlot": "Headgear",
       "affix": "Assassin's",
-      "description": "A larger, more annoying version of the common housefly, often found around filth and decay."
+      "description": "A larger, more annoying version of the common housefly, often found around filth and decay.",
+      "stats": [
+        "+15% Crit"
+      ]
     },
     "Housefly Nom Card": {
       "kind": "card",
@@ -38738,7 +39095,10 @@
       "slug": "housefly-nom-card",
       "equipSlot": "Weapon",
       "affix": "Assassin's",
-      "description": "A particularly stubborn fly that enjoys buzzing around food and irritating travelers."
+      "description": "A particularly stubborn fly that enjoys buzzing around food and irritating travelers.",
+      "stats": [
+        "+10 Crit"
+      ]
     },
     "Hydro Turtle Card": {
       "kind": "card",
@@ -38746,7 +39106,10 @@
       "slug": "hydro-turtle-card",
       "equipSlot": "Weapon",
       "affix": "Freezing",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10% Freezing Field dmg"
+      ]
     },
     "Ice Baby Card": {
       "kind": "card",
@@ -38754,7 +39117,10 @@
       "slug": "ice-baby-card",
       "equipSlot": "Legwear",
       "affix": "Thawing",
-      "description": ""
+      "description": "",
+      "stats": [
+        "Immune to Frozen"
+      ]
     },
     "Ice Card": {
       "kind": "card",
@@ -38762,7 +39128,10 @@
       "slug": "ice-card",
       "equipSlot": "Accessory",
       "affix": "Icepick",
-      "description": "A cold and unfeeling monster that freezes everything in its path, leaving nothing but frost."
+      "description": "A cold and unfeeling monster that freezes everything in its path, leaving nothing but frost.",
+      "stats": [
+        "Ignores damage reflect"
+      ]
     },
     "Ice Mage Card": {
       "kind": "card",
@@ -38770,7 +39139,11 @@
       "slug": "ice-mage-card",
       "equipSlot": "Chest",
       "affix": "Thawing",
-      "description": "A mage who bends ice and snow to their will, summoning storms to chill the bones of their enemies."
+      "description": "A mage who bends ice and snow to their will, summoning storms to chill the bones of their enemies.",
+      "stats": [
+        "+5 Armor element",
+        "Immune to Frozen"
+      ]
     },
     "Icicle Card": {
       "kind": "card",
@@ -38778,7 +39151,10 @@
       "slug": "icicle-card",
       "equipSlot": "Shoes",
       "affix": "Thawing",
-      "description": "A sharp shard of ice that's as deadly as it is cold, capable of impaling anything in its way."
+      "description": "A sharp shard of ice that's as deadly as it is cold, capable of impaling anything in its way.",
+      "stats": [
+        "Immune to Slow"
+      ]
     },
     "Imp Demon Card": {
       "kind": "card",
@@ -38786,7 +39162,10 @@
       "slug": "imp-demon-card",
       "equipSlot": "Accessory",
       "affix": "Spiked",
-      "description": "A mischievous demon with fiery red skin and a knack for causing trouble wherever it appears."
+      "description": "A mischievous demon with fiery red skin and a knack for causing trouble wherever it appears.",
+      "stats": [
+        "Reflects 5% damage"
+      ]
     },
     "Imp Devil Card": {
       "kind": "card",
@@ -38794,7 +39173,10 @@
       "slug": "imp-devil-card",
       "equipSlot": null,
       "affix": "",
-      "description": ""
+      "description": "",
+      "stats": [
+        "Grants Meteor Lv5"
+      ]
     },
     "Imp Mischief Card": {
       "kind": "card",
@@ -38802,7 +39184,10 @@
       "slug": "imp-mischief-card",
       "equipSlot": "Shield",
       "affix": "Mischief",
-      "description": "A playful imp that likes to prank and trick its victims, sometimes to deadly effect."
+      "description": "A playful imp that likes to prank and trick its victims, sometimes to deadly effect.",
+      "stats": [
+        "+2 Reflect spell"
+      ]
     },
     "Kraken Card": {
       "kind": "card",
@@ -38810,7 +39195,8 @@
       "slug": "kraken-card",
       "equipSlot": null,
       "affix": "",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Little Star Card": {
       "kind": "card",
@@ -38818,7 +39204,10 @@
       "slug": "little-star-card",
       "equipSlot": "Weapon",
       "affix": "Energy",
-      "description": "A glowing alien entity shaped like a star, radiating energy from beyond."
+      "description": "A glowing alien entity shaped like a star, radiating energy from beyond.",
+      "stats": [
+        "+25% MP Regen"
+      ]
     },
     "Lurker Card": {
       "kind": "card",
@@ -38826,7 +39215,10 @@
       "slug": "lurker-card",
       "equipSlot": "Accessory",
       "affix": "Savage",
-      "description": "A sneaky and silent predator that hides in the shadows, waiting for the perfect moment to strike."
+      "description": "A sneaky and silent predator that hides in the shadows, waiting for the perfect moment to strike.",
+      "stats": [
+        "+7 Crit Dmg"
+      ]
     },
     "Mega Ice Golem Card": {
       "kind": "card",
@@ -38834,7 +39226,11 @@
       "slug": "mega-ice-golem-card",
       "equipSlot": "Headgear",
       "affix": "Permafrost",
-      "description": ""
+      "description": "",
+      "stats": [
+        "Chance to cast Ice Shard on hit",
+        "Grants Freezing Edge Lv1"
+      ]
     },
     "Merman Blue Card": {
       "kind": "card",
@@ -38842,7 +39238,10 @@
       "slug": "merman-blue-card",
       "equipSlot": "Legwear",
       "affix": "Status",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% dmg vs statused"
+      ]
     },
     "Merman Pink Card": {
       "kind": "card",
@@ -38850,7 +39249,10 @@
       "slug": "merman-pink-card",
       "equipSlot": "Legwear",
       "affix": "Savage",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+7 Crit Dmg"
+      ]
     },
     "Merman Yellow Card": {
       "kind": "card",
@@ -38858,7 +39260,10 @@
       "slug": "merman-yellow-card",
       "equipSlot": "Weapon",
       "affix": "Lightning",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10% Chain Lightning dmg"
+      ]
     },
     "Mole Rat Card": {
       "kind": "card",
@@ -38866,7 +39271,10 @@
       "slug": "mole-rat-card",
       "equipSlot": "Weapon",
       "affix": "Seismic",
-      "description": "A subterranean rat that burrows through the ground, leaving a trail of destruction in its wake."
+      "description": "A subterranean rat that burrows through the ground, leaving a trail of destruction in its wake.",
+      "stats": [
+        "+6% Earth element dmg"
+      ]
     },
     "Mole Rat King Card": {
       "kind": "card",
@@ -38874,7 +39282,10 @@
       "slug": "mole-rat-king-card",
       "equipSlot": "Headgear",
       "affix": "Stomping",
-      "description": "The ruler of the mole rats, much larger and more dangerous, capable of commanding its kin."
+      "description": "The ruler of the mole rats, much larger and more dangerous, capable of commanding its kin.",
+      "stats": [
+        "Grants Stomp Lv1"
+      ]
     },
     "Mosquito Bug Card": {
       "kind": "card",
@@ -38882,7 +39293,10 @@
       "slug": "mosquito-bug-card",
       "equipSlot": "Accessory",
       "affix": "Vampiric",
-      "description": "A pesky insect that buzzes around, sucking the blood of any living creature it can find."
+      "description": "A pesky insect that buzzes around, sucking the blood of any living creature it can find.",
+      "stats": [
+        "+5% life leech"
+      ]
     },
     "Mosquito Pester Card": {
       "kind": "card",
@@ -38890,7 +39304,10 @@
       "slug": "mosquito-pester-card",
       "equipSlot": "Legwear",
       "affix": "Windproof",
-      "description": "A relentless mosquito that constantly hounds its victims, drawing blood with each attack."
+      "description": "A relentless mosquito that constantly hounds its victims, drawing blood with each attack.",
+      "stats": [
+        "+15% Wind resist"
+      ]
     },
     "Mosquito Stinger Card": {
       "kind": "card",
@@ -38898,7 +39315,10 @@
       "slug": "mosquito-stinger-card",
       "equipSlot": "Accessory",
       "affix": "Haste",
-      "description": "A mosquito with a deadly, venomous sting that leaves its victim weakened and drained."
+      "description": "A mosquito with a deadly, venomous sting that leaves its victim weakened and drained.",
+      "stats": [
+        "Grants Haste Lv5"
+      ]
     },
     "Moth Celestial Card": {
       "kind": "card",
@@ -38906,7 +39326,10 @@
       "slug": "moth-celestial-card",
       "equipSlot": "Shield",
       "affix": "Lightproof",
-      "description": "A majestic moth with ethereal wings, capable of manipulating light and causing illusions."
+      "description": "A majestic moth with ethereal wings, capable of manipulating light and causing illusions.",
+      "stats": [
+        "+25% Holy resist"
+      ]
     },
     "Moth Luna Card": {
       "kind": "card",
@@ -38914,7 +39337,10 @@
       "slug": "moth-luna-card",
       "equipSlot": "Weapon",
       "affix": "Unholy",
-      "description": "A mystical moth that draws power from the moon, casting spells of mystery and enchantment."
+      "description": "A mystical moth that draws power from the moon, casting spells of mystery and enchantment.",
+      "stats": [
+        "+10% dmg to Holy"
+      ]
     },
     "Moth Moon Card": {
       "kind": "card",
@@ -38922,7 +39348,10 @@
       "slug": "moth-moon-card",
       "equipSlot": "Accessory",
       "affix": "Cleric's",
-      "description": "A celestial moth that brings moonlit magic, able to summon lunar energy to protect or harm."
+      "description": "A celestial moth that brings moonlit magic, able to summon lunar energy to protect or harm.",
+      "stats": [
+        "+10% healing"
+      ]
     },
     "Mushroom Card": {
       "kind": "card",
@@ -38930,7 +39359,10 @@
       "slug": "mushroom-card",
       "equipSlot": "Weapon",
       "affix": "Occult",
-      "description": "A giant, toxic mushroom that can release spores to poison or confuse those who get too close."
+      "description": "A giant, toxic mushroom that can release spores to poison or confuse those who get too close.",
+      "stats": [
+        "+5 Matk"
+      ]
     },
     "Nightmare Card": {
       "kind": "card",
@@ -38938,7 +39370,10 @@
       "slug": "nightmare-card",
       "equipSlot": "Shield",
       "affix": "Darkproof",
-      "description": "A terrifying creature that haunts the dreams of the living, bringing fear and nightmares to all."
+      "description": "A terrifying creature that haunts the dreams of the living, bringing fear and nightmares to all.",
+      "stats": [
+        "+25% Shadow resist"
+      ]
     },
     "Nose Robot Card": {
       "kind": "card",
@@ -38946,7 +39381,8 @@
       "slug": "nose-robot-card",
       "equipSlot": "Headgear",
       "affix": "Overheat",
-      "description": "A strange machine with a sensor “nose” that sniffs out enemies before striking."
+      "description": "A strange machine with a sensor “nose” that sniffs out enemies before striking.",
+      "stats": []
     },
     "Nozzle Robot Card": {
       "kind": "card",
@@ -38954,7 +39390,8 @@
       "slug": "nozzle-robot-card",
       "equipSlot": "Accessory",
       "affix": "Volatile",
-      "description": "This machine sprays streams of fire, ice, or worse—depending on its mood."
+      "description": "This machine sprays streams of fire, ice, or worse—depending on its mood.",
+      "stats": []
     },
     "Octopus Baby Blue Card": {
       "kind": "card",
@@ -38962,7 +39399,10 @@
       "slug": "octopus-baby-blue-card",
       "equipSlot": "Accessory",
       "affix": "Elusive",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% Flee"
+      ]
     },
     "Octopus Baby Orange Card": {
       "kind": "card",
@@ -38970,7 +39410,10 @@
       "slug": "octopus-baby-orange-card",
       "equipSlot": "Headgear",
       "affix": "Elusive",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% Flee"
+      ]
     },
     "Octopus Baby Purple Card": {
       "kind": "card",
@@ -38978,7 +39421,10 @@
       "slug": "octopus-baby-purple-card",
       "equipSlot": "Shoes",
       "affix": "Elusive",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% Flee"
+      ]
     },
     "Octopus King Blue Card": {
       "kind": "card",
@@ -38986,7 +39432,10 @@
       "slug": "octopus-king-blue-card",
       "equipSlot": "Legwear",
       "affix": "Mind",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% magic dmg"
+      ]
     },
     "Octopus King Orange Card": {
       "kind": "card",
@@ -38994,7 +39443,10 @@
       "slug": "octopus-king-orange-card",
       "equipSlot": "Legwear",
       "affix": "Melee",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% melee dmg"
+      ]
     },
     "Octopus King Purple Card": {
       "kind": "card",
@@ -39002,7 +39454,10 @@
       "slug": "octopus-king-purple-card",
       "equipSlot": "Legwear",
       "affix": "Ranged",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% ranged dmg"
+      ]
     },
     "Octopus Orange Card": {
       "kind": "card",
@@ -39010,7 +39465,10 @@
       "slug": "octopus-orange-card",
       "equipSlot": "Accessory",
       "affix": "Status",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% dmg vs statused"
+      ]
     },
     "Octopus Purple Card": {
       "kind": "card",
@@ -39018,7 +39476,10 @@
       "slug": "octopus-purple-card",
       "equipSlot": "Headgear",
       "affix": "Status",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% dmg vs statused"
+      ]
     },
     "Octopus White Card": {
       "kind": "card",
@@ -39026,7 +39487,10 @@
       "slug": "octopus-white-card",
       "equipSlot": "Weapon",
       "affix": "Status",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% dmg vs statused"
+      ]
     },
     "Petal Card": {
       "kind": "card",
@@ -39034,7 +39498,10 @@
       "slug": "petal-card",
       "equipSlot": "Weapon",
       "affix": "Tidal",
-      "description": "A delicate and beautiful creature made of petals, yet capable of unleashing deadly thorns."
+      "description": "A delicate and beautiful creature made of petals, yet capable of unleashing deadly thorns.",
+      "stats": [
+        "+5 Weapon element"
+      ]
     },
     "Phantom Card": {
       "kind": "card",
@@ -39042,7 +39509,10 @@
       "slug": "phantom-card",
       "equipSlot": "Headgear",
       "affix": "Arcanum",
-      "description": "A shadowy figure that haunts the land, vanishing as quickly as it appears, leaving only fear."
+      "description": "A shadowy figure that haunts the land, vanishing as quickly as it appears, leaving only fear.",
+      "stats": [
+        "-15% MP cost"
+      ]
     },
     "Plant Chewer Card": {
       "kind": "card",
@@ -39050,7 +39520,10 @@
       "slug": "plant-chewer-card",
       "equipSlot": "Shield",
       "affix": "Immune",
-      "description": "A plant-eating creature with large teeth, capable of tearing through even the toughest foliage."
+      "description": "A plant-eating creature with large teeth, capable of tearing through even the toughest foliage.",
+      "stats": [
+        "+20% Neutral resist"
+      ]
     },
     "Poison Bomb Card": {
       "kind": "card",
@@ -39058,7 +39531,12 @@
       "slug": "poison-bomb-card",
       "equipSlot": "Weapon",
       "affix": "Mystery",
-      "description": "A grotesque blob brimming with toxins, exploding into clouds of poisonous gas when provoked."
+      "description": "A grotesque blob brimming with toxins, exploding into clouds of poisonous gas when provoked.",
+      "stats": [
+        "+1 All Stats",
+        "+5% Max HP",
+        "+5% Max MP"
+      ]
     },
     "Pollen Card": {
       "kind": "card",
@@ -39066,7 +39544,10 @@
       "slug": "pollen-card",
       "equipSlot": "Chest",
       "affix": "Elusive",
-      "description": "A small, flying creature that spreads pollen to cause havoc, often disorienting its prey."
+      "description": "A small, flying creature that spreads pollen to cause havoc, often disorienting its prey.",
+      "stats": [
+        "+15 Flee"
+      ]
     },
     "Posy Card": {
       "kind": "card",
@@ -39074,7 +39555,11 @@
       "slug": "posy-card",
       "equipSlot": "Headgear",
       "affix": "Icy",
-      "description": "A small, innocent-looking flower creature, but don't be fooled, it's more dangerous than it seems."
+      "description": "A small, innocent-looking flower creature, but don't be fooled, it's more dangerous than it seems.",
+      "stats": [
+        "Grants Icebolt Lv2",
+        "10% chance to cast Icebolt on attack"
+      ]
     },
     "Queen Worm Card": {
       "kind": "card",
@@ -39082,7 +39567,10 @@
       "slug": "queen-worm-card",
       "equipSlot": "Headgear",
       "affix": "Toxic",
-      "description": "The monstrous queen of the worms, large and powerful, capable of commanding legions of smaller worms."
+      "description": "The monstrous queen of the worms, large and powerful, capable of commanding legions of smaller worms.",
+      "stats": [
+        "Grants Venom Coating Lv1"
+      ]
     },
     "Rabbit Card": {
       "kind": "card",
@@ -39090,7 +39578,10 @@
       "slug": "rabbit-card",
       "equipSlot": "Shoes",
       "affix": "Swift",
-      "description": "A swift and skittish creature, often seen hopping around in the wild, but not to be underestimated."
+      "description": "A swift and skittish creature, often seen hopping around in the wild, but not to be underestimated.",
+      "stats": [
+        "+10 Move Spd"
+      ]
     },
     "Rat Dark Card": {
       "kind": "card",
@@ -39098,7 +39589,8 @@
       "slug": "rat-dark-card",
       "equipSlot": "Legwear",
       "affix": "",
-      "description": "A frontline combat bot, built for numbers and programmed for relentless assault."
+      "description": "A frontline combat bot, built for numbers and programmed for relentless assault.",
+      "stats": []
     },
     "Rat Grey Card": {
       "kind": "card",
@@ -39106,7 +39598,8 @@
       "slug": "rat-grey-card",
       "equipSlot": "Shield",
       "affix": "",
-      "description": "A frontline combat bot, built for numbers and programmed for relentless assault."
+      "description": "A frontline combat bot, built for numbers and programmed for relentless assault.",
+      "stats": []
     },
     "Rat White Card": {
       "kind": "card",
@@ -39114,7 +39607,8 @@
       "slug": "rat-white-card",
       "equipSlot": "Accessory",
       "affix": "",
-      "description": "A frontline combat bot, built for numbers and programmed for relentless assault."
+      "description": "A frontline combat bot, built for numbers and programmed for relentless assault.",
+      "stats": []
     },
     "Razor Robot Card": {
       "kind": "card",
@@ -39122,7 +39616,11 @@
       "slug": "razor-robot-card",
       "equipSlot": "Shoes",
       "affix": "Rapid",
-      "description": "A machine bristling with blades, slicing through anything foolish enough to get close."
+      "description": "A machine bristling with blades, slicing through anything foolish enough to get close.",
+      "stats": [
+        "+5 Atk Spd",
+        "+5 Move Spd"
+      ]
     },
     "Scorpion Card": {
       "kind": "card",
@@ -39130,7 +39628,10 @@
       "slug": "scorpion-card",
       "equipSlot": "Shield",
       "affix": "Fireproof",
-      "description": "A venomous arachnid with a deadly tail, lurking in the desert or other hostile environments."
+      "description": "A venomous arachnid with a deadly tail, lurking in the desert or other hostile environments.",
+      "stats": [
+        "+25% Fire resist"
+      ]
     },
     "Scorpion King Card": {
       "kind": "card",
@@ -39138,7 +39639,10 @@
       "slug": "scorpion-king-card",
       "equipSlot": "Chest",
       "affix": "Blazing",
-      "description": "A massive scorpion with an oversized tail, its poison stronger and deadlier than its smaller kin."
+      "description": "A massive scorpion with an oversized tail, its poison stronger and deadlier than its smaller kin.",
+      "stats": [
+        "+4 Armor element"
+      ]
     },
     "Scorpling Card": {
       "kind": "card",
@@ -39146,7 +39650,10 @@
       "slug": "scorpling-card",
       "equipSlot": "Weapon",
       "affix": "Ashen",
-      "description": "A baby scorpion that's quick and dangerous, often found in swarms to overwhelm its prey."
+      "description": "A baby scorpion that's quick and dangerous, often found in swarms to overwhelm its prey.",
+      "stats": [
+        "+10% dmg to Fire"
+      ]
     },
     "Seed Card": {
       "kind": "card",
@@ -39154,7 +39661,10 @@
       "slug": "seed-card",
       "equipSlot": "Weapon",
       "affix": "Flurry",
-      "description": "A tiny but dangerous plant creature that grows rapidly, surrounding its prey with thorny vines."
+      "description": "A tiny but dangerous plant creature that grows rapidly, surrounding its prey with thorny vines.",
+      "stats": [
+        "+10% Spear Thrust dmg"
+      ]
     },
     "Shade Card": {
       "kind": "card",
@@ -39162,7 +39672,12 @@
       "slug": "shade-card",
       "equipSlot": "Headgear",
       "affix": "Mystery",
-      "description": "A shadowy figure that seems to move with the darkness, capable of blending into any environment."
+      "description": "A shadowy figure that seems to move with the darkness, capable of blending into any environment.",
+      "stats": [
+        "+1 All Stats",
+        "+5% Max HP",
+        "+5% Max MP"
+      ]
     },
     "Shadow Card": {
       "kind": "card",
@@ -39170,7 +39685,12 @@
       "slug": "shadow-card",
       "equipSlot": "Accessory",
       "affix": "Mystery",
-      "description": "A creature of darkness that is able to manipulate shadows, striking unseen from the gloom."
+      "description": "A creature of darkness that is able to manipulate shadows, striking unseen from the gloom.",
+      "stats": [
+        "+1 All Stats",
+        "+5% Max HP",
+        "+5% Max MP"
+      ]
     },
     "Shadow Ice Card": {
       "kind": "card",
@@ -39178,7 +39698,10 @@
       "slug": "shadow-ice-card",
       "equipSlot": "Legwear",
       "affix": "Cloaking",
-      "description": ""
+      "description": "",
+      "stats": [
+        "Perfect Cloak"
+      ]
     },
     "Shark Baby Card": {
       "kind": "card",
@@ -39186,7 +39709,8 @@
       "slug": "shark-baby-card",
       "equipSlot": "Shield",
       "affix": "Taunting",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Shark Card": {
       "kind": "card",
@@ -39194,7 +39718,8 @@
       "slug": "shark-card",
       "equipSlot": "Legwear",
       "affix": "Taunting",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Shark Pirate Card": {
       "kind": "card",
@@ -39202,7 +39727,8 @@
       "slug": "shark-pirate-card",
       "equipSlot": "Weapon",
       "affix": "Taunting",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Shell Card": {
       "kind": "card",
@@ -39210,7 +39736,10 @@
       "slug": "shell-card",
       "equipSlot": "Legwear",
       "affix": "Immune",
-      "description": "A tough, armored creature that can retract into its shell, making it nearly invincible to attacks."
+      "description": "A tough, armored creature that can retract into its shell, making it nearly invincible to attacks.",
+      "stats": [
+        "+10% Neutral resist"
+      ]
     },
     "Shell Robot Card": {
       "kind": "card",
@@ -39218,7 +39747,10 @@
       "slug": "shell-robot-card",
       "equipSlot": "Legwear",
       "affix": "Rapid",
-      "description": "A heavily armored machine with a near-impenetrable shell, slow but unstoppable."
+      "description": "A heavily armored machine with a near-impenetrable shell, slow but unstoppable.",
+      "stats": [
+        "+10 Atk Spd"
+      ]
     },
     "Skeleton Card": {
       "kind": "card",
@@ -39226,7 +39758,10 @@
       "slug": "skeleton-card",
       "equipSlot": "Weapon",
       "affix": "Sanctified",
-      "description": "A reanimated skeleton with the ability to wield weapons or fight bare-handed in death."
+      "description": "A reanimated skeleton with the ability to wield weapons or fight bare-handed in death.",
+      "stats": [
+        "+6% Holy element dmg"
+      ]
     },
     "Skeleton Giant Card": {
       "kind": "card",
@@ -39234,7 +39769,10 @@
       "slug": "skeleton-giant-card",
       "equipSlot": "Accessory",
       "affix": "Sanctified",
-      "description": "A massive skeletal warrior that uses its size and strength to crush opponents with ease."
+      "description": "A massive skeletal warrior that uses its size and strength to crush opponents with ease.",
+      "stats": [
+        "+6% Holy element dmg"
+      ]
     },
     "Skeleton Mage Card": {
       "kind": "card",
@@ -39242,7 +39780,10 @@
       "slug": "skeleton-mage-card",
       "equipSlot": "Weapon",
       "affix": "Grave",
-      "description": "A spellcasting skeleton, summoning dark magic to ensnare or destroy its enemies."
+      "description": "A spellcasting skeleton, summoning dark magic to ensnare or destroy its enemies.",
+      "stats": [
+        "+10% dmg to Undead"
+      ]
     },
     "Snake Card": {
       "kind": "card",
@@ -39250,7 +39791,11 @@
       "slug": "snake-card",
       "equipSlot": "Headgear",
       "affix": "Venomous",
-      "description": "A slithering serpent that strikes with venomous speed, often hiding in tall grass or dark corners."
+      "description": "A slithering serpent that strikes with venomous speed, often hiding in tall grass or dark corners.",
+      "stats": [
+        "Grants Venom Strike Lv2",
+        "10% chance to cast Venom Strike on attack"
+      ]
     },
     "Snake Naga Card": {
       "kind": "card",
@@ -39258,7 +39803,10 @@
       "slug": "snake-naga-card",
       "equipSlot": "Weapon",
       "affix": "Twinfang",
-      "description": "A half-snake, half-human creature with powerful magic and deadly combat abilities."
+      "description": "A half-snake, half-human creature with powerful magic and deadly combat abilities.",
+      "stats": [
+        "50% Double Attack chance"
+      ]
     },
     "Snakelet Card": {
       "kind": "card",
@@ -39266,7 +39814,10 @@
       "slug": "snakelet-card",
       "equipSlot": "Weapon",
       "affix": "Venomous",
-      "description": "A small and sneaky serpent that hides in the underbrush, striking with venomous fangs."
+      "description": "A small and sneaky serpent that hides in the underbrush, striking with venomous fangs.",
+      "stats": [
+        "+10% Venom Strike dmg"
+      ]
     },
     "Snout Robot Card": {
       "kind": "card",
@@ -39274,7 +39825,10 @@
       "slug": "snout-robot-card",
       "equipSlot": "Weapon",
       "affix": "Pillar",
-      "description": "A huffing, puffing contraption that blasts bursts of steam and smoke to suffocate foes."
+      "description": "A huffing, puffing contraption that blasts bursts of steam and smoke to suffocate foes.",
+      "stats": [
+        "+10% Fire Pillar dmg"
+      ]
     },
     "Snow Bomb Card": {
       "kind": "card",
@@ -39282,7 +39836,10 @@
       "slug": "snow-bomb-card",
       "equipSlot": "Weapon",
       "affix": "Mind",
-      "description": "A frosty creature packed with icy powder, ready to burst into a chilling explosion."
+      "description": "A frosty creature packed with icy powder, ready to burst into a chilling explosion.",
+      "stats": [
+        "+4% Matk"
+      ]
     },
     "Solar Turtle Card": {
       "kind": "card",
@@ -39290,7 +39847,10 @@
       "slug": "solar-turtle-card",
       "equipSlot": "Weapon",
       "affix": "Meteoric",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10% Meteor dmg"
+      ]
     },
     "Soul Card": {
       "kind": "card",
@@ -39298,7 +39858,10 @@
       "slug": "soul-card",
       "equipSlot": "Weapon",
       "affix": "Soul",
-      "description": "A Elusive figure with no physical form, it haunts the living, draining energy from those it touches."
+      "description": "A Elusive figure with no physical form, it haunts the living, draining energy from those it touches.",
+      "stats": [
+        "+10% Soul Strike dmg"
+      ]
     },
     "Soul Mage Card": {
       "kind": "card",
@@ -39306,7 +39869,10 @@
       "slug": "soul-mage-card",
       "equipSlot": "Accessory",
       "affix": "Wizardry",
-      "description": "A mage who channels the power of souls, able to summon spirits to do its bidding."
+      "description": "A mage who channels the power of souls, able to summon spirits to do its bidding.",
+      "stats": [
+        "+10 Cast Spd"
+      ]
     },
     "Spider Card": {
       "kind": "card",
@@ -39314,7 +39880,10 @@
       "slug": "spider-card",
       "equipSlot": "Weapon",
       "affix": "Shadow",
-      "description": "A venomous arachnid with eight legs and a penchant for building deadly webs to trap its prey."
+      "description": "A venomous arachnid with eight legs and a penchant for building deadly webs to trap its prey.",
+      "stats": [
+        "+10% Shadow Step dmg"
+      ]
     },
     "Spider King Card": {
       "kind": "card",
@@ -39322,7 +39891,10 @@
       "slug": "spider-king-card",
       "equipSlot": "Weapon",
       "affix": "Poisonous",
-      "description": "The king of all spiders, with a larger, deadlier body and the ability to command arachnid minions."
+      "description": "The king of all spiders, with a larger, deadlier body and the ability to command arachnid minions.",
+      "stats": [
+        "+1 Weapon element"
+      ]
     },
     "Spider Queen Card": {
       "kind": "card",
@@ -39330,7 +39902,13 @@
       "slug": "spider-queen-card",
       "equipSlot": "Weapon",
       "affix": "Unnatural",
-      "description": "The metallic matriarch of mechanized spiders, spinning webs of steel and circuits."
+      "description": "The metallic matriarch of mechanized spiders, spinning webs of steel and circuits.",
+      "stats": [
+        "+6% Holy element dmg",
+        "+6% Shadow element dmg",
+        "+6% Poison element dmg",
+        "+6% Undead element dmg"
+      ]
     },
     "Spider Robot Card": {
       "kind": "card",
@@ -39338,7 +39916,10 @@
       "slug": "spider-robot-card",
       "equipSlot": "Weapon",
       "affix": "Combo",
-      "description": "A mechanical spider that scuttles with eerie precision, weaving metallic traps."
+      "description": "A mechanical spider that scuttles with eerie precision, weaving metallic traps.",
+      "stats": [
+        "25% Double Attack chance"
+      ]
     },
     "Spider Toxin Card": {
       "kind": "card",
@@ -39346,7 +39927,10 @@
       "slug": "spider-toxin-card",
       "equipSlot": "Weapon",
       "affix": "Dancing",
-      "description": "A particularly venomous spider, its bite causes intense pain and paralysis in its victims."
+      "description": "A particularly venomous spider, its bite causes intense pain and paralysis in its victims.",
+      "stats": [
+        "+10% Blade Dance dmg"
+      ]
     },
     "Spiderling Robot Card": {
       "kind": "card",
@@ -39354,7 +39938,10 @@
       "slug": "spiderling-robot-card",
       "equipSlot": "Accessory",
       "affix": "Poisonous",
-      "description": "Smaller but no less menacing, these tiny bots swarm in mechanical packs."
+      "description": "Smaller but no less menacing, these tiny bots swarm in mechanical packs.",
+      "stats": [
+        "+6% Poison element dmg"
+      ]
     },
     "Spike Card": {
       "kind": "card",
@@ -39362,7 +39949,10 @@
       "slug": "spike-card",
       "equipSlot": "Headgear",
       "affix": "Frosty",
-      "description": "A creature covered in sharp, deadly spikes, making it a dangerous opponent at close range."
+      "description": "A creature covered in sharp, deadly spikes, making it a dangerous opponent at close range.",
+      "stats": [
+        "Grants Ice Shard Lv2"
+      ]
     },
     "Spike Robot Card": {
       "kind": "card",
@@ -39370,7 +39960,10 @@
       "slug": "spike-robot-card",
       "equipSlot": "Headgear",
       "affix": "Rapid",
-      "description": "A spiked machine that turns defense into offense—get too close and you'll regret it."
+      "description": "A spiked machine that turns defense into offense—get too close and you'll regret it.",
+      "stats": [
+        "+10 Atk Spd"
+      ]
     },
     "Spook Card": {
       "kind": "card",
@@ -39378,7 +39971,10 @@
       "slug": "spook-card",
       "equipSlot": "Shoes",
       "affix": "Unbreaking",
-      "description": "A Elusive entity that frightens and disorients its prey, often causing them to panic."
+      "description": "A Elusive entity that frightens and disorients its prey, often causing them to panic.",
+      "stats": [
+        "Uninterruptible casting"
+      ]
     },
     "Spore Card": {
       "kind": "card",
@@ -39386,7 +39982,11 @@
       "slug": "spore-card",
       "equipSlot": "Weapon",
       "affix": "Vital",
-      "description": "A tiny creature that releases dangerous spores that can poison or confuse its victims."
+      "description": "A tiny creature that releases dangerous spores that can poison or confuse its victims.",
+      "stats": [
+        "+100 Max HP",
+        "+1 Vit"
+      ]
     },
     "Sporeling Card": {
       "kind": "card",
@@ -39394,7 +39994,10 @@
       "slug": "sporeling-card",
       "equipSlot": "Weapon",
       "affix": "Poisonous",
-      "description": "A strange fungal creature from beyond, releasing alien spores that twist and warp anything they touch."
+      "description": "A strange fungal creature from beyond, releasing alien spores that twist and warp anything they touch.",
+      "stats": [
+        "+6% Poison element dmg"
+      ]
     },
     "Sprout Card": {
       "kind": "card",
@@ -39402,7 +40005,11 @@
       "slug": "sprout-card",
       "equipSlot": "Headgear",
       "affix": "Splintering",
-      "description": "A small, young plant creature that grows rapidly, using vines and roots to ensnare its enemies."
+      "description": "A small, young plant creature that grows rapidly, using vines and roots to ensnare its enemies.",
+      "stats": [
+        "Grants Earthbolt Lv2",
+        "10% chance to cast Earthbolt on attack"
+      ]
     },
     "Starflake Card": {
       "kind": "card",
@@ -39410,7 +40017,11 @@
       "slug": "starflake-card",
       "equipSlot": "Legwear",
       "affix": "Stone",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+5% Def",
+        "+5% Mdef"
+      ]
     },
     "Sting Card": {
       "kind": "card",
@@ -39418,7 +40029,10 @@
       "slug": "sting-card",
       "equipSlot": "Headgear",
       "affix": "Frenzy",
-      "description": "A small but fierce creature that delivers powerful stings, often found in large swarms."
+      "description": "A small but fierce creature that delivers powerful stings, often found in large swarms.",
+      "stats": [
+        "+20 Atk Spd"
+      ]
     },
     "Storm Turtle Card": {
       "kind": "card",
@@ -39426,7 +40040,10 @@
       "slug": "storm-turtle-card",
       "equipSlot": "Weapon",
       "affix": "Tempest",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+10% Tempest dmg"
+      ]
     },
     "Stormcoil Card": {
       "kind": "card",
@@ -39434,7 +40051,11 @@
       "slug": "stormcoil-card",
       "equipSlot": "Shoes",
       "affix": "Swift",
-      "description": "A writhing machine with steel tendrils, grabbing and crushing everything it can reach."
+      "description": "A writhing machine with steel tendrils, grabbing and crushing everything it can reach.",
+      "stats": [
+        "+20 Move Spd",
+        "-20% Max MP"
+      ]
     },
     "Stormjelly Card": {
       "kind": "card",
@@ -39442,7 +40063,11 @@
       "slug": "stormjelly-card",
       "equipSlot": "Chest",
       "affix": "Wisdom",
-      "description": "A floating machine with pulsing lights and electric stingers, drifting gracefully before it shocks."
+      "description": "A floating machine with pulsing lights and electric stingers, drifting gracefully before it shocks.",
+      "stats": [
+        "+50% MP Regen",
+        "-50% HP Regen"
+      ]
     },
     "Stormstinger Card": {
       "kind": "card",
@@ -39450,7 +40075,11 @@
       "slug": "stormstinger-card",
       "equipSlot": "Shoes",
       "affix": "Wisdom",
-      "description": "A buzzing machine armed with a piercing stinger, darting in and out like a mechanical wasp."
+      "description": "A buzzing machine armed with a piercing stinger, darting in and out like a mechanical wasp.",
+      "stats": [
+        "+100% MP Regen",
+        "-50% Max MP"
+      ]
     },
     "Sun Blossom Card": {
       "kind": "card",
@@ -39458,7 +40087,10 @@
       "slug": "sun-blossom-card",
       "equipSlot": "Shield",
       "affix": "Enchanted",
-      "description": "A radiant creature that glows with the power of the sun, often used for healing or offensive light magic."
+      "description": "A radiant creature that glows with the power of the sun, often used for healing or offensive light magic.",
+      "stats": [
+        "+15% healing"
+      ]
     },
     "Sunflora Pixie Card": {
       "kind": "card",
@@ -39466,7 +40098,10 @@
       "slug": "sunflora-pixie-card",
       "equipSlot": "Headgear",
       "affix": "Vocal",
-      "description": "A tiny fairy-like creature made of sunlight, capable of casting blinding beams of light."
+      "description": "A tiny fairy-like creature made of sunlight, capable of casting blinding beams of light.",
+      "stats": [
+        "Immune to Silence"
+      ]
     },
     "Sunflower Fairy Card": {
       "kind": "card",
@@ -39474,7 +40109,10 @@
       "slug": "sunflower-fairy-card",
       "equipSlot": "Legwear",
       "affix": "Blessed",
-      "description": "A sun-dwelling fairy that controls sunlight, often brightening the area or unleashing solar magic."
+      "description": "A sun-dwelling fairy that controls sunlight, often brightening the area or unleashing solar magic.",
+      "stats": [
+        "+15% healing"
+      ]
     },
     "Toadstool Card": {
       "kind": "card",
@@ -39482,7 +40120,10 @@
       "slug": "toadstool-card",
       "equipSlot": "Shield",
       "affix": "Waterproof",
-      "description": "A poisonous mushroom creature that releases spores capable of putting others to sleep or poisoning them."
+      "description": "A poisonous mushroom creature that releases spores capable of putting others to sleep or poisoning them.",
+      "stats": [
+        "+25% Water resist"
+      ]
     },
     "Treant Forest Autumn Card": {
       "kind": "card",
@@ -39490,7 +40131,11 @@
       "slug": "treant-forest-autumn-card",
       "equipSlot": "Shield",
       "affix": "Autumn",
-      "description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders."
+      "description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders.",
+      "stats": [
+        "+1 MP Regen",
+        "-50% HP Regen"
+      ]
     },
     "Treant Forest Evergreen Card": {
       "kind": "card",
@@ -39498,7 +40143,10 @@
       "slug": "treant-forest-evergreen-card",
       "equipSlot": "Shield",
       "affix": "Evergreen",
-      "description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders."
+      "description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders.",
+      "stats": [
+        "+10% HP Regen"
+      ]
     },
     "Treant Minion Autumn Card": {
       "kind": "card",
@@ -39506,7 +40154,11 @@
       "slug": "treant-minion-autumn-card",
       "equipSlot": "Shoes",
       "affix": "Autumn",
-      "description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest."
+      "description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest.",
+      "stats": [
+        "+20 Max MP",
+        "+25% MP Regen"
+      ]
     },
     "Treant Minion Evergreen Card": {
       "kind": "card",
@@ -39514,7 +40166,11 @@
       "slug": "treant-minion-evergreen-card",
       "equipSlot": "Legwear",
       "affix": "Evergreen",
-      "description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest."
+      "description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest.",
+      "stats": [
+        "+100 Max HP",
+        "+25% HP Regen"
+      ]
     },
     "Treant Tree Autumn Card": {
       "kind": "card",
@@ -39522,7 +40178,10 @@
       "slug": "treant-tree-autumn-card",
       "equipSlot": "Chest",
       "affix": "Autumn",
-      "description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will."
+      "description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will.",
+      "stats": [
+        "+20% Max MP"
+      ]
     },
     "Treant Tree Evergreen Card": {
       "kind": "card",
@@ -39530,7 +40189,10 @@
       "slug": "treant-tree-evergreen-card",
       "equipSlot": "Chest",
       "affix": "Evergreen",
-      "description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will."
+      "description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will.",
+      "stats": [
+        "+20% Max HP"
+      ]
     },
     "Turtle Baby Card": {
       "kind": "card",
@@ -39538,7 +40200,8 @@
       "slug": "turtle-baby-card",
       "equipSlot": "Shield",
       "affix": "Steadfast",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Turtle Blue Card": {
       "kind": "card",
@@ -39546,7 +40209,8 @@
       "slug": "turtle-blue-card",
       "equipSlot": "Headgear",
       "affix": "Watchful",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Turtle Champion Card": {
       "kind": "card",
@@ -39554,7 +40218,11 @@
       "slug": "turtle-champion-card",
       "equipSlot": "Headgear",
       "affix": "Overload",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+15% Tetra Vortex dmg",
+        "Tetra Vortex MP cost +100"
+      ]
     },
     "Turtle Green Card": {
       "kind": "card",
@@ -39562,7 +40230,8 @@
       "slug": "turtle-green-card",
       "equipSlot": "Headgear",
       "affix": "Purifying",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Turtle Red Card": {
       "kind": "card",
@@ -39570,7 +40239,8 @@
       "slug": "turtle-red-card",
       "equipSlot": "Headgear",
       "affix": "Flameguard",
-      "description": ""
+      "description": "",
+      "stats": []
     },
     "Twinkle Card": {
       "kind": "card",
@@ -39578,7 +40248,10 @@
       "slug": "twinkle-card",
       "equipSlot": "Accessory",
       "affix": "Energy",
-      "description": "A playful cosmic being, its sparkle hides dangerous bursts of starlight."
+      "description": "A playful cosmic being, its sparkle hides dangerous bursts of starlight.",
+      "stats": [
+        "+25% MP Regen"
+      ]
     },
     "Vampire Bat Card": {
       "kind": "card",
@@ -39586,7 +40259,10 @@
       "slug": "vampire-bat-card",
       "equipSlot": "Accessory",
       "affix": "Leeching",
-      "description": "A bloodthirsty bat that hunts at night, draining the life force from those it catches."
+      "description": "A bloodthirsty bat that hunts at night, draining the life force from those it catches.",
+      "stats": [
+        "+10 HP siphon"
+      ]
     },
     "Vanilla Ice Card": {
       "kind": "card",
@@ -39594,7 +40270,11 @@
       "slug": "vanilla-ice-card",
       "equipSlot": "Legwear",
       "affix": "Energy",
-      "description": ""
+      "description": "",
+      "stats": [
+        "+25% MP Regen",
+        "-10% MP cost"
+      ]
     },
     "Voidgazer Card": {
       "kind": "card",
@@ -39602,7 +40282,10 @@
       "slug": "voidgazer-card",
       "equipSlot": "Headgear",
       "affix": "Mystery",
-      "description": "Smaller than its cyclopean kin, but just as unnerving—this alien's eye glows with strange energy."
+      "description": "Smaller than its cyclopean kin, but just as unnerving—this alien's eye glows with strange energy.",
+      "stats": [
+        "Uninterruptible casting"
+      ]
     },
     "Voidspawn Card": {
       "kind": "card",
@@ -39610,7 +40293,10 @@
       "slug": "voidspawn-card",
       "equipSlot": "Headgear",
       "affix": "Gaze",
-      "description": "A towering alien with one glaring eye, wielding shadowy powers that shouldn't exist in this realm."
+      "description": "A towering alien with one glaring eye, wielding shadowy powers that shouldn't exist in this realm.",
+      "stats": [
+        "Detects hidden enemies"
+      ]
     },
     "Werewolf Card": {
       "kind": "card",
@@ -39618,7 +40304,10 @@
       "slug": "werewolf-card",
       "equipSlot": "Chest",
       "affix": "Tainted",
-      "description": "A fearsome beast that transforms from human to wolf, bringing devastation with its claws and teeth."
+      "description": "A fearsome beast that transforms from human to wolf, bringing devastation with its claws and teeth.",
+      "stats": [
+        "+2 Armor element"
+      ]
     },
     "Whirlwind Card": {
       "kind": "card",
@@ -39626,7 +40315,10 @@
       "slug": "whirlwind-card",
       "equipSlot": "Weapon",
       "affix": "Grounding",
-      "description": "A living funnel of air, whipping up storms and tossing its prey around like leaves."
+      "description": "A living funnel of air, whipping up storms and tossing its prey around like leaves.",
+      "stats": [
+        "+10% dmg to Wind"
+      ]
     },
     "Wind Card": {
       "kind": "card",
@@ -39634,7 +40326,10 @@
       "slug": "wind-card",
       "equipSlot": "Weapon",
       "affix": "Storm",
-      "description": "A swift elemental spirit, swirling invisibly until its gusts send you flying off your feet."
+      "description": "A swift elemental spirit, swirling invisibly until its gusts send you flying off your feet.",
+      "stats": [
+        "+10% Thunder Storm dmg"
+      ]
     },
     "Wind Mage Card": {
       "kind": "card",
@@ -39642,7 +40337,10 @@
       "slug": "wind-mage-card",
       "equipSlot": "Weapon",
       "affix": "Gale",
-      "description": "A mage who commands the winds, capable of summoning gusts to disorient or damage foes."
+      "description": "A mage who commands the winds, capable of summoning gusts to disorient or damage foes.",
+      "stats": [
+        "+6 Weapon element"
+      ]
     },
     "Wisp Blue Card": {
       "kind": "card",
@@ -39650,7 +40348,10 @@
       "slug": "wisp-blue-card",
       "equipSlot": "Weapon",
       "affix": "Icy",
-      "description": "A pale blue flame that chills the bones as it drifts silently in the dark."
+      "description": "A pale blue flame that chills the bones as it drifts silently in the dark.",
+      "stats": [
+        "+10% Icebolt dmg"
+      ]
     },
     "Wisp Purple Card": {
       "kind": "card",
@@ -39658,7 +40359,10 @@
       "slug": "wisp-purple-card",
       "equipSlot": "Weapon",
       "affix": "Shocking",
-      "description": "A ghostly wisp of violet energy, unpredictable and eerie to behold."
+      "description": "A ghostly wisp of violet energy, unpredictable and eerie to behold.",
+      "stats": [
+        "+10% Thunderbolt dmg"
+      ]
     },
     "Wisp Red Card": {
       "kind": "card",
@@ -39666,7 +40370,10 @@
       "slug": "wisp-red-card",
       "equipSlot": "Weapon",
       "affix": "Flaming",
-      "description": "A fiery spark that dances in the air, eager to set anything ablaze with its touch."
+      "description": "A fiery spark that dances in the air, eager to set anything ablaze with its touch.",
+      "stats": [
+        "+10% Firebolt dmg"
+      ]
     },
     "Wisp Yellow Card": {
       "kind": "card",
@@ -39674,7 +40381,10 @@
       "slug": "wisp-yellow-card",
       "equipSlot": "Weapon",
       "affix": "Splintering",
-      "description": "A small floating flame of bright yellow energy, harmless-looking until it swarms."
+      "description": "A small floating flame of bright yellow energy, harmless-looking until it swarms.",
+      "stats": [
+        "+10% Earthbolt dmg"
+      ]
     },
     "Wolf Card": {
       "kind": "card",
@@ -39682,7 +40392,10 @@
       "slug": "wolf-card",
       "equipSlot": "Accessory",
       "affix": "Umbral",
-      "description": "A swift, strong predator that hunts in packs, known for its loyalty and cunning."
+      "description": "A swift, strong predator that hunts in packs, known for its loyalty and cunning.",
+      "stats": [
+        "+6% Shadow element dmg"
+      ]
     },
     "Wolf Pup Card": {
       "kind": "card",
@@ -39690,7 +40403,10 @@
       "slug": "wolf-pup-card",
       "equipSlot": "Weapon",
       "affix": "Umbral",
-      "description": "A young wolf that's learning to hunt, quick and agile but still not as deadly as its parents."
+      "description": "A young wolf that's learning to hunt, quick and agile but still not as deadly as its parents.",
+      "stats": [
+        "+6% Shadow element dmg"
+      ]
     },
     "Worm Card": {
       "kind": "card",
@@ -39698,7 +40414,10 @@
       "slug": "worm-card",
       "equipSlot": "Shield",
       "affix": "Toxinproof",
-      "description": "A smaller version of the giant worm, but still capable of surprising and overwhelming its prey."
+      "description": "A smaller version of the giant worm, but still capable of surprising and overwhelming its prey.",
+      "stats": [
+        "+25% Poison resist"
+      ]
     },
     "Worm Creep Card": {
       "kind": "card",
@@ -39706,7 +40425,10 @@
       "slug": "worm-creep-card",
       "equipSlot": "Chest",
       "affix": "Poisonous",
-      "description": "A giant, burrowing worm that tunnels underground, often causing havoc when it emerges."
+      "description": "A giant, burrowing worm that tunnels underground, often causing havoc when it emerges.",
+      "stats": [
+        "+1 Armor element"
+      ]
     },
     "Worm Rot Card": {
       "kind": "card",
@@ -39714,7 +40436,10 @@
       "slug": "worm-rot-card",
       "equipSlot": "Legwear",
       "affix": "Toxinproof",
-      "description": "A decayed, undead worm that slithers from the earth, leaving rot in its wake."
+      "description": "A decayed, undead worm that slithers from the earth, leaving rot in its wake.",
+      "stats": [
+        "+15% Poison resist"
+      ]
     },
     "Worm Stink Card": {
       "kind": "card",
@@ -39722,7 +40447,10 @@
       "slug": "worm-stink-card",
       "equipSlot": "Weapon",
       "affix": "Purging",
-      "description": "A foul-smelling worm that can incapacitate its enemies with its toxic, rotting stench."
+      "description": "A foul-smelling worm that can incapacitate its enemies with its toxic, rotting stench.",
+      "stats": [
+        "+10% dmg to Poison"
+      ]
     },
     "Wraith Card": {
       "kind": "card",
@@ -39730,7 +40458,8 @@
       "slug": "wraith-card",
       "equipSlot": "Headgear",
       "affix": "Frenzied",
-      "description": "A terrifying, Elusive entity that haunts the living, draining their life force with every touch."
+      "description": "A terrifying, Elusive entity that haunts the living, draining their life force with every touch.",
+      "stats": []
     },
     "Zombie Goblin Giant Card": {
       "kind": "card",
@@ -39738,7 +40467,10 @@
       "slug": "zombie-goblin-giant-card",
       "equipSlot": "Weapon",
       "affix": "Undead",
-      "description": "A massive goblin brought back in grotesque undeath, lumbering forward with rotten strength."
+      "description": "A massive goblin brought back in grotesque undeath, lumbering forward with rotten strength.",
+      "stats": [
+        "+8 Weapon element"
+      ]
     },
     "Zombie Goblin Lord Card": {
       "kind": "card",
@@ -39746,7 +40478,10 @@
       "slug": "zombie-goblin-lord-card",
       "equipSlot": "Chest",
       "affix": "Undead",
-      "description": "Once a proud leader, now a rotting husk. This goblin king still commands fear through sheer undeath."
+      "description": "Once a proud leader, now a rotting husk. This goblin king still commands fear through sheer undeath.",
+      "stats": [
+        "+8 Armor element"
+      ]
     },
     "Zombie Goblin Minion Card": {
       "kind": "card",
@@ -39754,7 +40489,10 @@
       "slug": "zombie-goblin-minion-card",
       "equipSlot": "Legwear",
       "affix": "Purity",
-      "description": "A mindless husk of a goblin, dragged back from death to serve once more in endless war."
+      "description": "A mindless husk of a goblin, dragged back from death to serve once more in endless war.",
+      "stats": [
+        "+15% Undead resist"
+      ]
     },
     "Zombie Goblin Soldier Card": {
       "kind": "card",
@@ -39762,7 +40500,11 @@
       "slug": "zombie-goblin-soldier-card",
       "equipSlot": "Shield",
       "affix": "Undying",
-      "description": "A fallen goblin warrior reanimated, still clutching its crude weapon with decayed resolve."
+      "description": "A fallen goblin warrior reanimated, still clutching its crude weapon with decayed resolve.",
+      "stats": [
+        "+25% Max HP",
+        "-50% healing received"
+      ]
     }
   }
 }

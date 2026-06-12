@@ -1,4 +1,4 @@
-const atkCls = (s) => (/^(matk|atk)\b/i.test(s) ? ' stat-atk' : '');
+const atkCls = (s) => (/(^|\s)m?atk(:|$)/i.test(s) ? ' stat-atk' : '');
 
 export default function ItemTooltip({ item }) {
   if (!item) return null;
@@ -6,6 +6,9 @@ export default function ItemTooltip({ item }) {
     return (
       <div className="item-tip">
         <b>{item.name}</b> <span className="muted">Card{item.equipSlot ? ` · fits ${item.equipSlot}` : ''}{item.affix ? ` · ${item.affix}` : ''}</span>
+        {(item.stats || []).map((s, i) => (
+          <div key={`c${i}`} className={`tip-stat${atkCls(s)}`}>{s}</div>
+        ))}
         {item.description && <div className="tip-stat muted">{item.description}</div>}
       </div>
     );

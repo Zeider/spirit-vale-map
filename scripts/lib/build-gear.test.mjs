@@ -45,7 +45,7 @@ describe('buildGear', () => {
 describe('buildGear cards', () => {
   const out = buildGear({ equipment: [], cards: [{ name: 'Angel Card', slug: 'angel-card', slot: 'Weapon', affix: 'Blessed', description: 'A serene being.' }] });
   it('emits a cards map keyed by name with kind=card', () => {
-    expect(out.cards['Angel Card']).toEqual({ kind: 'card', name: 'Angel Card', slug: 'angel-card', equipSlot: 'Weapon', affix: 'Blessed', description: 'A serene being.' });
+    expect(out.cards['Angel Card']).toEqual({ kind: 'card', name: 'Angel Card', slug: 'angel-card', equipSlot: 'Weapon', affix: 'Blessed', description: 'A serene being.', stats: [] });
   });
   it('tolerates a catalog with no cards', () => {
     expect(buildGear({ equipment: [] }).cards).toEqual({});
