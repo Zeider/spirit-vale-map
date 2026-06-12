@@ -35,6 +35,10 @@ function craftOf(crafting) {
   return { zoneSlug: m.Slug || m.slug, zoneName: m.DisplayName || m.GameId || m.name, materials };
 }
 
+function cardOf(c) {
+  return { kind: 'card', name: c.name, slug: c.slug, equipSlot: c.slot || null, affix: c.affix || '', description: c.description || '' };
+}
+
 export function buildGear(catalog) {
   const items = {};
   for (const e of catalog.equipment) {
@@ -49,5 +53,7 @@ export function buildGear(catalog) {
       description: e.description || '', sources: flattenSources(e.drops), craft: craftOf(e.crafting),
     };
   }
-  return { slots: SLOTS, items };
+  const cards = {};
+  for (const c of catalog.cards || []) cards[c.name] = cardOf(c);
+  return { slots: SLOTS, items, cards };
 }
