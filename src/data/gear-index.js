@@ -9,3 +9,4 @@ for (const it of Object.values(items)) if (!(it.name in gearByName)) gearByName[
 
 export const cards = data.cards || {};
 export const cardByName = cards;
+export const artifacts = data.artifacts || [];

@@ -45,7 +45,27 @@ function cardOf(c, raw) {
   };
 }
 
-export function buildGear(catalog, rawCardBySlug) {
+function nonZeroLine(line) {
+  return !/^[+-]?0(\s|%)/.test(line); // drop "+0 X" / "0% X" noise from per-refine
+}
+
+function artifactOf(a) {
+  return {
+    slug: a.Slug,
+    name: a.DisplayName,
+    description: a.Description || '',
+    fullSet: formatCardStats(a.FullSet),
+    perPiece: formatCardStats(a.PerPiece),
+    perRefine: formatCardStats(a.PerRefine).filter(nonZeroLine),
+    zones: a.Maps || [],
+  };
+}
+
+export function buildArtifacts(rawArtifacts) {
+  return (rawArtifacts || []).map(artifactOf);
+}
+
+export function buildGear(catalog, raw = {}) {
   const items = {};
   for (const e of catalog.equipment) {
     const slot = categoryOf(e.equipmentType);
@@ -55,11 +75,12 @@ export function buildGear(catalog, rawCardBySlug) {
     items[e.slug] = {
       slug: e.slug, name: e.name, type: e.equipmentType, slot, cardSlots: e.slots || 0,
       statsPrimary, statsSecondary, setBonus: stripHtml(e.statsFullSet),
+      setName: (raw.equipBySlug && raw.equipBySlug.get(e.slug) && raw.equipBySlug.get(e.slug).Set) || null,
       parsedStats: [...statsPrimary, ...statsSecondary].map(parseStat),
       description: e.description || '', sources: flattenSources(e.drops), craft: craftOf(e.crafting),
     };
   }
   const cards = {};
-  for (const c of catalog.cards || []) cards[c.name] = cardOf(c, rawCardBySlug && rawCardBySlug.get(c.slug));
-  return { slots: SLOTS, items, cards };
+  for (const c of catalog.cards || []) cards[c.name] = cardOf(c, raw.cardBySlug && raw.cardBySlug.get(c.slug));
+  return { slots: SLOTS, items, cards, artifacts: buildArtifacts(raw.artifacts || []) };
 }

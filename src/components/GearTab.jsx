@@ -1,6 +1,7 @@
 import { useStore } from '../state/store.jsx';
 import GearProgression from './GearProgression.jsx';
 import StatSheet from './StatSheet.jsx';
+import ArtifactPanel from './ArtifactPanel.jsx';
 
 export default function GearTab() {
   const { state } = useStore();
@@ -9,6 +10,7 @@ export default function GearTab() {
     <div className="gear-view">
       <GearProgression />
       <StatSheet />
+      <ArtifactPanel />
     </div>
   );
 }

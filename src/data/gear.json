@@ -29,6 +29,7 @@
         "Shadow Step Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -121,6 +122,7 @@
         "All Stats: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -180,6 +182,7 @@
         "All Stats: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -248,6 +251,7 @@
         "Grants Lv.3 Heal"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -317,6 +321,7 @@
         "Grants Lv.3 Free Cast"
       ],
       "setBonus": [],
+      "setName": "Arcane",
       "parsedStats": [
         {
           "label": "Def",
@@ -393,6 +398,7 @@
         "Mp Regen +100%"
       ],
       "setBonus": [],
+      "setName": "Arcane",
       "parsedStats": [
         {
           "label": "Def",
@@ -476,6 +482,7 @@
         "Grants Lv.5 Haste"
       ],
       "setBonus": [],
+      "setName": "Arcane",
       "parsedStats": [
         {
           "label": "Def",
@@ -559,6 +566,7 @@
         "Atk: +3%"
       ],
       "setBonus": [],
+      "setName": "Arcane",
       "parsedStats": [
         {
           "label": "Def",
@@ -647,6 +655,7 @@
         "Damage Ranged: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -735,6 +744,7 @@
         "Damage from Ranged: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -793,6 +803,7 @@
         "Siphon Hp: +10"
       ],
       "setBonus": [],
+      "setName": "Thief",
       "parsedStats": [
         {
           "label": "Def",
@@ -914,6 +925,7 @@
         "Crit: +5"
       ],
       "setBonus": [],
+      "setName": "Thief",
       "parsedStats": [
         {
           "label": "Def",
@@ -1031,6 +1043,7 @@
         "Atk Spd: +10%"
       ],
       "setBonus": [],
+      "setName": "Thief",
       "parsedStats": [
         {
           "label": "Def",
@@ -1135,6 +1148,7 @@
         "Crit Damage: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -1226,6 +1240,7 @@
         "Health on hit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -1318,6 +1333,7 @@
         "Mp Regen: +2"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -1377,6 +1393,7 @@
         "Mdef: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -1433,6 +1450,7 @@
         "Resist vs Water: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -1507,6 +1525,7 @@
         "Chance to autocast Hydro Vortex when attacking: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -1602,6 +1621,7 @@
         "Damage Magic: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -1689,6 +1709,7 @@
         "Mp: +25"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -1781,6 +1802,7 @@
         "Weight Limit: +1000"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -1854,6 +1876,7 @@
         "Siphon Mp: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -1897,6 +1920,7 @@
         "Agi: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -1949,6 +1973,7 @@
         "Earth Resistance +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -2058,6 +2083,7 @@
         "Flee: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2105,6 +2131,7 @@
         "Earth Damage: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2158,6 +2185,7 @@
         "? Damage +15% +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -2262,6 +2290,7 @@
         "Chance to autocast Holy Light when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2372,6 +2401,7 @@
         "Max hp recovered per second: +1%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -2461,6 +2491,7 @@
         "Str: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -2513,6 +2544,7 @@
         "Status Damage: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -2619,6 +2651,7 @@
         "Mp: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2665,6 +2698,7 @@
         "Health on kill (per 50 vit): +50"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2736,6 +2770,7 @@
         "Health on hit: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2825,6 +2860,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -2914,6 +2950,7 @@
         "Grants Lv.1 Cure"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -2954,6 +2991,7 @@
         "Mp Cost: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -3035,6 +3073,7 @@
         "Mp Regen +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -3112,6 +3151,7 @@
         "Total Hit: -20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -3211,6 +3251,7 @@
         "Cast cannot be interrupted"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -3314,6 +3355,7 @@
         "Neutral Resistance +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -3360,6 +3402,7 @@
         "Venom Strike Mana Cost: -20%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -3434,6 +3477,7 @@
         "Flee: +10%"
       ],
       "setBonus": [],
+      "setName": "Breezeguard",
       "parsedStats": [
         {
           "label": "Def",
@@ -3553,6 +3597,7 @@
         "Flee: +5%"
       ],
       "setBonus": [],
+      "setName": "Breezeguard",
       "parsedStats": [
         {
           "label": "Def",
@@ -3660,6 +3705,7 @@
         "Flee: +5%"
       ],
       "setBonus": [],
+      "setName": "Breezeguard",
       "parsedStats": [
         {
           "label": "Def",
@@ -3763,6 +3809,7 @@
         "Reflect Damage: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -3846,6 +3893,7 @@
         "Atk Spd: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -3969,6 +4017,7 @@
         "Hp Regen: +25%"
       ],
       "setBonus": [],
+      "setName": "Eternal",
       "parsedStats": [
         {
           "label": "Def",
@@ -4066,6 +4115,7 @@
         "Hp: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4132,6 +4182,7 @@
         "Matk: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4181,6 +4232,7 @@
         "AtkSpdLimit: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4257,6 +4309,7 @@
         "Move Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -4344,6 +4397,7 @@
         "Move Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4431,6 +4485,7 @@
         "Matk: -20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4499,6 +4554,7 @@
         "Heal Area: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -4614,6 +4670,7 @@
         "SkillChains"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -4680,6 +4737,7 @@
         "Status Damage: +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4764,6 +4822,7 @@
         "Cyclone Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -4863,6 +4922,7 @@
         "Chance to autocast Shadow Strike when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4933,6 +4993,7 @@
         "Atk: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -4980,6 +5041,7 @@
         "All Stats: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -5027,6 +5089,7 @@
         "Siphon Hp: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -5069,6 +5132,7 @@
         "Grants Lv.1 ?"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -5162,6 +5226,7 @@
         "Healing: +15%"
       ],
       "setBonus": [],
+      "setName": "Cleric",
       "parsedStats": [
         {
           "label": "Def",
@@ -5249,6 +5314,7 @@
         "Mp Regen +25%"
       ],
       "setBonus": [],
+      "setName": "Cleric",
       "parsedStats": [
         {
           "label": "Def",
@@ -5322,6 +5388,7 @@
         "Int: +3"
       ],
       "setBonus": [],
+      "setName": "Cleric",
       "parsedStats": [
         {
           "label": "Def",
@@ -5384,6 +5451,7 @@
         "Cast Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -5476,6 +5544,7 @@
         "Cast Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -5576,6 +5645,7 @@
         "Chance to autocast Wide Curse when hit: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -5718,6 +5788,7 @@
         "Chance to autocast Heal when hit: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -5847,6 +5918,7 @@
         "Mp: -5% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -5939,6 +6011,7 @@
         "Damage from Ranged: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -6025,6 +6098,7 @@
         "Crit Damage: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -6076,6 +6150,7 @@
         "Reflect Damage: +15%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -6143,6 +6218,7 @@
         "Damage Magic: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -6241,6 +6317,7 @@
         "Dissonance Well Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -6343,6 +6420,7 @@
         "Int: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -6391,6 +6469,7 @@
         "Immune to Curse: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -6427,6 +6506,7 @@
         "Crit Damage: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -6558,6 +6638,7 @@
         "Agi: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -6605,6 +6686,7 @@
         "Blood Crash Level: +2"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -6664,6 +6746,7 @@
         "Healing Received: +10%"
       ],
       "setBonus": [],
+      "setName": "Healer",
       "parsedStats": [
         {
           "label": "Def",
@@ -6725,6 +6808,7 @@
         "Chance to autocast Holy Light when attacking: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -6837,6 +6921,7 @@
         "Health on hit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -6882,6 +6967,7 @@
         "Total Hit: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -6958,6 +7044,7 @@
         "Siphon Hp: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -7020,6 +7107,7 @@
         "Atk: +10"
       ],
       "setBonus": [],
+      "setName": "Berserk",
       "parsedStats": [
         {
           "label": "Def",
@@ -7145,6 +7233,7 @@
         "Atk: +5"
       ],
       "setBonus": [],
+      "setName": "Berserk",
       "parsedStats": [
         {
           "label": "Def",
@@ -7258,6 +7347,7 @@
         "Atk: +5"
       ],
       "setBonus": [],
+      "setName": "Berserk",
       "parsedStats": [
         {
           "label": "Def",
@@ -7375,6 +7465,7 @@
         "Mdef Flat: +25 +2 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -7415,6 +7506,7 @@
         "Resist vs Shadow: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -7485,6 +7577,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -7582,6 +7675,7 @@
         "Chain: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -7651,6 +7745,7 @@
         "Siphon Mp: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -7718,6 +7813,7 @@
         "Chance to autocast Earthbolt when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -7798,6 +7894,7 @@
         "Chance to autocast Thunderbolt when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -7878,6 +7975,7 @@
         "Chance to autocast Icebolt when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -7949,6 +8047,7 @@
         "Chance to autocast Firebolt when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -8035,6 +8134,7 @@
         "Atk Spd: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -8115,6 +8215,7 @@
         "Resist vs Holy: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -8187,6 +8288,7 @@
         "Resist vs Earth: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -8257,6 +8359,7 @@
         "Earth Splitter Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -8390,6 +8493,7 @@
         "Twist Of Fate Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -8477,6 +8581,7 @@
         "Flee: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -8569,6 +8674,7 @@
         "Healing: -50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -8665,6 +8771,7 @@
         "Fire Damage: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -8713,6 +8820,7 @@
         "Fire Damage: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -8795,6 +8903,7 @@
         "Mdef: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -8887,6 +8996,7 @@
         "Vit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -8975,6 +9085,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9060,6 +9171,7 @@
         "Vit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9128,6 +9240,7 @@
         "Chance to autocast ? when hit: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -9237,6 +9350,7 @@
         "Execute Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -9306,6 +9420,7 @@
         "Weight Limit: +1000"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -9356,6 +9471,7 @@
         "Grants Lv.1 True Sight"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -9421,6 +9537,7 @@
         "Chain: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9468,6 +9585,7 @@
         "Total Hit: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9514,6 +9632,7 @@
         "Mana on kill (per 50 int): +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9595,6 +9714,7 @@
         "Siphon Mp: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -9679,6 +9799,7 @@
         "Crit Damage: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9765,6 +9886,7 @@
         "Luk: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9853,6 +9975,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -9938,6 +10061,7 @@
         "Luk: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10011,6 +10135,7 @@
         "Range: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10068,6 +10193,7 @@
         "Damage Ranged: +3%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10166,6 +10292,7 @@
         "Fire Resistance +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -10251,6 +10378,7 @@
         "Chance to autocast Fire Release when attacking: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -10376,6 +10504,7 @@
         "Flame Orb Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -10489,6 +10618,7 @@
         "Move Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10584,6 +10714,7 @@
         "Fan Fire Damage +15% +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -10682,6 +10813,7 @@
         "Grants Lv.1 True Sight"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10755,6 +10887,7 @@
         "Healing Received: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10878,6 +11011,7 @@
         "Damage vs Earth Enemies: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -10946,6 +11080,7 @@
         "Mp Regen +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -11037,6 +11172,7 @@
         "Move Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -11117,6 +11253,7 @@
         "Shield Bash: Remove Knockback"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -11177,6 +11314,7 @@
         "Grants Lv.1 ?"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -11294,6 +11432,7 @@
         "SkillChains"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -11398,6 +11537,7 @@
         "Water Damage: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -11543,6 +11683,7 @@
         "Water Resistance +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -11609,6 +11750,7 @@
         "Binding Spiral Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -11726,6 +11868,7 @@
         "Healing: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -11778,6 +11921,7 @@
         "Crit: +5 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -11860,6 +12004,7 @@
         "Chain: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -11935,6 +12080,7 @@
         "Perfect Dodge"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -11991,6 +12137,7 @@
         "Mp Regen +5% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -12060,6 +12207,7 @@
         "Reflect Damage: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -12129,6 +12277,7 @@
         "Chance to autocast Bash when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -12178,6 +12327,7 @@
         "Str: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -12233,6 +12383,7 @@
         "Chance to autocast Soul Strike when attacking: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -12296,6 +12447,7 @@
         "Matk: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -12396,6 +12548,7 @@
         "Grants Lv.1 True Sight"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -12439,6 +12592,7 @@
         "Immune to Bleeding: +50%"
       ],
       "setBonus": [],
+      "setName": "Gravemarrow",
       "parsedStats": [
         {
           "label": "Def",
@@ -12542,6 +12696,7 @@
         "Immune to Curse: +50%"
       ],
       "setBonus": [],
+      "setName": "Gravemarrow",
       "parsedStats": [
         {
           "label": "Def",
@@ -12635,6 +12790,7 @@
         "Immune to Poison: +50%"
       ],
       "setBonus": [],
+      "setName": "Gravemarrow",
       "parsedStats": [
         {
           "label": "Def",
@@ -12724,6 +12880,7 @@
         "Resist vs Undead: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -12792,6 +12949,7 @@
         "Mdef: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -12872,6 +13030,7 @@
         "Crit: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -13003,6 +13162,7 @@
         "Holy Light: Remove Knockback"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -13074,6 +13234,7 @@
         "Vit: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -13173,6 +13334,7 @@
         "Mp Regen: +2"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -13241,6 +13403,7 @@
         "Atk Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -13310,6 +13473,7 @@
         "Crit: +3 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -13402,6 +13566,7 @@
         "Dex: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -13486,6 +13651,7 @@
         "Hp Regen: +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -13534,6 +13700,7 @@
         "Hp: +50"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -13611,6 +13778,7 @@
         "SkillChains"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -13726,6 +13894,7 @@
         "Firewall: Remove Knockback"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -13823,6 +13992,7 @@
         "Health on hit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -13870,6 +14040,7 @@
         "Shadow Damage: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -13918,6 +14089,7 @@
         "Holy Resistance +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -14014,6 +14186,7 @@
         "Turn Undead Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -14104,6 +14277,7 @@
         "Chance to autocast Wide Curse when hit: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -14184,6 +14358,7 @@
         "Mp: -25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -14245,6 +14420,7 @@
         "Atk: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -14326,6 +14502,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -14418,6 +14595,7 @@
         "Reflect Damage: +15%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -14466,6 +14644,7 @@
         "Mp Regen +25%"
       ],
       "setBonus": [],
+      "setName": "Eternal",
       "parsedStats": [
         {
           "label": "Def",
@@ -14562,6 +14741,7 @@
         "Hp: +100"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -14652,6 +14832,7 @@
         "CritDef"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -14751,6 +14932,7 @@
         "Holy Resistance +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -14835,6 +15017,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -14914,6 +15097,7 @@
         "Twin Cleave Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -14976,6 +15160,7 @@
         "Hit: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -15067,6 +15252,7 @@
         "Immune to Bleeding: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -15130,6 +15316,7 @@
         "Def Flat: +25 +2 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -15180,6 +15367,7 @@
         "Cast Spd: +15%"
       ],
       "setBonus": [],
+      "setName": "Island",
       "parsedStats": [
         {
           "label": "Def",
@@ -15258,6 +15446,7 @@
         "Atk Spd: +15%"
       ],
       "setBonus": [],
+      "setName": "Island",
       "parsedStats": [
         {
           "label": "Def",
@@ -15333,6 +15522,7 @@
         "Move Spd: +15%"
       ],
       "setBonus": [],
+      "setName": "Island",
       "parsedStats": [
         {
           "label": "Def",
@@ -15403,6 +15593,7 @@
         "Chance to autocast Death Coil when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -15483,6 +15674,7 @@
         "Siphon Mp: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -15564,6 +15756,7 @@
         "Flee: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -15629,6 +15822,7 @@
         "Damage Melee: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -15700,6 +15894,7 @@
         "Chain: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -15789,6 +15984,7 @@
         "Chance to autocast Explosive Grenade when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -15859,6 +16055,7 @@
         "Heal Mana Cost: +20%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -15951,6 +16148,7 @@
         "Soul Drain Level: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -16070,6 +16268,7 @@
         "High Heal Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -16186,6 +16385,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -16262,6 +16462,7 @@
         "Hit: +3 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -16360,6 +16561,7 @@
         "Total Hit: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -16479,6 +16681,7 @@
         "Smite Cast Time: +1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -16613,6 +16816,7 @@
         "Holy Wrath Cast Time: +2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -16732,6 +16936,7 @@
         "Matk: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -16821,6 +17026,7 @@
         "Mdef: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -16884,6 +17090,7 @@
         "Cast Spd: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -16983,6 +17190,7 @@
         "Mp Regen +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -17030,6 +17238,7 @@
         "Mp Regen +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -17095,6 +17304,7 @@
         "Str: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17189,6 +17399,7 @@
         "Dex: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17284,6 +17495,7 @@
         "Int: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17382,6 +17594,7 @@
         "Agi: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17485,6 +17698,7 @@
         "Str: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17588,6 +17802,7 @@
         "Luk: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17683,6 +17898,7 @@
         "Dex: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17783,6 +17999,7 @@
         "Str: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17878,6 +18095,7 @@
         "Vit: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -17987,6 +18205,7 @@
         "Vit: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -18090,6 +18309,7 @@
         "Int: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -18187,6 +18407,7 @@
         "Cast Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -18259,6 +18480,7 @@
         "Fire Pillar Damage +15% +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -18366,6 +18588,7 @@
         "Damage Magic: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18461,6 +18684,7 @@
         "Int: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18549,6 +18773,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18634,6 +18859,7 @@
         "Int: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18708,6 +18934,7 @@
         "Cast Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18797,6 +19024,7 @@
         "Matk: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18897,6 +19125,7 @@
         "Healing: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -18957,6 +19186,7 @@
         "Fire Resistance +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -19054,6 +19284,7 @@
         "High Heal Cast Time: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -19129,6 +19360,7 @@
         "Resist vs Fire: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -19200,6 +19432,7 @@
         "Cast Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -19262,6 +19495,7 @@
         "Resist vs Poison: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -19327,6 +19561,7 @@
         "Undead Damage: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -19454,6 +19689,7 @@
         "Flee: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -19527,6 +19763,7 @@
         "Mp: +30%"
       ],
       "setBonus": [],
+      "setName": "Night",
       "parsedStats": [
         {
           "label": "Def",
@@ -19645,6 +19882,7 @@
         "Cast Spd: +10%"
       ],
       "setBonus": [],
+      "setName": "Night",
       "parsedStats": [
         {
           "label": "Def",
@@ -19759,6 +19997,7 @@
         "All Resist: +15%"
       ],
       "setBonus": [],
+      "setName": "Night",
       "parsedStats": [
         {
           "label": "Def",
@@ -19870,6 +20109,7 @@
         "Mp: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -19928,6 +20168,7 @@
         "Health on hit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -20008,6 +20249,7 @@
         "Perfect Dodge"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -20068,6 +20310,7 @@
         "Hp Regen: +5"
       ],
       "setBonus": [],
+      "setName": "Novice",
       "parsedStats": [
         {
           "label": "Def",
@@ -20209,6 +20452,7 @@
         "Matk: +3"
       ],
       "setBonus": [],
+      "setName": "Novice",
       "parsedStats": [
         {
           "label": "Def",
@@ -20329,6 +20573,7 @@
         "Mp Regen: +2"
       ],
       "setBonus": [],
+      "setName": "Novice",
       "parsedStats": [
         {
           "label": "Def",
@@ -20427,6 +20672,7 @@
         "Atk Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -20521,6 +20767,7 @@
         "Immune to Knockback"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -20569,6 +20816,7 @@
         "Grand Cross Cast Time: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -20679,6 +20927,7 @@
         "Reflect Damage: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -20776,6 +21025,7 @@
         "Earth Resistance +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -20848,6 +21098,7 @@
         "Resist vs Wind: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -20925,6 +21176,7 @@
         "Immune to Reflect damage"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -20991,6 +21243,7 @@
         "Crit Damage: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -21077,6 +21330,7 @@
         "Poison Resistance +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -21171,6 +21425,7 @@
         "Mdef: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -21238,6 +21493,7 @@
         "Flee: +15"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -21327,6 +21583,7 @@
         "Siphon Mp: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -21453,6 +21710,7 @@
         "Grants Lv.5 Haste"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -21509,6 +21767,7 @@
         "Crit Damage: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -21603,6 +21862,7 @@
         "Crit Damage: +7%"
       ],
       "setBonus": [],
+      "setName": "Pirate",
       "parsedStats": [
         {
           "label": "Def",
@@ -21694,6 +21954,7 @@
         "Luk: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -21746,6 +22007,7 @@
         "Crit: +7"
       ],
       "setBonus": [],
+      "setName": "Pirate",
       "parsedStats": [
         {
           "label": "Def",
@@ -21810,6 +22072,7 @@
         "Flee: +7"
       ],
       "setBonus": [],
+      "setName": "Pirate",
       "parsedStats": [
         {
           "label": "Def",
@@ -21899,6 +22162,7 @@
         "Hit: +7"
       ],
       "setBonus": [],
+      "setName": "Pirate",
       "parsedStats": [
         {
           "label": "Def",
@@ -21983,6 +22247,7 @@
         "Double Attack: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -22043,6 +22308,7 @@
         "Mp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": "Plasma",
       "parsedStats": [
         {
           "label": "Def",
@@ -22137,6 +22403,7 @@
         "Matk: +1 per refine"
       ],
       "setBonus": [],
+      "setName": "Plasma",
       "parsedStats": [
         {
           "label": "Def",
@@ -22226,6 +22493,7 @@
         "All Stats: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -22270,6 +22538,7 @@
         "All Resist: +1% per refine"
       ],
       "setBonus": [],
+      "setName": "Plasma",
       "parsedStats": [
         {
           "label": "Def",
@@ -22354,6 +22623,7 @@
         "Healing: +10%"
       ],
       "setBonus": [],
+      "setName": "Healer",
       "parsedStats": [
         {
           "label": "Def",
@@ -22413,6 +22683,7 @@
         "Mp Regen: +2"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -22533,6 +22804,7 @@
         "Damage Melee: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -22628,6 +22900,7 @@
         "Str: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -22716,6 +22989,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -22801,6 +23075,7 @@
         "Str: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -22873,6 +23148,7 @@
         "Damage Ranged: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -22968,6 +23244,7 @@
         "Dex: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -23056,6 +23333,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -23141,6 +23419,7 @@
         "Dex: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -23217,6 +23496,7 @@
         "Chance to autocast Earthbolt when attacking: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -23315,6 +23595,7 @@
         "Range: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -23389,6 +23670,7 @@
         "Dex: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -23441,6 +23723,7 @@
         "Int: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -23543,6 +23826,7 @@
         "Divine Punishment Cast Time: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -23647,6 +23931,7 @@
         "Earth Damage: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -23739,6 +24024,7 @@
         "Health on hit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -23808,6 +24094,7 @@
         "Mp Cost: -20%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -23845,6 +24132,7 @@
         "Hp Regen: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -23962,6 +24250,7 @@
         "Fan Of Knives Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -24070,6 +24359,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -24154,6 +24444,7 @@
         "Grants Lv.1 ?"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -24226,6 +24517,7 @@
         "Matk: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -24303,6 +24595,7 @@
         "Chance to autocast Cure when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "FestiveDeer",
       "parsedStats": [
         {
           "label": "Def",
@@ -24389,6 +24682,7 @@
         "Chance to autocast Damnation when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "FestiveDeer",
       "parsedStats": [
         {
           "label": "Def",
@@ -24467,6 +24761,7 @@
         "Healing Received: +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -24516,6 +24811,7 @@
         "Chance to autocast Endure when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "FestiveDeer",
       "parsedStats": [
         {
           "label": "Def",
@@ -24602,6 +24898,7 @@
         "Chance to autocast Haste when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "FestiveDeer",
       "parsedStats": [
         {
           "label": "Def",
@@ -24686,6 +24983,7 @@
         "Hit: +3 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -24761,6 +25059,7 @@
         "AtkSpdLimit: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -24849,6 +25148,7 @@
         "Mp Cost: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -24903,6 +25203,7 @@
         "DamageFarRange: +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -24986,6 +25287,7 @@
         "Str: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -25073,6 +25375,7 @@
         "Cast Spd: +15%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -25149,6 +25452,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -25232,6 +25536,7 @@
         "Healing: +5% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -25333,6 +25638,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -25425,6 +25731,7 @@
         "Chance to autocast Impale when attacking: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -25511,6 +25818,7 @@
         "Atk: +1%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -25567,6 +25875,7 @@
         "Damage Magic: +3%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -25671,6 +25980,7 @@
         "Suppression Field Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -25758,6 +26068,7 @@
         "Range: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -25805,6 +26116,7 @@
         "All Resist: +5%"
       ],
       "setBonus": [],
+      "setName": "Safety",
       "parsedStats": [
         {
           "label": "Def",
@@ -25926,6 +26238,7 @@
         "Mdef: +5%"
       ],
       "setBonus": [],
+      "setName": "Safety",
       "parsedStats": [
         {
           "label": "Def",
@@ -26136,6 +26449,7 @@
         "Immune to Knockback"
       ],
       "setBonus": [],
+      "setName": "Safety",
       "parsedStats": [
         {
           "label": "Def",
@@ -26254,6 +26568,7 @@
         "Immune to Flinching from damage"
       ],
       "setBonus": [],
+      "setName": "Safety",
       "parsedStats": [
         {
           "label": "Def",
@@ -26360,6 +26675,7 @@
         "Healing Received: +10%"
       ],
       "setBonus": [],
+      "setName": "Sanctified",
       "parsedStats": [
         {
           "label": "Def",
@@ -26530,6 +26846,7 @@
         "Healing Received: +5%"
       ],
       "setBonus": [],
+      "setName": "Sanctified",
       "parsedStats": [
         {
           "label": "Def",
@@ -26681,6 +26998,7 @@
         "Healing Received: +5%"
       ],
       "setBonus": [],
+      "setName": "Sanctified",
       "parsedStats": [
         {
           "label": "Def",
@@ -26826,6 +27144,7 @@
         "Sanctuary Cast Time: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -26902,6 +27221,7 @@
         "Consecration Level: +2"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -26988,6 +27308,7 @@
         "Chance to autocast Cure when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "Festive",
       "parsedStats": [
         {
           "label": "Def",
@@ -27074,6 +27395,7 @@
         "Chance to autocast Damnation when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "Festive",
       "parsedStats": [
         {
           "label": "Def",
@@ -27154,6 +27476,7 @@
         "Chance to autocast Endure when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "Festive",
       "parsedStats": [
         {
           "label": "Def",
@@ -27240,6 +27563,7 @@
         "Chance to autocast Haste when hit: +5%"
       ],
       "setBonus": [],
+      "setName": "Festive",
       "parsedStats": [
         {
           "label": "Def",
@@ -27322,6 +27646,7 @@
         "Int: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -27377,6 +27702,7 @@
         "Chance to autocast Venom Strike when attacking: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -27459,6 +27785,7 @@
         "Matk: +1%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -27509,6 +27836,7 @@
         "AtkSpdLimit: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -27595,6 +27923,7 @@
         "Cast cannot be interrupted"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -27666,6 +27995,7 @@
         "Atk: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -27746,6 +28076,7 @@
         "Mp Cost: -10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -27805,6 +28136,7 @@
         "Grants Lv.1 Venom Coating"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -27910,6 +28242,7 @@
         "Luk: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -27964,6 +28297,7 @@
         "Move Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -28081,6 +28415,7 @@
         "Shadow Resistance +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -28169,6 +28504,7 @@
         "Flee: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -28216,6 +28552,7 @@
         "Atk: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -28264,6 +28601,7 @@
         "Deals increased damage at close range: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -28323,6 +28661,7 @@
         "Crit: +2 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -28408,6 +28747,7 @@
         "Total Critical Rate: +20%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -28476,6 +28816,7 @@
         "Atk Spd: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -28574,6 +28915,7 @@
         "Whirlwind Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -28662,6 +29004,7 @@
         "SkillAutocast"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -28763,6 +29106,7 @@
         "Def: +10"
       ],
       "setBonus": [],
+      "setName": "Knight",
       "parsedStats": [
         {
           "label": "Def",
@@ -28882,6 +29226,7 @@
         "Def: +5"
       ],
       "setBonus": [],
+      "setName": "Knight",
       "parsedStats": [
         {
           "label": "Def",
@@ -28991,6 +29336,7 @@
         "Def: +5"
       ],
       "setBonus": [],
+      "setName": "Knight",
       "parsedStats": [
         {
           "label": "Def",
@@ -29085,6 +29431,7 @@
         "Dex: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -29183,6 +29530,7 @@
         "Sniper Shot Cooldown: -6s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -29277,6 +29625,7 @@
         "Hp: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -29329,6 +29678,7 @@
         "Chance to autocast Meteor when attacking: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -29424,6 +29774,7 @@
         "Int: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -29475,6 +29826,7 @@
         "Vit: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -29571,6 +29923,7 @@
         "Move Spd: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -29666,6 +30019,7 @@
         "Summon Hp: +30%"
       ],
       "setBonus": [],
+      "setName": "Soulbinder",
       "parsedStats": [
         {
           "label": "Def",
@@ -29783,6 +30137,7 @@
         "Summon Matk: +10%"
       ],
       "setBonus": [],
+      "setName": "Soulbinder",
       "parsedStats": [
         {
           "label": "Def",
@@ -29894,6 +30249,7 @@
         "Summon Healing: +10%"
       ],
       "setBonus": [],
+      "setName": "Soulbinder",
       "parsedStats": [
         {
           "label": "Def",
@@ -29999,6 +30355,7 @@
         "Atk Spd: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -30094,6 +30451,7 @@
         "Agi: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -30182,6 +30540,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -30267,6 +30626,7 @@
         "Agi: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -30332,6 +30692,7 @@
         "Matk: +10"
       ],
       "setBonus": [],
+      "setName": "Mage",
       "parsedStats": [
         {
           "label": "Def",
@@ -30473,6 +30834,7 @@
         "Matk: +5"
       ],
       "setBonus": [],
+      "setName": "Mage",
       "parsedStats": [
         {
           "label": "Def",
@@ -30593,6 +30955,7 @@
         "Matk: +5"
       ],
       "setBonus": [],
+      "setName": "Mage",
       "parsedStats": [
         {
           "label": "Def",
@@ -30693,6 +31056,7 @@
         "Chance to autocast Stun Attack when attacking: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -30765,6 +31129,7 @@
         "Reflect Damage: +5% +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -30815,6 +31180,7 @@
         "Mp: -90%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -30937,6 +31303,7 @@
         "Mp Regen +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31043,6 +31410,7 @@
         "Mp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31130,6 +31498,7 @@
         "Damage vs Holy Enemies: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31196,6 +31565,7 @@
         "Healing Received: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31253,6 +31623,7 @@
         "Max mp recovered per second: +1%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -31342,6 +31713,7 @@
         "Wind Resistance +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -31442,6 +31814,7 @@
         "Damage Magic: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31491,6 +31864,7 @@
         "Move Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -31560,6 +31934,7 @@
         "Hp: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31630,6 +32005,7 @@
         "Damage Melee: +3%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -31718,6 +32094,7 @@
         "Grants Lv.5 Counter Stance"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -31807,6 +32184,7 @@
         "Arrow Shower Cooldown: -2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -31875,6 +32253,7 @@
         "Chance to autocast Chain Lightning when attacking: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -31994,6 +32373,7 @@
         "Dex: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -32047,6 +32427,7 @@
         "Flash Step Cooldown: -1s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -32144,6 +32525,7 @@
         "Weapon Throw: Remove Status"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -32247,6 +32629,7 @@
         "Damage From Magic: -10%"
       ],
       "setBonus": [],
+      "setName": "Stormplate",
       "parsedStats": [
         {
           "label": "Def",
@@ -32357,6 +32740,7 @@
         "Damage From Magic: -5%"
       ],
       "setBonus": [],
+      "setName": "Stormplate",
       "parsedStats": [
         {
           "label": "Def",
@@ -32464,6 +32848,7 @@
         "Damage From Magic: -5%"
       ],
       "setBonus": [],
+      "setName": "Stormplate",
       "parsedStats": [
         {
           "label": "Def",
@@ -32568,6 +32953,7 @@
         "Chance to autocast Heal when hit: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -32675,6 +33061,7 @@
         "Hp Regen: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -32762,6 +33149,7 @@
         "Sacred Aegis Area: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -32857,6 +33245,7 @@
         "Resist vs Earth: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -32926,6 +33315,7 @@
         "Hp Regen: +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33029,6 +33419,7 @@
         "Chance to autocast Gunk Shot when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33125,6 +33516,7 @@
         "Block: +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -33190,6 +33582,7 @@
         "Earthbolt Damage +10%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33280,6 +33673,7 @@
         "Chain Lightning: Remove Knockback"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -33364,6 +33758,7 @@
         "Atk Spd: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33414,6 +33809,7 @@
         "Chance to autocast Suppressive Shot when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -33534,6 +33930,7 @@
         "Hit: +20"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33582,6 +33979,7 @@
         "Immune to Burning: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33638,6 +34036,7 @@
         "Chance to autocast Axe Throw when attacking: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -33721,6 +34120,7 @@
         "Skill Splash: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -33812,6 +34212,7 @@
         "Cast Spd: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -33904,6 +34305,7 @@
         "Matk: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -33949,6 +34351,7 @@
         "Fearsome Cry Level: +2"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -34036,6 +34439,7 @@
         "Double Attack: +5% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -34092,6 +34496,7 @@
         "Crit: +7"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -34163,6 +34568,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -34262,6 +34668,7 @@
         "Panic Burst Mana Cost: +20%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -34379,6 +34786,7 @@
         "Mdef: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -34445,6 +34853,7 @@
         "Str: +3"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -34533,6 +34942,7 @@
         "Grants Lv.1 ?"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -34624,6 +35034,7 @@
         "Wind Damage: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -34672,6 +35083,7 @@
         "Immune to Silence: +50%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -34725,6 +35137,7 @@
         "Siphon Hp: +10"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -34774,6 +35187,7 @@
         "Healing: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -34882,6 +35296,7 @@
         "Grants Lv.1 Haste"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -34951,6 +35366,7 @@
         "Chance to autocast Black Blade when attacking: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -35054,6 +35470,7 @@
         "Status Damage: +25%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -35106,6 +35523,7 @@
         "Atk Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -35231,6 +35649,7 @@
         "Bash Mana Cost: -20%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -35323,6 +35742,7 @@
         "Damage Melee: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -35408,6 +35828,7 @@
         "Block: +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -35572,6 +35993,7 @@
         "Def: +5 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -35643,6 +36065,7 @@
         "Vortex Slash Cooldown: +2s"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -35722,6 +36145,7 @@
       ],
       "statsSecondary": [],
       "setBonus": [],
+      "setName": "Weaver",
       "parsedStats": [
         {
           "label": "Def",
@@ -35821,6 +36245,7 @@
       ],
       "statsSecondary": [],
       "setBonus": [],
+      "setName": "Weaver",
       "parsedStats": [
         {
           "label": "Def",
@@ -35917,6 +36342,7 @@
       ],
       "statsSecondary": [],
       "setBonus": [],
+      "setName": "Weaver",
       "parsedStats": [
         {
           "label": "Def",
@@ -36000,6 +36426,7 @@
         "Water Resistance +5%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -36078,6 +36505,7 @@
         "Grants Lv.1 Venom Coating"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -36163,6 +36591,7 @@
         "Holy Damage: +10% +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -36204,6 +36633,7 @@
         "Weight Limit: +1000"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -36288,6 +36718,7 @@
         "Healing: +15%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -36338,6 +36769,7 @@
         "Atk Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -36462,6 +36894,7 @@
         "Atk: +1 per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -36544,6 +36977,7 @@
         "Cast Spd: +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -36619,6 +37053,7 @@
         "Damage Ranged: +5%"
       ],
       "setBonus": [],
+      "setName": "Windstrider",
       "parsedStats": [
         {
           "label": "Def",
@@ -36769,6 +37204,7 @@
         "Atk Spd: +5%"
       ],
       "setBonus": [],
+      "setName": "Windstrider",
       "parsedStats": [
         {
           "label": "Def",
@@ -36916,6 +37352,7 @@
         "Dex: +3"
       ],
       "setBonus": [],
+      "setName": "Windstrider",
       "parsedStats": [
         {
           "label": "Def",
@@ -37051,6 +37488,7 @@
         "Atk Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -37115,6 +37553,7 @@
         "All Stats: +1"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -37175,6 +37614,7 @@
         "Move Spd: +15%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -37258,6 +37698,7 @@
         "Cast Spd: +15%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -37339,6 +37780,7 @@
         "Cast Spd: +30%"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -37385,6 +37827,7 @@
         "Vit: +5"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Weight Limit",
@@ -37431,6 +37874,7 @@
       ],
       "statsSecondary": [],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -37504,6 +37948,7 @@
         "Move Spd: +1% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -37595,6 +38040,7 @@
         "Shadow Damage: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -37663,6 +38109,7 @@
         "Wind Resistance +3% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Def",
@@ -37743,6 +38190,7 @@
         "Wind Damage: +2% per refine"
       ],
       "setBonus": [],
+      "setName": null,
       "parsedStats": [
         {
           "label": "Atk",
@@ -40506,5 +40954,495 @@
         "-50% healing received"
       ]
     }
-  }
+  },
+  "artifacts": [
+    {
+      "slug": "warglyph",
+      "name": "Warglyph",
+      "description": "Scribed in blood and fury, the glyphs burn with raw, brutal strength.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Atk",
+        "+5% Max HP",
+        "-15% Max MP"
+      ],
+      "perPiece": [
+        "+5 Atk",
+        "+5% Max HP",
+        "-15% Max MP"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Goblin Warcamp"
+      ]
+    },
+    {
+      "slug": "blitzcore",
+      "name": "Blitzcore",
+      "description": "Relentless and unyielding, a surge of strikes fueled by pure unstoppable force.",
+      "fullSet": [
+        "+1 All Stats",
+        "+2 Chain",
+        "+7 Atk Spd"
+      ],
+      "perPiece": [
+        "+2 Atk Spd"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Dungeon Outside",
+        "Dungeon Boss"
+      ]
+    },
+    {
+      "slug": "bastion",
+      "name": "Bastion",
+      "description": "An unshakable core, unbroken by storms, spells, or the wrath of its own reflection.",
+      "fullSet": [
+        "+5 All Stats",
+        "+10% Max HP",
+        "+10% Max MP"
+      ],
+      "perPiece": [],
+      "perRefine": [],
+      "zones": [
+        "Water Dungeon"
+      ]
+    },
+    {
+      "slug": "spellweaver",
+      "name": "Spellweaver",
+      "description": "To weave the threads of magic is to reshape the world with mere thought and will.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Cast Spd"
+      ],
+      "perPiece": [
+        "+5 Cast Spd"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Enchanted Forest"
+      ]
+    },
+    {
+      "slug": "corporeal",
+      "name": "Corporeal",
+      "description": "Where decay meets divinity, where corruption meets grace, the balance tilts only by your will.",
+      "fullSet": [
+        "+1 All Stats",
+        "+3% Poison element dmg",
+        "+3% Undead element dmg",
+        "+3% Shadow element dmg",
+        "+3% Holy element dmg"
+      ],
+      "perPiece": [
+        "+3% Poison element dmg",
+        "+3% Undead element dmg",
+        "+3% Shadow element dmg",
+        "+3% Holy element dmg"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Forge"
+      ]
+    },
+    {
+      "slug": "arcanum-verge",
+      "name": "Arcanum Verge",
+      "description": "To master efficiency is to cast without pause, an unbroken stream of control.",
+      "fullSet": [
+        "+1 All Stats",
+        "-10% MP cost"
+      ],
+      "perPiece": [
+        "-5% MP cost"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Sanctum Throne"
+      ]
+    },
+    {
+      "slug": "furybrand",
+      "name": "Furybrand",
+      "description": "Blades ablaze with wrath, leaving only scorched echoes where enemies once stood.",
+      "fullSet": [
+        "+1 All Stats",
+        "+5 Crit Dmg",
+        "+8 Crit"
+      ],
+      "perPiece": [
+        "+3 Crit"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Demon's Maw"
+      ]
+    },
+    {
+      "slug": "titanplate",
+      "name": "Titanplate",
+      "description": "Forged for the immovable, the eternal, a fortress clad in living steel.",
+      "fullSet": [
+        "+1 All Stats",
+        "+5% Def",
+        "+30 Def",
+        "Reflects 10% damage"
+      ],
+      "perPiece": [
+        "+5 Def"
+      ],
+      "perRefine": [
+        "+1 Def",
+        "Reflects 1% damage"
+      ],
+      "zones": [
+        "Desert Field 3"
+      ]
+    },
+    {
+      "slug": "eternis",
+      "name": "Eternis",
+      "description": "The infinite weave, threads of every element, every force, bound into a single form.",
+      "fullSet": [
+        "+5 All Stats",
+        "Grants Heal Lv5",
+        "Grants Haste Lv5",
+        "+10% Max HP",
+        "+10% Max MP",
+        "+5% Atk",
+        "+5% Matk"
+      ],
+      "perPiece": [],
+      "perRefine": [],
+      "zones": [
+        "Night Garden"
+      ]
+    },
+    {
+      "slug": "shadebound",
+      "name": "Shadebound",
+      "description": "Like a shadow slipping through moonlight, the Shadebound elude all grasp. They are whispers in motion, untouched and uncatchable.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Flee",
+        "10% Perfect Dodge"
+      ],
+      "perPiece": [
+        "+10 Flee"
+      ],
+      "perRefine": [
+        "+1 Flee"
+      ],
+      "zones": [
+        "Swamp"
+      ]
+    },
+    {
+      "slug": "lifebloom",
+      "name": "Lifebloom",
+      "description": "Wherever this relic touches, life surges forth in bloom and brilliance.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10% healing"
+      ],
+      "perPiece": [
+        "+5% healing"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Sanctum Inner"
+      ]
+    },
+    {
+      "slug": "hexbrand",
+      "name": "Hexbrand",
+      "description": "Every strike carries a curse, every wound festers into affliction.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10% dmg vs statused"
+      ],
+      "perPiece": [
+        "+5% dmg vs statused"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Dark Forest",
+        "Swamp Wilderness"
+      ]
+    },
+    {
+      "slug": "hawkeye",
+      "name": "Hawkeye",
+      "description": "Vision unerring. Aim unfailing. From great distance or close, each strike finds its mark.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Hit",
+        "+10% Hit"
+      ],
+      "perPiece": [
+        "+10 Hit"
+      ],
+      "perRefine": [
+        "+1 Hit"
+      ],
+      "zones": [
+        "Island"
+      ]
+    },
+    {
+      "slug": "vitalis",
+      "name": "Vitalis",
+      "description": "The breath of life sustained, the Vitalis set pulses with vigor, enduring what others cannot.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10% Max HP"
+      ],
+      "perPiece": [
+        "+5% Max HP"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Goblin Village"
+      ]
+    },
+    {
+      "slug": "nullmark",
+      "name": "Nullmark",
+      "description": "Bearers of the Nullmark stride untouched through poison, shadow, and silence.",
+      "fullSet": [
+        "+1 All Stats",
+        "Immune to Slow"
+      ],
+      "perPiece": [],
+      "perRefine": [
+        "5% immunity to Stun"
+      ],
+      "zones": [
+        "Poison Cave"
+      ]
+    },
+    {
+      "slug": "bloodbind",
+      "name": "Bloodbind",
+      "description": "Flesh, soul, and spell alike bend to the will of the drain. Power flows only to the ruthless.",
+      "fullSet": [
+        "+1 All Stats",
+        "+25 Leech Kill",
+        "+5 MP on kill"
+      ],
+      "perPiece": [
+        "+25 Leech Kill",
+        "+5 MP on kill"
+      ],
+      "perRefine": [
+        "+5 Leech Kill",
+        "+1 MP on kill"
+      ],
+      "zones": [
+        "Cemetery"
+      ]
+    },
+    {
+      "slug": "arcanum",
+      "name": "Arcanum",
+      "description": "Guardians of ancient secrets, their power flows from the hidden wells of the unseen.",
+      "fullSet": [
+        "+1 All Stats",
+        "+7% magic dmg"
+      ],
+      "perPiece": [
+        "+2% magic dmg"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Desert Field 1"
+      ]
+    },
+    {
+      "slug": "starfire",
+      "name": "Starfire",
+      "description": "The cosmos speaks in tongues of fire, and those who listen wield its wrath.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Matk",
+        "+5% Max MP",
+        "-10% Max HP",
+        "+2 Skill Level (Energy Shield)"
+      ],
+      "perPiece": [
+        "+5 Matk",
+        "+5% Max MP",
+        "-10% Max HP"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Castle Library",
+        "Castle Keep",
+        "Castle Crypt"
+      ]
+    },
+    {
+      "slug": "veilward",
+      "name": "Veilward",
+      "description": "Forged from spells repelled, the Veilward forms an invisible shield against sorcery.",
+      "fullSet": [
+        "+1 All Stats",
+        "+5% Mdef",
+        "+30 Mdef",
+        "+5 Reflect spell"
+      ],
+      "perPiece": [
+        "+5 Mdef"
+      ],
+      "perRefine": [
+        "+1 Mdef"
+      ],
+      "zones": [
+        "Ice Cave"
+      ]
+    },
+    {
+      "slug": "steelheart",
+      "name": "Steelheart",
+      "description": "A spirit unbroken, a will hardened by battle, the heart of steel knows no surrender.",
+      "fullSet": [
+        "+1 All Stats",
+        "+7% melee dmg"
+      ],
+      "perPiece": [
+        "+2% melee dmg"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Forest Field 2"
+      ]
+    },
+    {
+      "slug": "windborne",
+      "name": "Windborne",
+      "description": "Fleet of foot and swift of soul, the Windborne leave no trail but wind.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Move Spd"
+      ],
+      "perPiece": [
+        "+5 Move Spd"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Labyrinth 1",
+        "Labyrinth 2",
+        "Labyrinth 3",
+        "Labyrinth 4"
+      ]
+    },
+    {
+      "slug": "aethercore",
+      "name": "Aethercore",
+      "description": "A conduit for the unseen current, brimming with boundless arcane potential.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10% Max MP"
+      ],
+      "perPiece": [
+        "+5% Max MP"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Mystic Lake"
+      ]
+    },
+    {
+      "slug": "pioneer",
+      "name": "Pioneer",
+      "description": "For those who carve the first path through the unknown, forging destiny with every step.",
+      "fullSet": [
+        "+1 All Stats",
+        "+5 HP Regen",
+        "+2 MP Regen",
+        "+3 Atk",
+        "+3 Matk"
+      ],
+      "perPiece": [
+        "+20 Max HP",
+        "+10 Max MP"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Forest Field 1"
+      ]
+    },
+    {
+      "slug": "oathbound",
+      "name": "Oathbound",
+      "description": "Bound by vow and unyielding will, extending every blessing and bond beyond its mortal span.",
+      "fullSet": [
+        "+1 All Stats",
+        "+10 Status Duration"
+      ],
+      "perPiece": [
+        "+5 Status Duration"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Ice Field"
+      ]
+    },
+    {
+      "slug": "primordial",
+      "name": "Primordial",
+      "description": "To master the primal elements is to unmake the world as easily as it was forged.",
+      "fullSet": [
+        "+1 All Stats",
+        "+3% Fire element dmg",
+        "+3% Water element dmg",
+        "+3% Wind element dmg",
+        "+3% Earth element dmg"
+      ],
+      "perPiece": [
+        "+3% Fire element dmg",
+        "+3% Water element dmg",
+        "+3% Wind element dmg",
+        "+3% Earth element dmg"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Island Dungeon"
+      ]
+    },
+    {
+      "slug": "stormquiver",
+      "name": "Stormquiver",
+      "description": "Swift as the stormwinds, each shot strikes with unerring force from beyond sight.",
+      "fullSet": [
+        "+1 All Stats",
+        "+7% ranged dmg"
+      ],
+      "perPiece": [
+        "+2% ranged dmg"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Desert Field 2"
+      ]
+    },
+    {
+      "slug": "vampiric",
+      "name": "Vampiric",
+      "description": "Each strike pulls forth life itself, fueling the endless assault.",
+      "fullSet": [
+        "+1 All Stats",
+        "+5% life leech"
+      ],
+      "perPiece": [
+        "+2% life leech"
+      ],
+      "perRefine": [],
+      "zones": [
+        "Goblin Cave"
+      ]
+    }
+  ]
 }
