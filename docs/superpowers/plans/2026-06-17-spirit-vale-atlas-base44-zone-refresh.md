@@ -260,8 +260,9 @@ git commit -m "feat(data): boss->zone assignment via spawner-lure derivation"
 - Consumes: `slugify`, `aggregateDrops` (from build-data); `buildLookupsAugmented`, `assignBosses` (Tasks 2-3).
 - Produces: `buildZonesFromBase44({ monsters, mapTiles, lookups, gameVersion }) -> { gameVersion, regions }`.
   - Iterates **combat** tiles (`!isHub`). For each tile: sub-zone `id = tile.id`, `gameId = tile.name`, `name = tile.name`, `minLevel/maxLevel = tile band`.
-  - `monsterPool` = base44 monsters whose `maps` include `tile.name` **and** whose `Level` ∈ `[tile.minLevel, tile.maxLevel]` (the level filter only narrows the 2 multi-band maps; single-band maps keep all their monsters since their levels already fall in the band).
-  - `boss` = `bossByMap[tile.name]` **if** its `Level` ∈ the tile band, else null (so a boss lands in exactly one band of a multi-band map).
+  - A **multi-band map** = a map `name` shared by more than one combat tile (only Forest Labyrinth ×4 and Sanctum of Light ×2). Everything else is **single-band**.
+  - `monsterPool`: base44 monsters whose `maps` include `tile.name`. For a **single-band** map, keep ALL of them (do not level-filter — a zone's mobs may sit anywhere in/near its range, as v0.13.1 did). For a **multi-band** map, keep only those whose `Level` ∈ `[tile.minLevel, tile.maxLevel]` (this is what splits the shared map across its bands).
+  - `boss`: take `bossByMap[tile.name]`. For a **single-band** map, attach it **unconditionally** — bosses routinely sit a few levels ABOVE the zone's mob range (e.g. Hare L30 in Bunny Woods 21-25), so never null a single-band boss by level. For a **multi-band** map, attach the boss to exactly ONE band: the band whose range contains the boss's `Level`, or — if no band contains it — the **highest** band (max `maxLevel`). A boss with no map assignment (homeless world boss) never appears.
   - `drops` = `aggregateDrops(monsterPool.map(name), boss?.name, monstersByName, lookups)`.
   - `monsters` field = pool display names; `boss` field = boss display name or null.
   - **Hub** tiles → one sub-zone with `isHub: true`, `monsters: []`, `boss: null`, `drops: []`.
@@ -283,6 +284,14 @@ const monsters = [
   { DisplayName: 'LabB', GameId: 'LabB', Level: 14, IsBoss: 0, maps: [{ name: 'Forest Labyrinth' }],
     EquipDrops: [{ Id: 'Blade', DropChance: 4 }], MaterialDrops: [], ConsumableDrops: [], GemDrops: [], Card: { Id: null }, Artifact: { Id: null } },
 ];
+// Boss whose level (16) sits ABOVE the single-band Forest Field 1 (11-15).
+const bossMonster = { DisplayName: 'FFBoss', GameId: 'FFBoss', Level: 16, IsBoss: 1, maps: [],
+  spawner: { GameId: 'Lure FFBoss' }, ConsumableDrops: [],
+  EquipDrops: [{ Id: 'Blade', DropChance: 1 }], MaterialDrops: [], GemDrops: [], Card: { Id: null }, Artifact: { Id: null } };
+// A Forest Field 1 mob drops the boss's lure, so assignBosses pins FFBoss to that map.
+monsters[0].ConsumableDrops = [{ Id: 'Lure FFBoss' }];
+monsters.push(bossMonster);
+
 const mapTiles = [
   { id: 'ff1', name: 'Forest Field 1', minLevel: 11, maxLevel: 15, isHub: false },
   { id: 'lab-1', name: 'Forest Labyrinth', minLevel: 6, maxLevel: 10, isHub: false },
@@ -304,6 +313,9 @@ describe('buildZonesFromBase44', () => {
   it('splits a multi-band map by monster level', () => {
     expect(sub('lab-1').monsters).toEqual(['LabA']); // level 8 -> band 6-10
     expect(sub('lab-2').monsters).toEqual(['LabB']); // level 14 -> band 11-15
+  });
+  it('attaches a single-band boss even when its level exceeds the band', () => {
+    expect(sub('ff1').boss).toBe('FFBoss'); // L16 boss kept on the 11-15 single-band zone
   });
   it('groups level bands under one region and emits empty hub sub-zones', () => {
     const lab = out.regions.find((r) => r.slug === 'forest-labyrinth');
@@ -336,6 +348,22 @@ export function buildZonesFromBase44({ monsters, mapTiles, lookups, gameVersion 
   const poolByMap = {};
   for (const m of monsters) for (const mp of m.maps || []) (poolByMap[mp.name] ||= []).push(m);
 
+  // combat tiles that share a map name = multi-band maps (Forest Labyrinth, Sanctum of Light)
+  const bandsByName = {};
+  for (const t of mapTiles) if (!t.isHub) (bandsByName[t.name] ||= []).push(t);
+  const lvl = (m) => m.Level ?? m.level;
+
+  // For a multi-band map, which band-tile owns the boss: the band containing the
+  // boss level, else the highest band. Single-band maps always own their boss.
+  function tileOwnsBoss(t, boss) {
+    const bands = bandsByName[t.name];
+    if (bands.length === 1) return true;
+    const bl = lvl(boss);
+    const containing = bands.find((b) => bl >= b.minLevel && bl <= b.maxLevel);
+    const owner = containing || bands.reduce((a, b) => (b.maxLevel > a.maxLevel ? b : a));
+    return owner.id === t.id;
+  }
+
   const regions = new Map();
   for (const t of mapTiles) {
     const regionSlug = slugify(baseName(t.name));
@@ -349,15 +377,13 @@ export function buildZonesFromBase44({ monsters, mapTiles, lookups, gameVersion 
       });
       continue;
     }
-    const pool = (poolByMap[t.name] || []).filter((m) => {
-      const L = m.Level ?? m.level;
-      return L >= t.minLevel && L <= t.maxLevel;
-    });
-    let boss = bossByMap[t.name] || null;
-    if (boss) {
-      const bl = boss.Level ?? boss.level;
-      if (bl < t.minLevel || bl > t.maxLevel) boss = null; // boss belongs to a different band
-    }
+    const mapMonsters = poolByMap[t.name] || [];
+    // single-band: keep all the map's monsters; multi-band: split by level into this band
+    const pool = bandsByName[t.name].length === 1
+      ? mapMonsters
+      : mapMonsters.filter((m) => lvl(m) >= t.minLevel && lvl(m) <= t.maxLevel);
+    const mapBoss = bossByMap[t.name] || null;
+    const boss = mapBoss && tileOwnsBoss(t, mapBoss) ? mapBoss : null;
     const bossName = boss ? (boss.DisplayName || boss.name) : null;
     const drops = aggregateDrops(pool.map((m) => m.DisplayName || m.name), bossName, byName, lookups);
     regions.get(regionSlug).subZones.push({
