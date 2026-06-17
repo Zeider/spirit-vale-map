@@ -6,6 +6,11 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
 .app { max-width: 1280px; margin: 0 auto; padding: 12px; }
+/* Scale the whole layout up on big/4K displays so the map isn't tiny. */
+@media (min-width: 1600px) { .app { max-width: 1500px; } }
+@media (min-width: 2000px) { .app { max-width: 1850px; } }
+@media (min-width: 2560px) { .app { max-width: 2200px; } }
+@media (min-width: 3200px) { .app { max-width: 2600px; } }
 
 .top-bar { display: flex; align-items: center; gap: 12px; padding: 8px 4px; }
 .top-bar .brand { font-weight: 700; }
