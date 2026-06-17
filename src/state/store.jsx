@@ -1,5 +1,6 @@
 import { createContext, useContext, useReducer } from 'react';
 import { dependencyTargets } from '../logic/build.js';
+import { sortStages, clampCap } from '../logic/gear.js';
 
 export const initialState = {
   playerLevel: 1,
@@ -63,18 +64,17 @@ export function reducer(state, action) {
     case 'resetBuild':
       return { ...state, build: { ...state.build, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null };
     case 'addGearStage': {
-      const stages = [...state.build.gearStages, { fromLevel: action.fromLevel, changes: {} }]
-        .sort((a, b) => a.fromLevel - b.fromLevel);
-      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: stages.findIndex((s) => s.fromLevel === action.fromLevel) };
+      const stages = sortStages([...state.build.gearStages, { toLevel: action.toLevel, changes: {} }]);
+      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: stages.findIndex((s) => s.toLevel === action.toLevel) };
     }
     case 'removeGearStage': {
       const stages = state.build.gearStages.filter((_, i) => i !== action.index);
       return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: Math.max(0, Math.min(state.selectedStage, stages.length - 1)) };
     }
-    case 'setStageLevel': {
-      const stages = state.build.gearStages.map((s, i) => (i === action.index ? { ...s, fromLevel: action.fromLevel } : s))
-        .sort((a, b) => a.fromLevel - b.fromLevel);
-      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: stages.findIndex((s) => s.fromLevel === action.fromLevel) };
+    case 'setStageCap': {
+      const v = clampCap(state.build.gearStages, action.index, action.toLevel);
+      const stages = sortStages(state.build.gearStages.map((s, i) => (i === action.index ? { ...s, toLevel: v } : s)));
+      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: stages.findIndex((s) => s.toLevel === v) };
     }
     case 'setGearSlot': {
       const stages = state.build.gearStages.map((s, i) =>
