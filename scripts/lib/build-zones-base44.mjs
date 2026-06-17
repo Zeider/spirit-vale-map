@@ -62,3 +62,68 @@ export function assignBosses(monsters) {
   }
   return byMap;
 }
+
+function baseName(name) {
+  return name.replace(/\s+(?:[1-9]|North|South|East|West)$/i, '').trim();
+}
+
+export function buildZonesFromBase44({ monsters, mapTiles, lookups, gameVersion }) {
+  const byName = {};
+  for (const m of monsters) byName[m.DisplayName || m.name] = m;
+  const bossByMap = assignBosses(monsters);
+
+  // map name -> monsters listed in that map
+  const poolByMap = {};
+  for (const m of monsters) for (const mp of m.maps || []) (poolByMap[mp.name] ||= []).push(m);
+
+  // combat tiles that share a map name = multi-band maps (Forest Labyrinth, Sanctum of Light)
+  const bandsByName = {};
+  for (const t of mapTiles) if (!t.isHub) (bandsByName[t.name] ||= []).push(t);
+  const lvl = (m) => m.Level ?? m.level;
+
+  // For a multi-band map, which band-tile owns the boss: the band containing the
+  // boss level, else the highest band. Single-band maps always own their boss.
+  function tileOwnsBoss(t, boss) {
+    const bands = bandsByName[t.name];
+    if (bands.length === 1) return true;
+    const bl = lvl(boss);
+    const containing = bands.find((b) => bl >= b.minLevel && bl <= b.maxLevel);
+    const owner = containing || bands.reduce((a, b) => (b.maxLevel > a.maxLevel ? b : a));
+    return owner.id === t.id;
+  }
+
+  const regions = new Map();
+  for (const t of mapTiles) {
+    const regionSlug = slugify(baseName(t.name));
+    if (!regions.has(regionSlug)) {
+      regions.set(regionSlug, { id: regionSlug, slug: regionSlug, name: baseName(t.name), subZones: [] });
+    }
+    if (t.isHub) {
+      regions.get(regionSlug).subZones.push({
+        id: t.id, gameId: t.name, name: t.name, minLevel: t.minLevel, maxLevel: t.maxLevel,
+        isHub: true, monsters: [], boss: null, drops: [],
+      });
+      continue;
+    }
+    const mapMonsters = poolByMap[t.name] || [];
+    // single-band: keep all the map's monsters; multi-band: split by level into this band
+    const pool = bandsByName[t.name].length === 1
+      ? mapMonsters
+      : mapMonsters.filter((m) => lvl(m) >= t.minLevel && lvl(m) <= t.maxLevel);
+    const mapBoss = bossByMap[t.name] || null;
+    const boss = mapBoss && tileOwnsBoss(t, mapBoss) ? mapBoss : null;
+    const bossName = boss ? (boss.DisplayName || boss.name) : null;
+    const drops = aggregateDrops(pool.map((m) => m.DisplayName || m.name), bossName, byName, lookups);
+    regions.get(regionSlug).subZones.push({
+      id: t.id, gameId: t.name, name: t.name, minLevel: t.minLevel, maxLevel: t.maxLevel,
+      isHub: false, monsters: pool.map((m) => m.DisplayName || m.name), boss: bossName, drops,
+    });
+  }
+  const out = [...regions.values()].map((r) => {
+    const combat = r.subZones.filter((s) => !s.isHub);
+    r.minLevel = combat.length ? Math.min(...combat.map((s) => s.minLevel)) : 0;
+    r.maxLevel = combat.length ? Math.max(...combat.map((s) => s.maxLevel)) : 0;
+    return r;
+  });
+  return { gameVersion, regions: out };
+}
