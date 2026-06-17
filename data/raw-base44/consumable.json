@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Frozen Core Shard",
+    "type": "consumable",
+    "description": "A fragment taken from the core of a fallen construct. Its pulse resonates with larger beings of ice and stone.",
+    "url": "https://spiritvale.info/consumables/frozen-core-shard",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/f43a55c04_item-frozen-core-shard.webp",
+    "image": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/f43a55c04_item-frozen-core-shard.webp"
+  },
+  {
+    "name": "Time Device",
+    "type": "consumable",
+    "description": "An impossible mechanism that ticks against reality itself. The Entity stirs when it resonates.",
+    "url": "https://spiritvale.info/consumables/time-device",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/fa79f6a2d_item-time-device.webp"
+  },
+  {
+    "name": "Heaven's Tear Earring",
+    "type": "consumable",
+    "description": "A luminous pearl once worn by a saint. Its holiness echoes across realms.",
+    "url": "https://spiritvale.info/consumables/heaven-s-tear-earring",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/6bcdaf837_item-heaven-s-tear-earring.webp"
+  },
+  {
+    "name": "Overripe Grape Cluster",
+    "type": "consumable",
+    "description": "Sweet and pungent, these grapes rot in place. Something winged waits for nightfall.",
+    "url": "https://spiritvale.info/consumables/overripe-grape-cluster",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/26b79808e_item-overripe-grape-cluster.webp"
+  },
+  {
+    "name": "Oozing Pulp Chunk",
+    "type": "consumable",
+    "description": "A piece of desert cactus, leaking sticky fluid. It stirs something thorny.",
+    "url": "https://spiritvale.info/consumables/oozing-pulp-chunk",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/3b64f8026_item-oozing-pulp-chunk.webp"
+  },
+  {
+    "name": "Curved Fishbone",
+    "type": "consumable",
+    "description": "A gleaming, curved spine picked clean. Cats can't resist the scent.",
+    "url": "https://spiritvale.info/consumables/curved-fishbone",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/ff51b8b8b_item-curved-fishbone.webp"
+  },
+  {
+    "name": "Black Mirror Shard",
+    "type": "consumable",
+    "description": "A jagged shard that reflects nothing. Death gazes through it, unseen.",
+    "url": "https://spiritvale.info/consumables/black-mirror-shard",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/35953d6c6_item-black-mirror-shard.webp"
+  },
+  {
+    "name": "Glinting Goblin Fang",
+    "type": "consumable",
+    "description": "A chipped golden tooth, stolen and re-stolen. It pulses with greedy memories.",
+    "url": "https://spiritvale.info/consumables/glinting-goblin-fang",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/4365eb384_item-glinting-goblin-fang.webp"
+  },
+  {
+    "name": "Tribal Heirloom",
+    "type": "consumable",
+    "description": "A decorated weapon sheath inlaid with rare metals and gems. To goblins, it is more than a relic, it is a symbol of leadership. The Warchief will stop at nothing to claim it.",
+    "url": "https://spiritvale.info/consumables/tribal-heirloom",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/d445bd500_item-tribal-heirloom.webp"
+  },
+  {
+    "name": "Gnawed Acorn",
+    "type": "consumable",
+    "description": "A cracked forest nut, its surface etched with tiny bite marks. Something small remembers.",
+    "url": "https://spiritvale.info/consumables/gnawed-acorn",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/1865b8ccf_item-gnawed-acorn.webp"
+  },
+  {
+    "name": "Calcified Shell Core",
+    "type": "consumable",
+    "description": "A weathered lump of reefstone. Hermits gather where the tides once whispered.",
+    "url": "https://spiritvale.info/consumables/calcified-shell-core",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/6b100e544_item-calcified-shell-core.webp"
+  },
+  {
+    "name": "Frozen Heart Crystal",
+    "type": "consumable",
+    "description": "A flawless gem, cold as death. Those bound by frost feel its call.",
+    "url": "https://spiritvale.info/consumables/frozen-heart-crystal",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/88e7bbd9e_item-frozen-heart-crystal.webp"
+  },
+  {
+    "name": "Blank Pact Scroll",
+    "type": "consumable",
+    "description": "A clean parchment soaked in ash. Devils ink their names when the time is right.",
+    "url": "https://spiritvale.info/consumables/blank-pact-scroll",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/ebc9172eb_item-blank-pact-scroll.webp"
+  },
+  {
+    "name": "Frozen Core Shard",
+    "type": "consumable",
+    "description": "A fragment taken from the core of a fallen construct. Its pulse resonates with larger beings of ice and stone.",
+    "url": "https://spiritvale.info/consumables/frozen-core-shard",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/5267f4652_item-frozen-core-shard.webp"
+  },
+  {
+    "name": "Royal Jelly Clot",
+    "type": "consumable",
+    "description": "Luminous nectar once meant for a queen. Her children will come to claim it.",
+    "url": "https://spiritvale.info/consumables/royal-jelly-clot",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/e21d51054_item-royal-jelly-clot.webp"
+  },
+  {
+    "name": "Soldier Termite",
+    "type": "consumable",
+    "description": "A hardened desert insect, still twitching. Its scent invites an ancient rival.",
+    "url": "https://spiritvale.info/consumables/soldier-termite",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/4da923d22_item-soldier-termite.webp"
+  },
+  {
+    "name": "Fresh Kill Slab",
+    "type": "consumable",
+    "description": "Raw, bloodied meat still warm to the touch. The air thickens with predator breath.",
+    "url": "https://spiritvale.info/consumables/fresh-kill-slab",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/5f8495b8c_item-fresh-kill-slab.webp"
+  },
+  {
+    "name": "Spider Web Coil",
+    "type": "consumable",
+    "description": "A tightly woven mass of enchanted silk. It hums faintly, as if something waits within.",
+    "url": "https://spiritvale.info/consumables/spider-web-coil",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/9d34edf8d_item-spider-web-coil.webp"
+  },
+  {
+    "name": "Buzzing Hive Fragment",
+    "type": "consumable",
+    "description": "A honey-soaked hive chunk, vibrating faintly. The swarm is never far behind.",
+    "url": "https://spiritvale.info/consumables/buzzing-hive-fragment",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/67153da97_item-buzzing-hive-fragment.webp"
+  },
+  {
+    "name": "Sunborn Petal Tuft",
+    "type": "consumable",
+    "description": "A soft, glowing sprig that shimmers in the light. Whispers of joy trail behind it.",
+    "url": "https://spiritvale.info/consumables/sunborn-petal-tuft",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/288872a42_item-sunborn-petal-tuft.webp"
+  },
+  {
+    "name": "Tactical Power Node",
+    "type": "consumable",
+    "description": "A self-contained energy core used by advanced combat units. When activated, it emits a signal only the strongest turtle weapon-platform can answer.",
+    "url": "https://spiritvale.info/consumables/tactical-power-node",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/c235d821d_item-tactical-power-node.webp"
+  },
+  {
+    "name": "Fragment of the Pale Moon",
+    "type": "consumable",
+    "description": "Cold to the touch and humming with silver light. The beast inside begins to stir.",
+    "url": "https://spiritvale.info/consumables/fragment-of-the-pale-moon",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/acb31509c_item-fragment-of-the-pale-moon.webp"
+  },
+  {
+    "name": "Worm-Eaten Sediment",
+    "type": "consumable",
+    "description": "A clump of ancient mud riddled with tiny burrows. Something still moves inside.",
+    "url": "https://spiritvale.info/consumables/worm-eaten-sediment",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/f9b6c7d63_item-worm-eaten-sediment.webp"
+  },
+  {
+    "name": "Lost Shoe",
+    "type": "consumable",
+    "description": "A worn shoe caked in mud, abandoned in the dark. The zombie horde sniffs out the trail of the fallen.",
+    "url": "https://spiritvale.info/consumables/lost-shoe",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/f004e7dee_item-lost-shoe.webp"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "acolyte_priest",
+    "class": "Acolyte",
+    "name": "Priest",
+    "description": "Focused on healing, support and holy magic."
+  },
+  {
+    "id": "acolyte_monk",
+    "class": "Acolyte",
+    "name": "Monk",
+    "description": "Close combat fighter using faith and physical strength."
+  },
+  {
+    "id": "knight_guardian",
+    "class": "Knight",
+    "name": "Guardian",
+    "description": "High defense and party protection specialist."
+  },
+  {
+    "id": "knight_crusader",
+    "class": "Knight",
+    "name": "Crusader",
+    "description": "Balanced offense and defense with holy abilities."
+  },
+  {
+    "id": "mage_elementalist",
+    "class": "Mage",
+    "name": "Elementalist",
+    "description": "Master of fire, ice and lightning magic."
+  },
+  {
+    "id": "mage_arcanist",
+    "class": "Mage",
+    "name": "Arcanist",
+    "description": "Focused on raw magic power and spell amplification."
+  },
+  {
+    "id": "rogue_assassin",
+    "class": "Rogue",
+    "name": "Assassin",
+    "description": "High burst damage and stealth gameplay."
+  },
+  {
+    "id": "rogue_trickster",
+    "class": "Rogue",
+    "name": "Trickster",
+    "description": "Mobility, evasion and control-based combat."
+  },
+  {
+    "id": "scout_ranger",
+    "class": "Scout",
+    "name": "Ranger",
+    "description": "Long range physical damage and precision."
+  },
+  {
+    "id": "scout_hunter",
+    "class": "Scout",
+    "name": "Hunter",
+    "description": "Traps, mobility and sustained ranged damage."
+  },
+  {
+    "id": "summoner_necromancer",
+    "class": "Summoner",
+    "name": "Necromancer",
+    "description": "Summons undead creatures and curses enemies."
+  },
+  {
+    "id": "summoner_spiritcaller",
+    "class": "Summoner",
+    "name": "Spirit Caller",
+    "description": "Summons elemental and spiritual entities."
+  },
+  {
+    "id": "warrior_berserker",
+    "class": "Warrior",
+    "name": "Berserker",
+    "description": "High damage melee fighter with aggressive skills."
+  },
+  {
+    "id": "warrior_warlord",
+    "class": "Warrior",
+    "name": "Warlord",
+    "description": "Leadership-based combat and battlefield control."
+  }
+]

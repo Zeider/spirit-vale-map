@@ -1,0 +1,21 @@
+{
+  "Acolyte": [
+    "Priest",
+    "Paladin"
+  ],
+  "Rogue": [
+    "Shinobi"
+  ],
+  "Mage": [
+    "Wizard"
+  ],
+  "Warrior": [
+    "Knight"
+  ],
+  "Scout": [
+    "Gunslinger"
+  ],
+  "Summoner": [
+    "Weaver"
+  ]
+}

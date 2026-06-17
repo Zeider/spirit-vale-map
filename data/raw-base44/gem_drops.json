@@ -1,0 +1,2225 @@
+[
+  {
+    "monster_id": "mushroom",
+    "monster_name": "Mushroom",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Aerial Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spike",
+    "monster_name": "Spike",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Aerial Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "toadstool",
+    "monster_name": "Toadstool",
+    "monster_level": 35,
+    "isBoss": false,
+    "item_name": "Aerial Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shark-baby",
+    "monster_name": "Shark Baby",
+    "monster_level": 62,
+    "isBoss": false,
+    "item_name": "Arrow Shower Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "turtle-red",
+    "monster_name": "Turtle Red",
+    "monster_level": 64,
+    "isBoss": false,
+    "item_name": "Arrow Shower Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "sting",
+    "monster_name": "Sting",
+    "monster_level": 20,
+    "isBoss": true,
+    "item_name": "Tempo Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "goblin-minion",
+    "monster_name": "Goblin Minion",
+    "monster_level": 56,
+    "isBoss": false,
+    "item_name": "Twin Cleave Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-trooper-soldier",
+    "monster_name": "Goblin Trooper Soldier",
+    "monster_level": 58,
+    "isBoss": false,
+    "item_name": "Twin Cleave Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shark-pirate",
+    "monster_name": "Shark Pirate",
+    "monster_level": 65,
+    "isBoss": false,
+    "item_name": "Axe Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "turtle-blue",
+    "monster_name": "Turtle Blue",
+    "monster_level": 63,
+    "isBoss": false,
+    "item_name": "Axe Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-giant-mage",
+    "monster_name": "Goblin Giant Mage",
+    "monster_level": 59,
+    "isBoss": false,
+    "item_name": "Vortex Slash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-trooper-mage",
+    "monster_name": "Goblin Trooper Mage",
+    "monster_level": 57,
+    "isBoss": false,
+    "item_name": "Vortex Slash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dog-bowwow",
+    "monster_name": "Dog Bowwow",
+    "monster_level": 29,
+    "isBoss": false,
+    "item_name": "Bash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "scorpling",
+    "monster_name": "Scorpling",
+    "monster_level": 26,
+    "isBoss": false,
+    "item_name": "Bash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "turtle-green",
+    "monster_name": "Turtle Green",
+    "monster_level": 63,
+    "isBoss": false,
+    "item_name": "Blade Dance Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "turtle-baby",
+    "monster_name": "Turtle Baby",
+    "monster_level": 61,
+    "isBoss": false,
+    "item_name": "Blade Dance Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "death",
+    "monster_name": "Death",
+    "monster_level": 102,
+    "isBoss": false,
+    "item_name": "Bone Spear Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops-bat-wizard",
+    "monster_name": "Cyclops Bat Wizard",
+    "monster_level": 103,
+    "isBoss": false,
+    "item_name": "Bone Spikes Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "imp-devil",
+    "monster_name": "Imp Devil",
+    "monster_level": 105,
+    "isBoss": true,
+    "item_name": "Focus Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "voidgazer",
+    "monster_name": "Voidgazer",
+    "monster_level": 126,
+    "isBoss": false,
+    "item_name": "Chain Lightning Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "elder-wisp-purple",
+    "monster_name": "Elder Wisp Purple",
+    "monster_level": 89,
+    "isBoss": false,
+    "item_name": "Consecrated Ground Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "poison-bomb",
+    "monster_name": "Poison Bomb",
+    "monster_level": 87,
+    "isBoss": false,
+    "item_name": "Consecrated Ground Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "direwolf",
+    "monster_name": "Direwolf",
+    "monster_level": 110,
+    "isBoss": false,
+    "item_name": "Consecration Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "eyeball-creep-blue",
+    "monster_name": "Eyeball Creep Blue",
+    "monster_level": 106,
+    "isBoss": false,
+    "item_name": "Consecration Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragonfly-swift",
+    "monster_name": "Dragonfly Swift",
+    "monster_level": 73,
+    "isBoss": false,
+    "item_name": "Corpse Explosion Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cacti",
+    "monster_name": "Cacti",
+    "monster_level": 26,
+    "isBoss": false,
+    "item_name": "Counter Slash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cactus",
+    "monster_name": "Cactus",
+    "monster_level": 28,
+    "isBoss": false,
+    "item_name": "Counter Slash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "plant-chewer",
+    "monster_name": "Plant Chewer",
+    "monster_level": 30,
+    "isBoss": false,
+    "item_name": "Counter Slash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spider-queen",
+    "monster_name": "Spider Queen",
+    "monster_level": 135,
+    "isBoss": true,
+    "item_name": "Razor Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "delivery-robot",
+    "monster_name": "Delivery Robot",
+    "monster_level": 129,
+    "isBoss": false,
+    "item_name": "Cyclone Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "nozzle-robot",
+    "monster_name": "Nozzle Robot",
+    "monster_level": 127,
+    "isBoss": false,
+    "item_name": "Cyclone Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "stormjelly",
+    "monster_name": "Stormjelly",
+    "monster_level": 91,
+    "isBoss": false,
+    "item_name": "Damnation Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "stormstinger",
+    "monster_name": "Stormstinger",
+    "monster_level": 94,
+    "isBoss": false,
+    "item_name": "Damnation Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "eyeball-mage-green",
+    "monster_name": "Eyeball Mage Green",
+    "monster_level": 114,
+    "isBoss": false,
+    "item_name": "Dark Exorcism Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "skeleton-mage",
+    "monster_name": "Skeleton Mage",
+    "monster_level": 104,
+    "isBoss": false,
+    "item_name": "Dark Claw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops-bat-mage",
+    "monster_name": "Cyclops Bat Mage",
+    "monster_level": 112,
+    "isBoss": false,
+    "item_name": "Death Coil Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops-bat-mage",
+    "monster_name": "Cyclops Bat Mage",
+    "monster_level": 112,
+    "isBoss": false,
+    "item_name": "Death Coil Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "eyeball-mage-red",
+    "monster_name": "Eyeball Mage Red",
+    "monster_level": 115,
+    "isBoss": false,
+    "item_name": "Death Nova Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "nightmare",
+    "monster_name": "Nightmare",
+    "monster_level": 111,
+    "isBoss": false,
+    "item_name": "Death Nova Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fish-man-blue",
+    "monster_name": "Fish Man Blue",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Death Spiral Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "merman-pink",
+    "monster_name": "Merman Pink",
+    "monster_level": 125,
+    "isBoss": false,
+    "item_name": "Death Spiral Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fish-yellow",
+    "monster_name": "Fish Yellow",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Death Spiral Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-purple",
+    "monster_name": "Octopus Purple",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Death Spiral Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cactus-king",
+    "monster_name": "Cactus King",
+    "monster_level": 35,
+    "isBoss": true,
+    "item_name": "Bastion Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "cosmic-entity",
+    "monster_name": "Cosmic Entity",
+    "monster_level": 135,
+    "isBoss": true,
+    "item_name": "Seer Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "shadow-ice",
+    "monster_name": "Shadow Ice",
+    "monster_level": 134,
+    "isBoss": false,
+    "item_name": "Divine Punishment Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "ice-baby",
+    "monster_name": "Ice Baby",
+    "monster_level": 132,
+    "isBoss": false,
+    "item_name": "Divine Punishment Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "snake-naga",
+    "monster_name": "Snake Naga",
+    "monster_level": 50,
+    "isBoss": true,
+    "item_name": "Echo Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "goblin-king",
+    "monster_name": "Goblin King",
+    "monster_level": 65,
+    "isBoss": true,
+    "item_name": "Earth Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "bumble",
+    "monster_name": "Bumble",
+    "monster_level": 17,
+    "isBoss": false,
+    "item_name": "Earth Spikes Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "flower-pot-monster",
+    "monster_name": "Flower Pot Monster",
+    "monster_level": 25,
+    "isBoss": false,
+    "item_name": "Earth Spikes Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "sprout",
+    "monster_name": "Sprout",
+    "monster_level": 20,
+    "isBoss": false,
+    "item_name": "Earth Spikes Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wisp-purple",
+    "monster_name": "Wisp Purple",
+    "monster_level": 22,
+    "isBoss": false,
+    "item_name": "Earth Spikes Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "burrow",
+    "monster_name": "Burrow",
+    "monster_level": 16,
+    "isBoss": false,
+    "item_name": "Earthbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "butterfly-hue",
+    "monster_name": "Butterfly Hue",
+    "monster_level": 21,
+    "isBoss": false,
+    "item_name": "Earthbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "egglet",
+    "monster_name": "Egglet",
+    "monster_level": 24,
+    "isBoss": false,
+    "item_name": "Earthbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "rabbit",
+    "monster_name": "Rabbit",
+    "monster_level": 19,
+    "isBoss": false,
+    "item_name": "Earthbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-warblade",
+    "monster_name": "Goblin Warblade",
+    "monster_level": 118,
+    "isBoss": false,
+    "item_name": "Earthquake Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fangroot",
+    "monster_name": "Fangroot",
+    "monster_level": 94,
+    "isBoss": false,
+    "item_name": "Execute Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cinderspike",
+    "monster_name": "Cinderspike",
+    "monster_level": 92,
+    "isBoss": false,
+    "item_name": "Execute Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spook",
+    "monster_name": "Spook",
+    "monster_level": 82,
+    "isBoss": false,
+    "item_name": "Exorcism Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-inferno",
+    "monster_name": "Dragon Inferno",
+    "monster_level": 100,
+    "isBoss": false,
+    "item_name": "Explosive Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-spark",
+    "monster_name": "Dragon Spark",
+    "monster_level": 97,
+    "isBoss": false,
+    "item_name": "Explosive Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shade",
+    "monster_name": "Shade",
+    "monster_level": 98,
+    "isBoss": false,
+    "item_name": "Explosive Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "eyeball-bat-red",
+    "monster_name": "Eyeball Bat Red",
+    "monster_level": 23,
+    "isBoss": false,
+    "item_name": "Fan Fire Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wolf",
+    "monster_name": "Wolf",
+    "monster_level": 25,
+    "isBoss": false,
+    "item_name": "Fan Fire Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "worm-rot",
+    "monster_name": "Worm Rot",
+    "monster_level": 88,
+    "isBoss": false,
+    "item_name": "Fan Of Knives Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "zombie-goblin-minion",
+    "monster_name": "Zombie Goblin Minion",
+    "monster_level": 51,
+    "isBoss": false,
+    "item_name": "Banishment Field Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops-giant",
+    "monster_name": "Cyclops Giant",
+    "monster_level": 70,
+    "isBoss": false,
+    "item_name": "Dissonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "golem-ice",
+    "monster_name": "Golem Ice",
+    "monster_level": 69,
+    "isBoss": false,
+    "item_name": "Dissonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "icicle",
+    "monster_name": "Icicle",
+    "monster_level": 68,
+    "isBoss": false,
+    "item_name": "Dissonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "snow-bomb",
+    "monster_name": "Snow Bomb",
+    "monster_level": 66,
+    "isBoss": false,
+    "item_name": "Dissonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops-minion",
+    "monster_name": "Cyclops Minion",
+    "monster_level": 67,
+    "isBoss": false,
+    "item_name": "Resonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops",
+    "monster_name": "Cyclops",
+    "monster_level": 68,
+    "isBoss": false,
+    "item_name": "Resonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-blizzard",
+    "monster_name": "Dragon Blizzard",
+    "monster_level": 70,
+    "isBoss": false,
+    "item_name": "Resonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "ice",
+    "monster_name": "Ice",
+    "monster_level": 66,
+    "isBoss": false,
+    "item_name": "Resonance Well Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "horror",
+    "monster_name": "Horror",
+    "monster_level": 50,
+    "isBoss": false,
+    "item_name": "Suppression Field Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "vampire-bat",
+    "monster_name": "Vampire Bat",
+    "monster_level": 46,
+    "isBoss": false,
+    "item_name": "Suppression Field Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "scorpion-king",
+    "monster_name": "Scorpion King",
+    "monster_level": 35,
+    "isBoss": true,
+    "item_name": "Fire Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "elder-wisp-yellow",
+    "monster_name": "Elder Wisp Yellow",
+    "monster_level": 99,
+    "isBoss": false,
+    "item_name": "Fire Pillar Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fire",
+    "monster_name": "Fire",
+    "monster_level": 96,
+    "isBoss": false,
+    "item_name": "Fire Pillar Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "imp-demon",
+    "monster_name": "Imp Demon",
+    "monster_level": 97,
+    "isBoss": false,
+    "item_name": "Fire Pillar Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-fire",
+    "monster_name": "Dragon Fire",
+    "monster_level": 98,
+    "isBoss": false,
+    "item_name": "Fire Release Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fire-mage",
+    "monster_name": "Fire Mage",
+    "monster_level": 99,
+    "isBoss": false,
+    "item_name": "Fire Release Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "imp-mischief",
+    "monster_name": "Imp Mischief",
+    "monster_level": 96,
+    "isBoss": false,
+    "item_name": "Fire Release Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "chick",
+    "monster_name": "Chick",
+    "monster_level": 4,
+    "isBoss": false,
+    "item_name": "Fireball Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "treant-forest-autumn",
+    "monster_name": "Treant Forest Autumn",
+    "monster_level": 8,
+    "isBoss": false,
+    "item_name": "Fireball Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "treant-minion-autumn",
+    "monster_name": "Treant Minion Autumn",
+    "monster_level": 6,
+    "isBoss": false,
+    "item_name": "Fireball Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "treant-tree-autumn",
+    "monster_name": "Treant Tree Autumn",
+    "monster_level": 7,
+    "isBoss": false,
+    "item_name": "Fireball Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wisp-red",
+    "monster_name": "Wisp Red",
+    "monster_level": 2,
+    "isBoss": false,
+    "item_name": "Fireball Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "bunny",
+    "monster_name": "Bunny",
+    "monster_level": 3,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "egg",
+    "monster_name": "Egg",
+    "monster_level": 5,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "pollen",
+    "monster_name": "Pollen",
+    "monster_level": 1,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "treant-forest-evergreen",
+    "monster_name": "Treant Forest Evergreen",
+    "monster_level": 9,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "treant-minion-evergreen",
+    "monster_name": "Treant Minion Evergreen",
+    "monster_level": 6,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "treant-tree-evergreen",
+    "monster_name": "Treant Tree Evergreen",
+    "monster_level": 8,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wisp-yellow",
+    "monster_name": "Wisp Yellow",
+    "monster_level": 5,
+    "isBoss": false,
+    "item_name": "Firebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "flame",
+    "monster_name": "Flame",
+    "monster_level": 97,
+    "isBoss": false,
+    "item_name": "Flame Orb Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "golem-fire",
+    "monster_name": "Golem Fire",
+    "monster_level": 99,
+    "isBoss": false,
+    "item_name": "Flame Orb Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shadow",
+    "monster_name": "Shadow",
+    "monster_level": 100,
+    "isBoss": false,
+    "item_name": "Flame Orb Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "scorpion",
+    "monster_name": "Scorpion",
+    "monster_level": 28,
+    "isBoss": false,
+    "item_name": "Flash Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "snake-naga",
+    "monster_name": "Snake Naga",
+    "monster_level": 50,
+    "isBoss": true,
+    "item_name": "Evasion Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "snake",
+    "monster_name": "Snake",
+    "monster_level": 47,
+    "isBoss": false,
+    "item_name": "Force Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-ice",
+    "monster_name": "Dragon Ice",
+    "monster_level": 68,
+    "isBoss": false,
+    "item_name": "Freeze Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-water",
+    "monster_name": "Dragon Water",
+    "monster_level": 67,
+    "isBoss": false,
+    "item_name": "Freeze Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "elder-wisp-blue",
+    "monster_name": "Elder Wisp Blue",
+    "monster_level": 69,
+    "isBoss": false,
+    "item_name": "Freeze Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "little-star",
+    "monster_name": "Little Star",
+    "monster_level": 131,
+    "isBoss": false,
+    "item_name": "Blizzard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "twinkle",
+    "monster_name": "Twinkle",
+    "monster_level": 135,
+    "isBoss": false,
+    "item_name": "Blizzard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "vanilla-ice",
+    "monster_name": "Vanilla Ice",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Blizzard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "festive-bear",
+    "monster_name": "Festive Bear",
+    "monster_level": 135,
+    "isBoss": false,
+    "item_name": "Binding Spiral Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "starflake",
+    "monster_name": "Starflake",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Binding Spiral Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "bogbloom",
+    "monster_name": "Bogbloom",
+    "monster_level": 129,
+    "isBoss": false,
+    "item_name": "Grand Cross Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fish-man-pink",
+    "monster_name": "Fish Man Pink",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Earth Splitter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "merman-yellow",
+    "monster_name": "Merman Yellow",
+    "monster_level": 125,
+    "isBoss": false,
+    "item_name": "Earth Splitter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-baby-blue",
+    "monster_name": "Octopus Baby Blue",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Earth Splitter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-white",
+    "monster_name": "Octopus White",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Earth Splitter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "housefly-junk",
+    "monster_name": "Housefly Junk",
+    "monster_level": 74,
+    "isBoss": false,
+    "item_name": "Gunk Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "blossom",
+    "monster_name": "Blossom",
+    "monster_level": 90,
+    "isBoss": false,
+    "item_name": "Harvest Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "worm-stink",
+    "monster_name": "Worm Stink",
+    "monster_level": 87,
+    "isBoss": false,
+    "item_name": "Harvest Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "butterfly-fairy",
+    "monster_name": "Butterfly Fairy",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "butterfly-pixie",
+    "monster_name": "Butterfly Pixie",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "glow-wisp-yellow",
+    "monster_name": "Glow Wisp Yellow",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "moth-celestial",
+    "monster_name": "Moth Celestial",
+    "monster_level": 35,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "moth-luna",
+    "monster_name": "Moth Luna",
+    "monster_level": 31,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "moth-moon",
+    "monster_name": "Moth Moon",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "sun-blossom",
+    "monster_name": "Sun Blossom",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "sunflower-fairy",
+    "monster_name": "Sunflower Fairy",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "sunflora-pixie",
+    "monster_name": "Sunflora Pixie",
+    "monster_level": 40,
+    "isBoss": true,
+    "item_name": "Grace Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "angel",
+    "monster_name": "Angel",
+    "monster_level": 76,
+    "isBoss": false,
+    "item_name": "High Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "haunt",
+    "monster_name": "Haunt",
+    "monster_level": 80,
+    "isBoss": false,
+    "item_name": "High Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "soul",
+    "monster_name": "Soul",
+    "monster_level": 78,
+    "isBoss": false,
+    "item_name": "High Heal Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "scorpion-king",
+    "monster_name": "Scorpion King",
+    "monster_level": 35,
+    "isBoss": true,
+    "item_name": "Precision Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "angel-mage",
+    "monster_name": "Angel Mage",
+    "monster_level": 90,
+    "isBoss": true,
+    "item_name": "Holy Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "eyeball-bat-green",
+    "monster_name": "Eyeball Bat Green",
+    "monster_level": 22,
+    "isBoss": false,
+    "item_name": "Holy Light Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "skeleton",
+    "monster_name": "Skeleton",
+    "monster_level": 24,
+    "isBoss": false,
+    "item_name": "Holy Light Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "phantom",
+    "monster_name": "Phantom",
+    "monster_level": 83,
+    "isBoss": false,
+    "item_name": "Holy Wrath Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "ashrend",
+    "monster_name": "Ashrend",
+    "monster_level": 130,
+    "isBoss": false,
+    "item_name": "Litany of Wrath Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-warchief",
+    "monster_name": "Goblin Warchief",
+    "monster_level": 125,
+    "isBoss": true,
+    "item_name": "Heart Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "fish-blue",
+    "monster_name": "FIsh Blue",
+    "monster_level": 121,
+    "isBoss": false,
+    "item_name": "Hydro Vortex Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fish-man-yellow",
+    "monster_name": "Fish Man Yellow",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Hydro Vortex Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-baby-orange",
+    "monster_name": "Octopus Baby Orange",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Hydro Vortex Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shark",
+    "monster_name": "Shark",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Hydro Vortex Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "ice-bear",
+    "monster_name": "Ice Bear",
+    "monster_level": 134,
+    "isBoss": false,
+    "item_name": "Ice Release Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "festive-baby",
+    "monster_name": "Festive Baby",
+    "monster_level": 132,
+    "isBoss": false,
+    "item_name": "Ice Release Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "bird",
+    "monster_name": "Bird",
+    "monster_level": 15,
+    "isBoss": false,
+    "item_name": "Ice Shard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cat-meow",
+    "monster_name": "Cat Meow",
+    "monster_level": 7,
+    "isBoss": false,
+    "item_name": "Ice Shard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fledgling",
+    "monster_name": "Fledgling",
+    "monster_level": 12,
+    "isBoss": false,
+    "item_name": "Ice Shard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "seed",
+    "monster_name": "Seed",
+    "monster_level": 10,
+    "isBoss": false,
+    "item_name": "Ice Shard Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "bee",
+    "monster_name": "Bee",
+    "monster_level": 6,
+    "isBoss": false,
+    "item_name": "Icebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dog-bark",
+    "monster_name": "Dog Bark",
+    "monster_level": 14,
+    "isBoss": false,
+    "item_name": "Icebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dog-pup",
+    "monster_name": "Dog Pup",
+    "monster_level": 9,
+    "isBoss": false,
+    "item_name": "Icebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wisp-blue",
+    "monster_name": "Wisp Blue",
+    "monster_level": 11,
+    "isBoss": false,
+    "item_name": "Icebolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "hydro-turtle",
+    "monster_name": "Hydro Turtle",
+    "monster_level": 134,
+    "isBoss": false,
+    "item_name": "Judgement Blade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "solar-turtle",
+    "monster_name": "Solar Turtle",
+    "monster_level": 131,
+    "isBoss": false,
+    "item_name": "Judgement Blade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "earthworm",
+    "monster_name": "Earthworm",
+    "monster_level": 71,
+    "isBoss": false,
+    "item_name": "Jump Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "mosquito-stinger",
+    "monster_name": "Mosquito Stinger",
+    "monster_level": 75,
+    "isBoss": false,
+    "item_name": "Jump Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "werewolf",
+    "monster_name": "Werewolf",
+    "monster_level": 30,
+    "isBoss": true,
+    "item_name": "Bloodfang Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "bat-lord",
+    "monster_name": "Bat Lord",
+    "monster_level": 55,
+    "isBoss": true,
+    "item_name": "Soulfang Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "eyeball-creep-red",
+    "monster_name": "Eyeball Creep Red",
+    "monster_level": 109,
+    "isBoss": false,
+    "item_name": "Life Drain Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "eyeball-creep-red",
+    "monster_name": "Eyeball Creep Red",
+    "monster_level": 109,
+    "isBoss": false,
+    "item_name": "Life Drain Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "voidspawn",
+    "monster_name": "Voidspawn",
+    "monster_level": 93,
+    "isBoss": false,
+    "item_name": "Lightning Release Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-king-purple",
+    "monster_name": "Octopus King Purple",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Flash Step Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "ice-mage",
+    "monster_name": "Ice Mage",
+    "monster_level": 75,
+    "isBoss": true,
+    "item_name": "Ward Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "razor-robot",
+    "monster_name": "Razor Robot",
+    "monster_level": 126,
+    "isBoss": false,
+    "item_name": "Meteor Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "snout-robot",
+    "monster_name": "Snout Robot",
+    "monster_level": 129,
+    "isBoss": false,
+    "item_name": "Meteor Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spiderling-robot",
+    "monster_name": "Spiderling Robot",
+    "monster_level": 128,
+    "isBoss": false,
+    "item_name": "Meteor Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "hare",
+    "monster_name": "Hare",
+    "monster_level": 10,
+    "isBoss": true,
+    "item_name": "Stride Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "angel-mage",
+    "monster_name": "Angel Mage",
+    "monster_level": 90,
+    "isBoss": true,
+    "item_name": "Channel Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "worm-creep",
+    "monster_name": "Worm Creep",
+    "monster_level": 95,
+    "isBoss": true,
+    "item_name": "Mind Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "imp-devil",
+    "monster_name": "Imp Devil",
+    "monster_level": 105,
+    "isBoss": true,
+    "item_name": "Mantra Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "goblin-warchief",
+    "monster_name": "Goblin Warchief",
+    "monster_level": 125,
+    "isBoss": true,
+    "item_name": "Steadfast Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "spider-queen",
+    "monster_name": "Spider Queen",
+    "monster_level": 135,
+    "isBoss": true,
+    "item_name": "Anchor Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "worm",
+    "monster_name": "Worm",
+    "monster_level": 72,
+    "isBoss": false,
+    "item_name": "Panic Burst Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "death-mage",
+    "monster_name": "Death Mage",
+    "monster_level": 120,
+    "isBoss": true,
+    "item_name": "Veil Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "spider-king",
+    "monster_name": "Spider King",
+    "monster_level": 49,
+    "isBoss": false,
+    "item_name": "Piercing Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "gripper-robot",
+    "monster_name": "Gripper Robot",
+    "monster_level": 130,
+    "isBoss": false,
+    "item_name": "Point Blank Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spider-robot",
+    "monster_name": "Spider Robot",
+    "monster_level": 128,
+    "isBoss": false,
+    "item_name": "Point Blank Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spike-robot",
+    "monster_name": "Spike Robot",
+    "monster_level": 127,
+    "isBoss": false,
+    "item_name": "Point Blank Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "queen-worm",
+    "monster_name": "Queen Worm",
+    "monster_level": 80,
+    "isBoss": true,
+    "item_name": "Poison Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "bloom",
+    "monster_name": "Bloom",
+    "monster_level": 89,
+    "isBoss": false,
+    "item_name": "Poison Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "bud",
+    "monster_name": "Bud",
+    "monster_level": 86,
+    "isBoss": false,
+    "item_name": "Poison Grenade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "sporeling",
+    "monster_name": "Sporeling",
+    "monster_level": 92,
+    "isBoss": false,
+    "item_name": "Reap Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "blazewheel",
+    "monster_name": "Blazewheel",
+    "monster_level": 95,
+    "isBoss": false,
+    "item_name": "Reap Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cactus-king",
+    "monster_name": "Cactus King",
+    "monster_level": 35,
+    "isBoss": true,
+    "item_name": "Spike Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "ice-mage",
+    "monster_name": "Ice Mage",
+    "monster_level": 75,
+    "isBoss": true,
+    "item_name": "Mirror Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "cosmic-entity",
+    "monster_name": "Cosmic Entity",
+    "monster_level": 135,
+    "isBoss": true,
+    "item_name": "Vitalis Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "bomb",
+    "monster_name": "Bomb",
+    "monster_level": 81,
+    "isBoss": false,
+    "item_name": "Sanctuary Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "soul-mage",
+    "monster_name": "Soul Mage",
+    "monster_level": 85,
+    "isBoss": false,
+    "item_name": "Sanctuary Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "death-mage",
+    "monster_name": "Death Mage",
+    "monster_level": 120,
+    "isBoss": true,
+    "item_name": "Shadow Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "boxy-robot",
+    "monster_name": "Boxy Robot",
+    "monster_level": 130,
+    "isBoss": false,
+    "item_name": "Black Blade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "nose-robot",
+    "monster_name": "Nose Robot",
+    "monster_level": 128,
+    "isBoss": false,
+    "item_name": "Black Blade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shell-robot",
+    "monster_name": "Shell Robot",
+    "monster_level": 126,
+    "isBoss": false,
+    "item_name": "Black Blade Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "housefly-icky",
+    "monster_name": "Housefly Icky",
+    "monster_level": 37,
+    "isBoss": false,
+    "item_name": "Shadow Step Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "housefly-nom",
+    "monster_name": "Housefly Nom",
+    "monster_level": 39,
+    "isBoss": false,
+    "item_name": "Shadow Step Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cyclops-bat",
+    "monster_name": "Cyclops Bat",
+    "monster_level": 101,
+    "isBoss": false,
+    "item_name": "Shield Bash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "skeleton-giant",
+    "monster_name": "Skeleton Giant",
+    "monster_level": 105,
+    "isBoss": false,
+    "item_name": "Shield Bash Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "merman-blue",
+    "monster_name": "Merman Blue",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Shield Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fish-pink",
+    "monster_name": "Fish Pink",
+    "monster_level": 121,
+    "isBoss": false,
+    "item_name": "Shield Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-baby-purple",
+    "monster_name": "Octopus Baby Purple",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Shield Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-orange",
+    "monster_name": "Octopus Orange",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Shield Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-giant-devil",
+    "monster_name": "Goblin Giant Devil",
+    "monster_level": 60,
+    "isBoss": false,
+    "item_name": "Fearsome Cry Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-trooper",
+    "monster_name": "Goblin Trooper",
+    "monster_level": 58,
+    "isBoss": false,
+    "item_name": "Fearsome Cry Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "zombie-goblin-giant",
+    "monster_name": "Zombie Goblin Giant",
+    "monster_level": 55,
+    "isBoss": false,
+    "item_name": "Shrapnel Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-king-blue",
+    "monster_name": "Octopus King Blue",
+    "monster_level": 132,
+    "isBoss": false,
+    "item_name": "Shuriken Fan Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "storm-turtle",
+    "monster_name": "Storm Turtle",
+    "monster_level": 135,
+    "isBoss": false,
+    "item_name": "Shuriken Fan Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-dusk",
+    "monster_name": "Dragon Dusk",
+    "monster_level": 77,
+    "isBoss": false,
+    "item_name": "Smite Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-nightfall",
+    "monster_name": "Dragon Nightfall",
+    "monster_level": 79,
+    "isBoss": false,
+    "item_name": "Smite Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-warcrusher",
+    "monster_name": "Goblin Warcrusher",
+    "monster_level": 120,
+    "isBoss": false,
+    "item_name": "Sniper Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "eyeball-bat-blue",
+    "monster_name": "Eyeball Bat Blue",
+    "monster_level": 21,
+    "isBoss": false,
+    "item_name": "Soul Strike Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wolf-pup",
+    "monster_name": "Wolf Pup",
+    "monster_level": 23,
+    "isBoss": false,
+    "item_name": "Soul Strike Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "flora",
+    "monster_name": "Flora",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Air Cutter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "petal",
+    "monster_name": "Petal",
+    "monster_level": 35,
+    "isBoss": false,
+    "item_name": "Air Cutter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "shell",
+    "monster_name": "Shell",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Air Cutter Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "creeper",
+    "monster_name": "Creeper",
+    "monster_level": 45,
+    "isBoss": false,
+    "item_name": "Impale Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "snakelet",
+    "monster_name": "Snakelet",
+    "monster_level": 43,
+    "isBoss": false,
+    "item_name": "Impale Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spider",
+    "monster_name": "Spider",
+    "monster_level": 42,
+    "isBoss": false,
+    "item_name": "Impale Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "fungi",
+    "monster_name": "Fungi",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Piercing Flurry Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "glow-wisp-blue",
+    "monster_name": "Glow Wisp Blue",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Piercing Flurry Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "posy",
+    "monster_name": "Posy",
+    "monster_level": 31,
+    "isBoss": false,
+    "item_name": "Piercing Flurry Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "bat",
+    "monster_name": "Bat",
+    "monster_level": 41,
+    "isBoss": false,
+    "item_name": "Stomp Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "lurker",
+    "monster_name": "Lurker",
+    "monster_level": 43,
+    "isBoss": false,
+    "item_name": "Stomp Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spider-toxin",
+    "monster_name": "Spider Toxin",
+    "monster_level": 44,
+    "isBoss": false,
+    "item_name": "Stomp Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "mole-rat-king",
+    "monster_name": "Mole Rat King",
+    "monster_level": 30,
+    "isBoss": false,
+    "item_name": "Strafing Volley Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "mole-rat",
+    "monster_name": "Mole Rat",
+    "monster_level": 27,
+    "isBoss": false,
+    "item_name": "Strafing Volley Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "mosquito-bug",
+    "monster_name": "Mosquito Bug",
+    "monster_level": 38,
+    "isBoss": false,
+    "item_name": "Suppressive Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "mosquito-pester",
+    "monster_name": "Mosquito Pester",
+    "monster_level": 40,
+    "isBoss": false,
+    "item_name": "Suppressive Shot Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "stormcoil",
+    "monster_name": "Stormcoil",
+    "monster_level": 127,
+    "isBoss": false,
+    "item_name": "Tempest Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "octopus-king-orange",
+    "monster_name": "Octopus King Orange",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Elemental Overload Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cat-lightning",
+    "monster_name": "Cat Lightning",
+    "monster_level": 24,
+    "isBoss": false,
+    "item_name": "Thunder Storm Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "glow-wisp-purple",
+    "monster_name": "Glow Wisp Purple",
+    "monster_level": 22,
+    "isBoss": false,
+    "item_name": "Thunder Storm Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "whirlwind",
+    "monster_name": "Whirlwind",
+    "monster_level": 21,
+    "isBoss": false,
+    "item_name": "Thunderbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wind-mage",
+    "monster_name": "Wind Mage",
+    "monster_level": 25,
+    "isBoss": false,
+    "item_name": "Thunderbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "wind",
+    "monster_name": "Wind",
+    "monster_level": 23,
+    "isBoss": false,
+    "item_name": "Thunderbolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "archangel",
+    "monster_name": "Archangel",
+    "monster_level": 79,
+    "isBoss": false,
+    "item_name": "Turn Undead Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "ghost",
+    "monster_name": "Ghost",
+    "monster_level": 77,
+    "isBoss": false,
+    "item_name": "Turn Undead Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragon-darkness",
+    "monster_name": "Dragon Darkness",
+    "monster_level": 84,
+    "isBoss": false,
+    "item_name": "Twist Of Fate Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "zombie-goblin-lord",
+    "monster_name": "Zombie Goblin Lord",
+    "monster_level": 60,
+    "isBoss": true,
+    "item_name": "Undead Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "dragonfly-arrow",
+    "monster_name": "Dragonfly Arrow",
+    "monster_level": 36,
+    "isBoss": false,
+    "item_name": "Venom Strike Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "dragonfly-darner",
+    "monster_name": "Dragonfly Darner",
+    "monster_level": 38,
+    "isBoss": false,
+    "item_name": "Venom Strike Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "zombie-goblin-soldier",
+    "monster_name": "Zombie Goblin Soldier",
+    "monster_level": 53,
+    "isBoss": false,
+    "item_name": "Volatile Bolt Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "hermit-king",
+    "monster_name": "Hermit King",
+    "monster_level": 40,
+    "isBoss": true,
+    "item_name": "Water Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "golem-earth",
+    "monster_name": "Golem Earth",
+    "monster_level": 29,
+    "isBoss": false,
+    "item_name": "Weapon Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "spore",
+    "monster_name": "Spore",
+    "monster_level": 27,
+    "isBoss": false,
+    "item_name": "Weapon Throw Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "worm-creep",
+    "monster_name": "Worm Creep",
+    "monster_level": 95,
+    "isBoss": true,
+    "item_name": "Carrier Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  },
+  {
+    "monster_id": "goblin-warlock",
+    "monster_name": "Goblin Warlock",
+    "monster_level": 116,
+    "isBoss": false,
+    "item_name": "Whirlwind Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "goblin-trooper-assassin",
+    "monster_name": "Goblin Trooper Assassin",
+    "monster_level": 57,
+    "isBoss": false,
+    "item_name": "Wild Charge Gem",
+    "item_type": "gem",
+    "chance": 0.1
+  },
+  {
+    "monster_id": "cat-bolt",
+    "monster_name": "Cat Bolt",
+    "monster_level": 30,
+    "isBoss": true,
+    "item_name": "Wind Gem",
+    "item_type": "gem",
+    "chance": 0.3
+  }
+]

@@ -1,0 +1,2723 @@
+[
+  {
+    "name": "Cosmic Entity Card",
+    "type": "card",
+    "description": "A massive, single-eyed alien whose unblinking stare can pierce even the bravest of hearts.",
+    "url": "https://spiritvale.info/cards/cosmic-entity-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Cosmic",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      {
+        "type": "%",
+        "value": 10,
+        "unit": ""
+      },
+      {
+        "type": "%",
+        "value": 10,
+        "unit": ""
+      },
+      {
+        "type": "%",
+        "value": -25,
+        "unit": ""
+      },
+      {
+        "type": "%",
+        "value": -25,
+        "unit": ""
+      }
+    ]
+  },
+  {
+    "name": "Fangroot Card",
+    "type": "card",
+    "description": "A twisted root from another world, snapping and biting with unnatural hunger.",
+    "url": "https://spiritvale.info/cards/fangroot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Resistance",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Immune to Bleeding: +100%"
+    ]
+  },
+  {
+    "name": "Voidspawn Card",
+    "type": "card",
+    "description": "A towering alien with one glaring eye, wielding shadowy powers that shouldn’t exist in this realm.",
+    "url": "https://spiritvale.info/cards/voidspawn-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Gaze",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Detector"
+    ]
+  },
+  {
+    "name": "Voidgazer Card",
+    "type": "card",
+    "description": "Smaller than its cyclopean kin, but just as unnerving—this alien’s eye glows with strange energy.",
+    "url": "https://spiritvale.info/cards/voidgazer-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mystery",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Cast cannot be interrupted"
+    ]
+  },
+  {
+    "name": "Bogbloom Card",
+    "type": "card",
+    "description": "A bizarre plant from another world, its vines lash out with a hunger that feels far too intelligent.",
+    "url": "https://spiritvale.info/cards/bogbloom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Resistance",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Immune to Slow: +100%",
+      "Immune to Bleeding: +100%"
+    ]
+  },
+  {
+    "name": "Cinderspike Card",
+    "type": "card",
+    "description": "A jagged alien beast, covered in crystalline spines sharp enough to pierce steel.",
+    "url": "https://spiritvale.info/cards/cinderspike-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Swift",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Move Spd: +10%"
+    ]
+  },
+  {
+    "name": "Sporeling Card",
+    "type": "card",
+    "description": "A strange fungal creature from beyond, releasing alien spores that twist and warp anything they touch.",
+    "url": "https://spiritvale.info/cards/sporeling-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Poisonous",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Poison Damage: +6%"
+    ]
+  },
+  {
+    "name": "Little Star Card",
+    "type": "card",
+    "description": "A glowing alien entity shaped like a star, radiating energy from beyond.",
+    "url": "https://spiritvale.info/cards/little-star-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Energy",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Mp Regen +25%"
+    ]
+  },
+  {
+    "name": "Twinkle Card",
+    "type": "card",
+    "description": "A playful cosmic being, its sparkle hides dangerous bursts of starlight.",
+    "url": "https://spiritvale.info/cards/twinkle-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Energy",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Mp Regen +25%"
+    ]
+  },
+  {
+    "name": "Blazewheel Card",
+    "type": "card",
+    "description": "A bizarre alien that rolls forward like a wheel, crushing everything in its path.",
+    "url": "https://spiritvale.info/cards/blazewheel-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Spiked",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Reflect Damage: +10%"
+    ]
+  },
+  {
+    "name": "Ashrend Card",
+    "type": "card",
+    "description": "The broken remains of an alien creature or machine… but it still twitches with hostile life.",
+    "url": "https://spiritvale.info/cards/ashrend-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Titan",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Immune to Knockback"
+    ]
+  },
+  {
+    "name": "Angel Mage Card",
+    "type": "card",
+    "description": "Don't let the robes fool you; this angel packs a magical punch. Prayers are optional, though!",
+    "url": "https://spiritvale.info/cards/angel-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Pure",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Holy element"
+    ]
+  },
+  {
+    "name": "Angel Card",
+    "type": "card",
+    "description": "A serene celestial being who's always ready to spread some heavenly wrath. Sweet but deadly!",
+    "url": "https://spiritvale.info/cards/angel-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Blessed",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Healing: +10%"
+    ]
+  },
+  {
+    "name": "Archangel Card",
+    "type": "card",
+    "description": "Majestic wings and a heart of gold, or is it? This angel has a dark side when provoked!",
+    "url": "https://spiritvale.info/cards/archangel-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Pure",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Holy element"
+    ]
+  },
+  {
+    "name": "Bat Lord Card",
+    "type": "card",
+    "description": "The king of bats. Don't ask for autographs; he's too busy hunting you down.",
+    "url": "https://spiritvale.info/cards/bat-lord-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Siphoning",
+    "isBoss": true,
+    "slot": "Accessory",
+    "stats": [
+      "Mana on hit: +3"
+    ]
+  },
+  {
+    "name": "Bat Card",
+    "type": "card",
+    "description": "Tiny wings, big attitude! This bat's more trouble than a pack of mosquitoes.",
+    "url": "https://spiritvale.info/cards/bat-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Leeching",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Mana on kill (per 50 int): +20"
+    ]
+  },
+  {
+    "name": "Bee Card",
+    "type": "card",
+    "description": "Always buzzing around, this little guy's only goal is to ruin your day with a sting.",
+    "url": "https://spiritvale.info/cards/bee-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Accurate",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Hit: +25"
+    ]
+  },
+  {
+    "name": "Bird Card",
+    "type": "card",
+    "description": "Fluttering through the air, this bird is more than capable of making your life... interesting.",
+    "url": "https://spiritvale.info/cards/bird-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Lancer",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Weapon Throw Damage +10%"
+    ]
+  },
+  {
+    "name": "Bloom Card",
+    "type": "card",
+    "description": "A plant that seems sweet at first, but don't let it fool you, it can make you regret that hug.",
+    "url": "https://spiritvale.info/cards/bloom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Volley",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Strafing Volley Damage +10%"
+    ]
+  },
+  {
+    "name": "Blossom Card",
+    "type": "card",
+    "description": "Like a flower, but with a grudge. Approach with caution, this one's got a temper.",
+    "url": "https://spiritvale.info/cards/blossom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Volatile",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Volatile Bolt Damage +10%"
+    ]
+  },
+  {
+    "name": "Bomb Card",
+    "type": "card",
+    "description": "This mischievous monster might look cute, but it's got an explosive personality.",
+    "url": "https://spiritvale.info/cards/bomb-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Power",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Atk: +4%"
+    ]
+  },
+  {
+    "name": "Boxy Robot Card",
+    "type": "card",
+    "description": "A clunky, cube-shaped machine with more power than looks. Don’t underestimate its blocky frame.",
+    "url": "https://spiritvale.info/cards/boxy-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Energy",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Hp Regen: +25%",
+      "Mp Regen +25%"
+    ]
+  },
+  {
+    "name": "Bud Card",
+    "type": "card",
+    "description": "Small, but don't be fooled, this budding little guy is just waiting to blossom into something scary!",
+    "url": "https://spiritvale.info/cards/bud-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Light",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Weight Limit: +1000"
+    ]
+  },
+  {
+    "name": "Bumble Card",
+    "type": "card",
+    "description": "Cute, fuzzy, and always on the move. It's just trying to spread some chaos, not honey!",
+    "url": "https://spiritvale.info/cards/bumble-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Sniper",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Total Hit: +10"
+    ]
+  },
+  {
+    "name": "Bunny Card",
+    "type": "card",
+    "description": "This little fluffball might look harmless... but its bite is worse than its bark!",
+    "url": "https://spiritvale.info/cards/bunny-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Rapid",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Atk Spd: +5%"
+    ]
+  },
+  {
+    "name": "Burrow Card",
+    "type": "card",
+    "description": "Hidden beneath the sand, this beast's got a lot of attitude, and a lot of dirt.",
+    "url": "https://spiritvale.info/cards/burrow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Steadfast",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Immune to Stun: +100%",
+      "Mp: -25%"
+    ]
+  },
+  {
+    "name": "Butterfly Fairy Card",
+    "type": "card",
+    "description": "With wings of magic and a dash of mischief, this fairy loves to sprinkle a little trouble!",
+    "url": "https://spiritvale.info/cards/butterfly-fairy-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Wizardry",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Cast Spd: +15%"
+    ]
+  },
+  {
+    "name": "Butterfly Hue Card",
+    "type": "card",
+    "description": "It's a fluttery little critter that might leave you enchanted, or just itchy.",
+    "url": "https://spiritvale.info/cards/butterfly-hue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Wizardry",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Cast Spd: +10%"
+    ]
+  },
+  {
+    "name": "Butterfly Pixie Card",
+    "type": "card",
+    "description": "Magical and mischievous, this pixie might give you a wink before causing havoc.",
+    "url": "https://spiritvale.info/cards/butterfly-pixie-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Wizardry",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Cast Spd: +15%"
+    ]
+  },
+  {
+    "name": "Cacti Card",
+    "type": "card",
+    "description": "A prickly friend with a sharp personality, don't try hugging it!",
+    "url": "https://spiritvale.info/cards/cacti-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Spiked",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Reflect Damage: +2% per refine"
+    ]
+  },
+  {
+    "name": "Cactus King Card",
+    "type": "card",
+    "description": "The king of the desert, spiky, stubborn, and a little too proud of his pointy crown.",
+    "url": "https://spiritvale.info/cards/cactus-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Steadfast",
+    "isBoss": true,
+    "slot": "Shoes",
+    "stats": [
+      "Grants Lv.5 Endure"
+    ]
+  },
+  {
+    "name": "Cactus Card",
+    "type": "card",
+    "description": "This cactus doesn't just rule the desert; it rules with an iron fist... er, spines.",
+    "url": "https://spiritvale.info/cards/cactus-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mudproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Earth Resistance +25%"
+    ]
+  },
+  {
+    "name": "Cat Bolt Card",
+    "type": "card",
+    "description": "Lightning-fast and furious, this cat's got a spark in its step, and it's shocking!",
+    "url": "https://spiritvale.info/cards/cat-bolt-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Gale",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Wind element"
+    ]
+  },
+  {
+    "name": "Cat Lightning Card",
+    "type": "card",
+    "description": "A cat that's got more than just nine lives, it's got nine lightning strikes, too!",
+    "url": "https://spiritvale.info/cards/cat-lightning-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Windproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Wind Resistance +25%"
+    ]
+  },
+  {
+    "name": "Cat Meow Card",
+    "type": "card",
+    "description": "A simple meow from this furry feline, and your world might just get turned upside down.",
+    "url": "https://spiritvale.info/cards/cat-meow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Shocking",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Thunderbolt",
+      "Chance to autocast Thunderbolt when attacking: +10%"
+    ]
+  },
+  {
+    "name": "Chick Card",
+    "type": "card",
+    "description": "Small, yellow, and probably plotting your doom under all that cuteness.",
+    "url": "https://spiritvale.info/cards/chick-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Sharp",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Atk: +5"
+    ]
+  },
+  {
+    "name": "Creeper Card",
+    "type": "card",
+    "description": "Sneaky and sly, this creepy crawly has a penchant for lurking in the shadows.",
+    "url": "https://spiritvale.info/cards/creeper-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Savage",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Crit Damage: +7%"
+    ]
+  },
+  {
+    "name": "Cyclops Bat Mage Card",
+    "type": "card",
+    "description": "This cyclops has learned a thing or two from the dark arts, expect spells with a side of fury.",
+    "url": "https://spiritvale.info/cards/cyclops-bat-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Magic",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage Magic: +5%"
+    ]
+  },
+  {
+    "name": "Cyclops Bat Wizard Card",
+    "type": "card",
+    "description": "A master of shadowy magic and even shadier business. It's a nightmare in the making.",
+    "url": "https://spiritvale.info/cards/cyclops-bat-wizard-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Ranged",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage Ranged: +5%"
+    ]
+  },
+  {
+    "name": "Cyclops Bat Card",
+    "type": "card",
+    "description": "Big, bad, and batty. This one's got its sights set on you, so run, if you can!",
+    "url": "https://spiritvale.info/cards/cyclops-bat-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Melee",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage Melee: +5%"
+    ]
+  },
+  {
+    "name": "Cyclops Giant Card",
+    "type": "card",
+    "description": "Tall, angry, and completely unhinged. Good luck trying to make it past this one!",
+    "url": "https://spiritvale.info/cards/cyclops-giant-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Warding",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Mdef: +3% per refine"
+    ]
+  },
+  {
+    "name": "Cyclops Minion Card",
+    "type": "card",
+    "description": "A smaller cyclops, but still just as dangerous. This one's all about taking orders, yours.",
+    "url": "https://spiritvale.info/cards/cyclops-minion-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Warding",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Mdef: +15%"
+    ]
+  },
+  {
+    "name": "Cyclops Card",
+    "type": "card",
+    "description": "One eye, two fists, and a serious vendetta. You won't see this one coming!",
+    "url": "https://spiritvale.info/cards/cyclops-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Warding",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Mdef: +10%"
+    ]
+  },
+  {
+    "name": "Death Mage Card",
+    "type": "card",
+    "description": "A mage of death, weaving necromantic spells with a sinister smile. Don't cross him.",
+    "url": "https://spiritvale.info/cards/death-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Cloaking",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.1 Cloaking"
+    ]
+  },
+  {
+    "name": "Death Card",
+    "type": "card",
+    "description": "This shadowy figure isn't here for a chat, it's here to remind you of your inevitable fate.",
+    "url": "https://spiritvale.info/cards/death-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Darkproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Shadow Resistance +15%"
+    ]
+  },
+  {
+    "name": "Delivery Robot Card",
+    "type": "card",
+    "description": "An oddly helpful machine repurposed for war, tossing deadly “packages” your way.",
+    "url": "https://spiritvale.info/cards/delivery-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Fleet",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Move Spd: +10%",
+      "Hp: -5%",
+      "Mp: -5%"
+    ]
+  },
+  {
+    "name": "Direwolf Card",
+    "type": "card",
+    "description": "A savage wolf larger than most, feared for its cunning and the chilling howls that echo through the night.",
+    "url": "https://spiritvale.info/cards/direwolf-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Cloaking",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Perfect Cloak"
+    ]
+  },
+  {
+    "name": "Dog Bark Card",
+    "type": "card",
+    "description": "A yappy, fiery little dog that might just catch you off guard with a fiery surprise!",
+    "url": "https://spiritvale.info/cards/dog-bark-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Flaming",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Fireball"
+    ]
+  },
+  {
+    "name": "Dog Bowwow Card",
+    "type": "card",
+    "description": "Bigger, badder, and ready to bite. It's got a bark, but it's got firepower too!",
+    "url": "https://spiritvale.info/cards/dog-bowwow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Blazing",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Fire element"
+    ]
+  },
+  {
+    "name": "Dog Pup Card",
+    "type": "card",
+    "description": "A tiny pup with a fiery heart, it might just be looking for a snack... or you!",
+    "url": "https://spiritvale.info/cards/dog-pup-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Flaming",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Firebolt",
+      "Chance to autocast Firebolt when attacking: +10%"
+    ]
+  },
+  {
+    "name": "Dragon Blizzard Card",
+    "type": "card",
+    "description": "A dragon that brings a chill to your bones, and not the friendly kind!",
+    "url": "https://spiritvale.info/cards/dragon-blizzard-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Diamond",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Immune to Frozen: +100%"
+    ]
+  },
+  {
+    "name": "Dragon Darkness Card",
+    "type": "card",
+    "description": "It's not just the dark; it's the dragon's deadly presence in the shadows you should fear.",
+    "url": "https://spiritvale.info/cards/dragon-darkness-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Tainted",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Shadow element"
+    ]
+  },
+  {
+    "name": "Dragon Dusk Card",
+    "type": "card",
+    "description": "This dragon brings with it an eerie calm... but you'll soon realize it's anything but peaceful.",
+    "url": "https://spiritvale.info/cards/dragon-dusk-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Exorcist's",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Shadow Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Dragon Fire Card",
+    "type": "card",
+    "description": "A fiery force of nature, this dragon's breath could cook you in seconds.",
+    "url": "https://spiritvale.info/cards/dragon-fire-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Fireproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Fire Resistance +15%"
+    ]
+  },
+  {
+    "name": "Dragon Ice Card",
+    "type": "card",
+    "description": "Don't let the icy breath fool you, this dragon's just as cold-hearted as it is powerful.",
+    "url": "https://spiritvale.info/cards/dragon-ice-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Freezing",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Ice Shard Damage +10%"
+    ]
+  },
+  {
+    "name": "Dragon Inferno Card",
+    "type": "card",
+    "description": "It's all about heat and destruction with this fiery dragon. Think you can handle the burn?",
+    "url": "https://spiritvale.info/cards/dragon-inferno-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Power",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Atk: +4%"
+    ]
+  },
+  {
+    "name": "Dragon Nightfall Card",
+    "type": "card",
+    "description": "A shadowy dragon that comes with a cold chill and a lot of bite. Proceed with caution.",
+    "url": "https://spiritvale.info/cards/dragon-nightfall-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Purifying",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Immune to Curse: +100%"
+    ]
+  },
+  {
+    "name": "Dragon Spark Card",
+    "type": "card",
+    "description": "It may start with a spark, but this dragon has a blazing fire waiting for you!",
+    "url": "https://spiritvale.info/cards/dragon-spark-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Power",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Atk: +4%"
+    ]
+  },
+  {
+    "name": "Dragon Water Card",
+    "type": "card",
+    "description": "Water's their element, and they're not afraid to drown you in it!",
+    "url": "https://spiritvale.info/cards/dragon-water-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Waterproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Water Resistance +15%"
+    ]
+  },
+  {
+    "name": "Dragonfly Arrow Card",
+    "type": "card",
+    "description": "Fast and sharp, this dragonfly isn't just here to flutter by. It's a skilled hunter!",
+    "url": "https://spiritvale.info/cards/dragonfly-arrow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Nimble",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Flee: +10",
+      "Agi: +1"
+    ]
+  },
+  {
+    "name": "Dragonfly Darner Card",
+    "type": "card",
+    "description": "A little faster and a lot deadlier than most, this dragonfly can dart through the air like lightning.",
+    "url": "https://spiritvale.info/cards/dragonfly-darner-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Elusive",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Flee: +15"
+    ]
+  },
+  {
+    "name": "Dragonfly Swift Card",
+    "type": "card",
+    "description": "With speed that'll leave you dizzy, this dragonfly's all about a quick strike.",
+    "url": "https://spiritvale.info/cards/dragonfly-swift-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Elusive",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Flee: +25"
+    ]
+  },
+  {
+    "name": "Earthworm Card",
+    "type": "card",
+    "description": "A simple creature, but digging through the dirt is just the beginning of its underground trouble.",
+    "url": "https://spiritvale.info/cards/earthworm-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Anti-Venom",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Immune to Poison: +100%"
+    ]
+  },
+  {
+    "name": "Egg Card",
+    "type": "card",
+    "description": "It might look innocent, but it's got big, scary plans for when it hatches!",
+    "url": "https://spiritvale.info/cards/egg-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Vital",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Hp: +100"
+    ]
+  },
+  {
+    "name": "Egglet Card",
+    "type": "card",
+    "description": "A tiny egg with legs! Cute, but it’s plotting something sinister inside its shell.",
+    "url": "https://spiritvale.info/cards/egglet-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Rapid",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Atk Spd: +10%"
+    ]
+  },
+  {
+    "name": "Elder Wisp Blue Card",
+    "type": "card",
+    "description": "A calm, ancient spirit that glows with icy blue energy, chilling the air and soothing—or freezing—all nearby.",
+    "url": "https://spiritvale.info/cards/elder-wisp-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Glacial",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Water Damage: +6%"
+    ]
+  },
+  {
+    "name": "Elder Wisp Purple Card",
+    "type": "card",
+    "description": "A mysterious spirit wrapped in violet flame, whispering secrets and curses from another realm.",
+    "url": "https://spiritvale.info/cards/elder-wisp-purple-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Spark",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Wind Damage: +6%"
+    ]
+  },
+  {
+    "name": "Elder Wisp Yellow Card",
+    "type": "card",
+    "description": "A luminous spirit that radiates golden light, guiding the lost but blinding its foes with brilliance.",
+    "url": "https://spiritvale.info/cards/elder-wisp-yellow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Pyre",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Fire Damage: +6%"
+    ]
+  },
+  {
+    "name": "Eyeball Bat Blue Card",
+    "type": "card",
+    "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+    "url": "https://spiritvale.info/cards/eyeball-bat-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Radiant",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Holy Light Damage +10%"
+    ]
+  },
+  {
+    "name": "Eyeball Bat Green Card",
+    "type": "card",
+    "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+    "url": "https://spiritvale.info/cards/eyeball-bat-green-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Purity",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Undead Resistance +25%"
+    ]
+  },
+  {
+    "name": "Eyeball Bat Red Card",
+    "type": "card",
+    "description": "A bat with an eye for detail. Its piercing gaze could be worse than its bite!",
+    "url": "https://spiritvale.info/cards/eyeball-bat-red-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Vampiric",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Chance to autocast Life Drain when hit: +1% per refine"
+    ]
+  },
+  {
+    "name": "Eyeball Creep Blue Card",
+    "type": "card",
+    "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+    "url": "https://spiritvale.info/cards/eyeball-creep-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Focus",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Mp: +10%"
+    ]
+  },
+  {
+    "name": "Eyeball Creep Green Card",
+    "type": "card",
+    "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+    "url": "https://spiritvale.info/cards/eyeball-creep-green-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Focus",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Mp: +10%"
+    ]
+  },
+  {
+    "name": "Eyeball Creep Red Card",
+    "type": "card",
+    "description": "Creeping through the shadows, this eyeball monster's gaze is worse than its creepy crawl.",
+    "url": "https://spiritvale.info/cards/eyeball-creep-red-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Focus",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Mp: +10%"
+    ]
+  },
+  {
+    "name": "Eyeball Mage Blue Card",
+    "type": "card",
+    "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+    "url": "https://spiritvale.info/cards/eyeball-mage-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mana Burn",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Mana on hit: +3",
+      "Mp: -50%"
+    ]
+  },
+  {
+    "name": "Eyeball Mage Green Card",
+    "type": "card",
+    "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+    "url": "https://spiritvale.info/cards/eyeball-mage-green-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Radiant",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Exorcism Damage +10%"
+    ]
+  },
+  {
+    "name": "Eyeball Mage Red Card",
+    "type": "card",
+    "description": "Eyes everywhere and magic in every blink, this mage doesn't miss a thing!",
+    "url": "https://spiritvale.info/cards/eyeball-mage-red-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Vampiric",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Health on hit: +5"
+    ]
+  },
+  {
+    "name": "Fire Mage Card",
+    "type": "card",
+    "description": "A fire mage with enough power to make the volcano look like a campfire.",
+    "url": "https://spiritvale.info/cards/fire-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mind",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Matk: +4%"
+    ]
+  },
+  {
+    "name": "Fire Card",
+    "type": "card",
+    "description": "They may have a name that sounds harmless, but this little guy will set everything ablaze.",
+    "url": "https://spiritvale.info/cards/fire-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Light",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Weight Limit: +1000"
+    ]
+  },
+  {
+    "name": "Fish Merman Yellow Card",
+    "type": "card",
+    "description": "",
+    "url": "https://spiritvale.info/cards/fish-merman-yellow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Lightning",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Chain Lightning Damage +10%"
+    ]
+  },
+  {
+    "name": "Flame Card",
+    "type": "card",
+    "description": "With a fiery spirit and a burning desire to cause chaos, this fiery being isn't messing around!",
+    "url": "https://spiritvale.info/cards/flame-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Flaming",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Fireball Damage +10%"
+    ]
+  },
+  {
+    "name": "Fledgling Card",
+    "type": "card",
+    "description": "It's just a little bird... until it starts pecking your face off.",
+    "url": "https://spiritvale.info/cards/fledgling-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Impaling",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Impale Damage +10%"
+    ]
+  },
+  {
+    "name": "Flora Card",
+    "type": "card",
+    "description": "Don't touch the plants! They bite.",
+    "url": "https://spiritvale.info/cards/flora-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Hoarfrost",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Water Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Flower Pot Monster Card",
+    "type": "card",
+    "description": "What looks like a simple flower pot is hiding some very hungry roots.",
+    "url": "https://spiritvale.info/cards/flower-pot-monster-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Quagmire",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Earth Spikes"
+    ]
+  },
+  {
+    "name": "Fungi Card",
+    "type": "card",
+    "description": "Mushrooms have never been so deadly, this fungi is always on the hunt for a tasty meal!",
+    "url": "https://spiritvale.info/cards/fungi-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Heal",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Grants Lv.3 Heal"
+    ]
+  },
+  {
+    "name": "Ghost Card",
+    "type": "card",
+    "description": "A spooky figure with a lot of haunting potential, this ghost isn't here for a chat.",
+    "url": "https://spiritvale.info/cards/ghost-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Dissonance",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Dissonance Well Damage +10%"
+    ]
+  },
+  {
+    "name": "Glow Wisp Blue Card",
+    "type": "card",
+    "description": "A twinkling light spirit, calm and cool, but more mischievous than it seems.",
+    "url": "https://spiritvale.info/cards/glow-wisp-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Glacial",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Water Damage: +6%"
+    ]
+  },
+  {
+    "name": "Glow Wisp Purple Card",
+    "type": "card",
+    "description": "A tiny spirit flickering with violet glow, playful yet strangely unsettling.",
+    "url": "https://spiritvale.info/cards/glow-wisp-purple-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Spark",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Wind Damage: +6%"
+    ]
+  },
+  {
+    "name": "Glow Wisp Yellow Card",
+    "type": "card",
+    "description": "A cheerful little spark of golden light, bringing warmth—and sometimes burns.",
+    "url": "https://spiritvale.info/cards/glow-wisp-yellow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Pyre",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Fire Damage: +6%"
+    ]
+  },
+  {
+    "name": "Goblin Giant Devil Card",
+    "type": "card",
+    "description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+    "url": "https://spiritvale.info/cards/goblin-giant-devil-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Quaking",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Earth Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Goblin King Card",
+    "type": "card",
+    "description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+    "url": "https://spiritvale.info/cards/goblin-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Earthen",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Earth element"
+    ]
+  },
+  {
+    "name": "Goblin Giant Mage Card",
+    "type": "card",
+    "description": "A big, burly goblin with a lot of brawn, and an attitude to match.",
+    "url": "https://spiritvale.info/cards/goblin-giant-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Earthen",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Earth element"
+    ]
+  },
+  {
+    "name": "Goblin Minion Card",
+    "type": "card",
+    "description": "A small goblin that works in packs and loves to cause trouble for anyone in its path.",
+    "url": "https://spiritvale.info/cards/goblin-minion-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Bashing",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Bash Damage +10%"
+    ]
+  },
+  {
+    "name": "Goblin Trooper Assassin Card",
+    "type": "card",
+    "description": "A small goblin that works in packs and loves to cause trouble for anyone in its path.",
+    "url": "https://spiritvale.info/cards/goblin-trooper-assassin-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mobile",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.1 Shadow Step"
+    ]
+  },
+  {
+    "name": "Goblin Trooper Mage Card",
+    "type": "card",
+    "description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+    "url": "https://spiritvale.info/cards/goblin-trooper-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Free",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.5 Free Cast"
+    ]
+  },
+  {
+    "name": "Goblin Trooper Soldier Card",
+    "type": "card",
+    "description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+    "url": "https://spiritvale.info/cards/goblin-trooper-soldier-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Slashing",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Twin Cleave Damage +10%"
+    ]
+  },
+  {
+    "name": "Goblin Trooper Card",
+    "type": "card",
+    "description": "A goblin soldier who fights with a crude, yet deadly efficiency.",
+    "url": "https://spiritvale.info/cards/goblin-trooper-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mudproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Earth Resistance +15%"
+    ]
+  },
+  {
+    "name": "Goblin Warblade Card",
+    "type": "card",
+    "description": "A goblin champion wielding a massive blade, reckless but deadly in battle.",
+    "url": "https://spiritvale.info/cards/goblin-warblade-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Spiked",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Reflect Damage: +30%"
+    ]
+  },
+  {
+    "name": "Goblin Warchief Card",
+    "type": "card",
+    "description": "The toughest goblin of the horde, rallying its kin with brute force and bellowing war cries.",
+    "url": "https://spiritvale.info/cards/goblin-warchief-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Elemental",
+    "isBoss": true,
+    "slot": "Weapon",
+    "stats": [
+      "Fire Damage: +6%",
+      "Water Damage: +6%",
+      "Wind Damage: +6%",
+      "Earth Damage: +6%"
+    ]
+  },
+  {
+    "name": "Goblin Warcrusher Card",
+    "type": "card",
+    "description": "This goblin prefers brute force, smashing anything in sight with overwhelming strength.",
+    "url": "https://spiritvale.info/cards/goblin-warcrusher-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Seismic",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Earth Damage: +6%"
+    ]
+  },
+  {
+    "name": "Goblin Warlock Card",
+    "type": "card",
+    "description": "A goblin twisted by dark magic, summoning flames and shadows to terrorize friend and foe alike.",
+    "url": "https://spiritvale.info/cards/goblin-warlock-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mind",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Matk: +4%"
+    ]
+  },
+  {
+    "name": "Golem Earth Card",
+    "type": "card",
+    "description": "This giant stone golem is as tough as the earth itself, don't expect to break it easily!",
+    "url": "https://spiritvale.info/cards/golem-earth-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Stone",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Def: +15%"
+    ]
+  },
+  {
+    "name": "Golem Fire Card",
+    "type": "card",
+    "description": "Made of fire and fury, this golem can heat things up pretty quickly!",
+    "url": "https://spiritvale.info/cards/golem-fire-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Stone",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Def: +10%"
+    ]
+  },
+  {
+    "name": "Golem Ice Card",
+    "type": "card",
+    "description": "An icy golem that's as cold as its surroundings, don't get too close!",
+    "url": "https://spiritvale.info/cards/golem-ice-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Stone",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Def: +3% per refine"
+    ]
+  },
+  {
+    "name": "Gripper Robot Card",
+    "type": "card",
+    "description": "A claw-armed contraption designed to crush and hold its prey with unrelenting grip.",
+    "url": "https://spiritvale.info/cards/gripper-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Immune",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Neutral Resistance +10%",
+      "Hp: +10%"
+    ]
+  },
+  {
+    "name": "Hare Card",
+    "type": "card",
+    "description": "Quick, nimble, and ready to dash away at the slightest sign of danger.",
+    "url": "https://spiritvale.info/cards/hare-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Fleet",
+    "isBoss": true,
+    "slot": "Shoes",
+    "stats": [
+      "Move Spd: +20%"
+    ]
+  },
+  {
+    "name": "Haunt Card",
+    "type": "card",
+    "description": "A specter of doom, this haunting presence will chill you to the bone.",
+    "url": "https://spiritvale.info/cards/haunt-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Lightproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Holy Resistance +15%"
+    ]
+  },
+  {
+    "name": "Hermit King Card",
+    "type": "card",
+    "description": "This hermit has a crown, and it's not afraid to use it. Watch out!",
+    "url": "https://spiritvale.info/cards/hermit-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Hydro",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Hydro Vortex"
+    ]
+  },
+  {
+    "name": "Horror Card",
+    "type": "card",
+    "description": "This nightmare of a monster is too terrifying for words. Beware the darkness it brings!",
+    "url": "https://spiritvale.info/cards/horror-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Savage",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Crit Damage: +7%"
+    ]
+  },
+  {
+    "name": "Housefly Icky Card",
+    "type": "card",
+    "description": "A pesky, buzzing housefly that's always in your face, bringing discomfort wherever it goes.",
+    "url": "https://spiritvale.info/cards/housefly-icky-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Assassin's",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Crit: +5"
+    ]
+  },
+  {
+    "name": "Housefly Junk Card",
+    "type": "card",
+    "description": "A larger, more annoying version of the common housefly, often found around filth and decay.",
+    "url": "https://spiritvale.info/cards/housefly-junk-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Assassin's",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Total Critical Rate: +15%"
+    ]
+  },
+  {
+    "name": "Housefly Nom Card",
+    "type": "card",
+    "description": "A particularly stubborn fly that enjoys buzzing around food and irritating travelers.",
+    "url": "https://spiritvale.info/cards/housefly-nom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Assassin's",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Crit: +10"
+    ]
+  },
+  {
+    "name": "Ice Mage Card",
+    "type": "card",
+    "description": "A mage who bends ice and snow to their will, summoning storms to chill the bones of their enemies.",
+    "url": "https://spiritvale.info/cards/ice-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Tidal",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Water element",
+      "Immune to Frozen: +100%"
+    ]
+  },
+  {
+    "name": "Ice Card",
+    "type": "card",
+    "description": "A cold and unfeeling monster that freezes everything in its path, leaving nothing but frost.",
+    "url": "https://spiritvale.info/cards/ice-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Icepick",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Immune to Reflect damage"
+    ]
+  },
+  {
+    "name": "Icicle Card",
+    "type": "card",
+    "description": "A sharp shard of ice that's as deadly as it is cold, capable of impaling anything in its way.",
+    "url": "https://spiritvale.info/cards/icicle-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Thawing",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Immune to Slow: +100%"
+    ]
+  },
+  {
+    "name": "Imp Demon Card",
+    "type": "card",
+    "description": "A mischievous demon with fiery red skin and a knack for causing trouble wherever it appears.",
+    "url": "https://spiritvale.info/cards/imp-demon-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Spiked",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Reflect Damage: +5%"
+    ]
+  },
+  {
+    "name": "Imp Devil Card",
+    "type": "card",
+    "description": "A devilish imp that delights in tormenting others, often using its fiery powers for chaos.",
+    "url": "https://spiritvale.info/cards/imp-devil-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Meteoric",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.5 Meteor"
+    ]
+  },
+  {
+    "name": "Imp Mischief Card",
+    "type": "card",
+    "description": "A playful imp that likes to prank and trick its victims, sometimes to deadly effect.",
+    "url": "https://spiritvale.info/cards/imp-mischief-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mischief",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Chance to reflect single target magic: +2% per refine"
+    ]
+  },
+  {
+    "name": "Stormjelly Card",
+    "type": "card",
+    "description": "A floating machine with pulsing lights and electric stingers, drifting gracefully before it shocks.",
+    "url": "https://spiritvale.info/cards/stormjelly-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Wisdom",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Mp Regen +50%",
+      "Hp Regen: -50%"
+    ]
+  },
+  {
+    "name": "Lurker Card",
+    "type": "card",
+    "description": "A sneaky and silent predator that hides in the shadows, waiting for the perfect moment to strike.",
+    "url": "https://spiritvale.info/cards/lurker-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Savage",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Crit Damage: +7%"
+    ]
+  },
+  {
+    "name": "Mega Ice Golem Card",
+    "type": "card",
+    "description": "",
+    "url": "https://spiritvale.info/cards/mega-ice-golem-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Permafrost",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Chance to autocast Ice Shard when hit: +1% per refine",
+      "Grants Lv.1 ?"
+    ]
+  },
+  {
+    "name": "Mole Rat King Card",
+    "type": "card",
+    "description": "The ruler of the mole rats, much larger and more dangerous, capable of commanding its kin.",
+    "url": "https://spiritvale.info/cards/mole-rat-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Stomping",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.1 Stomp"
+    ]
+  },
+  {
+    "name": "Mole Rat Card",
+    "type": "card",
+    "description": "A subterranean rat that burrows through the ground, leaving a trail of destruction in its wake.",
+    "url": "https://spiritvale.info/cards/mole-rat-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Seismic",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Earth Damage: +6%"
+    ]
+  },
+  {
+    "name": "Mosquito Bug Card",
+    "type": "card",
+    "description": "A pesky insect that buzzes around, sucking the blood of any living creature it can find.",
+    "url": "https://spiritvale.info/cards/mosquito-bug-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Vampiric",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Health on hit: +5"
+    ]
+  },
+  {
+    "name": "Mosquito Pester Card",
+    "type": "card",
+    "description": "A relentless mosquito that constantly hounds its victims, drawing blood with each attack.",
+    "url": "https://spiritvale.info/cards/mosquito-pester-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Windproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Wind Resistance +15%"
+    ]
+  },
+  {
+    "name": "Mosquito Stinger Card",
+    "type": "card",
+    "description": "A mosquito with a deadly, venomous sting that leaves its victim weakened and drained.",
+    "url": "https://spiritvale.info/cards/mosquito-stinger-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Haste",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Grants Lv.5 Haste"
+    ]
+  },
+  {
+    "name": "Moth Celestial Card",
+    "type": "card",
+    "description": "A majestic moth with ethereal wings, capable of manipulating light and causing illusions.",
+    "url": "https://spiritvale.info/cards/moth-celestial-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Lightproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Holy Resistance +25%"
+    ]
+  },
+  {
+    "name": "Moth Luna Card",
+    "type": "card",
+    "description": "A mystical moth that draws power from the moon, casting spells of mystery and enchantment.",
+    "url": "https://spiritvale.info/cards/moth-luna-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Unholy",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Holy Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Moth Moon Card",
+    "type": "card",
+    "description": "A celestial moth that brings moonlit magic, able to summon lunar energy to protect or harm.",
+    "url": "https://spiritvale.info/cards/moth-moon-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Cleric's",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Healing: +10%"
+    ]
+  },
+  {
+    "name": "Mushroom Card",
+    "type": "card",
+    "description": "A giant, toxic mushroom that can release spores to poison or confuse those who get too close.",
+    "url": "https://spiritvale.info/cards/mushroom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Occult",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Matk: +5"
+    ]
+  },
+  {
+    "name": "Nightmare Card",
+    "type": "card",
+    "description": "A terrifying creature that haunts the dreams of the living, bringing fear and nightmares to all.",
+    "url": "https://spiritvale.info/cards/nightmare-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Darkproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Shadow Resistance +25%"
+    ]
+  },
+  {
+    "name": "Petal Card",
+    "type": "card",
+    "description": "A delicate and beautiful creature made of petals, yet capable of unleashing deadly thorns.",
+    "url": "https://spiritvale.info/cards/petal-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Tidal",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Water element"
+    ]
+  },
+  {
+    "name": "Phantom Card",
+    "type": "card",
+    "description": "A shadowy figure that haunts the land, vanishing as quickly as it appears, leaving only fear.",
+    "url": "https://spiritvale.info/cards/phantom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Arcanum",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Mp Cost: -15%"
+    ]
+  },
+  {
+    "name": "Plant Chewer Card",
+    "type": "card",
+    "description": "A plant-eating creature with large teeth, capable of tearing through even the toughest foliage.",
+    "url": "https://spiritvale.info/cards/plant-chewer-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Immune",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Neutral Resistance +20%"
+    ]
+  },
+  {
+    "name": "Poison Bomb Card",
+    "type": "card",
+    "description": "A grotesque blob brimming with toxins, exploding into clouds of poisonous gas when provoked.",
+    "url": "https://spiritvale.info/cards/poison-bomb-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mystery",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "All Stats: +1",
+      "Hp: +5%",
+      "Mp: +5%"
+    ]
+  },
+  {
+    "name": "Pollen Card",
+    "type": "card",
+    "description": "A small, flying creature that spreads pollen to cause havoc, often disorienting its prey.",
+    "url": "https://spiritvale.info/cards/pollen-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Elusive",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Flee: +15"
+    ]
+  },
+  {
+    "name": "Posy Card",
+    "type": "card",
+    "description": "A small, innocent-looking flower creature, but don't be fooled, it's more dangerous than it seems.",
+    "url": "https://spiritvale.info/cards/posy-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Icy",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Icebolt",
+      "Chance to autocast Icebolt when attacking: +10%"
+    ]
+  },
+  {
+    "name": "Queen Worm Card",
+    "type": "card",
+    "description": "The monstrous queen of the worms, large and powerful, capable of commanding legions of smaller worms.",
+    "url": "https://spiritvale.info/cards/queen-worm-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Venomous",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.1 Venom Coating"
+    ]
+  },
+  {
+    "name": "Rabbit Card",
+    "type": "card",
+    "description": "A swift and skittish creature, often seen hopping around in the wild, but not to be underestimated.",
+    "url": "https://spiritvale.info/cards/rabbit-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Swift",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Move Spd: +10%"
+    ]
+  },
+  {
+    "name": "Razor Robot Card",
+    "type": "card",
+    "description": "A machine bristling with blades, slicing through anything foolish enough to get close.",
+    "url": "https://spiritvale.info/cards/razor-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Rapid",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Atk Spd: +5%",
+      "Move Spd: +5%"
+    ]
+  },
+  {
+    "name": "Scorpion King Card",
+    "type": "card",
+    "description": "A massive scorpion with an oversized tail, its poison stronger and deadlier than its smaller kin.",
+    "url": "https://spiritvale.info/cards/scorpion-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Blazing",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Fire element"
+    ]
+  },
+  {
+    "name": "Scorpion Card",
+    "type": "card",
+    "description": "A venomous arachnid with a deadly tail, lurking in the desert or other hostile environments.",
+    "url": "https://spiritvale.info/cards/scorpion-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Fireproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Fire Resistance +25%"
+    ]
+  },
+  {
+    "name": "Scorpling Card",
+    "type": "card",
+    "description": "A baby scorpion that's quick and dangerous, often found in swarms to overwhelm its prey.",
+    "url": "https://spiritvale.info/cards/scorpling-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Ashen",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Fire Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Seed Card",
+    "type": "card",
+    "description": "A tiny but dangerous plant creature that grows rapidly, surrounding its prey with thorny vines.",
+    "url": "https://spiritvale.info/cards/seed-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Flurry",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Piercing Flurry Damage +10%"
+    ]
+  },
+  {
+    "name": "Shade Card",
+    "type": "card",
+    "description": "A shadowy figure that seems to move with the darkness, capable of blending into any environment.",
+    "url": "https://spiritvale.info/cards/shade-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mystery",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "All Stats: +1",
+      "Hp: +5%",
+      "Mp: +5%"
+    ]
+  },
+  {
+    "name": "Shadow Card",
+    "type": "card",
+    "description": "A creature of darkness that is able to manipulate shadows, striking unseen from the gloom.",
+    "url": "https://spiritvale.info/cards/shadow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mystery",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "All Stats: +1",
+      "Hp: +5%",
+      "Mp: +5%"
+    ]
+  },
+  {
+    "name": "Shell Robot Card",
+    "type": "card",
+    "description": "A heavily armored machine with a near-impenetrable shell, slow but unstoppable.",
+    "url": "https://spiritvale.info/cards/shell-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Rapid",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Atk Spd: +10%"
+    ]
+  },
+  {
+    "name": "Shell Card",
+    "type": "card",
+    "description": "A tough, armored creature that can retract into its shell, making it nearly invincible to attacks.",
+    "url": "https://spiritvale.info/cards/shell-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Immune",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Neutral Resistance +10%"
+    ]
+  },
+  {
+    "name": "Skeleton Giant Card",
+    "type": "card",
+    "description": "A massive skeletal warrior that uses its size and strength to crush opponents with ease.",
+    "url": "https://spiritvale.info/cards/skeleton-giant-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Sanctified",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Holy Damage: +6%"
+    ]
+  },
+  {
+    "name": "Skeleton Mage Card",
+    "type": "card",
+    "description": "A spellcasting skeleton, summoning dark magic to ensnare or destroy its enemies.",
+    "url": "https://spiritvale.info/cards/skeleton-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Grave",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Undead Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Skeleton Card",
+    "type": "card",
+    "description": "A reanimated skeleton with the ability to wield weapons or fight bare-handed in death.",
+    "url": "https://spiritvale.info/cards/skeleton-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Sanctified",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Holy Damage: +6%"
+    ]
+  },
+  {
+    "name": "Snake Naga Card",
+    "type": "card",
+    "description": "A half-snake, half-human creature with powerful magic and deadly combat abilities.",
+    "url": "https://spiritvale.info/cards/snake-naga-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Twinfang",
+    "isBoss": true,
+    "slot": "Weapon",
+    "stats": [
+      "Double Attack: +50%"
+    ]
+  },
+  {
+    "name": "Snake Card",
+    "type": "card",
+    "description": "A slithering serpent that strikes with venomous speed, often hiding in tall grass or dark corners.",
+    "url": "https://spiritvale.info/cards/snake-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Venomous",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Venom Strike",
+      "Chance to autocast Venom Strike when attacking: +10%"
+    ]
+  },
+  {
+    "name": "Snakelet Card",
+    "type": "card",
+    "description": "A small and sneaky serpent that hides in the underbrush, striking with venomous fangs.",
+    "url": "https://spiritvale.info/cards/snakelet-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Venomous",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Venom Strike Damage +10%"
+    ]
+  },
+  {
+    "name": "Snout Robot Card",
+    "type": "card",
+    "description": "A huffing, puffing contraption that blasts bursts of steam and smoke to suffocate foes.",
+    "url": "https://spiritvale.info/cards/snout-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Pillar",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Fire Pillar Damage +10%"
+    ]
+  },
+  {
+    "name": "Snow Bomb Card",
+    "type": "card",
+    "description": "A frosty creature packed with icy powder, ready to burst into a chilling explosion.",
+    "url": "https://spiritvale.info/cards/snow-bomb-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Mind",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Matk: +4%"
+    ]
+  },
+  {
+    "name": "Soul Mage Card",
+    "type": "card",
+    "description": "A mage who channels the power of souls, able to summon spirits to do its bidding.",
+    "url": "https://spiritvale.info/cards/soul-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Wizardry",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Cast Spd: +10%"
+    ]
+  },
+  {
+    "name": "Soul Card",
+    "type": "card",
+    "description": "A Elusive figure with no physical form, it haunts the living, draining energy from those it touches.",
+    "url": "https://spiritvale.info/cards/soul-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Soul",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Soul Strike Damage +10%"
+    ]
+  },
+  {
+    "name": "Spider King Card",
+    "type": "card",
+    "description": "The king of all spiders, with a larger, deadlier body and the ability to command arachnid minions.",
+    "url": "https://spiritvale.info/cards/spider-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Poisonous",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Poison element"
+    ]
+  },
+  {
+    "name": "Spider Queen Card",
+    "type": "card",
+    "description": "The metallic matriarch of mechanized spiders, spinning webs of steel and circuits.",
+    "url": "https://spiritvale.info/cards/spider-queen-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Unnatural",
+    "isBoss": true,
+    "slot": "Weapon",
+    "stats": [
+      "Holy Damage: +6%",
+      "Shadow Damage: +6%",
+      "Poison Damage: +6%",
+      "Undead Damage: +6%"
+    ]
+  },
+  {
+    "name": "Spider Robot Card",
+    "type": "card",
+    "description": "A mechanical spider that scuttles with eerie precision, weaving metallic traps.",
+    "url": "https://spiritvale.info/cards/spider-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Combo",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Double Attack: +25%"
+    ]
+  },
+  {
+    "name": "Spider Toxin Card",
+    "type": "card",
+    "description": "A particularly venomous spider, its bite causes intense pain and paralysis in its victims.",
+    "url": "https://spiritvale.info/cards/spider-toxin-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Dancing",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Blade Dance Damage +10%"
+    ]
+  },
+  {
+    "name": "Spider Card",
+    "type": "card",
+    "description": "A venomous arachnid with eight legs and a penchant for building deadly webs to trap its prey.",
+    "url": "https://spiritvale.info/cards/spider-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Shadow",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Shadow Step Damage +10%"
+    ]
+  },
+  {
+    "name": "Spiderling Robot Card",
+    "type": "card",
+    "description": "Smaller but no less menacing, these tiny bots swarm in mechanical packs.",
+    "url": "https://spiritvale.info/cards/spiderling-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Poisonous",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Poison Damage: +6%"
+    ]
+  },
+  {
+    "name": "Spike Robot Card",
+    "type": "card",
+    "description": "A spiked machine that turns defense into offense—get too close and you’ll regret it.",
+    "url": "https://spiritvale.info/cards/spike-robot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Rapid",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Atk Spd: +10%"
+    ]
+  },
+  {
+    "name": "Spike Card",
+    "type": "card",
+    "description": "A creature covered in sharp, deadly spikes, making it a dangerous opponent at close range.",
+    "url": "https://spiritvale.info/cards/spike-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Frosty",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Ice Shard"
+    ]
+  },
+  {
+    "name": "Spook Card",
+    "type": "card",
+    "description": "A Elusive entity that frightens and disorients its prey, often causing them to panic.",
+    "url": "https://spiritvale.info/cards/spook-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Unbreaking",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Cast cannot be interrupted"
+    ]
+  },
+  {
+    "name": "Spore Card",
+    "type": "card",
+    "description": "A tiny creature that releases dangerous spores that can poison or confuse its victims.",
+    "url": "https://spiritvale.info/cards/spore-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Vital",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Hp: +100",
+      "Vit: +1"
+    ]
+  },
+  {
+    "name": "Sprout Card",
+    "type": "card",
+    "description": "A small, young plant creature that grows rapidly, using vines and roots to ensnare its enemies.",
+    "url": "https://spiritvale.info/cards/sprout-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Splintering",
+    "isBoss": false,
+    "slot": "Headgear",
+    "stats": [
+      "Grants Lv.2 Earthbolt",
+      "Chance to autocast Earthbolt when attacking: +10%"
+    ]
+  },
+  {
+    "name": "Sting Card",
+    "type": "card",
+    "description": "A small but fierce creature that delivers powerful stings, often found in large swarms.",
+    "url": "https://spiritvale.info/cards/sting-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Frenzy",
+    "isBoss": true,
+    "slot": "Weapon",
+    "stats": [
+      "Atk Spd: +20%"
+    ]
+  },
+  {
+    "name": "Stormstinger Card",
+    "type": "card",
+    "description": "A buzzing machine armed with a piercing stinger, darting in and out like a mechanical wasp.",
+    "url": "https://spiritvale.info/cards/stormstinger-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Wisdom",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Mp Regen +100%",
+      "Mp: -50%"
+    ]
+  },
+  {
+    "name": "Sun Blossom Card",
+    "type": "card",
+    "description": "A radiant creature that glows with the power of the sun, often used for healing or offensive light magic.",
+    "url": "https://spiritvale.info/cards/sun-blossom-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Enchanted",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Healing: +15%"
+    ]
+  },
+  {
+    "name": "Sunflora Pixie Card",
+    "type": "card",
+    "description": "A tiny fairy-like creature made of sunlight, capable of casting blinding beams of light.",
+    "url": "https://spiritvale.info/cards/sunflora-pixie-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Vocal",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Immune to Silence: +100%"
+    ]
+  },
+  {
+    "name": "Sunflower Fairy Card",
+    "type": "card",
+    "description": "A sun-dwelling fairy that controls sunlight, often brightening the area or unleashing solar magic.",
+    "url": "https://spiritvale.info/cards/sunflower-fairy-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Blessed",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Healing: +15%"
+    ]
+  },
+  {
+    "name": "Stormcoil Card",
+    "type": "card",
+    "description": "A writhing machine with steel tendrils, grabbing and crushing everything it can reach.",
+    "url": "https://spiritvale.info/cards/stormcoil-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Swift",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Move Spd: +20%",
+      "Mp: -20%"
+    ]
+  },
+  {
+    "name": "Titan Turtle Sci Blue Card",
+    "type": "card",
+    "description": "",
+    "url": "https://spiritvale.info/cards/titan-turtle-sci-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Freezing",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Freezing Field Damage +10%"
+    ]
+  },
+  {
+    "name": "Titan Turtle Sci Green Card",
+    "type": "card",
+    "description": "",
+    "url": "https://spiritvale.info/cards/titan-turtle-sci-green-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Meteoric",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Meteor Damage +10%"
+    ]
+  },
+  {
+    "name": "Titan Turtle Sci Pink Card",
+    "type": "card",
+    "description": "",
+    "url": "https://spiritvale.info/cards/titan-turtle-sci-pink-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Tempest",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Tempest Damage +10%"
+    ]
+  },
+  {
+    "name": "Toadstool Card",
+    "type": "card",
+    "description": "A poisonous mushroom creature that releases spores capable of putting others to sleep or poisoning them.",
+    "url": "https://spiritvale.info/cards/toadstool-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Waterproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Water Resistance +25%"
+    ]
+  },
+  {
+    "name": "Treant Forest Autumn Card",
+    "type": "card",
+    "description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders.",
+    "url": "https://spiritvale.info/cards/treant-forest-autumn-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Autumn",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Max mp recovered per second: +1%",
+      "Hp Regen: -50%"
+    ]
+  },
+  {
+    "name": "Treant Forest Evergreen Card",
+    "type": "card",
+    "description": "A massive tree guardian that controls the forest, summoning roots and vines to crush intruders.",
+    "url": "https://spiritvale.info/cards/treant-forest-evergreen-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Evergreen",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Hp Regen: +10% per refine"
+    ]
+  },
+  {
+    "name": "Treant Minion Autumn Card",
+    "type": "card",
+    "description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest.",
+    "url": "https://spiritvale.info/cards/treant-minion-autumn-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Autumn",
+    "isBoss": false,
+    "slot": "Shoes",
+    "stats": [
+      "Mp: +20",
+      "Mp Regen +25%"
+    ]
+  },
+  {
+    "name": "Treant Minion Evergreen Card",
+    "type": "card",
+    "description": "A smaller, yet still formidable, treant that assists its larger kin in protecting the forest.",
+    "url": "https://spiritvale.info/cards/treant-minion-evergreen-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Evergreen",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Hp: +100",
+      "Hp Regen: +25%"
+    ]
+  },
+  {
+    "name": "Treant Tree Autumn Card",
+    "type": "card",
+    "description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will.",
+    "url": "https://spiritvale.info/cards/treant-tree-autumn-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Autumn",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Mp: +20%"
+    ]
+  },
+  {
+    "name": "Treant Tree Evergreen Card",
+    "type": "card",
+    "description": "A sentient tree with a vast network of roots and branches, it can manipulate nature to its will.",
+    "url": "https://spiritvale.info/cards/treant-tree-evergreen-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Evergreen",
+    "isBoss": false,
+    "slot": "Chest",
+    "stats": [
+      "Hp: +20%"
+    ]
+  },
+  {
+    "name": "Turtle King Card",
+    "type": "card",
+    "description": "",
+    "url": "https://spiritvale.info/cards/turtle-king-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Overload",
+    "isBoss": true,
+    "slot": "Headgear",
+    "stats": [
+      "Elemental Overload Damage +15% +2% per refine",
+      "Elemental Overload Mana Cost: +100%"
+    ]
+  },
+  {
+    "name": "Vampire Bat Card",
+    "type": "card",
+    "description": "A bloodthirsty bat that hunts at night, draining the life force from those it catches.",
+    "url": "https://spiritvale.info/cards/vampire-bat-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Leeching",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Health on kill (per 50 vit): +100"
+    ]
+  },
+  {
+    "name": "Werewolf Card",
+    "type": "card",
+    "description": "A fearsome beast that transforms from human to wolf, bringing devastation with its claws and teeth.",
+    "url": "https://spiritvale.info/cards/werewolf-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Tainted",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Shadow element"
+    ]
+  },
+  {
+    "name": "Whirlwind Card",
+    "type": "card",
+    "description": "A living funnel of air, whipping up storms and tossing its prey around like leaves.",
+    "url": "https://spiritvale.info/cards/whirlwind-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Grounding",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Wind Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Wind Mage Card",
+    "type": "card",
+    "description": "A mage who commands the winds, capable of summoning gusts to disorient or damage foes.",
+    "url": "https://spiritvale.info/cards/wind-mage-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Gale",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Wind element"
+    ]
+  },
+  {
+    "name": "Wind Card",
+    "type": "card",
+    "description": "A swift elemental spirit, swirling invisibly until its gusts send you flying off your feet.",
+    "url": "https://spiritvale.info/cards/wind-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Storm",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Thunder Storm Damage +10%"
+    ]
+  },
+  {
+    "name": "Wisp Blue Card",
+    "type": "card",
+    "description": "A pale blue flame that chills the bones as it drifts silently in the dark.",
+    "url": "https://spiritvale.info/cards/wisp-blue-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Icy",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Icebolt Damage +10%"
+    ]
+  },
+  {
+    "name": "Wisp Purple Card",
+    "type": "card",
+    "description": "A ghostly wisp of violet energy, unpredictable and eerie to behold.",
+    "url": "https://spiritvale.info/cards/wisp-purple-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Shocking",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Thunderbolt Damage +10%"
+    ]
+  },
+  {
+    "name": "Wisp Red Card",
+    "type": "card",
+    "description": "A fiery spark that dances in the air, eager to set anything ablaze with its touch.",
+    "url": "https://spiritvale.info/cards/wisp-red-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Flaming",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Firebolt Damage +10%"
+    ]
+  },
+  {
+    "name": "Wisp Yellow Card",
+    "type": "card",
+    "description": "A small floating flame of bright yellow energy, harmless-looking until it swarms.",
+    "url": "https://spiritvale.info/cards/wisp-yellow-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Splintering",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Earthbolt Damage +10%"
+    ]
+  },
+  {
+    "name": "Wolf Pup Card",
+    "type": "card",
+    "description": "A young wolf that's learning to hunt, quick and agile but still not as deadly as its parents.",
+    "url": "https://spiritvale.info/cards/wolf-pup-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Umbral",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Shadow Damage: +6%"
+    ]
+  },
+  {
+    "name": "Wolf Card",
+    "type": "card",
+    "description": "A swift, strong predator that hunts in packs, known for its loyalty and cunning.",
+    "url": "https://spiritvale.info/cards/wolf-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Umbral",
+    "isBoss": false,
+    "slot": "Accessory",
+    "stats": [
+      "Shadow Damage: +6%"
+    ]
+  },
+  {
+    "name": "Worm Creep Card",
+    "type": "card",
+    "description": "A giant, burrowing worm that tunnels underground, often causing havoc when it emerges.",
+    "url": "https://spiritvale.info/cards/worm-creep-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Poisonous",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Poison element"
+    ]
+  },
+  {
+    "name": "Worm Rot Card",
+    "type": "card",
+    "description": "A decayed, undead worm that slithers from the earth, leaving rot in its wake.",
+    "url": "https://spiritvale.info/cards/worm-rot-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Toxinproof",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Poison Resistance +15%"
+    ]
+  },
+  {
+    "name": "Worm Stink Card",
+    "type": "card",
+    "description": "A foul-smelling worm that can incapacitate its enemies with its toxic, rotting stench.",
+    "url": "https://spiritvale.info/cards/worm-stink-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Purging",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Damage vs Poison Enemies: +10%"
+    ]
+  },
+  {
+    "name": "Worm Card",
+    "type": "card",
+    "description": "A smaller version of the giant worm, but still capable of surprising and overwhelming its prey.",
+    "url": "https://spiritvale.info/cards/worm-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Toxinproof",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Poison Resistance +25%"
+    ]
+  },
+  {
+    "name": "Zombie Goblin Giant Card",
+    "type": "card",
+    "description": "A massive goblin brought back in grotesque undeath, lumbering forward with rotten strength.",
+    "url": "https://spiritvale.info/cards/zombie-goblin-giant-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Undead",
+    "isBoss": false,
+    "slot": "Weapon",
+    "stats": [
+      "Enchant weapon with Undead element"
+    ]
+  },
+  {
+    "name": "Zombie Goblin Lord Card",
+    "type": "card",
+    "description": "Once a proud leader, now a rotting husk. This goblin king still commands fear through sheer undeath.",
+    "url": "https://spiritvale.info/cards/zombie-goblin-lord-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardboss.webp",
+    "affix": "Undead",
+    "isBoss": true,
+    "slot": "Chest",
+    "stats": [
+      "Convert to Undead element"
+    ]
+  },
+  {
+    "name": "Zombie Goblin Minion Card",
+    "type": "card",
+    "description": "A mindless husk of a goblin, dragged back from death to serve once more in endless war.",
+    "url": "https://spiritvale.info/cards/zombie-goblin-minion-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Purity",
+    "isBoss": false,
+    "slot": "Legwear",
+    "stats": [
+      "Undead Resistance +15%"
+    ]
+  },
+  {
+    "name": "Zombie Goblin Soldier Card",
+    "type": "card",
+    "description": "A fallen goblin warrior reanimated, still clutching its crude weapon with decayed resolve.",
+    "url": "https://spiritvale.info/cards/zombie-goblin-soldier-card",
+    "icon": "https://spiritvale.info/content/game/icons/icon-cardnormal.webp",
+    "affix": "Undying",
+    "isBoss": false,
+    "slot": "Shield",
+    "stats": [
+      "Hp: +25%",
+      "Healing Received: -50%"
+    ]
+  }
+]

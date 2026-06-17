@@ -1,0 +1,10 @@
+{
+  "maxSkillPoints": {
+    "base": 51,
+    "advanced": 71
+  },
+  "allowRespec": true,
+  "validateClassSkill": true,
+  "current_patch_version": "0.13.1",
+  "current_patch_released_at": "2026-01-21T00:00:00.000Z"
+}

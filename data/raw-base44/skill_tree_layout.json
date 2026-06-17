@@ -1,0 +1,1610 @@
+{
+  "acolyte": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "heal",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "codex-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "increased-recovery",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "haste",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "benediction",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "faith",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "divine-grace",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "sacred-aegis",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "cure",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "holy-light",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "arcanum-ward",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "true-sight",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "resurrection",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "berserker": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "mighty-roar",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "skillId": "earth-splitter",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "dark-claw",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "skillId": "wild-charge",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "blood-howl",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "furious-shout",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "execute",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "brutality",
+        "maxLevel": 3
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "cyclone",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "fearsome-cry",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "berserk",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "axe-throw",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "blood-frenzy",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "increased-regeneration",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "blood-crash",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "skillId": "unyielding",
+        "maxLevel": 2
+      }
+    ]
+  },
+  "gunslinger": {
+    "nodes": [
+      {
+        "x": 0,
+        "y": 0,
+        "skillId": "suppressive-shot",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "piercing-shot",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "skillId": "fan-fire",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "skillId": "jump-shot",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "explosive-grenade",
+        "maxLevel": 5
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "skillId": "poison-grenade",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "sniper-shot",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "panic-burst",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "gun-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "point-blank",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "freeze-grenade",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "aerial-shot",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "flash-bang",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "shrapnel",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "trigger-happy",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "lockdown",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "shock-absorber",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "dual-loadout",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "knight": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "taunt",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "spear-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "shield-mastery",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "endure",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "piercing-flurry",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "fortify",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "twohand-parry",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "impale",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "reflect-shield",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "skillId": "increased-regeneration",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "air-cutter",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "spear-quicken",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "weapon-throw",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "skillId": "counter-stance",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "mage": {
+    "nodes": [
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "wand-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "earthbolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "firebolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "increased-recovery",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "thunderbolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "icebolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "earth-spikes",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "fireball",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "true-sight",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "thunder-storm",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "ice-shard",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "energy-shield",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "free-cast",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "blink",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "necromancer": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "summon-abomination",
+        "maxLevel": 1
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "skillId": "summon-skeleton",
+        "maxLevel": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "skeleton-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "skillId": "summon-skeleton-mage",
+        "maxLevel": 2
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "summon-wraith",
+        "maxLevel": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "bone-spear",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "corpse-barrier",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "scythe-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "bone-spikes",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "death-coil",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "corpse-explosion",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "harvest",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "twohand-parry",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "skillId": "reanimation",
+        "maxLevel": 1
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "life-drain",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "death-bond",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "reap",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "skillId": "summon-reanimation",
+        "maxLevel": 1
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "skillId": "death-nova",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "skillId": "death-spiral",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "skillId": "necrotic-presence",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "skillId": "grave-chill",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "skillId": "soul-drain",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "paladin": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "high-guard",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "skillId": "holy-shield",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "faith",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "skillId": "sacrifice",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "consecration",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "aegis-of-light",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "shield-bash",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "sanctify",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "judgement-blade",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "divine-punishment",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "shield-throw",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "life-bond",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "grand-cross",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "defiance-aura",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "vitality-aura",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "conviction-aura",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "gryphon-riding",
+        "maxLevel": 0
+      }
+    ]
+  },
+  "priest": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "high-heal",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "salvation",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "mace-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "sanctuary",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "status-recovery",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "turn-undead",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "zeal",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "damnation",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "sacred-ground",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "guardian-spirit",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "exorcism",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "endow-holy",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "smite",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "skillId": "divinity",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "sacrament",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "skillId": "fanaticism",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "holy-wrath",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "skillId": "absolution",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "rogue": {
+    "nodes": [
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "blade-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "shadow-step",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "multistrike",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "venom-strike",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "cloaking",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "lightning-reflexes",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "venom-coating",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "blade-dance",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "dual-wield-mastery",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "enchant-poison",
+        "maxLevel": 1
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "skillId": "smoke-screen",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "haste",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "skillId": "cure",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "scout": {
+    "nodes": [
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "steady-hands",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "strafing-volley",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "precise-aim",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "arrow-shower",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "force-shot",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "mark-target",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "inner-focus",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "slow-trap",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "volatile-bolt",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "sniper's-nest",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "shinobi": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "flame-orb",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "binding-spiral",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "flash-step",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "fire-release",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "ice-release",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "lightning-release",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "flow-state",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "ninjutsu-mastery",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "shadow-seal",
+        "maxLevel": 3
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "shadow-mastery",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "silent-edge",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "fan-of-knives",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "elusive-feint",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "twist-of-fate",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "skillId": "shuriken-fan",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "mimic-seal",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "skillId": "black-blade",
+        "maxLevel": 10
+      }
+    ]
+  },
+  "summoner": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "summon-angel",
+        "maxLevel": 3
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "skillId": "summon-cactus",
+        "maxLevel": 3
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "summon-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "skillId": "summon-cat",
+        "maxLevel": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "summon-wolf",
+        "maxLevel": 3
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "resonance-well",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "suppression-field",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "soul-strike",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "banishment-field",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "dissonance-well",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "conjurer",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "guardian-bond",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "true-sight",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "fury-bond",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "invoker",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "skillId": "summon-command",
+        "maxLevel": 0
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "summon-recall",
+        "maxLevel": 0
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "summon-swap",
+        "maxLevel": 0
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "skillId": "summon-mount",
+        "maxLevel": 0
+      }
+    ]
+  },
+  "warrior": {
+    "nodes": [
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "axe-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "bash",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "axe-quicken",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "stomp",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "twin-cleave",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "vortex-slash",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "whirlwind",
+        "maxLevel": 10
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "honed-blade",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "dual-wield-mastery",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "natural-resistance",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "weaver": {
+    "nodes": [
+      {
+        "x": 0,
+        "y": 0,
+        "skillId": "heal",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "icebolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "skillId": "firebolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "weaver-mastery",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "skillId": "piercing-flurry",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "strafing-volley",
+        "maxLevel": 5
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "skillId": "venom-strike",
+        "maxLevel": 5
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "skillId": "haste",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "skillId": "ice-shard",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "fireball",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "skillId": "bash",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "impale",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "skillId": "arrow-shower",
+        "maxLevel": 10
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "skillId": "venom-coating",
+        "maxLevel": 5
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "skillId": "cure",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "earthbolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "skillId": "thunderbolt",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "endure",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "skillId": "air-cutter",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "blade-dance",
+        "maxLevel": 10
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "skillId": "shadow-step",
+        "maxLevel": 5
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "skillId": "holy-light",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "skillId": "earth-spikes",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "thunder-storm",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "skillId": "fortify",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "stomp",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "skillId": "mark-target",
+        "maxLevel": 5
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "skillId": "cloaking",
+        "maxLevel": 5
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "skillId": "soul-strike",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "skillId": "suppression-field",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "skillId": "banishment-field",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "natural-resistance",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "skillId": "vortex-slash",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "skillId": "steady-hands",
+        "maxLevel": 10
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "skillId": "lightning-reflexes",
+        "maxLevel": 5
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "skillId": "benediction",
+        "maxLevel": 5
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "skillId": "resonance-well",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "skillId": "dissonance-well",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "skillId": "divine-grace",
+        "maxLevel": 5
+      },
+      {
+        "x": 4,
+        "y": 5,
+        "skillId": "whirlwind",
+        "maxLevel": 10
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "skillId": "inner-focus",
+        "maxLevel": 5
+      },
+      {
+        "x": 6,
+        "y": 5,
+        "skillId": "dual-wield-mastery",
+        "maxLevel": 5
+      }
+    ]
+  },
+  "wizard": {
+    "nodes": [
+      {
+        "x": 1,
+        "y": 0,
+        "skillId": "fire-pillar",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "skillId": "avatar-of-fire",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "skillId": "chain-lightning",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "skillId": "meteor",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "skillId": "tempest",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "skillId": "avatar-of-stone",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "skillId": "elemental-overload",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "skillId": "avatar-of-storm",
+        "maxLevel": 5
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "skillId": "earthquake",
+        "maxLevel": 10
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "skillId": "blizzard",
+        "maxLevel": 10
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "skillId": "earth-wall",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "skillId": "avatar-of-frost",
+        "maxLevel": 5
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "skillId": "hydro-vortex",
+        "maxLevel": 5
+      },
+      {
+        "x": 3,
+        "y": 5,
+        "skillId": "arcane-sigil",
+        "maxLevel": 5
+      }
+    ]
+  }
+}

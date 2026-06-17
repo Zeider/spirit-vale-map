@@ -1,0 +1,360 @@
+[
+  {
+    "name": "Antique Key",
+    "type": "material",
+    "description": "A rusty key with a history, unlocking secrets from the past that no one has dared to open in years.",
+    "url": "https://spiritvale.info/materials/antique-key",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/9405b0fff_item-antique-key.webp",
+    "image": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/9405b0fff_item-antique-key.webp"
+  },
+  {
+    "name": "Antique Key",
+    "type": "material",
+    "description": "A rusty key with a history, unlocking secrets from the past that no one has dared to open in years.",
+    "url": "https://spiritvale.info/materials/antique-key",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/d26ff88c0_item-antique-key.webp"
+  },
+  {
+    "name": "Antique Teacup",
+    "type": "material",
+    "description": "A vintage teacup with delicate patterns, holding the echoes of many warm conversations and sips of tea.",
+    "url": "https://spiritvale.info/materials/antique-teacup",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/ab639adb5_item-antique-teacup.webp"
+  },
+  {
+    "name": "Ash",
+    "type": "material",
+    "description": "The soft, powdery remnants of a fire that once burned brightly.",
+    "url": "https://spiritvale.info/materials/ash",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/64f7e5d6a_item-ash.webp"
+  },
+  {
+    "name": "Azurite",
+    "type": "material",
+    "description": "A brilliant blue stone that sparkles with the colors of the sky, a symbol of wisdom and clarity.",
+    "url": "https://spiritvale.info/materials/azurite",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/b7ae8d006_item-azurite.webp"
+  },
+  {
+    "name": "Branch Dead",
+    "type": "material",
+    "description": "A lifeless branch, fallen to the ground after many years of standing tall.",
+    "url": "https://spiritvale.info/materials/branch-dead",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/c5a3fb6fb_item-branch-dead.webp"
+  },
+  {
+    "name": "Candy Cane",
+    "type": "material",
+    "description": "Bright red and white stripes twist together in a festive curve, carrying the sweet scent of winter cheer. A simple holiday treat that feels like Christmas folded into candy.",
+    "url": "https://spiritvale.info/materials/candy-cane",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/4c1f6d47a_item-candy-cane.webp"
+  },
+  {
+    "name": "Charcoal",
+    "type": "material",
+    "description": "A black, porous material created from burning wood, used in both art and fuel.",
+    "url": "https://spiritvale.info/materials/charcoal",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/5b475180c_item-charcoal.webp"
+  },
+  {
+    "name": "Coal Hard",
+    "type": "material",
+    "description": "A dense, compact piece of coal, perfect for a long, slow burn.",
+    "url": "https://spiritvale.info/materials/coal-hard",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/6c9b1dcab_item-coal-hard.webp"
+  },
+  {
+    "name": "Coconut Oil",
+    "type": "material",
+    "description": "A tropical oil with a smooth texture and subtle flavor, used for cooking, skincare, and everything in between.",
+    "url": "https://spiritvale.info/materials/coconut-oil",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/b966d16ef_item-coconut-oil.webp"
+  },
+  {
+    "name": "Coral Stone",
+    "type": "material",
+    "description": "A smooth, pinkish stone formed by coral, a symbol of the vibrant life beneath the waves.",
+    "url": "https://spiritvale.info/materials/coral-stone",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/eb951c814_item-coral-stone.webp"
+  },
+  {
+    "name": "Feather",
+    "type": "material",
+    "description": "A light, delicate feather, fluttering in the breeze, often a sign of a bird's presence.",
+    "url": "https://spiritvale.info/materials/feather",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/c88dcefb4_item-feather.webp"
+  },
+  {
+    "name": "Fishbone",
+    "type": "material",
+    "description": "A slender, sharp bone from a fish, often left behind after a meal.",
+    "url": "https://spiritvale.info/materials/fishbone",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/55ec2b4aa_item-fishbone.webp"
+  },
+  {
+    "name": "Flax",
+    "type": "material",
+    "description": "A soft, fiber-rich plant, used to create linen and other durable fabrics.",
+    "url": "https://spiritvale.info/materials/flax",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/0be0d6195_item-flax.webp"
+  },
+  {
+    "name": "Foxtail",
+    "type": "material",
+    "description": "A soft, fluffy tail that twitches with every movement, often belonging to a fox or similar creature.",
+    "url": "https://spiritvale.info/materials/foxtail",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/ab95844d4_item-foxtail.webp"
+  },
+  {
+    "name": "Fur",
+    "type": "material",
+    "description": "A soft and luxurious coat, keeping creatures warm in the coldest climates.",
+    "url": "https://spiritvale.info/materials/fur",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/c315eda2f_item-fur.webp"
+  },
+  {
+    "name": "Gold Ore",
+    "type": "material",
+    "description": "A shiny mineral that's both rare and valuable, a symbol of wealth just waiting to be mined.",
+    "url": "https://spiritvale.info/materials/gold-ore",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/9d3a7fd0a_item-gold-ore.webp"
+  },
+  {
+    "name": "Gravion Chunk",
+    "type": "material",
+    "description": "A solid mass of Gravion, sturdy but unworked.",
+    "url": "https://spiritvale.info/materials/gravion-chunk",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/de93bb806_item-gravion-chunk.webp"
+  },
+  {
+    "name": "Gravion Crystal",
+    "type": "material",
+    "description": "A flawless block of Gravion, famed for unmatched defense.",
+    "url": "https://spiritvale.info/materials/gravion-crystal",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/561651645_item-gravion-crystal.webp"
+  },
+  {
+    "name": "Gravion Shard",
+    "type": "material",
+    "description": "Rough fragments of Gravion, heavy and irregular.",
+    "url": "https://spiritvale.info/materials/gravion-shard",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/e934003ed_item-gravion-shard.webp"
+  },
+  {
+    "name": "Halite",
+    "type": "material",
+    "description": "A crystal form of salt, sparkling like tiny stars, essential for life and flavor.",
+    "url": "https://spiritvale.info/materials/halite",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/c0eb4953a_item-halite.webp"
+  },
+  {
+    "name": "Hibiscus",
+    "type": "material",
+    "description": "A bright, tropical flower, known for its large, colorful blooms that brighten up any space.",
+    "url": "https://spiritvale.info/materials/hibiscus",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/49fbe435e_item-hibiscus.webp"
+  },
+  {
+    "name": "Ingot Iron",
+    "type": "material",
+    "description": "A strong, dense block of iron, perfect for forging tools and weapons.",
+    "url": "https://spiritvale.info/materials/ingot-iron",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/5b188fc25_item-ingot-iron.webp"
+  },
+  {
+    "name": "Ingot Steel",
+    "type": "material",
+    "description": "A refined steel ingot, tough and durable, used in the creation of many valuable items.",
+    "url": "https://spiritvale.info/materials/ingot-steel",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/db519956f_item-ingot-steel.webp"
+  },
+  {
+    "name": "Larva",
+    "type": "material",
+    "description": "A tiny, wriggling creature that will soon transform into something much more impressive.",
+    "url": "https://spiritvale.info/materials/larva",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/ae14946dd_item-larva.webp"
+  },
+  {
+    "name": "Leaf",
+    "type": "material",
+    "description": "A green, delicate leaf that flutters in the wind, a symbol of nature's endless cycle.",
+    "url": "https://spiritvale.info/materials/leaf",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/2d6e3ae88_item-leaf.webp"
+  },
+  {
+    "name": "Lunaris Chunk",
+    "type": "material",
+    "description": "A smooth Lunaris chunk, shimmering with quiet magic.",
+    "url": "https://spiritvale.info/materials/lunaris-chunk",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/36f7e3276_item-lunaris-chunk.webp"
+  },
+  {
+    "name": "Lunaris Crystal",
+    "type": "material",
+    "description": "A pristine Lunaris crystal, radiant with celestial energy.",
+    "url": "https://spiritvale.info/materials/lunaris-crystal",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/a12fb149f_item-lunaris-crystal.webp"
+  },
+  {
+    "name": "Lunaris Shard",
+    "type": "material",
+    "description": "Pale lunar fragments that glow faintly in darkness.",
+    "url": "https://spiritvale.info/materials/lunaris-shard",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/5e6d34e35_item-lunaris-shard.webp"
+  },
+  {
+    "name": "Marble",
+    "type": "material",
+    "description": "Smooth, cold, and shiny, like the Earth's treasure chest waiting to be discovered.",
+    "url": "https://spiritvale.info/materials/marble",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/13fb5c117_item-marble.webp"
+  },
+  {
+    "name": "Moonrock",
+    "type": "material",
+    "description": "A mysterious rock, as if it's traveled all the way from the moon itself.",
+    "url": "https://spiritvale.info/materials/moonrock",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/ae376644b_item-moonrock.webp"
+  },
+  {
+    "name": "Moonstone",
+    "type": "material",
+    "description": "Glimmering with an ethereal glow, it's like holding a piece of moonlight.",
+    "url": "https://spiritvale.info/materials/moonstone",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/80082e537_item-moonstone.webp"
+  },
+  {
+    "name": "Mushroom",
+    "type": "material",
+    "description": "Soft and earthy, this little fungus grows in the shadows of the forest floor.",
+    "url": "https://spiritvale.info/materials/mushroom",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/490774f77_item-mushroom.webp"
+  },
+  {
+    "name": "Obsidian",
+    "type": "material",
+    "description": "A sleek, glass-like stone, smooth as night and sharp as a shadow.",
+    "url": "https://spiritvale.info/materials/obsidian",
+    "icon": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/8fafbea80_item-obsidian.webp"
+  },
+  {
+    "name": "Oceanite",
+    "type": "material",
+    "description": "A stone as deep as the ocean, swirling with shades of blue and green.",
+    "url": "https://spiritvale.info/materials/oceanite",
+    "icon": "https://spiritvale.info/content/game/icons/item-oceanite.webp"
+  },
+  {
+    "name": "Pearl",
+    "type": "material",
+    "description": "A tiny, precious gem, formed deep within the ocean's secretive embrace.",
+    "url": "https://spiritvale.info/materials/pearl",
+    "icon": "https://spiritvale.info/content/game/icons/item-pearl.webp"
+  },
+  {
+    "name": "Potato",
+    "type": "material",
+    "description": "Earthy and hearty, the potato is the perfect food for any occasion.",
+    "url": "https://spiritvale.info/materials/potato",
+    "icon": "https://spiritvale.info/content/game/icons/item-potato.webp"
+  },
+  {
+    "name": "Pouch Fairy Dust",
+    "type": "material",
+    "description": "A tiny pouch filled with magical fairy dust, ready to sprinkle some charm.",
+    "url": "https://spiritvale.info/materials/pouch-fairy-dust",
+    "icon": "https://spiritvale.info/content/game/icons/item-pouch-fairy-dust.webp"
+  },
+  {
+    "name": "Pumpkin",
+    "type": "material",
+    "description": "Round and golden-orange, the pumpkin glows with the warmth of harvest season. Its cheerful charm makes it perfect for Halloween mischief and cozy autumn nights.",
+    "url": "https://spiritvale.info/materials/pumpkin",
+    "icon": "https://spiritvale.info/content/game/icons/item-pumpkin.webp"
+  },
+  {
+    "name": "Seed",
+    "type": "material",
+    "description": "A tiny promise of growth, holding potential in its fragile shell.",
+    "url": "https://spiritvale.info/materials/seed",
+    "icon": "https://spiritvale.info/content/game/icons/item-seed.webp"
+  },
+  {
+    "name": "Silica Sand",
+    "type": "material",
+    "description": "A fine, smooth sand, glistening like tiny crystals under the sun.",
+    "url": "https://spiritvale.info/materials/silica-sand",
+    "icon": "https://spiritvale.info/content/game/icons/item-silica-sand.webp"
+  },
+  {
+    "name": "Spider Web",
+    "type": "material",
+    "description": "Delicate and intricate, a work of art spun from nature's finest threads.",
+    "url": "https://spiritvale.info/materials/spider-web",
+    "icon": "https://spiritvale.info/content/game/icons/item-spider-web.webp"
+  },
+  {
+    "name": "Swamp Eels",
+    "type": "material",
+    "description": "Slithery and sleek, these eels move smoothly through the murky swamp waters.",
+    "url": "https://spiritvale.info/materials/swamp-eels",
+    "icon": "https://spiritvale.info/content/game/icons/item-swamp-eels.webp"
+  },
+  {
+    "name": "Tar",
+    "type": "material",
+    "description": "A thick, sticky substance, dark as night, ready for the earth's embrace.",
+    "url": "https://spiritvale.info/materials/tar",
+    "icon": "https://spiritvale.info/content/game/icons/item-tar.webp"
+  },
+  {
+    "name": "Tin",
+    "type": "material",
+    "description": "A soft, malleable metal, perfect for creating with a touch of care.",
+    "url": "https://spiritvale.info/materials/tin",
+    "icon": "https://spiritvale.info/content/game/icons/item-tin.webp"
+  },
+  {
+    "name": "Tree Bark",
+    "type": "material",
+    "description": "Rough and textured, the bark tells stories of the tree's life.",
+    "url": "https://spiritvale.info/materials/tree-bark",
+    "icon": "https://spiritvale.info/content/game/icons/item-tree-bark.webp"
+  },
+  {
+    "name": "Tree Sap",
+    "type": "material",
+    "description": "Sweet and sticky, it's the lifeblood of the tree, full of natural goodness.",
+    "url": "https://spiritvale.info/materials/tree-sap",
+    "icon": "https://spiritvale.info/content/game/icons/item-tree-sap.webp"
+  },
+  {
+    "name": "Tungsten",
+    "type": "material",
+    "description": "Strong and unyielding, a metal that refuses to bend or break.",
+    "url": "https://spiritvale.info/materials/tungsten",
+    "icon": "https://spiritvale.info/content/game/icons/item-tungsten.webp"
+  },
+  {
+    "name": "Vulkanite Chunk",
+    "type": "material",
+    "description": "A raw chunk of Vulkanite, hot with latent power.",
+    "url": "https://spiritvale.info/materials/vulkanite-chunk",
+    "icon": "https://spiritvale.info/content/game/icons/item-vulkanite-chunk.webp"
+  },
+  {
+    "name": "Vulkanite Crystal",
+    "type": "material",
+    "description": "A perfected Vulkanite crystal, channeling devastating force.",
+    "url": "https://spiritvale.info/materials/vulkanite-crystal",
+    "icon": "https://spiritvale.info/content/game/icons/item-vulkanite-crystal.webp"
+  },
+  {
+    "name": "Vulkanite Shard",
+    "type": "material",
+    "description": "Jagged splinters of Vulkanite, scorching to the touch.",
+    "url": "https://spiritvale.info/materials/vulkanite-shard",
+    "icon": "https://spiritvale.info/content/game/icons/item-vulkanite-shard.webp"
+  }
+]

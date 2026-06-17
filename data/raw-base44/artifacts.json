@@ -1,0 +1,1499 @@
+[
+  {
+    "name": "Aethercore",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Mp: "
+    ],
+    "statsPerPiece": [
+      "Mp: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "statsPerRefine": [
+      "Mp: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "mystic-lake-1",
+        "name": "Mystic Lake 1",
+        "minLevel": 31,
+        "maxLevel": 35,
+        "min_level": 31,
+        "max_level": 35
+      },
+      {
+        "slug": "lake-field",
+        "name": "Lake Field",
+        "minLevel": 26,
+        "maxLevel": 30,
+        "min_level": 26,
+        "max_level": 30
+      },
+      {
+        "slug": "mystic-lake-2",
+        "name": "Mystic Lake 2",
+        "minLevel": 36,
+        "maxLevel": 40,
+        "min_level": 36,
+        "max_level": 40
+      }
+    ],
+    "drops": [],
+    "id": "aethercore",
+    "slug": "aethercore",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Mp: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Mp: "
+    ],
+    "stats_per_refine": [
+      "Mp: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Arcanum",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Damage Magic: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerPiece": [
+      "Damage Magic: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerRefine": [
+      "Damage Magic: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "forest-field-2",
+        "name": "Forest Field 2",
+        "minLevel": 16,
+        "maxLevel": 20,
+        "min_level": 16,
+        "max_level": 20
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "forest-field-1",
+        "name": "Forest Field 1",
+        "minLevel": 11,
+        "maxLevel": 15,
+        "min_level": 11,
+        "max_level": 15
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      }
+    ],
+    "drops": [],
+    "id": "arcanum",
+    "slug": "arcanum",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Damage Magic: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Damage Magic: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_per_refine": [
+      "Damage Magic: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Arcanum Verge",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      ""
+    ],
+    "statsPerPiece": [
+      "Mp Cost: <span style=\"font-weight: bold; color: green\">-10%</span>"
+    ],
+    "statsPerRefine": [
+      "Mp Cost: <span style=\"font-weight: bold; color: green\">-0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "sanctum-of-light",
+        "name": "Sanctum of Light",
+        "minLevel": 81,
+        "maxLevel": 85,
+        "min_level": 81,
+        "max_level": 85
+      }
+    ],
+    "drops": [],
+    "id": "arcanum-verge",
+    "slug": "arcanum-verge",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Mp Cost: <span style=\"font-weight: bold; color: green\">-10%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      ""
+    ],
+    "stats_per_refine": [
+      "Mp Cost: <span style=\"font-weight: bold; color: green\">-0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Bastion",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Hp: <span style=\"font-weight: bold; color: green\">+10%</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "statsPerPiece": [],
+    "statsPerRefine": [],
+    "maps": [
+      {
+        "slug": "sunken-depths",
+        "name": "Sunken Depths",
+        "minLevel": 101,
+        "maxLevel": 105,
+        "min_level": 101,
+        "max_level": 105
+      }
+    ],
+    "drops": [],
+    "id": "bastion",
+    "slug": "bastion",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Hp: <span style=\"font-weight: bold; color: green\">+10%</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "stats_per_refine": [],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Blitzcore",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Chain: <span style=\"font-weight: bold; color: green\">+2</span>",
+      "Atk Spd: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerPiece": [
+      "Atk Spd: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerRefine": [
+      "Atk Spd: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "forgotten-depths-1",
+        "name": "Forgotten Depths 1",
+        "minLevel": 41,
+        "maxLevel": 45,
+        "min_level": 41,
+        "max_level": 45
+      },
+      {
+        "slug": "forgotten-depths-2",
+        "name": "Forgotten Depths 2",
+        "minLevel": 46,
+        "maxLevel": 50,
+        "min_level": 46,
+        "max_level": 50
+      }
+    ],
+    "drops": [],
+    "id": "blitzcore",
+    "slug": "blitzcore",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Atk Spd: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Chain: <span style=\"font-weight: bold; color: green\">+2</span>",
+      "Atk Spd: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_per_refine": [
+      "Atk Spd: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Bloodbind",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "",
+      ""
+    ],
+    "statsPerPiece": [
+      "Health on kill (per 50 vit): <span style=\"font-weight: bold; color: green\">+25</span>",
+      "Mana on kill (per 50 int): <span style=\"font-weight: bold; color: green\">+5</span>"
+    ],
+    "statsPerRefine": [
+      "Health on kill (per 50 vit): <span style=\"font-weight: bold; color: green\">+5 per refine</span>",
+      "Mana on kill (per 50 int): <span style=\"font-weight: bold; color: green\">+1 per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "festering-woods-1",
+        "name": "Festering Woods 1",
+        "minLevel": 21,
+        "maxLevel": 25,
+        "min_level": 21,
+        "max_level": 25
+      },
+      {
+        "slug": "festering-woods-2",
+        "name": "Festering Woods 2",
+        "minLevel": 26,
+        "maxLevel": 30,
+        "min_level": 26,
+        "max_level": 30
+      }
+    ],
+    "drops": [],
+    "id": "bloodbind",
+    "slug": "bloodbind",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Health on kill (per 50 vit): <span style=\"font-weight: bold; color: green\">+25</span>",
+      "Mana on kill (per 50 int): <span style=\"font-weight: bold; color: green\">+5</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "",
+      ""
+    ],
+    "stats_per_refine": [
+      "Health on kill (per 50 vit): <span style=\"font-weight: bold; color: green\">+5 per refine</span>",
+      "Mana on kill (per 50 int): <span style=\"font-weight: bold; color: green\">+1 per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Corporeal",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "<span style=\"font-weight: bold; color: #55bb2e\">Poison</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #C85AE0\">Undead</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #755e94\">Shadow</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #e89ea1\">Holy</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerPiece": [
+      "<span style=\"font-weight: bold; color: #55bb2e\">Poison</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #C85AE0\">Undead</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #755e94\">Shadow</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #e89ea1\">Holy</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerRefine": [
+      "<span style=\"font-weight: bold; color: #55bb2e\">Poison</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #C85AE0\">Undead</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #755e94\">Shadow</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #e89ea1\">Holy</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "the-forge",
+        "name": "The Forge",
+        "minLevel": 126,
+        "maxLevel": 130,
+        "min_level": 126,
+        "max_level": 130
+      }
+    ],
+    "drops": [],
+    "id": "corporeal",
+    "slug": "corporeal",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "<span style=\"font-weight: bold; color: #55bb2e\">Poison</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #C85AE0\">Undead</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #755e94\">Shadow</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #e89ea1\">Holy</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "<span style=\"font-weight: bold; color: #55bb2e\">Poison</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #C85AE0\">Undead</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #755e94\">Shadow</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #e89ea1\">Holy</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_per_refine": [
+      "<span style=\"font-weight: bold; color: #55bb2e\">Poison</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #C85AE0\">Undead</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #755e94\">Shadow</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #e89ea1\">Holy</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Eternis",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Grants Lv.5 Heal",
+      "Grants Lv.5 Haste",
+      "Hp: <span style=\"font-weight: bold; color: green\">+10%</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+10%</span>",
+      "Atk: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Matk: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "statsPerPiece": [],
+    "statsPerRefine": [],
+    "maps": [
+      {
+        "slug": "night-garden",
+        "name": "Night Garden",
+        "minLevel": 126,
+        "maxLevel": 130,
+        "min_level": 126,
+        "max_level": 130
+      }
+    ],
+    "drops": [],
+    "id": "eternis",
+    "slug": "eternis",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Grants Lv.5 Heal",
+      "Grants Lv.5 Haste",
+      "Hp: <span style=\"font-weight: bold; color: green\">+10%</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+10%</span>",
+      "Atk: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Matk: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "stats_per_refine": [],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Furybrand",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Crit Damage: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      ""
+    ],
+    "statsPerPiece": [
+      "Crit: <span style=\"font-weight: bold; color: green\">+5</span>"
+    ],
+    "statsPerRefine": [
+      "Crit Damage: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "demon-s-maw",
+        "name": "Demon's Maw",
+        "minLevel": 96,
+        "maxLevel": 100,
+        "min_level": 96,
+        "max_level": 100
+      }
+    ],
+    "drops": [],
+    "id": "furybrand",
+    "slug": "furybrand",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Crit: <span style=\"font-weight: bold; color: green\">+5</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Crit Damage: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      ""
+    ],
+    "stats_per_refine": [
+      "Crit Damage: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Hawkeye",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Total Hit: <span style=\"font-weight: bold; color: green\">+10</span>"
+    ],
+    "statsPerPiece": [
+      "Hit: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "statsPerRefine": [
+      "Hit: <span style=\"font-weight: bold; color: green\">+1 per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "stormreef-isle",
+        "name": "Stormreef Isle",
+        "minLevel": 61,
+        "maxLevel": 65,
+        "min_level": 61,
+        "max_level": 65
+      }
+    ],
+    "drops": [],
+    "id": "hawkeye",
+    "slug": "hawkeye",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Hit: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Total Hit: <span style=\"font-weight: bold; color: green\">+10</span>"
+    ],
+    "stats_per_refine": [
+      "Hit: <span style=\"font-weight: bold; color: green\">+1 per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Hexbrand",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Status Damage: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "statsPerPiece": [
+      "Status Damage: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "statsPerRefine": [
+      "Status Damage: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "dark-forest",
+        "name": "Dark Forest",
+        "minLevel": 91,
+        "maxLevel": 95,
+        "min_level": 91,
+        "max_level": 95
+      },
+      {
+        "slug": "swamp-wilderness",
+        "name": "Swamp Wilderness",
+        "minLevel": 66,
+        "maxLevel": 70,
+        "min_level": 66,
+        "max_level": 70
+      }
+    ],
+    "drops": [],
+    "id": "hexbrand",
+    "slug": "hexbrand",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Status Damage: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Status Damage: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "stats_per_refine": [
+      "Status Damage: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Lifebloom",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Healing: "
+    ],
+    "statsPerPiece": [
+      "Healing: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "statsPerRefine": [
+      "Healing: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "sanctum-of-light",
+        "name": "Sanctum of Light",
+        "minLevel": 76,
+        "maxLevel": 80,
+        "min_level": 76,
+        "max_level": 80
+      }
+    ],
+    "drops": [],
+    "id": "lifebloom",
+    "slug": "lifebloom",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Healing: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Healing: "
+    ],
+    "stats_per_refine": [
+      "Healing: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Nullmark",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Immune to Slow: <span style=\"font-weight: bold; color: green\">+50%</span>"
+    ],
+    "statsPerPiece": [],
+    "statsPerRefine": [
+      "Immune to Stun: <span style=\"font-weight: bold; color: green\">+2.5% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "underground-cavern",
+        "name": "Underground Cavern",
+        "minLevel": 86,
+        "maxLevel": 90,
+        "min_level": 86,
+        "max_level": 90
+      }
+    ],
+    "drops": [],
+    "id": "nullmark",
+    "slug": "nullmark",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Immune to Slow: <span style=\"font-weight: bold; color: green\">+50%</span>"
+    ],
+    "stats_per_refine": [
+      "Immune to Stun: <span style=\"font-weight: bold; color: green\">+2.5% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Oathbound",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "BuffDuration"
+    ],
+    "statsPerPiece": [
+      "BuffDuration"
+    ],
+    "statsPerRefine": [
+      "BuffDuration"
+    ],
+    "maps": [
+      {
+        "slug": "starfall-tundra",
+        "name": "Starfall Tundra",
+        "minLevel": 131,
+        "maxLevel": 135,
+        "min_level": 131,
+        "max_level": 135
+      }
+    ],
+    "drops": [],
+    "id": "oathbound",
+    "slug": "oathbound",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "BuffDuration"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "BuffDuration"
+    ],
+    "stats_per_refine": [
+      "BuffDuration"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Pioneer",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Hp Regen: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Mp Regen: <span style=\"font-weight: bold; color: green\">+2</span>",
+      "Atk: <span style=\"font-weight: bold; color: green\">+3</span>",
+      "Matk: <span style=\"font-weight: bold; color: green\">+3</span>"
+    ],
+    "statsPerPiece": [
+      "Hp: <span style=\"font-weight: bold; color: green\">+20</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+10</span>"
+    ],
+    "statsPerRefine": [],
+    "maps": [
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "sunny-meadows-2",
+        "name": "Sunny Meadows 2",
+        "minLevel": 6,
+        "maxLevel": 10,
+        "min_level": 6,
+        "max_level": 10
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "sunny-meadows-1",
+        "name": "Sunny Meadows 1",
+        "minLevel": 1,
+        "maxLevel": 5,
+        "min_level": 1,
+        "max_level": 5
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      }
+    ],
+    "drops": [],
+    "id": "pioneer",
+    "slug": "pioneer",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Hp: <span style=\"font-weight: bold; color: green\">+20</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+10</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Hp Regen: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Mp Regen: <span style=\"font-weight: bold; color: green\">+2</span>",
+      "Atk: <span style=\"font-weight: bold; color: green\">+3</span>",
+      "Matk: <span style=\"font-weight: bold; color: green\">+3</span>"
+    ],
+    "stats_per_refine": [],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Primordial",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "<span style=\"font-weight: bold; color: #ff7026\">Fire</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #24a8dc\">Water</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: oklch(85.2% 0.199 91.936)\">Wind</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #bb7b2f\">Earth</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerPiece": [
+      "<span style=\"font-weight: bold; color: #ff7026\">Fire</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #24a8dc\">Water</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: oklch(85.2% 0.199 91.936)\">Wind</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #bb7b2f\">Earth</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerRefine": [
+      "<span style=\"font-weight: bold; color: #ff7026\">Fire</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #24a8dc\">Water</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: oklch(85.2% 0.199 91.936)\">Wind</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #bb7b2f\">Earth</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "turtle-nexus",
+        "name": "Turtle Nexus",
+        "minLevel": 131,
+        "maxLevel": 135,
+        "min_level": 131,
+        "max_level": 135
+      }
+    ],
+    "drops": [],
+    "id": "primordial",
+    "slug": "primordial",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "<span style=\"font-weight: bold; color: #ff7026\">Fire</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #24a8dc\">Water</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: oklch(85.2% 0.199 91.936)\">Wind</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #bb7b2f\">Earth</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "<span style=\"font-weight: bold; color: #ff7026\">Fire</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #24a8dc\">Water</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: oklch(85.2% 0.199 91.936)\">Wind</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>",
+      "<span style=\"font-weight: bold; color: #bb7b2f\">Earth</span> Damage: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_per_refine": [
+      "<span style=\"font-weight: bold; color: #ff7026\">Fire</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #24a8dc\">Water</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: oklch(85.2% 0.199 91.936)\">Wind</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>",
+      "<span style=\"font-weight: bold; color: #bb7b2f\">Earth</span> Damage: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Shadebound",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Perfect Dodge",
+      ""
+    ],
+    "statsPerPiece": [
+      "Flee: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "statsPerRefine": [
+      "Flee: <span style=\"font-weight: bold; color: green\">+1 per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "swamp",
+        "name": "Swamp",
+        "minLevel": 36,
+        "maxLevel": 40,
+        "min_level": 36,
+        "max_level": 40
+      }
+    ],
+    "drops": [],
+    "id": "shadebound",
+    "slug": "shadebound",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Flee: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Perfect Dodge",
+      ""
+    ],
+    "stats_per_refine": [
+      "Flee: <span style=\"font-weight: bold; color: green\">+1 per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Spellweaver",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Cast Spd: "
+    ],
+    "statsPerPiece": [
+      "Cast Spd: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "statsPerRefine": [
+      "Cast Spd: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "fairy-glen",
+        "name": "Fairy Glen",
+        "minLevel": 31,
+        "maxLevel": 35,
+        "min_level": 31,
+        "max_level": 35
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      }
+    ],
+    "drops": [],
+    "id": "spellweaver",
+    "slug": "spellweaver",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Cast Spd: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Cast Spd: "
+    ],
+    "stats_per_refine": [
+      "Cast Spd: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Starfire",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Matk: <span style=\"font-weight: bold; color: green\">+10</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Hp: <span style=\"font-weight: bold; color: red\">-10%</span>",
+      "Energy Shield Level: <span style=\"font-weight: bold; color: green\">+2</span>"
+    ],
+    "statsPerPiece": [
+      "Matk: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Hp: <span style=\"font-weight: bold; color: red\">-10%</span>"
+    ],
+    "statsPerRefine": [
+      "Matk: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "abyss-castle-library",
+        "name": "Abyss Castle Library",
+        "minLevel": 121,
+        "maxLevel": 125,
+        "min_level": 121,
+        "max_level": 125
+      },
+      {
+        "slug": "abyss-castle-keep",
+        "name": "Abyss Castle Keep",
+        "minLevel": 111,
+        "maxLevel": 115,
+        "min_level": 111,
+        "max_level": 115
+      },
+      {
+        "slug": "abyss-castle-crypt",
+        "name": "Abyss Castle Crypt",
+        "minLevel": 116,
+        "maxLevel": 120,
+        "min_level": 116,
+        "max_level": 120
+      },
+      {
+        "slug": "abyss-castle-dungeon",
+        "name": "Abyss Castle Dungeon",
+        "minLevel": 106,
+        "maxLevel": 110,
+        "min_level": 106,
+        "max_level": 110
+      }
+    ],
+    "drops": [],
+    "id": "starfire",
+    "slug": "starfire",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Matk: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Hp: <span style=\"font-weight: bold; color: red\">-10%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Matk: <span style=\"font-weight: bold; color: green\">+10</span>",
+      "Mp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Hp: <span style=\"font-weight: bold; color: red\">-10%</span>",
+      "Energy Shield Level: <span style=\"font-weight: bold; color: green\">+2</span>"
+    ],
+    "stats_per_refine": [
+      "Matk: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Steelheart",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Damage Melee: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerPiece": [
+      "Damage Melee: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerRefine": [
+      "Damage Melee: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "treant-trail",
+        "name": "Treant Trail",
+        "minLevel": 16,
+        "maxLevel": 20,
+        "min_level": 16,
+        "max_level": 20
+      },
+      {
+        "slug": "nevaris-sewers",
+        "name": "Nevaris Sewers",
+        "minLevel": 16,
+        "maxLevel": 20,
+        "min_level": 16,
+        "max_level": 20
+      }
+    ],
+    "drops": [],
+    "id": "steelheart",
+    "slug": "steelheart",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Damage Melee: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Damage Melee: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_per_refine": [
+      "Damage Melee: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Stormquiver",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Damage Ranged: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerPiece": [
+      "Damage Ranged: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "statsPerRefine": [
+      "Damage Ranged: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "windy-desert",
+        "name": "Windy Desert",
+        "minLevel": 26,
+        "maxLevel": 30,
+        "min_level": 26,
+        "max_level": 30
+      },
+      {
+        "slug": "windy-desert-north",
+        "name": "Windy Desert North",
+        "minLevel": 31,
+        "maxLevel": 35,
+        "min_level": 31,
+        "max_level": 35
+      }
+    ],
+    "drops": [],
+    "id": "stormquiver",
+    "slug": "stormquiver",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Damage Ranged: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Damage Ranged: <span style=\"font-weight: bold; color: green\">+3%</span>"
+    ],
+    "stats_per_refine": [
+      "Damage Ranged: <span style=\"font-weight: bold; color: green\">+0.125% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Titanplate",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Def: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "",
+      "Reflect Damage: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "statsPerPiece": [
+      "Def: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "statsPerRefine": [
+      "Def: <span style=\"font-weight: bold; color: green\">+1 per refine</span>",
+      "Reflect Damage: <span style=\"font-weight: bold; color: green\">+1% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "windy-desert-south",
+        "name": "Windy Desert South",
+        "minLevel": 31,
+        "maxLevel": 35,
+        "min_level": 31,
+        "max_level": 35
+      }
+    ],
+    "drops": [],
+    "id": "titanplate",
+    "slug": "titanplate",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Def: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Def: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "",
+      "Reflect Damage: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "stats_per_refine": [
+      "Def: <span style=\"font-weight: bold; color: green\">+1 per refine</span>",
+      "Reflect Damage: <span style=\"font-weight: bold; color: green\">+1% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Vampiric",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Health on hit: <span style=\"font-weight: bold; color: green\">+3</span>"
+    ],
+    "statsPerPiece": [
+      "Health on hit: <span style=\"font-weight: bold; color: green\">+3</span>"
+    ],
+    "statsPerRefine": [
+      "Health on hit: <span style=\"font-weight: bold; color: green\">+0.125 per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "goblin-cave-2",
+        "name": "Goblin Cave 2",
+        "minLevel": 56,
+        "maxLevel": 60,
+        "min_level": 56,
+        "max_level": 60
+      },
+      {
+        "slug": "goblin-cave-1",
+        "name": "Goblin Cave 1",
+        "minLevel": 51,
+        "maxLevel": 55,
+        "min_level": 51,
+        "max_level": 55
+      }
+    ],
+    "drops": [],
+    "id": "vampiric",
+    "slug": "vampiric",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Health on hit: <span style=\"font-weight: bold; color: green\">+3</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Health on hit: <span style=\"font-weight: bold; color: green\">+3</span>"
+    ],
+    "stats_per_refine": [
+      "Health on hit: <span style=\"font-weight: bold; color: green\">+0.125 per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Veilward",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Mdef: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "",
+      "Chance to reflect single target magic: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "statsPerPiece": [
+      "Mdef: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "statsPerRefine": [
+      "Mdef: <span style=\"font-weight: bold; color: green\">+1 per refine</span>",
+      "Chance to reflect single target magic: <span style=\"font-weight: bold; color: green\">+0.5% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "crystal-cave",
+        "name": "Crystal Cave",
+        "minLevel": 71,
+        "maxLevel": 75,
+        "min_level": 71,
+        "max_level": 75
+      }
+    ],
+    "drops": [],
+    "id": "veilward",
+    "slug": "veilward",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Mdef: <span style=\"font-weight: bold; color: green\">+15</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Mdef: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "",
+      "Chance to reflect single target magic: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "stats_per_refine": [
+      "Mdef: <span style=\"font-weight: bold; color: green\">+1 per refine</span>",
+      "Chance to reflect single target magic: <span style=\"font-weight: bold; color: green\">+0.5% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Vitalis",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Hp: "
+    ],
+    "statsPerPiece": [
+      "Hp: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "statsPerRefine": [
+      "Hp: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "goblin-village",
+        "name": "Goblin Village",
+        "minLevel": 46,
+        "maxLevel": 50,
+        "min_level": 46,
+        "max_level": 50
+      },
+      {
+        "slug": "goblin-field",
+        "name": "Goblin Field",
+        "minLevel": 41,
+        "maxLevel": 45,
+        "min_level": 41,
+        "max_level": 45
+      }
+    ],
+    "drops": [],
+    "id": "vitalis",
+    "slug": "vitalis",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Hp: <span style=\"font-weight: bold; color: green\">+10%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Hp: "
+    ],
+    "stats_per_refine": [
+      "Hp: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Warglyph",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Atk: <span style=\"font-weight: bold; color: green\">+10</span>",
+      "Hp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Mp: <span style=\"font-weight: bold; color: red\">-15%</span>"
+    ],
+    "statsPerPiece": [
+      "Atk: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Hp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Mp: <span style=\"font-weight: bold; color: red\">-15%</span>"
+    ],
+    "statsPerRefine": [
+      "Atk: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "goblin-warcamp",
+        "name": "Goblin Warcamp",
+        "minLevel": 121,
+        "maxLevel": 125,
+        "min_level": 121,
+        "max_level": 125
+      }
+    ],
+    "drops": [],
+    "id": "warglyph",
+    "slug": "warglyph",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Atk: <span style=\"font-weight: bold; color: green\">+5</span>",
+      "Hp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Mp: <span style=\"font-weight: bold; color: red\">-15%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Atk: <span style=\"font-weight: bold; color: green\">+10</span>",
+      "Hp: <span style=\"font-weight: bold; color: green\">+5%</span>",
+      "Mp: <span style=\"font-weight: bold; color: red\">-15%</span>"
+    ],
+    "stats_per_refine": [
+      "Atk: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  },
+  {
+    "name": "Windborne",
+    "statsFullSet": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Move Spd: "
+    ],
+    "statsPerPiece": [
+      "Move Spd: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "statsPerRefine": [
+      "Move Spd: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "maps": [
+      {
+        "slug": "bunny-woods",
+        "name": "Bunny Woods",
+        "minLevel": 21,
+        "maxLevel": 25,
+        "min_level": 21,
+        "max_level": 25
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      },
+      {
+        "slug": "forest-labyrinth",
+        "name": "Forest Labyrinth",
+        "minLevel": 0,
+        "maxLevel": 0,
+        "min_level": 0,
+        "max_level": 0
+      }
+    ],
+    "drops": [],
+    "id": "windborne",
+    "slug": "windborne",
+    "description": "",
+    "type": "artifact",
+    "icon": null,
+    "image": null,
+    "artifactType": null,
+    "gemSlots": 0,
+    "isBossDrop": false,
+    "stats_per_piece": [
+      "Move Spd: <span style=\"font-weight: bold; color: green\">+5%</span>"
+    ],
+    "stats_full_set": [
+      "All Stats: <span style=\"font-weight: bold; color: green\">+1</span>",
+      "Move Spd: "
+    ],
+    "stats_per_refine": [
+      "Move Spd: <span style=\"font-weight: bold; color: green\">+0.25% per refine</span>"
+    ],
+    "full_set_bonus": null,
+    "url": null
+  }
+]

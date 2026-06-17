@@ -1,0 +1,173 @@
+{
+  "Mage": {
+    "id": "Mage",
+    "name": "Mage",
+    "type": "base",
+    "description": "Mages channel elemental forces, specializing in destructive spells cast from a distance. Ideal for players who prefer ranged combat, the Mage excels at overwhelming enemies with powerful area-of-effect attacks and precise elemental strikes.\n\nThe class emphasizes timing and positioning, as spellcasting requires careful management of cast times and mana. Though physically fragile, Mages make up for it with high burst damage and battlefield control, shaping the flow of combat with fire, ice, lightning, and earth magic.\n\nAs a Base Class, the Mage offers players a foundation in ranged magical combat, rewarding those who value strategic play and the thrill of unleashing devastating spells.",
+    "role": [
+      "Ranged",
+      "DPS",
+      "Magic"
+    ],
+    "mainStat": "INT",
+    "weapon": [
+      "Staff"
+    ],
+    "bannerImage": "",
+    "modalImage": "https://base44.app/api/apps/6956d0e7cbb3450ac799247a/files/public/6956d0e7cbb3450ac799247a/510943aa0_Mage.jpg",
+    "skillsPreview": [
+      "Fireball",
+      "Ice Shard",
+      "Thunder Storm",
+      "Earth Spikes"
+    ],
+    "stats": {
+      "STR": 1,
+      "AGI": 9,
+      "VIT": 1,
+      "INT": 12,
+      "DEX": 9,
+      "LUK": 1
+    },
+    "order": 0,
+    "visible": true
+  },
+  "Summoner": {
+    "id": "Summoner",
+    "name": "Summoner",
+    "type": "base",
+    "description": "Summoners call forth mystical companions, blending offensive magic with supportive utility. For players who enjoy flexible, strategic gameplay, the Summoner provides a unique experience by balancing personal power with the strength of their summons.\n\nTheir ability to bond with magical creatures makes them adaptable, able to empower allies, weaken enemies, or control the battlefield indirectly. While not as offensively overwhelming as a Mage, their versatility ensures they remain impactful in a wide range of encounters.\n\nAs a Base Class, the Summoner introduces players to a hybrid style of combat where success depends on careful positioning, timing, and managing both their own skills and those of their companions.",
+    "role": [],
+    "mainStat": "STR",
+    "weapon": [],
+    "bannerImage": "",
+    "modalImage": "",
+    "skillsPreview": [],
+    "stats": {
+      "STR": 1,
+      "AGI": 1,
+      "VIT": 1,
+      "INT": 1,
+      "DEX": 1,
+      "LUK": 1
+    },
+    "order": 1,
+    "visible": true
+  },
+  "Acolyte": {
+    "id": "Acolyte",
+    "name": "Acolyte",
+    "type": "base",
+    "description": "Acolytes embody faith and support, channeling holy power to heal and protect allies. Perfect for players who enjoy supportive roles, Acolytes excel at keeping parties alive through healing magic while also banishing  Undead foes with  Holy attacks.\n\nTheir spellbook grants them access to both defensive and offensive light-based abilities, allowing them to adapt to many situations. Though not as durable as a Knight or as damaging as a Mage, their value lies in enabling their team to survive even the harshest encounters.\n\nAs a Base Class, the Acolyte is the cornerstone of supportive play, offering stability, healing, and guidance to groups venturing into dangerous battles.",
+    "role": [],
+    "mainStat": "STR",
+    "weapon": [],
+    "bannerImage": "",
+    "modalImage": "",
+    "skillsPreview": [],
+    "stats": {
+      "STR": 1,
+      "AGI": 1,
+      "VIT": 1,
+      "INT": 1,
+      "DEX": 1,
+      "LUK": 1
+    },
+    "order": 2,
+    "visible": true
+  },
+  "Knight": {
+    "id": "Knight",
+    "name": "Knight",
+    "type": "base",
+    "description": "Knights represent discipline and resilience, trained to wield spears and shields in balance. Their role as durable frontline fighters makes them well-suited for players who enjoy leading battles, defending allies, and absorbing damage.\n\nThe Knight’s use of shield techniques and spear mastery allows for both offense and defense, making them versatile in prolonged encounters. While not as offensively explosive as Warriors, their ability to withstand punishment ensures consistency and survivability.\n\nAs a Base Class, the Knight establishes a sturdy foundation for tanking roles and defensive playstyles. Their steady presence in combat makes them indispensable for groups seeking a reliable protector.",
+    "role": [],
+    "mainStat": "STR",
+    "weapon": [],
+    "bannerImage": "",
+    "modalImage": "",
+    "skillsPreview": [],
+    "stats": {
+      "STR": 1,
+      "AGI": 1,
+      "VIT": 1,
+      "INT": 1,
+      "DEX": 1,
+      "LUK": 1
+    },
+    "order": 3,
+    "visible": true
+  },
+  "Warrior": {
+    "name": "Warrior",
+    "icon": "https://spiritvale.info/skill-axe-mastery",
+    "type": "base",
+    "skillTree": "Warrior",
+    "id": "Warrior",
+    "order": 4
+  },
+  "Scout": {
+    "name": "Scout",
+    "icon": "https://spiritvale.info/skill-force-shot",
+    "type": "base",
+    "skillTree": "Scout",
+    "id": "Scout",
+    "order": 5
+  },
+  "Rogue": {
+    "name": "Rogue",
+    "icon": "https://spiritvale.info/skill-dagger-mastery",
+    "type": "base",
+    "skillTree": "Rogue",
+    "id": "Rogue",
+    "order": 6
+  },
+  "Wizard": {
+    "name": "Wizard",
+    "icon": null,
+    "type": "advanced",
+    "skillTree": "Wizard",
+    "id": "Wizard",
+    "order": 7
+  },
+  "Priest": {
+    "name": "Priest",
+    "icon": null,
+    "type": "advanced",
+    "skillTree": "Priest",
+    "id": "Priest",
+    "order": 8
+  },
+  "Paladin": {
+    "name": "Paladin",
+    "icon": null,
+    "type": "advanced",
+    "skillTree": "Paladin",
+    "id": "Paladin",
+    "order": 9
+  },
+  "Gunslinger": {
+    "name": "Gunslinger",
+    "icon": null,
+    "type": "advanced",
+    "skillTree": "Gunslinger",
+    "id": "Gunslinger",
+    "order": 10
+  },
+  "Shinobi": {
+    "name": "Shinobi",
+    "icon": null,
+    "type": "advanced",
+    "skillTree": "Shinobi",
+    "id": "Shinobi",
+    "order": 11
+  },
+  "Weaver": {
+    "name": "Weaver",
+    "icon": null,
+    "type": "advanced",
+    "skillTree": "Weaver",
+    "id": "Weaver",
+    "order": 12
+  }
+}

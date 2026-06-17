@@ -1,0 +1,83 @@
+{
+  "source": "https://spirit-vale-builder.base44.app/api/apps/6956d0e7cbb3450ac799247a/entities/GameData",
+  "fetched": "see git",
+  "appId": "6956d0e7cbb3450ac799247a",
+  "types": {
+    "app_config": {
+      "version": "2026-06-14T03:16:53.453Z",
+      "updated": "2026-06-14T03:16:53.632000"
+    },
+    "gems": {
+      "version": "2026-06-06T01:02:09.428Z",
+      "updated": "2026-06-06T01:02:09.740000"
+    },
+    "gem_drops": {
+      "version": "2026-04-18T14:09:23.464Z",
+      "updated": "2026-04-18T14:09:25.747000"
+    },
+    "cards": {
+      "version": "2026-06-16T22:32:13.282Z",
+      "updated": "2026-06-16T22:32:13.512000"
+    },
+    "equipment": {
+      "version": "2026-06-14T02:40:56.928Z",
+      "updated": "2026-06-14T02:40:57.319000"
+    },
+    "item_index": {
+      "version": "2026-01-27T20:37:18.169Z",
+      "updated": "2026-01-27T20:37:20.405000"
+    },
+    "material": {
+      "version": "2026-01-27T15:38:16.444Z",
+      "updated": "2026-01-27T15:38:16.586000"
+    },
+    "consumable": {
+      "version": "2026-01-27T15:38:40.818Z",
+      "updated": "2026-01-27T15:38:40.920000"
+    },
+    "card": {
+      "version": "2026-01-19T04:44:45.366Z",
+      "updated": "2026-01-19T04:44:45.665000"
+    },
+    "card_drops": {
+      "version": "2026-04-18T14:09:23.815Z",
+      "updated": "2026-04-18T14:09:26.176000"
+    },
+    "equipment_drops": {
+      "version": "2026-01-28T02:49:33.096Z",
+      "updated": "2026-01-28T02:49:34.230000"
+    },
+    "class_progression": {
+      "version": "2026-01-01T20:14:27.504Z",
+      "updated": "2026-01-01T20:14:29.499000"
+    },
+    "skill_tree_layout": {
+      "version": "2026-06-04T14:40:14.095Z",
+      "updated": "2026-06-04T14:40:14.193000"
+    },
+    "monsters": {
+      "version": "2026-06-16T22:32:32.301Z",
+      "updated": "2026-06-16T22:32:32.786000"
+    },
+    "artifacts": {
+      "version": "2026-06-14T02:41:19.551Z",
+      "updated": "2026-06-14T02:41:19.679000"
+    },
+    "skills": {
+      "version": "2026-06-04T14:40:13.687Z",
+      "updated": "2026-06-04T14:40:14.036000"
+    },
+    "specializations": {
+      "version": "1.0.0",
+      "updated": "2026-01-01T20:05:09.354000"
+    },
+    "build_rules": {
+      "version": "1.1.0",
+      "updated": "2026-02-21T04:34:59.266000"
+    },
+    "classes": {
+      "version": "2026-01-03T18:55:54.556Z",
+      "updated": "2026-01-03T18:55:55.861000"
+    }
+  }
+}

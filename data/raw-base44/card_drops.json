@@ -1,0 +1,2045 @@
+[
+  {
+    "monster_id": "cosmic-entity",
+    "monster_name": "Cosmic Entity",
+    "monster_level": 135,
+    "isBoss": true,
+    "item_name": "Cosmic Entity Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "fangroot",
+    "monster_name": "Fangroot",
+    "monster_level": 94,
+    "isBoss": false,
+    "item_name": "Fangroot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "voidspawn",
+    "monster_name": "Voidspawn",
+    "monster_level": 93,
+    "isBoss": false,
+    "item_name": "Voidspawn Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "voidgazer",
+    "monster_name": "Voidgazer",
+    "monster_level": 126,
+    "isBoss": false,
+    "item_name": "Voidgazer Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bogbloom",
+    "monster_name": "Bogbloom",
+    "monster_level": 129,
+    "isBoss": false,
+    "item_name": "Bogbloom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cinderspike",
+    "monster_name": "Cinderspike",
+    "monster_level": 92,
+    "isBoss": false,
+    "item_name": "Cinderspike Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "sporeling",
+    "monster_name": "Sporeling",
+    "monster_level": 92,
+    "isBoss": false,
+    "item_name": "Sporeling Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "little-star",
+    "monster_name": "Little Star",
+    "monster_level": 131,
+    "isBoss": false,
+    "item_name": "Little Star Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "twinkle",
+    "monster_name": "Twinkle",
+    "monster_level": 135,
+    "isBoss": false,
+    "item_name": "Twinkle Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "blazewheel",
+    "monster_name": "Blazewheel",
+    "monster_level": 95,
+    "isBoss": false,
+    "item_name": "Blazewheel Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "ashrend",
+    "monster_name": "Ashrend",
+    "monster_level": 130,
+    "isBoss": false,
+    "item_name": "Ashrend Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "angel-mage",
+    "monster_name": "Angel Mage",
+    "monster_level": 90,
+    "isBoss": true,
+    "item_name": "Angel Mage Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "angel",
+    "monster_name": "Angel",
+    "monster_level": 76,
+    "isBoss": false,
+    "item_name": "Angel Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "archangel",
+    "monster_name": "Archangel",
+    "monster_level": 79,
+    "isBoss": false,
+    "item_name": "Archangel Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bat-lord",
+    "monster_name": "Bat Lord",
+    "monster_level": 55,
+    "isBoss": true,
+    "item_name": "Bat Lord Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "bat",
+    "monster_name": "Bat",
+    "monster_level": 41,
+    "isBoss": false,
+    "item_name": "Bat Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bee",
+    "monster_name": "Bee",
+    "monster_level": 6,
+    "isBoss": false,
+    "item_name": "Bee Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bird",
+    "monster_name": "Bird",
+    "monster_level": 15,
+    "isBoss": false,
+    "item_name": "Bird Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bloom",
+    "monster_name": "Bloom",
+    "monster_level": 89,
+    "isBoss": false,
+    "item_name": "Bloom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "blossom",
+    "monster_name": "Blossom",
+    "monster_level": 90,
+    "isBoss": false,
+    "item_name": "Blossom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bomb",
+    "monster_name": "Bomb",
+    "monster_level": 81,
+    "isBoss": false,
+    "item_name": "Bomb Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "boxy-robot",
+    "monster_name": "Boxy Robot",
+    "monster_level": 130,
+    "isBoss": false,
+    "item_name": "Boxy Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bud",
+    "monster_name": "Bud",
+    "monster_level": 86,
+    "isBoss": false,
+    "item_name": "Bud Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bumble",
+    "monster_name": "Bumble",
+    "monster_level": 17,
+    "isBoss": false,
+    "item_name": "Bumble Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "bunny",
+    "monster_name": "Bunny",
+    "monster_level": 3,
+    "isBoss": false,
+    "item_name": "Bunny Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "burrow",
+    "monster_name": "Burrow",
+    "monster_level": 16,
+    "isBoss": false,
+    "item_name": "Burrow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "butterfly-fairy",
+    "monster_name": "Butterfly Fairy",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Butterfly Fairy Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "butterfly-hue",
+    "monster_name": "Butterfly Hue",
+    "monster_level": 21,
+    "isBoss": false,
+    "item_name": "Butterfly Hue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "butterfly-pixie",
+    "monster_name": "Butterfly Pixie",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Butterfly Pixie Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cacti",
+    "monster_name": "Cacti",
+    "monster_level": 26,
+    "isBoss": false,
+    "item_name": "Cacti Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cactus-king",
+    "monster_name": "Cactus King",
+    "monster_level": 35,
+    "isBoss": true,
+    "item_name": "Cactus King Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "cactus",
+    "monster_name": "Cactus",
+    "monster_level": 28,
+    "isBoss": false,
+    "item_name": "Cactus Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cat-bolt",
+    "monster_name": "Cat Bolt",
+    "monster_level": 30,
+    "isBoss": true,
+    "item_name": "Cat Bolt Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "cat-lightning",
+    "monster_name": "Cat Lightning",
+    "monster_level": 24,
+    "isBoss": false,
+    "item_name": "Cat Lightning Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cat-meow",
+    "monster_name": "Cat Meow",
+    "monster_level": 7,
+    "isBoss": false,
+    "item_name": "Cat Meow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "chick",
+    "monster_name": "Chick",
+    "monster_level": 4,
+    "isBoss": false,
+    "item_name": "Chick Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "creeper",
+    "monster_name": "Creeper",
+    "monster_level": 45,
+    "isBoss": false,
+    "item_name": "Creeper Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cyclops-bat-mage",
+    "monster_name": "Cyclops Bat Mage",
+    "monster_level": 112,
+    "isBoss": false,
+    "item_name": "Cyclops Bat Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cyclops-bat-wizard",
+    "monster_name": "Cyclops Bat Wizard",
+    "monster_level": 103,
+    "isBoss": false,
+    "item_name": "Cyclops Bat Wizard Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cyclops-bat",
+    "monster_name": "Cyclops Bat",
+    "monster_level": 101,
+    "isBoss": false,
+    "item_name": "Cyclops Bat Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cyclops-giant",
+    "monster_name": "Cyclops Giant",
+    "monster_level": 70,
+    "isBoss": false,
+    "item_name": "Cyclops Giant Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cyclops-minion",
+    "monster_name": "Cyclops Minion",
+    "monster_level": 67,
+    "isBoss": false,
+    "item_name": "Cyclops Minion Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "cyclops",
+    "monster_name": "Cyclops",
+    "monster_level": 68,
+    "isBoss": false,
+    "item_name": "Cyclops Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "death-mage",
+    "monster_name": "Death Mage",
+    "monster_level": 120,
+    "isBoss": true,
+    "item_name": "Death Mage Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "death",
+    "monster_name": "Death",
+    "monster_level": 102,
+    "isBoss": false,
+    "item_name": "Death Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "delivery-robot",
+    "monster_name": "Delivery Robot",
+    "monster_level": 129,
+    "isBoss": false,
+    "item_name": "Delivery Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "direwolf",
+    "monster_name": "Direwolf",
+    "monster_level": 110,
+    "isBoss": false,
+    "item_name": "Direwolf Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dog-bark",
+    "monster_name": "Dog Bark",
+    "monster_level": 14,
+    "isBoss": false,
+    "item_name": "Dog Bark Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dog-bowwow",
+    "monster_name": "Dog Bowwow",
+    "monster_level": 29,
+    "isBoss": false,
+    "item_name": "Dog Bowwow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dog-pup",
+    "monster_name": "Dog Pup",
+    "monster_level": 9,
+    "isBoss": false,
+    "item_name": "Dog Pup Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-blizzard",
+    "monster_name": "Dragon Blizzard",
+    "monster_level": 70,
+    "isBoss": false,
+    "item_name": "Dragon Blizzard Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-darkness",
+    "monster_name": "Dragon Darkness",
+    "monster_level": 84,
+    "isBoss": false,
+    "item_name": "Dragon Darkness Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-dusk",
+    "monster_name": "Dragon Dusk",
+    "monster_level": 77,
+    "isBoss": false,
+    "item_name": "Dragon Dusk Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-fire",
+    "monster_name": "Dragon Fire",
+    "monster_level": 98,
+    "isBoss": false,
+    "item_name": "Dragon Fire Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-ice",
+    "monster_name": "Dragon Ice",
+    "monster_level": 68,
+    "isBoss": false,
+    "item_name": "Dragon Ice Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-inferno",
+    "monster_name": "Dragon Inferno",
+    "monster_level": 100,
+    "isBoss": false,
+    "item_name": "Dragon Inferno Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-nightfall",
+    "monster_name": "Dragon Nightfall",
+    "monster_level": 79,
+    "isBoss": false,
+    "item_name": "Dragon Nightfall Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-spark",
+    "monster_name": "Dragon Spark",
+    "monster_level": 97,
+    "isBoss": false,
+    "item_name": "Dragon Spark Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragon-water",
+    "monster_name": "Dragon Water",
+    "monster_level": 67,
+    "isBoss": false,
+    "item_name": "Dragon Water Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragonfly-arrow",
+    "monster_name": "Dragonfly Arrow",
+    "monster_level": 36,
+    "isBoss": false,
+    "item_name": "Dragonfly Arrow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragonfly-darner",
+    "monster_name": "Dragonfly Darner",
+    "monster_level": 38,
+    "isBoss": false,
+    "item_name": "Dragonfly Darner Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "dragonfly-swift",
+    "monster_name": "Dragonfly Swift",
+    "monster_level": 73,
+    "isBoss": false,
+    "item_name": "Dragonfly Swift Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "earthworm",
+    "monster_name": "Earthworm",
+    "monster_level": 71,
+    "isBoss": false,
+    "item_name": "Earthworm Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "egg",
+    "monster_name": "Egg",
+    "monster_level": 5,
+    "isBoss": false,
+    "item_name": "Egg Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "egglet",
+    "monster_name": "Egglet",
+    "monster_level": 24,
+    "isBoss": false,
+    "item_name": "Egglet Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "elder-wisp-blue",
+    "monster_name": "Elder Wisp Blue",
+    "monster_level": 69,
+    "isBoss": false,
+    "item_name": "Elder Wisp Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "elder-wisp-purple",
+    "monster_name": "Elder Wisp Purple",
+    "monster_level": 89,
+    "isBoss": false,
+    "item_name": "Elder Wisp Purple Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "elder-wisp-yellow",
+    "monster_name": "Elder Wisp Yellow",
+    "monster_level": 99,
+    "isBoss": false,
+    "item_name": "Elder Wisp Yellow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-bat-blue",
+    "monster_name": "Eyeball Bat Blue",
+    "monster_level": 21,
+    "isBoss": false,
+    "item_name": "Eyeball Bat Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-bat-green",
+    "monster_name": "Eyeball Bat Green",
+    "monster_level": 22,
+    "isBoss": false,
+    "item_name": "Eyeball Bat Green Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-bat-red",
+    "monster_name": "Eyeball Bat Red",
+    "monster_level": 23,
+    "isBoss": false,
+    "item_name": "Eyeball Bat Red Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-creep-blue",
+    "monster_name": "Eyeball Creep Blue",
+    "monster_level": 106,
+    "isBoss": false,
+    "item_name": "Eyeball Creep Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-creep-green",
+    "monster_name": "Eyeball Creep Green",
+    "monster_level": 107,
+    "isBoss": false,
+    "item_name": "Eyeball Creep Green Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-creep-red",
+    "monster_name": "Eyeball Creep Red",
+    "monster_level": 109,
+    "isBoss": false,
+    "item_name": "Eyeball Creep Red Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-mage-blue",
+    "monster_name": "Eyeball Mage Blue",
+    "monster_level": 113,
+    "isBoss": false,
+    "item_name": "Eyeball Mage Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-mage-green",
+    "monster_name": "Eyeball Mage Green",
+    "monster_level": 114,
+    "isBoss": false,
+    "item_name": "Eyeball Mage Green Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "eyeball-mage-red",
+    "monster_name": "Eyeball Mage Red",
+    "monster_level": 115,
+    "isBoss": false,
+    "item_name": "Eyeball Mage Red Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fire-mage",
+    "monster_name": "Fire Mage",
+    "monster_level": 99,
+    "isBoss": false,
+    "item_name": "Fire Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fire",
+    "monster_name": "Fire",
+    "monster_level": 96,
+    "isBoss": false,
+    "item_name": "Fire Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fish-man-blue",
+    "monster_name": "Fish Man Blue",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Fish Man Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fish-man-pink",
+    "monster_name": "Fish Man Pink",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Fish Man Pink Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fish-man-yellow",
+    "monster_name": "Fish Man Yellow",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Fish Man Yellow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "merman-blue",
+    "monster_name": "Merman Blue",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Merman Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "merman-pink",
+    "monster_name": "Merman Pink",
+    "monster_level": 125,
+    "isBoss": false,
+    "item_name": "Merman Pink Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "merman-yellow",
+    "monster_name": "Merman Yellow",
+    "monster_level": 125,
+    "isBoss": false,
+    "item_name": "Merman Yellow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fish-pink",
+    "monster_name": "Fish Pink",
+    "monster_level": 121,
+    "isBoss": false,
+    "item_name": "Fish Pink Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fish-yellow",
+    "monster_name": "Fish Yellow",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Fish Yellow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "flame",
+    "monster_name": "Flame",
+    "monster_level": 97,
+    "isBoss": false,
+    "item_name": "Flame Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fledgling",
+    "monster_name": "Fledgling",
+    "monster_level": 12,
+    "isBoss": false,
+    "item_name": "Fledgling Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "flora",
+    "monster_name": "Flora",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Flora Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "flower-pot-monster",
+    "monster_name": "Flower Pot Monster",
+    "monster_level": 25,
+    "isBoss": false,
+    "item_name": "Flower Pot Monster Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "fungi",
+    "monster_name": "Fungi",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Fungi Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "ghost",
+    "monster_name": "Ghost",
+    "monster_level": 77,
+    "isBoss": false,
+    "item_name": "Ghost Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "glow-wisp-blue",
+    "monster_name": "Glow Wisp Blue",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Glow Wisp Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "glow-wisp-purple",
+    "monster_name": "Glow Wisp Purple",
+    "monster_level": 22,
+    "isBoss": false,
+    "item_name": "Glow Wisp Purple Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "glow-wisp-yellow",
+    "monster_name": "Glow Wisp Yellow",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Glow Wisp Yellow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-giant-devil",
+    "monster_name": "Goblin Giant Devil",
+    "monster_level": 60,
+    "isBoss": false,
+    "item_name": "Goblin Giant Devil Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-king",
+    "monster_name": "Goblin King",
+    "monster_level": 65,
+    "isBoss": true,
+    "item_name": "Goblin King Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "goblin-giant-mage",
+    "monster_name": "Goblin Giant Mage",
+    "monster_level": 59,
+    "isBoss": false,
+    "item_name": "Goblin Giant Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-minion",
+    "monster_name": "Goblin Minion",
+    "monster_level": 56,
+    "isBoss": false,
+    "item_name": "Goblin Minion Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-trooper-assassin",
+    "monster_name": "Goblin Trooper Assassin",
+    "monster_level": 57,
+    "isBoss": false,
+    "item_name": "Goblin Trooper Assassin Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-trooper-mage",
+    "monster_name": "Goblin Trooper Mage",
+    "monster_level": 57,
+    "isBoss": false,
+    "item_name": "Goblin Trooper Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-trooper-soldier",
+    "monster_name": "Goblin Trooper Soldier",
+    "monster_level": 58,
+    "isBoss": false,
+    "item_name": "Goblin Trooper Soldier Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-trooper",
+    "monster_name": "Goblin Trooper",
+    "monster_level": 58,
+    "isBoss": false,
+    "item_name": "Goblin Trooper Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-warblade",
+    "monster_name": "Goblin Warblade",
+    "monster_level": 118,
+    "isBoss": false,
+    "item_name": "Goblin Warblade Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-warchief",
+    "monster_name": "Goblin Warchief",
+    "monster_level": 125,
+    "isBoss": true,
+    "item_name": "Goblin Warchief Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "goblin-warcrusher",
+    "monster_name": "Goblin Warcrusher",
+    "monster_level": 120,
+    "isBoss": false,
+    "item_name": "Goblin Warcrusher Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "goblin-warlock",
+    "monster_name": "Goblin Warlock",
+    "monster_level": 116,
+    "isBoss": false,
+    "item_name": "Goblin Warlock Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "golem-earth",
+    "monster_name": "Golem Earth",
+    "monster_level": 29,
+    "isBoss": false,
+    "item_name": "Golem Earth Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "golem-fire",
+    "monster_name": "Golem Fire",
+    "monster_level": 99,
+    "isBoss": false,
+    "item_name": "Golem Fire Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "golem-ice",
+    "monster_name": "Golem Ice",
+    "monster_level": 69,
+    "isBoss": false,
+    "item_name": "Golem Ice Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "gripper-robot",
+    "monster_name": "Gripper Robot",
+    "monster_level": 130,
+    "isBoss": false,
+    "item_name": "Gripper Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "hare",
+    "monster_name": "Hare",
+    "monster_level": 10,
+    "isBoss": true,
+    "item_name": "Hare Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "haunt",
+    "monster_name": "Haunt",
+    "monster_level": 80,
+    "isBoss": false,
+    "item_name": "Haunt Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "hermit-king",
+    "monster_name": "Hermit King",
+    "monster_level": 40,
+    "isBoss": true,
+    "item_name": "Hermit King Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "horror",
+    "monster_name": "Horror",
+    "monster_level": 50,
+    "isBoss": false,
+    "item_name": "Horror Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "housefly-icky",
+    "monster_name": "Housefly Icky",
+    "monster_level": 37,
+    "isBoss": false,
+    "item_name": "Housefly Icky Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "housefly-junk",
+    "monster_name": "Housefly Junk",
+    "monster_level": 74,
+    "isBoss": false,
+    "item_name": "Housefly Junk Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "housefly-nom",
+    "monster_name": "Housefly Nom",
+    "monster_level": 39,
+    "isBoss": false,
+    "item_name": "Housefly Nom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "festive-bear",
+    "monster_name": "Festive Bear",
+    "monster_level": 135,
+    "isBoss": false,
+    "item_name": "Festive Bear Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "ice-mage",
+    "monster_name": "Ice Mage",
+    "monster_level": 75,
+    "isBoss": true,
+    "item_name": "Ice Mage Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "starflake",
+    "monster_name": "Starflake",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Starflake Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "vanilla-ice",
+    "monster_name": "Vanilla Ice",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Vanilla Ice Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "shadow-ice",
+    "monster_name": "Shadow Ice",
+    "monster_level": 134,
+    "isBoss": false,
+    "item_name": "Shadow Ice Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "ice",
+    "monster_name": "Ice",
+    "monster_level": 66,
+    "isBoss": false,
+    "item_name": "Ice Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "icicle",
+    "monster_name": "Icicle",
+    "monster_level": 68,
+    "isBoss": false,
+    "item_name": "Icicle Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "imp-demon",
+    "monster_name": "Imp Demon",
+    "monster_level": 97,
+    "isBoss": false,
+    "item_name": "Imp Demon Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "imp-devil",
+    "monster_name": "Imp Devil",
+    "monster_level": 105,
+    "isBoss": true,
+    "item_name": "Imp Devil Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "imp-mischief",
+    "monster_name": "Imp Mischief",
+    "monster_level": 96,
+    "isBoss": false,
+    "item_name": "Imp Mischief Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "stormjelly",
+    "monster_name": "Stormjelly",
+    "monster_level": 91,
+    "isBoss": false,
+    "item_name": "Stormjelly Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "lurker",
+    "monster_name": "Lurker",
+    "monster_level": 43,
+    "isBoss": false,
+    "item_name": "Lurker Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mega-ice-golem",
+    "monster_name": "Mega Ice Golem",
+    "monster_level": 140,
+    "isBoss": true,
+    "item_name": "Mega Ice Golem Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "ice-baby",
+    "monster_name": "Ice Baby",
+    "monster_level": 132,
+    "isBoss": false,
+    "item_name": "Ice Baby Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "festive-baby",
+    "monster_name": "Festive Baby",
+    "monster_level": 132,
+    "isBoss": false,
+    "item_name": "Festive Baby Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mole-rat-king",
+    "monster_name": "Mole Rat King",
+    "monster_level": 30,
+    "isBoss": false,
+    "item_name": "Mole Rat King Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mole-rat",
+    "monster_name": "Mole Rat",
+    "monster_level": 27,
+    "isBoss": false,
+    "item_name": "Mole Rat Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mosquito-bug",
+    "monster_name": "Mosquito Bug",
+    "monster_level": 38,
+    "isBoss": false,
+    "item_name": "Mosquito Bug Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mosquito-pester",
+    "monster_name": "Mosquito Pester",
+    "monster_level": 40,
+    "isBoss": false,
+    "item_name": "Mosquito Pester Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mosquito-stinger",
+    "monster_name": "Mosquito Stinger",
+    "monster_level": 75,
+    "isBoss": false,
+    "item_name": "Mosquito Stinger Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "moth-celestial",
+    "monster_name": "Moth Celestial",
+    "monster_level": 35,
+    "isBoss": false,
+    "item_name": "Moth Celestial Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "moth-luna",
+    "monster_name": "Moth Luna",
+    "monster_level": 31,
+    "isBoss": false,
+    "item_name": "Moth Luna Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "moth-moon",
+    "monster_name": "Moth Moon",
+    "monster_level": 33,
+    "isBoss": false,
+    "item_name": "Moth Moon Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "mushroom",
+    "monster_name": "Mushroom",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Mushroom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "nightmare",
+    "monster_name": "Nightmare",
+    "monster_level": 111,
+    "isBoss": false,
+    "item_name": "Nightmare Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-baby-blue",
+    "monster_name": "Octopus Baby Blue",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Octopus Baby Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-baby-orange",
+    "monster_name": "Octopus Baby Orange",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Octopus Baby Orange Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-baby-purple",
+    "monster_name": "Octopus Baby Purple",
+    "monster_level": 122,
+    "isBoss": false,
+    "item_name": "Octopus Baby Purple Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-king-blue",
+    "monster_name": "Octopus King Blue",
+    "monster_level": 132,
+    "isBoss": false,
+    "item_name": "Octopus King Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-king-orange",
+    "monster_name": "Octopus King Orange",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Octopus King Orange Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-king-purple",
+    "monster_name": "Octopus King Purple",
+    "monster_level": 133,
+    "isBoss": false,
+    "item_name": "Octopus King Purple Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-orange",
+    "monster_name": "Octopus Orange",
+    "monster_level": 123,
+    "isBoss": false,
+    "item_name": "Octopus Orange Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-purple",
+    "monster_name": "Octopus Purple",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Octopus Purple Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "octopus-white",
+    "monster_name": "Octopus White",
+    "monster_level": 124,
+    "isBoss": false,
+    "item_name": "Octopus White Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "petal",
+    "monster_name": "Petal",
+    "monster_level": 35,
+    "isBoss": false,
+    "item_name": "Petal Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "phantom",
+    "monster_name": "Phantom",
+    "monster_level": 83,
+    "isBoss": false,
+    "item_name": "Phantom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "plant-chewer",
+    "monster_name": "Plant Chewer",
+    "monster_level": 30,
+    "isBoss": false,
+    "item_name": "Plant Chewer Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "poison-bomb",
+    "monster_name": "Poison Bomb",
+    "monster_level": 87,
+    "isBoss": false,
+    "item_name": "Poison Bomb Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "pollen",
+    "monster_name": "Pollen",
+    "monster_level": 1,
+    "isBoss": false,
+    "item_name": "Pollen Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "posy",
+    "monster_name": "Posy",
+    "monster_level": 31,
+    "isBoss": false,
+    "item_name": "Posy Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "queen-worm",
+    "monster_name": "Queen Worm",
+    "monster_level": 80,
+    "isBoss": true,
+    "item_name": "Queen Worm Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "rabbit",
+    "monster_name": "Rabbit",
+    "monster_level": 19,
+    "isBoss": false,
+    "item_name": "Rabbit Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "razor-robot",
+    "monster_name": "Razor Robot",
+    "monster_level": 126,
+    "isBoss": false,
+    "item_name": "Razor Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "scorpion-king",
+    "monster_name": "Scorpion King",
+    "monster_level": 35,
+    "isBoss": true,
+    "item_name": "Scorpion King Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "scorpion",
+    "monster_name": "Scorpion",
+    "monster_level": 28,
+    "isBoss": false,
+    "item_name": "Scorpion Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "scorpling",
+    "monster_name": "Scorpling",
+    "monster_level": 26,
+    "isBoss": false,
+    "item_name": "Scorpling Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "seed",
+    "monster_name": "Seed",
+    "monster_level": 10,
+    "isBoss": false,
+    "item_name": "Seed Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "shade",
+    "monster_name": "Shade",
+    "monster_level": 98,
+    "isBoss": false,
+    "item_name": "Shade Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "shadow",
+    "monster_name": "Shadow",
+    "monster_level": 100,
+    "isBoss": false,
+    "item_name": "Shadow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "shell-robot",
+    "monster_name": "Shell Robot",
+    "monster_level": 126,
+    "isBoss": false,
+    "item_name": "Shell Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "shell",
+    "monster_name": "Shell",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Shell Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "skeleton-giant",
+    "monster_name": "Skeleton Giant",
+    "monster_level": 105,
+    "isBoss": false,
+    "item_name": "Skeleton Giant Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "skeleton-mage",
+    "monster_name": "Skeleton Mage",
+    "monster_level": 104,
+    "isBoss": false,
+    "item_name": "Skeleton Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "skeleton",
+    "monster_name": "Skeleton",
+    "monster_level": 24,
+    "isBoss": false,
+    "item_name": "Skeleton Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "snake-naga",
+    "monster_name": "Snake Naga",
+    "monster_level": 50,
+    "isBoss": true,
+    "item_name": "Snake Naga Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "snake",
+    "monster_name": "Snake",
+    "monster_level": 47,
+    "isBoss": false,
+    "item_name": "Snake Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "snakelet",
+    "monster_name": "Snakelet",
+    "monster_level": 43,
+    "isBoss": false,
+    "item_name": "Snakelet Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "snout-robot",
+    "monster_name": "Snout Robot",
+    "monster_level": 129,
+    "isBoss": false,
+    "item_name": "Snout Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "snow-bomb",
+    "monster_name": "Snow Bomb",
+    "monster_level": 66,
+    "isBoss": false,
+    "item_name": "Snow Bomb Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "soul-mage",
+    "monster_name": "Soul Mage",
+    "monster_level": 85,
+    "isBoss": false,
+    "item_name": "Soul Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "soul",
+    "monster_name": "Soul",
+    "monster_level": 78,
+    "isBoss": false,
+    "item_name": "Soul Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spider-king",
+    "monster_name": "Spider King",
+    "monster_level": 49,
+    "isBoss": false,
+    "item_name": "Spider King Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spider-queen",
+    "monster_name": "Spider Queen",
+    "monster_level": 135,
+    "isBoss": true,
+    "item_name": "Spider Queen Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "spider-robot",
+    "monster_name": "Spider Robot",
+    "monster_level": 128,
+    "isBoss": false,
+    "item_name": "Spider Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spider-toxin",
+    "monster_name": "Spider Toxin",
+    "monster_level": 44,
+    "isBoss": false,
+    "item_name": "Spider Toxin Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spider",
+    "monster_name": "Spider",
+    "monster_level": 42,
+    "isBoss": false,
+    "item_name": "Spider Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spiderling-robot",
+    "monster_name": "Spiderling Robot",
+    "monster_level": 128,
+    "isBoss": false,
+    "item_name": "Spiderling Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spike-robot",
+    "monster_name": "Spike Robot",
+    "monster_level": 127,
+    "isBoss": false,
+    "item_name": "Spike Robot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spike",
+    "monster_name": "Spike",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Spike Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spook",
+    "monster_name": "Spook",
+    "monster_level": 82,
+    "isBoss": false,
+    "item_name": "Spook Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "spore",
+    "monster_name": "Spore",
+    "monster_level": 27,
+    "isBoss": false,
+    "item_name": "Spore Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "sprout",
+    "monster_name": "Sprout",
+    "monster_level": 20,
+    "isBoss": false,
+    "item_name": "Sprout Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "sting",
+    "monster_name": "Sting",
+    "monster_level": 20,
+    "isBoss": true,
+    "item_name": "Sting Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "stormstinger",
+    "monster_name": "Stormstinger",
+    "monster_level": 94,
+    "isBoss": false,
+    "item_name": "Stormstinger Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "sun-blossom",
+    "monster_name": "Sun Blossom",
+    "monster_level": 32,
+    "isBoss": false,
+    "item_name": "Sun Blossom Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "sunflora-pixie",
+    "monster_name": "Sunflora Pixie",
+    "monster_level": 40,
+    "isBoss": true,
+    "item_name": "Sunflora Pixie Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "sunflower-fairy",
+    "monster_name": "Sunflower Fairy",
+    "monster_level": 34,
+    "isBoss": false,
+    "item_name": "Sunflower Fairy Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "stormcoil",
+    "monster_name": "Stormcoil",
+    "monster_level": 127,
+    "isBoss": false,
+    "item_name": "Stormcoil Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "hydro-turtle",
+    "monster_name": "Hydro Turtle",
+    "monster_level": 134,
+    "isBoss": false,
+    "item_name": "Hydro Turtle Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "solar-turtle",
+    "monster_name": "Solar Turtle",
+    "monster_level": 131,
+    "isBoss": false,
+    "item_name": "Solar Turtle Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "storm-turtle",
+    "monster_name": "Storm Turtle",
+    "monster_level": 135,
+    "isBoss": false,
+    "item_name": "Storm Turtle Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "toadstool",
+    "monster_name": "Toadstool",
+    "monster_level": 35,
+    "isBoss": false,
+    "item_name": "Toadstool Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "treant-forest-autumn",
+    "monster_name": "Treant Forest Autumn",
+    "monster_level": 8,
+    "isBoss": false,
+    "item_name": "Treant Forest Autumn Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "treant-forest-evergreen",
+    "monster_name": "Treant Forest Evergreen",
+    "monster_level": 9,
+    "isBoss": false,
+    "item_name": "Treant Forest Evergreen Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "treant-minion-autumn",
+    "monster_name": "Treant Minion Autumn",
+    "monster_level": 6,
+    "isBoss": false,
+    "item_name": "Treant Minion Autumn Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "treant-minion-evergreen",
+    "monster_name": "Treant Minion Evergreen",
+    "monster_level": 6,
+    "isBoss": false,
+    "item_name": "Treant Minion Evergreen Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "treant-tree-autumn",
+    "monster_name": "Treant Tree Autumn",
+    "monster_level": 7,
+    "isBoss": false,
+    "item_name": "Treant Tree Autumn Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "treant-tree-evergreen",
+    "monster_name": "Treant Tree Evergreen",
+    "monster_level": 8,
+    "isBoss": false,
+    "item_name": "Treant Tree Evergreen Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "turtle-champion",
+    "monster_name": "Turtle Champion",
+    "monster_level": 140,
+    "isBoss": true,
+    "item_name": "Turtle Champion Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "vampire-bat",
+    "monster_name": "Vampire Bat",
+    "monster_level": 46,
+    "isBoss": false,
+    "item_name": "Vampire Bat Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "werewolf",
+    "monster_name": "Werewolf",
+    "monster_level": 30,
+    "isBoss": true,
+    "item_name": "Werewolf Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "whirlwind",
+    "monster_name": "Whirlwind",
+    "monster_level": 21,
+    "isBoss": false,
+    "item_name": "Whirlwind Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wind-mage",
+    "monster_name": "Wind Mage",
+    "monster_level": 25,
+    "isBoss": false,
+    "item_name": "Wind Mage Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wind",
+    "monster_name": "Wind",
+    "monster_level": 23,
+    "isBoss": false,
+    "item_name": "Wind Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wisp-blue",
+    "monster_name": "Wisp Blue",
+    "monster_level": 11,
+    "isBoss": false,
+    "item_name": "Wisp Blue Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wisp-purple",
+    "monster_name": "Wisp Purple",
+    "monster_level": 22,
+    "isBoss": false,
+    "item_name": "Wisp Purple Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wisp-red",
+    "monster_name": "Wisp Red",
+    "monster_level": 2,
+    "isBoss": false,
+    "item_name": "Wisp Red Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wisp-yellow",
+    "monster_name": "Wisp Yellow",
+    "monster_level": 5,
+    "isBoss": false,
+    "item_name": "Wisp Yellow Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wolf-pup",
+    "monster_name": "Wolf Pup",
+    "monster_level": 23,
+    "isBoss": false,
+    "item_name": "Wolf Pup Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "wolf",
+    "monster_name": "Wolf",
+    "monster_level": 25,
+    "isBoss": false,
+    "item_name": "Wolf Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "worm-creep",
+    "monster_name": "Worm Creep",
+    "monster_level": 95,
+    "isBoss": true,
+    "item_name": "Worm Creep Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "worm-rot",
+    "monster_name": "Worm Rot",
+    "monster_level": 88,
+    "isBoss": false,
+    "item_name": "Worm Rot Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "worm-stink",
+    "monster_name": "Worm Stink",
+    "monster_level": 87,
+    "isBoss": false,
+    "item_name": "Worm Stink Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "worm",
+    "monster_name": "Worm",
+    "monster_level": 72,
+    "isBoss": false,
+    "item_name": "Worm Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "zombie-goblin-giant",
+    "monster_name": "Zombie Goblin Giant",
+    "monster_level": 55,
+    "isBoss": false,
+    "item_name": "Zombie Goblin Giant Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "zombie-goblin-lord",
+    "monster_name": "Zombie Goblin Lord",
+    "monster_level": 60,
+    "isBoss": true,
+    "item_name": "Zombie Goblin Lord Card",
+    "item_type": "card",
+    "chance": 3
+  },
+  {
+    "monster_id": "zombie-goblin-minion",
+    "monster_name": "Zombie Goblin Minion",
+    "monster_level": 51,
+    "isBoss": false,
+    "item_name": "Zombie Goblin Minion Card",
+    "item_type": "card",
+    "chance": 1
+  },
+  {
+    "monster_id": "zombie-goblin-soldier",
+    "monster_name": "Zombie Goblin Soldier",
+    "monster_level": 53,
+    "isBoss": false,
+    "item_name": "Zombie Goblin Soldier Card",
+    "item_type": "card",
+    "chance": 1
+  }
+]
