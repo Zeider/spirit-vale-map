@@ -152,6 +152,11 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .farm-btn:disabled { opacity: .4; cursor: default; }
 .gear-empty { margin: 10px 0; }
 
+.stage-chip .cap { background: none; border: 0; color: inherit; font: inherit; cursor: pointer; border-bottom: 1px dotted var(--muted); padding: 0; }
+.stage-chip .cap-edit input, .stage-add-input input { width: 44px; background: transparent; border: 0; color: var(--text); font: inherit; outline: none; }
+.stage-add-input .pre { color: var(--muted); }
+.stage-hint { color: var(--route); font-size: 11px; margin-top: 6px; }
+
 @media (max-width: 800px) { .gear-body { flex-direction: column; } .gear-loadout { grid-template-columns: repeat(2, 1fr); } }
 
 /* Build side column + notes */

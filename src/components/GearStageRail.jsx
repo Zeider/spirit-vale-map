@@ -1,44 +1,66 @@
 import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
+import { stageRanges } from '../logic/gear.js';
 
 export default function GearStageRail() {
   const { state, dispatch } = useStore();
   const stages = state.build.gearStages ?? [];
+  const ranges = stageRanges(stages);
   const [adding, setAdding] = useState(false);
-  const [lvl, setLvl] = useState('');
+  const [draft, setDraft] = useState('');
+  const [hint, setHint] = useState('');
+  const [editIdx, setEditIdx] = useState(null);
+  const [editDraft, setEditDraft] = useState('');
 
-  const labelFor = (i) => {
-    const from = stages[i].fromLevel;
-    const to = i + 1 < stages.length ? stages[i + 1].fromLevel - 1 : 135;
-    return `Lv ${from}–${to}`;
+  const nextStart = ranges.length ? ranges[ranges.length - 1].toLevel + 1 : 1;
+  const placeholder = Math.min(135, nextStart + 9);
+
+  const submitAdd = () => {
+    const n = parseInt(draft, 10);
+    if (!Number.isFinite(n)) { setAdding(false); setDraft(''); setHint(''); return; }
+    if (n < nextStart) { setHint(`Cap must be ≥ ${nextStart} (above the previous band).`); return; }
+    dispatch({ type: 'addGearStage', toLevel: Math.min(135, n) });
+    setAdding(false); setDraft(''); setHint('');
   };
-  const submit = () => {
-    const n = parseInt(lvl, 10);
-    if (Number.isFinite(n)) dispatch({ type: 'addGearStage', fromLevel: Math.min(135, Math.max(1, n)) });
-    setAdding(false); setLvl('');
+  const submitEdit = (i) => {
+    const n = parseInt(editDraft, 10);
+    if (Number.isFinite(n)) dispatch({ type: 'setStageCap', index: i, toLevel: n });
+    setEditIdx(null); setEditDraft('');
   };
-  const defaultLvl = stages.length ? Math.min(135, Math.max(...stages.map((s) => s.fromLevel)) + 10) : 1;
 
   return (
     <div className="stage-rail">
       <div className="label">GEAR STAGES</div>
       <div className="stage-chips">
-        {stages.map((s, i) => (
+        {ranges.map((r, i) => (
           <div key={i} className={`stage-chip${i === state.selectedStage ? ' on' : ''}`} onClick={() => dispatch({ type: 'selectStage', index: i })}>
-            <span>{labelFor(i)}</span>
-            <button aria-label={`remove stage ${labelFor(i)}`} onClick={(e) => { e.stopPropagation(); dispatch({ type: 'removeGearStage', index: i }); }}>✕</button>
+            {editIdx === i ? (
+              <span className="cap-edit" onClick={(e) => e.stopPropagation()}>
+                Lv {r.start}–
+                <input type="number" min={r.start} max="135" autoFocus value={editDraft}
+                  onChange={(e) => setEditDraft(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === 'Enter') submitEdit(i); if (e.key === 'Escape') { setEditIdx(null); setEditDraft(''); } }}
+                  onBlur={() => submitEdit(i)} />
+              </span>
+            ) : (
+              <span>Lv {r.start}–<button className="cap" title="Edit cap" onClick={(e) => { e.stopPropagation(); setEditIdx(i); setEditDraft(String(r.toLevel)); }}>{r.toLevel}</button></span>
+            )}
+            <button className="chip-x" aria-label={`remove stage Lv ${r.start}–${r.toLevel}`} onClick={(e) => { e.stopPropagation(); dispatch({ type: 'removeGearStage', index: i }); }}>✕</button>
           </div>
         ))}
         {adding ? (
           <span className="stage-add-input">
-            <input type="number" min="1" max="135" autoFocus value={lvl} placeholder={String(defaultLvl)}
-              onChange={(e) => setLvl(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') submit(); if (e.key === 'Escape') setAdding(false); }} />
-            <button onClick={submit}>add at Lv {lvl || defaultLvl}</button>
+            <span className="pre">Lv {nextStart}–</span>
+            <input type="number" min={nextStart} max="135" autoFocus value={draft} placeholder={String(placeholder)}
+              onChange={(e) => { setDraft(e.target.value); setHint(''); }}
+              onKeyDown={(e) => { if (e.key === 'Enter') submitAdd(); if (e.key === 'Escape') { setAdding(false); setDraft(''); setHint(''); } }} />
+            <button onClick={submitAdd}>add</button>
           </span>
         ) : (
-          <button className="stage-add" onClick={() => { setLvl(''); setAdding(true); }}>＋ Add stage</button>
+          <button className="stage-add" onClick={() => { setDraft(''); setHint(''); setAdding(true); }}>＋ Add stage</button>
         )}
       </div>
+      {hint && <div className="stage-hint">{hint}</div>}
     </div>
   );
 }
