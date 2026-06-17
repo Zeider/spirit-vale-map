@@ -40,4 +40,21 @@ describe('GearStageRail', () => {
     fireEvent.click(screen.getByRole('button', { name: /remove stage Lv 1[–-]10/i }));
     expect(screen.getByText(/Lv 1[–-]/)).toBeInTheDocument(); // the 25 band now starts at 1
   });
+  it('click-to-edit a cap updates the band', () => {
+    render(<StoreProvider init={withBuild([{ toLevel: 10, changes: {} }])}><GearStageRail /></StoreProvider>);
+    fireEvent.click(screen.getByRole('button', { name: '10' })); // the cap number
+    const input = screen.getByRole('spinbutton');
+    fireEvent.change(input, { target: { value: '20' } });
+    fireEvent.keyDown(input, { key: 'Enter' });
+    expect(screen.getByText('20')).toBeInTheDocument();
+    expect(screen.queryByText('10')).not.toBeInTheDocument();
+  });
+  it('clamps an out-of-range cap edit (reducer clampCap defends)', () => {
+    render(<StoreProvider init={withBuild([{ toLevel: 10, changes: {} }, { toLevel: 25, changes: {} }])}><GearStageRail /></StoreProvider>);
+    fireEvent.click(screen.getByRole('button', { name: '10' })); // edit first band's cap
+    const input = screen.getByRole('spinbutton');
+    fireEvent.change(input, { target: { value: '99' } }); // above the next band (25) -> clamps to 24
+    fireEvent.keyDown(input, { key: 'Enter' });
+    expect(screen.getByText('24')).toBeInTheDocument();
+  });
 });

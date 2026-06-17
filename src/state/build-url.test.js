@@ -38,13 +38,16 @@ describe('build url (base64)', () => {
     expect(b.gearStages.map((s) => s.toLevel)).toEqual([10, 25, 135]);
   });
 
-  it('clamps and drops invalid items in stages', () => {
+  it('clamps stage caps, drops invalid items, clamps attributes, coerces notes', () => {
     const b = sanitizeBuild({
-      baseClass: 'acolyte', advancedClass: null, levels: {},
+      baseClass: 'acolyte', advancedClass: null, levels: { heal: 999, fake: 3 },
       gearStages: [{ toLevel: 200, changes: { weapon: 'abyss-shard', x: 'no' } }],
-      attributes: {}, notes: '',
+      attributes: { str: 9, agi: -4 }, notes: 42,
     });
     expect(b.gearStages[0].toLevel).toBe(135);
     expect(b.gearStages[0].changes).toEqual({ weapon: 'abyss-shard' });
+    expect(b.attributes.str).toBe(9);
+    expect(b.attributes.agi).toBe(1); // clamped up to the floor of 1
+    expect(b.notes).toBe(''); // non-string notes coerced away
   });
 });
