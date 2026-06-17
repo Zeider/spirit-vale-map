@@ -22,10 +22,10 @@ export function buildLookupsAugmented(v013Raw, base44) {
   return out;
 }
 
-// Curated overrides for bosses not resolvable via spawner-lure derivation.
-// Ties (lure dropped in multiple maps) and misses (null spawner) are skipped by
-// assignBosses; this table fills the remainder. Cross-checked against v0.13.1
-// BossMonster assignments in data/raw/maps.json.
+// Curated tie-break overrides: each boss's spawner-lure drops in exactly 2
+// candidate zones; v0.13.1 boss data disambiguates which zone gets the boss.
+// Homeless world/event bosses (null spawner, maps=[]) are NOT overridden here —
+// they correctly remain unassigned.
 export const BOSS_OVERRIDES = {
   // Tie: Lure Hare drops in both Bunny Woods and Forest Labyrinth; v0.13.1
   // assigns Hare to "Sunny Meadows" — the base44 equivalent dedicated bunny zone.
@@ -36,10 +36,6 @@ export const BOSS_OVERRIDES = {
   // Tie: Lure Sunflora Pixie drops in both Fairy Glen and Forest Labyrinth via
   // a shared mob; v0.13.1 assigns Sunflora Pixie to "Fairy Glen".
   'Fairy Glen': 'Sunflora Pixie',
-  // Miss: Wraith has null spawner (no lure). Undead element, level 125. "Abyss
-  // Castle Crypt" (base44 levels 116-120) is the only Undead zone without an
-  // auto-resolved boss; Wraith is absent from v0.13.1 (new boss in base44).
-  'Abyss Castle Crypt': 'Wraith',
 };
 
 export function assignBosses(monsters) {
