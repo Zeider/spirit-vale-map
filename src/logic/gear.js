@@ -4,12 +4,29 @@ import { resolveTile } from '../data/map-tiles.js';
 export function sortStages(stages) {
   const seen = new Set();
   const out = [];
-  for (const s of [...(stages || [])].sort((a, b) => a.fromLevel - b.fromLevel)) {
-    if (seen.has(s.fromLevel)) continue;
-    seen.add(s.fromLevel);
+  for (const s of [...(stages || [])].sort((a, b) => a.toLevel - b.toLevel)) {
+    if (seen.has(s.toLevel)) continue;
+    seen.add(s.toLevel);
     out.push(s);
   }
   return out;
+}
+
+export function stageRanges(stages) {
+  const sorted = sortStages(stages);
+  return sorted.map((s, i) => ({
+    start: i === 0 ? 1 : sorted[i - 1].toLevel + 1,
+    end: s.toLevel,
+    toLevel: s.toLevel,
+    changes: s.changes || {},
+  }));
+}
+
+export function clampCap(stages, index, value) {
+  const sorted = sortStages(stages);
+  const start = index === 0 ? 1 : sorted[index - 1].toLevel + 1;
+  const nextCap = index + 1 < sorted.length ? sorted[index + 1].toLevel - 1 : 135;
+  return Math.min(nextCap, Math.max(start, Math.round(Number(value))));
 }
 
 export function effectiveLoadout(stages, index) {

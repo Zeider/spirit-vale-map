@@ -1,22 +1,48 @@
 import { describe, it, expect } from 'vitest';
-import { sortStages, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles } from './gear.js';
+import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles } from './gear.js';
 import { items } from '../data/gear-index.js';
 
-describe('gear logic', () => {
-  it('sortStages orders by fromLevel and dedupes', () => {
-    const s = sortStages([{ fromLevel: 16, changes: {} }, { fromLevel: 1, changes: {} }, { fromLevel: 16, changes: {} }]);
-    expect(s.map((x) => x.fromLevel)).toEqual([1, 16]);
+describe('sortStages', () => {
+  it('orders by toLevel and dedupes', () => {
+    const s = sortStages([{ toLevel: 25, changes: {} }, { toLevel: 10, changes: {} }, { toLevel: 25, changes: {} }]);
+    expect(s.map((x) => x.toLevel)).toEqual([10, 25]);
   });
+});
+
+describe('stageRanges', () => {
+  it('derives contiguous starts anchored at 1', () => {
+    const r = stageRanges([{ toLevel: 10, changes: {} }, { toLevel: 25, changes: {} }, { toLevel: 40, changes: {} }]);
+    expect(r.map((x) => [x.start, x.end])).toEqual([[1, 10], [11, 25], [26, 40]]);
+  });
+  it('a single stage runs 1..cap (not 135)', () => {
+    expect(stageRanges([{ toLevel: 10, changes: {} }])).toEqual([{ start: 1, end: 10, toLevel: 10, changes: {} }]);
+  });
+});
+
+describe('clampCap', () => {
+  const stages = [{ toLevel: 10, changes: {} }, { toLevel: 25, changes: {} }, { toLevel: 40, changes: {} }];
+  it('clamps a middle band above its neighbor down to nextCap-1', () => {
+    expect(clampCap(stages, 1, 99)).toBe(39);
+  });
+  it('clamps below its own start up to start', () => {
+    expect(clampCap(stages, 1, 3)).toBe(11);
+  });
+  it('top band upper bound is 135', () => {
+    expect(clampCap(stages, 2, 999)).toBe(135);
+  });
+});
+
+describe('gear logic', () => {
   it('effectiveLoadout merges changes up to the index, carrying earlier pieces', () => {
     const stages = [
-      { fromLevel: 1, changes: { weapon: 'a', chest: 'c1' } },
-      { fromLevel: 11, changes: { weapon: 'b' } },
+      { toLevel: 10, changes: { weapon: 'a', chest: 'c1' } },
+      { toLevel: 25, changes: { weapon: 'b' } },
     ];
     expect(effectiveLoadout(stages, 0)).toEqual({ weapon: 'a', chest: 'c1' });
     expect(effectiveLoadout(stages, 1)).toEqual({ weapon: 'b', chest: 'c1' });
   });
   it('null change unequips a carried slot', () => {
-    const stages = [{ fromLevel: 1, changes: { chest: 'c1' } }, { fromLevel: 11, changes: { chest: null } }];
+    const stages = [{ toLevel: 10, changes: { chest: 'c1' } }, { toLevel: 25, changes: { chest: null } }];
     expect(effectiveLoadout(stages, 1)).toEqual({});
   });
   it('stageChangedSlots lists only this stage changes', () => {
@@ -33,7 +59,7 @@ describe('gear logic', () => {
   });
   it('stageFarmTiles resolves changed items source zones to tile ids', () => {
     const weaponWithSource = Object.values(items).find((i) => i.slot === 'weapon' && i.sources.length > 0);
-    const stage = { fromLevel: 1, changes: { weapon: weaponWithSource.slug } };
+    const stage = { toLevel: 10, changes: { weapon: weaponWithSource.slug } };
     const tiles = stageFarmTiles(stage);
     expect(Array.isArray(tiles)).toBe(true);
   });
