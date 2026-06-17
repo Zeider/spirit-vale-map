@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildLookupsAugmented, assignBosses } from './build-zones-base44.mjs';
+import { buildLookupsAugmented, assignBosses, buildZonesFromBase44 } from './build-zones-base44.mjs';
 
 describe('buildLookupsAugmented', () => {
   const v013 = {
@@ -44,8 +44,6 @@ describe('assignBosses', () => {
     expect(Object.values(byMap).some((b) => b.DisplayName === 'Loner')).toBe(false);
   });
 });
-
-import { buildZonesFromBase44 } from './build-zones-base44.mjs';
 
 const lookups = { equipment: { Blade: 'Blade' }, materials: { Bark: 'Bark' }, consumables: {}, gems: {}, cards: {}, artifacts: {} };
 const monsters = [
@@ -95,5 +93,21 @@ describe('buildZonesFromBase44', () => {
     expect(lab.subZones.map((s) => s.id).sort()).toEqual(['lab-1', 'lab-2']);
     expect(sub('nevaris').isHub).toBe(true);
     expect(sub('nevaris').drops).toEqual([]);
+  });
+  it('attaches a multi-band boss above all bands to the highest band only', () => {
+    const ms = [
+      { DisplayName: 'SancMob', GameId: 'SancMob', Level: 78, IsBoss: 0, maps: [{ name: 'Sanctum of Light' }],
+        EquipDrops: [], MaterialDrops: [], GemDrops: [], ConsumableDrops: [{ Id: 'Lure SancBoss' }], Card: { Id: null }, Artifact: { Id: null } },
+      { DisplayName: 'SancBoss', GameId: 'SancBoss', Level: 90, IsBoss: 1, maps: [], spawner: { GameId: 'Lure SancBoss' },
+        EquipDrops: [], MaterialDrops: [], GemDrops: [], ConsumableDrops: [], Card: { Id: null }, Artifact: { Id: null } },
+    ];
+    const tiles = [
+      { id: 'sl-1', name: 'Sanctum of Light', minLevel: 76, maxLevel: 80, isHub: false },
+      { id: 'sl-2', name: 'Sanctum of Light', minLevel: 81, maxLevel: 85, isHub: false },
+    ];
+    const o = buildZonesFromBase44({ monsters: ms, mapTiles: tiles, lookups, gameVersion: 'x' });
+    const sz = (id) => o.regions.flatMap((r) => r.subZones).find((s) => s.id === id);
+    expect(sz('sl-2').boss).toBe('SancBoss');
+    expect(sz('sl-1').boss).toBe(null);
   });
 });
