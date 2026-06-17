@@ -74,8 +74,7 @@ export default function ZoneDrawer() {
       ) : (
         <div className="zone-drawer-body">
           <p className="muted">
-            Drop data for this zone isn’t in the v0.13.1 snapshot — it was added to the game after
-            our data was captured. It’ll appear automatically when the next data update lands.
+            Drop data for this zone isn’t in the current data snapshot yet. It’ll appear automatically when the data is next refreshed.
           </p>
         </div>
       ))}

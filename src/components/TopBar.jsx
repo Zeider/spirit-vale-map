@@ -33,7 +33,7 @@ export default function TopBar() {
           <button onClick={() => dispatch({ type: 'resetBuild' })}>Reset</button>
         </>
       )}
-      <span className="game-version" title="Game data version">v{gameVersion}</span>
+      <span className="game-version" title="Game data version">{gameVersion}</span>
     </header>
   );
 }

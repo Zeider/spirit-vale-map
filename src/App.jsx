@@ -26,7 +26,7 @@ function Shell() {
         </>
       )}
       <footer className="app-footer">
-        Game data v{gameVersion}. Data: SpiritValeInfo + spiritvalemarket.com. Map art: spiritvalemarket.com. Community tool, not affiliated with the game.
+        Game data: {gameVersion}. Data: spirit-vale-builder (base44) + spiritvalemarket.com. Map art: spiritvalemarket.com. Community tool, not affiliated with the game.
       </footer>
     </div>
   );
