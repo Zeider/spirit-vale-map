@@ -5,6 +5,27 @@ import { sortStages } from '../logic/gear.js';
 
 const DEFAULT_ATTRS = { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 };
 
+// Migrate legacy fromLevel-keyed stages to toLevel caps; pass through toLevel.
+export function normalizeStages(raw, isValidItem) {
+  const list = (raw || []).map((s) => {
+    const changes = {};
+    for (const [slot, item] of Object.entries(s.changes || {})) if (!isValidItem || isValidItem(item)) changes[slot] = item;
+    return { ...s, changes };
+  });
+  const clamp = (n) => Math.min(135, Math.max(1, Math.round(Number(n) || 1)));
+  let caps;
+  if (list.some((s) => Number.isFinite(s.toLevel))) {
+    caps = list.filter((s) => Number.isFinite(s.toLevel)).map((s) => ({ toLevel: clamp(s.toLevel), changes: s.changes }));
+  } else {
+    const byFrom = [...list].sort((a, b) => (a.fromLevel || 1) - (b.fromLevel || 1));
+    caps = byFrom.map((s, i) => ({
+      toLevel: i < byFrom.length - 1 ? clamp((byFrom[i + 1].fromLevel || 1) - 1) : 135,
+      changes: s.changes,
+    }));
+  }
+  return sortStages(caps);
+}
+
 // base64url helpers (UTF-8 safe).
 function b64encode(obj) {
   const json = JSON.stringify(obj);
@@ -85,12 +106,7 @@ export function sanitizeBuild(build) {
     for (const id of Object.keys(clean.levels)) if (!requirementsMet(id, clean)) { delete clean.levels[id]; changed = true; }
     if (!changed) break;
   }
-  const stages = (build.gearStages || []).map((s) => {
-    const changes = {};
-    for (const [slot, item] of Object.entries(s.changes || {})) if (gearItems[item]) changes[slot] = item;
-    return { fromLevel: Math.min(135, Math.max(1, s.fromLevel || 1)), changes };
-  });
-  clean.gearStages = sortStages(stages);
+  clean.gearStages = normalizeStages(build.gearStages, (item) => gearItems[item]);
   for (const k of Object.keys(DEFAULT_ATTRS)) {
     const v = build.attributes?.[k];
     clean.attributes[k] = Number.isFinite(v) ? Math.max(1, v) : 1;

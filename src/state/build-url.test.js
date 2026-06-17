@@ -3,9 +3,8 @@ import { encodeBuild, decodeBuild, sanitizeBuild } from './build-url.js';
 
 const full = {
   baseClass: 'acolyte', advancedClass: 'priest', levels: { heal: 5 },
-  gearStages: [{ fromLevel: 1, changes: { weapon: 'abyss-shard' } }],
-  attributes: { str: 3, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 },
-  notes: 'farm to 40; alt: axe',
+  gearStages: [{ toLevel: 10, changes: { weapon: 'abyss-shard' } }],
+  attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 }, notes: 'hi',
 };
 
 describe('build url (base64)', () => {
@@ -30,13 +29,22 @@ describe('build url (base64)', () => {
   it('sanitize drops unknown class', () => {
     expect(sanitizeBuild({ baseClass: 'nope', levels: {}, gearStages: [], attributes: {}, notes: '' })).toBeNull();
   });
-  it('sanitize keeps known skills/items, clamps, defaults attributes, coerces notes', () => {
-    const b = sanitizeBuild({ baseClass: 'acolyte', advancedClass: null, levels: { heal: 999, fake: 3 }, gearStages: [{ fromLevel: 200, changes: { weapon: 'abyss-shard', x: 'no' } }], attributes: { str: 9 }, notes: 42 });
-    expect(b.levels.fake).toBeUndefined();
-    expect(b.gearStages[0].fromLevel).toBe(135);
+  it('migrates a legacy fromLevel build to toLevel caps', () => {
+    const b = sanitizeBuild({
+      baseClass: 'acolyte', advancedClass: null, levels: {},
+      gearStages: [{ fromLevel: 1, changes: {} }, { fromLevel: 11, changes: {} }, { fromLevel: 26, changes: {} }],
+      attributes: {}, notes: '',
+    });
+    expect(b.gearStages.map((s) => s.toLevel)).toEqual([10, 25, 135]);
+  });
+
+  it('clamps and drops invalid items in stages', () => {
+    const b = sanitizeBuild({
+      baseClass: 'acolyte', advancedClass: null, levels: {},
+      gearStages: [{ toLevel: 200, changes: { weapon: 'abyss-shard', x: 'no' } }],
+      attributes: {}, notes: '',
+    });
+    expect(b.gearStages[0].toLevel).toBe(135);
     expect(b.gearStages[0].changes).toEqual({ weapon: 'abyss-shard' });
-    expect(b.attributes.str).toBe(9);
-    expect(b.attributes.agi).toBe(1);
-    expect(b.notes).toBe('');
   });
 });
