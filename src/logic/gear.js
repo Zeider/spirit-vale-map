@@ -26,7 +26,9 @@ export function clampCap(stages, index, value) {
   const sorted = sortStages(stages);
   const start = index === 0 ? 1 : sorted[index - 1].toLevel + 1;
   const nextCap = index + 1 < sorted.length ? sorted[index + 1].toLevel - 1 : 135;
-  return Math.min(nextCap, Math.max(start, Math.round(Number(value))));
+  const v = Math.round(Number(value));
+  if (!Number.isFinite(v)) return start; // defensive: never write NaN as a cap
+  return Math.min(nextCap, Math.max(start, v));
 }
 
 export function effectiveLoadout(stages, index) {

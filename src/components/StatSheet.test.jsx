@@ -9,7 +9,7 @@ const weaponWithAtk = Object.values(items).find((i) => i.slot === 'weapon' && i.
 describe('StatSheet', () => {
   it('shows summed gear stats for the active stage and an attribute allocator', () => {
     render(
-      <StoreProvider init={{ view: 'gear', selectedStage: 0, build: { baseClass: 'rogue', advancedClass: null, levels: {}, gearStages: [{ fromLevel: 1, changes: { weapon: weaponWithAtk.slug } }], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } } }}>
+      <StoreProvider init={{ view: 'gear', selectedStage: 0, build: { baseClass: 'rogue', advancedClass: null, levels: {}, gearStages: [{ toLevel: 10, changes: { weapon: weaponWithAtk.slug } }], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } } }}>
         <StatSheet />
       </StoreProvider>,
     );

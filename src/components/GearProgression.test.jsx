@@ -10,7 +10,7 @@ describe('GearProgression', () => {
     expect(screen.getByRole('button', { name: /add stage/i })).toBeInTheDocument();
   });
   it('renders the loadout when a stage exists', () => {
-    render(<StoreProvider init={{ view: 'builds', selectedStage: 0, build: { baseClass: 'rogue', advancedClass: null, levels: {}, gearStages: [{ fromLevel: 1, changes: {} }] } }}><GearProgression /></StoreProvider>);
+    render(<StoreProvider init={{ view: 'builds', selectedStage: 0, build: { baseClass: 'rogue', advancedClass: null, levels: {}, gearStages: [{ toLevel: 10, changes: {} }] } }}><GearProgression /></StoreProvider>);
     expect(screen.getAllByTestId('gear-slot')).toHaveLength(10);
   });
 });
