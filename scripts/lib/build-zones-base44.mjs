@@ -21,3 +21,48 @@ export function buildLookupsAugmented(v013Raw, base44) {
   augment(out.cards, base44.cards);
   return out;
 }
+
+// Curated overrides for bosses not resolvable via spawner-lure derivation.
+// Ties (lure dropped in multiple maps) and misses (null spawner) are skipped by
+// assignBosses; this table fills the remainder. Cross-checked against v0.13.1
+// BossMonster assignments in data/raw/maps.json.
+export const BOSS_OVERRIDES = {
+  // Tie: Lure Hare drops in both Bunny Woods and Forest Labyrinth; v0.13.1
+  // assigns Hare to "Sunny Meadows" — the base44 equivalent dedicated bunny zone.
+  'Bunny Woods': 'Hare',
+  // Tie: Lure Sting drops in both Forest Labyrinth and Sunny Meadows 2; v0.13.1
+  // assigns Sting to "Forest Labyrinth" (11-15 band).
+  'Forest Labyrinth': 'Sting',
+  // Tie: Lure Sunflora Pixie drops in both Fairy Glen and Forest Labyrinth via
+  // a shared mob; v0.13.1 assigns Sunflora Pixie to "Fairy Glen".
+  'Fairy Glen': 'Sunflora Pixie',
+  // Miss: Wraith has null spawner (no lure). Undead element, level 125. "Abyss
+  // Castle Crypt" (base44 levels 116-120) is the only Undead zone without an
+  // auto-resolved boss; Wraith is absent from v0.13.1 (new boss in base44).
+  'Abyss Castle Crypt': 'Wraith',
+};
+
+export function assignBosses(monsters) {
+  // lure GameId -> set of map names whose monsters drop it
+  const lureToMaps = {};
+  for (const m of monsters) {
+    for (const mp of m.maps || []) {
+      for (const d of m.ConsumableDrops || []) {
+        (lureToMaps[d.Id] ||= new Set()).add(mp.name);
+      }
+    }
+  }
+  const byName = new Map(monsters.map((m) => [m.DisplayName || m.name, m]));
+  const byMap = {};
+  for (const b of monsters) {
+    if (!(b.IsBoss ?? b.isBoss)) continue;
+    const lure = b.spawner && b.spawner.GameId;
+    const maps = lure && lureToMaps[lure] ? [...lureToMaps[lure]] : [];
+    if (maps.length === 1) byMap[maps[0]] = b;
+  }
+  for (const [mapName, bossName] of Object.entries(BOSS_OVERRIDES)) {
+    const b = byName.get(bossName);
+    if (b) byMap[mapName] = b;
+  }
+  return byMap;
+}

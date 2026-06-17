@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildLookupsAugmented } from './build-zones-base44.mjs';
+import { buildLookupsAugmented, assignBosses } from './build-zones-base44.mjs';
 
 describe('buildLookupsAugmented', () => {
   const v013 = {
@@ -26,5 +26,21 @@ describe('buildLookupsAugmented', () => {
   it('keeps v0.13.1-only tables (materials/artifacts) intact', () => {
     expect(out.materials.TreeBark).toBe('Tree Bark');
     expect(out.artifacts.Matk).toBe('Starfire');
+  });
+});
+
+describe('assignBosses', () => {
+  const monsters = [
+    { DisplayName: 'Grunt', IsBoss: 0, maps: [{ name: 'Cave' }], ConsumableDrops: [{ Id: 'Lure Warlord' }] },
+    { DisplayName: 'Warlord', IsBoss: 1, maps: [], spawner: { GameId: 'Lure Warlord' }, ConsumableDrops: [] },
+    { DisplayName: 'Loner', IsBoss: 1, maps: [], spawner: { GameId: 'Lure Nowhere' }, ConsumableDrops: [] },
+  ];
+  it('assigns a boss to the map whose monsters drop its lure', () => {
+    const byMap = assignBosses(monsters);
+    expect(byMap.Cave.DisplayName).toBe('Warlord');
+  });
+  it('skips bosses whose lure is dropped nowhere', () => {
+    const byMap = assignBosses(monsters);
+    expect(Object.values(byMap).some((b) => b.DisplayName === 'Loner')).toBe(false);
   });
 });
