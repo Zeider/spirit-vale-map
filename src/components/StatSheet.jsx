@@ -29,7 +29,9 @@ export default function StatSheet() {
           <div key={key} className="attr">
             <span>{label}</span>
             <button aria-label={`decrease ${key}`} onClick={() => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] - 1 })}>−</button>
-            <b data-testid={`attr-${key}`}>{state.build.attributes[key]}</b>
+            <input type="number" min="1" max="99" className="attr-input" aria-label={key} data-testid={`attr-${key}`}
+              value={state.build.attributes[key]}
+              onChange={(e) => { const v = parseInt(e.target.value, 10); if (Number.isFinite(v)) dispatch({ type: 'setAttribute', key, value: v }); }} />
             <button aria-label={`increase ${key}`} onClick={() => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] + 1 })}>+</button>
           </div>
         ))}

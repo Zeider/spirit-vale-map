@@ -47,7 +47,7 @@ export function reducer(state, action) {
     case 'setBuildNotes':
       return { ...state, build: { ...state.build, notes: action.notes } };
     case 'setAttribute':
-      return { ...state, build: { ...state.build, attributes: { ...state.build.attributes, [action.key]: Math.max(1, action.value) } } };
+      return { ...state, build: { ...state.build, attributes: { ...state.build.attributes, [action.key]: Math.min(99, Math.max(1, Math.round(Number(action.value)) || 1)) } } };
     case 'hydrate': return { ...state, ...action.state };
     case 'setView': return { ...state, view: action.view };
     case 'selectClass':

@@ -186,6 +186,8 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .stat-totals b { color: var(--on); }
 .attrs { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; }
 .attr { display: flex; align-items: center; gap: 4px; }
+.attr-input { width: 38px; text-align: center; background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 4px; padding: 2px; font: inherit; -moz-appearance: textfield; }
+.attr-input::-webkit-outer-spin-button, .attr-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
 .attr button { background: #23304a; color: #fff; border: 0; border-radius: 3px; width: 18px; height: 18px; cursor: pointer; }
 .stat-note { font-size: 10px; margin-top: 8px; }
 
