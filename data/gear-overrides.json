@@ -1,0 +1,27 @@
+{
+  "_comment": "Manual gear additions/fixes applied in scripts/build-gear.mjs. Use for items that exist in the live game but are in NEITHER upstream source (spiritvalemarket catalog, base44 equipment), and to add/fix craft recipes (zone) so items resolve to the route. `add` = full item objects (matching gear.json item shape); `craft` = { slug: { zoneSlug, zoneName, materials } } applied onto existing items.",
+  "add": [
+    {
+      "slug": "grave-helm",
+      "name": "Grave Helm",
+      "type": "Headgear",
+      "slot": "headgear",
+      "cardSlots": 1,
+      "statsPrimary": ["Def: +3", "Mdef: +3"],
+      "statsSecondary": ["Str: +1 per refine", "Int: +1 per refine", "Siphon Hp: +1 per refine"],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        { "label": "Def", "value": 3, "perRefine": 0, "percent": false },
+        { "label": "Mdef", "value": 3, "perRefine": 0, "percent": false },
+        { "label": "Str", "value": 0, "perRefine": 1, "percent": false },
+        { "label": "Int", "value": 0, "perRefine": 1, "percent": false },
+        { "label": "Siphon Hp", "value": 0, "perRefine": 1, "percent": false }
+      ],
+      "description": "Pale teeth gnash silently, because helmets should not need jaws.",
+      "sources": [],
+      "craft": { "zoneSlug": "swamp-wilderness", "zoneName": "Swamp Wilderness", "materials": [] }
+    }
+  ],
+  "craft": {}
+}
