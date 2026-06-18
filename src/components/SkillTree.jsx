@@ -31,7 +31,7 @@ export default function SkillTree({ classSlug, tree }) {
                 if (level > curLvl) dispatch({ type: 'incrementSkill', id });
                 else dispatch({ type: 'setSkillLevel', id, level });
               }}
-              onSelect={(sid) => dispatch({ type: 'selectSkill', id: sid })}
+              onSelect={(sid) => dispatch({ type: 'selectSkill', id: sid === selectedSkillId ? null : sid })}
             />
           ))}
         </div>
