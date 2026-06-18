@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles } from './gear.js';
+import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles, itemTiles, loadoutRouteTargets } from './gear.js';
 import { items } from '../data/gear-index.js';
 
 describe('sortStages', () => {
@@ -62,5 +62,20 @@ describe('gear logic', () => {
     const stage = { toLevel: 10, changes: { weapon: weaponWithSource.slug } };
     const tiles = stageFarmTiles(stage);
     expect(Array.isArray(tiles)).toBe(true);
+  });
+  it('itemTiles resolves a dropped item to its drop zones', () => {
+    const dropped = Object.values(items).find((i) => i.sources?.length > 0);
+    expect(itemTiles(dropped).length).toBeGreaterThan(0);
+  });
+  it('itemTiles resolves a craft-only item via its craft zone (crafted items are now routable)', () => {
+    const craftOnly = Object.values(items).find((i) => (!i.sources || i.sources.length === 0) && i.craft);
+    expect(craftOnly).toBeTruthy();
+    expect(itemTiles(craftOnly).length).toBeGreaterThan(0);
+  });
+  it('loadoutRouteTargets emits (id, want) for every equipped item', () => {
+    const dropped = Object.values(items).find((i) => i.sources?.length > 0);
+    const targets = loadoutRouteTargets({ weapon: dropped.slug });
+    expect(targets.length).toBeGreaterThan(0);
+    expect(targets.every((t) => t.want === dropped.slug && typeof t.id === 'string')).toBe(true);
   });
 });

@@ -1,6 +1,6 @@
 import { useStore } from '../state/store.jsx';
 import { slots, items } from '../data/gear-index.js';
-import { effectiveLoadout, sortStages, stageRanges } from '../logic/gear.js';
+import { effectiveLoadout, sortStages, stageRanges, loadoutRouteTargets } from '../logic/gear.js';
 
 const SLOT_LABELS = {
   weapon: 'Weapon', shield: 'Shield', headgear: 'Headgear', face: 'Face', chest: 'Chest',
@@ -22,7 +22,13 @@ export default function GearLoadout() {
     return null;
   };
 
+  // One-click: add every equipped item's zones (drops + craft) for this stage to the route.
+  const targets = loadoutRouteTargets(loadout);
+  const zoneCount = new Set(targets.map((t) => t.id)).size;
+  const addAllZones = () => targets.forEach((t) => dispatch({ type: 'addToRoute', id: t.id, want: t.want }));
+
   return (
+    <>
     <div className="gear-loadout">
       {slots.map((slot) => {
         const itemSlug = loadout[slot];
@@ -39,5 +45,9 @@ export default function GearLoadout() {
         );
       })}
     </div>
+    <button className="farm-btn add-all-zones" disabled={!zoneCount} onClick={addAllZones}>
+      ＋ Add all {zoneCount} zone{zoneCount === 1 ? '' : 's'} to route
+    </button>
+    </>
   );
 }

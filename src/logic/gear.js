@@ -56,15 +56,36 @@ export function itemsForSlot(slot) {
   return Object.values(items).filter((i) => i.slot === cat).sort((a, b) => a.name.localeCompare(b.name));
 }
 
+// Map tiles where an item can be obtained: its drop zones AND its craft zone
+// (so crafted-only items still resolve to a zone for the route).
+export function itemTiles(item) {
+  if (!item) return [];
+  const ids = new Set();
+  for (const s of item.sources || []) {
+    const t = resolveTile(s.zoneName, s.minLevel);
+    if (t) ids.add(t.id);
+  }
+  if (item.craft) {
+    const t = resolveTile(item.craft.zoneName, item.craft.minLevel);
+    if (t) ids.add(t.id);
+  }
+  return [...ids];
+}
+
+// All (tileId, want) route targets for an effective loadout (slot -> itemSlug),
+// so the whole stage's gear can be added to the route in one action.
+export function loadoutRouteTargets(loadout) {
+  const targets = [];
+  for (const slug of new Set(Object.values(loadout || {}))) {
+    for (const id of itemTiles(items[slug])) targets.push({ id, want: slug });
+  }
+  return targets;
+}
+
 export function stageFarmTiles(stage) {
   const ids = new Set();
   for (const slot of stageChangedSlots(stage)) {
-    const itm = items[stage.changes[slot]];
-    if (!itm) continue;
-    for (const src of itm.sources) {
-      const tile = resolveTile(src.zoneName, src.minLevel);
-      if (tile) ids.add(tile.id);
-    }
+    for (const id of itemTiles(items[stage.changes[slot]])) ids.add(id);
   }
   return [...ids];
 }
