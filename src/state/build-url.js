@@ -9,7 +9,8 @@ const DEFAULT_ATTRS = { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 };
 export function normalizeStages(raw, isValidItem) {
   const list = (raw || []).map((s) => {
     const changes = {};
-    for (const [slot, item] of Object.entries(s.changes || {})) if (!isValidItem || isValidItem(item)) changes[slot] = item;
+    // item === null is an explicit "unequip" (effectiveLoadout removes the slot); preserve it.
+    for (const [slot, item] of Object.entries(s.changes || {})) if (item === null || !isValidItem || isValidItem(item)) changes[slot] = item;
     return { ...s, changes };
   });
   const clamp = (n) => Math.min(135, Math.max(1, Math.round(Number(n) || 1)));

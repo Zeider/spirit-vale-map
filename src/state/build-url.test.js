@@ -38,6 +38,14 @@ describe('build url (base64)', () => {
     expect(b.gearStages.map((s) => s.toLevel)).toEqual([10, 25, 135]);
   });
 
+  it('preserves an explicit unequip (null) change through sanitize', () => {
+    const b = sanitizeBuild({
+      baseClass: 'acolyte', advancedClass: null, levels: {},
+      gearStages: [{ toLevel: 20, changes: { weapon: 'abyss-shard', shield: null } }],
+      attributes: {}, notes: '',
+    });
+    expect(b.gearStages[0].changes).toEqual({ weapon: 'abyss-shard', shield: null });
+  });
   it('clamps stage caps, drops invalid items, clamps attributes, coerces notes', () => {
     const b = sanitizeBuild({
       baseClass: 'acolyte', advancedClass: null, levels: { heal: 999, fake: 3 },

@@ -15,6 +15,7 @@ export default function GearPicker() {
     <div className="gear-picker">
       <div className="gear-picker-head">
         <input placeholder={`Search ${slot}…`} value={q} onChange={(e) => setQ(e.target.value)} autoFocus />
+        <button onClick={() => { dispatch({ type: 'setGearSlot', stageIndex: state.selectedStage, slot, item: null }); dispatch({ type: 'selectItemSlot', slot: null }); }}>Unequip</button>
         <button onClick={() => { dispatch({ type: 'clearGearSlot', stageIndex: state.selectedStage, slot }); dispatch({ type: 'selectItemSlot', slot: null }); }}>Revert to carried</button>
         <button onClick={() => dispatch({ type: 'selectItemSlot', slot: null })}>✕</button>
       </div>
