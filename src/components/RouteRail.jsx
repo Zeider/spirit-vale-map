@@ -4,6 +4,7 @@ import { tileById } from '../data/map-tiles.js';
 import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
 import ItemTooltip from './ItemTooltip.jsx';
+import AutoTextarea from './AutoTextarea.jsx';
 
 export default function RouteRail() {
   const { state, dispatch } = useStore();
@@ -51,7 +52,7 @@ export default function RouteRail() {
                       {e.wants.length === 0 && <span className="muted">none yet</span>}
                     </div>
                     <div className="label">NOTES</div>
-                    <textarea className="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
+                    <AutoTextarea className="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
                       onChange={(ev) => dispatch({ type: 'setZoneNotes', id: e.id, notes: ev.target.value })} />
                   </div>
                 )}
