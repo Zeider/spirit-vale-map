@@ -89,3 +89,29 @@ export function stageFarmTiles(stage) {
   }
   return [...ids];
 }
+
+export const ARTIFACT_TYPES = ['rune', 'jewel', 'scroll', 'relic'];
+
+export function effectiveCards(stages, index) {
+  const sorted = sortStages(stages);
+  const out = {};
+  for (let i = 0; i <= index && i < sorted.length; i++) {
+    for (const [slot, cards] of Object.entries(sorted[i].cards || {})) {
+      if (cards == null) delete out[slot];
+      else out[slot] = cards;
+    }
+  }
+  return out;
+}
+
+export function effectiveArtifacts(stages, index) {
+  const sorted = sortStages(stages);
+  const out = {};
+  for (let i = 0; i <= index && i < sorted.length; i++) {
+    for (const [type, val] of Object.entries(sorted[i].artifacts || {})) {
+      if (val == null) delete out[type];
+      else out[type] = val;
+    }
+  }
+  return out;
+}
