@@ -30,36 +30,41 @@ export default function GearLoadout() {
   const zoneCount = new Set(targets.map((t) => t.id)).size;
   const addAllZones = () => targets.forEach((t) => dispatch({ type: 'addToRoute', id: t.id, want: t.want }));
 
+  const range = ranges[idx];
+
   return (
-    <>
-    <div className="gear-loadout">
-      {slots.map((slot) => {
-        const itemSlug = loadout[slot];
-        const item = itemSlug ? items[itemSlug] : null;
-        const isChanged = slot in changes;
-        const from = !isChanged && item ? carriedFrom(slot) : null;
-        return (
-          <div key={slot} data-testid="gear-slot" className={`gear-slot${item ? ' filled' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}`}
-            onClick={() => { dispatch({ type: 'selectItemSlot', slot }); if (item) dispatch({ type: 'selectItem', slug: itemSlug }); }}>
-            <div className="gear-slot-label">{SLOT_LABELS[slot]}</div>
-            <div className="gear-slot-item">{item ? item.name : '—'}</div>
-            {from != null && <div className="gear-slot-from">from Lv {from}</div>}
-            {item && item.cardSlots > 0 && (
-              <div className="card-pips" onClick={(e) => e.stopPropagation()}>
-                {Array.from({ length: item.cardSlots }, (_, n) => {
-                  const name = (stageCards[slot] || [])[n] || null;
-                  return (
-                    <button key={n} className={`pip${name ? ' filled' : ''}`} aria-label={`card slot ${n + 1} ${SLOT_LABELS[slot]}`}
-                      onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'card', slot, index: n } })}>
-                      {name ? (cardByName[name]?.name ?? name) : '＋'}
-                    </button>
-                  );
-                })}
-              </div>
-            )}
-          </div>
-        );
-      })}
+    <div className="gear-col">
+    <div className="gear-panel">
+      <div className="gear-panel-head">Gear · Lv {range.start}–{range.toLevel}</div>
+      <div className="gear-rows">
+        {slots.map((slot) => {
+          const itemSlug = loadout[slot];
+          const item = itemSlug ? items[itemSlug] : null;
+          const isChanged = slot in changes;
+          const from = !isChanged && item ? carriedFrom(slot) : null;
+          return (
+            <div key={slot} data-testid="gear-slot" className={`gear-row${item ? ' filled' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}`}
+              onClick={() => { dispatch({ type: 'selectItemSlot', slot }); if (item) dispatch({ type: 'selectItem', slug: itemSlug }); }}>
+              <span className="gear-row-label">{SLOT_LABELS[slot]}</span>
+              <span className="gear-row-item">{item ? item.name : '—'}</span>
+              {from != null && <span className="gear-row-from">from Lv {from}</span>}
+              {item && item.cardSlots > 0 && (
+                <span className="card-pips" onClick={(e) => e.stopPropagation()}>
+                  {Array.from({ length: item.cardSlots }, (_, n) => {
+                    const name = (stageCards[slot] || [])[n] || null;
+                    return (
+                      <button key={n} className={`pip${name ? ' filled' : ''}`} aria-label={`card slot ${n + 1} ${SLOT_LABELS[slot]}`}
+                        onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'card', slot, index: n } })}>
+                        {name ? `◆ ${cardByName[name]?.name ?? name}` : '＋'}
+                      </button>
+                    );
+                  })}
+                </span>
+              )}
+            </div>
+          );
+        })}
+      </div>
     </div>
     <button className="farm-btn add-all-zones" disabled={!zoneCount} onClick={addAllZones}>
       ＋ Add all {zoneCount} zone{zoneCount === 1 ? '' : 's'} to route
@@ -76,6 +81,6 @@ export default function GearLoadout() {
           onClose={() => dispatch({ type: 'setPicker', picker: null })} />
       );
     })()}
-    </>
+    </div>
   );
 }

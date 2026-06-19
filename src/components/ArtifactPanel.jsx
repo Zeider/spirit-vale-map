@@ -32,7 +32,7 @@ export default function ArtifactPanel() {
           return (
             <li key={t} className="artifact-slot">
               <span className="atype">{TYPE_LABEL[t]}</span>
-              <button className="aset" aria-label={`pick ${t} set`} onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
+              <button className={`aset${set ? '' : ' empty'}`} aria-label={`pick ${t} set`} onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
                 {set ? set.name : '＋ pick set'}
               </button>
               {set && (
