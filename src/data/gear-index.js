@@ -10,3 +10,11 @@ for (const it of Object.values(items)) if (!(it.name in gearByName)) gearByName[
 export const cards = data.cards || {};
 export const cardByName = cards;
 export const artifacts = data.artifacts || [];
+
+export const gems = data.gems || {};
+export const gemBySlug = gems;
+export const gemByName = {};
+for (const g of Object.values(gems)) if (!(g.name in gemByName)) gemByName[g.name] = g;
+
+export const artifactBySlug = {};
+for (const a of artifacts) artifactBySlug[a.slug] = a;

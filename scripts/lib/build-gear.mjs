@@ -45,6 +45,14 @@ function cardOf(c, raw) {
   };
 }
 
+function gemOf(g) {
+  return {
+    kind: 'gem', name: g.name, slug: g.slug,
+    affix: g.affix || '', description: g.description || '',
+    stats: stripHtml(g.stats),
+  };
+}
+
 function nonZeroLine(line) {
   return !/^[+-]?0(\s|%)/.test(line); // drop "+0 X" / "0% X" noise from per-refine
 }
@@ -93,5 +101,7 @@ export function buildGear(catalog, raw = {}) {
   }
   const cards = {};
   for (const c of catalog.cards || []) cards[c.name] = cardOf(c, raw.cardBySlug && raw.cardBySlug.get(c.slug));
-  return { slots: SLOTS, items, cards, artifacts: buildArtifacts(raw.artifacts || []) };
+  const gems = {};
+  for (const g of catalog.gems || []) gems[g.slug] = gemOf(g);
+  return { slots: SLOTS, items, cards, gems, artifacts: buildArtifacts(raw.artifacts || []) };
 }
