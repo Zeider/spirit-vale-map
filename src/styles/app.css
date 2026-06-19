@@ -249,6 +249,11 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .stage-add-input input { width: 56px; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; }
 .stage-add-input button { background: var(--on); color: #123; border: 0; border-radius: 6px; padding: 4px 8px; cursor: pointer; font-size: 11px; }
 
+/* Card pips */
+.card-pips { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; }
+.card-pips .pip { font-size: 10px; padding: 2px 6px; border-radius: 999px; background: #1f2430; border: 1px dashed #353d4e; color: #7b8499; cursor: pointer; }
+.card-pips .pip.filled { background: #243a2e; border-style: solid; border-color: #356b4d; color: #9fe7be; }
+
 /* Generic Picker */
 .picker { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px; display: flex; flex-direction: column; gap: 6px; max-height: 320px; }
 .picker-head { display: flex; align-items: center; justify-content: space-between; }
