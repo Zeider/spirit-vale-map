@@ -1,15 +1,29 @@
 import { useStore } from '../state/store.jsx';
-import { items } from '../data/gear-index.js';
-import { effectiveLoadout, sortStages } from '../logic/gear.js';
-import { sumLoadoutStats } from '../logic/stats.js';
+import { effectiveLoadout, effectiveCards, effectiveArtifacts, sortStages } from '../logic/gear.js';
+import { items, cardByName, gemBySlug, artifactBySlug } from '../data/gear-index.js';
+import { sumLoadoutStats, sumSocketStats } from '../logic/stats.js';
 
 const ATTRS = [['str', '💪 STR'], ['agi', '⚡ AGI'], ['vit', '❤️ VIT'], ['int', '🧠 INT'], ['dex', '🎯 DEX'], ['luk', '🍀 LUK']];
 
 export default function StatSheet() {
   const { state, dispatch } = useStore();
   const stages = state.build.gearStages;
-  const loadout = stages.length ? effectiveLoadout(sortStages(stages), Math.min(state.selectedStage, stages.length - 1)) : {};
-  const totals = sumLoadoutStats(loadout, items).sort((a, b) => a.label.localeCompare(b.label));
+
+  const sorted = stages.length ? sortStages(stages) : [];
+  const idx = Math.min(state.selectedStage, sorted.length - 1);
+  const loadout = sorted.length ? effectiveLoadout(sorted, idx) : {};
+  const cards = sorted.length ? effectiveCards(sorted, idx) : {};
+  const artifacts = sorted.length ? effectiveArtifacts(sorted, idx) : {};
+  const itemsBySlot = Object.fromEntries(Object.entries(loadout).map(([s, slug]) => [s, items[slug]]));
+
+  const merged = new Map();
+  for (const r of [...sumLoadoutStats(loadout, items),
+                   ...sumSocketStats({ cards, artifacts }, { itemsBySlot, cardByName, gemBySlug, artifactBySlug })]) {
+    const cur = merged.get(r.label) || { label: r.label, value: 0, percent: r.percent };
+    cur.value += r.value;
+    merged.set(r.label, cur);
+  }
+  const totals = [...merged.values()].sort((a, b) => a.label.localeCompare(b.label));
 
   return (
     <div className="stat-sheet">
@@ -29,7 +43,9 @@ export default function StatSheet() {
           <div key={key} className="attr">
             <span>{label}</span>
             <button aria-label={`decrease ${key}`} onClick={() => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] - 1 })}>−</button>
-            <b data-testid={`attr-${key}`}>{state.build.attributes[key]}</b>
+            <input type="number" min="1" max="99" className="attr-input" aria-label={key} data-testid={`attr-${key}`}
+              value={state.build.attributes[key]}
+              onChange={(e) => { const v = parseInt(e.target.value, 10); if (Number.isFinite(v)) dispatch({ type: 'setAttribute', key, value: v }); }} />
             <button aria-label={`increase ${key}`} onClick={() => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] + 1 })}>+</button>
           </div>
         ))}

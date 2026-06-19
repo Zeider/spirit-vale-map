@@ -33,6 +33,10 @@ export function usePersist(state) {
       if (state.playerLevel) p.set('lvl', String(state.playerLevel));
       const r = encodeRoute(state.route);
       if (r) p.set('route', r);
+      // Carry the build too (gear can be edited from the atlas overlay) so it
+      // persists on reload and rides along in shared route links.
+      const b = encodeBuild(state.build);
+      if (b) p.set('build', b);
       const qs = p.toString();
       window.history.replaceState(null, '', `${path}${qs ? `?${qs}` : ''}`);
     }

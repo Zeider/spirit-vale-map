@@ -19,3 +19,15 @@ export function categorizeGearStats(primary = [], secondary = []) {
   }
   return { skill, base, other };
 }
+
+// Parse a flat stat string into { label, value, percent } for summing.
+// Handles two shapes: "Label: +value[%] [+x per refine]" and "+value[%] Label".
+// Anything else (e.g. skill-damage lines) is returned raw and not summed.
+export function parseSocketStat(line) {
+  const s = String(line).trim();
+  let m = s.match(/^(.+?):\s*([+-]?\d+(?:\.\d+)?)(%?)/);
+  if (m) return { label: m[1].trim(), value: Number(m[2]), percent: m[3] === '%' };
+  m = s.match(/^([+-]?\d+(?:\.\d+)?)(%?)\s+(.+)$/);
+  if (m && !/\bper\s+refine\b/i.test(m[3])) return { label: m[3].trim(), value: Number(m[1]), percent: m[2] === '%' };
+  return { label: s, raw: true };
+}

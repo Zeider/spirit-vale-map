@@ -3,12 +3,16 @@ import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
 import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
+import { stageRanges } from '../logic/gear.js';
 import ItemTooltip from './ItemTooltip.jsx';
+import RichNote from './RichNote.jsx';
+import AddGearStage from './AddGearStage.jsx';
 
 export default function RouteRail() {
   const { state, dispatch } = useStore();
   const [open, setOpen] = useState(null);
   const entries = state.route.map((e) => ({ ...e, tile: tileById[e.id] })).filter((e) => e.tile);
+  const stageRangeList = stageRanges(state.build.gearStages ?? []);
   const gaps = computeGaps(entries.map((e) => ({ minLevel: e.tile.minLevel, maxLevel: e.tile.maxLevel })));
   const min = entries.length ? Math.min(...entries.map((e) => e.tile.minLevel)) : null;
   const max = entries.length ? Math.max(...entries.map((e) => e.tile.maxLevel)) : null;
@@ -51,7 +55,7 @@ export default function RouteRail() {
                       {e.wants.length === 0 && <span className="muted">none yet</span>}
                     </div>
                     <div className="label">NOTES</div>
-                    <textarea className="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
+                    <RichNote taClassName="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
                       onChange={(ev) => dispatch({ type: 'setZoneNotes', id: e.id, notes: ev.target.value })} />
                   </div>
                 )}
@@ -64,6 +68,20 @@ export default function RouteRail() {
           </div>
         </>
       )}
+      <div className="route-gear-stages">
+        <div className="label">GEAR STAGES</div>
+        {stageRangeList.length === 0 ? (
+          <p className="muted">No gear stages yet.</p>
+        ) : (
+          <div className="stage-caps">
+            {stageRangeList.map((r, i) => (
+              <button key={i} className="stage-cap-chip" title="Edit this stage's gear"
+                onClick={() => dispatch({ type: 'openGearEditor', index: i })}>Lv {r.start}–{r.toLevel}</button>
+            ))}
+          </div>
+        )}
+        <AddGearStage label="＋ Add gear stage" afterAdd={() => dispatch({ type: 'openGearEditor' })} />
+      </div>
     </aside>
   );
 }

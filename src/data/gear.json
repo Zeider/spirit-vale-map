@@ -3398,8 +3398,8 @@
       ],
       "statsSecondary": [
         "Double Attack: +50%",
-        "Venom Strike Damage +25%",
-        "Venom Strike Mana Cost: -20%"
+        "Venom Strike Hits: +1",
+        "Venom Strike Chains: +1"
       ],
       "setBonus": [],
       "setName": null,
@@ -3417,17 +3417,19 @@
           "percent": true
         },
         {
-          "label": "Venom Strike Damage +25%",
-          "raw": true
+          "label": "Venom Strike Hits",
+          "value": 1,
+          "perRefine": 0,
+          "percent": false
         },
         {
-          "label": "Venom Strike Mana Cost",
-          "value": -20,
+          "label": "Venom Strike Chains",
+          "value": 1,
           "perRefine": 0,
-          "percent": true
+          "percent": false
         }
       ],
-      "description": "Carved from fang and marrow, its poisoned edge festers wounds. Each cut drips venom that saps strength over time.",
+      "description": "Fang and marrow leave wounds that refuse to rest.",
       "sources": [
         {
           "monster": "Rat Dark",
@@ -3436,7 +3438,7 @@
           "zoneName": "Nevaris Sewers",
           "zoneSlug": "nevaris-sewers",
           "minLevel": 16,
-          "maxLevel": 20
+          "maxLevel": 16
         },
         {
           "monster": "Rat Grey",
@@ -3444,8 +3446,8 @@
           "chance": 4,
           "zoneName": "Nevaris Sewers",
           "zoneSlug": "nevaris-sewers",
-          "minLevel": 16,
-          "maxLevel": 20
+          "minLevel": 18,
+          "maxLevel": 18
         }
       ],
       "craft": {
@@ -9346,8 +9348,8 @@
       ],
       "statsSecondary": [
         "Crit Damage: +10%",
-        "Execute Damage +15%",
-        "Execute Cooldown: -2s"
+        "Execute Damage +15% +1% per refine",
+        "Skill charges: +1"
       ],
       "setBonus": [],
       "setName": null,
@@ -9365,26 +9367,35 @@
           "percent": true
         },
         {
-          "label": "Execute Damage +15%",
+          "label": "Execute Damage +15% +1% per refine",
           "raw": true
         },
         {
-          "label": "Execute Cooldown",
-          "value": -2,
+          "label": "Skill charges",
+          "value": 1,
           "perRefine": 0,
           "percent": false
         }
       ],
-      "description": "Built to finish what others hesitate to start.",
+      "description": "“Mercy has its place. So does ending a problem cleanly.” — Suphara",
       "sources": [
+        {
+          "monster": "Cinderspike",
+          "isBoss": false,
+          "chance": 2,
+          "zoneName": "Dark Forest",
+          "zoneSlug": "dark-forest",
+          "minLevel": 92,
+          "maxLevel": 92
+        },
         {
           "monster": "Fangroot",
           "isBoss": false,
           "chance": 2,
           "zoneName": "Dark Forest",
           "zoneSlug": "dark-forest",
-          "minLevel": 91,
-          "maxLevel": 95
+          "minLevel": 94,
+          "maxLevel": 94
         },
         {
           "monster": "Voidspawn",
@@ -9392,17 +9403,8 @@
           "chance": 2,
           "zoneName": "Dark Forest",
           "zoneSlug": "dark-forest",
-          "minLevel": 91,
-          "maxLevel": 95
-        },
-        {
-          "monster": "Cinderspike",
-          "isBoss": false,
-          "chance": 2,
-          "zoneName": "Dark Forest",
-          "zoneSlug": "dark-forest",
-          "minLevel": 91,
-          "maxLevel": 95
+          "minLevel": 93,
+          "maxLevel": 93
         }
       ],
       "craft": null
@@ -14176,14 +14178,12 @@
       "cardSlots": 2,
       "statsPrimary": [
         "Atk: +5 +0.5 per refine",
-        "Matk: +30 +3 per refine"
+        "Matk: +25 +2.5 per refine"
       ],
       "statsSecondary": [
         "Cast Spd: +15%",
-        "Exorcism Damage +120% per refine",
-        "Exorcism Duration: -10s",
-        "Chance to autocast Turn Undead when hit: +1% per refine",
-        "Turn Undead Cooldown: -1s"
+        "Exorcism Damage +15%",
+        "Exorcism Cooldown: -2s"
       ],
       "setBonus": [],
       "setName": null,
@@ -14196,8 +14196,8 @@
         },
         {
           "label": "Matk",
-          "value": 30,
-          "perRefine": 3,
+          "value": 25,
+          "perRefine": 2.5,
           "percent": false
         },
         {
@@ -14207,47 +14207,26 @@
           "percent": true
         },
         {
-          "label": "Exorcism Damage +120% per refine",
+          "label": "Exorcism Damage +15%",
           "raw": true
         },
         {
-          "label": "Exorcism Duration",
-          "value": -10,
-          "perRefine": 0,
-          "percent": false
-        },
-        {
-          "label": "Chance to autocast Turn Undead when hit",
-          "value": 1,
-          "perRefine": 0,
-          "percent": true
-        },
-        {
-          "label": "Turn Undead Cooldown",
-          "value": -1,
+          "label": "Exorcism Cooldown",
+          "value": -2,
           "perRefine": 0,
           "percent": false
         }
       ],
-      "description": "A sanctified wand that channels pure faith into light. Each spell cast through it carries the weight of judgment and mercy.",
+      "description": "“Mercy and judgment share a handle. Choose carefully.” — Suphara",
       "sources": [
-        {
-          "monster": "Angel Mage",
-          "isBoss": true,
-          "chance": 10,
-          "zoneName": "Sanctum of Light",
-          "zoneSlug": "sanctum-of-light",
-          "minLevel": 81,
-          "maxLevel": 85
-        },
         {
           "monster": "Phantom",
           "isBoss": false,
           "chance": 2,
           "zoneName": "Sanctum of Light",
           "zoneSlug": "sanctum-of-light",
-          "minLevel": 81,
-          "maxLevel": 85
+          "minLevel": 83,
+          "maxLevel": 83
         }
       ],
       "craft": {
@@ -38257,6 +38236,295 @@
           }
         ]
       }
+    },
+    "bone-pick": {
+      "slug": "bone-pick",
+      "name": "Bone Pick",
+      "type": "Dagger",
+      "slot": "weapon",
+      "cardSlots": 2,
+      "statsPrimary": [
+        "Atk: +15 +1.5 per refine"
+      ],
+      "statsSecondary": [
+        "Double Attack: +50%",
+        "Atk: +1 per refine",
+        "Crit: +1 per refine",
+        "Chance to autocast Bone Spear when attacking: +1% per refine"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Atk",
+          "value": 15,
+          "perRefine": 1.5,
+          "percent": false
+        },
+        {
+          "label": "Double Attack",
+          "value": 50,
+          "perRefine": 0,
+          "percent": true
+        },
+        {
+          "label": "Atk",
+          "value": 1,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Crit",
+          "value": 1,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Chance to autocast Bone Spear when attacking",
+          "value": 1,
+          "perRefine": 0,
+          "percent": true
+        }
+      ],
+      "description": "",
+      "sources": [
+        {
+          "monster": "Wolf",
+          "isBoss": false,
+          "chance": 3,
+          "zoneName": "Festering Woods 2",
+          "zoneSlug": "festering-woods-2",
+          "minLevel": 30,
+          "maxLevel": 30
+        }
+      ],
+      "craft": null
+    },
+    "exorcist-staff": {
+      "slug": "exorcist-staff",
+      "name": "Exorcist Staff",
+      "type": "Staff",
+      "slot": "weapon",
+      "cardSlots": 2,
+      "statsPrimary": [
+        "Atk: +5 +0.5 per refine",
+        "Matk: +30 +3 per refine"
+      ],
+      "statsSecondary": [
+        "Cast Spd: +15%",
+        "Exorcism Damage +120% per refine",
+        "Exorcism Duration: -10s",
+        "Chance to autocast Turn Undead when hit: +1% per refine",
+        "Turn Undead Cooldown: -1s"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Atk",
+          "value": 5,
+          "perRefine": 0.5,
+          "percent": false
+        },
+        {
+          "label": "Matk",
+          "value": 30,
+          "perRefine": 3,
+          "percent": false
+        },
+        {
+          "label": "Cast Spd",
+          "value": 15,
+          "perRefine": 0,
+          "percent": true
+        },
+        {
+          "label": "Exorcism Damage +120% per refine",
+          "raw": true
+        },
+        {
+          "label": "Exorcism Duration",
+          "value": -10,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Chance to autocast Turn Undead when hit",
+          "value": 1,
+          "perRefine": 0,
+          "percent": true
+        },
+        {
+          "label": "Turn Undead Cooldown",
+          "value": -1,
+          "perRefine": 0,
+          "percent": false
+        }
+      ],
+      "description": "",
+      "sources": [
+        {
+          "monster": "Cyclops Bat",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Keep",
+          "zoneSlug": "abyss-castle-keep",
+          "minLevel": 111,
+          "maxLevel": 111
+        },
+        {
+          "monster": "Cyclops Bat Wizard",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Keep",
+          "zoneSlug": "abyss-castle-keep",
+          "minLevel": 113,
+          "maxLevel": 113
+        },
+        {
+          "monster": "Eyeball Creep Green",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Crypt",
+          "zoneSlug": "abyss-castle-crypt",
+          "minLevel": 118,
+          "maxLevel": 118
+        },
+        {
+          "monster": "Gloom",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Crypt",
+          "zoneSlug": "abyss-castle-crypt",
+          "minLevel": 116,
+          "maxLevel": 116
+        },
+        {
+          "monster": "Grim Reaper",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Crypt",
+          "zoneSlug": "abyss-castle-crypt",
+          "minLevel": 119,
+          "maxLevel": 119
+        },
+        {
+          "monster": "Skeleton Giant",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Keep",
+          "zoneSlug": "abyss-castle-keep",
+          "minLevel": 115,
+          "maxLevel": 115
+        }
+      ],
+      "craft": null
+    },
+    "grave-helm": {
+      "slug": "grave-helm",
+      "name": "Grave Helm",
+      "type": "Headgear",
+      "slot": "headgear",
+      "cardSlots": 1,
+      "statsPrimary": [
+        "Def: +3",
+        "Mdef: +3"
+      ],
+      "statsSecondary": [
+        "Str: +1 per refine",
+        "Int: +1 per refine",
+        "Siphon Hp: +1 per refine"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Def",
+          "value": 3,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Mdef",
+          "value": 3,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Str",
+          "value": 0,
+          "perRefine": 1,
+          "percent": false
+        },
+        {
+          "label": "Int",
+          "value": 0,
+          "perRefine": 1,
+          "percent": false
+        },
+        {
+          "label": "Siphon Hp",
+          "value": 0,
+          "perRefine": 1,
+          "percent": false
+        }
+      ],
+      "description": "Pale teeth gnash silently, because helmets should not need jaws.",
+      "sources": [],
+      "craft": {
+        "zoneSlug": "swamp-wilderness",
+        "zoneName": "Swamp Wilderness",
+        "materials": []
+      }
+    },
+    "exorcist-bible": {
+      "_note": "Not present in any data source (newer than both snapshots). Type/cardSlots/base Atk-Matk unknown — type 'Book' inferred from a bible being a caster weapon; base stats omitted rather than fabricated. Refine when in-game data is captured.",
+      "slug": "exorcist-bible",
+      "name": "Exorcist Bible",
+      "type": "Book",
+      "slot": "weapon",
+      "cardSlots": 0,
+      "statsPrimary": [],
+      "statsSecondary": [
+        "Faith: +2",
+        "Damnation: +2",
+        "Turn Undead: +2",
+        "Chance to autocast Turn Undead when hit: +3% per refine",
+        "Exorcism becomes Dark Exorcism"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Faith",
+          "value": 2,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Damnation",
+          "value": 2,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Turn Undead",
+          "value": 2,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Chance to autocast Turn Undead when hit: +3% per refine",
+          "raw": true
+        },
+        {
+          "label": "Exorcism becomes Dark Exorcism",
+          "raw": true
+        }
+      ],
+      "description": "",
+      "sources": [],
+      "craft": null
     }
   },
   "cards": {
@@ -40952,6 +41220,1285 @@
       "stats": [
         "+25% Max HP",
         "-50% healing received"
+      ]
+    }
+  },
+  "gems": {
+    "aerial-shot-gem": {
+      "kind": "gem",
+      "name": "Aerial Shot Gem",
+      "slug": "aerial-shot-gem",
+      "affix": "Aerial Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Aerial Shot Damage +2% per refine"
+      ]
+    },
+    "arrow-shower-gem": {
+      "kind": "gem",
+      "name": "Arrow Shower Gem",
+      "slug": "arrow-shower-gem",
+      "affix": "Arrow Shower",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Arrow Shower Damage +2% per refine"
+      ]
+    },
+    "tempo-gem": {
+      "kind": "gem",
+      "name": "Tempo Gem",
+      "slug": "tempo-gem",
+      "affix": "Tempo",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Atk Spd: +5% +1% per refine"
+      ]
+    },
+    "twin-cleave-gem": {
+      "kind": "gem",
+      "name": "Twin Cleave Gem",
+      "slug": "twin-cleave-gem",
+      "affix": "Twin Cleave",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Twin Cleave Damage +2% per refine"
+      ]
+    },
+    "axe-throw-gem": {
+      "kind": "gem",
+      "name": "Axe Throw Gem",
+      "slug": "axe-throw-gem",
+      "affix": "Axe Throw",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Axe Throw Damage +2% per refine"
+      ]
+    },
+    "vortex-slash-gem": {
+      "kind": "gem",
+      "name": "Vortex Slash Gem",
+      "slug": "vortex-slash-gem",
+      "affix": "Vortex Slash",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Vortex Slash Damage +2% per refine"
+      ]
+    },
+    "bash-gem": {
+      "kind": "gem",
+      "name": "Bash Gem",
+      "slug": "bash-gem",
+      "affix": "Bash",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Bash Damage +2% per refine"
+      ]
+    },
+    "blade-dance-gem": {
+      "kind": "gem",
+      "name": "Blade Dance Gem",
+      "slug": "blade-dance-gem",
+      "affix": "Blade Dance",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Blade Dance Damage +2% per refine"
+      ]
+    },
+    "bone-spear-gem": {
+      "kind": "gem",
+      "name": "Bone Spear Gem",
+      "slug": "bone-spear-gem",
+      "affix": "Bone Spear",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Bone Spear Damage +2% per refine"
+      ]
+    },
+    "bone-spikes-gem": {
+      "kind": "gem",
+      "name": "Bone Spikes Gem",
+      "slug": "bone-spikes-gem",
+      "affix": "Bone Spikes",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Bone Spikes Damage +2% per refine"
+      ]
+    },
+    "focus-gem": {
+      "kind": "gem",
+      "name": "Focus Gem",
+      "slug": "focus-gem",
+      "affix": "Focus",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Cast Spd: +2% per refine"
+      ]
+    },
+    "chain-lightning-gem": {
+      "kind": "gem",
+      "name": "Chain Lightning Gem",
+      "slug": "chain-lightning-gem",
+      "affix": "Chain Lightning",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Chain Lightning Damage +2% per refine"
+      ]
+    },
+    "consecrated-ground-gem": {
+      "kind": "gem",
+      "name": "Consecrated Ground Gem",
+      "slug": "consecrated-ground-gem",
+      "affix": "Consecrated Ground",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "? Damage +2% per refine"
+      ]
+    },
+    "consecration-gem": {
+      "kind": "gem",
+      "name": "Consecration Gem",
+      "slug": "consecration-gem",
+      "affix": "Consecration",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Consecration Damage +2% per refine"
+      ]
+    },
+    "corpse-explosion-gem": {
+      "kind": "gem",
+      "name": "Corpse Explosion Gem",
+      "slug": "corpse-explosion-gem",
+      "affix": "Corpse Explosion",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "? Damage +2% per refine"
+      ]
+    },
+    "counter-slash-gem": {
+      "kind": "gem",
+      "name": "Counter Slash Gem",
+      "slug": "counter-slash-gem",
+      "affix": "Counter Slash",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "? Damage +2% per refine"
+      ]
+    },
+    "razor-gem": {
+      "kind": "gem",
+      "name": "Razor Gem",
+      "slug": "razor-gem",
+      "affix": "Razor",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Crit Damage: +5% +1% per refine"
+      ]
+    },
+    "cyclone-gem": {
+      "kind": "gem",
+      "name": "Cyclone Gem",
+      "slug": "cyclone-gem",
+      "affix": "Cyclone",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Cyclone Damage +2% per refine"
+      ]
+    },
+    "damnation-gem": {
+      "kind": "gem",
+      "name": "Damnation Gem",
+      "slug": "damnation-gem",
+      "affix": "Damnation",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Damnation Damage +2% per refine"
+      ]
+    },
+    "dark-exorcism-gem": {
+      "kind": "gem",
+      "name": "Dark Exorcism Gem",
+      "slug": "dark-exorcism-gem",
+      "affix": "Dark Exorcism",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Dark Exorcism Damage +2% per refine"
+      ]
+    },
+    "dark-claw-gem": {
+      "kind": "gem",
+      "name": "Dark Claw Gem",
+      "slug": "dark-claw-gem",
+      "affix": "Dark Claw",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Dark Claw Damage +2% per refine"
+      ]
+    },
+    "death-coil-gem": {
+      "kind": "gem",
+      "name": "Death Coil Gem",
+      "slug": "death-coil-gem",
+      "affix": "Death Coil",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Death Coil Damage +2% per refine"
+      ]
+    },
+    "death-nova-gem": {
+      "kind": "gem",
+      "name": "Death Nova Gem",
+      "slug": "death-nova-gem",
+      "affix": "Death Nova",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Death Nova Damage +2% per refine"
+      ]
+    },
+    "death-spiral-gem": {
+      "kind": "gem",
+      "name": "Death Spiral Gem",
+      "slug": "death-spiral-gem",
+      "affix": "Death Spiral",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Death Spiral Damage +2% per refine"
+      ]
+    },
+    "bastion-gem": {
+      "kind": "gem",
+      "name": "Bastion Gem",
+      "slug": "bastion-gem",
+      "affix": "Bastion",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Def: +2% per refine"
+      ]
+    },
+    "divine-punishment-gem": {
+      "kind": "gem",
+      "name": "Divine Punishment Gem",
+      "slug": "divine-punishment-gem",
+      "affix": "Divine Punishment",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Divine Punishment Damage +2% per refine"
+      ]
+    },
+    "echo-gem": {
+      "kind": "gem",
+      "name": "Echo Gem",
+      "slug": "echo-gem",
+      "affix": "Echo",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Double Attack: +3% per refine"
+      ]
+    },
+    "earth-gem": {
+      "kind": "gem",
+      "name": "Earth Gem",
+      "slug": "earth-gem",
+      "affix": "Earth",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Earth Damage: +1% per refine"
+      ]
+    },
+    "earth-spikes-gem": {
+      "kind": "gem",
+      "name": "Earth Spikes Gem",
+      "slug": "earth-spikes-gem",
+      "affix": "Earth Spikes",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Earth Spikes Damage +2% per refine"
+      ]
+    },
+    "earthbolt-gem": {
+      "kind": "gem",
+      "name": "Earthbolt Gem",
+      "slug": "earthbolt-gem",
+      "affix": "Earthbolt",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Earthbolt Damage +2% per refine"
+      ]
+    },
+    "earthquake-gem": {
+      "kind": "gem",
+      "name": "Earthquake Gem",
+      "slug": "earthquake-gem",
+      "affix": "Earthquake",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Earthquake Damage +2% per refine"
+      ]
+    },
+    "execute-gem": {
+      "kind": "gem",
+      "name": "Execute Gem",
+      "slug": "execute-gem",
+      "affix": "Execute",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Execute Damage +2% per refine"
+      ]
+    },
+    "exorcism-gem": {
+      "kind": "gem",
+      "name": "Exorcism Gem",
+      "slug": "exorcism-gem",
+      "affix": "Exorcism",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Exorcism Damage +2% per refine"
+      ]
+    },
+    "explosive-grenade-gem": {
+      "kind": "gem",
+      "name": "Explosive Grenade Gem",
+      "slug": "explosive-grenade-gem",
+      "affix": "Explosive Grenade",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Explosive Grenade Damage +2% per refine"
+      ]
+    },
+    "fan-fire-gem": {
+      "kind": "gem",
+      "name": "Fan Fire Gem",
+      "slug": "fan-fire-gem",
+      "affix": "Fan Fire",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fan Fire Damage +2% per refine"
+      ]
+    },
+    "fan-of-knives-gem": {
+      "kind": "gem",
+      "name": "Fan Of Knives Gem",
+      "slug": "fan-of-knives-gem",
+      "affix": "Fan Of Knives",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fan Of Knives Damage +2% per refine"
+      ]
+    },
+    "banishment-field-gem": {
+      "kind": "gem",
+      "name": "Banishment Field Gem",
+      "slug": "banishment-field-gem",
+      "affix": "Banishment Field",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Banishment Field Damage +2% per refine"
+      ]
+    },
+    "dissonance-well-gem": {
+      "kind": "gem",
+      "name": "Dissonance Well Gem",
+      "slug": "dissonance-well-gem",
+      "affix": "Dissonance Well",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Dissonance Well Damage +2% per refine"
+      ]
+    },
+    "resonance-well-gem": {
+      "kind": "gem",
+      "name": "Resonance Well Gem",
+      "slug": "resonance-well-gem",
+      "affix": "Resonance Well",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Resonance Well Damage +2% per refine"
+      ]
+    },
+    "suppression-field-gem": {
+      "kind": "gem",
+      "name": "Suppression Field Gem",
+      "slug": "suppression-field-gem",
+      "affix": "Suppression Field",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Suppression Field Damage +2% per refine"
+      ]
+    },
+    "fire-gem": {
+      "kind": "gem",
+      "name": "Fire Gem",
+      "slug": "fire-gem",
+      "affix": "Fire",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fire Damage: +1% per refine"
+      ]
+    },
+    "fire-pillar-gem": {
+      "kind": "gem",
+      "name": "Fire Pillar Gem",
+      "slug": "fire-pillar-gem",
+      "affix": "Fire Pillar",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fire Pillar Damage +2% per refine"
+      ]
+    },
+    "fire-release-gem": {
+      "kind": "gem",
+      "name": "Fire Release Gem",
+      "slug": "fire-release-gem",
+      "affix": "Fire Release",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fire Release Damage +2% per refine"
+      ]
+    },
+    "fireball-gem": {
+      "kind": "gem",
+      "name": "Fireball Gem",
+      "slug": "fireball-gem",
+      "affix": "Fireball",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fireball Damage +2% per refine"
+      ]
+    },
+    "firebolt-gem": {
+      "kind": "gem",
+      "name": "Firebolt Gem",
+      "slug": "firebolt-gem",
+      "affix": "Firebolt",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Firebolt Damage +2% per refine"
+      ]
+    },
+    "flame-orb-gem": {
+      "kind": "gem",
+      "name": "Flame Orb Gem",
+      "slug": "flame-orb-gem",
+      "affix": "Flame Orb",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Flame Orb Damage +2% per refine"
+      ]
+    },
+    "flash-grenade-gem": {
+      "kind": "gem",
+      "name": "Flash Grenade Gem",
+      "slug": "flash-grenade-gem",
+      "affix": "Flash Grenade",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "? Damage +2% per refine"
+      ]
+    },
+    "evasion-gem": {
+      "kind": "gem",
+      "name": "Evasion Gem",
+      "slug": "evasion-gem",
+      "affix": "Evasion",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Flee: +3 per refine",
+        "Perfect Dodge"
+      ]
+    },
+    "force-shot-gem": {
+      "kind": "gem",
+      "name": "Force Shot Gem",
+      "slug": "force-shot-gem",
+      "affix": "Force Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Force Shot Damage +2% per refine"
+      ]
+    },
+    "freeze-grenade-gem": {
+      "kind": "gem",
+      "name": "Freeze Grenade Gem",
+      "slug": "freeze-grenade-gem",
+      "affix": "Freeze Grenade",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Freeze Grenade Damage +2% per refine"
+      ]
+    },
+    "blizzard-gem": {
+      "kind": "gem",
+      "name": "Blizzard Gem",
+      "slug": "blizzard-gem",
+      "affix": "Blizzard",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Blizzard Damage +2% per refine"
+      ]
+    },
+    "binding-spiral-gem": {
+      "kind": "gem",
+      "name": "Binding Spiral Gem",
+      "slug": "binding-spiral-gem",
+      "affix": "Binding Spiral",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Binding Spiral Damage +2% per refine"
+      ]
+    },
+    "grand-cross-gem": {
+      "kind": "gem",
+      "name": "Grand Cross Gem",
+      "slug": "grand-cross-gem",
+      "affix": "Grand Cross",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Grand Cross Damage +2% per refine"
+      ]
+    },
+    "earth-splitter-gem": {
+      "kind": "gem",
+      "name": "Earth Splitter Gem",
+      "slug": "earth-splitter-gem",
+      "affix": "Earth Splitter",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Earth Splitter Damage +2% per refine"
+      ]
+    },
+    "gunk-shot-gem": {
+      "kind": "gem",
+      "name": "Gunk Shot Gem",
+      "slug": "gunk-shot-gem",
+      "affix": "Gunk Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Gunk Shot Damage +2% per refine"
+      ]
+    },
+    "harvest-gem": {
+      "kind": "gem",
+      "name": "Harvest Gem",
+      "slug": "harvest-gem",
+      "affix": "Harvest",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Harvest Damage +2% per refine"
+      ]
+    },
+    "heal-gem": {
+      "kind": "gem",
+      "name": "Heal Gem",
+      "slug": "heal-gem",
+      "affix": "Heal",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Heal Damage +2% per refine"
+      ]
+    },
+    "grace-gem": {
+      "kind": "gem",
+      "name": "Grace Gem",
+      "slug": "grace-gem",
+      "affix": "Grace",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Healing: +2% per refine"
+      ]
+    },
+    "high-heal-gem": {
+      "kind": "gem",
+      "name": "High Heal Gem",
+      "slug": "high-heal-gem",
+      "affix": "High Heal",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "High Heal Damage +2% per refine"
+      ]
+    },
+    "precision-gem": {
+      "kind": "gem",
+      "name": "Precision Gem",
+      "slug": "precision-gem",
+      "affix": "Precision",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Hit: +3 per refine",
+        "Crit: +1 per refine"
+      ]
+    },
+    "holy-gem": {
+      "kind": "gem",
+      "name": "Holy Gem",
+      "slug": "holy-gem",
+      "affix": "Holy",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Holy Damage: +1% per refine"
+      ]
+    },
+    "holy-light-gem": {
+      "kind": "gem",
+      "name": "Holy Light Gem",
+      "slug": "holy-light-gem",
+      "affix": "Holy Light",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Holy Light Damage +2% per refine"
+      ]
+    },
+    "holy-wrath-gem": {
+      "kind": "gem",
+      "name": "Holy Wrath Gem",
+      "slug": "holy-wrath-gem",
+      "affix": "Holy Wrath",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Holy Wrath Damage +2% per refine"
+      ]
+    },
+    "litany-of-wrath-gem": {
+      "kind": "gem",
+      "name": "Litany of Wrath Gem",
+      "slug": "litany-of-wrath-gem",
+      "affix": "Litany of Wrath",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "? Damage +2% per refine"
+      ]
+    },
+    "heart-gem": {
+      "kind": "gem",
+      "name": "Heart Gem",
+      "slug": "heart-gem",
+      "affix": "Heart",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Hp: +2% per refine"
+      ]
+    },
+    "hydro-vortex-gem": {
+      "kind": "gem",
+      "name": "Hydro Vortex Gem",
+      "slug": "hydro-vortex-gem",
+      "affix": "Hydro Vortex",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Hydro Vortex Damage +2% per refine"
+      ]
+    },
+    "ice-release-gem": {
+      "kind": "gem",
+      "name": "Ice Release Gem",
+      "slug": "ice-release-gem",
+      "affix": "Ice Release",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Ice Release Damage +2% per refine"
+      ]
+    },
+    "ice-shard-gem": {
+      "kind": "gem",
+      "name": "Ice Shard Gem",
+      "slug": "ice-shard-gem",
+      "affix": "Ice Shard",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Ice Shard Damage +2% per refine"
+      ]
+    },
+    "icebolt-gem": {
+      "kind": "gem",
+      "name": "Icebolt Gem",
+      "slug": "icebolt-gem",
+      "affix": "Icebolt",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Icebolt Damage +2% per refine"
+      ]
+    },
+    "judgement-blade-gem": {
+      "kind": "gem",
+      "name": "Judgement Blade Gem",
+      "slug": "judgement-blade-gem",
+      "affix": "Judgement Blade",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Judgement Blade Damage +2% per refine"
+      ]
+    },
+    "jump-shot-gem": {
+      "kind": "gem",
+      "name": "Jump Shot Gem",
+      "slug": "jump-shot-gem",
+      "affix": "Jump Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Jump Shot Damage +2% per refine"
+      ]
+    },
+    "bloodfang-gem": {
+      "kind": "gem",
+      "name": "Bloodfang Gem",
+      "slug": "bloodfang-gem",
+      "affix": "Bloodfang",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Health on hit: +0.5 per refine"
+      ]
+    },
+    "soulfang-gem": {
+      "kind": "gem",
+      "name": "Soulfang Gem",
+      "slug": "soulfang-gem",
+      "affix": "Soulfang",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Siphon Mp: +0.3 per refine"
+      ]
+    },
+    "life-drain-gem": {
+      "kind": "gem",
+      "name": "Life Drain Gem",
+      "slug": "life-drain-gem",
+      "affix": "Life Drain",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Life Drain Damage +2% per refine"
+      ]
+    },
+    "lightning-release-gem": {
+      "kind": "gem",
+      "name": "Lightning Release Gem",
+      "slug": "lightning-release-gem",
+      "affix": "Lightning Release",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Lightning Release Damage +2% per refine"
+      ]
+    },
+    "flash-step-gem": {
+      "kind": "gem",
+      "name": "Flash Step Gem",
+      "slug": "flash-step-gem",
+      "affix": "Flash Step",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Flash Step Damage +2% per refine"
+      ]
+    },
+    "ward-gem": {
+      "kind": "gem",
+      "name": "Ward Gem",
+      "slug": "ward-gem",
+      "affix": "Ward",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Mdef: +2% per refine"
+      ]
+    },
+    "meteor-gem": {
+      "kind": "gem",
+      "name": "Meteor Gem",
+      "slug": "meteor-gem",
+      "affix": "Meteor",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Meteor Damage +2% per refine"
+      ]
+    },
+    "stride-gem": {
+      "kind": "gem",
+      "name": "Stride Gem",
+      "slug": "stride-gem",
+      "affix": "Stride",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Move Spd: +2% per refine"
+      ]
+    },
+    "channel-gem": {
+      "kind": "gem",
+      "name": "Channel Gem",
+      "slug": "channel-gem",
+      "affix": "Channel",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Mp Cost: -2% per refine"
+      ]
+    },
+    "mind-gem": {
+      "kind": "gem",
+      "name": "Mind Gem",
+      "slug": "mind-gem",
+      "affix": "Mind",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Mp: +2% per refine"
+      ]
+    },
+    "mantra-gem": {
+      "kind": "gem",
+      "name": "Mantra Gem",
+      "slug": "mantra-gem",
+      "affix": "Mantra",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Cast cannot be interrupted",
+        "Cast Spd: -10% +1% per refine"
+      ]
+    },
+    "steadfast-gem": {
+      "kind": "gem",
+      "name": "Steadfast Gem",
+      "slug": "steadfast-gem",
+      "affix": "Steadfast",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Immune to Flinching from damage",
+        "Hp: -10% +1% per refine"
+      ]
+    },
+    "anchor-gem": {
+      "kind": "gem",
+      "name": "Anchor Gem",
+      "slug": "anchor-gem",
+      "affix": "Anchor",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Immune to Knockback",
+        "Move Spd: -10% +1% per refine"
+      ]
+    },
+    "panic-burst-gem": {
+      "kind": "gem",
+      "name": "Panic Burst Gem",
+      "slug": "panic-burst-gem",
+      "affix": "Panic Burst",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Panic Burst Damage +2% per refine"
+      ]
+    },
+    "veil-gem": {
+      "kind": "gem",
+      "name": "Veil Gem",
+      "slug": "veil-gem",
+      "affix": "Veil",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Perfect Cloak",
+        "Mp: -10% +1% per refine"
+      ]
+    },
+    "piercing-shot-gem": {
+      "kind": "gem",
+      "name": "Piercing Shot Gem",
+      "slug": "piercing-shot-gem",
+      "affix": "Piercing Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Piercing Shot Damage +2% per refine"
+      ]
+    },
+    "point-blank-gem": {
+      "kind": "gem",
+      "name": "Point Blank Gem",
+      "slug": "point-blank-gem",
+      "affix": "Point Blank",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Point Blank Damage +2% per refine"
+      ]
+    },
+    "poison-gem": {
+      "kind": "gem",
+      "name": "Poison Gem",
+      "slug": "poison-gem",
+      "affix": "Poison",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Poison Damage: +1% per refine"
+      ]
+    },
+    "poison-grenade-gem": {
+      "kind": "gem",
+      "name": "Poison Grenade Gem",
+      "slug": "poison-grenade-gem",
+      "affix": "Poison Grenade",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Poison Grenade Damage +2% per refine"
+      ]
+    },
+    "reap-gem": {
+      "kind": "gem",
+      "name": "Reap Gem",
+      "slug": "reap-gem",
+      "affix": "Reap",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Reap Damage +2% per refine"
+      ]
+    },
+    "spike-gem": {
+      "kind": "gem",
+      "name": "Spike Gem",
+      "slug": "spike-gem",
+      "affix": "Spike",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Reflect Damage: +3% per refine"
+      ]
+    },
+    "mirror-gem": {
+      "kind": "gem",
+      "name": "Mirror Gem",
+      "slug": "mirror-gem",
+      "affix": "Mirror",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Chance to reflect single target magic: +2% per refine"
+      ]
+    },
+    "vitalis-gem": {
+      "kind": "gem",
+      "name": "Vitalis Gem",
+      "slug": "vitalis-gem",
+      "affix": "Vitalis",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Hp Regen: +3% per refine",
+        "Mp Regen +3% per refine"
+      ]
+    },
+    "sanctuary-gem": {
+      "kind": "gem",
+      "name": "Sanctuary Gem",
+      "slug": "sanctuary-gem",
+      "affix": "Sanctuary",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Sanctuary Damage +2% per refine"
+      ]
+    },
+    "shadow-gem": {
+      "kind": "gem",
+      "name": "Shadow Gem",
+      "slug": "shadow-gem",
+      "affix": "Shadow",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Shadow Damage: +1% per refine"
+      ]
+    },
+    "black-blade-gem": {
+      "kind": "gem",
+      "name": "Black Blade Gem",
+      "slug": "black-blade-gem",
+      "affix": "Black Blade",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Black Blade Damage +2% per refine"
+      ]
+    },
+    "shadow-step-gem": {
+      "kind": "gem",
+      "name": "Shadow Step Gem",
+      "slug": "shadow-step-gem",
+      "affix": "Shadow Step",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Shadow Step Damage +2% per refine"
+      ]
+    },
+    "shield-bash-gem": {
+      "kind": "gem",
+      "name": "Shield Bash Gem",
+      "slug": "shield-bash-gem",
+      "affix": "Shield Bash",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Shield Bash Damage +2% per refine"
+      ]
+    },
+    "shield-throw-gem": {
+      "kind": "gem",
+      "name": "Shield Throw Gem",
+      "slug": "shield-throw-gem",
+      "affix": "Shield Throw",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Shield Throw Damage +2% per refine"
+      ]
+    },
+    "fearsome-cry-gem": {
+      "kind": "gem",
+      "name": "Fearsome Cry Gem",
+      "slug": "fearsome-cry-gem",
+      "affix": "Fearsome Cry",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Fearsome Cry Damage +2% per refine"
+      ]
+    },
+    "shrapnel-gem": {
+      "kind": "gem",
+      "name": "Shrapnel Gem",
+      "slug": "shrapnel-gem",
+      "affix": "Shrapnel",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Shrapnel Damage +2% per refine"
+      ]
+    },
+    "shuriken-fan-gem": {
+      "kind": "gem",
+      "name": "Shuriken Fan Gem",
+      "slug": "shuriken-fan-gem",
+      "affix": "Shuriken Fan",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Shuriken Fan Damage +2% per refine"
+      ]
+    },
+    "smite-gem": {
+      "kind": "gem",
+      "name": "Smite Gem",
+      "slug": "smite-gem",
+      "affix": "Smite",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Smite Damage +2% per refine"
+      ]
+    },
+    "sniper-shot-gem": {
+      "kind": "gem",
+      "name": "Sniper Shot Gem",
+      "slug": "sniper-shot-gem",
+      "affix": "Sniper Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Sniper Shot Damage +2% per refine"
+      ]
+    },
+    "soul-strike-gem": {
+      "kind": "gem",
+      "name": "Soul Strike Gem",
+      "slug": "soul-strike-gem",
+      "affix": "Soul Strike",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Soul Strike Damage +2% per refine"
+      ]
+    },
+    "air-cutter-gem": {
+      "kind": "gem",
+      "name": "Air Cutter Gem",
+      "slug": "air-cutter-gem",
+      "affix": "Air Cutter",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Air Cutter Damage +2% per refine"
+      ]
+    },
+    "impale-gem": {
+      "kind": "gem",
+      "name": "Impale Gem",
+      "slug": "impale-gem",
+      "affix": "Impale",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Impale Damage +2% per refine"
+      ]
+    },
+    "piercing-flurry-gem": {
+      "kind": "gem",
+      "name": "Piercing Flurry Gem",
+      "slug": "piercing-flurry-gem",
+      "affix": "Piercing Flurry",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Piercing Flurry Damage +2% per refine"
+      ]
+    },
+    "stomp-gem": {
+      "kind": "gem",
+      "name": "Stomp Gem",
+      "slug": "stomp-gem",
+      "affix": "Stomp",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Stomp Damage +2% per refine"
+      ]
+    },
+    "strafing-volley-gem": {
+      "kind": "gem",
+      "name": "Strafing Volley Gem",
+      "slug": "strafing-volley-gem",
+      "affix": "Strafing Volley",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Strafing Volley Damage +2% per refine"
+      ]
+    },
+    "suppressive-shot-gem": {
+      "kind": "gem",
+      "name": "Suppressive Shot Gem",
+      "slug": "suppressive-shot-gem",
+      "affix": "Suppressive Shot",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Suppressive Shot Damage +2% per refine"
+      ]
+    },
+    "tempest-gem": {
+      "kind": "gem",
+      "name": "Tempest Gem",
+      "slug": "tempest-gem",
+      "affix": "Tempest",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Tempest Damage +2% per refine"
+      ]
+    },
+    "elemental-overload-gem": {
+      "kind": "gem",
+      "name": "Elemental Overload Gem",
+      "slug": "elemental-overload-gem",
+      "affix": "Elemental Overload",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Elemental Overload Damage +2% per refine"
+      ]
+    },
+    "thunder-storm-gem": {
+      "kind": "gem",
+      "name": "Thunder Storm Gem",
+      "slug": "thunder-storm-gem",
+      "affix": "Thunder Storm",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Thunder Storm Damage +2% per refine"
+      ]
+    },
+    "thunderbolt-gem": {
+      "kind": "gem",
+      "name": "Thunderbolt Gem",
+      "slug": "thunderbolt-gem",
+      "affix": "Thunderbolt",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Thunderbolt Damage +2% per refine"
+      ]
+    },
+    "turn-undead-gem": {
+      "kind": "gem",
+      "name": "Turn Undead Gem",
+      "slug": "turn-undead-gem",
+      "affix": "Turn Undead",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Turn Undead Damage +2% per refine"
+      ]
+    },
+    "twist-of-fate-gem": {
+      "kind": "gem",
+      "name": "Twist Of Fate Gem",
+      "slug": "twist-of-fate-gem",
+      "affix": "Twist Of Fate",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Twist Of Fate Damage +2% per refine"
+      ]
+    },
+    "undead-gem": {
+      "kind": "gem",
+      "name": "Undead Gem",
+      "slug": "undead-gem",
+      "affix": "Undead",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Undead Damage: +1% per refine"
+      ]
+    },
+    "venom-strike-gem": {
+      "kind": "gem",
+      "name": "Venom Strike Gem",
+      "slug": "venom-strike-gem",
+      "affix": "Venom Strike",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Venom Strike Damage +2% per refine"
+      ]
+    },
+    "volatile-bolt-gem": {
+      "kind": "gem",
+      "name": "Volatile Bolt Gem",
+      "slug": "volatile-bolt-gem",
+      "affix": "Volatile Bolt",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Volatile Bolt Damage +2% per refine"
+      ]
+    },
+    "water-gem": {
+      "kind": "gem",
+      "name": "Water Gem",
+      "slug": "water-gem",
+      "affix": "Water",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Water Damage: +1% per refine"
+      ]
+    },
+    "weapon-throw-gem": {
+      "kind": "gem",
+      "name": "Weapon Throw Gem",
+      "slug": "weapon-throw-gem",
+      "affix": "Weapon Throw",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Weapon Throw Damage +2% per refine"
+      ]
+    },
+    "carrier-gem": {
+      "kind": "gem",
+      "name": "Carrier Gem",
+      "slug": "carrier-gem",
+      "affix": "Carrier",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Weight Limit: +200 per refine"
+      ]
+    },
+    "whirlwind-gem": {
+      "kind": "gem",
+      "name": "Whirlwind Gem",
+      "slug": "whirlwind-gem",
+      "affix": "Whirlwind",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Whirlwind Damage +2% per refine"
+      ]
+    },
+    "wild-charge-gem": {
+      "kind": "gem",
+      "name": "Wild Charge Gem",
+      "slug": "wild-charge-gem",
+      "affix": "Wild Charge",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Wild Charge Damage +2% per refine"
+      ]
+    },
+    "wind-gem": {
+      "kind": "gem",
+      "name": "Wind Gem",
+      "slug": "wind-gem",
+      "affix": "Wind",
+      "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
+      "stats": [
+        "Wind Damage: +1% per refine"
       ]
     }
   },

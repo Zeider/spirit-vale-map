@@ -45,6 +45,14 @@ function cardOf(c, raw) {
   };
 }
 
+function gemOf(g) {
+  return {
+    kind: 'gem', name: g.name, slug: g.slug,
+    affix: g.affix || '', description: g.description || '',
+    stats: stripHtml(g.stats),
+  };
+}
+
 function nonZeroLine(line) {
   return !/^[+-]?0(\s|%)/.test(line); // drop "+0 X" / "0% X" noise from per-refine
 }
@@ -65,22 +73,42 @@ export function buildArtifacts(rawArtifacts) {
   return (rawArtifacts || []).map(artifactOf);
 }
 
+// Build one gear item from a catalog/base44 entry. Both sources share field names
+// (slug/name/equipmentType/statsPrimary[]/statsSecondary[]/drops/crafting); they differ
+// only in the card-slot field (catalog `slots` vs base44 `cardSlots`) and how the set name
+// is carried (catalog via raw.equipBySlug lookup, base44 inline as `Set`).
+export function buildItem(e, raw = {}) {
+  const slot = categoryOf(e.equipmentType);
+  if (!slot) return null;
+  const statsPrimary = stripHtml(e.statsPrimary);
+  const statsSecondary = stripHtml(e.statsSecondary);
+  const lookupSet = raw.equipBySlug && raw.equipBySlug.get(e.slug) && raw.equipBySlug.get(e.slug).Set;
+  return {
+    slug: e.slug, name: e.name, type: e.equipmentType, slot,
+    cardSlots: e.slots ?? e.cardSlots ?? 0,
+    statsPrimary, statsSecondary, setBonus: stripHtml(e.statsFullSet),
+    setName: e.Set ?? lookupSet ?? null,
+    parsedStats: [...statsPrimary, ...statsSecondary].map(parseStat),
+    description: e.description || '', sources: flattenSources(e.drops), craft: craftOf(e.crafting),
+  };
+}
+
 export function buildGear(catalog, raw = {}) {
   const items = {};
   for (const e of catalog.equipment) {
-    const slot = categoryOf(e.equipmentType);
-    if (!slot) continue;
-    const statsPrimary = stripHtml(e.statsPrimary);
-    const statsSecondary = stripHtml(e.statsSecondary);
-    items[e.slug] = {
-      slug: e.slug, name: e.name, type: e.equipmentType, slot, cardSlots: e.slots || 0,
-      statsPrimary, statsSecondary, setBonus: stripHtml(e.statsFullSet),
-      setName: (raw.equipBySlug && raw.equipBySlug.get(e.slug) && raw.equipBySlug.get(e.slug).Set) || null,
-      parsedStats: [...statsPrimary, ...statsSecondary].map(parseStat),
-      description: e.description || '', sources: flattenSources(e.drops), craft: craftOf(e.crafting),
-    };
+    const item = buildItem(e, raw);
+    if (item) items[e.slug] = item;
   }
   const cards = {};
   for (const c of catalog.cards || []) cards[c.name] = cardOf(c, raw.cardBySlug && raw.cardBySlug.get(c.slug));
-  return { slots: SLOTS, items, cards, artifacts: buildArtifacts(raw.artifacts || []) };
+  const gems = {};
+  // A few gems appear twice under one slug, one copy carrying a broken "?" placeholder
+  // stat (e.g. "? Damage" vs "Death Coil Damage"). Keep the non-placeholder copy.
+  const broken = (gem) => (gem.stats || []).some((s) => s.includes('?'));
+  for (const g of catalog.gems || []) {
+    const gem = gemOf(g);
+    const existing = gems[g.slug];
+    if (!existing || (broken(existing) && !broken(gem))) gems[g.slug] = gem;
+  }
+  return { slots: SLOTS, items, cards, gems, artifacts: buildArtifacts(raw.artifacts || []) };
 }

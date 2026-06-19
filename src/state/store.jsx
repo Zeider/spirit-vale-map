@@ -13,6 +13,8 @@ export const initialState = {
   selectedStage: 0,
   selectedItemSlug: null,
   openSlot: null,
+  openPicker: null,
+  gearOverlay: false,
 };
 
 export function reducer(state, action) {
@@ -47,7 +49,7 @@ export function reducer(state, action) {
     case 'setBuildNotes':
       return { ...state, build: { ...state.build, notes: action.notes } };
     case 'setAttribute':
-      return { ...state, build: { ...state.build, attributes: { ...state.build.attributes, [action.key]: Math.max(1, action.value) } } };
+      return { ...state, build: { ...state.build, attributes: { ...state.build.attributes, [action.key]: Math.min(99, Math.max(1, Math.round(Number(action.value)) || 1)) } } };
     case 'hydrate': return { ...state, ...action.state };
     case 'setView': return { ...state, view: action.view };
     case 'selectClass':
@@ -69,7 +71,7 @@ export function reducer(state, action) {
     }
     case 'removeGearStage': {
       const stages = state.build.gearStages.filter((_, i) => i !== action.index);
-      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: Math.max(0, Math.min(state.selectedStage, stages.length - 1)) };
+      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: Math.max(0, Math.min(state.selectedStage, stages.length - 1)), openPicker: null };
     }
     case 'setStageCap': {
       const v = clampCap(state.build.gearStages, action.index, action.toLevel);
@@ -90,12 +92,46 @@ export function reducer(state, action) {
       });
       return { ...state, build: { ...state.build, gearStages: stages } };
     }
-    case 'selectStage': return { ...state, selectedStage: action.index };
+    case 'selectStage': return { ...state, selectedStage: action.index, openPicker: null };
+    case 'openGearEditor': return { ...state, gearOverlay: true, openPicker: null, openSlot: null, selectedStage: action.index ?? state.selectedStage };
+    case 'closeGearEditor': return { ...state, gearOverlay: false, openPicker: null, openSlot: null };
     case 'selectItem': return { ...state, selectedItemSlug: action.slug };
     case 'selectItemSlot': return { ...state, openSlot: action.slot };
+    case 'setPicker': return { ...state, openPicker: action.picker };
     case 'incrementSkill': {
       const targets = dependencyTargets(action.id, state.build);
       return { ...state, build: { ...state.build, levels: { ...state.build.levels, ...targets } } };
+    }
+    case 'setCardSlot': {
+      const stages = state.build.gearStages.map((s, i) => {
+        if (i !== action.stageIndex) return s;
+        const cards = { ...(s.cards || {}) };
+        const arr = [...(cards[action.slot] || [])];
+        arr[action.index] = action.card;
+        cards[action.slot] = arr;
+        return { ...s, cards };
+      });
+      return { ...state, build: { ...state.build, gearStages: stages } };
+    }
+    case 'setArtifact': {
+      const stages = state.build.gearStages.map((s, i) => {
+        if (i !== action.stageIndex) return s;
+        const artifacts = { ...(s.artifacts || {}) };
+        if (action.set == null) artifacts[action.atype] = null;
+        else artifacts[action.atype] = { set: action.set, gem: artifacts[action.atype]?.gem ?? null };
+        return { ...s, artifacts };
+      });
+      return { ...state, build: { ...state.build, gearStages: stages } };
+    }
+    case 'setArtifactGem': {
+      const stages = state.build.gearStages.map((s, i) => {
+        if (i !== action.stageIndex) return s;
+        const cur = (s.artifacts || {})[action.atype];
+        if (!cur?.set) return s;
+        const artifacts = { ...(s.artifacts || {}), [action.atype]: { ...cur, gem: action.gem } };
+        return { ...s, artifacts };
+      });
+      return { ...state, build: { ...state.build, gearStages: stages } };
     }
     default: return state;
   }

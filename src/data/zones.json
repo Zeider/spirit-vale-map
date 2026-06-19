@@ -1407,8 +1407,8 @@
           "id": "forest-field-2",
           "gameId": "Treant Trail",
           "name": "Treant Trail",
-          "minLevel": 5,
-          "maxLevel": 9,
+          "minLevel": 16,
+          "maxLevel": 20,
           "isHub": false,
           "monsters": [
             "Flower Pot Monster",
@@ -1726,8 +1726,8 @@
           ]
         }
       ],
-      "minLevel": 5,
-      "maxLevel": 9
+      "minLevel": 16,
+      "maxLevel": 20
     },
     {
       "id": "bunny-woods",
@@ -3276,8 +3276,8 @@
           "id": "desert-field-1",
           "gameId": "Windy Desert North",
           "name": "Windy Desert North",
-          "minLevel": 21,
-          "maxLevel": 25,
+          "minLevel": 31,
+          "maxLevel": 35,
           "isHub": false,
           "monsters": [
             "Dog Bowwow",
@@ -3683,8 +3683,8 @@
           "id": "desert-field-3",
           "gameId": "Windy Desert South",
           "name": "Windy Desert South",
-          "minLevel": 26,
-          "maxLevel": 30,
+          "minLevel": 31,
+          "maxLevel": 35,
           "isHub": false,
           "monsters": [
             "Cacti",
@@ -4078,8 +4078,8 @@
           ]
         }
       ],
-      "minLevel": 21,
-      "maxLevel": 30
+      "minLevel": 26,
+      "maxLevel": 35
     },
     {
       "id": "fairy-glen",
@@ -6633,8 +6633,8 @@
           "id": "goblin-village",
           "gameId": "Goblin Village",
           "name": "Goblin Village",
-          "minLevel": 56,
-          "maxLevel": 60,
+          "minLevel": 46,
+          "maxLevel": 50,
           "isHub": false,
           "monsters": [
             "Goblin Giant Devil",
@@ -6973,8 +6973,8 @@
           ]
         }
       ],
-      "minLevel": 56,
-      "maxLevel": 60
+      "minLevel": 46,
+      "maxLevel": 50
     },
     {
       "id": "goblin-cave",
@@ -7891,8 +7891,8 @@
           "id": "ice-cave",
           "gameId": "Crystal Cave",
           "name": "Crystal Cave",
-          "minLevel": 66,
-          "maxLevel": 70,
+          "minLevel": 71,
+          "maxLevel": 75,
           "isHub": false,
           "monsters": [
             "Cyclops",
@@ -8467,8 +8467,8 @@
           ]
         }
       ],
-      "minLevel": 66,
-      "maxLevel": 70
+      "minLevel": 71,
+      "maxLevel": 75
     },
     {
       "id": "swamp-wilderness",
@@ -8479,8 +8479,8 @@
           "id": "swamp-wilderness",
           "gameId": "Swamp Wilderness",
           "name": "Swamp Wilderness",
-          "minLevel": 71,
-          "maxLevel": 75,
+          "minLevel": 66,
+          "maxLevel": 70,
           "isHub": false,
           "monsters": [
             "Dragonfly Swift",
@@ -8911,8 +8911,8 @@
           ]
         }
       ],
-      "minLevel": 71,
-      "maxLevel": 75
+      "minLevel": 66,
+      "maxLevel": 70
     },
     {
       "id": "sanctum-of-light",
@@ -11242,8 +11242,8 @@
           "id": "water-dungeon",
           "gameId": "Sunken Depths",
           "name": "Sunken Depths",
-          "minLevel": 121,
-          "maxLevel": 125,
+          "minLevel": 101,
+          "maxLevel": 105,
           "isHub": false,
           "monsters": [
             "FIsh Blue",
@@ -11974,8 +11974,8 @@
           ]
         }
       ],
-      "minLevel": 121,
-      "maxLevel": 125
+      "minLevel": 101,
+      "maxLevel": 105
     },
     {
       "id": "abyss-castle-dungeon",
@@ -12230,8 +12230,8 @@
           "id": "castle-keep",
           "gameId": "Abyss Castle Keep",
           "name": "Abyss Castle Keep",
-          "minLevel": 101,
-          "maxLevel": 105,
+          "minLevel": 111,
+          "maxLevel": 115,
           "isHub": false,
           "monsters": [
             "Cyclops Bat",
@@ -12530,8 +12530,8 @@
           ]
         }
       ],
-      "minLevel": 101,
-      "maxLevel": 105
+      "minLevel": 111,
+      "maxLevel": 115
     },
     {
       "id": "abyss-castle-crypt",
@@ -12542,8 +12542,8 @@
           "id": "castle-crypt",
           "gameId": "Abyss Castle Crypt",
           "name": "Abyss Castle Crypt",
-          "minLevel": 106,
-          "maxLevel": 110,
+          "minLevel": 116,
+          "maxLevel": 120,
           "isHub": false,
           "monsters": [
             "Direwolf",
@@ -12864,8 +12864,8 @@
           ]
         }
       ],
-      "minLevel": 106,
-      "maxLevel": 110
+      "minLevel": 116,
+      "maxLevel": 120
     },
     {
       "id": "abyss-castle-library",
@@ -12876,8 +12876,8 @@
           "id": "castle-library",
           "gameId": "Abyss Castle Library",
           "name": "Abyss Castle Library",
-          "minLevel": 111,
-          "maxLevel": 115,
+          "minLevel": 121,
+          "maxLevel": 125,
           "isHub": false,
           "monsters": [
             "Cyclops Bat Mage",
@@ -13284,8 +13284,8 @@
           ]
         }
       ],
-      "minLevel": 111,
-      "maxLevel": 115
+      "minLevel": 121,
+      "maxLevel": 125
     },
     {
       "id": "goblin-warcamp",
@@ -13296,8 +13296,8 @@
           "id": "goblin-warcamp",
           "gameId": "Goblin Warcamp",
           "name": "Goblin Warcamp",
-          "minLevel": 116,
-          "maxLevel": 120,
+          "minLevel": 121,
+          "maxLevel": 125,
           "isHub": false,
           "monsters": [
             "Goblin Warblade",
@@ -13703,8 +13703,8 @@
           ]
         }
       ],
-      "minLevel": 116,
-      "maxLevel": 120
+      "minLevel": 121,
+      "maxLevel": 125
     },
     {
       "id": "night-garden",

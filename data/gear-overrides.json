@@ -1,0 +1,71 @@
+{
+  "_comment": "Manual gear layer applied in scripts/build-gear.mjs over the spiritvalemarket catalog (the default item list, which lags the live game). Order applied: fromBase44 -> add -> patch -> craft. `fromBase44` = slugs pulled from the newer/richer base44 dump (data/raw-base44/equipment.json) through the same buildItem transform (no hand transcription, no fabricated numbers). `add` = full hand-authored item objects for items in NO source. `patch` = shallow-merge fields onto an already-built item (parsedStats is recomputed). `craft` = { slug: { zoneSlug, zoneName, materials } } sets/fixes a craft recipe.",
+  "fromBase44": [
+    "bonefang",
+    "bone-pick",
+    "executioner-axe",
+    "exorcist-staff",
+    "holy-staff"
+  ],
+  "patch": {
+    "bonefang": {
+      "statsSecondary": [
+        "Double Attack: +50%",
+        "Venom Strike Hits: +1",
+        "Venom Strike Chains: +1"
+      ]
+    }
+  },
+  "add": [
+    {
+      "slug": "grave-helm",
+      "name": "Grave Helm",
+      "type": "Headgear",
+      "slot": "headgear",
+      "cardSlots": 1,
+      "statsPrimary": ["Def: +3", "Mdef: +3"],
+      "statsSecondary": ["Str: +1 per refine", "Int: +1 per refine", "Siphon Hp: +1 per refine"],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        { "label": "Def", "value": 3, "perRefine": 0, "percent": false },
+        { "label": "Mdef", "value": 3, "perRefine": 0, "percent": false },
+        { "label": "Str", "value": 0, "perRefine": 1, "percent": false },
+        { "label": "Int", "value": 0, "perRefine": 1, "percent": false },
+        { "label": "Siphon Hp", "value": 0, "perRefine": 1, "percent": false }
+      ],
+      "description": "Pale teeth gnash silently, because helmets should not need jaws.",
+      "sources": [],
+      "craft": { "zoneSlug": "swamp-wilderness", "zoneName": "Swamp Wilderness", "materials": [] }
+    },
+    {
+      "_note": "Not present in any data source (newer than both snapshots). Type/cardSlots/base Atk-Matk unknown — type 'Book' inferred from a bible being a caster weapon; base stats omitted rather than fabricated. Refine when in-game data is captured.",
+      "slug": "exorcist-bible",
+      "name": "Exorcist Bible",
+      "type": "Book",
+      "slot": "weapon",
+      "cardSlots": 0,
+      "statsPrimary": [],
+      "statsSecondary": [
+        "Faith: +2",
+        "Damnation: +2",
+        "Turn Undead: +2",
+        "Chance to autocast Turn Undead when hit: +3% per refine",
+        "Exorcism becomes Dark Exorcism"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        { "label": "Faith", "value": 2, "perRefine": 0, "percent": false },
+        { "label": "Damnation", "value": 2, "perRefine": 0, "percent": false },
+        { "label": "Turn Undead", "value": 2, "perRefine": 0, "percent": false },
+        { "label": "Chance to autocast Turn Undead when hit: +3% per refine", "raw": true },
+        { "label": "Exorcism becomes Dark Exorcism", "raw": true }
+      ],
+      "description": "",
+      "sources": [],
+      "craft": null
+    }
+  ],
+  "craft": {}
+}

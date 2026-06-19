@@ -1,13 +1,13 @@
 import { useStore } from '../state/store.jsx';
 import { items } from '../data/gear-index.js';
-import { resolveTile } from '../data/map-tiles.js';
+import { itemTiles } from '../logic/gear.js';
 
 export default function ItemDetail() {
   const { state, dispatch } = useStore();
   const item = state.selectedItemSlug ? items[state.selectedItemSlug] : null;
   if (!item) return <div className="item-detail empty"><p className="muted">Select a gear piece to see its stats and sources.</p></div>;
 
-  const tiles = [...new Set(item.sources.map((s) => resolveTile(s.zoneName, s.minLevel)).filter(Boolean).map((t) => t.id))];
+  const tiles = itemTiles(item); // drop zones + craft zone
   const addZones = () => tiles.forEach((id) => dispatch({ type: 'addToRoute', id, want: item.slug }));
 
   return (
