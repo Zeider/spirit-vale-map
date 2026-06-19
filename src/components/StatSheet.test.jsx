@@ -30,4 +30,13 @@ describe('StatSheet', () => {
     fireEvent.change(screen.getByTestId('attr-int'), { target: { value: '250' } });
     expect(screen.getByTestId('attr-int').value).toBe('99'); // clamped
   });
+  it('includes socketed card stats in the total', () => {
+    const init = { view: 'gear', selectedStage: 0,
+      build: { baseClass: 'rogue', advancedClass: null, levels: {}, notes: '',
+        attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 },
+        gearStages: [{ toLevel: 10, changes: { weapon: 'bonefang' }, cards: { weapon: ['Bee Card'] } }] } };
+    render(<StoreProvider init={init}><StatSheet /></StoreProvider>);
+    expect(screen.getByText('Hit')).toBeInTheDocument();
+    expect(screen.getByText('+25')).toBeInTheDocument();
+  });
 });
