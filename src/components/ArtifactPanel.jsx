@@ -1,29 +1,61 @@
-import { artifacts } from '../data/gear-index.js';
+import { useStore } from '../state/store.jsx';
+import { artifacts, artifactBySlug, gems, gemBySlug } from '../data/gear-index.js';
+import { effectiveArtifacts, ARTIFACT_TYPES, sortStages } from '../logic/gear.js';
+import Picker from './Picker.jsx';
+
+const TYPE_LABEL = { rune: 'Rune', jewel: 'Jewel', scroll: 'Scroll', relic: 'Relic' };
 
 export default function ArtifactPanel() {
-  if (!artifacts.length) return null;
+  const { state, dispatch } = useStore();
+  const stages = state.build.gearStages;
+  if (!stages.length) return null;
+  const sorted = sortStages(stages);
+  const idx = Math.min(state.selectedStage, sorted.length - 1);
+  const eff = effectiveArtifacts(sorted, idx);
+  const op = state.openPicker;
+
+  const counts = {};
+  for (const v of Object.values(eff)) if (v?.set) counts[v.set] = (counts[v.set] || 0) + 1;
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+
+  const setOpts = artifacts.map((a) => ({ key: a.slug, name: a.name, hint: (a.perPiece || [])[0] }));
+  const gemOpts = Object.values(gems).map((g) => ({ key: g.slug, name: g.name, hint: g.affix }));
+
   return (
     <div className="artifact-panel">
       <h3>Artifacts</h3>
-      <p className="muted artifact-intro">Set bonuses apply when wearing the full artifact set.</p>
-      <ul className="artifact-list">
-        {artifacts.map((a) => (
-          <li key={a.slug || a.name} className="artifact">
-            <div className="artifact-name">{a.name}</div>
-            {a.description && <div className="artifact-desc muted">{a.description}</div>}
-            {a.fullSet.length > 0 && (
-              <div className="artifact-grp"><span className="label">Set bonus</span>{a.fullSet.map((s, i) => <div key={i} className="tip-stat stat-skill">{s}</div>)}</div>
-            )}
-            {a.perPiece.length > 0 && (
-              <div className="artifact-grp"><span className="label">Per piece</span>{a.perPiece.map((s, i) => <div key={i} className="tip-stat">{s}</div>)}</div>
-            )}
-            {a.perRefine.length > 0 && (
-              <div className="artifact-grp"><span className="label">Per refine</span>{a.perRefine.map((s, i) => <div key={i} className="tip-stat">{s}</div>)}</div>
-            )}
-            {a.zones.length > 0 && <div className="artifact-zones muted">Found in: {a.zones.join(', ')}</div>}
-          </li>
-        ))}
+      <ul className="artifact-slots">
+        {ARTIFACT_TYPES.map((t) => {
+          const cur = eff[t];
+          const set = cur?.set ? artifactBySlug[cur.set] : null;
+          const gem = cur?.gem ? gemBySlug[cur.gem] : null;
+          return (
+            <li key={t} className="artifact-slot">
+              <span className="atype">{TYPE_LABEL[t]}</span>
+              <button className="aset" aria-label={`pick ${t} set`} onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
+                {set ? set.name : '＋ pick set'}
+              </button>
+              {set && (
+                <button className="agem" aria-label={`pick ${t} gem`} onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'gem', atype: t } })}>
+                  {gem ? `💎 ${gem.name}` : '＋ gem'}
+                </button>
+              )}
+            </li>
+          );
+        })}
       </ul>
+      {top && <div className={`artifact-setbar${top[1] === 4 ? ' full' : ''}`}>✦ Full-set: {top[1]}/4 {artifactBySlug[top[0]]?.name}</div>}
+
+      {op?.kind === 'artifact' && (
+        <Picker title={`${TYPE_LABEL[op.atype]} set`} options={setOpts} value={eff[op.atype]?.set || null}
+          onPick={(set) => { dispatch({ type: 'setArtifact', stageIndex: idx, atype: op.atype, set }); dispatch({ type: 'setPicker', picker: null }); }}
+          onClose={() => dispatch({ type: 'setPicker', picker: null })} />
+      )}
+      {op?.kind === 'gem' && (
+        <Picker title={`${TYPE_LABEL[op.atype]} gem`} options={gemOpts} value={eff[op.atype]?.gem || null}
+          onPick={(gem) => { dispatch({ type: 'setArtifactGem', stageIndex: idx, atype: op.atype, gem }); dispatch({ type: 'setPicker', picker: null }); }}
+          onClose={() => dispatch({ type: 'setPicker', picker: null })} />
+      )}
     </div>
   );
 }
