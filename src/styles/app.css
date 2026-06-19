@@ -50,6 +50,11 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .route-actions button:disabled { opacity: .35; cursor: default; }
 .route-summary { margin-top: 8px; border-top: 1px dashed var(--line); padding-top: 6px; font-size: 11px; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
 .route-summary .gaps { color: var(--route); }
+.route-gear-stages { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 10px; }
+.route-gear-stages .label { color: #9bf; margin-bottom: 6px; }
+.route-gear-stages .muted { font-size: 12px; margin: 0 0 8px; }
+.stage-caps { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+.stage-cap-chip { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 3px 8px; }
 
 .zone-drawer { margin-top: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
 .zone-drawer.empty { color: var(--muted); }

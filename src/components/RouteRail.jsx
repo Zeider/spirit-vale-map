@@ -3,13 +3,16 @@ import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
 import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
+import { stageRanges } from '../logic/gear.js';
 import ItemTooltip from './ItemTooltip.jsx';
 import AutoTextarea from './AutoTextarea.jsx';
+import AddGearStage from './AddGearStage.jsx';
 
 export default function RouteRail() {
   const { state, dispatch } = useStore();
   const [open, setOpen] = useState(null);
   const entries = state.route.map((e) => ({ ...e, tile: tileById[e.id] })).filter((e) => e.tile);
+  const stageRangeList = stageRanges(state.build.gearStages ?? []);
   const gaps = computeGaps(entries.map((e) => ({ minLevel: e.tile.minLevel, maxLevel: e.tile.maxLevel })));
   const min = entries.length ? Math.min(...entries.map((e) => e.tile.minLevel)) : null;
   const max = entries.length ? Math.max(...entries.map((e) => e.tile.maxLevel)) : null;
@@ -65,6 +68,19 @@ export default function RouteRail() {
           </div>
         </>
       )}
+      <div className="route-gear-stages">
+        <div className="label">GEAR STAGES</div>
+        {stageRangeList.length === 0 ? (
+          <p className="muted">No gear stages yet.</p>
+        ) : (
+          <div className="stage-caps">
+            {stageRangeList.map((r, i) => (
+              <span key={i} className="stage-cap-chip">Lv {r.start}–{r.toLevel}</span>
+            ))}
+          </div>
+        )}
+        <AddGearStage label="＋ Add gear stage" />
+      </div>
     </aside>
   );
 }

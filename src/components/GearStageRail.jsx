@@ -1,27 +1,15 @@
 import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
 import { stageRanges } from '../logic/gear.js';
+import AddGearStage from './AddGearStage.jsx';
 
 export default function GearStageRail() {
   const { state, dispatch } = useStore();
   const stages = state.build.gearStages ?? [];
   const ranges = stageRanges(stages);
-  const [adding, setAdding] = useState(false);
-  const [draft, setDraft] = useState('');
-  const [hint, setHint] = useState('');
   const [editIdx, setEditIdx] = useState(null);
   const [editDraft, setEditDraft] = useState('');
 
-  const nextStart = ranges.length ? ranges[ranges.length - 1].toLevel + 1 : 1;
-  const placeholder = Math.min(135, nextStart + 9);
-
-  const submitAdd = () => {
-    const n = parseInt(draft, 10);
-    if (!Number.isFinite(n)) { setAdding(false); setDraft(''); setHint(''); return; }
-    if (n < nextStart) { setHint(`Cap must be ≥ ${nextStart} (above the previous band).`); return; }
-    dispatch({ type: 'addGearStage', toLevel: Math.min(135, n) });
-    setAdding(false); setDraft(''); setHint('');
-  };
   const submitEdit = (i) => {
     const n = parseInt(editDraft, 10);
     if (Number.isFinite(n)) dispatch({ type: 'setStageCap', index: i, toLevel: n });
@@ -48,19 +36,8 @@ export default function GearStageRail() {
             <button className="chip-x" aria-label={`remove stage Lv ${r.start}–${r.toLevel}`} onClick={(e) => { e.stopPropagation(); dispatch({ type: 'removeGearStage', index: i }); }}>✕</button>
           </div>
         ))}
-        {adding ? (
-          <span className="stage-add-input">
-            <span className="pre">Lv {nextStart}–</span>
-            <input type="number" min={nextStart} max="135" autoFocus value={draft} placeholder={String(placeholder)}
-              onChange={(e) => { setDraft(e.target.value); setHint(''); }}
-              onKeyDown={(e) => { if (e.key === 'Enter') submitAdd(); if (e.key === 'Escape') { setAdding(false); setDraft(''); setHint(''); } }} />
-            <button onClick={submitAdd}>add</button>
-          </span>
-        ) : (
-          <button className="stage-add" onClick={() => { setDraft(''); setHint(''); setAdding(true); }}>＋ Add stage</button>
-        )}
+        <AddGearStage />
       </div>
-      {hint && <div className="stage-hint">{hint}</div>}
     </div>
   );
 }
