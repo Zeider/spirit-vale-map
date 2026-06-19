@@ -5,7 +5,7 @@ import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
 import { stageRanges } from '../logic/gear.js';
 import ItemTooltip from './ItemTooltip.jsx';
-import AutoTextarea from './AutoTextarea.jsx';
+import RichNote from './RichNote.jsx';
 import AddGearStage from './AddGearStage.jsx';
 
 export default function RouteRail() {
@@ -55,7 +55,7 @@ export default function RouteRail() {
                       {e.wants.length === 0 && <span className="muted">none yet</span>}
                     </div>
                     <div className="label">NOTES</div>
-                    <AutoTextarea className="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
+                    <RichNote taClassName="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
                       onChange={(ev) => dispatch({ type: 'setZoneNotes', id: e.id, notes: ev.target.value })} />
                   </div>
                 )}

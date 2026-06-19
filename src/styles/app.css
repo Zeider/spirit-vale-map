@@ -225,6 +225,25 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .want-count { color: var(--route); }
 .zone-notes { width: 100%; min-height: 40px; resize: vertical; background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 5px; padding: 5px; margin-top: 2px; font: inherit; }
 
+/* Rich note: markdown toolbar + preview */
+.rich-note { display: flex; flex-direction: column; gap: 4px; }
+.rich-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 3px; }
+.rich-toolbar button { background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 5px; min-width: 24px; height: 24px; padding: 0 6px; font-size: 12px; line-height: 1; cursor: pointer; }
+.rich-toolbar button:hover { border-color: var(--muted); }
+.rich-toolbar .rich-toggle { margin-left: auto; font-size: 11px; }
+.rich-toolbar .rich-toggle.on { background: var(--on); color: #123; border-color: var(--on); }
+.rich-color { display: inline-flex; align-items: center; justify-content: center; width: 24px; height: 24px; border: 1px solid var(--line); border-radius: 5px; position: relative; cursor: pointer; overflow: hidden; }
+.rich-color > span { font-size: 12px; pointer-events: none; }
+.rich-color input[type=color] { position: absolute; inset: 0; opacity: 0; padding: 0; border: 0; cursor: pointer; }
+.rich-preview { overflow-wrap: anywhere; }
+.rich-preview > :first-child { margin-top: 0; }
+.rich-preview > :last-child { margin-bottom: 0; }
+.rich-preview p { margin: 0 0 6px; }
+.rich-preview h4, .rich-preview h5, .rich-preview h6 { margin: 6px 0 4px; }
+.rich-preview ul, .rich-preview ol { margin: 4px 0; padding-left: 18px; }
+.rich-preview code { background: #1b2333; padding: 1px 4px; border-radius: 3px; font-size: .92em; }
+.rich-preview a { color: var(--route); }
+
 /* Inline stage add */
 .stage-add-input { display: inline-flex; gap: 4px; align-items: center; }
 .stage-add-input input { width: 56px; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; }
