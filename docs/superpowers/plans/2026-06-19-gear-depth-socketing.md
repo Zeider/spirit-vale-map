@@ -906,12 +906,12 @@ export default function ArtifactPanel() {
 
       {op?.kind === 'artifact' && (
         <Picker title={`${TYPE_LABEL[op.atype]} set`} options={setOpts} value={eff[op.atype]?.set || null}
-          onPick={(set) => { dispatch({ type: 'setArtifact', stageIndex: idx, type: op.atype, set }); dispatch({ type: 'setPicker', picker: null }); }}
+          onPick={(set) => { dispatch({ type: 'setArtifact', stageIndex: idx, atype: op.atype, set }); dispatch({ type: 'setPicker', picker: null }); }}
           onClose={() => dispatch({ type: 'setPicker', picker: null })} />
       )}
       {op?.kind === 'gem' && (
         <Picker title={`${TYPE_LABEL[op.atype]} gem`} options={gemOpts} value={eff[op.atype]?.gem || null}
-          onPick={(gem) => { dispatch({ type: 'setArtifactGem', stageIndex: idx, type: op.atype, gem }); dispatch({ type: 'setPicker', picker: null }); }}
+          onPick={(gem) => { dispatch({ type: 'setArtifactGem', stageIndex: idx, atype: op.atype, gem }); dispatch({ type: 'setPicker', picker: null }); }}
           onClose={() => dispatch({ type: 'setPicker', picker: null })} />
       )}
     </div>
