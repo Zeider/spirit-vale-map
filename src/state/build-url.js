@@ -2,6 +2,7 @@ import { classBySlug, skillById } from '../data/classes-index.js';
 import { treeOf, requirementsMet } from '../logic/build.js';
 import { items as gearItems, cardByName, gemBySlug, artifactBySlug } from '../data/gear-index.js';
 import { sortStages, ARTIFACT_TYPES } from '../logic/gear.js';
+import { pack, unpack } from './urlcodec.js';
 
 const DEFAULT_ATTRS = { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 };
 
@@ -64,23 +65,9 @@ export function normalizeStages(raw, isValidItem) {
   return sortStages(caps);
 }
 
-// base64url helpers (UTF-8 safe).
-function b64encode(obj) {
-  const json = JSON.stringify(obj);
-  const bytes = new TextEncoder().encode(json);
-  let bin = '';
-  bytes.forEach((b) => { bin += String.fromCharCode(b); });
-  return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-}
-function b64decode(str) {
-  const bin = atob(str.replace(/-/g, '+').replace(/_/g, '/'));
-  const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0));
-  return JSON.parse(new TextDecoder().decode(bytes));
-}
-
 export function encodeBuild(build) {
   if (!build?.baseClass) return '';
-  return b64encode({
+  return pack({
     baseClass: build.baseClass,
     advancedClass: build.advancedClass || null,
     levels: build.levels || {},
@@ -116,7 +103,7 @@ function decodeLegacy(str) {
 export function decodeBuild(str) {
   if (!str) return null;
   try {
-    const o = b64decode(str);
+    const o = unpack(str);
     return {
       baseClass: o.baseClass || null,
       advancedClass: o.advancedClass || null,

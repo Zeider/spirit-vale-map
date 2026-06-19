@@ -13,6 +13,18 @@ describe('build url (base64)', () => {
     expect(s).not.toContain('~'); // base64url, not legacy
     expect(decodeBuild(s)).toEqual(full);
   });
+  it('decodes a legacy base64url(JSON) build link (pre-compression back-compat)', () => {
+    const b64url = (obj) => {
+      const by = new TextEncoder().encode(JSON.stringify(obj));
+      let s = ''; by.forEach((x) => { s += String.fromCharCode(x); });
+      return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+    };
+    const old = b64url({ baseClass: 'mage', advancedClass: null, levels: {}, gearStages: [{ toLevel: 10, changes: { weapon: 'abyss-shard' } }], attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 }, notes: 'hi' });
+    const b = decodeBuild(old);
+    expect(b.baseClass).toBe('mage');
+    expect(b.gearStages).toEqual([{ toLevel: 10, changes: { weapon: 'abyss-shard' } }]);
+    expect(b.notes).toBe('hi');
+  });
   it('decodes a LEGACY ~-delimited build (back-compat)', () => {
     const b = decodeBuild('acolyte~priest~heal:5');
     expect(b.baseClass).toBe('acolyte');
