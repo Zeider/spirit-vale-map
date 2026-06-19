@@ -13,6 +13,7 @@ export const initialState = {
   selectedStage: 0,
   selectedItemSlug: null,
   openSlot: null,
+  openPicker: null,
 };
 
 export function reducer(state, action) {
@@ -93,6 +94,7 @@ export function reducer(state, action) {
     case 'selectStage': return { ...state, selectedStage: action.index };
     case 'selectItem': return { ...state, selectedItemSlug: action.slug };
     case 'selectItemSlot': return { ...state, openSlot: action.slot };
+    case 'setPicker': return { ...state, openPicker: action.picker };
     case 'incrementSkill': {
       const targets = dependencyTargets(action.id, state.build);
       return { ...state, build: { ...state.build, levels: { ...state.build.levels, ...targets } } };
