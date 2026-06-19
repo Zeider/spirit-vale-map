@@ -41441,7 +41441,7 @@
       "affix": "Death Coil",
       "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
       "stats": [
-        "? Damage +2% per refine"
+        "Death Coil Damage +2% per refine"
       ]
     },
     "death-nova-gem": {
@@ -41963,7 +41963,7 @@
       "affix": "Life Drain",
       "description": "A gem infused with ancient essence. When embedded into an Artifact, it awakens hidden strength within its bearer.",
       "stats": [
-        "? Damage +2% per refine"
+        "Life Drain Damage +2% per refine"
       ]
     },
     "lightning-release-gem": {

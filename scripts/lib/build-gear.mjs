@@ -102,6 +102,13 @@ export function buildGear(catalog, raw = {}) {
   const cards = {};
   for (const c of catalog.cards || []) cards[c.name] = cardOf(c, raw.cardBySlug && raw.cardBySlug.get(c.slug));
   const gems = {};
-  for (const g of catalog.gems || []) gems[g.slug] = gemOf(g);
+  // A few gems appear twice under one slug, one copy carrying a broken "?" placeholder
+  // stat (e.g. "? Damage" vs "Death Coil Damage"). Keep the non-placeholder copy.
+  const broken = (gem) => (gem.stats || []).some((s) => s.includes('?'));
+  for (const g of catalog.gems || []) {
+    const gem = gemOf(g);
+    const existing = gems[g.slug];
+    if (!existing || (broken(existing) && !broken(gem))) gems[g.slug] = gem;
+  }
   return { slots: SLOTS, items, cards, gems, artifacts: buildArtifacts(raw.artifacts || []) };
 }
