@@ -27,6 +27,13 @@ describe('socket reducer actions', () => {
     const s = reducer(withStage(), { type: 'setArtifactGem', stageIndex: 0, atype: 'jewel', gem: 'atk-gem' });
     expect(s.build.gearStages[0].artifacts?.jewel ?? undefined).toBeUndefined();
   });
+  it('openGearEditor opens the overlay on a stage; close clears it', () => {
+    let s = reducer(withStage(), { type: 'openGearEditor', index: 0 });
+    expect(s.gearOverlay).toBe(true);
+    expect(s.selectedStage).toBe(0);
+    s = reducer(s, { type: 'closeGearEditor' });
+    expect(s.gearOverlay).toBe(false);
+  });
   it('switching stages clears any open picker', () => {
     const s = reducer({ ...withStage(), openPicker: { kind: 'card', slot: 'weapon', index: 0 } }, { type: 'selectStage', index: 0 });
     expect(s.openPicker).toBe(null);

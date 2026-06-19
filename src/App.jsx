@@ -6,6 +6,7 @@ import RouteRail from './components/RouteRail.jsx';
 import ZoneDrawer from './components/ZoneDrawer.jsx';
 import BuildTab from './components/BuildTab.jsx';
 import GearTab from './components/GearTab.jsx';
+import GearEditorOverlay from './components/GearEditorOverlay.jsx';
 import HotspotCalibrator from './components/HotspotCalibrator.jsx';
 import { gameVersion } from './data/zones-index.js';
 
@@ -23,6 +24,7 @@ function Shell() {
         <>
           <div className="main"><MapView /><RouteRail /></div>
           <ZoneDrawer />
+          <GearEditorOverlay />
         </>
       )}
       <footer className="app-footer">

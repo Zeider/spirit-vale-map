@@ -4,7 +4,7 @@ import { stageRanges } from '../logic/gear.js';
 
 // Inline "add a gear stage" control (button -> cap input). Shared by GearStageRail
 // and RouteRail so a stage can be added without leaving the levelling-route view.
-export default function AddGearStage({ label = '＋ Add stage' }) {
+export default function AddGearStage({ label = '＋ Add stage', afterAdd }) {
   const { state, dispatch } = useStore();
   const ranges = stageRanges(state.build.gearStages ?? []);
   const [adding, setAdding] = useState(false);
@@ -20,6 +20,7 @@ export default function AddGearStage({ label = '＋ Add stage' }) {
     if (n < nextStart) { setHint(`Cap must be ≥ ${nextStart} (above the previous band).`); return; }
     dispatch({ type: 'addGearStage', toLevel: Math.min(135, n) });
     setAdding(false); setDraft(''); setHint('');
+    if (afterAdd) afterAdd();
   };
 
   return (

@@ -75,11 +75,12 @@ export default function RouteRail() {
         ) : (
           <div className="stage-caps">
             {stageRangeList.map((r, i) => (
-              <span key={i} className="stage-cap-chip">Lv {r.start}–{r.toLevel}</span>
+              <button key={i} className="stage-cap-chip" title="Edit this stage's gear"
+                onClick={() => dispatch({ type: 'openGearEditor', index: i })}>Lv {r.start}–{r.toLevel}</button>
             ))}
           </div>
         )}
-        <AddGearStage label="＋ Add gear stage" />
+        <AddGearStage label="＋ Add gear stage" afterAdd={() => dispatch({ type: 'openGearEditor' })} />
       </div>
     </aside>
   );

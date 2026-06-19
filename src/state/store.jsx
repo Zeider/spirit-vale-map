@@ -14,6 +14,7 @@ export const initialState = {
   selectedItemSlug: null,
   openSlot: null,
   openPicker: null,
+  gearOverlay: false,
 };
 
 export function reducer(state, action) {
@@ -92,6 +93,8 @@ export function reducer(state, action) {
       return { ...state, build: { ...state.build, gearStages: stages } };
     }
     case 'selectStage': return { ...state, selectedStage: action.index, openPicker: null };
+    case 'openGearEditor': return { ...state, gearOverlay: true, openPicker: null, openSlot: null, selectedStage: action.index ?? state.selectedStage };
+    case 'closeGearEditor': return { ...state, gearOverlay: false, openPicker: null, openSlot: null };
     case 'selectItem': return { ...state, selectedItemSlug: action.slug };
     case 'selectItemSlot': return { ...state, openSlot: action.slot };
     case 'setPicker': return { ...state, openPicker: action.picker };
