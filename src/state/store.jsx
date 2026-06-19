@@ -97,6 +97,37 @@ export function reducer(state, action) {
       const targets = dependencyTargets(action.id, state.build);
       return { ...state, build: { ...state.build, levels: { ...state.build.levels, ...targets } } };
     }
+    case 'setCardSlot': {
+      const stages = state.build.gearStages.map((s, i) => {
+        if (i !== action.stageIndex) return s;
+        const cards = { ...(s.cards || {}) };
+        const arr = [...(cards[action.slot] || [])];
+        arr[action.index] = action.card;
+        cards[action.slot] = arr;
+        return { ...s, cards };
+      });
+      return { ...state, build: { ...state.build, gearStages: stages } };
+    }
+    case 'setArtifact': {
+      const stages = state.build.gearStages.map((s, i) => {
+        if (i !== action.stageIndex) return s;
+        const artifacts = { ...(s.artifacts || {}) };
+        if (action.set == null) artifacts[action.atype] = null;
+        else artifacts[action.atype] = { set: action.set, gem: artifacts[action.atype]?.gem ?? null };
+        return { ...s, artifacts };
+      });
+      return { ...state, build: { ...state.build, gearStages: stages } };
+    }
+    case 'setArtifactGem': {
+      const stages = state.build.gearStages.map((s, i) => {
+        if (i !== action.stageIndex) return s;
+        const cur = (s.artifacts || {})[action.atype];
+        if (!cur?.set) return s;
+        const artifacts = { ...(s.artifacts || {}), [action.atype]: { ...cur, gem: action.gem } };
+        return { ...s, artifacts };
+      });
+      return { ...state, build: { ...state.build, gearStages: stages } };
+    }
     default: return state;
   }
 }
