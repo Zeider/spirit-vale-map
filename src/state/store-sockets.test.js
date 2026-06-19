@@ -27,4 +27,8 @@ describe('socket reducer actions', () => {
     const s = reducer(withStage(), { type: 'setArtifactGem', stageIndex: 0, atype: 'jewel', gem: 'atk-gem' });
     expect(s.build.gearStages[0].artifacts?.jewel ?? undefined).toBeUndefined();
   });
+  it('switching stages clears any open picker', () => {
+    const s = reducer({ ...withStage(), openPicker: { kind: 'card', slot: 'weapon', index: 0 } }, { type: 'selectStage', index: 0 });
+    expect(s.openPicker).toBe(null);
+  });
 });

@@ -70,7 +70,7 @@ export function reducer(state, action) {
     }
     case 'removeGearStage': {
       const stages = state.build.gearStages.filter((_, i) => i !== action.index);
-      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: Math.max(0, Math.min(state.selectedStage, stages.length - 1)) };
+      return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: Math.max(0, Math.min(state.selectedStage, stages.length - 1)), openPicker: null };
     }
     case 'setStageCap': {
       const v = clampCap(state.build.gearStages, action.index, action.toLevel);
@@ -91,7 +91,7 @@ export function reducer(state, action) {
       });
       return { ...state, build: { ...state.build, gearStages: stages } };
     }
-    case 'selectStage': return { ...state, selectedStage: action.index };
+    case 'selectStage': return { ...state, selectedStage: action.index, openPicker: null };
     case 'selectItem': return { ...state, selectedItemSlug: action.slug };
     case 'selectItemSlot': return { ...state, openSlot: action.slot };
     case 'setPicker': return { ...state, openPicker: action.picker };
