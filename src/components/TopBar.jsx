@@ -1,11 +1,26 @@
+import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
+import { saveShare } from '../state/shortlink.js';
 import { gameVersion } from '../data/zones-index.js';
 
 const FILTERS = ['all', 'equip', 'material', 'card', 'gem', 'consumable', 'artifact'];
 
 export default function TopBar() {
   const { state, dispatch } = useStore();
-  const share = async () => { try { await navigator.clipboard.writeText(window.location.href); } catch { /* clipboard unavailable */ } };
+  const [copied, setCopied] = useState('');
+  // Save the full state (build + route + view) as a durable short link; fall back
+  // to the long URL if Supabase is unreachable, then copy whichever we have.
+  const share = async () => {
+    const payload = { v: 1, build: state.build, route: state.route, view: state.view, lvl: state.playerLevel };
+    let url = window.location.href;
+    try {
+      const id = await saveShare(payload);
+      url = `${window.location.origin}${window.location.pathname}?s=${id}`;
+    } catch { /* Supabase unreachable — keep the long URL */ }
+    try { await navigator.clipboard.writeText(url); setCopied('✓ Copied!'); }
+    catch { setCopied('Copy failed'); }
+    setTimeout(() => setCopied(''), 1600);
+  };
   const tab = (v, label) => (
     <button className={state.view === v ? 'on' : ''} onClick={() => dispatch({ type: 'setView', view: v })}>{label}</button>
   );
@@ -25,11 +40,11 @@ export default function TopBar() {
               {FILTERS.map((f) => <option key={f} value={f}>{f}</option>)}
             </select>
           </label>
-          <button onClick={share}>🔗 Share route</button>
+          <button onClick={share}>{copied || '🔗 Share route'}</button>
         </>
       ) : (
         <>
-          <button onClick={share}>🔗 Share build</button>
+          <button onClick={share}>{copied || '🔗 Share build'}</button>
           <button onClick={() => dispatch({ type: 'resetBuild' })}>Reset</button>
         </>
       )}
