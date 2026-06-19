@@ -1,5 +1,21 @@
 {
-  "_comment": "Manual gear additions/fixes applied in scripts/build-gear.mjs. Use for items that exist in the live game but are in NEITHER upstream source (spiritvalemarket catalog, base44 equipment), and to add/fix craft recipes (zone) so items resolve to the route. `add` = full item objects (matching gear.json item shape); `craft` = { slug: { zoneSlug, zoneName, materials } } applied onto existing items.",
+  "_comment": "Manual gear layer applied in scripts/build-gear.mjs over the spiritvalemarket catalog (the default item list, which lags the live game). Order applied: fromBase44 -> add -> patch -> craft. `fromBase44` = slugs pulled from the newer/richer base44 dump (data/raw-base44/equipment.json) through the same buildItem transform (no hand transcription, no fabricated numbers). `add` = full hand-authored item objects for items in NO source. `patch` = shallow-merge fields onto an already-built item (parsedStats is recomputed). `craft` = { slug: { zoneSlug, zoneName, materials } } sets/fixes a craft recipe.",
+  "fromBase44": [
+    "bonefang",
+    "bone-pick",
+    "executioner-axe",
+    "exorcist-staff",
+    "holy-staff"
+  ],
+  "patch": {
+    "bonefang": {
+      "statsSecondary": [
+        "Double Attack: +50%",
+        "Venom Strike Hits: +1",
+        "Venom Strike Chains: +1"
+      ]
+    }
+  },
   "add": [
     {
       "slug": "grave-helm",
@@ -21,6 +37,34 @@
       "description": "Pale teeth gnash silently, because helmets should not need jaws.",
       "sources": [],
       "craft": { "zoneSlug": "swamp-wilderness", "zoneName": "Swamp Wilderness", "materials": [] }
+    },
+    {
+      "_note": "Not present in any data source (newer than both snapshots). Type/cardSlots/base Atk-Matk unknown — type 'Book' inferred from a bible being a caster weapon; base stats omitted rather than fabricated. Refine when in-game data is captured.",
+      "slug": "exorcist-bible",
+      "name": "Exorcist Bible",
+      "type": "Book",
+      "slot": "weapon",
+      "cardSlots": 0,
+      "statsPrimary": [],
+      "statsSecondary": [
+        "Faith: +2",
+        "Damnation: +2",
+        "Turn Undead: +2",
+        "Chance to autocast Turn Undead when hit: +3% per refine",
+        "Exorcism becomes Dark Exorcism"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        { "label": "Faith", "value": 2, "perRefine": 0, "percent": false },
+        { "label": "Damnation", "value": 2, "perRefine": 0, "percent": false },
+        { "label": "Turn Undead", "value": 2, "perRefine": 0, "percent": false },
+        { "label": "Chance to autocast Turn Undead when hit: +3% per refine", "raw": true },
+        { "label": "Exorcism becomes Dark Exorcism", "raw": true }
+      ],
+      "description": "",
+      "sources": [],
+      "craft": null
     }
   ],
   "craft": {}

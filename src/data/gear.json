@@ -3398,8 +3398,8 @@
       ],
       "statsSecondary": [
         "Double Attack: +50%",
-        "Venom Strike Damage +25%",
-        "Venom Strike Mana Cost: -20%"
+        "Venom Strike Hits: +1",
+        "Venom Strike Chains: +1"
       ],
       "setBonus": [],
       "setName": null,
@@ -3417,17 +3417,19 @@
           "percent": true
         },
         {
-          "label": "Venom Strike Damage +25%",
-          "raw": true
+          "label": "Venom Strike Hits",
+          "value": 1,
+          "perRefine": 0,
+          "percent": false
         },
         {
-          "label": "Venom Strike Mana Cost",
-          "value": -20,
+          "label": "Venom Strike Chains",
+          "value": 1,
           "perRefine": 0,
-          "percent": true
+          "percent": false
         }
       ],
-      "description": "Carved from fang and marrow, its poisoned edge festers wounds. Each cut drips venom that saps strength over time.",
+      "description": "Fang and marrow leave wounds that refuse to rest.",
       "sources": [
         {
           "monster": "Rat Dark",
@@ -3436,7 +3438,7 @@
           "zoneName": "Nevaris Sewers",
           "zoneSlug": "nevaris-sewers",
           "minLevel": 16,
-          "maxLevel": 20
+          "maxLevel": 16
         },
         {
           "monster": "Rat Grey",
@@ -3444,8 +3446,8 @@
           "chance": 4,
           "zoneName": "Nevaris Sewers",
           "zoneSlug": "nevaris-sewers",
-          "minLevel": 16,
-          "maxLevel": 20
+          "minLevel": 18,
+          "maxLevel": 18
         }
       ],
       "craft": {
@@ -9346,8 +9348,8 @@
       ],
       "statsSecondary": [
         "Crit Damage: +10%",
-        "Execute Damage +15%",
-        "Execute Cooldown: -2s"
+        "Execute Damage +15% +1% per refine",
+        "Skill charges: +1"
       ],
       "setBonus": [],
       "setName": null,
@@ -9365,26 +9367,35 @@
           "percent": true
         },
         {
-          "label": "Execute Damage +15%",
+          "label": "Execute Damage +15% +1% per refine",
           "raw": true
         },
         {
-          "label": "Execute Cooldown",
-          "value": -2,
+          "label": "Skill charges",
+          "value": 1,
           "perRefine": 0,
           "percent": false
         }
       ],
-      "description": "Built to finish what others hesitate to start.",
+      "description": "“Mercy has its place. So does ending a problem cleanly.” — Suphara",
       "sources": [
+        {
+          "monster": "Cinderspike",
+          "isBoss": false,
+          "chance": 2,
+          "zoneName": "Dark Forest",
+          "zoneSlug": "dark-forest",
+          "minLevel": 92,
+          "maxLevel": 92
+        },
         {
           "monster": "Fangroot",
           "isBoss": false,
           "chance": 2,
           "zoneName": "Dark Forest",
           "zoneSlug": "dark-forest",
-          "minLevel": 91,
-          "maxLevel": 95
+          "minLevel": 94,
+          "maxLevel": 94
         },
         {
           "monster": "Voidspawn",
@@ -9392,17 +9403,8 @@
           "chance": 2,
           "zoneName": "Dark Forest",
           "zoneSlug": "dark-forest",
-          "minLevel": 91,
-          "maxLevel": 95
-        },
-        {
-          "monster": "Cinderspike",
-          "isBoss": false,
-          "chance": 2,
-          "zoneName": "Dark Forest",
-          "zoneSlug": "dark-forest",
-          "minLevel": 91,
-          "maxLevel": 95
+          "minLevel": 93,
+          "maxLevel": 93
         }
       ],
       "craft": null
@@ -14176,14 +14178,12 @@
       "cardSlots": 2,
       "statsPrimary": [
         "Atk: +5 +0.5 per refine",
-        "Matk: +30 +3 per refine"
+        "Matk: +25 +2.5 per refine"
       ],
       "statsSecondary": [
         "Cast Spd: +15%",
-        "Exorcism Damage +120% per refine",
-        "Exorcism Duration: -10s",
-        "Chance to autocast Turn Undead when hit: +1% per refine",
-        "Turn Undead Cooldown: -1s"
+        "Exorcism Damage +15%",
+        "Exorcism Cooldown: -2s"
       ],
       "setBonus": [],
       "setName": null,
@@ -14196,8 +14196,8 @@
         },
         {
           "label": "Matk",
-          "value": 30,
-          "perRefine": 3,
+          "value": 25,
+          "perRefine": 2.5,
           "percent": false
         },
         {
@@ -14207,47 +14207,26 @@
           "percent": true
         },
         {
-          "label": "Exorcism Damage +120% per refine",
+          "label": "Exorcism Damage +15%",
           "raw": true
         },
         {
-          "label": "Exorcism Duration",
-          "value": -10,
-          "perRefine": 0,
-          "percent": false
-        },
-        {
-          "label": "Chance to autocast Turn Undead when hit",
-          "value": 1,
-          "perRefine": 0,
-          "percent": true
-        },
-        {
-          "label": "Turn Undead Cooldown",
-          "value": -1,
+          "label": "Exorcism Cooldown",
+          "value": -2,
           "perRefine": 0,
           "percent": false
         }
       ],
-      "description": "A sanctified wand that channels pure faith into light. Each spell cast through it carries the weight of judgment and mercy.",
+      "description": "“Mercy and judgment share a handle. Choose carefully.” — Suphara",
       "sources": [
-        {
-          "monster": "Angel Mage",
-          "isBoss": true,
-          "chance": 10,
-          "zoneName": "Sanctum of Light",
-          "zoneSlug": "sanctum-of-light",
-          "minLevel": 81,
-          "maxLevel": 85
-        },
         {
           "monster": "Phantom",
           "isBoss": false,
           "chance": 2,
           "zoneName": "Sanctum of Light",
           "zoneSlug": "sanctum-of-light",
-          "minLevel": 81,
-          "maxLevel": 85
+          "minLevel": 83,
+          "maxLevel": 83
         }
       ],
       "craft": {
@@ -38258,6 +38237,189 @@
         ]
       }
     },
+    "bone-pick": {
+      "slug": "bone-pick",
+      "name": "Bone Pick",
+      "type": "Dagger",
+      "slot": "weapon",
+      "cardSlots": 2,
+      "statsPrimary": [
+        "Atk: +15 +1.5 per refine"
+      ],
+      "statsSecondary": [
+        "Double Attack: +50%",
+        "Atk: +1 per refine",
+        "Crit: +1 per refine",
+        "Chance to autocast Bone Spear when attacking: +1% per refine"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Atk",
+          "value": 15,
+          "perRefine": 1.5,
+          "percent": false
+        },
+        {
+          "label": "Double Attack",
+          "value": 50,
+          "perRefine": 0,
+          "percent": true
+        },
+        {
+          "label": "Atk",
+          "value": 1,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Crit",
+          "value": 1,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Chance to autocast Bone Spear when attacking",
+          "value": 1,
+          "perRefine": 0,
+          "percent": true
+        }
+      ],
+      "description": "",
+      "sources": [
+        {
+          "monster": "Wolf",
+          "isBoss": false,
+          "chance": 3,
+          "zoneName": "Festering Woods 2",
+          "zoneSlug": "festering-woods-2",
+          "minLevel": 30,
+          "maxLevel": 30
+        }
+      ],
+      "craft": null
+    },
+    "exorcist-staff": {
+      "slug": "exorcist-staff",
+      "name": "Exorcist Staff",
+      "type": "Staff",
+      "slot": "weapon",
+      "cardSlots": 2,
+      "statsPrimary": [
+        "Atk: +5 +0.5 per refine",
+        "Matk: +30 +3 per refine"
+      ],
+      "statsSecondary": [
+        "Cast Spd: +15%",
+        "Exorcism Damage +120% per refine",
+        "Exorcism Duration: -10s",
+        "Chance to autocast Turn Undead when hit: +1% per refine",
+        "Turn Undead Cooldown: -1s"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Atk",
+          "value": 5,
+          "perRefine": 0.5,
+          "percent": false
+        },
+        {
+          "label": "Matk",
+          "value": 30,
+          "perRefine": 3,
+          "percent": false
+        },
+        {
+          "label": "Cast Spd",
+          "value": 15,
+          "perRefine": 0,
+          "percent": true
+        },
+        {
+          "label": "Exorcism Damage +120% per refine",
+          "raw": true
+        },
+        {
+          "label": "Exorcism Duration",
+          "value": -10,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Chance to autocast Turn Undead when hit",
+          "value": 1,
+          "perRefine": 0,
+          "percent": true
+        },
+        {
+          "label": "Turn Undead Cooldown",
+          "value": -1,
+          "perRefine": 0,
+          "percent": false
+        }
+      ],
+      "description": "",
+      "sources": [
+        {
+          "monster": "Cyclops Bat",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Keep",
+          "zoneSlug": "abyss-castle-keep",
+          "minLevel": 111,
+          "maxLevel": 111
+        },
+        {
+          "monster": "Cyclops Bat Wizard",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Keep",
+          "zoneSlug": "abyss-castle-keep",
+          "minLevel": 113,
+          "maxLevel": 113
+        },
+        {
+          "monster": "Eyeball Creep Green",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Crypt",
+          "zoneSlug": "abyss-castle-crypt",
+          "minLevel": 118,
+          "maxLevel": 118
+        },
+        {
+          "monster": "Gloom",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Crypt",
+          "zoneSlug": "abyss-castle-crypt",
+          "minLevel": 116,
+          "maxLevel": 116
+        },
+        {
+          "monster": "Grim Reaper",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Crypt",
+          "zoneSlug": "abyss-castle-crypt",
+          "minLevel": 119,
+          "maxLevel": 119
+        },
+        {
+          "monster": "Skeleton Giant",
+          "isBoss": false,
+          "chance": 1,
+          "zoneName": "Abyss Castle Keep",
+          "zoneSlug": "abyss-castle-keep",
+          "minLevel": 115,
+          "maxLevel": 115
+        }
+      ],
+      "craft": null
+    },
     "grave-helm": {
       "slug": "grave-helm",
       "name": "Grave Helm",
@@ -38314,6 +38476,55 @@
         "zoneName": "Swamp Wilderness",
         "materials": []
       }
+    },
+    "exorcist-bible": {
+      "_note": "Not present in any data source (newer than both snapshots). Type/cardSlots/base Atk-Matk unknown — type 'Book' inferred from a bible being a caster weapon; base stats omitted rather than fabricated. Refine when in-game data is captured.",
+      "slug": "exorcist-bible",
+      "name": "Exorcist Bible",
+      "type": "Book",
+      "slot": "weapon",
+      "cardSlots": 0,
+      "statsPrimary": [],
+      "statsSecondary": [
+        "Faith: +2",
+        "Damnation: +2",
+        "Turn Undead: +2",
+        "Chance to autocast Turn Undead when hit: +3% per refine",
+        "Exorcism becomes Dark Exorcism"
+      ],
+      "setBonus": [],
+      "setName": null,
+      "parsedStats": [
+        {
+          "label": "Faith",
+          "value": 2,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Damnation",
+          "value": 2,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Turn Undead",
+          "value": 2,
+          "perRefine": 0,
+          "percent": false
+        },
+        {
+          "label": "Chance to autocast Turn Undead when hit: +3% per refine",
+          "raw": true
+        },
+        {
+          "label": "Exorcism becomes Dark Exorcism",
+          "raw": true
+        }
+      ],
+      "description": "",
+      "sources": [],
+      "craft": null
     }
   },
   "cards": {
