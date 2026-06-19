@@ -1,5 +1,5 @@
 import { StoreProvider, useStore } from './state/store.jsx';
-import { loadInitialState, usePersist } from './state/sync.js';
+import { loadInitialState, usePersist, useShareHydrate } from './state/sync.js';
 import TopBar from './components/TopBar.jsx';
 import MapView from './components/MapView.jsx';
 import RouteRail from './components/RouteRail.jsx';
@@ -11,8 +11,12 @@ import HotspotCalibrator from './components/HotspotCalibrator.jsx';
 import { gameVersion } from './data/zones-index.js';
 
 function Shell() {
-  const { state } = useStore();
+  const { state, dispatch } = useStore();
   usePersist(state);
+  useShareHydrate(dispatch);
+  if (state.shareLoading) {
+    return <div className="app"><p className="muted share-loading">Loading shared build…</p></div>;
+  }
   return (
     <div className="app">
       <TopBar />

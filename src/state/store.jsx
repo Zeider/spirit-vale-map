@@ -15,6 +15,7 @@ export const initialState = {
   openSlot: null,
   openPicker: null,
   gearOverlay: false,
+  shareLoading: false,
 };
 
 export function reducer(state, action) {

@@ -84,6 +84,7 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .drop-chance { font-weight: 700; }
 .muted { color: var(--muted); }
 .app-footer { margin-top: 16px; font-size: 11px; color: var(--muted); text-align: center; }
+.share-loading { padding: 48px 12px; text-align: center; }
 
 @media (max-width: 800px) {
   .main { flex-direction: column; }
