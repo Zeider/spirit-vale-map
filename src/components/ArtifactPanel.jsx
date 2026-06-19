@@ -18,8 +18,11 @@ export default function ArtifactPanel() {
   for (const v of Object.values(eff)) if (v?.set) counts[v.set] = (counts[v.set] || 0) + 1;
   const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
 
-  const setOpts = artifacts.map((a) => ({ key: a.slug, name: a.name, hint: (a.perPiece || [])[0] }));
-  const gemOpts = Object.values(gems).map((g) => ({ key: g.slug, name: g.name, hint: g.affix }));
+  const setOpts = artifacts.map((a) => {
+    const stats = [...(a.perPiece || []), ...(a.fullSet || [])];
+    return { key: a.slug, name: a.name, hint: (a.perPiece || []).join(' · '), search: `${a.name} ${stats.join(' ')}` };
+  });
+  const gemOpts = Object.values(gems).map((g) => ({ key: g.slug, name: g.name, hint: g.affix, search: `${g.name} ${g.affix} ${(g.stats || []).join(' ')}` }));
 
   return (
     <div className="artifact-panel">

@@ -3,7 +3,9 @@ import { useState } from 'react';
 export default function Picker({ title, options, value, onPick, onClose }) {
   const [q, setQ] = useState('');
   const ql = q.trim().toLowerCase();
-  const list = ql ? options.filter((o) => o.name.toLowerCase().includes(ql)) : options;
+  // Match against the option's full searchable text (name + stats) when provided,
+  // so e.g. "hit" surfaces every card that grants Hit, not just name matches.
+  const list = ql ? options.filter((o) => (o.search || o.name).toLowerCase().includes(ql)) : options;
   return (
     <div className="picker">
       <div className="picker-head">

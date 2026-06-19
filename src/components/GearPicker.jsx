@@ -8,7 +8,11 @@ export default function GearPicker() {
   const slot = state.openSlot;
   if (!slot) return null;
 
-  const list = itemsForSlot(slot).filter((i) => i.name.toLowerCase().includes(q.toLowerCase()));
+  const ql = q.trim().toLowerCase();
+  const statsOf = (i) => [...(i.statsPrimary || []), ...(i.statsSecondary || [])];
+  // Match name, type, or any stat line so "hit" surfaces every item granting Hit.
+  const list = itemsForSlot(slot).filter((i) => !ql || `${i.name} ${i.type} ${statsOf(i).join(' ')}`.toLowerCase().includes(ql));
+  const matchedStat = (i) => (ql ? statsOf(i).find((s) => s.toLowerCase().includes(ql)) : null);
   const pick = (slug) => { dispatch({ type: 'setGearSlot', stageIndex: state.selectedStage, slot, item: slug }); dispatch({ type: 'selectItem', slug }); dispatch({ type: 'selectItemSlot', slot: null }); };
 
   return (
@@ -21,7 +25,10 @@ export default function GearPicker() {
       </div>
       <ul className="gear-picker-list">
         {list.map((i) => (
-          <li key={i.slug}><button onClick={() => pick(i.slug)}>{i.name} <span className="muted">{i.type}</span></button></li>
+          <li key={i.slug}><button onClick={() => pick(i.slug)}>
+            {i.name} <span className="muted">{i.type}</span>
+            {matchedStat(i) && <span className="picker-stat">{matchedStat(i)}</span>}
+          </button></li>
         ))}
       </ul>
     </div>

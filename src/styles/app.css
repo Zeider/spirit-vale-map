@@ -164,6 +164,7 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .gear-picker-list { list-style: none; margin: 6px 0 0; padding: 0; overflow: auto; max-height: 280px; }
 .gear-picker-list button { width: 100%; text-align: left; background: none; border: 0; color: var(--text); padding: 5px 6px; cursor: pointer; border-radius: 5px; font-size: 12px; }
 .gear-picker-list button:hover { background: #1a2236; }
+.picker-stat { color: var(--on); font-size: 11px; margin-left: 6px; }
 .item-detail { flex: 1; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 12px; }
 .item-detail.empty { color: var(--muted); }
 .item-detail h3 { margin: 0 0 6px; font-size: 14px; }

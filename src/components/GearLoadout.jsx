@@ -73,7 +73,7 @@ export default function GearLoadout() {
       const cat = categoryOf(op.slot);
       const options = Object.values(allCards)
         .filter((c) => !c.equipSlot || c.equipSlot.toLowerCase() === cat)
-        .map((c) => ({ key: c.name, name: c.name, hint: (c.stats || [])[0] }));
+        .map((c) => ({ key: c.name, name: c.name, hint: (c.stats || []).join(' · '), search: `${c.name} ${(c.stats || []).join(' ')}` }));
       const current = (stageCards[op.slot] || [])[op.index] || null;
       return (
         <Picker title={`${SLOT_LABELS[op.slot]} card`} options={options} value={current}
