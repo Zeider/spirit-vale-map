@@ -8,7 +8,9 @@ import { renderMarkdown } from '../logic/markdown.js';
 export default function RichNote({ value, onChange, placeholder, taClassName, grow = true, taRef, minHeight = 56 }) {
   const innerRef = useRef(null);
   const selRef = useRef({ start: 0, end: 0 });
-  const [preview, setPreview] = useState(false);
+  // Default to rendered when there's already content, so a viewer (e.g. opening a
+  // shared build) sees formatted notes, not the raw-markdown editor. Empty → edit.
+  const [preview, setPreview] = useState(() => Boolean(value && String(value).trim()));
 
   const setRef = (node) => {
     innerRef.current = node;

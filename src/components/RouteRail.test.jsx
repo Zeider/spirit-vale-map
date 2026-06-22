@@ -11,7 +11,7 @@ describe('RouteRail', () => {
   it('expands a zone to show notes + wants', () => {
     render(<StoreProvider init={{ route: [{ id: 'swamp', notes: 'farm', wants: ['abyss-shard'] }] }}><RouteRail /></StoreProvider>);
     fireEvent.click(screen.getByRole('button', { name: /^expand swamp$/i }));
-    expect(screen.getByDisplayValue('farm')).toBeInTheDocument();
+    expect(screen.getByText('farm')).toBeInTheDocument(); // a note with content renders by default
     expect(screen.getAllByText(/Abyss Shard/i).length).toBeGreaterThan(0);
   });
   it('adds a gear stage from the route rail without leaving the view', () => {
