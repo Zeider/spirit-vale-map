@@ -352,3 +352,8 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .bd-copy { align-self: flex-start; background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 8px 14px; cursor: pointer; font-weight: 600; }
 .ro-build { display: flex; flex-direction: column; gap: 14px; }
 .ro-cls { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+
+.bd-actions { display: flex; gap: 8px; align-items: center; }
+.bd-like { background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 6px; padding: 8px 14px; cursor: pointer; font-weight: 600; }
+.bd-like.on { border-color: #ff7c9a; color: #ff7c9a; }
+.bd-like:hover { border-color: #ff7c9a; }

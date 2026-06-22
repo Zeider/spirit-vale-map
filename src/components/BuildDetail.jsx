@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useStore } from '../state/store.jsx';
-import { getBuild } from '../state/gallery.js';
+import { getBuild, toggleLike, hasLiked } from '../state/gallery.js';
+import { useAuth } from '../state/useAuth.js';
 import { classBySlug } from '../data/classes-index.js';
 import { classColor } from '../logic/gallery-ui.js';
 import ReadOnlyBuild from './ReadOnlyBuild.jsx';
@@ -10,6 +11,20 @@ export default function BuildDetail() {
   const id = state.galleryBuildId;
   const [row, setRow] = useState(undefined); // undefined=loading, null=not found
   useEffect(() => { if (id) getBuild(id).then(setRow).catch(() => setRow(null)); }, [id]);
+
+  const { user, signInWithDiscord } = useAuth();
+  const [liked, setLiked] = useState(false);
+  const [likeCount, setLikeCount] = useState(0);
+  useEffect(() => { setLikeCount(row && row !== null ? row.like_count : 0); }, [row]);
+  useEffect(() => { if (id && user) hasLiked(id).then(setLiked); else setLiked(false); }, [id, user]);
+
+  const like = async () => {
+    if (!user) { signInWithDiscord(); return; }
+    const next = !liked;
+    setLiked(next); setLikeCount((c) => c + (next ? 1 : -1)); // optimistic
+    try { await toggleLike(row.id); }
+    catch { setLiked(!next); setLikeCount((c) => c + (next ? -1 : 1)); } // revert
+  };
 
   const back = () => dispatch({ type: 'setGalleryBuild', id: null });
   if (row === undefined) return <p className="muted build-empty">Loading build…</p>;
@@ -30,7 +45,12 @@ export default function BuildDetail() {
         </div>
         <div className="bd-tags">{[...(row.role || []), ...(row.content || [])].map((t) => <span key={t} className="gtag">{t}</span>)}</div>
         {row.description && <p className="bd-desc">{row.description}</p>}
-        <button className="bd-copy" onClick={copy}>⎘ Copy to my planner</button>
+        <div className="bd-actions">
+          <button className={`bd-like${liked ? ' on' : ''}`} aria-label="like build" onClick={like}>
+            {liked ? '♥' : '♡'} {likeCount}
+          </button>
+          <button className="bd-copy" onClick={copy}>⎘ Copy to my planner</button>
+        </div>
       </div>
       <ReadOnlyBuild build={row.build} />
     </div>
