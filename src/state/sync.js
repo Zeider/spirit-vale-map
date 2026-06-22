@@ -21,10 +21,11 @@ export function loadInitialState() {
   // usePersist rewrites it (otherwise the session is never established).
   if (isOAuthCallback()) {
     const v = params.get('view');
-    return { authCallback: true, view: ['build', 'gear', 'my-builds'].includes(v) ? v : 'atlas' };
+    return { authCallback: true, view: ['build', 'gear', 'my-builds', 'builds'].includes(v) ? v : 'atlas' };
   }
   const v = params.get('view');
-  const view = ['build', 'gear', 'my-builds'].includes(v) ? v : 'atlas';
+  const view = ['build', 'gear', 'my-builds', 'builds'].includes(v) ? v : 'atlas';
+  const galleryBuildId = view === 'builds' ? (params.get('b') || null) : null;
   const lvl = parseInt(params.get('lvl'), 10);
   let route = sanitizeRoute(decodeRoute(params.get('route') || ''));
   let playerLevel = Number.isFinite(lvl) ? lvl : 1;
@@ -36,7 +37,7 @@ export function loadInitialState() {
     } catch { /* ignore */ }
   }
   const build = sanitizeBuild(decodeBuild(params.get('build')));
-  return { view, playerLevel, route, ...(build ? { build } : {}) };
+  return { view, playerLevel, route, galleryBuildId, ...(build ? { build } : {}) };
 }
 
 // Explicitly exchange the OAuth ?code= for a session, then clear the flag so
@@ -88,6 +89,10 @@ export function usePersist(state) {
   useEffect(() => {
     if (state.shareLoading || state.authCallback) return; // don't clobber a ?s= or OAuth ?code= URL
     const path = window.location.pathname;
+    if (state.view === 'builds') {
+      window.history.replaceState(null, '', `${path}?view=builds${state.galleryBuildId ? `&b=${state.galleryBuildId}` : ''}`);
+      return;
+    }
     if (state.view === 'my-builds') {
       window.history.replaceState(null, '', `${path}?view=my-builds`);
       localStorage.setItem(LS_KEY, JSON.stringify({ playerLevel: state.playerLevel, route: state.route }));
@@ -109,5 +114,5 @@ export function usePersist(state) {
       window.history.replaceState(null, '', `${path}${qs ? `?${qs}` : ''}`);
     }
     localStorage.setItem(LS_KEY, JSON.stringify({ playerLevel: state.playerLevel, route: state.route }));
-  }, [state.view, state.playerLevel, state.route, state.build, state.shareLoading]);
+  }, [state.view, state.playerLevel, state.route, state.build, state.galleryBuildId, state.shareLoading]);
 }

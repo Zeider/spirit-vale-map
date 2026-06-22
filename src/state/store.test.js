@@ -31,4 +31,18 @@ describe('reducer', () => {
     expect(reducer(initialState, { type: 'hydrate', state: { playerLevel: 7, route: [{ id: 'x', notes: '', wants: [] }] } }))
       .toMatchObject({ playerLevel: 7, route: [{ id: 'x', notes: '', wants: [] }] });
   });
+  it('setGalleryBuild opens the gallery on a build id', () => {
+    const s = reducer(initialState, { type: 'setGalleryBuild', id: 'abc123' });
+    expect(s.view).toBe('builds');
+    expect(s.galleryBuildId).toBe('abc123');
+  });
+  it('setGalleryBuild with null shows the gallery list', () => {
+    const s = reducer({ ...initialState, galleryBuildId: 'x' }, { type: 'setGalleryBuild', id: null });
+    expect(s.view).toBe('builds');
+    expect(s.galleryBuildId).toBeNull();
+  });
+  it('initialState defaults readOnly false and galleryBuildId null', () => {
+    expect(initialState.readOnly).toBe(false);
+    expect(initialState.galleryBuildId).toBeNull();
+  });
 });
