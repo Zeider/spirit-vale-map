@@ -333,3 +333,12 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .gcard-tags { display: flex; flex-wrap: wrap; gap: 4px; }
 .gtag { font-size: 10px; background: #1a2336; border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; color: var(--muted); }
 .gcard-meta { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+.gallery { padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.g-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.g-featured { display: flex; flex-direction: column; gap: 8px; }
+.g-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.g-filters input[type=search], .g-filters select { background: var(--panel); border: 1px solid var(--line); color: var(--text); border-radius: 6px; padding: 6px 8px; }
+.g-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.gchip { background: var(--panel); border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer; }
+.gchip.on { border-color: var(--route); color: var(--text); }
