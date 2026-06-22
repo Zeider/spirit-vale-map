@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
 import { saveShare } from '../state/shortlink.js';
 import { gameVersion } from '../data/zones-index.js';
+import AuthButton from './AuthButton.jsx';
 
 const FILTERS = ['all', 'equip', 'material', 'card', 'gem', 'consumable', 'artifact'];
 
@@ -48,6 +49,7 @@ export default function TopBar() {
           <button onClick={() => dispatch({ type: 'resetBuild' })}>Reset</button>
         </>
       )}
+      <AuthButton />
       <span className="game-version" title="Game data version">{gameVersion}</span>
     </header>
   );

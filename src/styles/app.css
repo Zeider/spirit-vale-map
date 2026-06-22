@@ -284,3 +284,13 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .picker-opt { width: 100%; text-align: left; background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
 .picker-opt.on { border-color: var(--on); }
 .picker-opt.none { color: var(--muted); }
+
+/* AuthButton */
+.discord-btn { background:#5865F2; color:#fff; border:0; border-radius:6px; padding:6px 10px; cursor:pointer; font-size:12px; }
+.auth-menu { position:relative; }
+.auth-avatar { display:inline-flex; align-items:center; gap:5px; background:#161d2e; color:var(--text); border:1px solid var(--line); border-radius:6px; padding:4px 8px; cursor:pointer; font-size:12px; }
+.auth-avatar img { width:18px; height:18px; border-radius:50%; }
+.auth-avatar .av { width:18px; height:18px; border-radius:50%; background:#5865F2; }
+.auth-pop { position:absolute; right:0; top:110%; background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:4px; display:flex; flex-direction:column; z-index:20; }
+.auth-pop button { background:none; border:0; color:var(--text); text-align:left; padding:6px 10px; cursor:pointer; border-radius:5px; font-size:12px; }
+.auth-pop button:hover { background:#1a2236; }
