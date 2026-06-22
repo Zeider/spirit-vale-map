@@ -342,3 +342,13 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .g-chips { display: flex; flex-wrap: wrap; gap: 4px; }
 .gchip { background: var(--panel); border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer; }
 .gchip.on { border-color: var(--route); color: var(--text); }
+
+.build-detail { padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.bd-head { display: flex; flex-direction: column; gap: 6px; }
+.bd-head h2 { border-left: 4px solid var(--muted); padding-left: 10px; margin: 4px 0 0; }
+.bd-sub { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+.bd-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+.bd-desc { color: var(--muted); max-width: 70ch; }
+.bd-copy { align-self: flex-start; background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 8px 14px; cursor: pointer; font-weight: 600; }
+.ro-build { display: flex; flex-direction: column; gap: 14px; }
+.ro-cls { font-size: 12px; text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
