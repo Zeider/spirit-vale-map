@@ -9,6 +9,15 @@ const ro = (ui, build) => render(<StoreProvider init={{ readOnly: true, build }}
 const rw = (ui, build) => render(<StoreProvider init={{ readOnly: false, build }}>{ui}</StoreProvider>);
 const baseBuild = { baseClass: 'mage', advancedClass: null, levels: {}, gearStages: [], notes: 'farm **hard**', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } };
 const buildWithStage = { ...baseBuild, gearStages: [{ toLevel: 30 }] };
+// Stage with an equipped weapon and a rune artifact so StatSheet and ArtifactPanel render fully
+const buildWithGearAndArtifact = {
+  ...baseBuild,
+  gearStages: [{
+    toLevel: 30,
+    changes: { weapon: 'abyss-shard' },
+    artifacts: { rune: { set: 'warglyph', gem: null } },
+  }],
+};
 
 describe('read-only planner', () => {
   it('SkillTree disables its skill steppers', () => {
@@ -46,5 +55,47 @@ describe('read-only planner', () => {
     ro(<BuildNotes />, baseBuild);
     expect(screen.queryByRole('button', { name: /preview|edit/i })).toBeNull();
     expect(screen.getByText('hard')).toBeInTheDocument(); // markdown rendered
+  });
+
+  it('StatSheet disables attribute steppers in read-only', () => {
+    ro(<GearProgression />, buildWithGearAndArtifact);
+    // Each of the 6 attributes has a decrease and increase button — all must be disabled
+    const decButtons = screen.getAllByRole('button', { name: /^decrease /i });
+    const incButtons = screen.getAllByRole('button', { name: /^increase /i });
+    expect(decButtons.length).toBe(6);
+    expect(incButtons.length).toBe(6);
+    decButtons.forEach((b) => expect(b).toBeDisabled());
+    incButtons.forEach((b) => expect(b).toBeDisabled());
+    // Number inputs must be readOnly
+    const inputs = screen.getAllByRole('spinbutton');
+    inputs.forEach((inp) => expect(inp).toHaveAttribute('readonly'));
+  });
+
+  it('StatSheet enables attribute steppers when NOT read-only', () => {
+    rw(<GearProgression />, buildWithGearAndArtifact);
+    const decButtons = screen.getAllByRole('button', { name: /^decrease /i });
+    const incButtons = screen.getAllByRole('button', { name: /^increase /i });
+    decButtons.forEach((b) => expect(b).not.toBeDisabled());
+    incButtons.forEach((b) => expect(b).not.toBeDisabled());
+    const inputs = screen.getAllByRole('spinbutton');
+    inputs.forEach((inp) => expect(inp).not.toHaveAttribute('readonly'));
+  });
+
+  it('ArtifactPanel disables artifact set and gem pickers in read-only', () => {
+    ro(<GearProgression />, buildWithGearAndArtifact);
+    // All "pick * set" buttons must be disabled
+    const setButtons = screen.getAllByRole('button', { name: /^pick .+ set$/i });
+    setButtons.forEach((b) => expect(b).toBeDisabled());
+    // The rune slot has a set selected, so a "pick rune gem" button is rendered — must also be disabled
+    const gemButtons = screen.getAllByRole('button', { name: /^pick .+ gem$/i });
+    gemButtons.forEach((b) => expect(b).toBeDisabled());
+  });
+
+  it('ArtifactPanel enables artifact set and gem pickers when NOT read-only', () => {
+    rw(<GearProgression />, buildWithGearAndArtifact);
+    const setButtons = screen.getAllByRole('button', { name: /^pick .+ set$/i });
+    setButtons.forEach((b) => expect(b).not.toBeDisabled());
+    const gemButtons = screen.getAllByRole('button', { name: /^pick .+ gem$/i });
+    gemButtons.forEach((b) => expect(b).not.toBeDisabled());
   });
 });

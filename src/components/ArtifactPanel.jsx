@@ -7,6 +7,7 @@ const TYPE_LABEL = { rune: 'Rune', jewel: 'Jewel', scroll: 'Scroll', relic: 'Rel
 
 export default function ArtifactPanel() {
   const { state, dispatch } = useStore();
+  const ro = state.readOnly;
   const stages = state.build.gearStages;
   if (!stages.length) return null;
   const sorted = sortStages(stages);
@@ -35,11 +36,11 @@ export default function ArtifactPanel() {
           return (
             <li key={t} className="artifact-slot">
               <span className="atype">{TYPE_LABEL[t]}</span>
-              <button className={`aset${set ? '' : ' empty'}`} aria-label={`pick ${t} set`} onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
+              <button className={`aset${set ? '' : ' empty'}`} aria-label={`pick ${t} set`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
                 {set ? set.name : '＋ pick set'}
               </button>
               {set && (
-                <button className="agem" aria-label={`pick ${t} gem`} onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'gem', atype: t } })}>
+                <button className="agem" aria-label={`pick ${t} gem`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'gem', atype: t } })}>
                   {gem ? `💎 ${gem.name}` : '＋ gem'}
                 </button>
               )}
