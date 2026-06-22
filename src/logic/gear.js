@@ -72,12 +72,32 @@ export function itemTiles(item) {
   return [...ids];
 }
 
+// Tiles to FARM an item for a route: its drop zones. The craft zone is only a
+// fallback for craft-only items — so a wanted item never lands on a zone that
+// doesn't drop it (e.g. Novice gear no longer "wants" its craft zone, R2-3),
+// while craft-only gear (R2-5) still resolves somewhere. itemTiles (drops +
+// craft) stays for the item-detail panel, where the craft location is useful.
+export function itemFarmTiles(item) {
+  if (!item) return [];
+  const drops = new Set();
+  for (const s of item.sources || []) {
+    const t = resolveTile(s.zoneName, s.minLevel);
+    if (t) drops.add(t.id);
+  }
+  if (drops.size) return [...drops];
+  if (item.craft) {
+    const t = resolveTile(item.craft.zoneName, item.craft.minLevel);
+    if (t) return [t.id];
+  }
+  return [];
+}
+
 // All (tileId, want) route targets for an effective loadout (slot -> itemSlug),
 // so the whole stage's gear can be added to the route in one action.
 export function loadoutRouteTargets(loadout) {
   const targets = [];
   for (const slug of new Set(Object.values(loadout || {}))) {
-    for (const id of itemTiles(items[slug])) targets.push({ id, want: slug });
+    for (const id of itemFarmTiles(items[slug])) targets.push({ id, want: slug });
   }
   return targets;
 }
@@ -85,7 +105,7 @@ export function loadoutRouteTargets(loadout) {
 export function stageFarmTiles(stage) {
   const ids = new Set();
   for (const slot of stageChangedSlots(stage)) {
-    for (const id of itemTiles(items[stage.changes[slot]])) ids.add(id);
+    for (const id of itemFarmTiles(items[stage.changes[slot]])) ids.add(id);
   }
   return [...ids];
 }

@@ -1,6 +1,17 @@
 import { createContext, useContext, useReducer } from 'react';
 import { dependencyTargets } from '../logic/build.js';
 import { sortStages, clampCap } from '../logic/gear.js';
+import { tileById } from '../data/map-tiles.js';
+
+// Insert a new route zone in level order so later-added low-level zones aren't
+// stranded at the bottom (R2-4). Existing entries keep their order (manual ↑/↓
+// reorder is preserved); we only choose where the NEW one slots in.
+function insertByLevel(route, entry) {
+  const lvl = tileById[entry.id]?.minLevel ?? Infinity; // unknown tiles → append
+  const at = route.findIndex((e) => (tileById[e.id]?.minLevel ?? Infinity) > lvl);
+  if (at === -1) return [...route, entry];
+  return [...route.slice(0, at), entry, ...route.slice(at)];
+}
 
 export const initialState = {
   playerLevel: 1,
@@ -26,7 +37,7 @@ export function reducer(state, action) {
     case 'addToRoute': {
       const idx = state.route.findIndex((e) => e.id === action.id);
       let route;
-      if (idx === -1) route = [...state.route, { id: action.id, notes: '', wants: action.want ? [action.want] : [] }];
+      if (idx === -1) route = insertByLevel(state.route, { id: action.id, notes: '', wants: action.want ? [action.want] : [] });
       else if (action.want && !state.route[idx].wants.includes(action.want)) {
         route = state.route.map((e, i) => (i === idx ? { ...e, wants: [...e.wants, action.want] } : e));
       } else route = state.route;

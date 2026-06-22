@@ -18,6 +18,20 @@ describe('reducer', () => {
     expect(s.route).toHaveLength(1);
     expect(s.route[0].wants).toEqual(['scroll-charm', 'gravestone-breaker']);
   });
+  it('inserts new zones in level order so a later-added low-level zone is not stranded at the bottom (R2-4)', () => {
+    // Real tile ids: cemetery=Lv21, forest-field-1=Lv1, festering-woods-2-26=Lv26.
+    let s = reducer(initialState, { type: 'addToRoute', id: 'cemetery' });
+    s = reducer(s, { type: 'addToRoute', id: 'forest-field-1' });
+    s = reducer(s, { type: 'addToRoute', id: 'festering-woods-2-26' });
+    expect(s.route.map((e) => e.id)).toEqual(['forest-field-1', 'cemetery', 'festering-woods-2-26']);
+  });
+  it('does not reorder zones that are already in the route (manual order is preserved)', () => {
+    // Two same-level zones placed manually out of level order stay put; re-adding is a no-op.
+    const route = [{ id: 'bunny-woods-21', notes: '', wants: [] }, { id: 'cemetery', notes: '', wants: [] }];
+    const s = reducer({ ...initialState, route }, { type: 'addToRoute', id: 'cemetery', want: 'x' });
+    expect(s.route.map((e) => e.id)).toEqual(['bunny-woods-21', 'cemetery']);
+    expect(s.route[1].wants).toEqual(['x']);
+  });
   it('removes from route', () => {
     const s = reducer({ ...initialState, route: [{ id: 'a', notes: '', wants: [] }, { id: 'b', notes: '', wants: [] }] }, { type: 'removeFromRoute', id: 'a' });
     expect(s.route).toEqual([{ id: 'b', notes: '', wants: [] }]);

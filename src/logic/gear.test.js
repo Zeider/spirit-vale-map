@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles, itemTiles, loadoutRouteTargets } from './gear.js';
+import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles, itemTiles, itemFarmTiles, loadoutRouteTargets } from './gear.js';
+import { resolveTile } from '../data/map-tiles.js';
 import { items } from '../data/gear-index.js';
 
 describe('sortStages', () => {
@@ -71,6 +72,24 @@ describe('gear logic', () => {
     const craftOnly = Object.values(items).find((i) => (!i.sources || i.sources.length === 0) && i.craft);
     expect(craftOnly).toBeTruthy();
     expect(itemTiles(craftOnly).length).toBeGreaterThan(0);
+  });
+  it('itemFarmTiles returns drop tiles and EXCLUDES the craft zone when the item drops elsewhere (R2-3)', () => {
+    // An item whose craft zone is not one of its drop zones — the route should
+    // want it only where it drops, never on its craft-only zone.
+    const drift = Object.values(items).find(
+      (i) => i.craft && (i.sources || []).length && !(i.sources || []).some((s) => s.zoneName === i.craft.zoneName)
+    );
+    expect(drift).toBeTruthy();
+    const craftTile = resolveTile(drift.craft.zoneName, drift.craft.minLevel);
+    const farm = itemFarmTiles(drift);
+    expect(farm.length).toBeGreaterThan(0);
+    expect(farm).not.toContain(craftTile.id);
+    expect(itemTiles(drift)).toContain(craftTile.id); // itemTiles (display) still includes craft
+  });
+  it('itemFarmTiles falls back to the craft zone for a craft-only item (R2-5)', () => {
+    const craftOnly = Object.values(items).find((i) => (!i.sources || i.sources.length === 0) && i.craft);
+    const craftTile = resolveTile(craftOnly.craft.zoneName, craftOnly.craft.minLevel);
+    expect(itemFarmTiles(craftOnly)).toEqual([craftTile.id]);
   });
   it('loadoutRouteTargets emits (id, want) for every equipped item', () => {
     const dropped = Object.values(items).find((i) => i.sources?.length > 0);
