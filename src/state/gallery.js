@@ -53,3 +53,42 @@ export async function getBuild(id) {
   if (error) throw error;
   return data ? rowToBuild(data) : null;
 }
+
+async function currentUser() {
+  const { data: { user } } = await supabase.auth.getUser();
+  return user || null;
+}
+
+export async function toggleLike(id) {
+  const user = await currentUser();
+  if (!user) throw new Error('not signed in');
+  const { data: existing } = await supabase.from('build_likes')
+    .select('build_id').eq('build_id', id).eq('user_id', user.id).maybeSingle();
+  if (existing) {
+    const { error } = await supabase.from('build_likes').delete().eq('build_id', id).eq('user_id', user.id);
+    if (error) throw error;
+    return { liked: false };
+  }
+  const { error } = await supabase.from('build_likes').insert({ build_id: id, user_id: user.id });
+  if (error) throw error;
+  return { liked: true };
+}
+
+export async function hasLiked(id) {
+  const user = await currentUser();
+  if (!user) return false;
+  const { data } = await supabase.from('build_likes')
+    .select('build_id').eq('build_id', id).eq('user_id', user.id).maybeSingle();
+  return Boolean(data);
+}
+
+export async function listFavorites() {
+  const user = await currentUser();
+  if (!user) return [];
+  const { data: likes } = await supabase.from('build_likes').select('build_id').eq('user_id', user.id);
+  const ids = (likes || []).map((l) => l.build_id);
+  if (!ids.length) return [];
+  const { data, error } = await supabase.from('builds').select('*').in('id', ids);
+  if (error) throw error;
+  return (data || []).map(rowToBuild);
+}

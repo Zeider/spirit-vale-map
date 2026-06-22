@@ -13,10 +13,12 @@ const builder = () => {
 };
 let current;
 const fromFn = vi.fn(() => current);
+// Hoisted so likes tests can override per-test via mockResolvedValueOnce
+const getUserMock = vi.fn().mockResolvedValue({ data: { user: { id: 'u1' } } });
 vi.mock('./supabaseClient.js', () => ({
   supabase: {
     from: fromFn,
-    auth: { getUser: vi.fn().mockResolvedValue({ data: { user: { id: 'u1' } } }) },
+    auth: { getUser: getUserMock },
   },
 }));
 vi.mock('./build-url.js', () => ({ sanitizeBuild: (p) => ({ sanitized: true, from: p }) }));
@@ -83,5 +85,65 @@ describe('getBuild', () => {
     current = builder();
     current._single = { data: null, error: null };
     expect(await getBuild('nope')).toBeNull();
+  });
+});
+
+// --- Increment 3: toggleLike / hasLiked / listFavorites ---
+const { toggleLike, hasLiked, listFavorites } = await import('./gallery.js');
+
+describe('likes', () => {
+  it('toggleLike inserts when not yet liked, returns liked:true', async () => {
+    // Set up two different from() responses: first call = select (check existing), second = insert
+    // Use a stateful from that returns a chain supporting maybeSingle (no like found) then insert
+    const insertFn = vi.fn(() => Promise.resolve({ error: null }));
+    const selChain = {
+      eq: vi.fn(function () { return this; }),
+      maybeSingle: vi.fn(() => Promise.resolve({ data: null })),
+    };
+    let callCount = 0;
+    fromFn.mockImplementation(() => {
+      callCount++;
+      if (callCount === 1) return { select: vi.fn(() => selChain), insert: insertFn, delete: vi.fn() };
+      return { select: vi.fn(() => selChain), insert: insertFn, delete: vi.fn() };
+    });
+    const result = await toggleLike('b1');
+    expect(result).toEqual({ liked: true });
+    expect(insertFn).toHaveBeenCalledWith({ build_id: 'b1', user_id: 'u1' });
+  });
+
+  it('toggleLike deletes when already liked, returns liked:false', async () => {
+    const delChain = { eq: vi.fn(function () { return this; }), then: (r) => r({ error: null }) };
+    const deleteFn = vi.fn(() => delChain);
+    const selChain = {
+      eq: vi.fn(function () { return this; }),
+      maybeSingle: vi.fn(() => Promise.resolve({ data: { build_id: 'b1' } })),
+    };
+    fromFn.mockImplementation(() => ({ select: vi.fn(() => selChain), delete: deleteFn, insert: vi.fn() }));
+    const result = await toggleLike('b1');
+    expect(result).toEqual({ liked: false });
+    expect(deleteFn).toHaveBeenCalled();
+  });
+
+  it('toggleLike throws when signed out', async () => {
+    getUserMock.mockResolvedValueOnce({ data: { user: null } });
+    await expect(toggleLike('b1')).rejects.toThrow(/not signed in/i);
+  });
+
+  it('hasLiked returns false when signed out', async () => {
+    getUserMock.mockResolvedValueOnce({ data: { user: null } });
+    expect(await hasLiked('b1')).toBe(false);
+  });
+
+  it("listFavorites maps the user's liked builds through rowToBuild", async () => {
+    const likeChain = { eq: vi.fn(() => Promise.resolve({ data: [{ build_id: 'b1' }, { build_id: 'b2' }] })) };
+    const inFn = vi.fn(() => Promise.resolve({ data: [{ id: 'b1', payload: { z: 1 } }], error: null }));
+    const buildsChain = { in: inFn };
+    fromFn.mockImplementation((t) =>
+      t === 'build_likes'
+        ? { select: vi.fn(() => likeChain) }
+        : { select: vi.fn(() => buildsChain) }
+    );
+    const favs = await listFavorites();
+    expect(favs[0].build).toEqual({ sanitized: true, from: { z: 1 } });
   });
 });
