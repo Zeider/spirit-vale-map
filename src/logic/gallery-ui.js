@@ -14,7 +14,7 @@ export function relativeTime(iso, now = Date.now()) {
   const h = Math.floor(m / 60); if (h < 24) return `${h}h`;
   const d = Math.floor(h / 24); if (d < 7) return `${d}d`;
   const w = Math.floor(d / 7); if (w < 52) return `${w}w`;
-  return `${Math.floor(d / 365)}y`;
+  return `${Math.floor(w / 52)}y`;
 }
 
 export function filterSortBuilds(rows, { sort = 'newest', classFilter = '', role = [], content = [], search = '' } = {}) {

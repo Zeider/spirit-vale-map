@@ -17,6 +17,11 @@ describe('relativeTime', () => {
     expect(relativeTime('2026-06-20T00:00:00Z', now)).toBe('2d');
     expect(relativeTime('2026-06-01T00:00:00Z', now)).toBe('3w');
   });
+
+  it('formats years at the 52-week boundary and beyond', () => {
+    expect(relativeTime('2025-06-23T00:00:00Z', now)).toBe('1y');  // 364 days = 52 weeks
+    expect(relativeTime('2024-06-22T00:00:00Z', now)).toBe('2y');  // ~104 weeks
+  });
 });
 
 describe('filterSortBuilds', () => {
