@@ -22,7 +22,7 @@ export default function GearStageRail() {
       <div className="stage-chips">
         {ranges.map((r, i) => (
           <div key={i} className={`stage-chip${i === state.selectedStage ? ' on' : ''}`} onClick={() => dispatch({ type: 'selectStage', index: i })}>
-            {editIdx === i ? (
+            {!state.readOnly && editIdx === i ? (
               <span className="cap-edit" onClick={(e) => e.stopPropagation()}>
                 Lv {r.start}–
                 <input type="number" min={r.start} max="135" autoFocus value={editDraft}
@@ -31,9 +31,9 @@ export default function GearStageRail() {
                   onBlur={() => submitEdit(i)} />
               </span>
             ) : (
-              <span>Lv {r.start}–<button className="cap" title="Edit cap" onClick={(e) => { e.stopPropagation(); setEditIdx(i); setEditDraft(String(r.toLevel)); }}>{r.toLevel}</button></span>
+              <span>Lv {r.start}–{state.readOnly ? <span>{r.toLevel}</span> : <button className="cap" title="Edit cap" onClick={(e) => { e.stopPropagation(); setEditIdx(i); setEditDraft(String(r.toLevel)); }}>{r.toLevel}</button>}</span>
             )}
-            <button className="chip-x" aria-label={`remove stage Lv ${r.start}–${r.toLevel}`} onClick={(e) => { e.stopPropagation(); dispatch({ type: 'removeGearStage', index: i }); }}>✕</button>
+            {!state.readOnly && <button className="chip-x" aria-label={`remove stage Lv ${r.start}–${r.toLevel}`} onClick={(e) => { e.stopPropagation(); dispatch({ type: 'removeGearStage', index: i }); }}>✕</button>}
           </div>
         ))}
         {!state.readOnly && <AddGearStage />}
