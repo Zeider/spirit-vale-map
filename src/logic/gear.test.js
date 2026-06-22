@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles, itemTiles, itemFarmTiles, loadoutRouteTargets } from './gear.js';
+import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles, itemTiles, itemFarmTiles, itemsForTile, loadoutRouteTargets } from './gear.js';
 import { resolveTile } from '../data/map-tiles.js';
 import { items } from '../data/gear-index.js';
 
@@ -90,6 +90,13 @@ describe('gear logic', () => {
     const craftOnly = Object.values(items).find((i) => (!i.sources || i.sources.length === 0) && i.craft);
     const craftTile = resolveTile(craftOnly.craft.zoneName, craftOnly.craft.minLevel);
     expect(itemFarmTiles(craftOnly)).toEqual([craftTile.id]);
+  });
+  it('itemsForTile lists items obtainable in a tile, sorted, for the WANT-HERE picker (R2-6)', () => {
+    const here = itemsForTile('forest-field-1'); // Sunny Meadows 1 (Lv 1-5)
+    expect(here.length).toBeGreaterThan(0);
+    expect(here.every((i) => itemTiles(i).includes('forest-field-1'))).toBe(true);
+    const names = here.map((i) => i.name);
+    expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
   });
   it('loadoutRouteTargets emits (id, want) for every equipped item', () => {
     const dropped = Object.values(items).find((i) => i.sources?.length > 0);

@@ -258,12 +258,16 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .wants { display: flex; gap: 5px; flex-wrap: wrap; }
 .want-chip { background: #16241c; border: 1px solid #7CFC9B; border-radius: 10px; padding: 2px 8px; font-size: 11px; }
 .want-chip button { background: none; border: 0; color: var(--muted); cursor: pointer; margin-left: 4px; }
+.want-add { background: none; border: 1px dashed var(--line); border-radius: 10px; color: var(--on); cursor: pointer; font-size: 11px; line-height: 1; padding: 2px 8px; }
+.want-add:hover { border-color: var(--on); }
 .want-count { color: var(--route); }
 .zone-notes { width: 100%; min-height: 40px; resize: vertical; background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 5px; padding: 5px; margin-top: 2px; font: inherit; }
 
 /* Rich note: markdown toolbar + preview */
 .rich-note { display: flex; flex-direction: column; gap: 4px; }
-.rich-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 3px; }
+/* R2-8: pin the toolbar so you can format text low in a long (auto-grown) note
+   without scrolling back up to reach Bold/colour. */
+.rich-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 3px; position: sticky; top: 0; z-index: 2; background: var(--panel); padding: 2px 0; }
 .rich-toolbar button { background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 5px; min-width: 24px; height: 24px; padding: 0 6px; font-size: 12px; line-height: 1; cursor: pointer; }
 .rich-toolbar button:hover { border-color: var(--muted); }
 .rich-toolbar .rich-toggle { margin-left: auto; font-size: 11px; }

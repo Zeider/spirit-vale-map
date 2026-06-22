@@ -3,14 +3,16 @@ import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
 import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
-import { stageRanges } from '../logic/gear.js';
+import { stageRanges, itemsForTile } from '../logic/gear.js';
 import ItemTooltip from './ItemTooltip.jsx';
 import RichNote from './RichNote.jsx';
 import AddGearStage from './AddGearStage.jsx';
+import Picker from './Picker.jsx';
 
 export default function RouteRail() {
   const { state, dispatch } = useStore();
   const [open, setOpen] = useState(null);
+  const [wantPicker, setWantPicker] = useState(null); // tile id whose WANT-HERE picker is open
   const entries = state.route.map((e) => ({ ...e, tile: tileById[e.id] })).filter((e) => e.tile);
   const stageRangeList = stageRanges(state.build.gearStages ?? []);
   const gaps = computeGaps(entries.map((e) => ({ minLevel: e.tile.minLevel, maxLevel: e.tile.maxLevel })));
@@ -29,7 +31,8 @@ export default function RouteRail() {
               <li key={e.id} className={`route-item lvl-${classifyLevel(e.tile.minLevel, e.tile.maxLevel, state.playerLevel)}`}>
                 <div className="route-head">
                   <span className="route-pos">{i + 1}</span>
-                  <button className="link" aria-label={`expand ${e.tile.name}`} onClick={() => setOpen(open === e.id ? null : e.id)}>
+                  <button className="link" aria-label={`expand ${e.tile.name}`}
+                    onClick={() => { setOpen(open === e.id ? null : e.id); dispatch({ type: 'select', id: e.id }); }}>
                     {e.tile.name} <span className="route-lvl">Lv {e.tile.minLevel}–{e.tile.maxLevel}</span>{e.wants.length ? <span className="want-count"> ·{e.wants.length}</span> : ''}
                   </button>
                   <span className="route-actions">
@@ -53,7 +56,17 @@ export default function RouteRail() {
                         );
                       })}
                       {e.wants.length === 0 && <span className="muted">none yet</span>}
+                      <button className="want-add" aria-label={`add want to ${e.tile.name}`}
+                        onClick={() => setWantPicker(wantPicker === e.id ? null : e.id)}>＋</button>
                     </div>
+                    {wantPicker === e.id && (
+                      <Picker title={`Add item · ${e.tile.name}`} value={null}
+                        options={itemsForTile(e.id)
+                          .filter((it) => !e.wants.includes(it.slug))
+                          .map((it) => ({ key: it.slug, name: it.name, hint: it.slot }))}
+                        onPick={(slug) => { if (slug) dispatch({ type: 'addZoneWant', id: e.id, itemSlug: slug }); setWantPicker(null); }}
+                        onClose={() => setWantPicker(null)} />
+                    )}
                     <div className="label">NOTES</div>
                     <RichNote taClassName="zone-notes" value={e.notes} placeholder="e.g. farm to 40, grab 2 daggers"
                       onChange={(ev) => dispatch({ type: 'setZoneNotes', id: e.id, notes: ev.target.value })} />

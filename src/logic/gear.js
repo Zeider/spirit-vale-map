@@ -110,6 +110,13 @@ export function stageFarmTiles(stage) {
   return [...ids];
 }
 
+// Items obtainable in a tile (drops or craft), for the route's WANT-HERE picker.
+export function itemsForTile(tileId) {
+  return Object.values(items)
+    .filter((i) => itemTiles(i).includes(tileId))
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
 export const ARTIFACT_TYPES = ['rune', 'jewel', 'scroll', 'relic'];
 
 export function effectiveCards(stages, index) {
