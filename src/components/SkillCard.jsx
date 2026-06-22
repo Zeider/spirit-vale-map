@@ -1,8 +1,8 @@
-export default function SkillCard({ skill, level, canInc, canDec, selected, onChange, onSelect }) {
+export default function SkillCard({ skill, level, canInc, canDec, selected, onChange, onSelect, disabled }) {
   if (!skill) return <div className="sk-cell empty" aria-hidden="true" />;
   return (
     <div className={`sk-cell skill${level > 0 ? ' filled' : ''}${selected ? ' selected' : ''}`}>
-      <button className="sk-face" onClick={() => onSelect(skill.id)} title={skill.name}>
+      <button className="sk-face" disabled={disabled} onClick={() => onSelect(skill.id)} title={skill.name}>
         <span className={`sk-badge ${skill.isPassive ? 'passive' : 'active'}`}>{skill.isPassive ? 'PASSIVE' : 'SKILL'}</span>
         <span className="sk-name">{skill.name}</span>
       </button>

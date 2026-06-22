@@ -36,7 +36,7 @@ export default function GearStageRail() {
             <button className="chip-x" aria-label={`remove stage Lv ${r.start}–${r.toLevel}`} onClick={(e) => { e.stopPropagation(); dispatch({ type: 'removeGearStage', index: i }); }}>✕</button>
           </div>
         ))}
-        <AddGearStage />
+        {!state.readOnly && <AddGearStage />}
       </div>
     </div>
   );

@@ -1,10 +1,20 @@
 import { useRef, useLayoutEffect } from 'react';
 import { useStore } from '../state/store.jsx';
 import RichNote from './RichNote.jsx';
+import { renderMarkdown } from '../logic/markdown.js';
 
 export default function BuildNotes() {
   const { state, dispatch } = useStore();
   const ref = useRef(null);
+
+  if (state.readOnly) {
+    return (
+      <div className="build-notes">
+        <div className="label">BUILD NOTES</div>
+        <div className="rich-preview" dangerouslySetInnerHTML={renderMarkdown(state.build.notes || '')} />
+      </div>
+    );
+  }
 
   // Open tall: on mount, grow the textarea so its bottom aligns with the skill
   // trees' bottom (fills the otherwise-empty space). Sets an explicit pixel

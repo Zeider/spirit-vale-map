@@ -19,6 +19,7 @@ export default function GearLoadout() {
   const changes = sorted[idx].changes || {};
   const stageCards = effectiveCards(sorted, idx);
   const op = state.openPicker;
+  const ro = state.readOnly;
 
   const carriedFrom = (slot) => {
     for (let i = idx - 1; i >= 0; i--) if (slot in (sorted[i].changes || {})) return ranges[i].start;
@@ -44,7 +45,7 @@ export default function GearLoadout() {
           const from = !isChanged && item ? carriedFrom(slot) : null;
           return (
             <div key={slot} data-testid="gear-slot" className={`gear-row${item ? ' filled' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}`}
-              onClick={() => { dispatch({ type: 'selectItemSlot', slot }); if (item) dispatch({ type: 'selectItem', slug: itemSlug }); }}>
+              onClick={ro ? undefined : () => { dispatch({ type: 'selectItemSlot', slot }); if (item) dispatch({ type: 'selectItem', slug: itemSlug }); }}>
               <span className="gear-row-label">{SLOT_LABELS[slot]}</span>
               <span className="gear-row-item">{item ? item.name : '—'}</span>
               {from != null && <span className="gear-row-from">from Lv {from}</span>}
@@ -54,7 +55,8 @@ export default function GearLoadout() {
                     const name = (stageCards[slot] || [])[n] || null;
                     return (
                       <button key={n} className={`pip${name ? ' filled' : ''}`} aria-label={`card slot ${n + 1} ${SLOT_LABELS[slot]}`}
-                        onClick={() => dispatch({ type: 'setPicker', picker: { kind: 'card', slot, index: n } })}>
+                        disabled={ro}
+                        onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'card', slot, index: n } })}>
                         {name ? `◆ ${cardByName[name]?.name ?? name}` : '＋'}
                       </button>
                     );
@@ -66,9 +68,9 @@ export default function GearLoadout() {
         })}
       </div>
     </div>
-    <button className="farm-btn add-all-zones" disabled={!zoneCount} onClick={addAllZones}>
+    {!ro && <button className="farm-btn add-all-zones" disabled={!zoneCount} onClick={addAllZones}>
       ＋ Add all {zoneCount} zone{zoneCount === 1 ? '' : 's'} to route
-    </button>
+    </button>}
     {op?.kind === 'card' && (() => {
       const cat = categoryOf(op.slot);
       const options = Object.values(allCards)
