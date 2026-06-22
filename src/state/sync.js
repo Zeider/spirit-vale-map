@@ -41,12 +41,18 @@ export function loadInitialState() {
 
 // Explicitly exchange the OAuth ?code= for a session, then clear the flag so
 // usePersist resumes and cleans the URL. Surfaces any error to state.authError.
+// Module-scoped guard: the auth code is single-use, and React StrictMode runs
+// effects twice in dev — without this the 2nd exchange fails ("Unable to
+// exchange external code") and clobbers the successful first one.
+let oauthExchangeStarted = false;
 export function useOAuthCallback(dispatch) {
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const code = params.get('code');
     const oauthErr = params.get('error_description') || params.get('error');
     if (!code && !oauthErr) return;
+    if (oauthExchangeStarted) return;
+    oauthExchangeStarted = true;
     (async () => {
       let authError = oauthErr || null;
       if (code && !authError) {
