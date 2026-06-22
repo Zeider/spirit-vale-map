@@ -17,6 +17,7 @@ export const initialState = {
   gearOverlay: false,
   shareLoading: false,
   authCallback: false,
+  authError: null,
 };
 
 export function reducer(state, action) {

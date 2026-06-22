@@ -6,10 +6,10 @@ import { supabase } from './supabaseClient.js';
 
 const LS_KEY = 'sva.state.v2';
 
-// A Discord OAuth redirect returns with ?code=… (PKCE) or #access_token=… (implicit).
+// A Discord OAuth redirect returns with ?code=… (PKCE) or ?error=…
 function isOAuthCallback() {
   const params = new URLSearchParams(window.location.search);
-  return Boolean(params.get('code')) || /access_token|error/.test(window.location.hash);
+  return Boolean(params.get('code') || params.get('error')) || /access_token|error/.test(window.location.hash);
 }
 
 export function loadInitialState() {
@@ -39,12 +39,23 @@ export function loadInitialState() {
   return { view, playerLevel, route, ...(build ? { build } : {}) };
 }
 
-// Let supabase exchange the OAuth ?code= for a session (it reads the URL on init),
-// then clear the flag so usePersist resumes and cleans the URL.
+// Explicitly exchange the OAuth ?code= for a session, then clear the flag so
+// usePersist resumes and cleans the URL. Surfaces any error to state.authError.
 export function useOAuthCallback(dispatch) {
   useEffect(() => {
-    if (!isOAuthCallback()) return;
-    supabase.auth.getSession().finally(() => dispatch({ type: 'hydrate', state: { authCallback: false } }));
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const oauthErr = params.get('error_description') || params.get('error');
+    if (!code && !oauthErr) return;
+    (async () => {
+      let authError = oauthErr || null;
+      if (code && !authError) {
+        const { error } = await supabase.auth.exchangeCodeForSession(code);
+        if (error) authError = error.message;
+      }
+      if (authError) console.error('Discord sign-in failed:', authError);
+      dispatch({ type: 'hydrate', state: { authCallback: false, authError } });
+    })();
   }, [dispatch]);
 }
 

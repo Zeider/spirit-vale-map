@@ -17,7 +17,7 @@ export function useAuth() {
     return () => data.subscription.unsubscribe();
   }, []);
   const signInWithDiscord = () =>
-    supabase.auth.signInWithOAuth({ provider: 'discord', options: { redirectTo: window.location.href } });
+    supabase.auth.signInWithOAuth({ provider: 'discord', options: { redirectTo: window.location.origin + window.location.pathname } });
   const signOut = () => supabase.auth.signOut();
   return { user, loading, signInWithDiscord, signOut };
 }

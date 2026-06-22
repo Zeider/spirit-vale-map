@@ -24,6 +24,12 @@ function Shell() {
   }
   return (
     <div className="app">
+      {state.authError && (
+        <div className="auth-error" role="alert">
+          Sign-in failed: {state.authError}
+          <button aria-label="dismiss" onClick={() => dispatch({ type: 'hydrate', state: { authError: null } })}>✕</button>
+        </div>
+      )}
       <TopBar />
       {state.view === 'build' ? (
         <BuildTab />

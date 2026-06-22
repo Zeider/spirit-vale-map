@@ -85,6 +85,8 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .muted { color: var(--muted); }
 .app-footer { margin-top: 16px; font-size: 11px; color: var(--muted); text-align: center; }
 .share-loading { padding: 48px 12px; text-align: center; }
+.auth-error { background: #3a1518; border: 1px solid #ff7c7c; color: #ffb3b3; padding: 8px 12px; border-radius: 6px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.auth-error button { margin-left: auto; background: none; border: 0; color: #ffb3b3; cursor: pointer; }
 
 @media (max-width: 800px) {
   .main { flex-direction: column; }
