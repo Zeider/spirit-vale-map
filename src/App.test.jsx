@@ -1,6 +1,8 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, fireEvent, within } from '@testing-library/react';
-import App from './App.jsx';
+
+vi.mock('./state/useAuth.js', () => ({ useAuth: () => ({ user: null, loading: false, signInWithDiscord: vi.fn(), signOut: vi.fn() }) }));
+const { default: App } = await import('./App.jsx');
 
 beforeEach(() => {
   window.history.replaceState(null, '', '/');

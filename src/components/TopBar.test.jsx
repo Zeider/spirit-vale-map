@@ -1,7 +1,9 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
-import TopBar from './TopBar.jsx';
 import { StoreProvider, useStore } from '../state/store.jsx';
+
+vi.mock('../state/useAuth.js', () => ({ useAuth: () => ({ user: null, loading: false, signInWithDiscord: vi.fn(), signOut: vi.fn() }) }));
+const { default: TopBar } = await import('./TopBar.jsx');
 
 function Probe() {
   const { state } = useStore();
