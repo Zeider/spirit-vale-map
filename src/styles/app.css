@@ -294,3 +294,17 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .auth-pop { position:absolute; right:0; top:110%; background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:4px; display:flex; flex-direction:column; z-index:20; }
 .auth-pop button { background:none; border:0; color:var(--text); text-align:left; padding:6px 10px; cursor:pointer; border-radius:5px; font-size:12px; }
 .auth-pop button:hover { background:#1a2236; }
+
+/* PublishModal */
+.publish-modal { width: min(520px, 96vw); }
+.pub-fld { display: flex; flex-direction: column; gap: 4px; margin-top: 12px; font-size: 12px; color: var(--muted); }
+.pub-fld input, .pub-fld textarea { background: #0e1422; color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font: inherit; resize: vertical; }
+.pub-pick { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.pub-pick .chip { background: #161d2e; color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 12px; }
+.pub-pick .chip.on { border-color: var(--on); background: #16241c; color: var(--on); }
+.pub-seg { display: inline-flex; gap: 3px; background: #11182a; border: 1px solid var(--line); border-radius: 8px; padding: 3px; margin-top: 4px; }
+.pub-seg button { background: transparent; color: var(--muted); border: 0; border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 12px; text-transform: capitalize; }
+.pub-seg button.on { background: var(--on); color: #123; }
+.pubbtn { margin-top: 14px; width: 100%; background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 8px 12px; cursor: pointer; font-size: 13px; font-weight: 600; }
+.pubbtn:disabled { opacity: .4; cursor: default; }
+.pub-err { color: var(--under); font-size: 12px; margin: 6px 0 0; }
