@@ -2,14 +2,27 @@ import { useEffect } from 'react';
 import { encodeBuild, decodeBuild, sanitizeBuild } from './build-url.js';
 import { encodeRoute, decodeRoute, sanitizeRoute } from './route-url.js';
 import { loadShare } from './shortlink.js';
+import { supabase } from './supabaseClient.js';
 
 const LS_KEY = 'sva.state.v2';
+
+// A Discord OAuth redirect returns with ?code=… (PKCE) or #access_token=… (implicit).
+function isOAuthCallback() {
+  const params = new URLSearchParams(window.location.search);
+  return Boolean(params.get('code')) || /access_token|error/.test(window.location.hash);
+}
 
 export function loadInitialState() {
   const params = new URLSearchParams(window.location.search);
   // A short link (?s=<id>) resolves asynchronously — flag it so the app shows a
   // loader and usePersist doesn't overwrite the ?s= URL before it loads.
   if (params.get('s')) return { shareLoading: true };
+  // OAuth callback in progress — hold the URL so supabase can read ?code= before
+  // usePersist rewrites it (otherwise the session is never established).
+  if (isOAuthCallback()) {
+    const v = params.get('view');
+    return { authCallback: true, view: ['build', 'gear', 'my-builds'].includes(v) ? v : 'atlas' };
+  }
   const v = params.get('view');
   const view = ['build', 'gear', 'my-builds'].includes(v) ? v : 'atlas';
   const lvl = parseInt(params.get('lvl'), 10);
@@ -24,6 +37,15 @@ export function loadInitialState() {
   }
   const build = sanitizeBuild(decodeBuild(params.get('build')));
   return { view, playerLevel, route, ...(build ? { build } : {}) };
+}
+
+// Let supabase exchange the OAuth ?code= for a session (it reads the URL on init),
+// then clear the flag so usePersist resumes and cleans the URL.
+export function useOAuthCallback(dispatch) {
+  useEffect(() => {
+    if (!isOAuthCallback()) return;
+    supabase.auth.getSession().finally(() => dispatch({ type: 'hydrate', state: { authCallback: false } }));
+  }, [dispatch]);
 }
 
 // Resolve a ?s=<id> short link on mount and hydrate the full saved state.
@@ -47,7 +69,7 @@ export function useShareHydrate(dispatch) {
 
 export function usePersist(state) {
   useEffect(() => {
-    if (state.shareLoading) return; // don't clobber a ?s= link before it resolves
+    if (state.shareLoading || state.authCallback) return; // don't clobber a ?s= or OAuth ?code= URL
     const path = window.location.pathname;
     if (state.view === 'my-builds') {
       window.history.replaceState(null, '', `${path}?view=my-builds`);

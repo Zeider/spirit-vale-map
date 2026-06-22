@@ -1,5 +1,5 @@
 import { StoreProvider, useStore } from './state/store.jsx';
-import { loadInitialState, usePersist, useShareHydrate } from './state/sync.js';
+import { loadInitialState, usePersist, useShareHydrate, useOAuthCallback } from './state/sync.js';
 import TopBar from './components/TopBar.jsx';
 import MapView from './components/MapView.jsx';
 import RouteRail from './components/RouteRail.jsx';
@@ -15,6 +15,10 @@ function Shell() {
   const { state, dispatch } = useStore();
   usePersist(state);
   useShareHydrate(dispatch);
+  useOAuthCallback(dispatch);
+  if (state.authCallback) {
+    return <div className="app"><p className="muted share-loading">Signing in…</p></div>;
+  }
   if (state.shareLoading) {
     return <div className="app"><p className="muted share-loading">Loading shared build…</p></div>;
   }

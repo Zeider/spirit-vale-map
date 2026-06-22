@@ -16,6 +16,7 @@ export const initialState = {
   openPicker: null,
   gearOverlay: false,
   shareLoading: false,
+  authCallback: false,
 };
 
 export function reducer(state, action) {
