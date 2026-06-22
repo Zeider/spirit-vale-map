@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, fireEvent, within } from '@testing-library/react';
 
 vi.mock('./state/useAuth.js', () => ({ useAuth: () => ({ user: null, loading: false, signInWithDiscord: vi.fn(), signOut: vi.fn() }) }));
+vi.mock('./state/gallery.js', () => ({ listBuilds: vi.fn(() => Promise.resolve([])), getBuild: vi.fn(() => Promise.resolve(null)) }));
 const { default: App } = await import('./App.jsx');
 
 beforeEach(() => {
@@ -37,5 +38,13 @@ describe('App — tabs', () => {
     expect(window.location.search).toMatch(/view=build/);
     fireEvent.click(screen.getByRole('button', { name: /^gear$/i }));
     expect(window.location.search).toMatch(/view=gear/);
+  });
+});
+
+describe('App gallery routing', () => {
+  beforeEach(() => { window.history.replaceState(null, '', '/?view=builds'); localStorage.clear(); });
+  it('renders the gallery list for ?view=builds', async () => {
+    render(<App />);
+    expect(await screen.findByText(/Builds Gallery/i)).toBeInTheDocument();
   });
 });

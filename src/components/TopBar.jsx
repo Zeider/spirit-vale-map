@@ -30,7 +30,10 @@ export default function TopBar() {
   return (
     <header className="top-bar">
       <span className="brand">⚔️ Spirit Vale Atlas</span>
-      <nav className="view-toggle">{tab('atlas', '／Atlas')}{tab('build', 'Build')}{tab('gear', 'Gear')}</nav>
+      <nav className="view-toggle">
+        {tab('atlas', '／Atlas')}{tab('build', 'Build')}{tab('gear', 'Gear')}
+        <button className={state.view === 'builds' ? 'on' : ''} onClick={() => dispatch({ type: 'setGalleryBuild', id: null })}>Gallery</button>
+      </nav>
       <span className="spacer" />
       {state.view === 'atlas' ? (
         <>
