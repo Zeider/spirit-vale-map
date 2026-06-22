@@ -8,6 +8,7 @@ import BuildTab from './components/BuildTab.jsx';
 import GearTab from './components/GearTab.jsx';
 import GearEditorOverlay from './components/GearEditorOverlay.jsx';
 import HotspotCalibrator from './components/HotspotCalibrator.jsx';
+import MyBuildsView from './components/MyBuildsView.jsx';
 import { gameVersion } from './data/zones-index.js';
 
 function Shell() {
@@ -24,6 +25,8 @@ function Shell() {
         <BuildTab />
       ) : state.view === 'gear' ? (
         <GearTab />
+      ) : state.view === 'my-builds' ? (
+        <MyBuildsView />
       ) : (
         <>
           <div className="main"><MapView /><RouteRail /></div>

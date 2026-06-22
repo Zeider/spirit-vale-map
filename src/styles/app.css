@@ -308,3 +308,18 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .pubbtn { margin-top: 14px; width: 100%; background: var(--route); color: #222; border: 0; border-radius: 6px; padding: 8px 12px; cursor: pointer; font-size: 13px; font-weight: 600; }
 .pubbtn:disabled { opacity: .4; cursor: default; }
 .pub-err { color: var(--under); font-size: 12px; margin: 6px 0 0; }
+
+/* MyBuildsView */
+.my-builds { padding: 8px 4px; }
+.my-builds h2 { font-size: 16px; margin: 0 0 14px; }
+.build-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+.build-empty { padding: 24px 0; }
+.bcard { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; min-width: 200px; max-width: 280px; flex: 1; display: flex; flex-direction: column; gap: 6px; }
+.bcard-cls { font-size: 11px; color: var(--muted); text-transform: capitalize; }
+.bcard-ttl { font-size: 14px; font-weight: 600; }
+.bcard-meta { display: flex; align-items: center; gap: 8px; font-size: 11px; }
+.bcard-meta .vis { background: #1a2236; border: 1px solid var(--line); border-radius: 4px; padding: 2px 6px; text-transform: capitalize; color: var(--muted); }
+.bcard-meta .like { color: var(--under); }
+.bcard-actions { display: flex; gap: 6px; margin-top: 4px; }
+.bcard-actions button { background: #23304a; color: var(--text); border: 0; border-radius: 5px; padding: 4px 10px; cursor: pointer; font-size: 12px; }
+.bcard-actions button:hover { background: #2e3f5c; }

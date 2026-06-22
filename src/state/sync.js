@@ -11,7 +11,7 @@ export function loadInitialState() {
   // loader and usePersist doesn't overwrite the ?s= URL before it loads.
   if (params.get('s')) return { shareLoading: true };
   const v = params.get('view');
-  const view = v === 'build' || v === 'gear' ? v : 'atlas';
+  const view = ['build', 'gear', 'my-builds'].includes(v) ? v : 'atlas';
   const lvl = parseInt(params.get('lvl'), 10);
   let route = sanitizeRoute(decodeRoute(params.get('route') || ''));
   let playerLevel = Number.isFinite(lvl) ? lvl : 1;
@@ -49,6 +49,11 @@ export function usePersist(state) {
   useEffect(() => {
     if (state.shareLoading) return; // don't clobber a ?s= link before it resolves
     const path = window.location.pathname;
+    if (state.view === 'my-builds') {
+      window.history.replaceState(null, '', `${path}?view=my-builds`);
+      localStorage.setItem(LS_KEY, JSON.stringify({ playerLevel: state.playerLevel, route: state.route }));
+      return;
+    }
     if (state.view === 'build' || state.view === 'gear') {
       const b = encodeBuild(state.build);
       window.history.replaceState(null, '', `${path}?view=${state.view}${b ? `&build=${b}` : ''}`);
