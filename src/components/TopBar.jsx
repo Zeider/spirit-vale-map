@@ -2,12 +2,14 @@ import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
 import { saveShare } from '../state/shortlink.js';
 import { gameVersion } from '../data/zones-index.js';
+import FeedbackModal from './FeedbackModal.jsx';
 
 const FILTERS = ['all', 'equip', 'material', 'card', 'gem', 'consumable', 'artifact'];
 
 export default function TopBar() {
   const { state, dispatch } = useStore();
   const [copied, setCopied] = useState('');
+  const [showFeedback, setShowFeedback] = useState(false);
   // Save the full state (build + route + view) as a durable short link; fall back
   // to the long URL if Supabase is unreachable, then copy whichever we have.
   const share = async () => {
@@ -48,7 +50,9 @@ export default function TopBar() {
           <button onClick={() => dispatch({ type: 'resetBuild' })}>Reset</button>
         </>
       )}
+      <button className="feedback-btn" onClick={() => setShowFeedback(true)}>💬 Feedback</button>
       <span className="game-version" title="Game data version">{gameVersion}</span>
+      <FeedbackModal open={showFeedback} onClose={() => setShowFeedback(false)} />
     </header>
   );
 }
