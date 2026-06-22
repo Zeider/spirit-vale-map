@@ -1,7 +1,7 @@
 :root {
   color-scheme: dark;
   --bg: #0d1018; --panel: #11182a; --line: #243049; --text: #e6edf3; --muted: #8ea0bf;
-  --on: #7CFC9B; --over: #6b7a99; --under: #ff7c7c; --route: #FFD25A; --hub: #7CB2FC;
+  --on: #7CFC9B; --over: #6b7a99; --under: #ff7c7c; --route: #FFD25A; --hub: #7CB2FC; --atk: #1bcffa;
 }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
@@ -165,7 +165,7 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .gear-rows { display: flex; flex-direction: column; }
 .gear-row { display: flex; align-items: center; gap: 10px; padding: 7px 2px; border-bottom: 1px solid #1c2435; cursor: pointer; }
 .gear-row:last-child { border-bottom: 0; }
-.gear-row-label { width: 64px; flex: none; font-size: 11px; color: var(--muted); }
+.gear-row-label { width: 64px; flex: none; font-size: 11px; color: var(--route); } /* R2-11: gold, matching artifact type labels */
 .gear-row-item { font-size: 13px; font-weight: 600; color: var(--text); }
 .gear-row:not(.filled) .gear-row-item { color: #59627a; font-weight: 400; }
 .gear-row.changed .gear-row-item { color: var(--on); }
@@ -233,7 +233,8 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .attr button { background: #23304a; color: #fff; border: 0; border-radius: 3px; width: 18px; height: 18px; cursor: pointer; }
 .stat-note { font-size: 10px; margin-top: 8px; }
 
-.stat-atk { color: #1bcffa !important; }
+.stat-atk { color: var(--atk) !important; }
+.route-lvl { color: var(--atk); } /* R2-10: route level ranges in the atk/matk blue */
 .stat-skill { color: #FFD359 !important; }
 .tip-sep { border-top: 1px solid #ffffff22; margin: 5px 0; }
 .tip-setname { color: #FFD359; margin-top: 4px; }
