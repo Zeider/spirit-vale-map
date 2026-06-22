@@ -35,3 +35,21 @@ export async function listMyBuilds() {
   if (error) throw error;
   return (data || []).map(rowToBuild);
 }
+
+export async function listBuilds() {
+  const { data, error } = await supabase
+    .from('builds')
+    .select('*')
+    .eq('visibility', 'public')
+    .eq('hidden', false)
+    .order('created_at', { ascending: false })
+    .limit(200);
+  if (error) throw error;
+  return (data || []).map(rowToBuild);
+}
+
+export async function getBuild(id) {
+  const { data, error } = await supabase.from('builds').select('*').eq('id', id).maybeSingle();
+  if (error) throw error;
+  return data ? rowToBuild(data) : null;
+}
