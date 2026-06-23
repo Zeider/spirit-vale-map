@@ -17,12 +17,18 @@ export default function ReadOnlyBuild({ build }) {
         <div className="ro-cls" style={{ color: classColor(base) }}>
           {classBySlug[base]?.name || base}{adv ? ` · ${classBySlug[adv]?.name || adv}` : ''}
         </div>
-        <div className="trees">
-          {base && <SkillTree classSlug={base} tree="base" />}
-          {adv && <SkillTree classSlug={adv} tree="advanced" />}
+        {/* Mirror the Build editor's two-column layout: skill trees beside the
+            notes (reuses .build-body/.trees/.build-side). Gear stays underneath. */}
+        <div className="build-body">
+          <div className="trees">
+            {base && <SkillTree classSlug={base} tree="base" />}
+            {adv && <SkillTree classSlug={adv} tree="advanced" />}
+          </div>
+          <div className="build-side">
+            <BuildNotes />
+          </div>
         </div>
         <GearProgression />
-        <BuildNotes />
       </div>
     </StoreProvider>
   );
