@@ -8,7 +8,7 @@ export default function SkillTree({ classSlug, tree }) {
   const { state, dispatch } = useStore();
   const cls = classBySlug[classSlug];
   if (!cls) return null;
-  const { build, selectedSkillId } = state;
+  const { build, selectedSkillId, readOnly } = state;
 
   return (
     <div className="skill-tree">
@@ -23,8 +23,9 @@ export default function SkillTree({ classSlug, tree }) {
               key={c}
               skill={id ? skillById[id] : null}
               level={id ? build.levels[id] || 0 : 0}
-              canInc={id ? canIncrement(id, build) : false}
-              canDec={id ? canDecrement(id, build) : false}
+              canInc={!readOnly && id ? canIncrement(id, build) : false}
+              canDec={!readOnly && id ? canDecrement(id, build) : false}
+              disabled={readOnly}
               selected={id === selectedSkillId}
               onChange={(level) => {
                 const curLvl = id ? (build.levels[id] || 0) : 0;

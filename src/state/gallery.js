@@ -1,0 +1,94 @@
+import { supabase } from './supabaseClient.js';
+import { sanitizeBuild } from './build-url.js';
+
+const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+const genId = (n = 8) => Array.from(globalThis.crypto.getRandomValues(new Uint8Array(n)), (b) => ALPHABET[b % 62]).join('');
+
+const rowToBuild = (r) => ({ ...r, build: sanitizeBuild(r.payload) });
+
+export async function createBuild({ name, description, role, content, visibility, build }) {
+  const base = { name, description: description || null, base_class: build.baseClass, advanced_class: build.advancedClass || null,
+    role: role || [], content: content || [], visibility: visibility || 'private', payload: build };
+  for (let i = 0; i < 2; i++) {
+    const id = genId();
+    const { error } = await supabase.from('builds').insert({ id, ...base });
+    if (!error) return { id };
+    if (error.code !== '23505') throw error; // 23505 = unique_violation (id collision) -> retry
+  }
+  throw new Error('createBuild: id collisions');
+}
+
+export async function updateBuild(id, fields) {
+  const { error } = await supabase.from('builds').update(fields).eq('id', id);
+  if (error) throw error;
+}
+
+export async function deleteBuild(id) {
+  const { error } = await supabase.from('builds').delete().eq('id', id);
+  if (error) throw error;
+}
+
+export async function listMyBuilds() {
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return [];
+  const { data, error } = await supabase.from('builds').select('*').eq('owner_id', user.id).order('updated_at', { ascending: false });
+  if (error) throw error;
+  return (data || []).map(rowToBuild);
+}
+
+export async function listBuilds() {
+  const { data, error } = await supabase
+    .from('builds')
+    .select('*')
+    .eq('visibility', 'public')
+    .eq('hidden', false)
+    .order('created_at', { ascending: false })
+    .limit(200);
+  if (error) throw error;
+  return (data || []).map(rowToBuild);
+}
+
+export async function getBuild(id) {
+  const { data, error } = await supabase.from('builds').select('*').eq('id', id).maybeSingle();
+  if (error) throw error;
+  return data ? rowToBuild(data) : null;
+}
+
+async function currentUser() {
+  const { data: { user } } = await supabase.auth.getUser();
+  return user || null;
+}
+
+export async function toggleLike(id) {
+  const user = await currentUser();
+  if (!user) throw new Error('not signed in');
+  const { data: existing } = await supabase.from('build_likes')
+    .select('build_id').eq('build_id', id).eq('user_id', user.id).maybeSingle();
+  if (existing) {
+    const { error } = await supabase.from('build_likes').delete().eq('build_id', id).eq('user_id', user.id);
+    if (error) throw error;
+    return { liked: false };
+  }
+  const { error } = await supabase.from('build_likes').insert({ build_id: id, user_id: user.id });
+  if (error) throw error;
+  return { liked: true };
+}
+
+export async function hasLiked(id) {
+  const user = await currentUser();
+  if (!user) return false;
+  const { data } = await supabase.from('build_likes')
+    .select('build_id').eq('build_id', id).eq('user_id', user.id).maybeSingle();
+  return Boolean(data);
+}
+
+export async function listFavorites() {
+  const user = await currentUser();
+  if (!user) return [];
+  const { data: likes } = await supabase.from('build_likes').select('build_id').eq('user_id', user.id);
+  const ids = (likes || []).map((l) => l.build_id);
+  if (!ids.length) return [];
+  const { data, error } = await supabase.from('builds').select('*').in('id', ids);
+  if (error) throw error;
+  return (data || []).map(rowToBuild);
+}

@@ -2,16 +2,30 @@ import { useEffect } from 'react';
 import { encodeBuild, decodeBuild, sanitizeBuild } from './build-url.js';
 import { encodeRoute, decodeRoute, sanitizeRoute } from './route-url.js';
 import { loadShare } from './shortlink.js';
+import { supabase } from './supabaseClient.js';
 
 const LS_KEY = 'sva.state.v2';
+
+// A Discord OAuth redirect returns with ?code=… (PKCE) or ?error=…
+function isOAuthCallback() {
+  const params = new URLSearchParams(window.location.search);
+  return Boolean(params.get('code') || params.get('error')) || /access_token|error/.test(window.location.hash);
+}
 
 export function loadInitialState() {
   const params = new URLSearchParams(window.location.search);
   // A short link (?s=<id>) resolves asynchronously — flag it so the app shows a
   // loader and usePersist doesn't overwrite the ?s= URL before it loads.
   if (params.get('s')) return { shareLoading: true };
+  // OAuth callback in progress — hold the URL so supabase can read ?code= before
+  // usePersist rewrites it (otherwise the session is never established).
+  if (isOAuthCallback()) {
+    const v = params.get('view');
+    return { authCallback: true, view: ['build', 'gear', 'my-builds', 'builds'].includes(v) ? v : 'atlas' };
+  }
   const v = params.get('view');
-  const view = v === 'build' || v === 'gear' ? v : 'atlas';
+  const view = ['build', 'gear', 'my-builds', 'builds'].includes(v) ? v : 'atlas';
+  const galleryBuildId = view === 'builds' ? (params.get('b') || null) : null;
   const lvl = parseInt(params.get('lvl'), 10);
   let route = sanitizeRoute(decodeRoute(params.get('route') || ''));
   let playerLevel = Number.isFinite(lvl) ? lvl : 1;
@@ -23,7 +37,33 @@ export function loadInitialState() {
     } catch { /* ignore */ }
   }
   const build = sanitizeBuild(decodeBuild(params.get('build')));
-  return { view, playerLevel, route, ...(build ? { build } : {}) };
+  return { view, playerLevel, route, galleryBuildId, ...(build ? { build } : {}) };
+}
+
+// Explicitly exchange the OAuth ?code= for a session, then clear the flag so
+// usePersist resumes and cleans the URL. Surfaces any error to state.authError.
+// Module-scoped guard: the auth code is single-use, and React StrictMode runs
+// effects twice in dev — without this the 2nd exchange fails ("Unable to
+// exchange external code") and clobbers the successful first one.
+let oauthExchangeStarted = false;
+export function useOAuthCallback(dispatch) {
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('code');
+    const oauthErr = params.get('error_description') || params.get('error');
+    if (!code && !oauthErr) return;
+    if (oauthExchangeStarted) return;
+    oauthExchangeStarted = true;
+    (async () => {
+      let authError = oauthErr || null;
+      if (code && !authError) {
+        const { error } = await supabase.auth.exchangeCodeForSession(code);
+        if (error) authError = error.message;
+      }
+      if (authError) console.error('Discord sign-in failed:', authError);
+      dispatch({ type: 'hydrate', state: { authCallback: false, authError } });
+    })();
+  }, [dispatch]);
 }
 
 // Resolve a ?s=<id> short link on mount and hydrate the full saved state.
@@ -47,8 +87,17 @@ export function useShareHydrate(dispatch) {
 
 export function usePersist(state) {
   useEffect(() => {
-    if (state.shareLoading) return; // don't clobber a ?s= link before it resolves
+    if (state.shareLoading || state.authCallback) return; // don't clobber a ?s= or OAuth ?code= URL
     const path = window.location.pathname;
+    if (state.view === 'builds') {
+      window.history.replaceState(null, '', `${path}?view=builds${state.galleryBuildId ? `&b=${state.galleryBuildId}` : ''}`);
+      return;
+    }
+    if (state.view === 'my-builds') {
+      window.history.replaceState(null, '', `${path}?view=my-builds`);
+      localStorage.setItem(LS_KEY, JSON.stringify({ playerLevel: state.playerLevel, route: state.route }));
+      return;
+    }
     if (state.view === 'build' || state.view === 'gear') {
       const b = encodeBuild(state.build);
       window.history.replaceState(null, '', `${path}?view=${state.view}${b ? `&build=${b}` : ''}`);
@@ -65,5 +114,5 @@ export function usePersist(state) {
       window.history.replaceState(null, '', `${path}${qs ? `?${qs}` : ''}`);
     }
     localStorage.setItem(LS_KEY, JSON.stringify({ playerLevel: state.playerLevel, route: state.route }));
-  }, [state.view, state.playerLevel, state.route, state.build, state.shareLoading]);
+  }, [state.view, state.playerLevel, state.route, state.build, state.galleryBuildId, state.shareLoading]);
 }

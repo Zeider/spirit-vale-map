@@ -7,6 +7,7 @@ const ATTRS = [['str', '💪 STR'], ['agi', '⚡ AGI'], ['vit', '❤️ VIT'], [
 
 export default function StatSheet() {
   const { state, dispatch } = useStore();
+  const ro = state.readOnly;
   const stages = state.build.gearStages;
 
   const sorted = stages.length ? sortStages(stages) : [];
@@ -42,11 +43,12 @@ export default function StatSheet() {
         {ATTRS.map(([key, label]) => (
           <div key={key} className="attr">
             <span>{label}</span>
-            <button aria-label={`decrease ${key}`} onClick={() => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] - 1 })}>−</button>
+            <button aria-label={`decrease ${key}`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] - 1 })}>−</button>
             <input type="number" min="1" max="99" className="attr-input" aria-label={key} data-testid={`attr-${key}`}
+              readOnly={ro}
               value={state.build.attributes[key]}
-              onChange={(e) => { const v = parseInt(e.target.value, 10); if (Number.isFinite(v)) dispatch({ type: 'setAttribute', key, value: v }); }} />
-            <button aria-label={`increase ${key}`} onClick={() => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] + 1 })}>+</button>
+              onChange={ro ? undefined : (e) => { const v = parseInt(e.target.value, 10); if (Number.isFinite(v)) dispatch({ type: 'setAttribute', key, value: v }); }} />
+            <button aria-label={`increase ${key}`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setAttribute', key, value: state.build.attributes[key] + 1 })}>+</button>
           </div>
         ))}
       </div>
