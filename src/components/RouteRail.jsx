@@ -3,7 +3,7 @@ import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
 import { items as gearItems } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
-import { stageRanges, itemsForTile } from '../logic/gear.js';
+import { stageRanges } from '../logic/gear.js';
 import ItemTooltip from './ItemTooltip.jsx';
 import RichNote from './RichNote.jsx';
 import AddGearStage from './AddGearStage.jsx';
@@ -59,11 +59,17 @@ export default function RouteRail() {
                       <button className="want-add" aria-label={`add want to ${e.tile.name}`}
                         onClick={() => setWantPicker(wantPicker === e.id ? null : e.id)}>＋</button>
                     </div>
+                    {/* INTERIM: vendored drop/craft zone data is stale vs. the live game,
+                        so the WANT-HERE picker offers ALL gear and the author curates.
+                        When the game files are refreshed, revert to the zone-filtered
+                        list: itemsForTile(e.id) from logic/gear.js. */}
                     {wantPicker === e.id && (
                       <Picker title={`Add item · ${e.tile.name}`} value={null}
-                        options={itemsForTile(e.id)
+                        options={Object.values(gearItems)
                           .filter((it) => !e.wants.includes(it.slug))
-                          .map((it) => ({ key: it.slug, name: it.name, hint: it.slot }))}
+                          .sort((a, b) => a.name.localeCompare(b.name))
+                          .map((it) => ({ key: it.slug, name: it.name, hint: it.slot,
+                            search: `${it.name} ${it.slot} ${(it.parsedStats || []).map((s) => s.label).join(' ')}` }))}
                         onPick={(slug) => { if (slug) dispatch({ type: 'addZoneWant', id: e.id, itemSlug: slug }); setWantPicker(null); }}
                         onClose={() => setWantPicker(null)} />
                     )}
