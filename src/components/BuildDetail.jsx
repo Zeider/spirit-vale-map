@@ -10,13 +10,16 @@ export default function BuildDetail() {
   const { state, dispatch } = useStore();
   const id = state.galleryBuildId;
   const [row, setRow] = useState(undefined); // undefined=loading, null=not found
-  useEffect(() => { if (id) getBuild(id).then(setRow).catch(() => setRow(null)); }, [id]);
+  // Reset to loading on id change so navigating detail→detail shows the loader,
+  // not the previous build, while the new one fetches.
+  useEffect(() => { if (!id) return; setRow(undefined); getBuild(id).then(setRow).catch(() => setRow(null)); }, [id]);
 
   const { user, signInWithDiscord } = useAuth();
+  const uid = user?.id;
   const [liked, setLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(0);
-  useEffect(() => { setLikeCount(row && row !== null ? row.like_count : 0); }, [row]);
-  useEffect(() => { if (id && user) hasLiked(id).then(setLiked); else setLiked(false); }, [id, user]);
+  useEffect(() => { setLikeCount(row ? row.like_count : 0); }, [row]);
+  useEffect(() => { if (id && uid) hasLiked(id).then(setLiked); else setLiked(false); }, [id, uid]);
 
   const like = async () => {
     if (!user) { signInWithDiscord(); return; }

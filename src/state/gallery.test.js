@@ -100,19 +100,15 @@ describe('likes', () => {
       eq: vi.fn(function () { return this; }),
       maybeSingle: vi.fn(() => Promise.resolve({ data: null })),
     };
-    let callCount = 0;
-    fromFn.mockImplementation(() => {
-      callCount++;
-      if (callCount === 1) return { select: vi.fn(() => selChain), insert: insertFn, delete: vi.fn() };
-      return { select: vi.fn(() => selChain), insert: insertFn, delete: vi.fn() };
-    });
+    fromFn.mockImplementation(() => ({ select: vi.fn(() => selChain), insert: insertFn, delete: vi.fn() }));
     const result = await toggleLike('b1');
     expect(result).toEqual({ liked: true });
     expect(insertFn).toHaveBeenCalledWith({ build_id: 'b1', user_id: 'u1' });
   });
 
-  it('toggleLike deletes when already liked, returns liked:false', async () => {
-    const delChain = { eq: vi.fn(function () { return this; }), then: (r) => r({ error: null }) };
+  it('toggleLike deletes (scoped by build_id + user_id) when already liked, returns liked:false', async () => {
+    const eqFn = vi.fn(function () { return this; });
+    const delChain = { eq: eqFn, then: (r) => r({ error: null }) };
     const deleteFn = vi.fn(() => delChain);
     const selChain = {
       eq: vi.fn(function () { return this; }),
@@ -122,6 +118,8 @@ describe('likes', () => {
     const result = await toggleLike('b1');
     expect(result).toEqual({ liked: false });
     expect(deleteFn).toHaveBeenCalled();
+    expect(eqFn).toHaveBeenCalledWith('build_id', 'b1'); // delete scoped to this build…
+    expect(eqFn).toHaveBeenCalledWith('user_id', 'u1');  // …and this user only
   });
 
   it('toggleLike throws when signed out', async () => {

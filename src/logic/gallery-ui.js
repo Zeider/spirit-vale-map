@@ -2,7 +2,7 @@ export const ROLES = ['DPS', 'Tank', 'Support', 'Hybrid'];
 export const CONTENT = ['Leveling', 'Endgame', 'Boss'];
 
 export const CLASS_COLORS = {
-  acolyte: '#7CB2FC', knight: '#FFD25A', mage: '#b78cff', rogue: '#7CFC9B',
+  acolyte: '#7cb2fc', knight: '#ffd25a', mage: '#b78cff', rogue: '#7cfc9b',
   scout: '#5ad1c4', summoner: '#ff9d5c', warrior: '#ff7c7c',
 };
 export const classColor = (slug) => CLASS_COLORS[slug] || '#8ea0bf';
