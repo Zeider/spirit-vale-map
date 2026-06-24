@@ -1,4 +1,24 @@
 import { formatCardStats } from './card-stats.mjs';
+import { mapTiles } from '../../src/data/map-tiles.js';
+
+// Tiles grouped by display name, ascending by level — to resolve a craft zone's
+// BAND. A multi-band zone (Forest Labyrinth ×4, Sanctum of Light ×2) shares one
+// DisplayName, so the catalog GameId ("Labyrinth 4") carries the band index.
+const tilesByName = {};
+for (const t of mapTiles) (tilesByName[t.name] ||= []).push(t);
+for (const k in tilesByName) tilesByName[k].sort((a, b) => a.minLevel - b.minLevel);
+
+// minLevel of the exact band tile, so resolveTile(name, minLevel) lands on the
+// right one instead of the first. Without this, e.g. Azure Antlers (Labyrinth 4,
+// Lv 21-25) was resolving to Forest Labyrinth Lv 6-10.
+function craftMinLevel(displayName, gameId) {
+  const tiles = tilesByName[displayName];
+  if (!tiles || !tiles.length) return undefined;
+  if (tiles.length === 1) return tiles[0].minLevel;
+  const m = String(gameId || '').match(/(\d+)\s*$/);
+  const band = m ? parseInt(m[1], 10) : 1;
+  return (tiles[band - 1] || tiles[0]).minLevel;
+}
 
 export const SLOTS = ['weapon', 'shield', 'headgear', 'face', 'chest', 'legwear', 'shoes', 'accessory1', 'accessory2', 'utility'];
 
@@ -34,7 +54,8 @@ function craftOf(crafting) {
   const m = crafting && crafting.map;
   if (!m) return null;
   const materials = (crafting.materials || []).map((x) => ({ name: x.item?.DisplayName || x.item?.GameId || x.item?.name, count: x.count }));
-  return { zoneSlug: m.Slug || m.slug, zoneName: m.DisplayName || m.GameId || m.name, materials };
+  const zoneName = m.DisplayName || m.GameId || m.name;
+  return { zoneSlug: m.Slug || m.slug, zoneName, minLevel: craftMinLevel(zoneName, m.GameId), materials };
 }
 
 function cardOf(c, raw) {

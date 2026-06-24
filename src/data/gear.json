@@ -102,6 +102,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -161,6 +162,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -230,6 +232,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -297,6 +300,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -374,6 +378,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -460,6 +465,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -541,6 +547,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -634,6 +641,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -721,6 +729,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -899,6 +908,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -1019,6 +1029,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -1127,6 +1138,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -1214,6 +1226,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -1309,6 +1322,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -1369,6 +1383,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -1431,6 +1446,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -1600,6 +1616,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -1687,6 +1704,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -1781,6 +1799,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -1856,6 +1875,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -1952,6 +1972,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -2061,6 +2082,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -2109,6 +2131,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -2157,6 +2180,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -2267,6 +2291,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -2470,6 +2495,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -2629,6 +2655,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -2677,6 +2704,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -2834,6 +2862,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -2929,6 +2958,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -3052,6 +3082,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -3125,6 +3156,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -3227,6 +3259,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -3333,6 +3366,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -3379,6 +3413,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -3453,6 +3488,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -3573,6 +3609,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -3682,6 +3719,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -3788,6 +3826,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -3871,6 +3910,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -3997,6 +4037,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -4100,6 +4141,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -4162,6 +4204,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -4210,6 +4253,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -4291,6 +4335,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -4531,6 +4576,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -4653,6 +4699,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -4799,6 +4846,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -5021,6 +5069,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -5069,6 +5118,7 @@
       "craft": {
         "zoneSlug": "forest-field-1",
         "zoneName": "Forest Field 1",
+        "minLevel": 11,
         "materials": [
           {
             "name": "Seed",
@@ -5204,6 +5254,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -5519,6 +5570,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -5619,6 +5671,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -5767,6 +5820,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -5901,6 +5955,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -5986,6 +6041,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -6077,6 +6133,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -6132,6 +6189,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -6200,6 +6258,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -6295,6 +6354,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -6401,6 +6461,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -6619,6 +6680,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -6787,6 +6849,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -6906,6 +6969,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -6949,6 +7013,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -7085,6 +7150,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -7211,6 +7277,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -7326,6 +7393,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -7445,6 +7513,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -7657,6 +7726,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -7725,6 +7795,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -8193,6 +8264,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -8334,6 +8406,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -8652,6 +8725,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -8751,6 +8825,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -8799,6 +8874,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -8882,6 +8958,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -8974,6 +9051,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -9062,6 +9140,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -9150,6 +9229,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -9329,6 +9409,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -9565,6 +9646,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -9613,6 +9695,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -9691,6 +9774,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -9779,6 +9863,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -9864,6 +9949,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -9952,6 +10038,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -10040,6 +10127,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -10169,6 +10257,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -10273,6 +10362,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -10355,6 +10445,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -10479,6 +10570,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -10690,6 +10782,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -10792,6 +10885,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -11057,6 +11151,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -11410,6 +11505,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -11516,6 +11612,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -11662,6 +11759,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -11850,6 +11948,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -11900,6 +11999,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -11983,6 +12083,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -12057,6 +12158,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -12530,6 +12632,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -12673,6 +12776,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -12768,6 +12872,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -12858,6 +12963,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -13005,6 +13111,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -13139,6 +13246,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -13311,6 +13419,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -13380,6 +13489,7 @@
       "craft": {
         "zoneSlug": "forest-field-1",
         "zoneName": "Forest Field 1",
+        "minLevel": 11,
         "materials": [
           {
             "name": "Seed",
@@ -13449,6 +13559,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -13544,6 +13655,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -13632,6 +13744,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -13869,6 +13982,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -14020,6 +14134,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -14068,6 +14183,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -14167,6 +14283,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -14232,6 +14349,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -14313,6 +14431,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -14375,6 +14494,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -14702,6 +14822,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -14789,6 +14910,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -14972,6 +15094,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -15053,6 +15176,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -15208,6 +15332,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -15321,6 +15446,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -15400,6 +15526,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -15477,6 +15604,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -15549,6 +15677,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -15713,6 +15842,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -15780,6 +15910,7 @@
       "craft": {
         "zoneSlug": "forest-field-1",
         "zoneName": "Forest Field 1",
+        "minLevel": 11,
         "materials": [
           {
             "name": "Seed",
@@ -15849,6 +15980,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -15939,6 +16071,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -16011,6 +16144,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -16221,6 +16355,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -16633,6 +16768,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -16769,6 +16905,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -16981,6 +17118,7 @@
       "craft": {
         "zoneSlug": "forest-field-1",
         "zoneName": "Forest Field 1",
+        "minLevel": 11,
         "materials": [
           {
             "name": "Seed",
@@ -17352,6 +17490,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -17447,6 +17586,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -17547,6 +17687,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -17651,6 +17792,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -17755,6 +17897,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -17850,6 +17993,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -17952,6 +18096,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -18047,6 +18192,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -18158,6 +18304,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -18262,6 +18409,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -18366,6 +18514,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -18434,6 +18583,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -18545,6 +18695,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -18639,6 +18790,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -18727,6 +18879,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -18815,6 +18968,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -18975,6 +19129,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -19142,6 +19297,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -19241,6 +19397,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -19449,6 +19606,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -19518,6 +19676,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -19649,6 +19808,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -19836,6 +19996,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -19951,6 +20112,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -20064,6 +20226,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -20126,6 +20289,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -20204,6 +20368,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -20264,6 +20429,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -20406,6 +20572,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -20528,6 +20695,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -20627,6 +20795,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -20724,6 +20893,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -20770,6 +20940,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -20890,6 +21061,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -20981,6 +21153,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -21053,6 +21226,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -21201,6 +21375,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -21288,6 +21463,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -21379,6 +21555,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -21448,6 +21625,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -21536,6 +21714,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -21667,6 +21846,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -21815,6 +21995,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -21910,6 +22091,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -21965,6 +22147,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -22025,6 +22208,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -22116,6 +22300,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -22204,6 +22389,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -22357,6 +22543,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -22452,6 +22639,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -22581,6 +22769,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -22641,6 +22830,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -22761,6 +22951,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -22855,6 +23046,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -22943,6 +23135,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -23031,6 +23224,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -23199,6 +23393,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -23287,6 +23482,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -23375,6 +23571,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -23553,6 +23750,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -23628,6 +23826,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -23884,6 +24083,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -24201,6 +24401,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -24398,6 +24599,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -24550,6 +24752,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -24640,6 +24843,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -24718,6 +24922,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -24766,6 +24971,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -24854,6 +25060,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -24937,6 +25144,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -25104,6 +25312,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -25159,6 +25368,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -25242,6 +25452,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -25408,6 +25619,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -25491,6 +25703,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -25599,6 +25812,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -25686,6 +25900,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -25774,6 +25989,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -25829,6 +26045,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -26024,6 +26241,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -26805,6 +27023,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -26958,6 +27177,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -27106,6 +27326,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -27175,6 +27396,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -27263,6 +27485,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -27353,6 +27576,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -27431,6 +27655,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -27519,6 +27744,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -27602,6 +27828,7 @@
       "craft": {
         "zoneSlug": "starfall-tundra",
         "zoneName": "Starfall Tundra",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Candy Cane",
@@ -27741,6 +27968,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -27796,6 +28024,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -27881,6 +28110,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -28200,6 +28430,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -28461,6 +28692,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -28509,6 +28741,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -28557,6 +28790,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -28706,6 +28940,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -28774,6 +29009,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -28870,6 +29106,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -28958,6 +29195,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -29060,6 +29298,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -29180,6 +29419,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -29291,6 +29531,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -29388,6 +29629,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -29482,6 +29724,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -29582,6 +29825,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -29630,6 +29874,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -29732,6 +29977,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -29877,6 +30123,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -30091,6 +30338,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -30204,6 +30452,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -30312,6 +30561,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -30406,6 +30656,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -30494,6 +30745,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -30582,6 +30834,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -31086,6 +31339,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -31134,6 +31388,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -31258,6 +31513,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -31521,6 +31777,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -31576,6 +31833,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -31671,6 +31929,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -31771,6 +32030,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -31819,6 +32079,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -31889,6 +32150,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -32047,6 +32309,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -32140,6 +32403,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Tree Sap",
@@ -32212,6 +32476,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -32477,6 +32742,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -32582,6 +32848,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -32693,6 +32960,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -32802,6 +33070,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -32908,6 +33177,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -33016,6 +33286,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -33106,6 +33377,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -33200,6 +33472,7 @@
       "craft": {
         "zoneSlug": "demon-s-maw",
         "zoneName": "Demon's Maw",
+        "minLevel": 96,
         "materials": [
           {
             "name": "Ash",
@@ -33375,6 +33648,7 @@
       "craft": {
         "zoneSlug": "forest-field-2",
         "zoneName": "Forest Field 2",
+        "minLevel": 16,
         "materials": [
           {
             "name": "Tree Bark",
@@ -33534,6 +33808,7 @@
       "craft": {
         "zoneSlug": "forest-field-1",
         "zoneName": "Forest Field 1",
+        "minLevel": 11,
         "materials": [
           {
             "name": "Seed",
@@ -33715,6 +33990,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -33763,6 +34039,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -33887,6 +34164,7 @@
       "craft": {
         "zoneSlug": "the-forge",
         "zoneName": "The Forge",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Obsidian",
@@ -33935,6 +34213,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -33990,6 +34269,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Larva",
@@ -34622,6 +34902,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -34810,6 +35091,7 @@
       "craft": {
         "zoneSlug": "stormreef-isle",
         "zoneName": "Stormreef Isle",
+        "minLevel": 61,
         "materials": [
           {
             "name": "Coconut Oil",
@@ -34895,6 +35177,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -34991,6 +35274,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -35039,6 +35323,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -35094,6 +35379,7 @@
       "craft": {
         "zoneSlug": "underground-cavern",
         "zoneName": "Underground Cavern",
+        "minLevel": 86,
         "materials": [
           {
             "name": "Silica Sand",
@@ -35142,6 +35428,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -35250,6 +35537,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -35429,6 +35717,7 @@
       "craft": {
         "zoneSlug": "turtle-nexus",
         "zoneName": "Turtle Nexus",
+        "minLevel": 131,
         "materials": [
           {
             "name": "Oceanite",
@@ -35604,6 +35893,7 @@
       "craft": {
         "zoneSlug": "dark-forest",
         "zoneName": "Dark Forest",
+        "minLevel": 91,
         "materials": [
           {
             "name": "Moonrock",
@@ -35701,6 +35991,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Gold Ore",
@@ -35787,6 +36078,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -35954,6 +36246,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-library",
         "zoneName": "Abyss Castle Library",
+        "minLevel": 121,
         "materials": []
       }
     },
@@ -36021,6 +36314,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -36102,6 +36396,7 @@
       "craft": {
         "zoneSlug": "goblin-village",
         "zoneName": "Goblin Village",
+        "minLevel": 46,
         "materials": [
           {
             "name": "Ingot Iron",
@@ -36202,6 +36497,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -36300,6 +36596,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -36384,6 +36681,7 @@
       "craft": {
         "zoneSlug": "crystal-cave",
         "zoneName": "Crystal Cave",
+        "minLevel": 71,
         "materials": [
           {
             "name": "Azurite",
@@ -36548,6 +36846,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -36596,6 +36895,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -36675,6 +36975,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -36723,6 +37024,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -36847,6 +37149,7 @@
       "craft": {
         "zoneSlug": "fairy-glen",
         "zoneName": "Fairy Glen",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Pouch Fairy Dust",
@@ -37007,6 +37310,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -37158,6 +37462,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -37307,6 +37612,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -37442,6 +37748,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",
@@ -37511,6 +37818,7 @@
       "craft": {
         "zoneSlug": "goblin-warcamp",
         "zoneName": "Goblin Warcamp",
+        "minLevel": 121,
         "materials": [
           {
             "name": "Tungsten",
@@ -37654,6 +37962,7 @@
       "craft": {
         "zoneSlug": "forgotten-depths-1",
         "zoneName": "Forgotten Depths 1",
+        "minLevel": 41,
         "materials": [
           {
             "name": "Spider Web",
@@ -37737,6 +38046,7 @@
       "craft": {
         "zoneSlug": "forest-labyrinth",
         "zoneName": "Forest Labyrinth",
+        "minLevel": 21,
         "materials": [
           {
             "name": "Leaf",
@@ -37785,6 +38095,7 @@
       "craft": {
         "zoneSlug": "sanctum-of-light",
         "zoneName": "Sanctum of Light",
+        "minLevel": 76,
         "materials": [
           {
             "name": "Antique Teacup",
@@ -37901,6 +38212,7 @@
       "craft": {
         "zoneSlug": "forest-field-1",
         "zoneName": "Forest Field 1",
+        "minLevel": 11,
         "materials": [
           {
             "name": "Seed",
@@ -37996,6 +38308,7 @@
       "craft": {
         "zoneSlug": "night-garden",
         "zoneName": "Night Garden",
+        "minLevel": 126,
         "materials": [
           {
             "name": "Moonstone",
@@ -38070,6 +38383,7 @@
       "craft": {
         "zoneSlug": "abyss-castle-keep",
         "zoneName": "Abyss Castle Keep",
+        "minLevel": 111,
         "materials": []
       }
     },
@@ -38146,6 +38460,7 @@
       "craft": {
         "zoneSlug": "swamp",
         "zoneName": "Swamp",
+        "minLevel": 36,
         "materials": [
           {
             "name": "Fishbone",
@@ -38229,6 +38544,7 @@
       "craft": {
         "zoneSlug": "windy-desert-south",
         "zoneName": "Windy Desert South",
+        "minLevel": 31,
         "materials": [
           {
             "name": "Foxtail",

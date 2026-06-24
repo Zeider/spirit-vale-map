@@ -37,8 +37,8 @@ describe('buildGear', () => {
   it('adds parsedStats', () => {
     expect(a.parsedStats[0]).toEqual({ label: 'Atk', value: 20, perRefine: 2, percent: false });
   });
-  it('adds craft materials', () => {
-    expect(a.craft).toEqual({ zoneSlug: 'swamp', zoneName: 'Swamp', materials: [{ name: 'Larva', count: 75 }] });
+  it('adds craft materials + band minLevel (Swamp = Lv 36)', () => {
+    expect(a.craft).toEqual({ zoneSlug: 'swamp', zoneName: 'Swamp', minLevel: 36, materials: [{ name: 'Larva', count: 75 }] });
   });
   it('item has setName null when no equipBySlug provided', () => {
     expect(a.setName).toBe(null);
