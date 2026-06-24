@@ -27,7 +27,18 @@ function normSkill(s) {
   };
 }
 
-export function buildClasses(raw) {
+// Overlay current data ripped from the game files (data/raw-game/skills.json):
+// the real per-level effect magnitudes + the game's current descriptions, which
+// the spiritvalemarket API never carried. See scripts/rip-game-data.py.
+function mergeGameSkills(skills, gameSkills) {
+  for (const [id, g] of Object.entries(gameSkills || {})) {
+    if (!skills[id]) continue;
+    if (g.description) skills[id].description = g.description; // current game text > base44
+    skills[id].effects = g.effects || [];
+  }
+}
+
+export function buildClasses(raw, gameSkills = {}) {
   const skills = {};
   for (const [id, s] of Object.entries(raw.skillMap)) skills[id] = normSkill(s);
 
@@ -39,5 +50,6 @@ export function buildClasses(raw) {
     return { slug: c.Slug, name: c.DisplayName, type: c.Type, maxJobLevel: c.MaxJobLevel, advancedClasses, grid };
   });
 
+  mergeGameSkills(skills, gameSkills);
   return { classes, skills };
 }

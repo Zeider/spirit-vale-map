@@ -1,4 +1,5 @@
 import { skillById } from '../data/classes-index.js';
+import { formatEffects } from '../logic/skill-effects.js';
 
 // Lv1 → LvMax scaling for a {base, level} field (value at lv = base + level*(lv-1)).
 function scale(label, v, max) {
@@ -17,6 +18,7 @@ export default function SkillTooltip({ skill }) {
     <div className="item-tip">
       <b>{skill.name}</b> <span className="muted">{skill.isPassive ? 'PASSIVE' : 'SKILL'} · max {skill.maxLevel}</span>
       {skill.description && <div className="tip-stat muted">{skill.description}</div>}
+      {formatEffects(skill.effects).map((line, i) => <div key={`e${i}`} className="tip-eff">{line}</div>)}
       {scale('Cost', skill.cost, skill.maxLevel)}
       {scale('Cooldown', skill.cooldown, skill.maxLevel)}
       {scale('Damage', skill.damage, skill.maxLevel)}

@@ -1,0 +1,1200 @@
+{
+ "holy-light": {
+  "description": "Release focused divine light at a single enemy, striking them with Holy force.",
+  "effects": []
+ },
+ "wild-charge": {
+  "description": "Leap forward with ferocious momentum, crushing enemies and fueling your Rage.",
+  "effects": []
+ },
+ "fan-fire": {
+  "description": "Rapidly unload a burst of shots into one target, building momentum for follow-up fire.",
+  "effects": []
+ },
+ "fireball": {
+  "description": "Launch a fiery orb that explodes on impact, burning enemies and leaving a Firewall behind.",
+  "effects": []
+ },
+ "summon-skeleton": {
+  "description": "Raise a Skeleton Soldier to fight beside you as the backbone of your undead army.",
+  "effects": []
+ },
+ "grand-cross": {
+  "description": "Burst forth a radiant cross along the ground, purging a wide area of the unworthy with your holy righteousness!",
+  "effects": []
+ },
+ "sanctuary": {
+  "description": "Raise a sacred tree that heals allies and repels undead with holy radiance.",
+  "effects": []
+ },
+ "shadow-step": {
+  "description": "Step through shadow to appear behind the target and strike.",
+  "effects": []
+ },
+ "strafing-volley": {
+  "description": "Fire a rapid volley of arrows into a single target.",
+  "effects": []
+ },
+ "shadow-seal": {
+  "description": "Split your presence through shadow, creating clones to fight alongside you.",
+  "effects": []
+ },
+ "summon-cat": {
+  "description": "Summon a nimble caster that darts through battle and blasts enemies with lightning.",
+  "effects": []
+ },
+ "bash": {
+  "description": "Smash the target with a crushing blow, with a chance to stun them.",
+  "effects": []
+ },
+ "meteor": {
+  "description": "Call down a burning meteor, stunning enemies and leaving them scorched in the blast.",
+  "effects": []
+ },
+ "execute": {
+  "description": "Deliver a brutal finishing blow, dealing heavy damage and feeding your Rage.",
+  "effects": []
+ },
+ "heal": {
+  "description": "Channel holy energy into an ally, restoring HP and leaving gentle Regeneration behind.",
+  "effects": []
+ },
+ "panic-burst": {
+  "description": "Unleash a sudden burst of pistol fire, damaging nearby enemies and finishing prepared combos.",
+  "effects": []
+ },
+ "bone-spikes": {
+  "description": "Rupture the ground with jagged bone spikes, impaling enemies caught above them.",
+  "effects": []
+ },
+ "exorcism": {
+  "description": "Call down sacred radiance over an area, pulling enemies inward before blasting them with holy power.",
+  "effects": []
+ },
+ "venom-strike": {
+  "description": "Strike twice with venomous force, with a chance to apply Poison.",
+  "effects": []
+ },
+ "flame-orb": {
+  "description": "Send out a slow orb of unstable flame that erupts into a wide explosion on impact.",
+  "effects": []
+ },
+ "soul-strike": {
+  "description": "Launch a focused burst of Soul magic at a single enemy.",
+  "effects": []
+ },
+ "firebolt": {
+  "description": "Launch a concentrated bolt of Fire at one enemy and attune yourself to Fire.",
+  "effects": []
+ },
+ "ice-shard": {
+  "description": "This spell is a great ice breaker as you send an ice spike that shatters and freezes your foes.",
+  "effects": []
+ },
+ "chain-lightning": {
+  "description": "Unleash lightning that jumps between enemies, shocking each target it chains through.",
+  "effects": []
+ },
+ "cloaking": {
+  "description": "Blend into shifting shadows, hiding from sight until you attack, cast, or take a hit.",
+  "effects": []
+ },
+ "fire-pillar": {
+  "description": "Summon a pillar of flame from the ground, burning enemies and exposing them to Earth.",
+  "effects": []
+ },
+ "tempest": {
+  "description": "Summon a furious gale that batters enemies, blinds them, and exposes them to Water damage.",
+  "effects": []
+ },
+ "whirlwind": {
+  "description": "A living funnel of air, whipping up storms and tossing its prey around like leaves.",
+  "effects": [
+   {
+    "stat": "DamageToElement",
+    "value": 10,
+    "filter": "Wind"
+   }
+  ]
+ },
+ "berserk": {
+  "description": "Enter a reckless battle state, greatly increasing combat power while abandoning restraint.",
+  "effects": []
+ },
+ "arcane-sigil": {
+  "description": "Mystic wards glow beneath a polished jeweled crest.",
+  "effects": [
+   {
+    "stat": "WeightLimit",
+    "value": 100
+   }
+  ]
+ },
+ "stomp": {
+  "description": "Slam the ground with heavy force, stunning enemies caught in the impact.",
+  "effects": []
+ },
+ "earth-spikes": {
+  "description": "Rupture the ground with jagged stone, striking enemies and leaving them exposed to Fire.",
+  "effects": []
+ },
+ "thunder-storm": {
+  "description": "Call down a storm of lightning over an area, striking enemies and exposing them to Water damage.",
+  "effects": []
+ },
+ "hydro-vortex": {
+  "description": "Unleash a violent spiral of water, dragging enemies inward and exposing them to Wind.",
+  "effects": []
+ },
+ "fury-bond": {
+  "description": "Bind an ally with volatile force, granting Fury and Might through a shared battle surge.",
+  "effects": []
+ },
+ "ice-release": {
+  "description": "Call forth a spectral pufferfish that fires icy shards, slowing foes and readying your next spell.",
+  "effects": []
+ },
+ "thunderbolt": {
+  "description": "Call down a focused bolt of lightning on one enemy and attune yourself to Wind.",
+  "effects": []
+ },
+ "earthbolt": {
+  "description": "Strike a single foe with crushing Earth magic and attune yourself to Earth.",
+  "effects": []
+ },
+ "shield-bash": {
+  "description": "Charge! Brace that shield and lunge forth. Crumbling enemy defenses and opening them for further attacks.",
+  "effects": []
+ },
+ "icebolt": {
+  "description": "Ice to meet you! As you hurl a Water shard at your foes.",
+  "effects": []
+ },
+ "axe-mastery": {
+  "description": "Increases attack with axes, swords, and scythes, and raises critical chance.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Axe"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Sword"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Scythe"
+   },
+   {
+    "stat": "Crit",
+    "value": 1
+   }
+  ]
+ },
+ "blade-mastery": {
+  "description": "Increases attack with daggers, swords, twinblades, and katars, while improving Attack Speed.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Dagger"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Sword"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Twinblade"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Katar"
+   },
+   {
+    "stat": "AtkSpd",
+    "value": 1
+   }
+  ]
+ },
+ "codex-mastery": {
+  "description": "Increases Magic Attack with books, staffs, and maces, while improving Healing.",
+  "effects": [
+   {
+    "stat": "MatkWeapon",
+    "value": 3,
+    "filter": "Book"
+   },
+   {
+    "stat": "MatkWeapon",
+    "value": 3,
+    "filter": "Wand"
+   },
+   {
+    "stat": "MatkWeapon",
+    "value": 3,
+    "filter": "Mace"
+   },
+   {
+    "stat": "Healing",
+    "value": 1
+   }
+  ]
+ },
+ "honed-blade": {
+  "description": "Increases the damage dealt by critical hits.",
+  "effects": [
+   {
+    "stat": "CritDamage",
+    "value": 3
+   }
+  ]
+ },
+ "dual-wield-mastery": {
+  "description": "Allows you to wield a weapon in each hand.",
+  "effects": []
+ },
+ "faith": {
+  "description": "Increases damage against Undead and Shadow enemies, while reducing damage taken from them.",
+  "effects": [
+   {
+    "stat": "DamageToElement",
+    "value": 5,
+    "filter": "Undead"
+   },
+   {
+    "stat": "DamageToElement",
+    "value": 5,
+    "filter": "Shadow"
+   },
+   {
+    "stat": "DamageFromElement",
+    "value": 5,
+    "filter": "Undead"
+   },
+   {
+    "stat": "DamageFromElement",
+    "value": 5,
+    "filter": "Shadow"
+   }
+  ]
+ },
+ "fortify": {
+  "description": "Increases maximum HP, Vitality, and Healing Received.",
+  "effects": [
+   {
+    "stat": "HpMult",
+    "value": 4
+   },
+   {
+    "stat": "HealingReceived",
+    "value": 4
+   },
+   {
+    "stat": "Vit",
+    "value": 2
+   }
+  ]
+ },
+ "free-cast": {
+  "description": "Allows movement and attacks while casting, with reduced Move Speed and Attack Speed.",
+  "effects": []
+ },
+ "gun-mastery": {
+  "description": "Increases attack with firearms, improves Attack Speed, and allows dual wielding pistols.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Pistol"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Rifle"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Shotgun"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 5,
+    "filter": "GatlingGun"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 5,
+    "filter": "Launcher"
+   },
+   {
+    "stat": "AtkSpd",
+    "value": 1
+   }
+  ]
+ },
+ "increased-regeneration": {
+  "description": "Increases passive HP recovery.",
+  "effects": [
+   {
+    "stat": "HpRegen",
+    "value": 5
+   },
+   {
+    "stat": "HpRegenMax",
+    "value": 0.2
+   }
+  ]
+ },
+ "increased-recovery": {
+  "description": "Increases passive MP recovery.",
+  "effects": [
+   {
+    "stat": "MpRegen",
+    "value": 2
+   },
+   {
+    "stat": "MpRegenMax",
+    "value": 0.2
+   }
+  ]
+ },
+ "mace-mastery": {
+  "description": "Increases attack with maces, books, and staffs, while improving Attack Speed.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Mace"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Book"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Wand"
+   },
+   {
+    "stat": "AtkSpd",
+    "value": 1
+   }
+  ]
+ },
+ "multistrike": {
+  "description": "Gives auto attacks a chance to strike additional times.",
+  "effects": [
+   {
+    "stat": "DoubleAttack",
+    "value": 100
+   }
+  ]
+ },
+ "ninjutsu-mastery": {
+  "description": "Increases cast range, Magic Attack, maximum MP, and MP recovery.",
+  "effects": [
+   {
+    "stat": "Range",
+    "value": 1
+   },
+   {
+    "stat": "MatkMult",
+    "value": 2
+   },
+   {
+    "stat": "MpRegenMult",
+    "value": 3
+   },
+   {
+    "stat": "MpMult",
+    "value": 4
+   }
+  ]
+ },
+ "precise-aim": {
+  "description": "Increases attack range and Hit Rate.",
+  "effects": [
+   {
+    "stat": "Range",
+    "value": 1
+   },
+   {
+    "stat": "Hit",
+    "value": 2
+   }
+  ]
+ },
+ "brutality": {
+  "description": "Increases the maximum number of Rage stacks you can build.",
+  "effects": [
+   {
+    "stat": "StatusMaxStacks",
+    "value": 25,
+    "filter": "Rage"
+   }
+  ]
+ },
+ "reflect-shield": {
+  "description": "Reflects a portion of incoming damage back to attackers.",
+  "effects": [
+   {
+    "stat": "ReflectDamage",
+    "value": 10
+   }
+  ]
+ },
+ "natural-resistance": {
+  "description": "Reduces damage taken from all elements.",
+  "effects": [
+   {
+    "stat": "AllResist",
+    "value": 3
+   }
+  ]
+ },
+ "scythe-mastery": {
+  "description": "Increases attack with scythes, axes, and swords, while adding HP siphon.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Scythe"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Axe"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Sword"
+   },
+   {
+    "stat": "SiphonHp",
+    "value": 1
+   }
+  ]
+ },
+ "shadow-mastery": {
+  "description": "Increases Move Speed, Perfect Dodge, and Spell Dodge.",
+  "effects": [
+   {
+    "stat": "PerfectDodge",
+    "value": 2
+   },
+   {
+    "stat": "MoveSpd",
+    "value": 4
+   },
+   {
+    "stat": "SpellDodge",
+    "value": 6
+   }
+  ]
+ },
+ "shield-mastery": {
+  "description": "Improves Block Chance and defenses while using a shield.",
+  "effects": [
+   {
+    "stat": "BlockShield",
+    "value": 1
+   },
+   {
+    "stat": "DefMult",
+    "value": 1
+   },
+   {
+    "stat": "MdefMult",
+    "value": 1
+   }
+  ]
+ },
+ "skeleton-mastery": {
+  "description": "Strengthens summons by increasing their Attack, Magic Attack, and resistance.",
+  "effects": [
+   {
+    "stat": "SummonAtkMult",
+    "value": 1
+   },
+   {
+    "stat": "SummonMatkMult",
+    "value": 1
+   },
+   {
+    "stat": "SummonResist",
+    "value": 1
+   }
+  ]
+ },
+ "spear-mastery": {
+  "description": "Increases attack with spears, swords, and maces, while raising maximum HP.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Spear"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Sword"
+   },
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Mace"
+   },
+   {
+    "stat": "Hp",
+    "value": 35
+   }
+  ]
+ },
+ "steady-hands": {
+  "description": "Increases bow attack and DEX.",
+  "effects": [
+   {
+    "stat": "AtkWeapon",
+    "value": 3,
+    "filter": "Bow"
+   },
+   {
+    "stat": "Dex",
+    "value": 1
+   }
+  ]
+ },
+ "summon-mastery": {
+  "description": "Allows summoned allies to inherit more of your attributes.",
+  "effects": [
+   {
+    "stat": "SummonStatShare",
+    "value": 10
+   }
+  ]
+ },
+ "twohand-parry": {
+  "description": "Improves your ability to block while using two-handed weapons.",
+  "effects": [
+   {
+    "stat": "Block",
+    "value": 6
+   }
+  ]
+ },
+ "wand-mastery": {
+  "description": "Increases Magic Attack with staffs, books, and swords, while improving Cast Speed.",
+  "effects": [
+   {
+    "stat": "MatkWeapon",
+    "value": 3,
+    "filter": "Wand"
+   },
+   {
+    "stat": "MatkWeapon",
+    "value": 3,
+    "filter": "Book"
+   },
+   {
+    "stat": "MatkWeapon",
+    "value": 3,
+    "filter": "Sword"
+   },
+   {
+    "stat": "CastSpd",
+    "value": 1
+   }
+  ]
+ },
+ "weaver-mastery": {
+  "description": "Increases Attack, Magic Attack, all attributes, and lets skills splash nearby enemies.",
+  "effects": [
+   {
+    "stat": "Atk",
+    "value": 3
+   },
+   {
+    "stat": "Matk",
+    "value": 3
+   },
+   {
+    "stat": "AllStats",
+    "value": 1
+   },
+   {
+    "stat": "SkillSplash",
+    "value": 3
+   }
+  ]
+ },
+ "aegis-of-light": {
+  "description": "Briefly protect yourself and allies by invoking your faith. Praise the light!",
+  "effects": []
+ },
+ "aerial-shot": {
+  "description": "Leap through the air and fire downward, striking enemies below before landing with evasive grace.",
+  "effects": []
+ },
+ "inner-focus": {
+  "description": "Sharpen your focus and reflexes, increasing AGI and DEX for a short time.",
+  "effects": []
+ },
+ "arrow-shower": {
+  "description": "Rain arrows over a wide area, striking enemies repeatedly and forcing them to scatter.",
+  "effects": []
+ },
+ "twin-cleave": {
+  "description": "Swing twice in wide arcs, cutting through enemies in front of you.",
+  "effects": []
+ },
+ "axe-throw": {
+  "description": "Hurl your axe in a brutal arc, striking the target before it snaps back into your grasp.",
+  "effects": []
+ },
+ "vortex-slash": {
+  "description": "Unleash a spinning slash that damages nearby enemies and pulls them toward you.",
+  "effects": []
+ },
+ "sacred-aegis": {
+  "description": "Wrap an ally in divine protection, forming a barrier based on their maximum health.",
+  "effects": []
+ },
+ "blade-dance": {
+  "description": "Unleash a flurry of strikes around you, cutting down nearby enemies in rapid motion.",
+  "effects": []
+ },
+ "benediction": {
+  "description": "Bless nearby allies with divine protection, raising all attributes for a short time.",
+  "effects": []
+ },
+ "blink": {
+  "description": "Teleport to a target location, slipping out of danger and repositioning with precision.",
+  "effects": []
+ },
+ "blood-crash": {
+  "description": "Spend stored Rage to recover health instantly and keep regenerating for a short time.",
+  "effects": []
+ },
+ "blood-frenzy": {
+  "description": "Give in to relentless violence, trading control for speed, pressure, and sustain.",
+  "effects": []
+ },
+ "bone-spear": {
+  "description": "Hurl a sharpened lance of bone that pierces through flesh and spirit alike.",
+  "effects": []
+ },
+ "conjurer": {
+  "description": "Deepen your bond with summoned allies, improving summon damage and healing power.",
+  "effects": []
+ },
+ "consecration": {
+  "description": "Drop a pillar of light that purifies the surrounding area, burning the unworthy and healing the righteous.",
+  "effects": []
+ },
+ "conviction-aura": {
+  "description": "Radiate unwavering resolve, increasing nearby allies' Melee, Ranged, and Magic damage.",
+  "effects": []
+ },
+ "corpse-barrier": {
+  "description": "Bind stolen bone and life into a grim barrier, shielding yourself through your summon.",
+  "effects": []
+ },
+ "corpse-explosion": {
+  "description": "Detonate a skeleton summon in a burst of necrotic force, causing nearby enemies and summons to explode on death.",
+  "effects": []
+ },
+ "counter-stance": {
+  "description": "Raise your guard and counter. Blocks attacks and hits back with a stunning blow!",
+  "effects": []
+ },
+ "cure": {
+  "description": "Purify an ally with holy clarity, protecting them from Poison, Blind, and Silence.",
+  "effects": []
+ },
+ "cyclone": {
+  "description": "Spin forward in a violent cyclone, pulling enemies inward and shredding them with repeated strikes.",
+  "effects": []
+ },
+ "damnation": {
+  "description": "Call down holy judgment, damaging enemies and leaving them exposed to both physical and Magic punishment.",
+  "effects": []
+ },
+ "dark-claw": {
+  "description": "Rip into the target with savage slashes, causing Bleeding while fueling your Rage.",
+  "effects": []
+ },
+ "death-bond": {
+  "description": "Bind yourself to an ally, sharing healing and HP siphon between both bonded souls.",
+  "effects": []
+ },
+ "necrotic-presence": {
+  "description": "The summon radiates necrotic power, empowering nearby allies' Undead damage while weakening enemies.",
+  "effects": []
+ },
+ "death-coil": {
+  "description": "Unleash a coil of undead energy, harming enemies while restoring summoned allies.",
+  "effects": []
+ },
+ "death-nova": {
+  "description": "Release a burst of necrotic force, rotting nearby enemies and leaving a decaying field behind.",
+  "effects": []
+ },
+ "death-spiral": {
+  "description": "Spin into a scythe assault, carving nearby enemies while spreading Decay through each strike.",
+  "effects": []
+ },
+ "defiance-aura": {
+  "description": "Radiate unyielding faith, reducing incoming damage for nearby allies.",
+  "effects": []
+ },
+ "absolution": {
+  "description": "Strip the target clean of buffs and harmful statuses, returning them to a neutral state.",
+  "effects": []
+ },
+ "divine-punishment": {
+  "description": "Channel your divine might and rain down radiant swords on your unworthy foes!",
+  "effects": []
+ },
+ "divinity": {
+  "description": "Radiate divine power, strengthening nearby allies while empowering your own healing and holy protection.",
+  "effects": []
+ },
+ "avatar-of-stone": {
+  "description": "Mastery over earth lets you assume this avatar state. Increasing earth damage, while making you more resistant to attacks.",
+  "effects": []
+ },
+ "earth-wall": {
+  "description": "Raise a wall of solid stone, blocking space and shaping the battlefield around you.",
+  "effects": []
+ },
+ "earthquake": {
+  "description": "Shake the battlefield with violent tremors, stunning enemies caught in the upheaval.",
+  "effects": []
+ },
+ "sanctify": {
+  "description": "Bless an ally's armor with holy light, changing their armor element to Holy.",
+  "effects": []
+ },
+ "enchant-poison": {
+  "description": "Imbue your attacks with the Poison element.",
+  "effects": []
+ },
+ "endow-holy": {
+  "description": "Bless an ally's weapon with holy light, converting them to the Holy element.",
+  "effects": []
+ },
+ "endure": {
+  "description": "Steel yourself against incoming hits, increasing defenses and preventing flinching.",
+  "effects": []
+ },
+ "energy-shield": {
+  "description": "Wrap yourself in arcane protection, redirecting part of incoming damage to MP.",
+  "effects": []
+ },
+ "explosive-grenade": {
+  "description": "Hurl an explosive charge that detonates in flames, knocking back and burning enemies.",
+  "effects": []
+ },
+ "fan-of-knives": {
+  "description": "Scatter a fan of spectral blades, leaping through danger while setting up your next technique.",
+  "effects": []
+ },
+ "fanaticism": {
+  "description": "Radiate holy zeal, quickening nearby allies while making your own strikes more relentless.",
+  "effects": []
+ },
+ "banishment-field": {
+  "description": "Call down a cursed field that twists healing against enemies and leaves them exposed to Magic damage.",
+  "effects": []
+ },
+ "dissonance-well": {
+  "description": "Create a dissonant field that damages enemies and slows their movement, attacks, and casting.",
+  "effects": []
+ },
+ "resonance-well": {
+  "description": "Create a soothing well of resonance, healing allies who remain within its gentle hum.",
+  "effects": []
+ },
+ "suppression-field": {
+  "description": "Create a silent field that pulls enemies inward and may seal their ability to cast.",
+  "effects": []
+ },
+ "avatar-of-fire": {
+  "description": "Mastery over Fire lets you assume this avatar state. Increasing Fire damage, Healing Received, and igniting those that dare attack you.",
+  "effects": []
+ },
+ "fire-release": {
+  "description": "Call forth a blazing spirit that crashes down in flames and leaves your attacks wreathed in Fire.",
+  "effects": []
+ },
+ "flash-bang": {
+  "description": "Backslide out of danger and prepare a flash grenade for your next move.",
+  "effects": []
+ },
+ "flow-state": {
+  "description": "Enter a focused combat rhythm, turning auto attacks into Magic pressure and improving autocast flow.",
+  "effects": []
+ },
+ "force-shot": {
+  "description": "Fire a powerful shot that knocks enemies back and sets up a combo finisher.",
+  "effects": []
+ },
+ "freeze-grenade": {
+  "description": "Throw a freezing charge that bursts in an area, immobilizing enemies caught inside.",
+  "effects": []
+ },
+ "blizzard": {
+  "description": "Unleash a barrage of hail, knocking back foes with the might of ice. A slick spell to keep enemies away.",
+  "effects": []
+ },
+ "binding-spiral": {
+  "description": "Spin with collapsing force, dragging enemies inward before freezing those caught at the center.",
+  "effects": []
+ },
+ "divine-grace": {
+  "description": "Bless nearby allies with divine grace, greatly improving natural HP and MP recovery.",
+  "effects": []
+ },
+ "grave-chill": {
+  "description": "The summon radiates graveborn cold, hastening nearby allies while chilling nearby enemies.",
+  "effects": []
+ },
+ "earth-splitter": {
+  "description": "Slam the ground with heavy force, staggering enemies and setting them up for your next combo.",
+  "effects": []
+ },
+ "guardian-bond": {
+  "description": "Bind an ally with guardian magic, granting Vitality and Regeneration through a shared bond.",
+  "effects": []
+ },
+ "guardian-spirit": {
+  "description": "Conjure a guardian spirit around an ally, shielding them from ranged attacks.",
+  "effects": []
+ },
+ "harvest": {
+  "description": "Leap forward with a wide scythe swing, staggering enemies and opening them to a finishing strike.",
+  "effects": []
+ },
+ "haste": {
+  "description": "Bless an ally with swiftness, clearing Slow and increasing Move Speed and Attack Speed.",
+  "effects": []
+ },
+ "high-guard": {
+  "description": "Become an impenetrable fortress, increasing Block while becoming difficult to move.",
+  "effects": []
+ },
+ "high-heal": {
+  "description": "Pour intense holy power into an ally, restoring a massive amount of HP.",
+  "effects": []
+ },
+ "holy-shield": {
+  "description": "May the light bless your shield, increasing Block and All Resistance against all your foes!",
+  "effects": []
+ },
+ "holy-wrath": {
+  "description": "Smite an area with concentrated holy power, silencing enemies and leaving wrathful light behind.",
+  "effects": []
+ },
+ "invoker": {
+  "description": "Enter an invoker state, empowering your summons to echo Soul Strike with their own Magic.",
+  "effects": []
+ },
+ "judgement-blade": {
+  "description": "This giant Holy sword cleaves through the unworthy, slowing them for further attacks.",
+  "effects": []
+ },
+ "jump-shot": {
+  "description": "Leap into battle and fire mid-air, staggering enemies and opening them to a follow-up shot.",
+  "effects": []
+ },
+ "life-bond": {
+  "description": "Link your life to an ally, taking their wounds upon yourself through a sacred bond.",
+  "effects": []
+ },
+ "life-drain": {
+  "description": "Siphon vitality from enemies, or empower a summon with a dangerous undead surge.",
+  "effects": []
+ },
+ "lightning-reflexes": {
+  "description": "Move like living lightning, increasing speed and evasive combat instincts.",
+  "effects": []
+ },
+ "lightning-release": {
+  "description": "Unleash a phoenix of lightning that streaks forward, piercing enemies in its path.",
+  "effects": []
+ },
+ "flash-step": {
+  "description": "Cross the battlefield in an instant, striking the target area with sudden force.",
+  "effects": []
+ },
+ "mimic-seal": {
+  "description": "Seal a target's magic and copy its essence, allowing you to cast the spell as your own.",
+  "effects": []
+ },
+ "lockdown": {
+  "description": "Lock your heavy weapon in place, unleashing sustained fire while holding your ground.",
+  "effects": []
+ },
+ "mark-target": {
+  "description": "Mark a target's weak points, reducing their Flee and Critical Defense.",
+  "effects": []
+ },
+ "gryphon-riding": {
+  "description": "Call upon your holy gryphon, taking to the battlefield as both rider and radiant blade.",
+  "effects": []
+ },
+ "venom-coating": {
+  "description": "Coat your attacks in venom, giving each strike a chance to apply Poison.",
+  "effects": []
+ },
+ "piercing-shot": {
+  "description": "Fire a piercing rifle round that punches through enemies, staggering and knocking them back.",
+  "effects": []
+ },
+ "point-blank": {
+  "description": "Fire a brutal close-range shotgun blast, blinding enemies and finishing shotgun combos.",
+  "effects": []
+ },
+ "poison-grenade": {
+  "description": "Hurl a toxic grenade that bursts into Poison, leaving deadly ground behind.",
+  "effects": []
+ },
+ "reanimation": {
+  "description": "Bind the lingering spirit of a fallen boss, claiming it as an undead champion.",
+  "effects": []
+ },
+ "reap": {
+  "description": "Carve through nearby enemies with a merciless scythe strike, pulling them in and siphoning HP.",
+  "effects": []
+ },
+ "resurrection": {
+  "description": "Return a fallen ally to life, restoring a portion of their HP and spirit.",
+  "effects": []
+ },
+ "salvation": {
+  "description": "Call down celestial light, returning all fallen allies to life with renewed strength.",
+  "effects": []
+ },
+ "sacrament": {
+  "description": "Focus holy will into clarity, empowering Holy magic while improving Cast Speed and Status Duration.",
+  "effects": []
+ },
+ "sacred-ground": {
+  "description": "Hallow the ground beneath your allies, reducing damage taken from Ground Effects.",
+  "effects": []
+ },
+ "sacrifice": {
+  "description": "Offer your own HP to the divine, adding Holy damage to each of your blows.",
+  "effects": []
+ },
+ "elusive-feint": {
+  "description": "Slip backward in a shadowy feint, briefly evading all attacks and leaving a clone behind.",
+  "effects": []
+ },
+ "black-blade": {
+  "description": "Launch a whirling crescent of darkness that carves through the target with shadow force.",
+  "effects": []
+ },
+ "shield-throw": {
+  "description": "Let the light guide your shield as you hurl it between many foes.",
+  "effects": []
+ },
+ "shock-absorber": {
+  "description": "Brace behind your shotgun, absorbing heavy impact and preventing flinching.",
+  "effects": []
+ },
+ "blood-howl": {
+  "description": "Unleash a savage howl that fills nearby allies with bloodlust and battle hunger.",
+  "effects": []
+ },
+ "furious-shout": {
+  "description": "Let out a furious battle cry, granting nearby allies Fury and sharpening their critical strikes.",
+  "effects": []
+ },
+ "mighty-roar": {
+  "description": "Let out a mighty roar, empowering nearby allies with increased strength.",
+  "effects": []
+ },
+ "fearsome-cry": {
+  "description": "Terrify nearby enemies with a savage cry, stunning them while fueling your Rage.",
+  "effects": []
+ },
+ "shrapnel": {
+  "description": "Blast enemies with close-range shrapnel, slowing and bleeding those caught in the burst.",
+  "effects": []
+ },
+ "shuriken-fan": {
+  "description": "Hurl a spinning shuriken that lingers in place, slicing nearby enemies again and again.",
+  "effects": []
+ },
+ "silent-edge": {
+  "description": "Enter a precise killing stance, increasing critical chance and Critical Damage.",
+  "effects": []
+ },
+ "slow-trap": {
+  "description": "Spread a shadowy trap across the ground, slowing enemies and leaving them vulnerable.",
+  "effects": []
+ },
+ "smite": {
+  "description": "Strike the target with holy force, dealing blessed damage with a chance to stun.",
+  "effects": []
+ },
+ "smoke-screen": {
+  "description": "Create a blinding smoke screen, blinding enemies while cloaking yourself.",
+  "effects": []
+ },
+ "sniper's-nest": {
+  "description": "Take a steady sniper stance, increasing Ranged damage and Critical Damage while greatly reducing movement.",
+  "effects": []
+ },
+ "sniper-shot": {
+  "description": "Line up a devastating rifle shot, striking with heavy precision damage.",
+  "effects": []
+ },
+ "soul-drain": {
+  "description": "The summon radiates a draining aura, helping nearby allies siphon HP and MP from battle.",
+  "effects": []
+ },
+ "spear-quicken": {
+  "description": "Through disciplined weapon training, the Knight strikes faster and cleaner. Fear the one who has practiced the same technique a thousand times.",
+  "effects": []
+ },
+ "air-cutter": {
+  "description": "A wide sweeping attack, staggering enemies and making them more susceptible to attacks.",
+  "effects": []
+ },
+ "impale": {
+  "description": "Finish them with a strong piercing attack. Increased damage when used as part of a combo.",
+  "effects": []
+ },
+ "piercing-flurry": {
+  "description": "Open with rapid piercing strikes, cutting through enemies and preparing your next combo.",
+  "effects": []
+ },
+ "arcanum-ward": {
+  "description": "Wrap an ally in a sacred ward that reflects Magic damage before hostile spells can reach them.",
+  "effects": []
+ },
+ "status-recovery": {
+  "description": "Clear Stun, Frozen, Burning, and Decay from an ally, granting brief immunity to each.",
+  "effects": []
+ },
+ "summon-abomination": {
+  "description": "Summon a stitched mass of decaying flesh, built to control space through brute force.",
+  "effects": []
+ },
+ "summon-angel": {
+  "description": "Summon a radiant healer who restores allies and strikes enemies with holy light.",
+  "effects": []
+ },
+ "summon-command": {
+  "description": "Command your active summons to converge on the chosen target and attack.",
+  "effects": []
+ },
+ "summon-cactus": {
+  "description": "Summon a spiny sentinel that absorbs punishment and strikes back without flinching.",
+  "effects": []
+ },
+ "summon-mount": {
+  "description": "Mount your active summon, taking direct control from a stronger battlefield position.",
+  "effects": []
+ },
+ "summon-reanimation": {
+  "description": "Call forth a claimed undead champion, returning it to the battlefield.",
+  "effects": []
+ },
+ "summon-recall": {
+  "description": "Recall your active summons, cancelling their actions and bringing them back to your side.",
+  "effects": []
+ },
+ "summon-skeleton-mage": {
+  "description": "Raise a Skeleton Mage that attacks from range with unstable necromantic magic.",
+  "effects": []
+ },
+ "summon-swap": {
+  "description": "Swap your active summon setup, adapting quickly to the fight.",
+  "effects": []
+ },
+ "summon-wolf": {
+  "description": "Summon a fast, feral brawler that tears into enemies with raw strength and speed.",
+  "effects": []
+ },
+ "summon-wraith": {
+  "description": "Summon a ghostly undead caster that harasses enemies with dark magic.",
+  "effects": []
+ },
+ "suppressive-shot": {
+  "description": "Fire suppressive shots that weaken and mark enemies, setting them up for follow-up attacks.",
+  "effects": []
+ },
+ "taunt": {
+  "description": "Compels inflicted targets to focus their attention on you. Increases Threat generation.",
+  "effects": []
+ },
+ "elemental-overload": {
+  "description": "Unleash a massive elemental eruption based on your current attunement, overwhelming enemies in a wide area.",
+  "effects": []
+ },
+ "trigger-happy": {
+  "description": "Enter a wild firing state, automatically shooting nearby enemies while moving.",
+  "effects": []
+ },
+ "true-sight": {
+  "description": "Reveal hidden enemies with holy sight, exposing them for a short time.",
+  "effects": []
+ },
+ "turn-undead": {
+  "description": "Attempt to purge Undead and Shadow enemies with divine judgment, dealing massive damage on success.",
+  "effects": []
+ },
+ "twist-of-fate": {
+  "description": "Strike with overwhelming force, stunning and scattering enemies before slipping back into shadows.",
+  "effects": []
+ },
+ "axe-quicken": {
+  "description": "Sharpen your battle rhythm, increasing Attack Speed and critical chance for a short time.",
+  "effects": []
+ },
+ "unyielding": {
+  "description": "Consume Rage to steel your body, reducing incoming damage through sheer will.",
+  "effects": []
+ },
+ "vitality-aura": {
+  "description": "Emit a gentle divine aura, increasing Vitality and HP recovery for nearby allies.",
+  "effects": []
+ },
+ "volatile-bolt": {
+  "description": "Fire a volatile shot that explodes on impact, damaging enemies around the target.",
+  "effects": []
+ },
+ "avatar-of-frost": {
+  "description": "Mastery over Water lets you assume this avatar state. Increasing Water damage, MP Regen, and freezing those that dare attack you.",
+  "effects": []
+ },
+ "dual-loadout": {
+  "description": "Swap between equipped loadouts, adapting your combat style in the middle of battle.",
+  "effects": []
+ },
+ "weapon-throw": {
+  "description": "Hurl your weapon with precision, slowing your target while you attack from afar.",
+  "effects": []
+ },
+ "avatar-of-storm": {
+  "description": "Mastery over Wind lets you assume this avatar state. Increasing your Move Speed and discharging a blast of lightning at those that dare attack you.",
+  "effects": []
+ },
+ "zeal": {
+  "description": "Inspire an ally with fervent conviction, greatly increasing their damage for a time.",
+  "effects": []
+ }
+}

@@ -20,6 +20,14 @@ describe('SkillTooltip', () => {
     expect(screen.getByText(/Requires: Heal Lv3/)).toBeInTheDocument();
   });
 
+  it('renders ripped per-level effect lines (grouped by filter)', () => {
+    const codex = { ...heal, name: 'Codex Mastery', isPassive: true, maxLevel: 10,
+      effects: [{ stat: 'MatkWeapon', value: 3, filter: 'Book' }, { stat: 'MatkWeapon', value: 3, filter: 'Wand' }, { stat: 'Healing', value: 1 }] };
+    render(<SkillTooltip skill={codex} />);
+    expect(screen.getByText('Magic Atk +3/lvl (Book · Wand)')).toBeInTheDocument();
+    expect(screen.getByText('Healing +1/lvl')).toBeInTheDocument();
+  });
+
   it('renders nothing without a skill', () => {
     const { container } = render(<SkillTooltip skill={null} />);
     expect(container).toBeEmptyDOMElement();

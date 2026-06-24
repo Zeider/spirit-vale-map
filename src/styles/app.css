@@ -250,6 +250,8 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .item-tip b { color: #fff; }
 .tip-stat { color: #9f9; }
 .tip-stat.muted { color: var(--muted); }
+.tip-eff { color: var(--on); font-size: 11px; } /* ripped per-level skill effects */
+.sk-eff { color: var(--on); font-size: 12px; margin-top: 2px; }
 .tip-set { color: var(--hub); margin-top: 3px; }
 .tip-drop { color: #8fa; margin-top: 3px; }
 .tip-craft { color: #cdb; margin-top: 2px; }

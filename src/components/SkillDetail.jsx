@@ -1,4 +1,5 @@
 import { skillById } from '../data/classes-index.js';
+import { formatEffects } from '../logic/skill-effects.js';
 
 function scaleLine(label, v) {
   if (!v) return null;
@@ -13,6 +14,7 @@ export default function SkillDetail({ skillId }) {
     <div className="sk-detail">
       <h3>{sk.name} <span className={`sk-badge ${sk.isPassive ? 'passive' : 'active'}`}>{sk.isPassive ? 'PASSIVE' : 'SKILL'}</span> <span className="label">max {sk.maxLevel}</span></h3>
       <p className="muted">{sk.description}</p>
+      {formatEffects(sk.effects).map((line, i) => <div key={`e${i}`} className="sk-eff">{line}</div>)}
       {scaleLine('Cost', sk.cost)}
       {scaleLine('Cooldown', sk.cooldown)}
       {scaleLine('Damage', sk.damage)}
