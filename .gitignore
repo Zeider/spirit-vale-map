@@ -4,3 +4,7 @@ dist/
 .sv-scratch/
 *.local
 .DS_Store
+
+# Game-file rip — kept LOCAL only (not public): the ripper + raw rips
+scripts/rip-game-data.py
+data/raw-game/
