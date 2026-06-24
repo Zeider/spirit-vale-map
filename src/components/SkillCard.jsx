@@ -1,8 +1,10 @@
+import SkillTooltip from './SkillTooltip.jsx';
+
 export default function SkillCard({ skill, level, canInc, canDec, selected, onChange, onSelect, disabled }) {
   if (!skill) return <div className="sk-cell empty" aria-hidden="true" />;
   return (
     <div className={`sk-cell skill${level > 0 ? ' filled' : ''}${selected ? ' selected' : ''}`}>
-      <button className="sk-face" disabled={disabled} onClick={() => onSelect(skill.id)} title={skill.name}>
+      <button className="sk-face" disabled={disabled} onClick={() => onSelect(skill.id)}>
         <span className={`sk-badge ${skill.isPassive ? 'passive' : 'active'}`}>{skill.isPassive ? 'PASSIVE' : 'SKILL'}</span>
         <span className="sk-name">{skill.name}</span>
       </button>
@@ -11,6 +13,7 @@ export default function SkillCard({ skill, level, canInc, canDec, selected, onCh
         <span>{level}/{skill.maxLevel}</span>
         <button aria-label={`increase ${skill.name}`} disabled={!canInc} onClick={() => onChange(level + 1)}>+</button>
       </div>
+      <span className="tip-host"><SkillTooltip skill={skill} /></span>
     </div>
   );
 }

@@ -7,9 +7,10 @@ const skill = { id: 'heal', name: 'Heal', maxLevel: 5, isPassive: false, require
 describe('SkillCard', () => {
   it('renders name, level/max and a badge', () => {
     render(<SkillCard skill={skill} level={2} canInc canDec onChange={() => {}} onSelect={() => {}} />);
-    expect(screen.getByText('Heal')).toBeInTheDocument();
+    // scope to the visible card face — the hover tooltip repeats the name/badge
+    expect(screen.getByText('Heal', { selector: '.sk-name' })).toBeInTheDocument();
     expect(screen.getByText('2/5')).toBeInTheDocument();
-    expect(screen.getByText(/skill/i)).toBeInTheDocument();
+    expect(screen.getByText(/skill/i, { selector: '.sk-badge' })).toBeInTheDocument();
   });
   it('+ calls onChange with level+1 and is disabled when !canInc', () => {
     const onChange = vi.fn();
