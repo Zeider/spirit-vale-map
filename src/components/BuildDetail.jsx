@@ -40,7 +40,7 @@ export default function BuildDetail() {
   // when there's a route so the pathing is right there; otherwise the gear editor.
   const copy = () => dispatch({ type: 'hydrate', state: {
     build: row.build, route: row.route || [],
-    view: (row.route || []).length ? 'atlas' : 'gear', galleryBuildId: null,
+    view: (row.route || []).length ? 'atlas' : 'gear', galleryBuildId: null, editingBuildId: null,
   } });
   return (
     <div className="build-detail">

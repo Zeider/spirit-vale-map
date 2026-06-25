@@ -32,6 +32,11 @@ describe('reducer', () => {
     expect(s.route.map((e) => e.id)).toEqual(['bunny-woods-21', 'cemetery']);
     expect(s.route[1].wants).toEqual(['x']);
   });
+  it('clears editingBuildId when the build is wiped (resetBuild / selectClass)', () => {
+    const base = { ...initialState, editingBuildId: 'abc123' };
+    expect(reducer(base, { type: 'resetBuild' }).editingBuildId).toBeNull();
+    expect(reducer(base, { type: 'selectClass', slug: 'mage' }).editingBuildId).toBeNull();
+  });
   it('removes from route', () => {
     const s = reducer({ ...initialState, route: [{ id: 'a', notes: '', wants: [] }, { id: 'b', notes: '', wants: [] }] }, { type: 'removeFromRoute', id: 'a' });
     expect(s.route).toEqual([{ id: 'b', notes: '', wants: [] }]);

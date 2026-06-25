@@ -1,8 +1,10 @@
 import { describe, it, expect, vi } from 'vitest';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { StoreProvider, useStore } from '../state/store.jsx';
 
 vi.mock('../state/useAuth.js', () => ({ useAuth: () => ({ user: null, loading: false, signInWithDiscord: vi.fn(), signOut: vi.fn() }) }));
+const updateBuild = vi.fn().mockResolvedValue(undefined);
+vi.mock('../state/gallery.js', () => ({ updateBuild, createBuild: vi.fn() }));
 const { default: TopBar } = await import('./TopBar.jsx');
 
 function Probe() {
@@ -20,5 +22,19 @@ describe('TopBar', () => {
     render(<StoreProvider><TopBar /><Probe /></StoreProvider>);
     fireEvent.change(screen.getByLabelText(/filter/i), { target: { value: 'gem' } });
     expect(screen.getByTestId('lvl').textContent).toBe('1-gem');
+  });
+  it('when editing a published build: shows "Update build", relabels Publish, saves build+route in place', async () => {
+    const build = { baseClass: 'mage', advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: {} };
+    const route = [{ id: 'cemetery', notes: '', wants: [] }];
+    render(<StoreProvider init={{ view: 'gear', editingBuildId: 'bid1', build, route }}><TopBar /></StoreProvider>);
+    expect(screen.getByText('Publish as new')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /update build/i }));
+    await waitFor(() => expect(updateBuild).toHaveBeenCalledWith('bid1',
+      expect.objectContaining({ base_class: 'mage', payload: { build, route } })));
+  });
+  it('hides the Update button when not editing', () => {
+    render(<StoreProvider init={{ view: 'gear', build: { baseClass: 'mage', advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: {} } }}><TopBar /></StoreProvider>);
+    expect(screen.queryByRole('button', { name: /update build/i })).toBeNull();
+    expect(screen.getByText('Publish')).toBeInTheDocument();
   });
 });
