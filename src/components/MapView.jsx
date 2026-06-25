@@ -28,7 +28,7 @@ export default function MapView() {
         {routePoints.length > 1 && (
           <polyline className="route-line phantom"
             points={ptsStr(routePoints)}
-            fill="none" stroke="#FFD25A" strokeOpacity="0.28" strokeWidth="0.6" strokeDasharray="1.6 1.2"
+            fill="none" stroke="#FFD25A" strokeOpacity="0.5" strokeWidth="0.6" strokeDasharray="1.6 1.2"
           />
         )}
         {progressIdx >= 1 && (

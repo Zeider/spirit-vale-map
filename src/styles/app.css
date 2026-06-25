@@ -240,7 +240,7 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 
 .stat-atk { color: var(--atk) !important; }
 .route-lvl { color: var(--atk); } /* R2-10: route level ranges in the atk/matk blue */
-.route-caret { color: var(--route); font-size: 11px; } /* expand/collapse cue — site yellow */
+.route-caret { color: var(--route); font-size: 12px; } /* expand/collapse cue — site yellow */
 .stat-skill { color: #FFD359 !important; }
 .tip-sep { border-top: 1px solid #ffffff22; margin: 5px 0; }
 .tip-setname { color: #FFD359; margin-top: 4px; }
