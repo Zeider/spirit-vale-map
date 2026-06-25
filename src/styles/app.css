@@ -218,7 +218,8 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .artifact-slot .atype { width: 46px; flex: none; font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--route); }
 .artifact-slot .aset { background: none; border: 0; color: var(--text); font-weight: 600; font-size: 13px; cursor: pointer; padding: 2px 0; text-align: left; }
 .artifact-slot .aset.empty { color: var(--muted); font-weight: 400; }
-.artifact-slot .agem { margin-left: auto; background: #2a2440; border: 1px solid #4a3d6b; color: #cdb8ff; border-radius: 999px; padding: 3px 9px; font-size: 11px; cursor: pointer; }
+.artifact-slot .agem { background: #2a2440; border: 1px solid #4a3d6b; color: #cdb8ff; border-radius: 999px; padding: 3px 9px; font-size: 11px; cursor: pointer; }
+.artifact-slot .agem-wrap { margin-left: auto; } /* the wrapper takes the right-push (button is no longer the flex child) */
 .artifact-setbar { margin-top: 8px; font-size: 11px; color: var(--muted); }
 .artifact-setbar.full { color: var(--on); }
 

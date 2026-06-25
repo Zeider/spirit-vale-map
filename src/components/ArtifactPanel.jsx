@@ -2,6 +2,7 @@ import { useStore } from '../state/store.jsx';
 import { artifacts, artifactBySlug, gems, gemBySlug } from '../data/gear-index.js';
 import { effectiveArtifacts, ARTIFACT_TYPES, sortStages } from '../logic/gear.js';
 import Picker from './Picker.jsx';
+import ItemTooltip from './ItemTooltip.jsx';
 
 const TYPE_LABEL = { rune: 'Rune', jewel: 'Jewel', scroll: 'Scroll', relic: 'Relic' };
 
@@ -36,13 +37,19 @@ export default function ArtifactPanel() {
           return (
             <li key={t} className="artifact-slot">
               <span className="atype">{TYPE_LABEL[t]}</span>
-              <button className={`aset${set ? '' : ' empty'}`} aria-label={`pick ${t} set`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
-                {set ? set.name : '＋ pick set'}
-              </button>
-              {set && (
-                <button className="agem" aria-label={`pick ${t} gem`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'gem', atype: t } })}>
-                  {gem ? `💎 ${gem.name}` : '＋ gem'}
+              <span className="tip-anchor aset-wrap">
+                <button className={`aset${set ? '' : ' empty'}`} aria-label={`pick ${t} set`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'artifact', atype: t } })}>
+                  {set ? set.name : '＋ pick set'}
                 </button>
+                {set && <span className="tip-host"><ItemTooltip item={set} /></span>}
+              </span>
+              {set && (
+                <span className="tip-anchor agem-wrap">
+                  <button className="agem" aria-label={`pick ${t} gem`} disabled={ro} onClick={ro ? undefined : () => dispatch({ type: 'setPicker', picker: { kind: 'gem', atype: t } })}>
+                    {gem ? `💎 ${gem.name}` : '＋ gem'}
+                  </button>
+                  {gem && <span className="tip-host"><ItemTooltip item={gem} /></span>}
+                </span>
               )}
             </li>
           );

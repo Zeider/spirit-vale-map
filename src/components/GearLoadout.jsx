@@ -2,6 +2,7 @@ import { useStore } from '../state/store.jsx';
 import { slots, items, cards as allCards, cardByName } from '../data/gear-index.js';
 import { effectiveLoadout, effectiveCards, categoryOf, sortStages, stageRanges, loadoutRouteTargets } from '../logic/gear.js';
 import Picker from './Picker.jsx';
+import ItemTooltip from './ItemTooltip.jsx';
 
 const SLOT_LABELS = {
   weapon: 'Weapon', shield: 'Shield', headgear: 'Headgear', face: 'Face', chest: 'Chest',
@@ -44,10 +45,11 @@ export default function GearLoadout() {
           const isChanged = slot in changes;
           const from = !isChanged && item ? carriedFrom(slot) : null;
           return (
-            <div key={slot} data-testid="gear-slot" className={`gear-row${item ? ' filled' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}`}
+            <div key={slot} data-testid="gear-slot" className={`gear-row${item ? ' filled tip-anchor' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}`}
               onClick={ro ? undefined : () => { dispatch({ type: 'selectItemSlot', slot }); if (item) dispatch({ type: 'selectItem', slug: itemSlug }); }}>
               <span className="gear-row-label">{SLOT_LABELS[slot]}</span>
               <span className="gear-row-item">{item ? item.name : '—'}</span>
+              {item && <span className="tip-host"><ItemTooltip item={item} /></span>}
               {from != null && <span className="gear-row-from">from Lv {from}</span>}
               {item && item.cardSlots > 0 && (
                 <span className="card-pips" onClick={(e) => e.stopPropagation()}>

@@ -15,6 +15,31 @@ export default function ItemTooltip({ item }) {
       </div>
     );
   }
+  if (item.kind === 'gem') {
+    return (
+      <div className="item-tip">
+        <b>{item.name}</b> <span className="muted">Gem{item.affix ? ` · ${item.affix}` : ''}</span>
+        {(item.stats || []).map((s, i) => <div key={`g${i}`} className={`tip-stat${atkCls(s)}`}>{s}</div>)}
+        {item.description && <div className="tip-stat muted">{item.description}</div>}
+      </div>
+    );
+  }
+  if (item.perPiece || item.fullSet) { // artifact set
+    return (
+      <div className="item-tip">
+        <b>{item.name}</b> <span className="muted">Artifact set</span>
+        {(item.perPiece || []).map((s, i) => <div key={`p${i}`} className={`tip-stat${atkCls(s)}`}>{s}</div>)}
+        {(item.fullSet || []).length > 0 && (
+          <>
+            <div className="tip-sep" />
+            <div className="tip-setname">Full set (4):</div>
+            {item.fullSet.map((s, i) => <div key={`f${i}`} className="tip-stat stat-skill">{s}</div>)}
+          </>
+        )}
+        {item.description && <div className="tip-stat muted">{item.description}</div>}
+      </div>
+    );
+  }
   const src = item.sources && item.sources[0];
   const g = categorizeGearStats(item.statsPrimary, item.statsSecondary);
   const groups = [

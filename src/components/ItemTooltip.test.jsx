@@ -46,6 +46,22 @@ describe('ItemTooltip', () => {
     expect(secondary.className).not.toMatch(/stat-skill/);
   });
 
+  it('renders a gem tooltip with affix + stats', () => {
+    render(<ItemTooltip item={{ kind: 'gem', name: 'Ruby Gem', affix: 'Fiery', description: 'A red gem.', stats: ['+5% Atk'] }} />);
+    expect(screen.getByText(/Ruby Gem/)).toBeInTheDocument();
+    expect(screen.getByText(/Gem · Fiery/)).toBeInTheDocument();
+    expect(screen.getByText('+5% Atk')).toBeInTheDocument();
+  });
+
+  it('renders an artifact set tooltip with per-piece + full-set stats', () => {
+    render(<ItemTooltip item={{ name: 'Pioneer', description: 'A set.', perPiece: ['Atk: +5'], fullSet: ['All Stats: +1'] }} />);
+    expect(screen.getByText('Pioneer')).toBeInTheDocument();
+    expect(screen.getByText(/Artifact set/)).toBeInTheDocument();
+    expect(screen.getByText('Atk: +5')).toBeInTheDocument();
+    expect(screen.getByText(/Full set/)).toBeInTheDocument();
+    expect(screen.getByText('All Stats: +1')).toBeInTheDocument();
+  });
+
   it('shows the equipment set name', () => {
     render(<ItemTooltip item={{ name: 'Arcane Chest', type: 'Chest', cardSlots: 0, statsPrimary: [], statsSecondary: [], setBonus: [], sources: [], setName: 'Arcane' }} />);
     expect(screen.getByText(/Set: Arcane/)).toBeInTheDocument();
