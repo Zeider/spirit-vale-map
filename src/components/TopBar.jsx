@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
 import { saveShare } from '../state/shortlink.js';
-import { updateBuild } from '../state/gallery.js';
 import FeedbackModal from './FeedbackModal.jsx';
 import AuthButton from './AuthButton.jsx';
 import PublishModal from './PublishModal.jsx';
@@ -11,21 +10,8 @@ const FILTERS = ['all', 'equip', 'material', 'card', 'gem', 'consumable', 'artif
 export default function TopBar() {
   const { state, dispatch } = useStore();
   const [copied, setCopied] = useState('');
-  const [updated, setUpdated] = useState('');
   const [showFeedback, setShowFeedback] = useState(false);
-  const [showPublish, setShowPublish] = useState(false);
-  // Save the current planner (build + route) back into the published gallery entry
-  // it was loaded from — so updating a guide doesn't spawn a duplicate.
-  const update = async () => {
-    try {
-      await updateBuild(state.editingBuildId, {
-        payload: { build: state.build, route: state.route },
-        base_class: state.build.baseClass, advanced_class: state.build.advancedClass || null,
-      });
-      setUpdated('✓ Updated!');
-    } catch { setUpdated('Update failed'); }
-    setTimeout(() => setUpdated(''), 1800);
-  };
+  const [publishMode, setPublishMode] = useState(null); // null | 'create' | 'edit'
   // Save the full state (build + route + view) as a durable short link; fall back
   // to the long URL if Supabase is unreachable, then copy whichever we have.
   const share = async () => {
@@ -66,15 +52,15 @@ export default function TopBar() {
       ) : (
         <>
           <button onClick={share}>{copied || '🔗 Share build'}</button>
-          {state.editingBuildId && <button onClick={update}>{updated || '💾 Update build'}</button>}
-          <button onClick={() => setShowPublish(true)}>{state.editingBuildId ? 'Publish as new' : 'Publish'}</button>
+          {state.editingBuildId && <button onClick={() => setPublishMode('edit')}>💾 Update build</button>}
+          <button onClick={() => setPublishMode('create')}>{state.editingBuildId ? 'Publish as new' : 'Publish'}</button>
           <button onClick={() => dispatch({ type: 'resetBuild' })}>Reset</button>
         </>
       )}
       <button className="feedback-btn" onClick={() => setShowFeedback(true)}>💬 Feedback</button>
       <AuthButton />
       <FeedbackModal open={showFeedback} onClose={() => setShowFeedback(false)} />
-      <PublishModal open={showPublish} onClose={() => setShowPublish(false)} />
+      {publishMode && <PublishModal mode={publishMode} onClose={() => setPublishMode(null)} />}
     </header>
   );
 }

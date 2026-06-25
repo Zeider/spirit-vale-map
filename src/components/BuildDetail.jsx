@@ -4,6 +4,7 @@ import { getBuild, toggleLike, hasLiked } from '../state/gallery.js';
 import { useAuth } from '../state/useAuth.js';
 import { classBySlug } from '../data/classes-index.js';
 import { classColor } from '../logic/gallery-ui.js';
+import { renderMarkdown } from '../logic/markdown.js';
 import ReadOnlyBuild from './ReadOnlyBuild.jsx';
 
 export default function BuildDetail() {
@@ -36,11 +37,11 @@ export default function BuildDetail() {
       <button onClick={back}>← Back to gallery</button></div>
   );
 
-  // Load the whole guide — build AND its Atlas route/pathing. Land on the Atlas
-  // when there's a route so the pathing is right there; otherwise the gear editor.
+  // Load the whole guide — build AND its Atlas route/pathing — and land on the
+  // Atlas so the levelling route is right there.
   const copy = () => dispatch({ type: 'hydrate', state: {
     build: row.build, route: row.route || [],
-    view: (row.route || []).length ? 'atlas' : 'gear', galleryBuildId: null, editingBuildId: null,
+    view: 'atlas', galleryBuildId: null, editingBuildId: null,
   } });
   return (
     <div className="build-detail">
@@ -52,12 +53,12 @@ export default function BuildDetail() {
           {row.advanced_class ? ` · ${classBySlug[row.advanced_class]?.name || row.advanced_class}` : ''}
         </div>
         <div className="bd-tags">{[...(row.role || []), ...(row.content || [])].map((t) => <span key={t} className="gtag">{t}</span>)}</div>
-        {row.description && <p className="bd-desc">{row.description}</p>}
+        {row.description && <div className="bd-desc rich-preview" dangerouslySetInnerHTML={renderMarkdown(row.description)} />}
         <div className="bd-actions">
           <button className={`bd-like${liked ? ' on' : ''}`} aria-label="like build" onClick={like}>
             {liked ? '♥' : '♡'} {likeCount}
           </button>
-          <button className="bd-copy" onClick={copy}>⎘ Copy to my planner</button>
+          <button className="bd-copy" onClick={copy}>🗺 Open levelling route</button>
         </div>
       </div>
       <ReadOnlyBuild build={row.build} />

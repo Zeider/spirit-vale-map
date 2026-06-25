@@ -37,8 +37,8 @@ The top bar switches between four views — **Atlas**, **Build**, **Gear**, **Ga
 ### 🏛️ Gallery — discover & share builds
 - **Sign in with Discord** to publish, like, and own builds (browsing and copying need no account).
 - Browse the **Featured** shelf and the full feed; **filter** by class, role (DPS/Tank/Support/Hybrid) and content (Leveling/Endgame/Boss), **sort** by Newest or Most-liked, or **search** by name.
-- Open any build for a **read-only view** of its full skills + gear + notes. **⎘ Copy to my planner** forks it into your own editor to tweak.
-- **♥ Like** builds you rate. **My Builds** lists what you've published (edit / delete / visibility) plus a **♥ Favorites** shelf of builds you've liked.
+- Open any build for a **read-only view** of its full skills + gear + notes. **🗺 Open levelling route** forks it into your own editor (landing on the Atlas) so you can follow or tweak the pathing.
+- **♥ Like** builds you rate. **My Builds** lists what you've published — **Edit** reopens a build in the planner where **💾 Update build** lets you change its name, description (rich text), role/content tags, visibility, and saved build + route in place — plus a **♥ Favorites** shelf of builds you've liked.
 - **Publish** (from the Build or Gear tab) sets a name, description, role/content tags, and visibility — **Private**, **Unlisted** (link-only), or **Public** (listed in the gallery).
 
 ### 💬 Feedback

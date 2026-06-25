@@ -30,6 +30,7 @@ export const initialState = {
   readOnly: false,
   galleryBuildId: null,
   editingBuildId: null, // a published build loaded from My Builds, so "Update" saves in place
+  editingMeta: null, // that build's gallery metadata {name, description, role, content, visibility} for the edit modal
   shareLoading: false,
   authCallback: false,
   authError: null,
@@ -73,7 +74,7 @@ export function reducer(state, action) {
     case 'setView': return { ...state, view: action.view };
     case 'setGalleryBuild': return { ...state, view: 'builds', galleryBuildId: action.id };
     case 'selectClass':
-      return { ...state, build: { baseClass: action.slug, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null, editingBuildId: null };
+      return { ...state, build: { baseClass: action.slug, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null, editingBuildId: null, editingMeta: null };
     case 'selectAdvanced':
       return { ...state, build: { ...state.build, advancedClass: action.slug } };
     case 'setSkillLevel': {
@@ -84,7 +85,7 @@ export function reducer(state, action) {
     }
     case 'selectSkill': return { ...state, selectedSkillId: action.id };
     case 'resetBuild':
-      return { ...state, build: { ...state.build, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null, editingBuildId: null };
+      return { ...state, build: { ...state.build, advancedClass: null, levels: {}, gearStages: [], notes: '', attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 } }, selectedSkillId: null, selectedStage: 0, selectedItemSlug: null, editingBuildId: null, editingMeta: null };
     case 'addGearStage': {
       const stages = sortStages([...state.build.gearStages, { toLevel: action.toLevel, changes: {} }]);
       return { ...state, build: { ...state.build, gearStages: stages }, selectedStage: stages.findIndex((s) => s.toLevel === action.toLevel) };

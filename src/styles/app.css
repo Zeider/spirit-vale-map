@@ -1,7 +1,7 @@
 :root {
   color-scheme: dark;
   --bg: #0d1018; --panel: #11182a; --line: #243049; --text: #e6edf3; --muted: #8ea0bf;
-  --on: #7CFC9B; --over: #6b7a99; --under: #ff7c7c; --route: #FFD25A; --hub: #7CB2FC; --atk: #1bcffa;
+  --on: #7CFC9B; --over: #6b7a99; --under: #ff7c7c; --route: #FFD25A; --route-hl: #cf67f5; --hub: #7CB2FC; --atk: #1bcffa;
 }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
@@ -32,9 +32,10 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .hotspot.lvl-over { border-color: var(--over); background: rgba(107,122,153,.12); }
 .hotspot.lvl-under { border-color: var(--under); background: rgba(255,124,124,.14); }
 .hotspot.lvl-hub { border-color: var(--hub); background: rgba(124,178,252,.12); }
-.hotspot.in-route { box-shadow: 0 0 0 2px var(--route) inset; }
+.hotspot.in-route { box-shadow: 0 0 0 2px var(--route-hl) inset; }
 .hotspot.selected { border-color: #fff; box-shadow: 0 0 12px rgba(255,255,255,.5); }
-.hotspot.route-open { border-color: var(--route); box-shadow: 0 0 14px 2px var(--route); z-index: 5; } /* expanded route entry */
+.hotspot.route-open { border-color: var(--route-hl); box-shadow: 0 0 14px 2px var(--route-hl); z-index: 5; } /* expanded route entry */
+.route-line { stroke: var(--route-hl); } /* phantom + progress path; opacity/width set inline */
 /* Tiles that exist in the live game but aren't in our data snapshot yet */
 .hotspot.pending { border-style: dashed; border-color: var(--muted); opacity: .8; }
 .badge.pending { color: var(--muted); border: 1px dashed var(--muted); background: transparent; }

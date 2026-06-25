@@ -32,8 +32,8 @@ describe('BuildDetail', () => {
     renderD('b1');
     await screen.findByText('Frost Mage');
     expect(screen.getByText('aoe nuke')).toBeInTheDocument();
-    fireEvent.click(screen.getByRole('button', { name: /copy to my planner/i }));
-    await waitFor(() => expect(screen.getByTestId('view').textContent).toBe('gear'));
+    fireEvent.click(screen.getByRole('button', { name: /open levelling route/i }));
+    await waitFor(() => expect(screen.getByTestId('view').textContent).toBe('atlas'));
   });
   it('shows a not-found state for missing/private builds', async () => {
     getBuild.mockResolvedValueOnce(null);
