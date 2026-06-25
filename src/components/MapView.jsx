@@ -11,16 +11,30 @@ export default function MapView() {
     return t ? { cx: t.x + t.w / 2, cy: t.y + t.h / 2 } : null;
   };
   const routeIds = route.map((e) => e.id);
-  const routePoints = routeIds.map(center).filter(Boolean);
+  const routeEntries = route.map((e) => ({ id: e.id, tile: tileById[e.id] })).filter((e) => e.tile);
+  const routePoints = routeEntries.map((e) => center(e.id));
+
+  // The full path is a faint "phantom"; the part you've reached colours in solid —
+  // up to the open route tab AND/OR the zone matching your level, whichever is further.
+  const levelIdx = routeEntries.reduce((acc, e, i) => (e.tile.minLevel <= playerLevel ? i : acc), -1);
+  const tabIdx = openRouteId ? routeEntries.findIndex((e) => e.id === openRouteId) : -1;
+  const progressIdx = Math.max(levelIdx, tabIdx);
+  const ptsStr = (pts) => pts.map((p) => `${p.cx},${p.cy}`).join(' ');
 
   return (
     <div className="map-view">
       <img className="map-img" src={`${import.meta.env.BASE_URL}world-map.png`} alt="Spirit Vale world map" />
       <svg className="map-overlay" viewBox="0 0 100 100" preserveAspectRatio="none">
         {routePoints.length > 1 && (
-          <polyline
-            points={routePoints.map((p) => `${p.cx},${p.cy}`).join(' ')}
-            fill="none" stroke="#FFD25A" strokeWidth="0.6" strokeDasharray="1.6 1.2"
+          <polyline className="route-line phantom"
+            points={ptsStr(routePoints)}
+            fill="none" stroke="#FFD25A" strokeOpacity="0.28" strokeWidth="0.6" strokeDasharray="1.6 1.2"
+          />
+        )}
+        {progressIdx >= 1 && (
+          <polyline className="route-line progress"
+            points={ptsStr(routePoints.slice(0, progressIdx + 1))}
+            fill="none" stroke="#FFD25A" strokeWidth="0.9" strokeLinejoin="round" strokeLinecap="round"
           />
         )}
       </svg>

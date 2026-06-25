@@ -31,9 +31,9 @@ export default function RouteRail() {
               <li key={e.id} className={`route-item lvl-${classifyLevel(e.tile.minLevel, e.tile.maxLevel, state.playerLevel)}`}>
                 <div className="route-head">
                   <span className="route-pos">{i + 1}</span>
-                  <button className="link" aria-label={`expand ${e.tile.name}`}
+                  <button className="link" aria-label={`${open === e.id ? 'collapse' : 'expand'} ${e.tile.name}`}
                     onClick={() => dispatch({ type: 'setOpenRoute', id: open === e.id ? null : e.id })}>
-                    {e.tile.name} <span className="route-lvl">Lv {e.tile.minLevel}–{e.tile.maxLevel}</span>{e.wants.length ? <span className="want-count"> ·{e.wants.length}</span> : ''}
+                    <span className="route-caret" aria-hidden="true">{open === e.id ? '▾' : '▸'}</span> {e.tile.name} <span className="route-lvl">Lv {e.tile.minLevel}–{e.tile.maxLevel}</span>{e.wants.length ? <span className="want-count"> ·{e.wants.length}</span> : ''}
                   </button>
                   <span className="route-actions">
                     <button aria-label={`move ${e.tile.name} up`} disabled={i === 0} onClick={() => dispatch({ type: 'moveInRoute', index: i, dir: -1 })}>↑</button>

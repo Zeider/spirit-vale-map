@@ -19,6 +19,19 @@ describe('MapView', () => {
     fireEvent.click(btn);
     expect(btn).toHaveAttribute('aria-pressed');
   });
+  it('draws a faint full-route line + a solid progress line up to the player level', () => {
+    const route = [{ id: 'forest-field-1', notes: '', wants: [] }, { id: 'sunny-meadows-2-6', notes: '', wants: [] }, { id: 'forest-field-1-11', notes: '', wants: [] }];
+    const { container } = renderWithStore({ route, playerLevel: 8 }); // reaches Lv1-5 + Lv6-10, not Lv11-15
+    const phantom = container.querySelector('polyline.phantom');
+    const progress = container.querySelector('polyline.progress');
+    expect(phantom.getAttribute('points').trim().split(' ').length).toBe(3); // all 3 zones
+    expect(progress.getAttribute('points').trim().split(' ').length).toBe(2); // first two reached
+  });
+  it('extends the progress line to an open route tab beyond the player level', () => {
+    const route = [{ id: 'forest-field-1', notes: '', wants: [] }, { id: 'sunny-meadows-2-6', notes: '', wants: [] }, { id: 'forest-field-1-11', notes: '', wants: [] }];
+    const { container } = renderWithStore({ route, playerLevel: 1, openRouteId: 'forest-field-1-11' }); // tab on the 3rd zone
+    expect(container.querySelector('polyline.progress').getAttribute('points').trim().split(' ').length).toBe(3);
+  });
   it('highlights the open route entry tile with .route-open', () => {
     const { container } = renderWithStore({ openRouteId: 'cemetery' });
     const open = container.querySelectorAll('.hotspot.route-open');
