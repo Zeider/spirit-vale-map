@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useStore } from '../state/store.jsx';
 import { tileById } from '../data/map-tiles.js';
-import { items as gearItems } from '../data/gear-index.js';
+import { items as gearItems, artifacts, artifactBySlug } from '../data/gear-index.js';
 import { classifyLevel, computeGaps } from '../logic/levels.js';
 import { stageRanges } from '../logic/gear.js';
 import ItemTooltip from './ItemTooltip.jsx';
@@ -46,7 +46,7 @@ export default function RouteRail() {
                     <div className="label">WANT HERE</div>
                     <div className="wants">
                       {e.wants.map((w) => {
-                        const it = gearItems[w];
+                        const it = gearItems[w] || artifactBySlug[w];
                         return (
                           <span key={w} className="want-chip">
                             {it ? it.name : w}
@@ -65,11 +65,15 @@ export default function RouteRail() {
                         list: itemsForTile(e.id) from logic/gear.js. */}
                     {wantPicker === e.id && (
                       <Picker title={`Add item · ${e.tile.name}`} value={null}
-                        options={Object.values(gearItems)
-                          .filter((it) => !e.wants.includes(it.slug))
-                          .sort((a, b) => a.name.localeCompare(b.name))
-                          .map((it) => ({ key: it.slug, name: it.name, hint: it.slot,
-                            search: `${it.name} ${it.slot} ${(it.parsedStats || []).map((s) => s.label).join(' ')}` }))}
+                        options={[
+                          ...Object.values(gearItems).map((it) => ({ key: it.slug, name: it.name, hint: it.slot,
+                            search: `${it.name} ${it.slot} ${(it.parsedStats || []).map((s) => s.label).join(' ')}` })),
+                          // Relics (artifact sets) also drop at zones, so they're farmable "wants" too.
+                          ...artifacts.map((a) => ({ key: a.slug, name: a.name, hint: 'Relic',
+                            search: `${a.name} relic artifact ${[...(a.perPiece || []), ...(a.fullSet || [])].join(' ')}` })),
+                        ]
+                          .filter((o) => !e.wants.includes(o.key))
+                          .sort((a, b) => a.name.localeCompare(b.name))}
                         onPick={(slug) => { if (slug) dispatch({ type: 'addZoneWant', id: e.id, itemSlug: slug }); setWantPicker(null); }}
                         onClose={() => setWantPicker(null)} />
                     )}

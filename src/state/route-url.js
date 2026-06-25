@@ -1,5 +1,5 @@
 import { tileById } from '../data/map-tiles.js';
-import { items as gearItems } from '../data/gear-index.js';
+import { items as gearItems, artifactBySlug } from '../data/gear-index.js';
 import { pack, unpack } from './urlcodec.js';
 
 export function encodeRoute(route) {
@@ -21,5 +21,5 @@ export function decodeRoute(str) {
 export function sanitizeRoute(route) {
   return (route || [])
     .filter((e) => tileById[e.id])
-    .map((e) => ({ id: e.id, notes: typeof e.notes === 'string' ? e.notes : '', wants: (e.wants || []).filter((w) => gearItems[w]) }));
+    .map((e) => ({ id: e.id, notes: typeof e.notes === 'string' ? e.notes : '', wants: (e.wants || []).filter((w) => gearItems[w] || artifactBySlug[w]) }));
 }

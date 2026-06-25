@@ -26,4 +26,8 @@ describe('route url', () => {
     expect(out).toHaveLength(1);
     expect(out[0]).toMatchObject({ id: 'swamp', notes: 'x', wants: ['abyss-shard'] });
   });
+  it('sanitize keeps relic (artifact set) wants, not just gear', () => {
+    const out = sanitizeRoute([{ id: 'swamp', notes: '', wants: ['warglyph', 'nope'] }]);
+    expect(out[0].wants).toEqual(['warglyph']);
+  });
 });
