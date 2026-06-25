@@ -25,6 +25,7 @@ export const initialState = {
   selectedItemSlug: null,
   openSlot: null,
   openPicker: null,
+  openRouteId: null, // the expanded route entry — highlighted on the map
   gearOverlay: false,
   readOnly: false,
   galleryBuildId: null,
@@ -39,6 +40,7 @@ export function reducer(state, action) {
     case 'setLevel': return { ...state, playerLevel: action.level };
     case 'setFilter': return { ...state, dropFilter: action.filter };
     case 'select': return { ...state, selectedZoneId: action.id };
+    case 'setOpenRoute': return { ...state, openRouteId: action.id };
     case 'addToRoute': {
       const idx = state.route.findIndex((e) => e.id === action.id);
       let route;
@@ -49,7 +51,7 @@ export function reducer(state, action) {
       return { ...state, route };
     }
     case 'removeFromRoute':
-      return { ...state, route: state.route.filter((e) => e.id !== action.id) };
+      return { ...state, route: state.route.filter((e) => e.id !== action.id), openRouteId: state.openRouteId === action.id ? null : state.openRouteId };
     case 'moveInRoute': {
       const r = [...state.route];
       const j = action.index + action.dir;

@@ -11,7 +11,7 @@ import Picker from './Picker.jsx';
 
 export default function RouteRail() {
   const { state, dispatch } = useStore();
-  const [open, setOpen] = useState(null);
+  const open = state.openRouteId; // expanded entry, in the store so the map can highlight it
   const [wantPicker, setWantPicker] = useState(null); // tile id whose WANT-HERE picker is open
   const entries = state.route.map((e) => ({ ...e, tile: tileById[e.id] })).filter((e) => e.tile);
   const stageRangeList = stageRanges(state.build.gearStages ?? []);
@@ -32,7 +32,7 @@ export default function RouteRail() {
                 <div className="route-head">
                   <span className="route-pos">{i + 1}</span>
                   <button className="link" aria-label={`expand ${e.tile.name}`}
-                    onClick={() => { setOpen(open === e.id ? null : e.id); dispatch({ type: 'select', id: e.id }); }}>
+                    onClick={() => dispatch({ type: 'setOpenRoute', id: open === e.id ? null : e.id })}>
                     {e.tile.name} <span className="route-lvl">Lv {e.tile.minLevel}–{e.tile.maxLevel}</span>{e.wants.length ? <span className="want-count"> ·{e.wants.length}</span> : ''}
                   </button>
                   <span className="route-actions">

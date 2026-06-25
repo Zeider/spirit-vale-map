@@ -19,4 +19,10 @@ describe('MapView', () => {
     fireEvent.click(btn);
     expect(btn).toHaveAttribute('aria-pressed');
   });
+  it('highlights the open route entry tile with .route-open', () => {
+    const { container } = renderWithStore({ openRouteId: 'cemetery' });
+    const open = container.querySelectorAll('.hotspot.route-open');
+    expect(open.length).toBe(1);
+    expect(open[0].getAttribute('title')).toMatch(/Festering Woods 1/);
+  });
 });

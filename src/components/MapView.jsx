@@ -4,7 +4,7 @@ import { classifyLevel } from '../logic/levels.js';
 
 export default function MapView() {
   const { state, dispatch } = useStore();
-  const { playerLevel, route, selectedZoneId } = state;
+  const { playerLevel, route, selectedZoneId, openRouteId } = state;
 
   const center = (id) => {
     const t = tileById[id];
@@ -28,11 +28,12 @@ export default function MapView() {
         const cls = t.isHub ? 'hub' : classifyLevel(t.minLevel, t.maxLevel, playerLevel);
         const inRoute = routeIds.includes(t.id);
         const selected = selectedZoneId === t.id;
+        const routeOpen = openRouteId === t.id; // the expanded route entry — gold glow
         const pending = t.zoneId === null && !t.isHub;
         return (
           <button
             key={t.id}
-            className={`hotspot lvl-${cls}${inRoute ? ' in-route' : ''}${selected ? ' selected' : ''}${pending ? ' pending' : ''}`}
+            className={`hotspot lvl-${cls}${inRoute ? ' in-route' : ''}${selected ? ' selected' : ''}${routeOpen ? ' route-open' : ''}${pending ? ' pending' : ''}`}
             style={{ left: `${t.x}%`, top: `${t.y}%`, width: `${t.w}%`, height: `${t.h}%` }}
             title={t.isHub ? `${t.name} (hub)` : `${t.name} · Lv ${t.minLevel}-${t.maxLevel}${pending ? ' · drops pending' : ''}`}
             aria-label={`${t.name} ${t.isHub ? 'hub' : `level ${t.minLevel} to ${t.maxLevel}`}`}
