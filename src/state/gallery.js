@@ -1,14 +1,21 @@
 import { supabase } from './supabaseClient.js';
 import { sanitizeBuild } from './build-url.js';
+import { sanitizeRoute } from './route-url.js';
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 const genId = (n = 8) => Array.from(globalThis.crypto.getRandomValues(new Uint8Array(n)), (b) => ALPHABET[b % 62]).join('');
 
-const rowToBuild = (r) => ({ ...r, build: sanitizeBuild(r.payload) });
+// payload is either the build directly (legacy) or { build, route } (current, so a
+// guide's Atlas pathing rides along). `payload.build` present ⇒ the wrapped form.
+const rowToBuild = (r) => {
+  const p = r.payload || {};
+  const wrapped = p.build !== undefined;
+  return { ...r, build: sanitizeBuild(wrapped ? p.build : p), route: sanitizeRoute(wrapped ? p.route : []) };
+};
 
-export async function createBuild({ name, description, role, content, visibility, build }) {
+export async function createBuild({ name, description, role, content, visibility, build, route }) {
   const base = { name, description: description || null, base_class: build.baseClass, advanced_class: build.advancedClass || null,
-    role: role || [], content: content || [], visibility: visibility || 'private', payload: build };
+    role: role || [], content: content || [], visibility: visibility || 'private', payload: { build, route: route || [] } };
   for (let i = 0; i < 2; i++) {
     const id = genId();
     const { error } = await supabase.from('builds').insert({ id, ...base });

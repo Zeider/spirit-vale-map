@@ -36,7 +36,12 @@ export default function BuildDetail() {
       <button onClick={back}>← Back to gallery</button></div>
   );
 
-  const copy = () => dispatch({ type: 'hydrate', state: { build: row.build, view: 'gear', galleryBuildId: null } });
+  // Load the whole guide — build AND its Atlas route/pathing. Land on the Atlas
+  // when there's a route so the pathing is right there; otherwise the gear editor.
+  const copy = () => dispatch({ type: 'hydrate', state: {
+    build: row.build, route: row.route || [],
+    view: (row.route || []).length ? 'atlas' : 'gear', galleryBuildId: null,
+  } });
   return (
     <div className="build-detail">
       <div className="bd-head">

@@ -21,7 +21,7 @@ export default function PublishModal({ open, onClose }) {
   const submit = async () => {
     if (!name.trim()) { setErr('Name is required.'); return; }
     setBusy(true); setErr('');
-    try { await createBuild({ name: name.trim(), description: desc, role, content, visibility, build: state.build }); onClose(true); }
+    try { await createBuild({ name: name.trim(), description: desc, role, content, visibility, build: state.build, route: state.route }); onClose(true); }
     catch { setErr('Could not publish — try again.'); } finally { setBusy(false); }
   };
   return (

@@ -37,11 +37,14 @@ describe('gallery (increment 1)', () => {
     const out = await createBuild({
       name: 'My Rogue', description: 'x', role: ['DPS'], content: ['Endgame'], visibility: 'public',
       build: { baseClass: 'rogue', advancedClass: 'assassin', levels: {}, gearStages: [], attributes: {}, notes: '' },
+      route: [{ id: 'cemetery', notes: 'farm here', wants: [] }],
     });
     expect(out.id).toMatch(/^[A-Za-z0-9]{8}$/);
     const row = current.insert.mock.calls[0][0];
     expect(row).toMatchObject({ name: 'My Rogue', base_class: 'rogue', advanced_class: 'assassin', visibility: 'public', role: ['DPS'] });
-    expect(row.payload.baseClass).toBe('rogue');
+    // payload now wraps the build + its Atlas route (the guide's pathing)
+    expect(row.payload.build.baseClass).toBe('rogue');
+    expect(row.payload.route).toEqual([{ id: 'cemetery', notes: 'farm here', wants: [] }]);
   });
   it('listMyBuilds returns rows with sanitized build', async () => {
     const orderFn = vi.fn().mockResolvedValue({

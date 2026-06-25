@@ -14,7 +14,7 @@ export default function MyBuildsView() {
   useEffect(() => { if (uid) listFavorites().then(setFavorites).catch(() => setFavorites([])); }, [uid]);
   if (!user) return <p className="muted build-empty">Sign in with Discord to see your builds.</p>;
   if (builds === null) return <p className="muted build-empty">Loading…</p>;
-  const edit = (b) => { dispatch({ type: 'hydrate', state: { build: b.build, view: 'gear' } }); };
+  const edit = (b) => { dispatch({ type: 'hydrate', state: { build: b.build, route: b.route || [], view: 'gear' } }); };
   const remove = async (b) => { await deleteBuild(b.id); setBuilds((bs) => bs.filter((x) => x.id !== b.id)); };
   return (
     <div className="my-builds">
