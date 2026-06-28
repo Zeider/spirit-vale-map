@@ -1,6 +1,6 @@
 import { useStore } from '../state/store.jsx';
 import { slots, items, cards as allCards, cardByName } from '../data/gear-index.js';
-import { effectiveLoadout, effectiveCards, categoryOf, sortStages, stageRanges, loadoutRouteTargets } from '../logic/gear.js';
+import { effectiveLoadout, effectiveCards, cardCategoryOf, sortStages, stageRanges, loadoutRouteTargets } from '../logic/gear.js';
 import Picker from './Picker.jsx';
 import ItemTooltip from './ItemTooltip.jsx';
 
@@ -43,14 +43,22 @@ export default function GearLoadout() {
           const itemSlug = loadout[slot];
           const item = itemSlug ? items[itemSlug] : null;
           const isChanged = slot in changes;
+          // changes[slot] === null = deliberately emptied here (e.g. drop the shield
+          // to two-hand), distinct from a slot that was simply never filled.
+          const removed = isChanged && !item;
           const from = !isChanged && item ? carriedFrom(slot) : null;
           return (
-            <div key={slot} data-testid="gear-slot" className={`gear-row${item ? ' filled tip-anchor' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}`}
+            <div key={slot} data-testid="gear-slot" className={`gear-row${item ? ' filled tip-anchor' : ''}${isChanged ? ' changed' : item ? ' carried' : ''}${removed ? ' removed' : ''}`}
               onClick={ro ? undefined : () => { dispatch({ type: 'selectItemSlot', slot }); if (item) dispatch({ type: 'selectItem', slug: itemSlug }); }}>
               <span className="gear-row-label">{SLOT_LABELS[slot]}</span>
-              <span className="gear-row-item">{item ? item.name : '—'}</span>
+              <span className="gear-row-item">{item ? item.name : (removed ? '✕ none' : '—')}</span>
               {item && <span className="tip-host"><ItemTooltip item={item} /></span>}
               {from != null && <span className="gear-row-from">from Lv {from}</span>}
+              {!ro && item && (
+                <button className="gear-row-clear" aria-label={`clear ${SLOT_LABELS[slot]}`}
+                  title="Empty this slot for this stage (e.g. drop a shield to two-hand)"
+                  onClick={(e) => { e.stopPropagation(); dispatch({ type: 'setGearSlot', stageIndex: idx, slot, item: null }); }}>✕</button>
+              )}
               {item && item.cardSlots > 0 && (
                 <span className="card-pips" onClick={(e) => e.stopPropagation()}>
                   {Array.from({ length: item.cardSlots }, (_, n) => {
@@ -74,7 +82,7 @@ export default function GearLoadout() {
       ＋ Add all {zoneCount} zone{zoneCount === 1 ? '' : 's'} to route
     </button>}
     {op?.kind === 'card' && (() => {
-      const cat = categoryOf(op.slot);
+      const cat = cardCategoryOf(op.slot);
       const options = Object.values(allCards)
         .filter((c) => !c.equipSlot || c.equipSlot.toLowerCase() === cat)
         .map((c) => ({ key: c.name, name: c.name, hint: (c.stats || []).join(' · '), search: `${c.name} ${(c.stats || []).join(' ')}` }));

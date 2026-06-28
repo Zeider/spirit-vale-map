@@ -51,6 +51,15 @@ export function categoryOf(slot) {
   return slot.replace(/\d+$/, '');
 }
 
+// Cards are pooled by gear TYPE, and the game has no separate Face/Utility card
+// pool — those two slots share the Headgear cards. So map them to 'headgear' when
+// filtering CARDS only (categoryOf stays slot-accurate for gear items themselves).
+const CARD_SLOT_ALIASES = { face: 'headgear', utility: 'headgear' };
+export function cardCategoryOf(slot) {
+  const cat = categoryOf(slot);
+  return CARD_SLOT_ALIASES[cat] || cat;
+}
+
 export function itemsForSlot(slot) {
   const cat = categoryOf(slot);
   return Object.values(items).filter((i) => i.slot === cat).sort((a, b) => a.name.localeCompare(b.name));

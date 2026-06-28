@@ -177,6 +177,10 @@ body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); col
 .gear-row:not(.filled) .gear-row-item { color: #59627a; font-weight: 400; }
 .gear-row.changed .gear-row-item { color: var(--on); }
 .gear-row.carried { opacity: .7; }
+/* Deliberately emptied (e.g. drop a shield to two-hand) — distinct from never-filled. */
+.gear-row.removed .gear-row-item { color: var(--under); font-weight: 600; font-style: italic; }
+.gear-row-clear { margin-left: auto; flex: none; background: transparent; border: 0; color: #59627a; cursor: pointer; font-size: 12px; line-height: 1; padding: 2px 6px; border-radius: 4px; }
+.gear-row-clear:hover { color: var(--under); background: rgba(255,124,124,.14); }
 .gear-row-from { font-size: 9px; color: var(--muted); }
 .gear-row .card-pips { margin-top: 0; margin-left: auto; justify-content: flex-end; }
 .gear-picker { position: absolute; inset: 0; background: #0e1422; border: 1px solid var(--line); border-radius: 8px; padding: 8px; z-index: 5; display: flex; flex-direction: column; }

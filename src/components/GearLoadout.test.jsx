@@ -25,6 +25,20 @@ describe('GearLoadout', () => {
     expect(screen.getByText(/from Lv 1/)).toBeInTheDocument();
   });
 
+  it('clears a slot via the row ✕, emptying it for the stage', () => {
+    const init = { view: 'gear', selectedStage: 0,
+      build: { baseClass: 'rogue', advancedClass: null, levels: {}, notes: '',
+        attributes: { str: 1, agi: 1, vit: 1, int: 1, dex: 1, luk: 1 },
+        gearStages: [{ toLevel: 10, changes: { weapon: weapon.slug, chest: chest.slug } }] } };
+    render(<StoreProvider init={init}><GearLoadout /></StoreProvider>);
+    const weaponSlot = screen.getAllByTestId('gear-slot').find((e) => within(e).queryByText('Weapon', { exact: true }));
+    expect(weaponSlot.className).toMatch(/filled/);
+    fireEvent.click(within(weaponSlot).getByRole('button', { name: /clear weapon/i }));
+    const after = screen.getAllByTestId('gear-slot').find((e) => within(e).queryByText('Weapon', { exact: true }));
+    expect(after.className).toMatch(/removed/);
+    expect(within(after).getByText('✕ none')).toBeInTheDocument();
+  });
+
   it('opens a card picker from a slot pip and sockets a card', () => {
     const init = { view: 'gear', selectedStage: 0,
       build: { baseClass: 'rogue', advancedClass: null, levels: {}, notes: '',

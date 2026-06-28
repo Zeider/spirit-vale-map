@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, itemsForSlot, stageFarmTiles, itemTiles, itemFarmTiles, itemsForTile, loadoutRouteTargets } from './gear.js';
+import { sortStages, stageRanges, clampCap, effectiveLoadout, stageChangedSlots, categoryOf, cardCategoryOf, itemsForSlot, stageFarmTiles, itemTiles, itemFarmTiles, itemsForTile, loadoutRouteTargets } from './gear.js';
 import { resolveTile } from '../data/map-tiles.js';
 import { items } from '../data/gear-index.js';
 
@@ -52,6 +52,13 @@ describe('gear logic', () => {
   it('categoryOf strips the accessory slot suffix', () => {
     expect(categoryOf('accessory1')).toBe('accessory');
     expect(categoryOf('weapon')).toBe('weapon');
+  });
+  it('cardCategoryOf maps face + utility to the headgear card pool', () => {
+    expect(cardCategoryOf('face')).toBe('headgear');
+    expect(cardCategoryOf('utility')).toBe('headgear');
+    expect(cardCategoryOf('headgear')).toBe('headgear');
+    expect(cardCategoryOf('accessory1')).toBe('accessory'); // unaffected
+    expect(cardCategoryOf('weapon')).toBe('weapon');
   });
   it('itemsForSlot returns items of the slot category, sorted', () => {
     const weapons = itemsForSlot('weapon');
